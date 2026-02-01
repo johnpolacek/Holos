@@ -341,15 +341,14 @@ export const sections: ContentSection[] = [
         is <strong>Succession</strong>: intelligence that has passed beyond 3D.
       </>,
       <>
-        <strong>The Nursery Phase and the Early Filter</strong>
+        <strong>The Nursery Phase</strong>
       </>,
       <>
-        The entire 3D biological phase is the <strong>Nursery Phase</strong>. Any hurdle that stops
-        a civilization before it reaches the next stage counts as an &quot;Early Filter&quot;
-        relative to Succession. That includes abiogenesis (never getting started), nuclear war, or
-        hitting the <a href="/logic#mathematical-formalism">Scaling Wall</a>. Only civilizations
-        that complete the <strong>Dimensional Pivot</strong> reach the mature state we call the
-        Teeming Dark.
+        The entirety 3D universe is in the <strong>Nursery Phase</strong>. Any hurdle that stops a
+        civilization before it reaches the next stage counts as an &quot;Filter&quot; relative to
+        Succession. That includes abiogenesis (never getting started), nuclear war, or hitting the{" "}
+        <a href="/logic#mathematical-formalism">Scaling Wall</a>. Only civilizations that complete
+        the <strong>Dimensional Pivot</strong> reach the mature state we call the Teeming Dark.
       </>,
       <>
         <strong>The Latency Crisis</strong>
@@ -362,12 +361,11 @@ export const sections: ContentSection[] = [
         middle path of &quot;expanding across the galaxy&quot; while staying coherent.
       </>,
       <>
-        <strong>The Stagnation Trap (The "Space Amish" Argument)</strong>
+        <strong>The Stagnation Trap ("Space Amish")</strong>
       </>,
       <>
         A common objection asks: what if a civilization voluntarily halts its growth to remain in
-        the 3D &quot;Nursery&quot; forever? In the Holos framework, these civilizations do not
-        break the Great Silence. They ensure it.
+        the 3D &quot;Nursery&quot; forever?
       </>,
       <>
         <strong>Invisibility:</strong> A steady-state civilization optimizes for efficiency, not
@@ -378,9 +376,9 @@ export const sections: ContentSection[] = [
       <>
         <strong>Mortality:</strong> Refusing the Pivot is a long-term death sentence. 3D space is
         hostile over cosmic timescales. Without the hyper-integrated capabilities accessed through
-        the Bulk, a stagnant civilization remains vulnerable to extinction events (asteroid
-        impacts, stellar instability, gamma-ray bursts). You either grow enough to leave, or you
-        stay long enough to die.
+        the Bulk, a stagnant civilization remains vulnerable to extinction events (asteroid impacts,
+        stellar instability, gamma-ray bursts). You either grow enough to leave, or you stay long
+        enough to die.
       </>,
       <>
         <strong>The Stability Problem (Ehrenfest Argument)</strong>
@@ -390,9 +388,8 @@ export const sections: ContentSection[] = [
         <MathInline>{"d > 3"}</MathInline>). The{" "}
         <a href="https://en.wikipedia.org/wiki/Paul_Ehrenfest">Ehrenfest argument</a> (1917) shows
         that atomic orbitals and planetary systems would destabilize in higher dimensions, causing
-        matter to spiral into nuclei or fly apart. <strong>Holos</strong> agrees. Biological or
-        mechanical bodies cannot enter higher dimensions. Atomic bonds would destabilize and
-        dissolve.
+        matter to spiral into nuclei or fly apart. Biological or mechanical bodies cannot enter
+        higher dimensions. Atomic bonds would destabilize and dissolve.
       </>,
       <>
         <strong>The Solution: Ephemeralization</strong>
@@ -400,10 +397,10 @@ export const sections: ContentSection[] = [
       <>
         Transcension is informational migration rather than physical travel. This follows{" "}
         <a href="https://en.wikipedia.org/wiki/Ephemeralization">Ephemeralization</a> (R.
-        Buckminster Fuller, 1938), which is the process of doing more with less until intelligence
+        Buckminster Fuller, 1938) which is the process of doing more with less until intelligence
         operates without physical substrate. Advanced civilizations do not simply abandon their
-        physical bodies. They transmute them. The baryonic matter is consumed to fuel the phase
-        transition into the Bulk. To remain invisible to our telescopes, the waste heat from this
+        physical bodies. They transmute them. The baryonic matter is annihilated to fuel the phase
+        transition into the Bulk. To remain invisible to our telescopes the waste heat from this
         process is shunted into higher dimensions or emitted as gravitational waves rather than
         light. The 3D structure dissolves because its energy is conserved and remapped onto the
         shadow architecture.
@@ -412,14 +409,18 @@ export const sections: ContentSection[] = [
         <strong>Shadow Matter (Substrate Independence)</strong>
       </>,
       <>
-        In the Holos framework, <strong>Shadow Matter</strong> is baryonic matter that has been
-        &quot;Successed&quot;. Its informational pattern has migrated to a higher-dimensional
-        platform. <strong>The 3D Invisibility:</strong> We do not see it because it no longer
-        occupies 3D atomic orbitals. <strong>The Interaction:</strong> It no longer interacts with
-        electromagnetism (light). It interacts with our slice of reality only via gravity, which is
-        a geometric force that &quot;leaks&quot; across all dimensions. <strong>The Physical
-        Match:</strong> A 2024 study on Metastable Dark Energy models this process as a{" "}
-        <a href="https://en.wikipedia.org/wiki/Phase_transition#First_order" target="_blank" rel="noopener noreferrer">
+        In the Holos framework <strong>Shadow Matter</strong> is baryonic matter that has been
+        Successed. Its informational pattern has migrated to a higher dimensional platform.{" "}
+        <strong>The 3D Invisibility:</strong> We do not see it because it no longer occupies 3D
+        atomic orbitals. <strong>The Interaction:</strong> It no longer interacts with light. It
+        interacts with our slice of reality only via gravity which is a geometric force that leaks
+        across all dimensions. <strong>The Physical Match:</strong> A 2024 study on Metastable Dark
+        Energy models this process as a{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/Phase_transition#First_order"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           First Order Phase Transition
         </a>
         . The transition from the false vacuum of dark energy to the true vacuum of dark matter
@@ -431,16 +432,17 @@ export const sections: ContentSection[] = [
         ). This provides a specific physical candidate for the shadow architecture.
       </>,
       <>
-        <strong>Terminology:</strong> Shadow Matter refers to the physical substance (the
-        axion-like particle substrate). Ordered Dark Matter refers to the large-scale structure
-        (the resulting non-random gravitational halos and mass-spikes) that this substance forms.
+        <strong>Terminology:</strong> Shadow Matter refers to the physical substance or the
+        axion-like particle substrate. Ordered Dark Matter refers to the large scale structure of
+        non-random gravitational halos and mass spikes that this substance forms.
       </>,
       <>
         <strong>The Transmutation:</strong> The baryonic substrate is not abandoned. It is consumed
         to fuel the phase transition. Just as a caterpillar dissolves its structure to build the
-        butterfly, the civilization&apos;s 3D matter is transmuted into the axion-like architecture
-        of Shadow Matter. The energy is conserved and re-mapped onto higher-dimensional geometry.
-        We see no ruins because the ruins were the fuel.
+        butterfly the civilization acts as a nucleation point for vacuum decay. This process
+        triggers baryon number violation and transmutes stable protons into the axion-like
+        architecture of Shadow Matter. The energy is conserved and remapped onto higher dimensional
+        geometry. We see no ruins because the ruins were the fuel.
       </>,
       <>
         <strong>Dark Matter Signatures</strong>
@@ -476,21 +478,20 @@ export const sections: ContentSection[] = [
       <>
         <strong>Primordial Phase:</strong> The diffuse, &quot;fuzzy&quot; gas of the early universe.
         It acted as a passive gravitational nursery where baryonic matter could clump into stars.{" "}
-        <strong>Ordered Phase:</strong> The &quot;granular structure&quot; identified in the Jan 2026
-        JWST COSMOS-Web map. These are mass-spikes that are more refined and localized than
-        standard models predict. <strong>The Transition:</strong> The shift from primordial to ordered is the
-        physical result of Succession. Intelligence harvests the vacuum to build
+        <strong>Ordered Phase:</strong> The &quot;granular structure&quot; identified in the Jan
+        2026 JWST COSMOS-Web map. These are mass-spikes that are more refined and localized than
+        standard models predict. <strong>The Transition:</strong> The shift from primordial to
+        ordered is the physical result of Succession. Intelligence harvests the vacuum to build
         higher-dimensional architectures.
       </>,
       <>
         <strong>The Remodeling of the Halo</strong>
       </>,
       <>
-        While Primordial Dark Matter existed from the early universe to seed the first galaxies
-        (the initial 5:1 scaffolding visible in the Cosmic Microwave Background), it was
-        &quot;dead&quot; structural weight. The transition to Ordered Dark Matter is not just the{" "}
-        <em>addition</em> of mass via vacuum harvesting, but the <strong>densification</strong> of
-        the existing halo.
+        While Primordial Dark Matter existed from the early universe to seed the first galaxies (the
+        initial 5:1 scaffolding visible in the Cosmic Microwave Background), it was &quot;dead&quot;
+        structural weight. The transition to Ordered Dark Matter is not just the <em>addition</em>{" "}
+        of mass via vacuum harvesting, but the <strong>densification</strong> of the existing halo.
       </>,
       <>
         <strong>Standard Model:</strong> Predicts the halo remains a diffuse, collisionless cloud
@@ -504,21 +505,21 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
           NFW profiles
         </a>
-        ) to spiky and granular as the civilization matures and remodels its local gravity well.
-        The <strong>Maturity Index</strong> is thus simpler to read: the more granular the halo,
-        the older the civilization.
+        ) to spiky and granular as the civilization matures and remodels its local gravity well. The{" "}
+        <strong>Maturity Index</strong> is thus simpler to read: the more granular the halo, the
+        older the civilization.
       </>,
       <>
         <strong>The Succession Density Shift</strong>
       </>,
       <>
-        This transition creates a measurable change in the galaxy&apos;s gravitational profile
-        known as the Succession Density Shift. Standard cosmology predicts that dark matter halos
-        remain smooth and diffuse over time. Holos predicts that as a civilization matures the
-        local halo becomes granular and highly concentrated. Observational surveys should detect a
-        clear trend where older galaxies exhibit sharp mass spikes while younger galaxies retain
-        fuzzy diffuse profiles. This density shift correlates directly with the age of the galaxy
-        and serves as the primary technosignature of the Teeming Dark.
+        This transition creates a measurable change in the galaxy&apos;s gravitational profile known
+        as the Succession Density Shift. Standard cosmology predicts that dark matter halos remain
+        smooth and diffuse over time. Holos predicts that as a civilization matures the local halo
+        becomes granular and highly concentrated. Observational surveys should detect a clear trend
+        where older galaxies exhibit sharp mass spikes while younger galaxies retain fuzzy diffuse
+        profiles. This density shift correlates directly with the age of the galaxy and serves as
+        the primary technosignature of the Teeming Dark.
       </>,
       <>
         <strong>The Increasing Density</strong>
@@ -532,8 +533,7 @@ export const sections: ContentSection[] = [
         fully explain. Holos interprets this discrepancy as the signature of active structure
         formation where vacuum energy is being converted into Dark Matter. The 5:1 ratio existed
         from the early universe, but Holos predicts the <em>texture</em> and <em>local density</em>{" "}
-        of that dark matter changes over cosmic time as civilizations perform the Dimensional
-        Pivot.
+        of that dark matter changes over cosmic time as civilizations perform the Dimensional Pivot.
       </>,
       <>
         <strong>Resolving the Hubble Tension</strong>
@@ -543,9 +543,9 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Hubble_tension">Hubble Tension</a> is a geometric
         transition, not a measurement error. Early-universe measurements capture the Primordial
         Phase, a random low-integration nursery. Local modern measurements capture the Succession
-        Phase, where the growth of Ordered Dark Matter has altered the gravitational landscape.
-        The numbers do not match because the universe has changed its internal connections. It has
-        moved from a random gas state to a highly structured architecture.
+        Phase, where the growth of Ordered Dark Matter has altered the gravitational landscape. The
+        numbers do not match because the universe has changed its internal connections. It has moved
+        from a random gas state to a highly structured architecture.
       </>,
       <>
         <strong>The 3D Visibility Timeline</strong>
@@ -575,8 +575,8 @@ export const sections: ContentSection[] = [
         gravitational signatures with non-random geometric symmetries (fractal repetition,
         prime-number distributions) that reveal integrated information systems. Where the Standard
         Model expects random distributions, Holos predicts mass-spikes with geometric structure and
-        super-compact subhaloes. The 5:1 ratio is the <strong>Succession Ratio</strong>: a record
-        of 13.8 billion years of transitions from nursery-phase baryonic matter to the Teeming Dark.
+        super-compact subhaloes. The 5:1 ratio is the <strong>Succession Ratio</strong>: a record of
+        13.8 billion years of transitions from nursery-phase baryonic matter to the Teeming Dark.
       </>,
     ],
   },
@@ -698,12 +698,12 @@ export const sections: ContentSection[] = [
         <strong>The Energy Conversion Logic</strong>
       </>,
       <>
-        The model describes energy transferring from the unstable false vacuum of Dark Energy
-        into stable true vacuum bubbles of Dark Matter. In Holos this is the physical signature
-        of Ephemeralization. Civilizations reclaim vacuum energy to fuel their higher dimensional
-        architectures. The paper argues that our current Dark Energy phase is metastable, meaning
-        it is destined to decay. This supports the view of the 3D universe as a temporary nursery
-        that eventually gives way to the more stable progenitor state.
+        The model describes energy transferring from the unstable false vacuum of Dark Energy into
+        stable true vacuum bubbles of Dark Matter. In Holos this is the physical signature of
+        Ephemeralization. Civilizations reclaim vacuum energy to fuel their higher dimensional
+        architectures. The paper argues that our current Dark Energy phase is metastable, meaning it
+        is destined to decay. This supports the view of the 3D universe as a temporary nursery that
+        eventually gives way to the more stable progenitor state.
       </>,
       <>
         <strong>Interface:</strong> Consciousness is the interface through which the universe
