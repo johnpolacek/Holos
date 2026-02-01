@@ -1,3 +1,4 @@
+import { FootnoteLink } from "./citation-sections";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 
@@ -32,6 +33,7 @@ export default function Definition() {
               </a>{" "}
               parameter
             </strong>
+            <FootnoteLink number={20} />
             .
           </p>
 
@@ -139,7 +141,9 @@ export default function Definition() {
               </a>{" "}
               constraints
             </strong>{" "}
-            required to define an entity that is ontologically distinct from its environment.
+            required to define an entity that is ontologically distinct from its environment
+            <FootnoteLink number={21} />
+            .
           </p>
 
           <p className="leading-relaxed">
@@ -303,7 +307,9 @@ export default function Definition() {
               </a>
             </strong>{" "}
             of its components. This ensures that the failure of any single condition (e.g., a system
-            with high integration but zero recursion) collapses the metric to zero.
+            with high integration but zero recursion) collapses the metric to zero
+            <FootnoteLink number={22} />
+            .
           </p>
 
           <MathDisplay>
@@ -517,7 +523,9 @@ export default function Definition() {
               ontological
             </a>{" "}
             registration. This threshold enables the operational definition{" "}
-            <a href="/logic#phi-operationalization">*R = C ⊛ O*</a>.
+            <a href="/logic#phi-operationalization">*R = C ⊛ O*</a>
+            <FootnoteLink number={23} />
+            .
           </p>
 
           <p className="leading-relaxed">
@@ -561,7 +569,9 @@ export default function Definition() {
               Unitarity
             </a>
             . Holos preserves this by defining <a href="/logic#axioms">Manifestation</a> as a{" "}
-            <strong>Selection Operator</strong>, not a Destruction Operator.
+            <strong>Selection Operator</strong>, not a Destruction Operator
+            <FootnoteLink number={24} />
+            .
           </p>
 
           <ul className="flex flex-col gap-3 pl-4">

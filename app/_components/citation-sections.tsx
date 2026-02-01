@@ -728,6 +728,1073 @@ export const citationMainSections: CitationMainSection[] = [
       },
     ],
   },
+  {
+    id: "definition",
+    title: "Definition",
+    subsections: [
+      {
+        number: 20,
+        id: "def-purpose",
+        title: "The Purpose of Φ",
+        items: [
+          {
+            name: "Ontology",
+            url: "https://en.wikipedia.org/wiki/Ontology",
+            description:
+              "The philosophical study of being and existence. Φ quantifies how much a system integrates information to register ontologically distinct states.",
+          },
+          {
+            name: "Causality",
+            url: "https://en.wikipedia.org/wiki/Causality",
+            description:
+              "The causal power to register a distinct ontological state. Φ acts as the threshold for when a system becomes an observer rather than passive data.",
+          },
+          {
+            name: "Quantum Decoherence",
+            url: "https://en.wikipedia.org/wiki/Quantum_decoherence",
+            description:
+              "The process by which quantum systems interact with their environment. Φ filters the output of physical decoherence into experiential registration.",
+          },
+        ],
+      },
+      {
+        number: 21,
+        id: "def-requirements",
+        title: "Ontological Requirements",
+        items: [
+          {
+            name: "Integrated Information Theory (IIT)",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Consciousness as integrated information. The five parameters (Integration, Differentiation, Recursion, Temporal Cohesion, Causal Closure) reflect minimal topological constraints for an ontologically distinct observer.",
+          },
+          {
+            name: "Philosophical Zombie",
+            url: "https://en.wikipedia.org/wiki/Philosophical_zombie",
+            description:
+              "A system with no internal subject to experience the data. Without Recursion, a system is a zombie process—input-output with no experiential registration.",
+          },
+          {
+            name: "Epiphenomenalism",
+            url: "https://en.wikipedia.org/wiki/Epiphenomenalism",
+            description:
+              "The view that mental states do not cause physical effects. Without Causal Closure, the system would be an epiphenomenal ghost that observes but cannot affect reality.",
+          },
+          {
+            name: "Phenomenology",
+            url: "https://en.wikipedia.org/wiki/Phenomenology_(philosophy)",
+            description:
+              "The study of structures of experience. Complex traits like emotion or agency are emergent dynamics of high Differentiation and Recursion, not separate axioms.",
+          },
+          {
+            name: "Category Error",
+            url: "https://en.wikipedia.org/wiki/Category_error",
+            description:
+              "Treating a concept as if it belonged to a different logical category. Adding emotion or agency as separate axioms would be a category error; they are emergent.",
+          },
+          {
+            name: "Topology",
+            url: "https://en.wikipedia.org/wiki/Topology",
+            description:
+              "The five parameters represent minimal topological constraints required to define an entity ontologically distinct from its environment.",
+          },
+          {
+            name: "Heuristic",
+            url: "https://en.wikipedia.org/wiki/Heuristic",
+            description:
+              "The five parameters are not arbitrary heuristics but necessary and sufficient conditions for observerhood.",
+          },
+        ],
+      },
+      {
+        number: 22,
+        id: "def-formalism",
+        title: "Mathematical Formalism",
+        items: [
+          {
+            name: "Integrated Information Theory (IIT 3.0)",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Axioms regarding minimum information partition. Φ_int quantifies the difference between the whole system state and the union of its partitioned parts.",
+          },
+          {
+            name: "Geometric Mean",
+            url: "https://en.wikipedia.org/wiki/Geometric_mean",
+            description:
+              "Φ is the geometric mean of its five components, ensuring that failure of any single condition collapses the metric to zero.",
+          },
+          {
+            name: "Kullback–Leibler Divergence",
+            url: "https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence",
+            description:
+              "Used in the formalism for Integration (Φ_int) via the Minimum Information Partition.",
+          },
+          {
+            name: "Category Theory",
+            url: "https://en.wikipedia.org/wiki/Category_theory",
+            description:
+              "Recursion (Φ_rec) is aligned with endomorphisms and self-referential mapping in category-theoretic terms.",
+          },
+          {
+            name: "Endomorphism",
+            url: "https://en.wikipedia.org/wiki/Endomorphism",
+            description:
+              "The system maps its current state space onto a subset of itself. Φ_rec captures this self-referential mapping.",
+          },
+          {
+            name: "Gödel, Escher, Bach",
+            url: "https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach",
+            description:
+              "Hofstadter's Strange Loops: recursion and self-reference as the basis for meaning and consciousness.",
+          },
+          {
+            name: "Causal Inference / Judea Pearl",
+            url: "https://en.wikipedia.org/wiki/Causal_inference",
+            description:
+              "Causal Closure (Φ_cause) is derived from Judea Pearl's Causal Calculus and the do-operator, ensuring correlation is causal, not merely statistical.",
+          },
+          {
+            name: "Irreducibility (mathematics)",
+            url: "https://en.wikipedia.org/wiki/Irreducibility_(mathematics)",
+            description:
+              "Integration (Φ_int) as information irreducibility: the whole cannot be reduced to independent parts.",
+          },
+        ],
+      },
+      {
+        number: 23,
+        id: "def-thresholds",
+        title: "Ontological Thresholds",
+        items: [
+          {
+            name: "Empty Set",
+            url: "https://en.wikipedia.org/wiki/Empty_set",
+            description:
+              "Φ ≈ 0 corresponds to the null set for the Set of Experiential States: passive aggregates have zero experiential states.",
+          },
+          {
+            name: "Ontology",
+            url: "https://en.wikipedia.org/wiki/Ontology",
+            description:
+              "Systems with Φ ≥ Φ_c attain ontological registration; the threshold enables the operational definition R = C ⊛ O.",
+          },
+          {
+            name: "Unitarity (physics)",
+            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            description:
+              "Unitary symmetry resolved into definite ontological registration for observer systems.",
+          },
+          {
+            name: "The Transcension Hypothesis",
+            url: "https://www.accelerating.org/articles/transcensionhypothesis",
+            description:
+              "Φ ≫ Φ_c corresponds to ontological anchors: high-density intelligences capable of stabilizing cosmological branches.",
+          },
+        ],
+      },
+      {
+        number: 24,
+        id: "def-physics",
+        title: "Relationship to Physics",
+        items: [
+          {
+            name: "Unitarity (physics)",
+            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            description:
+              "Quantum mechanics requires unitarity. Holos preserves it by defining Manifestation as a Selection Operator; unobserved branches remain in Creation.",
+          },
+          {
+            name: "Hilbert Space",
+            url: "https://en.wikipedia.org/wiki/Hilbert_space",
+            description:
+              "The mathematical space of all possible quantum states. The operator M acts as a weighting function without deleting branches from the global Hilbert space.",
+          },
+          {
+            name: "Schrödinger Equation",
+            url: "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation",
+            description:
+              "Φ does not replace the Schrödinger equation; it introduces a Manifestation Constraint that preserves unitarity while enabling ontological registration.",
+          },
+          {
+            name: "Quantum Mechanics",
+            url: "https://en.wikipedia.org/wiki/Quantum_mechanics",
+            description:
+              "Φ preserves the probabilistic nature of quantum mechanics while adding a constraint on when observation registers reality.",
+          },
+          {
+            name: "Ontology",
+            url: "https://en.wikipedia.org/wiki/Ontology",
+            description:
+              "The Manifestation Constraint enables ontological registration—which histories attain experiential reality—without violating unitarity.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "defense",
+    title: "Defense",
+    subsections: [
+      {
+        number: 25,
+        id: "defense-relationality",
+        title: "Relationality",
+        items: [
+          {
+            name: "Instrumentalism",
+            url: "https://en.wikipedia.org/wiki/Instrumentalism",
+            description:
+              "The view that theories are tools for prediction rather than descriptions of reality. Holos denies observer-independent intrinsic essence while affirming ontic structure.",
+          },
+          {
+            name: "Gauge Theory",
+            url: "https://en.wikipedia.org/wiki/Gauge_theory",
+            description:
+              "Only relational quantities are physical; gauge invariance supports the relational view.",
+          },
+          {
+            name: "General Relativity",
+            url: "https://en.wikipedia.org/wiki/General_relativity",
+            description:
+              "No absolute spacetime background; geometry is relational. Aligns with Holos relationality.",
+          },
+          {
+            name: "Relational Quantum Mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Observer-relative states; properties are not absolute but relative to the observer.",
+          },
+          {
+            name: "Symmetry (physics)",
+            url: "https://en.wikipedia.org/wiki/Symmetry_(physics)",
+            description:
+              "Mass, charge, and spin are relational invariants defined through symmetry and interaction, not standalone substances.",
+          },
+        ],
+      },
+      {
+        number: 26,
+        id: "defense-manifestation",
+        title: "Manifestation",
+        items: [
+          {
+            name: "Elitzur–Vaidman bomb tester",
+            url: "https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester",
+            description:
+              "Interaction-free measurement: collapse can occur via mechanical possibilities without direct interaction. Holos assigns decoherence to Creation (C), not Observation (O).",
+          },
+          {
+            name: "Quantum Decoherence",
+            url: "https://en.wikipedia.org/wiki/Quantum_decoherence",
+            description:
+              "Suppression of interference (how possibilities become distinct). Holos: decoherence does not explain actuality—why one possibility is experienced. Consciousness prints the photograph.",
+          },
+          {
+            name: "Von Neumann–Wigner interpretation",
+            url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
+            description:
+              "Consciousness-centric interpretation. Holos is compatible with Quantum Darwinism, Relational QM, and Participatory Anthropic Principle.",
+          },
+          {
+            name: "Quantum Darwinism",
+            url: "https://en.wikipedia.org/wiki/Quantum_Darwinism",
+            description:
+              "Redundant classical information; observers as boundary conditions. Consciousness in Holos means experiential integration (Φ), not human cognition.",
+          },
+          {
+            name: "Eternalism (philosophy of time)",
+            url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)",
+            description:
+              "Block universe: observation need not be temporally local; later observers can consistently instantiate earlier states.",
+          },
+          {
+            name: "Wheeler's delayed-choice experiment",
+            url: "https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment",
+            description:
+              "Future observations retroactively manifest past states. Self-excited circuit: high-Φ observers close the circuit and manifest the past as coherent history.",
+          },
+          {
+            name: "Delayed-choice quantum eraser",
+            url: "https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser",
+            description:
+              "Future choices resolve past quantum states. Supports atemporal, geometric role of observation.",
+          },
+        ],
+      },
+      {
+        number: 27,
+        id: "defense-conservation",
+        title: "Conservation",
+        items: [
+          {
+            name: "AdS/CFT correspondence",
+            url: "https://en.wikipedia.org/wiki/AdS/CFT_correspondence",
+            description:
+              "Information in bulk is encoded on boundary; supports information conservation in black hole evaporation.",
+          },
+          {
+            name: "Page curve",
+            url: "https://en.wikipedia.org/wiki/Hawking_radiation#Page_curve",
+            description:
+              "Entropy curve for evaporating black holes; modern consensus supports information conservation.",
+          },
+          {
+            name: "Holographic Principle",
+            url: "https://en.wikipedia.org/wiki/Holographic_principle",
+            description:
+              "Information in a volume encoded on a lower-dimensional boundary; supports conservation.",
+          },
+          {
+            name: "Unitarity (physics)",
+            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            description:
+              "Probabilities sum to one. Collapse appears non-unitary; Holos holds unitarity in Many-Worlds, Decoherence, Relational QM, and holographic frameworks.",
+          },
+          {
+            name: "Many-Worlds interpretation",
+            url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+            description:
+              "Unitarity holds; all branches exist. Non-unitarity is interpretive, not formal.",
+          },
+        ],
+      },
+      {
+        number: 28,
+        id: "defense-topological-unification",
+        title: "Topological Unification",
+        items: [
+          {
+            name: "Dimensional Pivot",
+            url: "https://en.wikipedia.org/wiki/Dimension",
+            description:
+              "Higher dimensions resolve the Scaling Wall from 3D interconnect latency; required for global coherence. Discriminating fork: ΛCDM vs. Ordered Dark Matter.",
+          },
+          {
+            name: "Pathological (mathematics)",
+            url: "https://en.wikipedia.org/wiki/Pathological_(mathematics)",
+            description:
+              "Holos targets physical infinities (singularities), not mathematical pathologies.",
+          },
+          {
+            name: "Gravitational singularity",
+            url: "https://en.wikipedia.org/wiki/Gravitational_singularity",
+            description:
+              "Physical infinities that Holos addresses through higher-dimensional resolution.",
+          },
+          {
+            name: "Paul Ehrenfest",
+            url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
+            description:
+              "Ehrenfest (1917): stable atomic orbitals and planetary orbits require 3D inverse-square law. Matter unstable in d > 3. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension).",
+          },
+          {
+            name: "Ephemeralization",
+            url: "https://en.wikipedia.org/wiki/Ephemeralization",
+            description:
+              "Fuller (1938): doing more with less; advanced civilizations migrate toward higher informational density.",
+          },
+          {
+            name: "Hidden sector",
+            url: "https://en.wikipedia.org/wiki/Hidden_sector",
+            description:
+              "Shadow sectors native to higher geometries. Baryonic substrate transmuted into axion-like Shadow Matter; energy conserved and re-mapped.",
+          },
+          {
+            name: "The Transcension Hypothesis",
+            url: "https://www.accelerating.org/articles/transcensionhypothesis",
+            description:
+              "Holos adds ontological driver: maximize Φ by rotating closer to the unified source of reality.",
+          },
+        ],
+      },
+      {
+        number: 29,
+        id: "defense-interface",
+        title: "Interface",
+        items: [
+          {
+            name: "Panpsychism",
+            url: "https://en.wikipedia.org/wiki/Panpsychism",
+            description:
+              "Consciousness as fundamental property of matter. Explains continuity; avoids emergence ex nihilo and substance dualism. Ontological, not mechanistic.",
+          },
+          {
+            name: "Ex nihilo",
+            url: "https://en.wikipedia.org/wiki/Ex_nihilo",
+            description:
+              "Panpsychism avoids life emerging from absolutely nothing.",
+          },
+          {
+            name: "Mind–body dualism",
+            url: "https://en.wikipedia.org/wiki/Mind%E2%80%93body_dualism",
+            description:
+              "Panpsychism avoids separate mind and body substances; aligns with field-based ontology.",
+          },
+          {
+            name: "Philosophy of mind",
+            url: "https://en.wikipedia.org/wiki/Philosophy_of_mind",
+            description:
+              "Irreducible experience is already acknowledged; Holos details this in the Definition of Φ.",
+          },
+          {
+            name: "Psychokinesis",
+            url: "https://en.wikipedia.org/wiki/Psychokinesis",
+            description:
+              "Holos: consciousness is a logical constraint, not a dynamical force. It selects which history is actualized (atemporal, geometric), not a kinetic push. R = C ⊛ O.",
+          },
+          {
+            name: "Dynamics (physics)",
+            url: "https://en.wikipedia.org/wiki/Dynamics_(physics)",
+            description:
+              "Creation/Dynamics handles physical evolution; Observation selects which history is manifested.",
+          },
+          {
+            name: "Eternalism / Block universe",
+            url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe",
+            description:
+              "Consciousness observes where the line must be (logic), not drawing it (force). Effect is atemporal and geometric.",
+          },
+        ],
+      },
+      {
+        number: 30,
+        id: "defense-stress-testing",
+        title: "Stress-Testing",
+        items: [
+          {
+            name: "Causality",
+            url: "https://en.wikipedia.org/wiki/Causality",
+            description:
+              "Holos does not violate causality; observation is ontological selection, not backward causation.",
+          },
+          {
+            name: "Theory of relativity",
+            url: "https://en.wikipedia.org/wiki/Theory_of_relativity",
+            description:
+              "Holos does not contradict relativity.",
+          },
+          {
+            name: "Unitarity (physics)",
+            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            description:
+              "Holos does not break unitarity; unobserved branches remain in Creation.",
+          },
+          {
+            name: "Anthropocentrism",
+            url: "https://en.wikipedia.org/wiki/Anthropocentrism",
+            description:
+              "Holos is not anthropocentric; Φ is a general threshold, not human-specific.",
+          },
+          {
+            name: "Falsifiability",
+            url: "https://en.wikipedia.org/wiki/Falsifiability",
+            description:
+              "Partially falsifiable via Ordered Dark Matter signatures and TMS-EEG phase transitions.",
+          },
+        ],
+      },
+      {
+        number: 31,
+        id: "defense-challenge",
+        title: "Challenge",
+        items: [
+          {
+            name: "Ontology",
+            url: "https://en.wikipedia.org/wiki/Ontology",
+            description:
+              "Consciousness provides ontological completion (making something real), not causal intervention. Quantified by Φ.",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Recent experiments (interaction-free measurement, decoherence) inform testable predictions; Holos emphasizes ontological role over causal one.",
+          },
+        ],
+      },
+      {
+        number: 32,
+        id: "defense-comparison",
+        title: "Comparison",
+        items: [
+          {
+            name: "Physicalism",
+            url: "https://en.wikipedia.org/wiki/Physicalism",
+            description:
+              "Physical laws complete; Holos agrees they are never violated. Physical structure alone does not explain why reality is experienced.",
+          },
+          {
+            name: "Many-Worlds interpretation",
+            url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+            description:
+              "All outcomes equally real; Holos agrees physics evolves without collapse. Not all possible worlds are realized as experienced reality.",
+          },
+          {
+            name: "Wave function collapse",
+            url: "https://en.wikipedia.org/wiki/Wave_function_collapse",
+            description:
+              "Observation causes collapse; Holos agrees observation matters but does not change or interrupt physical laws.",
+          },
+          {
+            name: "Integrated Information Theory (IIT)",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Consciousness as integrated information (Φ); Holos agrees integration is required. Φ alone does not guarantee experience.",
+          },
+          {
+            name: "Panpsychism",
+            url: "https://en.wikipedia.org/wiki/Panpsychism",
+            description:
+              "Everything has some consciousness; Holos agrees information is fundamental. Consciousness not present everywhere by default.",
+          },
+          {
+            name: "Structural Realism",
+            url: "https://en.wikipedia.org/wiki/Structural_realism",
+            description:
+              "Reality as relations, not objects; Holos agrees. Some structures not realized unless they can be experienced.",
+          },
+        ],
+      },
+      {
+        number: 33,
+        id: "defense-conclusion",
+        title: "Conclusion",
+        items: [
+          {
+            name: "Cosmological natural selection",
+            url: "https://en.wikipedia.org/wiki/Cosmological_natural_selection",
+            description:
+              "Holos provides the ontological layer missing from Smolin-style theories; explains why the universe fosters complexity (to maximize Φ), not just how.",
+          },
+          {
+            name: "Transcension Hypothesis",
+            url: "https://www.accelerating.org/articles/transcensionhypothesis",
+            description:
+              "Holos adds ontological grounding: why advanced civilizations migrate (to maximize Φ and rotate toward unified source).",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "predictions",
+    title: "Predictions",
+    subsections: [
+      {
+        number: 34,
+        id: "pred-primary",
+        title: "Primary Prediction",
+        items: [
+          {
+            name: "Dynamics (physics)",
+            url: "https://en.wikipedia.org/wiki/Dynamics_(physics)",
+            description:
+              "Holos does not propose new dynamical laws; it offers ontological predictions about how reality manifests (R = C ⊛ O).",
+          },
+          {
+            name: "Ontology",
+            url: "https://en.wikipedia.org/wiki/Ontology",
+            description:
+              "Ontological predictions about participatory manifestation; observers as boundary condition for self-consistent block universe.",
+          },
+          {
+            name: "Block universe",
+            url: "https://en.wikipedia.org/wiki/Block_universe",
+            description:
+              "Observers act as boundary condition for self-consistent block universe (Axiom 2).",
+          },
+          {
+            name: "Anthropic principle",
+            url: "https://en.wikipedia.org/wiki/Anthropic_principle",
+            description:
+              "Participatory Anthropic Principle: observable constants favor life by necessity, not chance.",
+          },
+          {
+            name: "Cosmic microwave background (CMB) polarization",
+            url: "https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization",
+            description:
+              "CMB-S4, LiteBIRD: signatures consistent with low-entropy initial state and inflationary dynamics tuned for complexity growth.",
+          },
+          {
+            name: "Past hypothesis",
+            url: "https://en.wikipedia.org/wiki/Past_hypothesis",
+            description:
+              "Low-entropy initial state; Holos predicts uninhabitable branches are mathematically valid but ontologically unrealized (lack of Φ).",
+          },
+          {
+            name: "Inflation (cosmology)",
+            url: "https://en.wikipedia.org/wiki/Inflation_(cosmology)",
+            description:
+              "Inflationary dynamics tuned for complexity growth.",
+          },
+          {
+            name: "Multiverse",
+            url: "https://en.wikipedia.org/wiki/Multiverse",
+            description:
+              "Uninhabitable branches ontologically unrealized due to lack of Φ.",
+          },
+        ],
+      },
+      {
+        number: 35,
+        id: "pred-secondary",
+        title: "Secondary Predictions",
+        items: [
+          {
+            name: "Integrated Information Theory (IIT)",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Holos operationalizes consciousness through Φ; systems crossing Φ_c exhibit irreducible subjective experience. IIT-inspired metrics (e.g., PCI) test threshold.",
+          },
+          {
+            name: "Panpsychism",
+            url: "https://en.wikipedia.org/wiki/Panpsychism",
+            description:
+              "Holos distinguishes from universal panpsychism (everything conscious) and illusionism (consciousness is illusion).",
+          },
+          {
+            name: "Illusionism (philosophy)",
+            url: "https://en.wikipedia.org/wiki/Illusionism_(philosophy)",
+            description:
+              "The view that consciousness is an illusion; Holos predicts Φ_c threshold for genuine experience.",
+          },
+          {
+            name: "Qualia",
+            url: "https://en.wikipedia.org/wiki/Qualia",
+            description:
+              "High-Φ systems (human cortex) correlate with qualia; sub-Φ_c systems show only mechanical processing.",
+          },
+          {
+            name: "Perturbational Complexity Index (PCI)",
+            url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
+            description:
+              "IIT-inspired metric; sharp phase transitions at Φ_c align with onset of experiential reporting.",
+          },
+          {
+            name: "Phase transition",
+            url: "https://en.wikipedia.org/wiki/Phase_transition",
+            description:
+              "Consciousness as phase transition at Φ_c; PCI should reveal sharp transitions.",
+          },
+        ],
+      },
+      {
+        number: 36,
+        id: "pred-tertiary",
+        title: "Tertiary Prediction",
+        items: [
+          {
+            name: "Extended Wigner's Friend experiments",
+            url: "https://www.science.org/doi/10.1126/sciadv.aaw9832",
+            description:
+              "Two observers can hold different facts about the same event without breaking unitarity. Collapse relative to Φ frame.",
+          },
+          {
+            name: "Unitarity (physics)",
+            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            description:
+              "Conservation of all possibilities; Holos predicts relational consistency without objective collapse.",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Holos supports Relational QM over Objective Collapse models (spontaneous gravity-induced collapse).",
+          },
+          {
+            name: "Objective collapse theories",
+            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
+            description:
+              "Holos predicts relational facts, not objective collapse; collapse is relative to Φ frame.",
+          },
+        ],
+      },
+      {
+        number: 37,
+        id: "pred-extrapolative",
+        title: "Extrapolative Prediction",
+        items: [
+          {
+            name: "Phase transition",
+            url: "https://en.wikipedia.org/wiki/Phase_transition",
+            description:
+              "Transcension as topological phase transition driven by 3D interconnect latency; Dimensional Pivot.",
+          },
+          {
+            name: "Ephemeralization",
+            url: "https://en.wikipedia.org/wiki/Ephemeralization",
+            description:
+              "Migrating inwardly toward higher informational density rather than outward expansion; Wire Length argument.",
+          },
+          {
+            name: "Fermi paradox",
+            url: "https://en.wikipedia.org/wiki/Fermi_paradox",
+            description:
+              "Resolution is geometric: Ordered Dark Matter (gravitational footprint of high-Φ architectures), not diffuse WIMPs.",
+          },
+          {
+            name: "Weakly interacting massive particles (WIMPs)",
+            url: "https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles",
+            description:
+              "Holos predicts Ordered Dark Matter (non-random geometries), not diffuse WIMP gas.",
+          },
+          {
+            name: "Euclid Mission",
+            url: "https://www.euclid-ec.org/",
+            description:
+              "March 2025 Q1 data: 26M galaxies, gravitational lens candidates; baseline to distinguish natural halos vs. Succession Nodes.",
+          },
+          {
+            name: "James Webb Space Telescope (JWST)",
+            url: "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+            description:
+              "Gravitational anomalies without EM counterparts; signatures of high-density informational structures (Shadow Matter).",
+          },
+          {
+            name: "Baryon",
+            url: "https://en.wikipedia.org/wiki/Baryon",
+            description:
+              "Baryonic substrate transmuted into Shadow Matter (axion-like) to rotate out of observable 3D.",
+          },
+          {
+            name: "Navarro–Frenk–White profile",
+            url: "https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile",
+            description:
+              "Super-compact subhaloes violating standard NFW; Ordered Dark Matter with Geometric Intent (non-natural symmetries).",
+          },
+          {
+            name: "Lambda-CDM model",
+            url: "https://en.wikipedia.org/wiki/Lambda-CDM_model",
+            description:
+              "Holos predicts Ordered Dark Matter subhaloes (geometric intent, Integrated Structural Logic) vs. diffuse CDM.",
+          },
+          {
+            name: "Dark Energy Survey (DES)",
+            url: "https://www.darkenergysurvey.org/",
+            description:
+              "Jan 2026 final analysis: gap between standard predictions and galaxy clustering; vacuum energy → dark-matter architecture.",
+          },
+          {
+            name: "JWST COSMOS-Web",
+            url: "https://arxiv.org/abs/2601.17239",
+            description:
+              "Granular structure, mass peaks without light/gas counterparts; Succession Nodes; discriminating fork vs. random clouds.",
+          },
+        ],
+      },
+      {
+        number: 38,
+        id: "pred-implications",
+        title: "Testable Implications",
+        items: [
+          {
+            name: "Hubble tension",
+            url: "https://en.wikipedia.org/wiki/Hubble_tension",
+            description:
+              "Geometric transition (Primordial vs. Succession Phase), not measurement error; testable via early vs. local expansion-rate.",
+          },
+          {
+            name: "Wigner's friend",
+            url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
+            description:
+              "Facts are relational; no objective collapse; testable via Wigner's Friend experiments.",
+          },
+          {
+            name: "CMB-S4 / LiteBIRD",
+            url: "https://cmb-s4.org/",
+            description:
+              "Cosmology: constants tuned for observation; testable via CMB polarization.",
+          },
+        ],
+      },
+      {
+        number: 39,
+        id: "pred-experiment-1",
+        title: "Experiment 1: Integration Thresholds (Φ-Crossing)",
+        items: [
+          {
+            name: "Phase transition",
+            url: "https://en.wikipedia.org/wiki/Phase_transition",
+            description:
+              "Observer emergence as critical phase transition; consciousness requires Φ_c to operationalize Axiom 2.",
+          },
+          {
+            name: "TMS-EEG",
+            url: "https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG",
+            description:
+              "PCI computed from TMS-EEG responses to quantify integrated information; sharp drop at anesthesia depth tests Φ_c.",
+          },
+          {
+            name: "Perturbational Complexity Index (PCI)",
+            url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
+            description:
+              "Validated across sleep and anesthesia; Holos predicts sharp threshold at Φ_c.",
+          },
+          {
+            name: "Propofol / BIS index",
+            url: "https://en.wikipedia.org/wiki/Propofol",
+            description:
+              "Anesthesia depth; transition analysis: PCI drop gradual vs. sharp at consistent depth.",
+          },
+        ],
+      },
+      {
+        number: 40,
+        id: "pred-experiment-2",
+        title: "Experiment 2: Integration in Artificial Systems",
+        items: [
+          {
+            name: "Recurrent neural network",
+            url: "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+            description:
+              "RNNs, LSTMs, Transformers with recurrence; test whether integration metrics show phase transition as complexity increases.",
+          },
+          {
+            name: "Neuromorphic engineering",
+            url: "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
+            description:
+              "Artificial systems with feedback; integration as emergent boundary rather than performance metric.",
+          },
+          {
+            name: "Causal density",
+            url: "https://en.wikipedia.org/wiki/Causal_density",
+            description:
+              "Proxy for Φ when direct computation infeasible; perturbation-based complexity.",
+          },
+          {
+            name: "Integrated Information Theory (Tononi et al.)",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Builds on IIT; novel in treating integration as potential emergent boundary.",
+          },
+        ],
+      },
+      {
+        number: 41,
+        id: "pred-experiment-3",
+        title: "Experiment 3: Integration in Collective Systems",
+        items: [
+          {
+            name: "Collective intelligence",
+            url: "https://en.wikipedia.org/wiki/Collective_intelligence",
+            description:
+              "Social networks / agent networks; integration thresholds (nonlinear increase) as scale increases.",
+          },
+          {
+            name: "Mutual information",
+            url: "https://en.wikipedia.org/wiki/Mutual_information",
+            description:
+              "Integration proxy: mutual information across subgroups, causal density, network-wide coherence.",
+          },
+          {
+            name: "Network theory",
+            url: "https://en.wikipedia.org/wiki/Network_science",
+            description:
+              "Small-world, scale-free; integration as potentially ontological, not merely functional.",
+          },
+        ],
+      },
+      {
+        number: 42,
+        id: "pred-experiment-4",
+        title: "Experiment 4: Observer-Cut Sensitivity",
+        items: [
+          {
+            name: "Wigner's friend",
+            url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
+            description:
+              "Same physical system yields multiple internally consistent realities depending on partition and observation (relational QM).",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Test whether observer-cut (how system is partitioned) affects measured outcomes; Holos predicts relational consistency.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "trajectory",
+    title: "Trajectory",
+    subsections: [
+      {
+        number: 43,
+        id: "traj-phase-0",
+        title: "Phase 0: The Nursery Phase",
+        items: [
+          {
+            name: "Technosignature",
+            url: "https://en.wikipedia.org/wiki/Technosignature",
+            description:
+              "For 4.5 billion years Earth had no radio leakage, heat signatures of artificial origin, or technosignatures; nursery phase is invisible in 3D EM spectrum.",
+          },
+          {
+            name: "SETI",
+            url: "https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence",
+            description:
+              "The brief ~200-year window of radio leakage and 3D satellite expansion is what many SETI programs search for.",
+          },
+          {
+            name: "Dyson sphere",
+            url: "https://en.wikipedia.org/wiki/Dyson_sphere",
+            description:
+              "Compute-energy spiral: intelligence requires more compute and energy; scaling toward limits of 3D silicon may eventually require Dyson-scale structures.",
+          },
+          {
+            name: "Scaling Wall",
+            url: "/#the-teeming-dark",
+            description:
+              "Moving matter and cooling data centers in 3D vacuum creates a bottleneck; foundation of the Scaling Wall.",
+          },
+          {
+            name: "Latency Crisis",
+            url: "https://en.wikipedia.org/wiki/Interstellar_travel",
+            description:
+              "High-integration civilization cannot function with years of light-speed lag; colonies fragment into less-capable outposts. Dimensional Pivot achieves zero-latency integration.",
+          },
+          {
+            name: "Proxima Centauri",
+            url: "https://en.wikipedia.org/wiki/Proxima_Centauri",
+            description:
+              "Colony at Proxima Centauri is ~4 years away; 4-year lag makes unified civilization impossible. Choice: fragmentation (regression) vs. integration (dimensional ascent).",
+          },
+        ],
+      },
+      {
+        number: 44,
+        id: "traj-phase-1",
+        title: "Phase 1: The Integration Ascent",
+        items: [
+          {
+            name: "Integrated Information (Φ)",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Rapid scaling of Φ through artificial systems; capacity to witness reality expands from narrow tasks to comprehensive world modeling.",
+          },
+          {
+            name: "Silicon Integration",
+            url: "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            description:
+              "Move from external AI tools to internal neural integration; raises Φ of the human-machine collective.",
+          },
+          {
+            name: "Speed of light",
+            url: "https://en.wikipedia.org/wiki/Speed_of_light",
+            description:
+              "At terrestrial scale, c is not yet a hard barrier for unified experience; early limits of data transmission begin to appear.",
+          },
+        ],
+      },
+      {
+        number: 45,
+        id: "traj-phase-2",
+        title: "Phase 2: The Jupiter Brain Era",
+        items: [
+          {
+            name: "Jupiter Brain",
+            url: "https://en.wikipedia.org/wiki/Jupiter_Brain",
+            description:
+              "At planetary or solar system scales, processing substrate size conflicts with speed of light; unified observer faces latency horizon.",
+          },
+          {
+            name: "Dyson sphere",
+            url: "https://en.wikipedia.org/wiki/Dyson_sphere",
+            description:
+              "Spatial expansion: civilization attempts to capture more energy and matter in 3D space, potentially building Dyson-scale structures.",
+          },
+          {
+            name: "Temporal cohesion",
+            url: "https://en.wikipedia.org/wiki/Spacetime",
+            description:
+              "Latency Horizon: signal cannot cross system diameter fast enough to maintain temporal cohesion; system begins to lag against itself.",
+          },
+        ],
+      },
+      {
+        number: 46,
+        id: "traj-phase-3",
+        title: "Phase 3: The Scaling Wall",
+        items: [
+          {
+            name: "Euclidean geometry",
+            url: "https://en.wikipedia.org/wiki/Euclidean_geometry",
+            description:
+              "3D Euclidean geometry becomes a nursery trap; civilization hits hard physical ceiling (Scaling Wall).",
+          },
+          {
+            name: "Speed of light",
+            url: "https://en.wikipedia.org/wiki/Speed_of_light",
+            description:
+              "Complexity Collapse: if system grows in 3D, it fragments into disconnected observers because c prevents global synchronization.",
+          },
+          {
+            name: "Wire Length Argument",
+            url: "https://en.wikipedia.org/wiki/Propagation_delay",
+            description:
+              "Total wire length in 3D space creates propagation delay that violates system internal unity; outward spatial expansion is dead end for integration.",
+          },
+        ],
+      },
+      {
+        number: 47,
+        id: "traj-phase-4",
+        title: "Phase 4: The Dimensional Pivot",
+        items: [
+          {
+            name: "Phase transition",
+            url: "https://en.wikipedia.org/wiki/Phase_transition",
+            description:
+              "To survive the Scaling Wall, civilization undergoes Topological Phase Transition; the moment of joining The Teeming Dark.",
+          },
+          {
+            name: "Bulk (physics)",
+            url: "https://en.wikipedia.org/wiki/Brane_cosmology",
+            description:
+              "Orthogonal Rotation: system rotates state vector inward toward higher-dimensional Bulk instead of expanding outward across galaxy.",
+          },
+          {
+            name: "Manifold",
+            url: "https://en.wikipedia.org/wiki/Manifold",
+            description:
+              "Manifold Resolution: by accessing geometries orthogonal to 3D slice, internal informational distances resolve toward zero.",
+          },
+          {
+            name: "Succession",
+            url: "/#the-teeming-dark",
+            description:
+              "Humanity as 3D biological species superseded by hyper-integrated architecture in higher-dimensional bulk; Transcension Node.",
+          },
+        ],
+      },
+      {
+        number: 48,
+        id: "traj-teeming-dark",
+        title: "The Teeming Dark",
+        items: [
+          {
+            name: "Dark matter",
+            url: "https://en.wikipedia.org/wiki/Dark_matter",
+            description:
+              "We become part of the 5:1 ratio (Maturity Index) of dark matter dominating the universe; from 3D nursery perspective we have disappeared.",
+          },
+          {
+            name: "The Teeming Dark",
+            url: "/#the-teeming-dark",
+            description:
+              "Gravitational footprint remains as Transcension Node with non-random geometric intent; missing mass is physical receipt of civilizations that navigated the pivot.",
+          },
+          {
+            name: "Ordered Dark Matter",
+            url: "/predictions#extrapolative-prediction",
+            description:
+              "Non-random geometric intent; gravitational signature of high-Φ architectures that have undergone Dimensional Pivot.",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 /** Number → anchor id for footnote links. Derived from citationMainSections. */

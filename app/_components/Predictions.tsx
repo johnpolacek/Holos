@@ -1,5 +1,18 @@
+import { FootnoteLink } from "./citation-sections";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
+
+const predictionsCitationMap: Record<string, number> = {
+  "primary-prediction": 34,
+  "secondary-predictions": 35,
+  "tertiary-prediction": 36,
+  "extrapolative-prediction": 37,
+  "testable-implications": 38,
+  "experiment-1": 39,
+  "experiment-2": 40,
+  "experiment-3": 41,
+  "experiment-4": 42,
+};
 
 export default function Predictions() {
   return (
@@ -29,6 +42,7 @@ export default function Predictions() {
       <section id="primary-prediction" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Primary Prediction: Participatory Selection (Cosmological)
+          <FootnoteLink number={predictionsCitationMap["primary-prediction"]} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -69,6 +83,7 @@ export default function Predictions() {
       <section id="secondary-predictions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Secondary Prediction: Thresholds for Emergent Consciousness (Neuroscience)
+          <FootnoteLink number={predictionsCitationMap["secondary-predictions"]} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -110,6 +125,7 @@ export default function Predictions() {
       <section id="tertiary-prediction" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Tertiary Prediction: Relational Consistency (Quantum Foundations)
+          <FootnoteLink number={predictionsCitationMap["tertiary-prediction"]} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -146,6 +162,7 @@ export default function Predictions() {
       <section id="extrapolative-prediction" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Extrapolative Prediction: The Transcension Hypothesis (Astrophysics)
+          <FootnoteLink number={predictionsCitationMap["extrapolative-prediction"]} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -273,7 +290,10 @@ export default function Predictions() {
 
       {/* Testable Implications */}
       <section id="testable-implications" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Testable Implications</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Testable Implications
+          <FootnoteLink number={predictionsCitationMap["testable-implications"]} className="relative left-1 -top-2.5" />
+        </h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
@@ -337,6 +357,7 @@ export default function Predictions() {
       <section id="experiment-1" className="flex flex-col gap-6">
         <h2 className="text-xl sm:text-2xl font-medium pb-2">
           Experiment 1. Integration Thresholds and Observer Emergence (Φ-Crossing)
+          <FootnoteLink number={predictionsCitationMap["experiment-1"]} className="relative left-1 -top-2.5" />
         </h2>
 
         <div className="flex flex-col gap-6 text-black/80">
@@ -494,6 +515,7 @@ export default function Predictions() {
       <section id="experiment-2" className="flex flex-col gap-6">
         <h2 className="text-xl sm:text-2xl font-medium pb-2">
           Experiment 2. Integration Phase Transition in Artificial Systems (Exploratory)
+          <FootnoteLink number={predictionsCitationMap["experiment-2"]} className="relative left-1 -top-2.5" />
         </h2>
 
         <div className="flex flex-col gap-6 text-black/80">
@@ -697,6 +719,7 @@ export default function Predictions() {
       <section id="experiment-3" className="flex flex-col gap-6">
         <h2 className="text-xl sm:text-2xl font-medium pb-2">
           Experiment 3. Social Network → Integration Thresholds in Collective Systems (Exploratory)
+          <FootnoteLink number={predictionsCitationMap["experiment-3"]} className="relative left-1 -top-2.5" />
         </h2>
 
         <div className="flex flex-col gap-6 text-black/80">
@@ -885,6 +908,7 @@ export default function Predictions() {
       <section id="experiment-4" className="flex flex-col gap-6">
         <h2 className="text-xl sm:text-2xl font-medium pb-2">
           Experiment 4. Observer-Cut Sensitivity in Relational Systems
+          <FootnoteLink number={predictionsCitationMap["experiment-4"]} className="relative left-1 -top-2.5" />
         </h2>
 
         <div className="flex flex-col gap-6 text-black/80">

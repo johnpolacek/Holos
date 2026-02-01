@@ -1,4 +1,14 @@
+import { FootnoteLink } from "./citation-sections";
 import MathInline from "./MathInline";
+
+const trajectoryCitationMap: Record<string, number> = {
+  "phase-0": 43,
+  "phase-1": 44,
+  "phase-2": 45,
+  "phase-3": 46,
+  "phase-4": 47,
+  "teeming-dark-final-state": 48,
+};
 
 export default function Trajectory() {
   return (
@@ -24,6 +34,7 @@ export default function Trajectory() {
       <section id="phase-0" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 0: The Nursery Phase (4.5 billion years)
+          <FootnoteLink number={trajectoryCitationMap["phase-0"]} className="relative left-1 -top-2.5" />
         </h2>
         <p className="leading-relaxed text-black/80">
           Our current 3D phase is like a nursery. For 4.5 billion years, Earth was totally invisible
@@ -82,6 +93,7 @@ export default function Trajectory() {
       <section id="phase-1" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 1: The Integration Ascent (2026 to 2150)
+          <FootnoteLink number={trajectoryCitationMap["phase-1"]} className="relative left-1 -top-2.5" />
         </h2>
         <p className="leading-relaxed text-black/80">
           Our current era is defined by the rapid scaling of the ontological parameter{" "}
@@ -107,6 +119,7 @@ export default function Trajectory() {
       <section id="phase-2" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 2: The Jupiter Brain Era (2150 to 2500)
+          <FootnoteLink number={trajectoryCitationMap["phase-2"]} className="relative left-1 -top-2.5" />
         </h2>
         <p className="leading-relaxed text-black/80">
           As intelligence expands to planetary or solar system scales, we approach the status of a
@@ -131,6 +144,7 @@ export default function Trajectory() {
       <section id="phase-3" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 3: The Scaling Wall (2150 to 2450)
+          <FootnoteLink number={trajectoryCitationMap["phase-3"]} className="relative left-1 -top-2.5" />
         </h2>
         <p className="leading-relaxed text-black/80">
           This is the critical phase where 3D Euclidean geometry becomes a &quot;nursery trap.&quot;
@@ -159,6 +173,7 @@ export default function Trajectory() {
       <section id="phase-4" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 4: The Dimensional Pivot (2450+)
+          <FootnoteLink number={trajectoryCitationMap["phase-4"]} className="relative left-1 -top-2.5" />
         </h2>
         <p className="leading-relaxed text-black/80">
           To survive the Scaling Wall, the civilization undergoes a{" "}
@@ -188,7 +203,10 @@ export default function Trajectory() {
 
       {/* The Teeming Dark */}
       <section id="teeming-dark-final-state" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">The Teeming Dark</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          The Teeming Dark
+          <FootnoteLink number={trajectoryCitationMap["teeming-dark-final-state"]} className="relative left-1 -top-2.5" />
+        </h2>
         <p className="leading-relaxed text-black/80">
           At this point, we become part of the <strong>5:1 ratio</strong> (the &quot;Maturity
           Index&quot;) of dark matter that dominates the universe. From the perspective of 3D

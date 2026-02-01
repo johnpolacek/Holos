@@ -1,5 +1,6 @@
 import { AlertTriangle, Check, X } from "lucide-react";
 import { Fragment, type ReactNode } from "react";
+import { FootnoteLink } from "./citation-sections";
 import MathInline from "./MathInline";
 
 interface Objection {
@@ -466,6 +467,14 @@ const crossAxiomCheck = [
   },
 ];
 
+const defenseCitationMap: Record<string, number> = {
+  "axiom-1": 25,
+  "axiom-2": 26,
+  "axiom-3": 27,
+  "axiom-4": 28,
+  "axiom-5": 29,
+};
+
 const comparativeFrameworks = [
   {
     framework: "Standard Physicalism",
@@ -532,7 +541,10 @@ export default function Defense() {
         const sectionId = axiom.id.toLowerCase().replace(/\s+/g, "-");
         return (
           <section key={axiom.id} id={sectionId} className="flex flex-col gap-6">
-            <h2 className="text-2xl sm:text-3xl font-light pb-2">{axiom.name}</h2>
+            <h2 className="text-2xl sm:text-3xl font-light pb-2">
+              {axiom.name}
+              <FootnoteLink number={defenseCitationMap[sectionId]} className="relative left-1 -top-2.5" />
+            </h2>
             <p className="text-black/80 italic pb-2">
               <strong>Claim:</strong>{" "}
               {axiom.name === "Relationality"
@@ -592,7 +604,10 @@ export default function Defense() {
 
       {/* Failure Modes / Stress-Testing */}
       <section id="failure-modes-stress-testing" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Failure Modes / Stress-Testing</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Failure Modes / Stress-Testing
+          <FootnoteLink number={30} className="relative left-1 -top-2.5" />
+        </h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
@@ -665,7 +680,10 @@ export default function Defense() {
 
       {/* Primary Unresolved Challenge */}
       <section id="primary-unresolved-challenge" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Primary Unresolved Challenge</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Primary Unresolved Challenge
+          <FootnoteLink number={31} className="relative left-1 -top-2.5" />
+        </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="font-semibold text-black/90">The Explanatory Gap:</p>
           <blockquote className="pl-4 border-l-2 border-black/30 italic text-black/70">
@@ -691,6 +709,7 @@ export default function Defense() {
       <section id="positioning-holos" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Positioning Holos Among Competing Interpretations
+          <FootnoteLink number={32} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
@@ -752,7 +771,10 @@ export default function Defense() {
 
       {/* Conclusion */}
       <section id="conclusion" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Conclusion</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Conclusion
+          <FootnoteLink number={33} className="relative left-1 -top-2.5" />
+        </h2>
         <div className="flex flex-col gap-3 text-black/80">
           <ul className="list-disc list-inside flex flex-col gap-2 pl-2">
             <li>Holos is internally consistent</li>
