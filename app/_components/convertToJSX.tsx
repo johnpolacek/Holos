@@ -1,4 +1,5 @@
 import React from "react";
+import { citationAnchorMap } from "./citation-sections";
 import MathInline from "./MathInline";
 
 /**
@@ -179,22 +180,6 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
   return elements.length === 1 ? elements[0] : elements;
 }
 
-// Map footnote numbers to their footer IDs
 function getFooterIdForNumber(num: number): string {
-  const footerMap: Record<number, string> = {
-    1: "footer-life",
-    2: "footer-consciousness",
-    3: "footer-universe",
-    4: "footer-spacetime",
-    5: "footer-dimensions",
-    6: "footer-infinity",
-    7: "footer-blackholes",
-    8: "footer-aliens",
-    9: "footer-simulation",
-    10: "footer-god",
-    11: "footer-why",
-    12: "footer-axioms",
-    13: "footer-predictions",
-  };
-  return footerMap[num] || "footer-why";
+  return citationAnchorMap[num] ?? "footer-why";
 }

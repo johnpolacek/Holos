@@ -58,7 +58,7 @@ export default function Predictions() {
             branches of the <a href="https://en.wikipedia.org/wiki/Multiverse">multiverse</a> are
             mathematically valid but ontologically unrealized due to the lack of{" "}
             <a href="/definition">Φ</a>.
-            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="/citations#logic-core">
               <sup>13</sup>
             </a>
           </p>
@@ -99,7 +99,7 @@ export default function Predictions() {
             ) should reveal sharp{" "}
             <a href="https://en.wikipedia.org/wiki/Phase_transition">phase transitions</a> that
             align with the onset of experiential reporting.
-            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="/citations#logic-core">
               <sup>13</sup>
             </a>
           </p>
@@ -135,7 +135,7 @@ export default function Predictions() {
               </a>
             </strong>{" "}
             (which predict spontaneous gravity-induced collapse).
-            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="/citations#logic-core">
               <sup>13</sup>
             </a>
           </p>
@@ -235,7 +235,7 @@ export default function Predictions() {
             computational network rather than an entropic cloud (the{" "}
             <strong>Gravitational Footprint of Informational Integration</strong>,{" "}
             <a href="/logic#axioms">Axiom 4: Topological Unification</a>).
-            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="/citations#logic-core">
               <sup>13</sup>
             </a>
           </p>
