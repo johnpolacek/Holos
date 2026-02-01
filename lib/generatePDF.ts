@@ -171,6 +171,8 @@ async function preparePageContent(page: any) {
     textNodes.forEach(textNode => {
       const parent = textNode.parentElement;
       if (!parent) return;
+      // Don't wrap inside SVG — SVG text must not contain HTML; use font on the <text> element instead
+      if (parent.closest('svg')) return;
       
       const text = textNode.textContent || '';
       const parts = text.split(/(⊛|→)/);

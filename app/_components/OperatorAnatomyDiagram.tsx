@@ -42,7 +42,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
           markerEnd="url(#arrowhead)"
         />
 
-        {/* Core Equation - R = C ⊛ O */}
+        {/* Core Equation - R = C ⊛ O — Times New Roman so ⊛ renders in PDF */}
         <g transform="translate(320, 200)">
           <text
             x="0"
@@ -51,7 +51,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
             dominantBaseline="middle"
             fill="rgba(20,20,30,1)"
             fontSize="24"
-            fontFamily="serif"
+            fontFamily="'Times New Roman', Times, serif"
             fontWeight="bold"
           >
             R = C ⊛ O
@@ -123,7 +123,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
             textAnchor="middle"
             fill="rgba(30,30,30,0.85)"
             fontSize="13"
-            fontFamily="sans-serif"
+            fontFamily="'Times New Roman', Times, serif"
             fontWeight="bold"
           >
             ⊛ (The Operator)
