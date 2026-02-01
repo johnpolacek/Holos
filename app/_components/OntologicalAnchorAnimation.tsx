@@ -4,7 +4,9 @@ interface OntologicalAnchorAnimationProps {
   isPDF?: boolean;
 }
 
-export default function OntologicalAnchorAnimation({ isPDF = false }: OntologicalAnchorAnimationProps) {
+export default function OntologicalAnchorAnimation({
+  isPDF = false,
+}: OntologicalAnchorAnimationProps) {
   if (isPDF) {
     return (
       <div
@@ -27,17 +29,17 @@ export default function OntologicalAnchorAnimation({ isPDF = false }: Ontologica
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Unobserved states</p>
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>(dashed, disconnected)</p>
           </div>
-          <div style={{ textAlign: "center", fontSize: "2em" }}>
-            Φ →
-          </div>
+          <div style={{ textAlign: "center", fontSize: "2em" }}>Φ →</div>
           <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
             <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Manifested Reality</p>
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Observed states</p>
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>(solid, connected)</p>
           </div>
         </div>
-        <div style={{ textAlign: "center", marginTop: "1em", fontStyle: "italic", fontSize: "0.85em" }}>
-          Consciousness collapses possibility into reality.
+        <div
+          style={{ textAlign: "center", marginTop: "1em", fontStyle: "italic", fontSize: "0.85em" }}
+        >
+          Consciousness is the mechanism by which possibility is selected into experienced reality.
         </div>
       </div>
     );
@@ -108,15 +110,90 @@ export default function OntologicalAnchorAnimation({ isPDF = false }: Ontologica
         </text>
 
         {/* Dashed, disconnected shapes */}
-        <circle cx="80" cy="120" r="14" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <circle cx="180" cy="100" r="12" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <circle cx="120" cy="180" r="10" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <circle cx="200" cy="170" r="11" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <rect x="60" y="200" width="18" height="18" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <rect x="150" y="220" width="16" height="16" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <rect x="100" y="240" width="14" height="14" fill="none" stroke="rgba(120, 120, 120, 0.5)" strokeWidth="1.5" strokeDasharray="4 3" />
-        <line x1="95" y1="135" x2="110" y2="165" stroke="rgba(120, 120, 120, 0.4)" strokeWidth="1" strokeDasharray="3 3" />
-        <line x1="165" y1="115" x2="185" y2="155" stroke="rgba(120, 120, 120, 0.4)" strokeWidth="1" strokeDasharray="3 3" />
+        <circle
+          cx="80"
+          cy="120"
+          r="14"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <circle
+          cx="180"
+          cy="100"
+          r="12"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <circle
+          cx="120"
+          cy="180"
+          r="10"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <circle
+          cx="200"
+          cy="170"
+          r="11"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <rect
+          x="60"
+          y="200"
+          width="18"
+          height="18"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <rect
+          x="150"
+          y="220"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <rect
+          x="100"
+          y="240"
+          width="14"
+          height="14"
+          fill="none"
+          stroke="rgba(120, 120, 120, 0.5)"
+          strokeWidth="1.5"
+          strokeDasharray="4 3"
+        />
+        <line
+          x1="95"
+          y1="135"
+          x2="110"
+          y2="165"
+          stroke="rgba(120, 120, 120, 0.4)"
+          strokeWidth="1"
+          strokeDasharray="3 3"
+        />
+        <line
+          x1="165"
+          y1="115"
+          x2="185"
+          y2="155"
+          stroke="rgba(120, 120, 120, 0.4)"
+          strokeWidth="1"
+          strokeDasharray="3 3"
+        />
 
         {/* CENTER: Φ Symbol as the anchor */}
         <text
@@ -180,23 +257,131 @@ export default function OntologicalAnchorAnimation({ isPDF = false }: Ontologica
         </text>
 
         {/* Solid, connected shapes */}
-        <circle cx="360" cy="120" r="14" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
-        <circle cx="460" cy="100" r="12" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
-        <circle cx="400" cy="180" r="10" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
-        <circle cx="480" cy="170" r="11" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
-        <rect x="340" y="200" width="18" height="18" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
-        <rect x="430" y="220" width="16" height="16" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
-        <rect x="380" y="240" width="14" height="14" fill="none" stroke="rgba(30, 30, 30, 0.9)" strokeWidth="2" />
+        <circle
+          cx="360"
+          cy="120"
+          r="14"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
+        <circle
+          cx="460"
+          cy="100"
+          r="12"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
+        <circle
+          cx="400"
+          cy="180"
+          r="10"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
+        <circle
+          cx="480"
+          cy="170"
+          r="11"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
+        <rect
+          x="340"
+          y="200"
+          width="18"
+          height="18"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
+        <rect
+          x="430"
+          y="220"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
+        <rect
+          x="380"
+          y="240"
+          width="14"
+          height="14"
+          fill="none"
+          stroke="rgba(30, 30, 30, 0.9)"
+          strokeWidth="2"
+        />
 
         {/* Connection lines forming coherent structure */}
-        <line x1="374" y1="120" x2="448" y2="100" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="367" y1="132" x2="393" y2="172" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="460" y1="112" x2="475" y2="159" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="410" y1="180" x2="469" y2="170" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="400" y1="190" x2="387" y2="240" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="358" y1="209" x2="380" y2="240" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="394" y1="247" x2="430" y2="228" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
-        <line x1="446" y1="228" x2="480" y2="181" stroke="rgba(50, 50, 50, 0.6)" strokeWidth="1.5" />
+        <line
+          x1="374"
+          y1="120"
+          x2="448"
+          y2="100"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="367"
+          y1="132"
+          x2="393"
+          y2="172"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="460"
+          y1="112"
+          x2="475"
+          y2="159"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="410"
+          y1="180"
+          x2="469"
+          y2="170"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="400"
+          y1="190"
+          x2="387"
+          y2="240"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="358"
+          y1="209"
+          x2="380"
+          y2="240"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="394"
+          y1="247"
+          x2="430"
+          y2="228"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
+        <line
+          x1="446"
+          y1="228"
+          x2="480"
+          y2="181"
+          stroke="rgba(50, 50, 50, 0.6)"
+          strokeWidth="1.5"
+        />
 
         {/* Bottom caption */}
         <text
@@ -208,7 +393,7 @@ export default function OntologicalAnchorAnimation({ isPDF = false }: Ontologica
           fontFamily="serif"
           fontStyle="italic"
         >
-          Consciousness collapses possibility into reality.
+          Consciousness is the mechanism by which possibility is selected into experienced reality.
         </text>
 
         {/* Arrow marker */}

@@ -67,6 +67,12 @@ export default function PDFDocument() {
           h1, h2, h3, h4 {
             text-wrap: balance;
           }
+          /* Citation number links in headings: keep superscript small in PDF */
+          h1 sup, h2 sup, h3 sup, h4 sup {
+            font-size: 0.4em;
+            vertical-align: super;
+            line-height: 0;
+          }
           h1 {
             font-size: 2.5em;
             font-weight: 300;
@@ -253,6 +259,36 @@ export default function PDFDocument() {
           }
           .toc-subsections .toc-page-num {
             font-size: 0.9em;
+          }
+          /* Tighter vertical spacing for Definition section in PDF */
+          #definition h1 {
+            margin-top: 0.4em;
+            margin-bottom: 0.2em;
+          }
+          #definition h2 {
+            margin-top: 0.5em;
+            margin-bottom: 0.2em;
+          }
+          #definition h3,
+          #definition h4 {
+            margin-top: 0.4em;
+            margin-bottom: 0.2em;
+          }
+          #definition p {
+            margin-bottom: 0.4em;
+          }
+          #definition blockquote {
+            margin: 0.4em 0;
+          }
+          #definition ul,
+          #definition ol {
+            margin-bottom: 0.4em;
+          }
+          #definition li {
+            margin-bottom: 0.2em;
+          }
+          #definition .math-display {
+            margin: 0.6em 0;
           }
         `}</style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
