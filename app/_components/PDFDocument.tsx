@@ -1,10 +1,11 @@
+import { sections } from "../../lib/navigation";
+import Citations from "./Citations";
 import Content from "./Content";
 import Defense from "./Defense";
 import Definition from "./Definition";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
 import Trajectory from "./Trajectory";
-import { sections } from "../../lib/navigation";
 
 export default function PDFDocument() {
   return (
@@ -111,7 +112,7 @@ export default function PDFDocument() {
           .flex-col {
             flex-direction: column;
           }
-          /* Footnotes: sup + ul side by side */
+          /* Citations: sup + ul side by side */
           .flex:not(.flex-col) > sup {
             flex-shrink: 0;
             align-self: flex-start;
@@ -356,6 +357,11 @@ export default function PDFDocument() {
 
         <div id="trajectory" className="section-break">
           <Trajectory />
+        </div>
+
+        <div id="citations" className="section-break">
+          <h1>Citations</h1>
+          <Citations />
         </div>
       </body>
     </html>

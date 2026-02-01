@@ -83,8 +83,24 @@ export const trajectorySubsections: Subsection[] = [
 export const sections: Section[] = [
   { id: "overview", title: "Overview", path: "/", subsections: theorySubsections },
   { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
-  { id: "definition", title: "Definition", path: "/definition", subsections: definitionSubsections },
+  {
+    id: "definition",
+    title: "Definition",
+    path: "/definition",
+    subsections: definitionSubsections,
+  },
   { id: "defense", title: "Defense", path: "/defense", subsections: defenseSubsections },
-  { id: "predictions", title: "Predictions", path: "/predictions", subsections: predictionsSubsections },
-  { id: "trajectory", title: "Trajectory", path: "/trajectory", subsections: trajectorySubsections },
+  {
+    id: "predictions",
+    title: "Predictions",
+    path: "/predictions",
+    subsections: predictionsSubsections,
+  },
+  {
+    id: "trajectory",
+    title: "Trajectory",
+    path: "/trajectory",
+    subsections: trajectorySubsections,
+  },
+  { id: "citations", title: "Citations", path: "/citations", subsections: [] },
 ];

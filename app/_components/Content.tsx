@@ -3,7 +3,6 @@ import AxiomDiagram from "./AxiomDiagram";
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
-import Footnotes from "./Footnotes";
 import HolographicSingularityAnimation from "./HolographicSingularityAnimation";
 import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
@@ -99,10 +98,6 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "holos" && <OperatorAnatomyDiagram isPDF={isPDF} />}
         </Section>
       ))}
-
-      <Section id="footnotes" title="Footnotes">
-        <Footnotes />
-      </Section>
     </>
   );
 }

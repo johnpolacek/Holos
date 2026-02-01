@@ -4,11 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
-  theorySubsections,
-  logicSubsections,
   defenseSubsections,
   definitionSubsections,
+  logicSubsections,
   predictionsSubsections,
+  theorySubsections,
   trajectorySubsections,
 } from "../../lib/navigation";
 
@@ -23,6 +23,7 @@ export default function Sidebar() {
   const isDefinitionPage = pathname === "/definition";
   const isTrajectoryPage = pathname === "/trajectory";
   const isPredictionsPage = pathname === "/predictions";
+  const isCitationsPage = pathname === "/citations";
 
   // If we're not on the theory page, prepend "/" to hash links to navigate to theory page first
   const getLink = (hash: string) => {
@@ -211,6 +212,14 @@ export default function Sidebar() {
                 ))}
               </div>
             )}
+            <li className="mt-2">
+              <Link
+                className={`text-lg font-medium ${isCitationsPage ? "opacity-100" : "opacity-60"}`}
+                href="/citations"
+              >
+                Citations
+              </Link>
+            </li>
           </ol>
           <div className="w-full flex justify-center pb-8 px-8 xl:px-4 mb-2">
             <button
