@@ -154,7 +154,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
             <strong>The Switch:</strong> We were listening for the wrong signal
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Dark Matter:</strong> The gravitational footprint of transcended civilizations
+            <strong>Ordered Dark Matter:</strong> The gravitational signature of post-baryonic systems that have achieved high informational integration.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             The silence is not empty. It is the Teeming Dark.

@@ -1622,7 +1622,7 @@ export const citationMainSections: CitationMainSection[] = [
       {
         number: 43,
         id: "traj-phase-0",
-        title: "Phase 0: The Nursery Phase",
+        title: "Phase 0: The Silent Time",
         items: [
           {
             name: "Technosignature",
@@ -1630,6 +1630,13 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "For 4.5 billion years Earth had no radio leakage, heat signatures of artificial origin, or technosignatures; nursery phase is invisible in 3D EM spectrum.",
           },
+        ],
+      },
+      {
+        number: 44,
+        id: "traj-phase-1",
+        title: "Phase 1: The Flash",
+        items: [
           {
             name: "SETI",
             url: "https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence",
@@ -1663,9 +1670,9 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 44,
-        id: "traj-phase-1",
-        title: "Phase 1: The Integration Ascent",
+        number: 45,
+        id: "traj-phase-2",
+        title: "Phase 2: The Integration Ascent",
         items: [
           {
             name: "Integrated Information (Φ)",
@@ -1688,9 +1695,9 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 45,
-        id: "traj-phase-2",
-        title: "Phase 2: The Jupiter Brain Era",
+        number: 46,
+        id: "traj-phase-3",
+        title: "Phase 3: The Jupiter Brain Era",
         items: [
           {
             name: "Jupiter Brain",
@@ -1713,9 +1720,9 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 46,
-        id: "traj-phase-3",
-        title: "Phase 3: The Scaling Wall",
+        number: 47,
+        id: "traj-phase-4",
+        title: "Phase 4: The Scaling Wall",
         items: [
           {
             name: "Euclidean geometry",
@@ -1738,9 +1745,9 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 47,
-        id: "traj-phase-4",
-        title: "Phase 4: The Dimensional Pivot",
+        number: 48,
+        id: "traj-phase-5",
+        title: "Phase 5: The Dimensional Pivot",
         items: [
           {
             name: "Phase transition",
@@ -1769,7 +1776,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 48,
+        number: 49,
         id: "traj-teeming-dark",
         title: "The Teeming Dark",
         items: [

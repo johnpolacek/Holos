@@ -198,7 +198,7 @@ export default function TranscensionAnimation({ isPDF = false }: TranscensionAni
             <strong>Result:</strong> 3D plane appears silent (Fermi Paradox), but bulk contains structured information
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Dark Matter:</strong> Gravitational signature of transcended civilizations
+            <strong>Ordered Dark Matter:</strong> The gravitational signature of post-baryonic systems that have achieved high informational integration.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             Civilization has rotated out of the 3D shadow.

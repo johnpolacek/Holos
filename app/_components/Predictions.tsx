@@ -205,11 +205,12 @@ export default function Predictions() {
             <strong>
               <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>
             </strong>{" "}
-            is geometric. Holos predicts <strong>Ordered Dark Matter</strong>, not a diffuse gas of{" "}
+            is geometric. Holos predicts that high-resolution mapping will reveal a subclass of ordered dark
+            matter with non-stochastic geometric symmetries, not a diffuse gas of{" "}
             <a href="https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles">
               Weakly Interacting Massive Particles
             </a>
-            , but the gravitational footprint of highly integrated, non-random architectures.
+            .
             <strong>
               <a href="https://www.euclid-ec.org/">Euclid Mission (March 2025 Q1 Data)</a>
             </strong>
@@ -221,8 +222,7 @@ export default function Predictions() {
               <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>
             </strong>{" "}
             and other surveys detect missing mass or gravitational anomalies devoid of electromagnetic
-            counterparts. These are signatures of high-density informational structures formed by
-            civilizations that have transmuted their{" "}
+            counterparts. These are signatures of high-density informational structures that have transmuted their{" "}
             <a href="https://en.wikipedia.org/wiki/Baryon">baryonic</a> substrate into Shadow Matter
             (axion-like particles) to rotate out of the observable 3D shadow.
           </p>

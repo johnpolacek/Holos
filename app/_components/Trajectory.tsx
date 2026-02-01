@@ -7,7 +7,8 @@ const trajectoryCitationMap: Record<string, number> = {
   "phase-2": 45,
   "phase-3": 46,
   "phase-4": 47,
-  "teeming-dark-final-state": 48,
+  "phase-5": 48,
+  "teeming-dark-final-state": 49,
 };
 
 export default function Trajectory() {
@@ -29,27 +30,34 @@ export default function Trajectory() {
 
       <hr className="border-black/20 border-dashed" />
 
-      {/* Phase 0: Nursery Phase */}
+      {/* Phase 0: The Silence */}
       <section id="phase-0" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 0: The Nursery Phase (4.5 billion years)
+          Phase 0: The Silence (4.5 billion years)
           <FootnoteLink
             number={trajectoryCitationMap["phase-0"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
         <p className="leading-relaxed text-black/80">
-          Our current 3D phase is like a nursery. For 4.5 billion years, Earth was totally invisible
-          to external observers. No radio leakage, no heat signatures of artificial origin, no
-          technosignatures of any kind. Just a geologically active planet with a biosphere quietly
-          evolving toward intelligence.
+          Our initial 3D phase was typical in a universe that is functioning like a nursery. For 4.5
+          billion years, Earth was totally invisible to external observers, a geologically active
+          planet with a biosphere quietly evolving toward intelligence.
         </p>
         <p className="leading-relaxed text-black/80">
-          This phase represents the vast majority of a civilization&apos;s lifespan. It is invisible
-          in the 3D electromagnetic spectrum and virtually undetectable from interstellar distances.
+          This phase represents the vast majority of a civilization&apos;s lifespan.
         </p>
+      </section>
 
-        <h3 className="text-xl font-light pt-4 pb-1">Modern Times: The Flash (~200 years)</h3>
+      {/* Phase 1: The Flash */}
+      <section id="phase-1" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Phase 1: The Flash (~200 years)
+          <FootnoteLink
+            number={trajectoryCitationMap["phase-1"]}
+            className="relative left-1 -top-2.5"
+          />
+        </h2>
         <p className="leading-relaxed text-black/80">
           We are currently in a brief window of radio leakage and 3D satellite expansion. This is
           what many SETI programs search for. It is a fleeting period where a civilization
@@ -91,12 +99,12 @@ export default function Trajectory() {
         </p>
       </section>
 
-      {/* Phase 1 */}
-      <section id="phase-1" className="flex flex-col gap-6">
+      {/* Phase 2 */}
+      <section id="phase-2" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 1: The Integration Ascent (2026 to 2150)
+          Phase 2: The Integration Ascent (2026 to 2150)
           <FootnoteLink
-            number={trajectoryCitationMap["phase-1"]}
+            number={trajectoryCitationMap["phase-2"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -120,12 +128,12 @@ export default function Trajectory() {
         </ul>
       </section>
 
-      {/* Phase 2 */}
-      <section id="phase-2" className="flex flex-col gap-6">
+      {/* Phase 3 */}
+      <section id="phase-3" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 2: The Jupiter Brain Era (2150 to 2500)
+          Phase 3: The Jupiter Brain Era (2150 to 2500)
           <FootnoteLink
-            number={trajectoryCitationMap["phase-2"]}
+            number={trajectoryCitationMap["phase-3"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -148,12 +156,12 @@ export default function Trajectory() {
         </ul>
       </section>
 
-      {/* Phase 3 */}
-      <section id="phase-3" className="flex flex-col gap-6">
+      {/* Phase 4 */}
+      <section id="phase-4" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 3: The Scaling Wall (2150 to 2450)
+          Phase 4: The Scaling Wall (2150 to 2450)
           <FootnoteLink
-            number={trajectoryCitationMap["phase-3"]}
+            number={trajectoryCitationMap["phase-4"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -180,12 +188,12 @@ export default function Trajectory() {
         </ul>
       </section>
 
-      {/* Phase 4 */}
-      <section id="phase-4" className="flex flex-col gap-6">
+      {/* Phase 5 */}
+      <section id="phase-5" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 4: The Dimensional Pivot (2450+)
+          Phase 5: The Dimensional Pivot (2450+)
           <FootnoteLink
-            number={trajectoryCitationMap["phase-4"]}
+            number={trajectoryCitationMap["phase-5"]}
             className="relative left-1 -top-2.5"
           />
         </h2>

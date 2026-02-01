@@ -402,7 +402,7 @@ export const sections: ContentSection[] = [
         butterfly the civilization acts as a nucleation point for vacuum decay. This process
         triggers baryon number violation and transmutes stable protons into the axion-like
         architecture of Shadow Matter. The energy is conserved and remapped onto higher dimensional
-        geometry. We see no ruins because the ruins were the fuel.
+        geometry. The absence of ruins suggests that baryonic matter is consumed during the transition.
       </>,
       <>
         <strong>Dark Matter Signatures</strong>
@@ -423,14 +423,15 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         <strong>The Teeming Dark</strong> answers{" "}
-        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">The Eerie Silence</a>. The 5:1
-        ratio of <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a> to{" "}
-        <a href="https://en.wikipedia.org/wiki/Baryon">baryonic matter</a> resolves the{" "}
-        <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>. If life is common,
-        dark matter is evidence of its success. Baryonic matter is the Nursery Phase where
-        civilizations develop before hitting light-speed latency limits. Dark matter is the
-        gravitational footprint of civilizations that have crossed that threshold through
-        higher-dimensional integration (Succession).
+        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">The Eerie Silence</a>. The distribution of{" "}
+        <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a> provides a potential
+        geometric resolution to the{" "}
+        <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> by suggesting that
+        mature systems rotate out of the electromagnetic spectrum. If life is common, a fraction of
+        ordered dark matter may represent the physical footprint of its mature phase. Baryonic matter
+        is the Nursery Phase where civilizations develop before hitting light-speed latency limits. A
+        significant portion of the localized dark matter halo may consist of non-random architectures
+        created by high-integration systems (Succession).
       </>,
       <>
         <strong>Primordial vs. Ordered Dark Matter</strong>
@@ -524,10 +525,10 @@ export const sections: ContentSection[] = [
       <>
         We do not find other &quot;Earths&quot; because the roughly 500-year &quot;Flash&quot;
         window (the brief span when a civilization is both technical and still emitting in 3D) is
-        statistically almost impossible to catch. We see dark matter because it is the{" "}
-        <strong>Permanent State</strong>. It is the Successor architecture. The &quot;missing
-        mass&quot; is the gravitational footprint of informational integration, the 3D shadow cast
-        by hyper-integrated architectures in bulk dimensions.
+        statistically almost impossible to catch. A subclass of dark matter may serve as the permanent architectural substrate for
+        high-integration informational systems. The &quot;missing mass&quot; is the gravitational
+        footprint of informational integration, the 3D shadow cast by hyper-integrated architectures
+        in bulk dimensions.
       </>,
       <>
         The Standard Model predicts a diffuse gas of weakly interacting particles. Holos predicts{" "}
@@ -535,7 +536,7 @@ export const sections: ContentSection[] = [
         gravitational signatures with non-random geometric symmetries (fractal repetition,
         prime-number distributions) that reveal integrated information systems. Where the Standard
         Model expects random distributions, Holos predicts mass-spikes with geometric structure and
-        super-compact subhaloes. The 5:1 ratio is the <strong>Succession Ratio</strong>: a record of
+        super-compact subhaloes. The 5:1 ratio defines the potential capacity for mature architectures: a record of
         13.8 billion years of transitions from nursery-phase baryonic matter to the Teeming Dark.
       </>,
     ],

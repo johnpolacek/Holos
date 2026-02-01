@@ -72,11 +72,12 @@ export const predictionsSubsections: Subsection[] = [
 ];
 
 export const trajectorySubsections: Subsection[] = [
-  { id: "phase-0", title: "Phase 0" },
-  { id: "phase-1", title: "Phase 1" },
-  { id: "phase-2", title: "Phase 2" },
-  { id: "phase-3", title: "Phase 3" },
-  { id: "phase-4", title: "Phase 4" },
+  { id: "phase-0", title: "Phase 0: The Silent Time" },
+  { id: "phase-1", title: "Phase 1: The Flash" },
+  { id: "phase-2", title: "Phase 2: Integration Ascent" },
+  { id: "phase-3", title: "Phase 3: Jupiter Brain" },
+  { id: "phase-4", title: "Phase 4: Scaling Wall" },
+  { id: "phase-5", title: "Phase 5: Dimensional Pivot" },
   { id: "teeming-dark-final-state", title: "The Teeming Dark" },
 ];
 

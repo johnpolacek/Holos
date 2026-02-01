@@ -565,8 +565,9 @@ export default function Logic() {
                     <td className="py-2 pr-4 font-medium">5:1 Ratio</td>
                     <td className="py-2 pr-4">A primordial accident.</td>
                     <td className="py-2">
-                      The <strong>Succession Ratio</strong>; a record of 13.8 billion years of
-                      transitions (the <strong>Maturity Index</strong>).
+                      Defines the <strong>potential capacity</strong> for mature architectures; a
+                      record of 13.8 billion years of transitions (the{" "}
+                      <strong>Maturity Index</strong>).
                     </td>
                   </tr>
                   <tr className="border-b border-black/10">
