@@ -3,7 +3,7 @@ import PageLayout from "../_components/PageLayout";
 import Predictions from "../_components/Predictions";
 
 export const metadata: Metadata = {
-  title: "Predictions | Interpretive Framework for Reality, Consciousness, and Spacetime",
+  title: "Holos (⊛) – Predictions",
   description:
     "Empirical predictions derived from the Holos framework through the operationalization of Φ. These predictions constrain where and how ontological registration occurs within lawful dynamics.",
   alternates: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Empirical predictions derived from the Holos framework through the operationalization of Φ. These predictions constrain where and how ontological registration occurs within lawful dynamics.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/predictions`,
-    siteName: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+    siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     type: "website",
   },
 };

@@ -18,6 +18,7 @@ export default function Sidebar() {
 
   // Check if we're on the theory page (home page)
   const isTheoryPage = pathname === "/" || pathname === "/theory";
+  const isCorePage = pathname === "/core";
   const isLogicPage = pathname === "/logic";
   const isDefensePage = pathname === "/defense";
   const isDefinitionPage = pathname === "/definition";
@@ -127,6 +128,14 @@ export default function Sidebar() {
                 ))}
               </div>
             )}
+            <li className="mt-2">
+              <Link
+                className={`text-lg font-medium ${isCorePage ? "opacity-100" : "opacity-60"}`}
+                href="/core"
+              >
+                Core
+              </Link>
+            </li>
             <li className="mt-2">
               <Link
                 className={`text-lg font-medium ${isLogicPage ? "opacity-100" : "opacity-60"}`}

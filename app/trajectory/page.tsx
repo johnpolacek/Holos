@@ -3,7 +3,7 @@ import PageLayout from "../_components/PageLayout";
 import Trajectory from "../_components/Trajectory";
 
 export const metadata: Metadata = {
-  title: "Trajectory | Interpretive Framework for Reality, Consciousness, and Spacetime",
+  title: "Holos (⊛) – A Speculative Trajectory for Advanced Civilizations",
   description:
     "A forecast of how civilization will continue: from the Silent Time and the brief Flash of radio leakage, through the Integration Ascent and Jupiter Brain era to the Scaling Wall and the dimensional pivot into The Teeming Dark.",
   alternates: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "A forecast of how civilization will continue: from the Silent Time and the brief Flash of radio leakage, through the Integration Ascent and Jupiter Brain era to the Scaling Wall and the dimensional pivot into The Teeming Dark.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/trajectory`,
-    siteName: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+    siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     type: "website",
   },
 };
