@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
+  coreSubsections,
   defenseSubsections,
   definitionSubsections,
   logicSubsections,
@@ -136,6 +137,15 @@ export default function Sidebar() {
                 Core
               </Link>
             </li>
+            {isCorePage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {coreSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
             <li className="mt-2">
               <Link
                 className={`text-lg font-medium ${isLogicPage ? "opacity-100" : "opacity-60"}`}

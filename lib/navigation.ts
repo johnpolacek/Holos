@@ -25,8 +25,12 @@ export const theorySubsections: Subsection[] = [
   { id: "simulation", title: "Simulation" },
   { id: "god", title: "God" },
   { id: "why", title: "Why?" },
-  { id: "axioms", title: "Axioms" },
   { id: "holos", title: "Holos" },
+];
+
+export const coreSubsections: Subsection[] = [
+  { id: "minimal-core", title: "Minimal Core" },
+  { id: "operational-definition", title: "Operational Definition" },
 ];
 
 export const logicSubsections: Subsection[] = [
@@ -35,8 +39,6 @@ export const logicSubsections: Subsection[] = [
   { id: "foundational-propositions", title: "Foundations" },
   { id: "mathematical-formalism", title: "Math" },
   { id: "extrapolative-propositions", title: "Extrapolations" },
-  { id: "minimal-core", title: "Core" },
-  { id: "phi-operationalization", title: "Definition" },
 ];
 
 export const definitionSubsections: Subsection[] = [
@@ -84,6 +86,7 @@ export const trajectorySubsections: Subsection[] = [
 export const sections: Section[] = [
   { id: "overview", title: "Overview", path: "/", subsections: theorySubsections },
   { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
+  { id: "core", title: "Core", path: "/core", subsections: coreSubsections },
   {
     id: "definition",
     title: "Definition",

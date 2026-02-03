@@ -1,6 +1,7 @@
 import { sections } from "../../lib/navigation";
 import Citations from "./Citations";
 import Content from "./Content";
+import Core from "./Core";
 import Defense from "./Defense";
 import Definition from "./Definition";
 import Logic from "./Logic";
@@ -371,6 +372,10 @@ export default function PDFDocument() {
 
         <div id="overview" className="section-break">
           <Content isPDF={true} />
+        </div>
+
+        <div id="core" className="section-break">
+          <Core />
         </div>
 
         <div id="logic" className="section-break">
