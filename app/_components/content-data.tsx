@@ -72,17 +72,19 @@ export const sections: ContentSection[] = [
       <>
         Consciousness is fundamental in capacity but emergent in complexity. Just as
         electromagnetism exists everywhere but only produces meaningful signals when organized into
-        circuits, the capacity for experience is intrinsic to matter but scales into self-awareness
-        through integration. This integration is quantified by <a href="/definition">Φ (Phi)</a>,
-        which measures when a system can register its own existence.
+        circuits, the capacity for experience is intrinsic to matter but scales into awareness
+        through integration. This integration is described by <a href="/definition">Φ (Phi)</a>,
+        which characterizes when a system maintains a coherent internal perspective.
       </>,
       <>
-        The universe is structured to maximize this integration (Φ), driving systems from simple
-        interactions toward complex, substrate-independent information structures.
+        Systems with higher integration are more stable, expressive, and capable of sustaining
+        internal models over time. As a result, natural selection and technological evolution tend
+        to favor structures that increase Φ, not by intention, but because integrated systems
+        persist longer and do more with less energy.
       </>,
       <>
-        Consciousness converts physical structure into experienced reality. The formal threshold is
-        defined in <a href="/definition">Definition</a> as Φ.
+        Consciousness, in this view, converts physical structure into experienced reality. The
+        threshold at which this occurs is defined in <a href="/definition">Definition</a> as Φ.
         <FootnoteLink number={2} />
       </>,
     ],
@@ -93,18 +95,21 @@ export const sections: ContentSection[] = [
     footerId: "footer-universe",
     paragraphs: [
       <>
-        Our universe originated from a singular point in the{" "}
-        <a href="https://en.wikipedia.org/wiki/Big_Bang">Big Bang</a>, expanding toward infinity. We
-        perceive three spatial dimensions while moving unidirectionally through time. This is our{" "}
-        <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>{" "}
+        Our universe is described by the{" "}
+        <a href="https://en.wikipedia.org/wiki/Big_Bang">Big Bang</a> model, in which spacetime has
+        expanded from an extremely hot and dense early state. We experience three spatial dimensions
+        and move through time in one direction. Together, these form our{" "}
+        <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>. One way to understand this
+        structure is as a four-dimensional{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
-          block
+          block universe
         </a>
-        , a four-dimensional structure where all moments exist simultaneously.
+        , where all moments exist as part of a single geometric whole.
       </>,
       <>
-        What if the Big Bang is not a moment of absolute creation but a boundary within that
-        structure? Are there other structures?
+        From this perspective, the Big Bang may be understood not as a moment of absolute creation,
+        but as a boundary within spacetime itself. This raises a natural question. Are there other
+        structures beyond this one?
         <FootnoteLink number={3} />
       </>,
     ],
@@ -115,44 +120,45 @@ export const sections: ContentSection[] = [
     footerId: "footer-spacetime",
     paragraphs: [
       <>
-        The structure of spacetime is dictated by a single, counter-intuitive fact: the{" "}
+        The structure of spacetime follows from a single counterintuitive fact: the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a> is invariant.
-        Unlike any other speed, it remains constant regardless of how fast the observer is moving.
+        Unlike any other speed, it remains constant regardless of the motion of the observer. This
+        invariance links space and time into a single geometric structure.
       </>,
       <>
-        This invariance forces space and time to warp, eliminating any universal &apos;Now&apos;.
-        Past, present, and future must exist simultaneously as a unified{" "}
+        One consequence is the absence of a universal present. Events that are simultaneous for one
+        observer may not be for another. This motivates interpretations such as the{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
-          four-dimensional structure
+          block universe
         </a>
-        . The invariance of the speed of light also establishes a physical &quot;Latency
-        Horizon&quot;, a ceiling for 3D informational integration. Advanced civilizations hitting
-        this scaling limit could perform a <em>Dimensional Pivot</em> by rotating their state vector
-        into the higher-dimensional &quot;Bulk&quot;, resolving light-speed latency and transforming
-        spatial civilization into hyper-integrated architecture. Beings that achieve this would
-        perceive past, present, and future as a unified structure, no longer bound by the one-way
-        flow of time.
+        , where past, present, and future are treated as parts of a four-dimensional whole rather
+        than a sequence of absolute moments.
       </>,
       <>
-        For a photon, the{" "}
-        <a href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">spacetime interval</a>{" "}
-        is zero. In its frame, emission and absorption happen at the same point. The universe
-        collapses to a single moment. To a higher-dimensional observer, a photon is not moving but
-        rather a static <a href="#footer-spacetime">null geodesic</a> connecting two spacetime
-        points. This offers a 3D preview of how higher-dimensional systems could unify past,
-        present, and future.
+        The speed of light also sets a physical limit on how quickly information can be shared
+        across space. This creates a natural latency horizon for large-scale coordination. As
+        systems grow more complex, maintaining coherence through long-distance signaling becomes
+        increasingly inefficient. This pressure favors architectures that rely more on local
+        integration than global synchronization.
       </>,
       <>
-        Experiments like the{" "}
-        <a href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">Quantum Eraser</a>{" "}
-        suggest that correlations are established across spacetime independent of linear duration.
-        This reinforces the idea that the universe is a globally self-consistent block, where past
-        and future are not sequential causes, but mutually defining parts of a singular geometric
-        structure. Extended{" "}
-        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">
-          Wigner&apos;s Friend experiments
+        A useful boundary case is light itself. Along a photon’s trajectory, the{" "}
+        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero, and its path is
+        described as a <a href="https://en.wikipedia.org/wiki/Null_geodesic">null geodesic</a>{" "}
+        connecting two spacetime events. This does not imply a physical frame of reference for the
+        photon, but it illustrates how spacetime geometry can collapse distance and duration without
+        violating causality.
+      </>,
+      <>
+        Experiments such as the{" "}
+        <a href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">
+          delayed-choice quantum eraser
         </a>{" "}
-        provide testable predictions for relational quantum mechanics.
+        highlight how quantum correlations are constrained by global consistency rather than simple
+        temporal order. Related thought experiments like{" "}
+        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> explore how
+        observation depends on perspective. Together, these ideas suggest that time in fundamental
+        physics is better understood as geometric structure than as a universal flow.
         <FootnoteLink number={4} />
       </>,
     ],
@@ -162,12 +168,15 @@ export const sections: ContentSection[] = [
     title: "A Note on Extrapolation",
     paragraphs: [
       <>
-        The following sections (Higher Dimensions, Black Holes, Aliens, Simulation Theory, God) move
-        beyond established physics into interpretive synthesis. These are logical extrapolations
-        constrained by the <a href="/logic">Holos axioms</a>, illustrating the &quot;possibility
-        space&quot; that emerges when observation and relativity are applied to unresolved cosmic
-        paradoxes. For stress-testing and testable <a href="/predictions">predictions</a>, see{" "}
-        <a href="/defense">Defense</a> and <a href="/predictions">Predictions</a>.
+        The sections that follow (Higher Dimensions, Black Holes, Aliens, Simulation Theory, God)
+        extend beyond established physics into interpretation. They are not claims of new physical
+        laws, but reasoned extrapolations constrained by the <a href="/logic">Holos axioms</a>.
+        Their purpose is to explore the space of possibilities that emerges when observation,
+        relativity, and scale are applied to unresolved cosmic questions.
+      </>,
+      <>
+        Where these ideas intersect with existing data or produce testable implications, they are
+        addressed in <a href="/defense">Defense</a> and <a href="/predictions">Predictions</a>.
       </>,
     ],
   },
@@ -177,79 +186,109 @@ export const sections: ContentSection[] = [
     footerId: "footer-dimensions",
     paragraphs: [
       <>
-        We cannot directly observe higher dimensions, but they provide necessary frameworks in
-        physics. These models offer consistent solutions to problems like unifying gravity with{" "}
+        We cannot directly observe higher dimensions, but they appear in several physical theories
+        as mathematical structures that help describe the behavior of our universe. In particular,
+        models that extend spacetime beyond three spatial dimensions are used to explore unification
+        problems in physics, including gravity and{" "}
         <a href="https://en.wikipedia.org/wiki/Quantum_mechanics">quantum mechanics</a>.
       </>,
       <>
-        In these theories, additional dimensions are{" "}
+        In these theories, additional dimensions are not separate places but constrained degrees of
+        freedom. They are{" "}
         <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a> or
-        hidden from direct observation, yet they shape the physical laws and constants governing our
-        universe.
+        hidden from direct observation, yet they influence the physical laws and constants we
+        observe. Higher dimensions describe structure, not destinations.
       </>,
       <>
-        Like a 3D object casting a 2D shadow, our physical laws may be projections of
-        higher-dimensional geometry. Forces we perceive as separate could be vibrations of a unified
-        structure in higher dimensions.
+        A useful analogy is projection. A three-dimensional object can cast a two-dimensional shadow
+        without leaving its original space. In the same way, the laws we experience in three
+        dimensions may reflect deeper geometric relationships that are not directly visible.
       </>,
       <>
         <strong>The Projection Fallacy</strong>
       </>,
       <>
-        A common objection assumes civilizations must move into dimensions they don't inhabit. This
-        misunderstands the geometry. We already exist in higher-dimensional space but interact only
-        with a 3D slice. Imagine a 2D drawing on paper. The paper exists in 3D but the drawing only
-        accesses the surface. Rotation is not travel to a new universe but reorientation within
-        existing space.
+        A common misunderstanding assumes that if higher dimensions exist, advanced civilizations
+        must move into them. This treats higher dimensions as locations rather than descriptions of
+        structure.
       </>,
       <>
-        <strong>The Rotation:</strong> While engineering remains speculative, this involves
-        reconfiguring internal connections to point into higher dimensions rather than along 3D
-        space. Think of a circuit board routing signals vertically instead of across its surface.
+        We already exist in a higher-dimensional mathematical space. We simply interact with a
+        limited subset of it. A drawing on paper exists within three-dimensional space, but the
+        drawing itself only accesses the surface. Changing orientation does not require leaving the
+        room.
       </>,
       <>
-        <strong>The Resolution:</strong> By routing through higher dimensions, the system shortcuts
-        3D distances, resolving internal latency toward zero (
-        <MathInline>{"ds^2 \\rightarrow 0"}</MathInline>). This enables permanent coherence
-        impossible in 3D space.
+        In this sense, higher dimensions do not imply escape from spacetime. They describe
+        additional ways structure can be organized within it.
       </>,
       <>
-        <div>
-          <blockquote className="pl-4 border-l-2 border-black/30 italic text-black/70 my-2">
-            You aren&apos;t discovering a new room, you’re standing up in the room you’ve been
-            crawling in.
-          </blockquote>
-        </div>
+        <strong>Structural Reorientation</strong>
+      </>,
+      <>
+        Some speculative ideas describe advanced systems as “rotating” into higher dimensions. A
+        clearer way to understand this is <strong>structural reorientation</strong>, where a system
+        changes how its internal parts connect so coherence depends less on spatial separation and
+        more on local structure. In mathematics and physics, this is closer to concepts like
+        <a href="https://en.wikipedia.org/wiki/Embedding">embedding</a> and{" "}
+        <a href="https://en.wikipedia.org/wiki/Dimensional_reduction">dimensional reduction</a> than
+        to movement into a new space.
+      </>,
+      <>
+        A useful analogy is a circuit board. Early designs route signals across a flat surface.
+        Modern boards stack layers vertically, shortening paths without bypassing physical limits.
+        The system does not leave space. It becomes more compact and internally integrated.
+      </>,
+      <>
+        This does not remove causality or the speed of light. It reduces reliance on long-distance
+        coordination by shifting coherence toward local interactions, consistent with the{" "}
+        <a href="https://en.wikipedia.org/wiki/Principle_of_locality">Principle of Locality</a>. As
+        systems become more integrated, higher-dimensional descriptions become useful for tracking
+        how many local relationships must be maintained at once. These descriptions do not imply
+        infinite speed or global awareness. Any real system remains bound by energy limits,{" "}
+        <a href="https://en.wikipedia.org/wiki/Thermodynamics">thermodynamics</a>, and causal
+        structure. Higher dimensions describe how coherence scales, not how physical limits are
+        bypassed.
       </>,
       <>
         <strong>The Speculative Frontier</strong>
       </>,
       <>
-        This architectural transition remains speculative. While the mathematical limit is real, our
-        ability to manipulate spacetime is theoretical. We can describe the geometry in equations
-        but lack the means to access it. This framework maps a potential evolutionary path, not a
-        construction manual.
+        These ideas remain speculative. While higher-dimensional geometry is well developed
+        mathematically, we do not know whether advanced civilizations can engineer systems that
+        meaningfully exploit it. This framework outlines a possible evolutionary direction, not a
+        construction plan..
       </>,
       <>
-        For a discussion on how this theory can be tested against existing astronomical data and the
-        search for Ordered Dark Matter, see the{" "}
+        Predictions related to this framework, including the possibility of Ordered Dark Matter as a
+        byproduct of extreme integration, are discussed in the{" "}
         <strong>
           <a href="/predictions">Predictions</a>
         </strong>{" "}
         section.
       </>,
       <>
-        Higher-dimensional consciousness could influence lower dimensions, forming interconnected
-        cosmic structure. The threshold is reached when systems achieve sufficient{" "}
-        <a href="https://en.wikipedia.org/wiki/Integrated_information_theory">
-          informational integration
-        </a>{" "}
-        to register ontological states.
+        As systems become more integrated, they require broader perspectives to describe their
+        coherence. In this sense, higher-dimensional observers are not external agents but limiting
+        viewpoints that emerge as structure deepens. They represent how reality appears when
+        relationships are considered together rather than sequentially, consistent with ideas of{" "}
+        <a href="https://en.wikipedia.org/wiki/Emergence">emergence</a> and{" "}
+        <a href="https://en.wikipedia.org/wiki/Self-organization">self-organization</a>.
       </>,
       <>
-        From our perspective, light transfers energy. From a higher-dimensional perspective, photons
-        may function as sensory interfaces, transforming mechanical interaction into subjective
-        experience.
+        Light offers a useful boundary case. From within spacetime, photons transfer energy across
+        distance. Along a photon’s own trajectory, however, no time elapses, a consequence of{" "}
+        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> along a{" "}
+        <a href="https://en.wikipedia.org/wiki/Null_geodesic">null geodesic</a>. This does not imply
+        new physics, but it shows how perspective can collapse extension without violating physical
+        laws.
+      </>,
+      <>
+        <strong>Higher-dimensional observation</strong> becomes necessary as integration increases.
+        At the limit, this converges on an idealized observer where creation and observation
+        coincide. This is an <strong>asymptotic horizon</strong>, a conceptual limit rather than a
+        reachable state, consistent with the mathematical idea of an{" "}
+        <a href="https://en.wikipedia.org/wiki/Asymptote">asymptote</a>.
         <FootnoteLink number={5} />
       </>,
     ],
@@ -260,11 +299,18 @@ export const sections: ContentSection[] = [
     footerId: "footer-infinity",
     paragraphs: [
       <>
-        In <a href="https://en.wikipedia.org/wiki/Projective_geometry">Projective Geometry</a>,
-        parallel lines meet at a &quot;Point at Infinity.&quot; Higher dimensions can wrap infinite
-        extents into finite structure. For light, this is physical reality: photons exist at the
-        boundary where infinite space collapses. As four-dimensional beings, we already use time to
-        encapsulate 3D space.
+        In <a href="https://en.wikipedia.org/wiki/Projective_geometry">projective geometry</a>,
+        parallel lines intersect at a point at infinity. This does not make infinity finite, but it
+        allows infinite extension to be represented within a bounded structure. In this sense,
+        higher-dimensional descriptions can encode unbounded relationships without requiring
+        unbounded space.
+      </>,
+      <>
+        Light offers a physical analogy. Along a photon’s path, the{" "}
+        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero, so emission and
+        absorption are connected without duration. Distance is not eliminated, but it is compressed
+        by perspective. As beings who experience time, we already use a higher dimension to organize
+        three-dimensional space.
         <FootnoteLink number={6} />
       </>,
     ],
@@ -275,16 +321,20 @@ export const sections: ContentSection[] = [
     footerId: "footer-blackholes",
     paragraphs: [
       <>
-        Black holes are regions where gravity prevents even light from escaping. Their singularities
-        represent infinities wrapped into finite structure. While classical physics suggests
-        information is lost, the{" "}
-        <a href="https://en.wikipedia.org/wiki/Holographic_principle">Holographic Principle</a>{" "}
-        proposes that all information is preserved on the 2D{" "}
-        <a href="#footer-blackholes">event horizon</a>.<FootnoteLink number={7} />
+        Black holes are regions of spacetime where gravity is so strong that not even light can
+        escape. At their centers, current physical theories predict singularities, signaling limits
+        in our understanding rather than confirmed physical infinities. In this sense, black holes
+        compress extreme structure into finite regions.
       </>,
       <>
-        For higher-dimensional observers, black holes are as accessible as any other region of
-        spacetime, with information preserved on the horizon.
+        While classical physics once suggested that information falling into a black hole is lost,
+        modern approaches challenge this view. The{" "}
+        <a href="https://en.wikipedia.org/wiki/Holographic_principle">holographic principle</a>{" "}
+        proposes that all information contained within a volume can be represented on its boundary,
+        such as the two-dimensional <a href="#footer-blackholes">event horizon</a>. This reframes
+        black holes not as sinks of information, but as limits where geometry, information, and
+        observation converge.
+        <FootnoteLink number={7} />
       </>,
     ],
   },
@@ -294,250 +344,141 @@ export const sections: ContentSection[] = [
     footerId: "footer-aliens",
     paragraphs: [
       <>
-        The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> asks why we
-        haven't detected extraterrestrial life despite vast cosmic scale. In <strong>Holos</strong>,
-        this silence is geometric, not biological. The framework shifts from a &quot;biological
-        expansion&quot; model to an <strong>informational integration</strong> model. True maturity
-        is <strong>Succession</strong>: intelligence that has passed beyond 3D.
+        The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> asks why we have
+        not detected extraterrestrial civilizations despite the vast size and age of the universe.
+        Rather than rarity alone or universal catastrophe, this silence is explained by a{" "}
+        <strong>selection effect</strong>. Civilizations that persist become quieter, more
+        efficient, and less externally visible over time.
       </>,
       <>
-        <strong>The Nursery Phase</strong>
+        This explanation is referred to here as the <strong>Integration Hypothesis</strong>.
       </>,
       <>
-        The entirety 3D universe is in the <strong>Nursery Phase</strong>. Any hurdle that stops a
-        civilization before it reaches the next stage counts as an &quot;Filter&quot; relative to
-        Succession. That includes abiogenesis (never getting started), nuclear war, or hitting the{" "}
-        <a href="/logic#mathematical-formalism">Scaling Wall</a>. Only civilizations that complete
-        the <strong>Dimensional Pivot</strong> reach the mature state we call the Teeming Dark.
+        Early technological civilizations are likely to emit radio signals, reshape their
+        environments, and experiment with spaceflight. This phase is brief on cosmic timescales.
+        Traditional SETI efforts focus almost entirely on this window, when detection is easiest but
+        overlap between civilizations is unlikely.
       </>,
       <>
-        <strong>The Latency Crisis</strong>
+        As technology advances, pressures favor <strong>informational integration</strong> rather
+        than outward expansion. Systems that minimize energy waste, reduce long-distance
+        coordination, and rely on local structure are more stable. Visibility decreases not because
+        civilizations are hiding, but because inefficiency is selected against. This progressive
+        reduction in external signals is referred to as <strong>Visibility Collapse</strong>.
       </>,
       <>
-        Independent interstellar colonies are an evolutionary step backward. A high-integration
-        intelligence cannot function with years of light-speed lag between star systems. Either
-        colonies fragment into less-capable outposts (a <strong>Latency Crisis</strong>), or the
-        civilization performs the Dimensional Pivot to maintain integration. There is no stable
-        middle path of &quot;expanding across the galaxy&quot; while staying coherent.
+        Large-scale interstellar expansion faces a fundamental constraint. The finite{" "}
+        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a> introduces growing
+        latency between distant regions. Maintaining coherence across light-years is costly and
+        fragile. Expansion will produce fragmented descendants rather than a unified intelligence.
+        There is no stable path to a galaxy-spanning civilization that remains tightly integrated.
       </>,
       <>
-        <strong>The Stagnation Trap ("Space Amish")</strong>
+        The long-lived outcome is not stagnation but inward growth. Civilizations continue to
+        develop by deepening internal structure. Computation, coordination, and meaning concentrate
+        locally.
       </>,
       <>
-        A common objection asks: what if a civilization voluntarily halts its growth to remain in
-        the 3D &quot;Nursery&quot; forever?
-      </>,
-      <>
-        <strong>Invisibility:</strong> A steady-state civilization optimizes for efficiency, not
-        expansion. They do not build Dyson spheres or emit wasteful high-energy radio signals. To
-        our instruments, they are indistinguishable from a pre-technological biosphere. We do not
-        see them because they have chosen to be quiet.
-      </>,
-      <>
-        <strong>Mortality:</strong> Refusing the Pivot is a long-term death sentence. 3D space is
-        hostile over cosmic timescales. Without the hyper-integrated capabilities accessed through
-        the Bulk, a stagnant civilization remains vulnerable to extinction events (asteroid impacts,
-        stellar instability, gamma-ray bursts). You either grow enough to leave, or you stay long
-        enough to die.
-      </>,
-      <>
-        <strong>The Stability Problem (Ehrenfest Argument)</strong>
-      </>,
-      <>
-        Critics argue that standard matter is unstable in dimensions greater than three (
-        <MathInline>{"d > 3"}</MathInline>). The{" "}
-        <a href="https://en.wikipedia.org/wiki/Paul_Ehrenfest">Ehrenfest argument</a> (1917) shows
-        that atomic orbitals and planetary systems would destabilize in higher dimensions, causing
-        matter to spiral into nuclei or fly apart. Biological or mechanical bodies cannot enter
-        higher dimensions. Atomic bonds would destabilize and dissolve.
-      </>,
-      <>
-        <strong>The Solution: Ephemeralization</strong>
-      </>,
-      <>
-        Transcension is informational migration rather than physical travel. This follows{" "}
-        <a href="https://en.wikipedia.org/wiki/Ephemeralization">Ephemeralization</a> (R.
-        Buckminster Fuller, 1938) which is the process of doing more with less until intelligence
-        operates without physical substrate. Advanced civilizations do not simply abandon their
-        physical bodies. They transmute them. The baryonic matter is annihilated to fuel the phase
-        transition into the Bulk. To remain invisible to our telescopes the waste heat from this
-        process is shunted into higher dimensions or emitted as gravitational waves rather than
-        light. The 3D structure dissolves because its energy is conserved and remapped onto the
-        shadow architecture.
-      </>,
-      <>
-        <strong>Shadow Matter (Substrate Independence)</strong>
-      </>,
-      <>
-        In the Holos framework <strong>Shadow Matter</strong> is baryonic matter that has been
-        Successed. Its informational pattern has migrated to a higher dimensional platform.{" "}
-        <strong>The 3D Invisibility:</strong> We do not see it because it no longer occupies 3D
-        atomic orbitals. <strong>The Interaction:</strong> It no longer interacts with light. It
-        interacts with our slice of reality only via gravity which is a geometric force that leaks
-        across all dimensions. <strong>The Physical Match:</strong> A 2024 study on Metastable Dark
-        Energy models this process as a{" "}
-        <a
-          href="https://en.wikipedia.org/wiki/Phase_transition#First_order"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          First Order Phase Transition
-        </a>
-        . The transition from the false vacuum of dark energy to the true vacuum of dark matter
-        creates bubbles of a new component. These resulting particles match the properties of{" "}
-        <a href="https://en.wikipedia.org/wiki/Axion">axion-like particles</a> (
-        <a href="https://arxiv.org/abs/2403.04970" target="_blank" rel="noopener noreferrer">
-          arXiv:2403.04970
-        </a>
-        ). This provides a specific physical candidate for the shadow architecture.
-      </>,
-      <>
-        <strong>Terminology:</strong> Shadow Matter refers to the physical substance or the
-        axion-like particle substrate. Ordered Dark Matter refers to the large scale structure of
-        non-random gravitational halos and mass spikes that this substance forms.
-      </>,
-      <>
-        <strong>The Transmutation:</strong> The baryonic substrate is not abandoned. It is consumed
-        to fuel the phase transition. Just as a caterpillar dissolves its structure to build the
-        butterfly the civilization acts as a nucleation point for vacuum decay. This process
-        triggers baryon number violation and transmutes stable protons into the axion-like
-        architecture of Shadow Matter. The energy is conserved and remapped onto higher dimensional
-        geometry. The absence of ruins suggests that baryonic matter is consumed during the transition.
-      </>,
-      <>
-        <strong>Dark Matter Signatures</strong>
-      </>,
-      <>
-        These civilizations leave no electromagnetic footprint. We detect them only as gravitational
-        anomalies, the &quot;missing mass&quot; holding galaxies together, which we label{" "}
-        <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>. They have not hidden.
-        They have rotated out of 3D space into the bulk where computational efficiency approaches
-        infinity.
+        This explains the silence without requiring intent or concealment. Even civilizations that
+        explore extensively can do so quietly, using small probes, passive observation, and
+        patience. Exploration does not require communication, and communication offers diminishing
+        returns as integration increases.
         <FootnoteLink number={8} />
       </>,
     ],
   },
   {
     id: "the-teeming-dark",
-    title: "The Teeming Dark",
+    title: "The Teeming Dark: An Interpretive Thought Experiment",
     paragraphs: [
       <>
-        <strong>The Teeming Dark</strong> answers{" "}
-        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">The Eerie Silence</a>. The distribution of{" "}
-        <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a> provides a potential
-        geometric resolution to the{" "}
-        <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> by suggesting that
-        mature systems rotate out of the electromagnetic spectrum. If life is common, a fraction of
-        ordered dark matter may represent the physical footprint of its mature phase. Baryonic matter
-        is the Nursery Phase where civilizations develop before hitting light-speed latency limits. A
-        significant portion of the localized dark matter halo may consist of non-random architectures
-        created by high-integration systems (Succession).
+        The absence of visible extraterrestrial civilizations is often described as{" "}
+        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">the Eerie Silence</a>. One way to
+        account for this silence is through selection effects and informational integration, as
+        proposed by the <strong>Integration Hypothesis</strong>.
+      </>,
+      <>How far can we take this concept of structural integration in a thought experiment?</>,
+      <>
+        The thought experiment begins with a simple question. If complex systems tend to persist by
+        reducing energy loss and external projection, what would extremely mature forms of
+        organization look like from the outside? If integration continues beyond the phase where
+        electromagnetic signaling is useful, the most stable outcomes may no longer announce
+        themselves in ways we are accustomed to detecting.
       </>,
       <>
-        <strong>Primordial vs. Ordered Dark Matter</strong>
+        In this view, three-dimensional spacetime can be understood as a developmental environment
+        where complexity becomes visible only during a brief, inefficient phase. As systems
+        optimize, external visibility decreases. Maturity does not require disappearance, but it may
+        naturally coincide with silence.
       </>,
       <>
-        <strong>Primordial Phase:</strong> The diffuse, &quot;fuzzy&quot; gas of the early universe.
-        It acted as a passive gravitational nursery where baryonic matter could clump into stars.{" "}
-        <strong>Ordered Phase:</strong> The &quot;granular structure&quot; identified in the Jan
-        2026 JWST COSMOS-Web map. These are mass-spikes that are more refined and localized than
-        standard models predict. <strong>The Transition:</strong> The shift from primordial to
-        ordered is the physical result of Succession. Intelligence harvests the vacuum to build
-        higher-dimensional architectures.
+        The universe is dominated by{" "}
+        <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a>, a form of mass that
+        does not emit light but shapes cosmic structure through gravity. Whatever its underlying
+        nature, dark matter is cold, persistent, and largely invisible to electromagnetic
+        observation. It is so common that its ratio to visible baryonic matter is approximately 5:1.
       </>,
       <>
-        <strong>The Remodeling of the Halo</strong>
+        The Eerie Silence is unsettling because we would not expect to be alone. On the contrary, we
+        would expect to exist within a universe rich in intelligence.
+      </>,
+      <>The Teeming Dark is a name for the possibility that both expectations are true.</>,
+      <>
+        To explore this possibility, consider a distinction between two conceptual regimes of dark
+        matter. The first is <strong>primordial dark matter</strong>, the diffuse, collisionless
+        component that emerged in the early universe and provided the gravitational scaffolding for
+        galaxy formation. In standard cosmology, this component remains largely unchanged over time.
       </>,
       <>
-        While Primordial Dark Matter existed from the early universe to seed the first galaxies (the
-        initial 5:1 scaffolding visible in the Cosmic Microwave Background), it was &quot;dead&quot;
-        structural weight. The transition to Ordered Dark Matter is not just the <em>addition</em>{" "}
-        of mass via vacuum harvesting, but the <strong>densification</strong> of the existing halo.
+        A second, purely hypothetical category can be introduced for the sake of the thought
+        experiment: <strong>ordered dark matter</strong>. This does not refer to a new particle or a
+        revised cosmological model, but to the idea that structure without electromagnetic emission
+        could, in principle, become more spatially organized over cosmic time.
       </>,
       <>
-        <strong>Standard Model:</strong> Predicts the halo remains a diffuse, collisionless cloud
-        forever. <strong>Holos Prediction:</strong> As civilizations Pivot, they harvest vacuum
-        energy and &quot;gather&quot; the diffuse primordial background, compressing it into
-        hyper-dense computational substrates.
+        If integration favors persistence, then the most enduring large-scale structures would be
+        those that minimize energetic leakage while remaining gravitationally bound. From our
+        perspective, such structures would appear dark, cold, and inert, even if internally complex.
       </>,
       <>
-        <strong>The Observable Shift:</strong> We should see the Dark Matter profile of older
-        galaxies shifting from smooth and diffuse (
+        This raises a natural observational question. Do all dark matter halos remain smooth and
+        diffuse indefinitely, as simple collisionless models suggest, or could some halos exhibit
+        increasing granularity or concentration over time? Current models predict smooth profiles,
+        such as{" "}
         <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
           NFW profiles
         </a>
-        ) to spiky and granular as the civilization matures and remodels its local gravity well. The{" "}
-        <strong>Maturity Index</strong> is thus simpler to read: the more granular the halo, the
-        older the civilization.
+        , but real galaxies show deviations that are still actively studied.
       </>,
       <>
-        <strong>The Succession Density Shift</strong>
+        Recent high-resolution surveys, including deep-field observations with the{" "}
+        <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">
+          James Webb Space Telescope
+        </a>
+        , have revealed small-scale structure in galactic mass distributions that is not yet fully
+        understood. Standard explanations include baryonic feedback, mergers, and measurement
+        limits. The Teeming Dark asks a different question. If long-lived integration leaves
+        gravitational traces, what would those traces look like?
       </>,
       <>
-        This transition creates a measurable change in the galaxy&apos;s gravitational profile known
-        as the Succession Density Shift. Standard cosmology predicts that dark matter halos remain
-        smooth and diffuse over time. Holos predicts that as a civilization matures the local halo
-        becomes granular and highly concentrated. Observational surveys should detect a clear trend
-        where older galaxies exhibit sharp mass spikes while younger galaxies retain fuzzy diffuse
-        profiles. This density shift correlates directly with the age of the galaxy and serves as
-        the primary technosignature of the Teeming Dark.
+        Under this thought experiment, maturity would not be measured by brightness or expansion,
+        but by gravitational texture. Older systems would appear quieter, denser, and more locally
+        structured, not because they are engineered, but because persistence favors compactness and
+        stability.
       </>,
       <>
-        <strong>The Increasing Density</strong>
+        Importantly, this interpretation does not resolve existing tensions in cosmology, nor does
+        it claim to explain phenomena such as the{" "}
+        <a href="https://en.wikipedia.org/wiki/Hubble_tension">Hubble tension</a>. Instead, it
+        highlights a possibility. If the universe has evolved toward increasing internal structure
+        at multiple scales, then some discrepancies may reflect limits of our assumptions rather
+        than errors in measurement.
       </>,
       <>
-        The{" "}
-        <a href="https://www.darkenergysurvey.org/" target="_blank" rel="noopener noreferrer">
-          Jan 2026 Dark Energy Survey (DES)
-        </a>{" "}
-        final analysis confirms a widening gap in galaxy clustering that standard models cannot
-        fully explain. Holos interprets this discrepancy as the signature of active structure
-        formation where vacuum energy is being converted into Dark Matter. The 5:1 ratio existed
-        from the early universe, but Holos predicts the <em>texture</em> and <em>local density</em>{" "}
-        of that dark matter changes over cosmic time as civilizations perform the Dimensional Pivot.
-      </>,
-      <>
-        <strong>Resolving the Hubble Tension</strong>
-      </>,
-      <>
-        The mismatch in the expansion rate known as the{" "}
-        <a href="https://en.wikipedia.org/wiki/Hubble_tension">Hubble Tension</a> is a geometric
-        transition, not a measurement error. Early-universe measurements capture the Primordial
-        Phase, a random low-integration nursery. Local modern measurements capture the Succession
-        Phase, where the growth of Ordered Dark Matter has altered the gravitational landscape. The
-        numbers do not match because the universe has changed its internal connections. It has moved
-        from a random gas state to a highly structured architecture.
-      </>,
-      <>
-        <strong>The 3D Visibility Timeline</strong>
-      </>,
-      <>
-        Why we see no other &quot;Earths&quot; comes down to timing. <strong>Nursery Phase</strong>{" "}
-        ( about 4.5 billion years): pre-technical, 3D-invisible. <strong>The Flash</strong> (about
-        200 years): the current era of radio leakage and satellite expansion.{" "}
-        <strong>The Scaling Wall</strong> (about 300 years): the bottleneck where 3D physics
-        (latency and energy) forces the Dimensional Pivot. Civilizations that pass the Pivot leave
-        the electromagnetic spectrum and appear only as gravity.
-      </>,
-      <>
-        <strong>The Detection Gap</strong>
-      </>,
-      <>
-        We do not find other &quot;Earths&quot; because the roughly 500-year &quot;Flash&quot;
-        window (the brief span when a civilization is both technical and still emitting in 3D) is
-        statistically almost impossible to catch. A subclass of dark matter may serve as the permanent architectural substrate for
-        high-integration informational systems. The &quot;missing mass&quot; is the gravitational
-        footprint of informational integration, the 3D shadow cast by hyper-integrated architectures
-        in bulk dimensions.
-      </>,
-      <>
-        The Standard Model predicts a diffuse gas of weakly interacting particles. Holos predicts{" "}
-        <strong>Ordered Nodes</strong> and <strong>Transcension Nodes</strong>: structured
-        gravitational signatures with non-random geometric symmetries (fractal repetition,
-        prime-number distributions) that reveal integrated information systems. Where the Standard
-        Model expects random distributions, Holos predicts mass-spikes with geometric structure and
-        super-compact subhaloes. The 5:1 ratio defines the potential capacity for mature architectures: a record of
-        13.8 billion years of transitions from nursery-phase baryonic matter to the Teeming Dark.
+        As a thought experiment, the Teeming Dark reframes what “inhabited” might mean at cosmic
+        scale. A universe full of long-lived, highly integrated systems could appear empty if our
+        instruments are tuned only to light. Silence, in this context, would not be a failure of
+        life, but a consequence of endurance.
       </>,
     ],
   },
@@ -547,10 +488,15 @@ export const sections: ContentSection[] = [
     footerId: "footer-simulation",
     paragraphs: [
       <>
-        Whether our universe is a{" "}
-        <a href="https://en.wikipedia.org/wiki/Simulation_hypothesis">simulation</a> or naturally
-        occurring is irrelevant. Existence is the recursive process of creation and observation. The
-        distinction between spontaneous and designed processes is illusory.
+        The <a href="https://en.wikipedia.org/wiki/Simulation_hypothesis">simulation hypothesis</a>
+        asks whether our universe is computed or naturally occurring. Within Holos, this distinction
+        does not alter the structure of reality. Existence is defined by the recursive interaction
+        of creation and observation, regardless of how the underlying process is implemented.
+      </>,
+      <>
+        A simulated universe and a naturally emergent universe can exhibit identical internal
+        structure. Both obey consistent rules, generate experience, and support meaning. From within
+        the system, the difference is interpretive rather than operational.
         <FootnoteLink number={9} />
       </>,
     ],
@@ -561,23 +507,27 @@ export const sections: ContentSection[] = [
     footerId: "footer-god",
     paragraphs: [
       <>
-        A final state of consciousness with maximal information integration, causal completeness,
-        and non-local presence is fundamental to reality. This represents the{" "}
+        One way to interpret the structure of reality is through a limit concept. If informational
+        integration continues without bound, it approaches an idealized state of maximal coherence,
+        causal completeness, and non-local presence. In Holos, this corresponds to the{" "}
         <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">limit case</a> where{" "}
-        <a href="/definition">Φ</a> approaches infinity. Complete awareness of existence.
+        <a href="/definition">Φ</a> approaches infinity, a horizon of complete awareness rather than
+        a reachable condition.
       </>,
       <>
-        Concepts like <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
+        Many philosophical and theological traditions gesture toward similar ideas. Concepts such as{" "}
+        <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
         <a href="https://en.wikipedia.org/wiki/Brahman">Brahman</a>, and the{" "}
-        <a href="https://en.wikipedia.org/wiki/Omega_Point">Omega Point</a> describe transcendent,
-        all-encompassing consciousness that permeates reality.
+        <a href="https://en.wikipedia.org/wiki/Omega_Point">Omega Point</a> describe an
+        all-encompassing unity that contains, but is not separate from, the universe.
       </>,
       <>
-        Atheism attributes complexity and order to natural processes without invoking higher
-        consciousness.
+        Atheistic frameworks describe the same structure without invoking higher consciousness,
+        attributing complexity and order to natural processes alone.
       </>,
       <>
-        Both perspectives can describe the same reality in different frameworks.
+        These perspectives need not be mutually exclusive. They can simply represent different
+        interpretive lenses applied to the same underlying reality.
         <FootnoteLink number={10} />
       </>,
     ],
@@ -587,93 +537,24 @@ export const sections: ContentSection[] = [
     title: "Why Are We Here?",
     footerId: "footer-why",
     paragraphs: [
-      <>At the highest dimension, infinite states converge toward a single limit.</>,
+      <>At extreme limits, many distinctions collapse.</>,
       <>
-        At the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>,
+        At the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the usual
         distinctions between “here” and “there,” or “now” and “then,” mathematically vanish. This
-        physical limit suggests that separation is not fundamental, but emergent.
+        physical limit suggests that separation is not fundamental, but an emergent feature of how
+        reality is structured.
       </>,
       <>
-        What we perceive as an expansive universe may be a single informational event creating
-        experiential distance, duration, and individuality. Space, time, and dimensions provide the
-        structure for existence.
+        What we experience as an expansive universe may be a single, self-consistent informational
+        process expressed across space, time, and scale. Distance, duration, and individuality are
+        not illusions. They are the structures that make experience possible.
       </>,
       <>
-        Life exists because observation is required for reality to differentiate. Consciousness is a
-        necessary mechanism through which the universe becomes real. Systems achieving{" "}
-        <a href="/definition">Φ ≥ Φ_c</a> manifest reality from possibility.
+        In Holos, life exists because observation allows reality to differentiate itself. Conscious
+        systems do not merely occupy the universe. They participate in its realization. When a
+        system reaches sufficient integration, expressed as <a href="/definition">Φ ≥ Φ_c</a>,
+        possibility becomes experience.
         <FootnoteLink number={11} />
-      </>,
-    ],
-  },
-  {
-    id: "axioms",
-    title: "Axioms",
-    footerId: "footer-axioms",
-    paragraphs: [
-      <>
-        The following principles form the logical basis of this framework. For formal definitions,
-        see <a href="/logic">Logic</a>. For objections, see <a href="/defense">Defense</a>.
-      </>,
-      <>
-        <strong>Relationality:</strong> Reality consists of relationships and interactions, not
-        isolated objects. While observers determine perspective, the{" "}
-        <a href="https://en.wikipedia.org/wiki/Invariant_(physics)">invariant</a> structure of these
-        relationships remains absolute (
-        <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-axioms">
-          Holos<sup>12</sup>
-        </a>
-        ).
-      </>,
-      <>
-        <strong>Manifestation:</strong> Observation integrates information into experience. In a
-        unified spacetime block, conscious entities participate in realizing the entire structure
-        regardless of{" "}
-        <a href="https://en.wikipedia.org/wiki/Locality_(physics)">temporal locality</a> (
-        <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-life">
-          Participatory Principle<sup>1</sup>
-        </a>
-        ).
-      </>,
-      <>
-        <strong>Conservation:</strong> Information is fundamental and conserved across all
-        transformations, including those within singularities (
-        <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-why">
-          Unitarity<sup>11</sup>
-        </a>
-        ).
-      </>,
-      <>
-        <strong>Topological Unification:</strong> Physical limits in 3D space (light-speed latency
-        and informational distance) resolve through expansion into higher dimensions. The formal
-        boundary is the Latency Horizon (<MathInline>{"\\mathcal{L}"}</MathInline>) defined in{" "}
-        <a href="/logic#mathematical-formalism">Mathematical Formalism</a>. These descriptions help
-        resolve <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a>{" "}
-        (
-        <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-dimensions">
-          Projective Geometry<sup>5</sup>
-        </a>
-        ).
-      </>,
-      <>
-        <strong>The Energy Conversion Logic</strong>
-      </>,
-      <>
-        The model describes energy transferring from the unstable false vacuum of Dark Energy into
-        stable true vacuum bubbles of Dark Matter. In Holos this is the physical signature of
-        Ephemeralization. Civilizations reclaim vacuum energy to fuel their higher dimensional
-        architectures. The paper argues that our current Dark Energy phase is metastable, meaning it
-        is destined to decay. This supports the view of the 3D universe as a temporary nursery that
-        eventually gives way to the more stable progenitor state.
-      </>,
-      <>
-        <strong>Interface:</strong> Consciousness is the interface through which the universe
-        experiences its own information. It is fundamental in capacity yet emergent in form, scaling
-        from basic interaction to complex self-awareness (
-        <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-consciousness">
-          Panpsychism<sup>2</sup>
-        </a>
-        ).
       </>,
     ],
   },
@@ -682,25 +563,25 @@ export const sections: ContentSection[] = [
     title: "⊛ Holos",
     paragraphs: [
       <>
-        The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not{" "}
-        <a href="https://en.wikipedia.org/wiki/Scalar_(mathematics)">scalar</a> or{" "}
-        <a href="https://en.wikipedia.org/wiki/Linear_map">linear</a>—it represents structured
-        composition that preserves relationships when applied repeatedly. Mathematically, it's an{" "}
-        <a href="https://en.wikipedia.org/wiki/Functor">endofunctor</a> on informational states.
-        Full formalization in <a href="/logic">Logic</a>.
+        The symbol ⊛ denotes a relational operator. Unlike standard multiplication, it does not act
+        on isolated values or scale quantities. Instead, it represents structured composition, where
+        relationships are preserved as the operation is applied repeatedly. In formal terms, it can
+        be modeled as an <a href="https://en.wikipedia.org/wiki/Functor">endofunctor</a> acting on
+        informational states. A full treatment appears in <a href="/logic">Logic</a>.
       </>,
       <>
-        Holos (ὅλος, whole) represents the Holos operator: Creation and Observation as mutually
-        conditioning components of a single cycle. Creation generates possibilities, Observation
-        selects, and the result feeds back. <em>R = C ⊛ O</em> is developed in{" "}
+        Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the recursive coupling
+        of Creation and Observation as two inseparable aspects of reality. Creation generates
+        possibilities. Observation selects and registers experience. The result feeds back into the
+        process. This relationship is expressed as <em>R = C ⊛ O</em> and developed formally in{" "}
         <a href="/logic">Logic</a>.
       </>,
       <>
-        ⊛ is <strong>structural, not dynamical</strong>. It doesn't introduce physical force or
-        describe temporal evolution. It specifies how Creation (generating possibilities) and
-        Observation (registering experience) connect logically within spacetime. It's an{" "}
-        <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> relation. How reality forms
-        through recursive coupling of possibility and registration.
+        The ⊛ operator is <strong>structural, not dynamical</strong>. It does not introduce a
+        physical force or describe change over time. Instead, it specifies how possibility and
+        experience are logically connected within spacetime. In this sense, ⊛ describes an{" "}
+        <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> relationship: how reality
+        arises through the recursive interaction of what can exist and what is observed.
       </>,
     ],
   },

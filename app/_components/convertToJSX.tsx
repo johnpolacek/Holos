@@ -38,15 +38,15 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
     if (boldLinkStartMatch) {
       const linkText = boldLinkStartMatch[1];
       const afterBracket = remaining.slice(boldLinkStartMatch[0].length);
-      
+
       // Find the matching closing parenthesis for the URL
       let urlEnd = -1;
       let parenDepth = 1;
-      
+
       for (let i = 0; i < afterBracket.length; i++) {
-        if (afterBracket[i] === '(') {
+        if (afterBracket[i] === "(") {
           parenDepth++;
-        } else if (afterBracket[i] === ')') {
+        } else if (afterBracket[i] === ")") {
           parenDepth--;
           if (parenDepth === 0) {
             urlEnd = i;
@@ -54,9 +54,9 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
           }
         }
       }
-      
+
       // Check if the link is followed by ** to close the bold
-      if (urlEnd !== -1 && afterBracket.slice(urlEnd + 1).startsWith('**')) {
+      if (urlEnd !== -1 && afterBracket.slice(urlEnd + 1).startsWith("**")) {
         const url = afterBracket.slice(0, urlEnd);
         elements.push(
           <strong key={`bold-${keyIndex++}`}>
@@ -111,16 +111,16 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
     if (linkStartMatch) {
       const linkText = linkStartMatch[1];
       const afterBracket = remaining.slice(linkStartMatch[0].length);
-      
+
       // Find the matching closing parenthesis for the URL
       // Track depth to handle nested parentheses in URLs
       let urlEnd = -1;
       let parenDepth = 1; // Start at 1 because we're already inside the opening (
-      
+
       for (let i = 0; i < afterBracket.length; i++) {
-        if (afterBracket[i] === '(') {
+        if (afterBracket[i] === "(") {
           parenDepth++;
-        } else if (afterBracket[i] === ')') {
+        } else if (afterBracket[i] === ")") {
           parenDepth--;
           if (parenDepth === 0) {
             urlEnd = i;
@@ -128,7 +128,7 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
           }
         }
       }
-      
+
       if (urlEnd !== -1) {
         const url = afterBracket.slice(0, urlEnd);
         elements.push(
