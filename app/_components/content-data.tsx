@@ -22,13 +22,15 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Holos is an interpretive framework for understanding the nature of reality. It does not
-        propose new physical laws or challenge established laws of physics. Instead, it offers an
+        propose new physical laws or challenge established physics. Instead, it offers an
         explanation for how the universe described by physics becomes the universe we experience.
       </>,
       <>
-        At its core, Holos expresses this as <MathInline>R = C ⊛ O</MathInline> where reality arises
-        from the recursive composition of creation and observation. What follows explores this from
-        life and consciousness to the nature of our universe and beyond.
+        At its core, Holos expresses this as <MathInline>R = C ⊛ O</MathInline>. Creation generates
+        physical possibilities. Observation turns those possibilities into experience. Reality
+        arises from the recursive composition of creation and observation. What follows explores the
+        consequences of this idea, from life and consciousness to cosmology, structure, and the
+        ultimate limits of reality itself.
       </>,
     ],
   },
@@ -37,30 +39,31 @@ export const sections: ContentSection[] = [
     title: "The Meaning of Life",
     footerId: "footer-life",
     paragraphs: [
-      <>Life exists to create and observe. Reciprocal action between the two manifests reality.</>,
       <>
-        According to the{" "}
+        Life exists because reality requires observation. Physics describes how structures form and
+        evolve, but description alone does not constitute existence. A universe of equations and
+        spacetime histories is abstract unless something can register that it exists. Life is the
+        mechanism through which observation becomes possibl.
+      </>,
+      <>
+        This idea appears in several places across science and philosophy. The{" "}
         <a href="https://en.wikipedia.org/wiki/Anthropic_principle">
           Participatory Anthropic Principle
         </a>
-        , the universe is a &quot;self-excited circuit&quot; that requires observers to bring its
-        laws into existence.{" "}
-        <a href="https://en.wikipedia.org/wiki/Biocentrism_(ethics)">Biocentrism</a> posits that
-        biology is not a byproduct of the universe, but the force that organizes it.
-      </>,
-      <>
-        Mathematical description alone does not constitute existence. Physics explains structure,
-        but consciousness transforms abstract possibility into experienced reality. Reality requires
-        a witness.
-        <FootnoteLink number={1} />
+        suggests the universe is a “self-excited circuit” that requires observers to bring its laws
+        into existence. <a href="https://en.wikipedia.org/wiki/Biocentrism_(ethics)">Biocentrism</a>
+        , more controversially, argues that life is not a byproduct of the universe but a central
+        organizing feature. Holos does not claim biology causes the universe, but while observers do
+        not cause the universe, without them, there is no reality to speak of, only structure.
       </>,
       <>
         This participation is not bound by linear time. In an{" "}
-        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">
-          eternalist universe
-        </a>
-        , consciousness validates all moments equally. The early universe becomes real through the
-        observers it eventually produces.
+        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">eternalist</a> or
+        block-universe view, all spacetime events coexist geometrically. Observation does not
+        “happen later” in a causal sense. Instead, the observers a universe produces are what make
+        all moments real as experience. In that sense, the early universe becomes real through the
+        consciousness that eventually arises within it, closing the loop between creation and
+        observation.
       </>,
     ],
   },
@@ -70,21 +73,27 @@ export const sections: ContentSection[] = [
     footerId: "footer-consciousness",
     paragraphs: [
       <>
-        Consciousness is fundamental in capacity but emergent in complexity. Just as
-        electromagnetism exists everywhere but only produces meaningful signals when organized into
-        circuits, the capacity for experience is intrinsic to matter but scales into awareness
-        through integration. This integration is described by <a href="/definition">Φ (Phi)</a>,
-        which characterizes when a system maintains a coherent internal perspective.
+        Consciousness is not fundamental as a substance, but is fundamental as a condition. Physics
+        can generate structure, but structure alone does not produce observation. A system becomes
+        conscious when physical information is integrated tightly enough to form a single internal
+        state that can register itself as a whole.
       </>,
       <>
-        Systems with higher integration are more stable, expressive, and capable of sustaining
-        internal models over time. As a result, natural selection and technological evolution tend
-        to favor structures that increase Φ, not by intention, but because integrated systems
-        persist longer and do more with less energy.
+        This distinguishes integration from computation or recursion. Many systems process
+        information, model their environment, or even model themselves, yet nothing is experienced.
+        Integration marks the boundary where distributed processes stop behaving as independent
+        parts and instead function as a unified perspective. Below that boundary, there is no
+        experience at all. Above it, experience becomes unavoidable.
       </>,
       <>
-        Consciousness, in this view, converts physical structure into experienced reality. The
-        threshold at which this occurs is defined in <a href="/definition">Definition</a> as Φ.
+        Measures like Φ are useful because they track this transition empirically. When integration
+        in the brain is disrupted, such as under anesthesia, experience fragments or disappears.
+        When integration returns, unified experience returns with it. Holos does not claim that Φ
+        causes consciousness. It treats integration as the eligibility condition for observation.
+      </>,
+      <>
+        Consciousness is not what systems do. It is what happens when a system becomes capable of
+        witnessing reality from the inside.
         <FootnoteLink number={2} />
       </>,
     ],
@@ -95,21 +104,30 @@ export const sections: ContentSection[] = [
     footerId: "footer-universe",
     paragraphs: [
       <>
-        Our universe is described by the{" "}
-        <a href="https://en.wikipedia.org/wiki/Big_Bang">Big Bang</a> model, in which spacetime has
-        expanded from an extremely hot and dense early state. We experience three spatial dimensions
-        and move through time in one direction. Together, these form our{" "}
-        <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>. One way to understand this
-        structure is as a four-dimensional{" "}
-        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
-          block universe
-        </a>
-        , where all moments exist as part of a single geometric whole.
+        If consciousness depends on physical integration, then the structure of the universe is no
+        longer a neutral backdrop. It sets the conditions under which observers can exist at all.
+        Our universe is well described by the{" "}
+        <a href="https://en.wikipedia.org/wiki/Big_Bang">Big Bang</a> where spacetime expands from
+        an extremely hot and dense early state. We experience this as three spatial dimensions and
+        one temporal dimension, together forming{" "}
+        <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>.
       </>,
       <>
-        From this perspective, the Big Bang may be understood not as a moment of absolute creation,
-        but as a boundary within spacetime itself. This raises a natural question. Are there other
-        structures beyond this one?
+        One way to understand this is the{" "}
+        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
+          block universe view
+        </a>
+        , where all moments in time exist as part of a single four-dimensional geometry.
+      </>,
+      <>
+        From this perspective, the Big Bang is not a moment of absolute creation, but a boundary
+        within spacetime itself. If all histories already exist geometrically, then the role of
+        observation becomes sharper. Physics supplies the full structure, but not an explanation for
+        why it is registered as reality.
+      </>,
+      <>
+        This raises the next question. If spacetime is a complete geometric object, what is its
+        structure?
         <FootnoteLink number={3} />
       </>,
     ],
@@ -123,42 +141,41 @@ export const sections: ContentSection[] = [
         The structure of spacetime follows from a single counterintuitive fact: the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a> is invariant.
         Unlike any other speed, it remains constant regardless of the motion of the observer. This
-        invariance links space and time into a single geometric structure.
+        invariance links space and time into a single geometric structure and removes the idea of a
+        universal present.
       </>,
       <>
-        One consequence is the absence of a universal present. Events that are simultaneous for one
-        observer may not be for another. This motivates interpretations such as the{" "}
+        Events that are simultaneous for one observer may not be for another. It is from this
+        concept that leads to interpretations such as the{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
           block universe
         </a>
-        , where past, present, and future are treated as parts of a four-dimensional whole rather
-        than a sequence of absolute moments.
-      </>,
-      <>
-        The speed of light also sets a physical limit on how quickly information can be shared
-        across space. This creates a natural latency horizon for large-scale coordination. As
-        systems grow more complex, maintaining coherence through long-distance signaling becomes
-        increasingly inefficient. This pressure favors architectures that rely more on local
-        integration than global synchronization.
+        , where past, present, and future coexist as parts of a four-dimensional whole rather than
+        unfolding as absolute moments. In other words, time behaves less like a flow and more like a
+        dimension.
       </>,
       <>
         A useful boundary case is light itself. Along a photon’s trajectory, the{" "}
         <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero, and its path is
         described as a <a href="https://en.wikipedia.org/wiki/Null_geodesic">null geodesic</a>{" "}
-        connecting two spacetime events. This does not imply a physical frame of reference for the
-        photon, but it illustrates how spacetime geometry can collapse distance and duration without
-        violating causality.
+        connecting spacetime events. While this does not define a physical frame of reference, it
+        illustrates how spacetime geometry can collapse distance and duration without violating
+        <a href="https://en.wikipedia.org/wiki/Causality_(physics)">causality</a>.
       </>,
       <>
-        Experiments such as the{" "}
+        Quantum experiments such as the{" "}
         <a href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">
           delayed-choice quantum eraser
         </a>{" "}
-        highlight how quantum correlations are constrained by global consistency rather than simple
-        temporal order. Related thought experiments like{" "}
-        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> explore how
-        observation depends on perspective. Together, these ideas suggest that time in fundamental
-        physics is better understood as geometric structure than as a universal flow.
+        and thought experiments like{" "}
+        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a>
+        suggest that consistency in physics is enforced globally rather than by simple temporal
+        sequence of events. Together, these results suggest that spacetime, as we describe it, may
+        be an effective structure, but it is also incomplete.
+      </>,
+      <>
+        If coherence can outrun what four dimensions can support, additional descriptive frameworks
+        are required.
         <FootnoteLink number={4} />
       </>,
     ],
@@ -186,109 +203,40 @@ export const sections: ContentSection[] = [
     footerId: "footer-dimensions",
     paragraphs: [
       <>
-        We cannot directly observe higher dimensions, but they appear in several physical theories
-        as mathematical structures that help describe the behavior of our universe. In particular,
-        models that extend spacetime beyond three spatial dimensions are used to explore unification
-        problems in physics, including gravity and{" "}
-        <a href="https://en.wikipedia.org/wiki/Quantum_mechanics">quantum mechanics</a>.
+        Higher dimensions appear in physics not as additional places, but as mathematical structures
+        required to describe complex relationships. When systems become too interdependent to be
+        tracked within three spatial dimensions and one time dimension, higher-dimensional
+        descriptions become unavoidable. They describe how structure is organized, not where
+        anything goes.
       </>,
       <>
-        In these theories, additional dimensions are not separate places but constrained degrees of
-        freedom. They are{" "}
+        In many physical theories, additional dimensions are treated as constrained degrees of
+        freedom rather than extended space. They are{" "}
         <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a> or
-        hidden from direct observation, yet they influence the physical laws and constants we
-        observe. Higher dimensions describe structure, not destinations.
+        hidden from direct observation, yet they shape observable laws and constants.
       </>,
       <>
-        A useful analogy is projection. A three-dimensional object can cast a two-dimensional shadow
-        without leaving its original space. In the same way, the laws we experience in three
-        dimensions may reflect deeper geometric relationships that are not directly visible.
+        Higher dimensions are often imagined as places advanced systems might move into. That
+        interpretation mistakes description for location. We already exist within higher-dimensional
+        mathematical spaces. We simply interact with a restricted subset of them.
       </>,
       <>
-        <strong>The Projection Fallacy</strong>
+        As systems become more integrated, coherence depends less on spatial separation and more on
+        <a href="https://en.wikipedia.org/wiki/Principle_of_locality">local structure</a>. This can
+        be understood as structural reorientation rather than motion. Like modern circuit boards
+        stacking layers to shorten paths, integrated systems reduce effective distance without
+        violating physical limits. Causality,{" "}
+        <a href="https://en.wikipedia.org/wiki/Thermodynamics">thermodynamics</a>, and the speed of
+        light still apply.
       </>,
       <>
-        A common misunderstanding assumes that if higher dimensions exist, advanced civilizations
-        must move into them. This treats higher dimensions as locations rather than descriptions of
-        structure.
-      </>,
-      <>
-        We already exist in a higher-dimensional mathematical space. We simply interact with a
-        limited subset of it. A drawing on paper exists within three-dimensional space, but the
-        drawing itself only accesses the surface. Changing orientation does not require leaving the
-        room.
-      </>,
-      <>
-        In this sense, higher dimensions do not imply escape from spacetime. They describe
-        additional ways structure can be organized within it.
-      </>,
-      <>
-        <strong>Structural Reorientation</strong>
-      </>,
-      <>
-        Some speculative ideas describe advanced systems as “rotating” into higher dimensions. A
-        clearer way to understand this is <strong>structural reorientation</strong>, where a system
-        changes how its internal parts connect so coherence depends less on spatial separation and
-        more on local structure. In mathematics and physics, this is closer to concepts like
-        <a href="https://en.wikipedia.org/wiki/Embedding">embedding</a> and{" "}
-        <a href="https://en.wikipedia.org/wiki/Dimensional_reduction">dimensional reduction</a> than
-        to movement into a new space.
-      </>,
-      <>
-        A useful analogy is a circuit board. Early designs route signals across a flat surface.
-        Modern boards stack layers vertically, shortening paths without bypassing physical limits.
-        The system does not leave space. It becomes more compact and internally integrated.
-      </>,
-      <>
-        This does not remove causality or the speed of light. It reduces reliance on long-distance
-        coordination by shifting coherence toward local interactions, consistent with the{" "}
-        <a href="https://en.wikipedia.org/wiki/Principle_of_locality">Principle of Locality</a>. As
-        systems become more integrated, higher-dimensional descriptions become useful for tracking
-        how many local relationships must be maintained at once. These descriptions do not imply
-        infinite speed or global awareness. Any real system remains bound by energy limits,{" "}
-        <a href="https://en.wikipedia.org/wiki/Thermodynamics">thermodynamics</a>, and causal
-        structure. Higher dimensions describe how coherence scales, not how physical limits are
-        bypassed.
-      </>,
-      <>
-        <strong>The Speculative Frontier</strong>
-      </>,
-      <>
-        These ideas remain speculative. While higher-dimensional geometry is well developed
-        mathematically, we do not know whether advanced civilizations can engineer systems that
-        meaningfully exploit it. This framework outlines a possible evolutionary direction, not a
-        construction plan..
-      </>,
-      <>
-        Predictions related to this framework, including the possibility of Ordered Dark Matter as a
-        byproduct of extreme integration, are discussed in the{" "}
-        <strong>
-          <a href="/predictions">Predictions</a>
-        </strong>{" "}
-        section.
-      </>,
-      <>
-        As systems become more integrated, they require broader perspectives to describe their
-        coherence. In this sense, higher-dimensional observers are not external agents but limiting
-        viewpoints that emerge as structure deepens. They represent how reality appears when
-        relationships are considered together rather than sequentially, consistent with ideas of{" "}
-        <a href="https://en.wikipedia.org/wiki/Emergence">emergence</a> and{" "}
-        <a href="https://en.wikipedia.org/wiki/Self-organization">self-organization</a>.
-      </>,
-      <>
-        Light offers a useful boundary case. From within spacetime, photons transfer energy across
-        distance. Along a photon’s own trajectory, however, no time elapses, a consequence of{" "}
-        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> along a{" "}
-        <a href="https://en.wikipedia.org/wiki/Null_geodesic">null geodesic</a>. This does not imply
-        new physics, but it shows how perspective can collapse extension without violating physical
-        laws.
-      </>,
-      <>
-        <strong>Higher-dimensional observation</strong> becomes necessary as integration increases.
-        At the limit, this converges on an idealized observer where creation and observation
-        coincide. This is an <strong>asymptotic horizon</strong>, a conceptual limit rather than a
-        reachable state, consistent with the mathematical idea of an{" "}
-        <a href="https://en.wikipedia.org/wiki/Asymptote">asymptote</a>.
+        From this perspective, higher-dimensional observation becomes necessary as integration
+        increases. It is not an external viewpoint, but a limiting description that emerges when
+        many relationships must be considered simultaneously rather than sequentially. At the
+        extreme limit, this converges on an idealized observer where creation and observation
+        coincide. This limit is <a href="https://en.wikipedia.org/wiki/Asymptote">asymptotic</a>,
+        not reachable, and marks the boundary where further structural distinction ceases to be
+        meaningful.
         <FootnoteLink number={5} />
       </>,
     ],
@@ -299,18 +247,26 @@ export const sections: ContentSection[] = [
     footerId: "footer-infinity",
     paragraphs: [
       <>
-        In <a href="https://en.wikipedia.org/wiki/Projective_geometry">projective geometry</a>,
-        parallel lines intersect at a point at infinity. This does not make infinity finite, but it
-        allows infinite extension to be represented within a bounded structure. In this sense,
-        higher-dimensional descriptions can encode unbounded relationships without requiring
-        unbounded space.
+        Infinity does not usually appear because reality is infinite, but because a representation
+        has broken down. In
+        <a href="https://en.wikipedia.org/wiki/Projective_geometry">projective geometry</a>,
+        parallel lines intersect at a point at infinity, not because infinity has been made finite,
+        but because unbounded extension can be encoded within a closed structure. Infinity marks the
+        edge of a descriptive framework, where additional structure is required to preserve
+        coherence.
       </>,
       <>
-        Light offers a physical analogy. Along a photon’s path, the{" "}
-        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero, so emission and
-        absorption are connected without duration. Distance is not eliminated, but it is compressed
-        by perspective. As beings who experience time, we already use a higher dimension to organize
-        three-dimensional space.
+        The same idea appears in physics. Light provides a useful boundary case. Along a photon’s
+        trajectory, the <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero,
+        so emission and absorption are connected without duration. Distance is not removed, but it
+        collapses under a different perspective. From within spacetime, light traverses distance.
+        From the limit of its path, extension disappears. This does not violate physics, but it
+        shows how infinities can arise from perspective rather than substance.
+      </>,
+      <>
+        From the Holos perspective, infinities appear as warnings, not features. Resolving them
+        requires either additional structure or a boundary that enforces consistency. In physics,
+        those boundaries are not abstract. They appear as real, measurable limits.
         <FootnoteLink number={6} />
       </>,
     ],
@@ -321,19 +277,26 @@ export const sections: ContentSection[] = [
     footerId: "footer-blackholes",
     paragraphs: [
       <>
-        Black holes are regions of spacetime where gravity is so strong that not even light can
-        escape. At their centers, current physical theories predict singularities, signaling limits
-        in our understanding rather than confirmed physical infinities. In this sense, black holes
-        compress extreme structure into finite regions.
+        Black holes are regions of spacetime where gravity becomes so strong not even light can
+        escape. At their cores, classical physics predicts singularities, which are best understood
+        not as literal infinities, but as signals that a description has failed. In this sense,
+        black holes compress extreme structure into finite regions and expose the limits of
+        spacetime as a representational framework.
       </>,
       <>
-        While classical physics once suggested that information falling into a black hole is lost,
-        modern approaches challenge this view. The{" "}
-        <a href="https://en.wikipedia.org/wiki/Holographic_principle">holographic principle</a>{" "}
+        Modern physics suggests that information is not destroyed by black holes, but reorganized.
+        The <a href="https://en.wikipedia.org/wiki/Holographic_principle">holographic principle</a>{" "}
         proposes that all information contained within a volume can be represented on its boundary,
-        such as the two-dimensional <a href="#footer-blackholes">event horizon</a>. This reframes
-        black holes not as sinks of information, but as limits where geometry, information, and
-        observation converge.
+        such as the <a href="#footer-blackholes">event horizon</a>. Black holes are not just objects
+        in spacetime, but boundaries where projection collapses and structure must be encoded
+        differently.
+      </>,
+      <>
+        From the perspective of Holos, black holes show that when integration and density exceed
+        what spacetime can support, structure is compressed rather than allowed to diverge. This
+        establishes a physical precedent for the idea that highly integrated systems leave fewer
+        visible signatures. As integration increases, outward expression diminishes. What remains is
+        compact, dense, and less detectable.
         <FootnoteLink number={7} />
       </>,
     ],
@@ -346,43 +309,45 @@ export const sections: ContentSection[] = [
       <>
         The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> asks why we have
         not detected extraterrestrial civilizations despite the vast size and age of the universe.
-        Rather than rarity alone or universal catastrophe, this silence is explained by a{" "}
-        <strong>selection effect</strong>. Civilizations that persist become quieter, more
-        efficient, and less externally visible over time.
       </>,
       <>
-        This explanation is referred to here as the <strong>Integration Hypothesis</strong>.
+        We often assume that as civilizations advance, they expand outward, build megastructures and
+        become increasingly visible. But what if the opposite is true? What if advancement favors
+        integration, using smaller, denser substrates rather than galaxy-scale infrastructure, and
+        reducing energy loss as systems approach thermodynamic limits.
       </>,
       <>
-        Early technological civilizations are likely to emit radio signals, reshape their
-        environments, and experiment with spaceflight. This phase is brief on cosmic timescales.
-        Traditional SETI efforts focus almost entirely on this window, when detection is easiest but
-        overlap between civilizations is unlikely.
+        In this case, progress would make civilizations less detectable, and this explanation is
+        referred to here as the <strong>Integration Hypothesis</strong>.
       </>,
       <>
-        As technology advances, pressures favor <strong>informational integration</strong> rather
-        than outward expansion. Systems that minimize energy waste, reduce long-distance
-        coordination, and rely on local structure are more stable. Visibility decreases not because
-        civilizations are hiding, but because inefficiency is selected against. This progressive
-        reduction in external signals is referred to as <strong>Visibility Collapse</strong>.
+        While early technological civilizations are likely to emit radio signals, reshape their
+        environments, and experiment with spaceflight, this phase is brief on cosmic timescales.
+        SETI efforts focus almost entirely on this window, when detection is easiest but overlap
+        between civilizations is unlikely if the Integration Hypothesis is correct.
       </>,
       <>
-        Large-scale interstellar expansion faces a fundamental constraint. The finite{" "}
-        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a> introduces growing
-        latency between distant regions. Maintaining coherence across light-years is costly and
-        fragile. Expansion will produce fragmented descendants rather than a unified intelligence.
-        There is no stable path to a galaxy-spanning civilization that remains tightly integrated.
+        As technology advances, pressures favor informational integration over outward expansion.
+        Systems that minimize energy waste, reduce long-distance coordination, and rely on dense
+        local structure are more stable. Visibility decreases not because civilizations are hiding,
+        but because inefficiency is selected against. This progressive reduction in external
+        signatures is referred to as <strong>Visibility Collapse</strong>.
+      </>,
+      <>
+        Large-scale interstellar expansion is constrained by the{" "}
+        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, introducing
+        growing latency as distances increase. Expansion produces fragmented descendants rather than
+        a unified intelligence. There is no stable path to a galaxy-spanning civilization.
       </>,
       <>
         The long-lived outcome is not stagnation but inward growth. Civilizations continue to
-        develop by deepening internal structure. Computation, coordination, and meaning concentrate
-        locally.
+        advance, but by deepening internal structure. Computation, coordination, and meaning
+        concentrate locally. Exploration does not stop, but it becomes distributed rather than
+        centralized. Communication to distant technology or other civilizations is highly
+        directional and compressed, thus very hard to detect.
       </>,
       <>
-        This explains the silence without requiring intent or concealment. Even civilizations that
-        explore extensively can do so quietly, using small probes, passive observation, and
-        patience. Exploration does not require communication, and communication offers diminishing
-        returns as integration increases.
+        The result is a universe that is full of life, but quiet to pre-integrated observers.
         <FootnoteLink number={8} />
       </>,
     ],
@@ -392,18 +357,17 @@ export const sections: ContentSection[] = [
     title: "The Teeming Dark: An Interpretive Thought Experiment",
     paragraphs: [
       <>
-        The absence of visible extraterrestrial civilizations is often described as{" "}
-        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">the Eerie Silence</a>. One way to
+        The absence of visible extraterrestrial civilizations is often described as the{" "}
+        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">Eerie Silence</a>. One way to
         account for this silence is through selection effects and informational integration, as
         proposed by the <strong>Integration Hypothesis</strong>.
       </>,
       <>How far can we take this concept of structural integration in a thought experiment?</>,
       <>
-        The thought experiment begins with a simple question. If complex systems tend to persist by
-        reducing energy loss and external projection, what would extremely mature forms of
-        organization look like from the outside? If integration continues beyond the phase where
-        electromagnetic signaling is useful, the most stable outcomes may no longer announce
-        themselves in ways we are accustomed to detecting.
+        The thought experiment begins with a simple question. If complex systems persist by reducing
+        energy loss and external projection, what would extremely mature forms of organization look
+        like from the outside? If integration continues beyond the phase where electromagnetic
+        signaling is useful, where can they be found?
       </>,
       <>
         In this view, three-dimensional spacetime can be understood as a developmental environment
