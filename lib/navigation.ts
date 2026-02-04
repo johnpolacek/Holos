@@ -85,8 +85,8 @@ export const trajectorySubsections: Subsection[] = [
 
 export const sections: Section[] = [
   { id: "overview", title: "Overview", path: "/", subsections: theorySubsections },
-  { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
   { id: "core", title: "Core", path: "/core", subsections: coreSubsections },
+  { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
   {
     id: "definition",
     title: "Definition",
