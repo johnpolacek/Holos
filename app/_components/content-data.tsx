@@ -376,28 +376,27 @@ export const sections: ContentSection[] = [
         naturally coincide with silence.
       </>,
       <>
-        The universe is dominated by{" "}
+        The “Teeming Dark” is a name for the possibility that silence and an abundance of life
+        coexist.
+      </>,
+      <>
+        To explore this, consider{" "}
         <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a>, a form of mass that
-        does not emit light but shapes cosmic structure through gravity. Whatever its underlying
-        nature, dark matter is cold, persistent, and largely invisible to electromagnetic
-        observation. It is so common that its ratio to visible baryonic matter is approximately 5:1.
+        does not emit light but shapes cosmic structure through gravity. It is cold, persistent, and
+        largely invisible to electromagnetic observation. Its abundance exceeds that of visible
+        matter by roughly a factor of five.
       </>,
       <>
-        The Eerie Silence is unsettling because we would not expect to be alone. On the contrary, we
-        would expect to exist within a universe rich in intelligence.
-      </>,
-      <>The Teeming Dark is a name for the possibility that both expectations are true.</>,
-      <>
-        To explore this possibility, consider a distinction between two conceptual regimes of dark
-        matter. The first is <strong>primordial dark matter</strong>, the diffuse, collisionless
-        component that emerged in the early universe and provided the gravitational scaffolding for
-        galaxy formation. In standard cosmology, this component remains largely unchanged over time.
+        To further speculate, we can propose two categories of dark matter. The first is{" "}
+        <strong>primordial dark matter</strong>, the more commonly understood diffuse, collisionless
+        component that emerged in the early universe and provided scaffolding for galaxy formation.
+        It remains largely unchanged over time.
       </>,
       <>
-        A second, purely hypothetical category can be introduced for the sake of the thought
-        experiment: <strong>ordered dark matter</strong>. This does not refer to a new particle or a
-        revised cosmological model, but to the idea that structure without electromagnetic emission
-        could, in principle, become more spatially organized over cosmic time.
+        A second, purely hypothetical category can be introduced:{" "}
+        <strong>ordered dark matter</strong>. This does not refer to a new particle or a revised
+        cosmological model, but to the idea that structure without electromagnetic emission could,
+        in principle, become more spatially organized over cosmic timescales.
       </>,
       <>
         If integration favors persistence, then the most enduring large-scale structures would be
@@ -405,14 +404,14 @@ export const sections: ContentSection[] = [
         perspective, such structures would appear dark, cold, and inert, even if internally complex.
       </>,
       <>
-        This raises a natural observational question. Do all dark matter halos remain smooth and
-        diffuse indefinitely, as simple collisionless models suggest, or could some halos exhibit
-        increasing granularity or concentration over time? Current models predict smooth profiles,
-        such as{" "}
+        This framing raises a natural observational question. Do all dark matter halos remain smooth
+        and diffuse indefinitely, as simple collisionless models suggest, or could some halos
+        exhibit increasing granularity or concentration over time? Standard models predict smooth
+        profiles, such as{" "}
         <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
           NFW profiles
         </a>
-        , but real galaxies show deviations that are still actively studied.
+        , yet real galaxies show deviations that remain actively studied.
       </>,
       <>
         Recent high-resolution surveys, including deep-field observations with the{" "}
@@ -420,7 +419,7 @@ export const sections: ContentSection[] = [
           James Webb Space Telescope
         </a>
         , have revealed small-scale structure in galactic mass distributions that is not yet fully
-        understood. Standard explanations include baryonic feedback, mergers, and measurement
+        understood. Conventional explanations include baryonic feedback, mergers, and measurement
         limits. The Teeming Dark asks a different question. If long-lived integration leaves
         gravitational traces, what would those traces look like?
       </>,
@@ -435,14 +434,14 @@ export const sections: ContentSection[] = [
         it claim to explain phenomena such as the{" "}
         <a href="https://en.wikipedia.org/wiki/Hubble_tension">Hubble tension</a>. Instead, it
         highlights a possibility. If the universe has evolved toward increasing internal structure
-        at multiple scales, then some discrepancies may reflect limits of our assumptions rather
+        at multiple scales, then some discrepancies may reflect limits in our assumptions rather
         than errors in measurement.
       </>,
       <>
         As a thought experiment, the Teeming Dark reframes what “inhabited” might mean at cosmic
-        scale. A universe full of long-lived, highly integrated systems could appear empty if our
-        instruments are tuned only to light. Silence, in this context, would not be a failure of
-        life, but a consequence of endurance.
+        scale. A universe rich in long-lived, highly integrated systems could appear empty if our
+        instruments are tuned only to light. Silence, in this context, would not signal absence, but
+        endurance.
       </>,
     ],
   },
