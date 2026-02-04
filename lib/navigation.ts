@@ -62,6 +62,7 @@ export const defenseSubsections: Subsection[] = [
 ];
 
 export const predictionsSubsections: Subsection[] = [
+  { id: "comparison", title: "Comparison" },
   { id: "primary-prediction", title: "Primary" },
   { id: "secondary-predictions", title: "Secondary" },
   { id: "tertiary-prediction", title: "Tertiary" },

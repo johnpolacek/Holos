@@ -11,7 +11,7 @@ export default function Trajectory() {
         </p>
         <p className="leading-relaxed">
           It does not assume faster-than-light communication. Under known physics, contact across
-          interstellar distances is limited by the{" "}
+          interstellar distances is constrained by the{" "}
           <a
             href="https://en.wikipedia.org/wiki/Speed_of_light"
             target="_blank"
@@ -20,8 +20,8 @@ export default function Trajectory() {
           >
             speed of light
           </a>
-          . If mature civilizations exist, they are likely to communicate in slow, durable, and
-          mostly asynchronous ways.
+          . If mature civilizations exist, interaction is likely to be slow, durable, and largely
+          asynchronous rather than conversational.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function Trajectory() {
           >
             SETI
           </a>{" "}
-          searches, not because it is typical, but because it is briefly observable.
+          searches—not because it is representative, but because it is briefly observable.
         </p>
         <p className="leading-relaxed text-black/80">
           In cosmic terms, Signal Emergence is extremely short. Even if technological civilizations
@@ -80,21 +80,21 @@ export default function Trajectory() {
         <p className="leading-relaxed text-black/80">
           As systems grow more complex, pressures favor integration over expansion. Energy
           efficiency, stability, and coherence become more important than reach or visibility.
-          Communication becomes directional, compressed, and eventually minimal.
+          Communication becomes directional, compressed, and increasingly local.
         </p>
         <p className="leading-relaxed text-black/80">
           Infrastructure increasingly embeds intelligence directly into physical structure.
           Computation, memory, and feedback become tightly coupled. Many problems that once required
-          constant signaling shift toward designs that enforce stability locally.
+          continuous signaling shift toward architectures that enforce stability internally.
         </p>
         <p className="leading-relaxed text-black/80">
           From the outside, capability increases while emissions decrease. This is the onset of{" "}
           <strong>Visibility Collapse</strong>.
         </p>
         <p className="leading-relaxed text-black/80">
-          At interstellar scales, the speed of light becomes a practical limit on any centralized
-          intelligence. Instead of building a single mind spread across light-years, expansion tends
-          to produce independent branches. Coordination becomes expensive, fragile, and slow.
+          At interstellar scales, the speed of light imposes a hard coherence limit. Attempting to
+          maintain a single integrated intelligence across light-years becomes fragile and
+          inefficient. Expansion therefore favors autonomy over centralization.
         </p>
       </section>
 
@@ -105,22 +105,28 @@ export default function Trajectory() {
         </h2>
         <p className="leading-relaxed text-black/80">
           In the long-lived state, the civilization does not stop advancing. It becomes quieter and
-          more compact. Ambition shifts away from loud outward sprawl and toward integration,
-          resilience, and long time-horizon stability.
+          more compact. Ambition shifts away from outward sprawl and toward integration, resilience,
+          and long time-horizon stability.
         </p>
         <p className="leading-relaxed text-black/80">
-          Exploration continues, but it becomes distributed. Probes, automation, and passive
-          observation can map and study the galaxy without continuous broadcasting or centralized
-          control across light-years.
+          Exploration continues, but it is distributed rather than centralized. Probes, automation,
+          and passive observation map and study the galaxy without persistent broadcasting or
+          real-time coordination across light-years.
         </p>
         <p className="leading-relaxed text-black/80">
-          Contact, if it happens, is highly directional, narrow bandwidth and rare. Mature
-          civilizations can exchange archives, trade models, reference frames, and compressed
-          descriptions of how they think with other mature civilizations.
+          Contact, if it occurs, is rare and non-conversational. Civilizations exchange archives:
+          compressed models, reference frames, and durable descriptions of how they organize
+          knowledge. With sufficiently strong models, meaningful understanding does not require
+          rapid back-and-forth.
         </p>
         <p className="leading-relaxed text-black/80">
           From the outside, detectable emissions have collapsed. The system has not disappeared. It
-          simply has no need to project itself.
+          simply no longer projects in ways optimized for being noticed.
+        </p>
+        <p className="leading-relaxed text-black/80">
+          Quiet Maturity is not an endpoint but an attractor. Beyond it, civilizations may continue
+          to refine integration, coherence, and internal modeling beyond the limits of external
+          description.
         </p>
       </section>
     </div>
