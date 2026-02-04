@@ -185,7 +185,7 @@ export const sections: ContentSection[] = [
     title: "A Note on Extrapolation",
     paragraphs: [
       <>
-        The sections that follow (Higher Dimensions, Black Holes, Aliens, Simulation Theory, God)
+        The sections that follow (Higher Dimensions, Black Holes, Aliens, God, Why Are We Here?)
         extend beyond established physics into interpretation. They are not claims of new physical
         laws, but reasoned extrapolations constrained by the <a href="/logic">Holos axioms</a>.
         Their purpose is to explore the space of possibilities that emerges when observation,
@@ -443,25 +443,6 @@ export const sections: ContentSection[] = [
         scale. A universe full of long-lived, highly integrated systems could appear empty if our
         instruments are tuned only to light. Silence, in this context, would not be a failure of
         life, but a consequence of endurance.
-      </>,
-    ],
-  },
-  {
-    id: "simulation",
-    title: "Simulation",
-    footerId: "footer-simulation",
-    paragraphs: [
-      <>
-        The <a href="https://en.wikipedia.org/wiki/Simulation_hypothesis">simulation hypothesis</a>
-        asks whether our universe is computed or naturally occurring. Within Holos, this distinction
-        does not alter the structure of reality. Existence is defined by the recursive interaction
-        of creation and observation, regardless of how the underlying process is implemented.
-      </>,
-      <>
-        A simulated universe and a naturally emergent universe can exhibit identical internal
-        structure. Both obey consistent rules, generate experience, and support meaning. From within
-        the system, the difference is interpretive rather than operational.
-        <FootnoteLink number={9} />
       </>,
     ],
   },

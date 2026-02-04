@@ -15,7 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "#infinity",
     "#black-holes",
     "#aliens",
-    "#simulation",
     "#god",
     "#why",
     "#holos",
