@@ -452,32 +452,53 @@ export const sections: ContentSection[] = [
     ],
   },
   {
-    id: "god",
-    title: "God",
-    footerId: "footer-god",
+    id: "omega-point",
+    title: "The Omega Point",
+    footerId: "footer-omega",
     paragraphs: [
       <>
         One way to interpret the structure of reality is through a limit concept. If informational
         integration continues without bound, it approaches an idealized state of maximal coherence,
-        causal completeness, and non-local presence. In Holos, this corresponds to the{" "}
-        <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">limit case</a> where{" "}
-        <a href="/definition">Φ</a> approaches infinity, a horizon of complete awareness rather than
-        a reachable condition.
+        causal closure, and internal consistency. In Holos, this corresponds to an{" "}
+        <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">asymptotic limit</a>, not a
+        physical destination, but a horizon toward which integration tends.
       </>,
       <>
-        Many philosophical and theological traditions gesture toward similar ideas. Concepts such as{" "}
+        At this limit, the distinction between creation and observation collapses. Nothing remains
+        external to be registered, and nothing remains unintegrated. This is not a state that can be
+        reached by any finite system, but a boundary condition that completes the recursive loop
+        between what exists and what is experienced.
+      </>,
+      <>
+        In this sense, the Omega Point is not an agent and does not act on the universe. It is a
+        structural completion. It represents the limit where reality is fully self-consistent, with
+        no remaining separation between possibility and experience.
+      </>,
+      <>
+        Historically, many philosophical and theological traditions have gestured toward similar
+        limit concepts. Ideas such as{" "}
         <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
         <a href="https://en.wikipedia.org/wiki/Brahman">Brahman</a>, and the{" "}
         <a href="https://en.wikipedia.org/wiki/Omega_Point">Omega Point</a> describe an
-        all-encompassing unity that contains, but is not separate from, the universe.
+        all-encompassing unity that contains the universe without standing apart from it. While
+        their languages differ, they converge on the idea of a maximal, self-complete whole.
       </>,
       <>
-        Atheistic frameworks describe the same structure without invoking higher consciousness,
-        attributing complexity and order to natural processes alone.
+        In religious traditions, this limit is often named “God.” In Holos, the term does not imply
+        intention, intervention, or design. It names the same asymptotic structure described in
+        secular terms: the point at which reality is fully integrated and nothing remains outside
+        the system.
       </>,
       <>
-        These perspectives need not be mutually exclusive. They can simply represent different
-        interpretive lenses applied to the same underlying reality.
+        Atheistic interpretations describe the same limit without invoking divinity, attributing the
+        emergence of global coherence to natural processes alone. From this perspective, the Omega
+        Point is not consciousness acting on reality, but the inevitable structural consequence of
+        unbounded integration.
+      </>,
+      <>
+        These interpretations are not mutually exclusive. They represent different lenses applied to
+        the same underlying claim: that reality, at its limit, forms a unified whole where creation
+        and observation are no longer distinct.
         <FootnoteLink number={10} />
       </>,
     ],

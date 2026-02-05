@@ -15,7 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "#infinity",
     "#black-holes",
     "#aliens",
-    "#god",
+    "#the-teeming-dark",
+    "#omega-point",
     "#why",
     "#holos",
   ];

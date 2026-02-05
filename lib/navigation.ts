@@ -22,7 +22,7 @@ export const theorySubsections: Subsection[] = [
   { id: "black-holes", title: "Black Holes" },
   { id: "aliens", title: "Aliens" },
   { id: "the-teeming-dark", title: "The Teeming Dark" },
-  { id: "god", title: "God" },
+  { id: "omega-point", title: "The Omega Point" },
   { id: "why", title: "Why?" },
   { id: "holos", title: "Holos" },
 ];
