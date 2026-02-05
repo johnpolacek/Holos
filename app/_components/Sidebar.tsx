@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
-  coreSubsections,
   defenseSubsections,
   definitionSubsections,
   logicSubsections,
@@ -19,7 +18,6 @@ export default function Sidebar() {
 
   // Check if we're on the theory page (home page)
   const isTheoryPage = pathname === "/" || pathname === "/theory";
-  const isCorePage = pathname === "/core";
   const isLogicPage = pathname === "/logic";
   const isDefensePage = pathname === "/defense";
   const isDefinitionPage = pathname === "/definition";
@@ -125,23 +123,6 @@ export default function Sidebar() {
                     ) : (
                       <a href={getLink(`#${subsection.id}`)}>{subsection.title}</a>
                     )}
-                  </li>
-                ))}
-              </div>
-            )}
-            <li className="mt-2">
-              <Link
-                className={`text-lg font-medium ${isCorePage ? "opacity-100" : "opacity-60"}`}
-                href="/core"
-              >
-                Core
-              </Link>
-            </li>
-            {isCorePage && (
-              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
-                {coreSubsections.map((subsection) => (
-                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
-                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
                   </li>
                 ))}
               </div>

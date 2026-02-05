@@ -28,7 +28,7 @@ export default function Trajectory() {
       <hr className="border-black/20 border-dashed" />
 
       {/* Phase 0 */}
-      <section className="flex flex-col gap-6">
+      <section id="phase-0" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 0: Pre-Visibility (≈ 4.5 billion years to ~1900)
         </h2>
@@ -44,7 +44,7 @@ export default function Trajectory() {
       </section>
 
       {/* Phase 1 */}
-      <section className="flex flex-col gap-6">
+      <section id="phase-1" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 1: Signal Emergence (~1900–2200)
         </h2>
@@ -73,7 +73,7 @@ export default function Trajectory() {
       </section>
 
       {/* Phase 2 */}
-      <section className="flex flex-col gap-6">
+      <section id="phase-2" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 2: Integration Shift (~2100–2400)
         </h2>
@@ -99,7 +99,7 @@ export default function Trajectory() {
       </section>
 
       {/* Phase 3 */}
-      <section className="flex flex-col gap-6">
+      <section id="phase-3" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Phase 3: Quiet Maturity (~2300 and beyond)
         </h2>

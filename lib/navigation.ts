@@ -27,12 +27,9 @@ export const theorySubsections: Subsection[] = [
   { id: "holos", title: "Holos" },
 ];
 
-export const coreSubsections: Subsection[] = [
+export const logicSubsections: Subsection[] = [
   { id: "minimal-core", title: "Minimal Core" },
   { id: "operational-definition", title: "Operational Definition" },
-];
-
-export const logicSubsections: Subsection[] = [
   { id: "primitive-definitions", title: "Primitives" },
   { id: "logic-axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundations" },
@@ -74,18 +71,14 @@ export const predictionsSubsections: Subsection[] = [
 ];
 
 export const trajectorySubsections: Subsection[] = [
-  { id: "phase-0", title: "Phase 0: The Silent Time" },
-  { id: "phase-1", title: "Phase 1: The Flash" },
-  { id: "phase-2", title: "Phase 2: Integration Ascent" },
-  { id: "phase-3", title: "Phase 3: Jupiter Brain" },
-  { id: "phase-4", title: "Phase 4: Scaling Wall" },
-  { id: "phase-5", title: "Phase 5: Dimensional Pivot" },
-  { id: "teeming-dark-final-state", title: "The Teeming Dark" },
+  { id: "phase-0", title: "Phase 0: Pre-Visibility" },
+  { id: "phase-1", title: "Phase 1: Signal Emergence" },
+  { id: "phase-2", title: "Phase 2: Integration Shift" },
+  { id: "phase-3", title: "Phase 3: Quiet Maturity" },
 ];
 
 export const sections: Section[] = [
   { id: "overview", title: "Overview", path: "/", subsections: theorySubsections },
-  { id: "core", title: "Core", path: "/core", subsections: coreSubsections },
   { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
   {
     id: "definition",
