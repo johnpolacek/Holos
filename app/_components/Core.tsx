@@ -13,7 +13,7 @@ export default function Core() {
 
         <div className="flex flex-col gap-3 text-black/80">
           <p className="leading-relaxed">• Information exists only through relations.</p>
-          <p className="leading-relaxed">• Observation completes reality as lived experience.</p>
+          <p className="leading-relaxed">• Observation actualizes reality as experience.</p>
           <p className="leading-relaxed">
             • Information is conserved. It is transformed, not erased.
           </p>
@@ -21,7 +21,7 @@ export default function Core() {
             • Higher perspectives resolve bottlenecks that look infinite from below.
           </p>
           <p className="leading-relaxed">
-            • Consciousness is where information becomes experience.
+            • Consciousness is the boundary where integrated information becomes experience.
           </p>
           <p className="leading-relaxed pt-2">
             Everything else in Holos is an attempt to spell these out carefully.
@@ -38,8 +38,8 @@ export default function Core() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos treats reality as a coupling between what the world can become and what is
-            actually experienced.
+            Holos treats reality as the coupling between what physics allows and what is actually
+            experienced.
           </p>
 
           <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
@@ -52,22 +52,23 @@ export default function Core() {
               possibilities.
             </li>
             <li className="leading-relaxed">
-              <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) is the integration of
-              information into experience. In Holos this requires{" "}
+              <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) is when a system
+              integrates information into a coherent internal perspective. In Holos this requires{" "}
               <MathInline>{"Φ ≥ Φ_c"}</MathInline>.
             </li>
             <li className="leading-relaxed">
-              <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) is the world as lived.
+              <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) is the recursive coupling of
+              physical possibility and observation.
             </li>
             <li className="leading-relaxed">
-              <strong>⊛</strong> denotes structured composition. It says these are linked, not that
-              one breaks physics or adds a new force.
+              <strong>⊛</strong> denotes structured composition. It links creation and observation
+              without adding a new force or changing the equations of physics.
             </li>
           </ul>
 
           <p className="leading-relaxed pt-2">
-            This is a structural claim about how experience fits into the whole picture. It is not a
-            new dynamical law.
+            This is a structural claim about how experience fits into the picture. It is not a new
+            dynamical law.
           </p>
         </div>
       </section>
