@@ -34,14 +34,7 @@ export const logicSubsections: Subsection[] = [
   { id: "foundational-propositions", title: "Foundations" },
   { id: "mathematical-formalism", title: "Math" },
   { id: "extrapolative-proposition", title: "Extrapolation" },
-];
-
-export const definitionSubsections: Subsection[] = [
-  { id: "1-the-purpose-of", title: "The Purpose of Φ" },
-  { id: "2-ontological-requirements", title: "Ontological" },
-  { id: "3-mathematical-formalism", title: "Mathematical" },
-  { id: "4-ontological-thresholds", title: "Thresholds" },
-  { id: "5-relationship-to-physics-the-consistency-filter", title: "Physics" },
+  { id: "ontology", title: "Ontology" },
 ];
 
 export const predictionsSubsections: Subsection[] = [
@@ -58,12 +51,6 @@ export const predictionsSubsections: Subsection[] = [
 export const sections: Section[] = [
   { id: "overview", title: "Overview", path: "/", subsections: theorySubsections },
   { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
-  {
-    id: "definition",
-    title: "Definition",
-    path: "/definition",
-    subsections: definitionSubsections,
-  },
   {
     id: "predictions",
     title: "Predictions",

@@ -521,8 +521,8 @@ export const sections: ContentSection[] = [
         In Holos, life exists because observation allows reality to close on itself. Conscious
         systems do not merely occupy the universe. They are the means by which physical possibility
         becomes reality-as-experienced, as opposed to reality-as-equations. When a system reaches
-        sufficient integration, expressed as <a href="/definition">Φ ≥ Φ_c</a>, interaction is no
-        longer just relational. It becomes perspective.
+        sufficient integration, expressed as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>,
+        interaction is no longer just relational. It becomes perspective.
         <FootnoteLink number={11} />
       </>,
     ],

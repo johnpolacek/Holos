@@ -36,8 +36,8 @@ export default function Predictions() {
           registration by systems that meet the threshold <MathInline>{"Φ \\ge Φ_c"}</MathInline>.
           These predictions follow from the axioms and serve as consistency checks rather than new
           physical laws. For the formal operational definition, see the{" "}
-          <a href="/logic#phi-operationalization">Logic</a> section. For the definition of Φ, see{" "}
-          <a href="/definition">Definition</a>.
+          <a href="/logic#operational-definition">Logic</a> section. For the definition of Φ, see{" "}
+          <a href="/logic#1-the-purpose-of">Definition</a>.
         </p>
       </div>
 
@@ -93,7 +93,7 @@ export default function Predictions() {
             of the <a href="https://en.wikipedia.org/wiki/Multiverse">multiverse</a> remain
             mathematically valid within Creation (<MathInline>{"C"}</MathInline>) but are not
             ontologically registered due to the absence of systems with sufficient{" "}
-            <a href="/definition">Φ</a>.
+            <a href="/logic#1-the-purpose-of">Φ</a>.
             <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="/citations#logic-core">
               <sup>13</sup>
             </a>
@@ -113,8 +113,9 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos operationalizes observation through <a href="/definition">Φ</a>, predicting that
-            systems crossing a critical threshold (<a href="/definition">Φ_c</a>) achieve
+            Holos operationalizes observation through <a href="/logic#1-the-purpose-of">Φ</a>,
+            predicting that systems crossing a critical threshold (
+            <a href="/logic#1-the-purpose-of">Φ_c</a>) achieve
             <strong>ontological registration</strong>: the capacity for information to be
             experienced rather than merely processed. This distinguishes Holos from universal{" "}
             <a href="https://en.wikipedia.org/wiki/Panpsychism">panpsychism</a> (which assigns
@@ -124,12 +125,13 @@ export default function Predictions() {
           </p>
 
           <p className="leading-relaxed">
-            <strong>Empirical implication:</strong> Systems with high <a href="/definition">Φ</a>
+            <strong>Empirical implication:</strong> Systems with high{" "}
+            <a href="/logic#1-the-purpose-of">Φ</a>
             (e.g. large-scale, recurrent cortical networks) should reliably correlate with reports
             of <a href="https://en.wikipedia.org/wiki/Qualia">subjective experience</a>, while
-            systems below <a href="/definition">Φ_c</a> (e.g. feedforward architectures, narrow AI,
-            or isolated neural subsystems such as the cerebellum) should exhibit only functional
-            processing without experiential access.{" "}
+            systems below <a href="/logic#1-the-purpose-of">Φ_c</a> (e.g. feedforward architectures,
+            narrow AI, or isolated neural subsystems such as the cerebellum) should exhibit only
+            functional processing without experiential access.{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/Integrated_information_theory">
                 Integrated Information Theory
@@ -217,7 +219,7 @@ export default function Predictions() {
             driven by the interconnect latency of three-dimensional space. As intelligence scales
             toward maximal informational integration (
             <a href="/logic#foundational-propositions">Corollary V.2</a>), the system’s{" "}
-            <a href="/definition">
+            <a href="/logic#1-the-purpose-of">
               <MathInline>{"Φ"}</MathInline>
             </a>{" "}
             increases, but physical separation in a 3D Euclidean manifold introduces propagation
@@ -278,7 +280,7 @@ export default function Predictions() {
             distributions, or scale-invariant organization inconsistent with random initial
             conditions. Holos refers to such structures as <strong>Ordered Dark Matter</strong>—the
             gravitational footprint of high-
-            <a href="/definition">
+            <a href="/logic#1-the-purpose-of">
               <MathInline>{"Φ"}</MathInline>
             </a>{" "}
             informational integration rather than an entropic particle cloud (
@@ -441,12 +443,12 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Objective</h3>
             <p className="leading-relaxed">
               To test whether the emergence of an{" "}
-              <a href="/definition#2-ontological-requirements">Observer</a> (
+              <a href="/logic#2-ontological-requirements">Observer</a> (
               <MathInline>{"O"}</MathInline>) constitutes a critical{" "}
               <a href="https://en.wikipedia.org/wiki/Phase_transition">phase transition</a> rather
               than a continuous gradient. Holos predicts that conscious observation requires a
               specific density of integrated information (
-              <a href="/definition">
+              <a href="/logic#1-the-purpose-of">
                 <MathInline>{"Φ_c"}</MathInline>
               </a>
               ) to operationalize <a href="/logic#axioms">Axiom 2 (Manifestation)</a>. The
@@ -524,7 +526,7 @@ export default function Predictions() {
                 <strong>Holos-Specific Contribution:</strong> While prior work demonstrates
                 correlation between PCI and conscious state, Holos predicts a{" "}
                 <strong>critical integration threshold</strong> (
-                <a href="/definition">
+                <a href="/logic#1-the-purpose-of">
                   <MathInline>{"Φ_c"}</MathInline>
                 </a>
                 ) at which observerhood emerges abruptly rather than gradually. This constitutes a
@@ -558,7 +560,7 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Prediction</h3>
             <p className="leading-relaxed">
               If observerhood requires{" "}
-              <a href="/definition">
+              <a href="/logic#1-the-purpose-of">
                 <MathInline>{"Φ ≥ Φ_c"}</MathInline>
               </a>
               , the transition from conscious to unconscious states will exhibit a{" "}

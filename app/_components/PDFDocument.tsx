@@ -1,7 +1,6 @@
 import { sections } from "../../lib/navigation";
 import Citations from "./Citations";
 import Content from "./Content";
-import Definition from "./Definition";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
 
@@ -258,36 +257,6 @@ export default function PDFDocument() {
           .toc-subsections .toc-page-num {
             font-size: 0.9em;
           }
-          /* Tighter vertical spacing for Definition section in PDF */
-          #definition h1 {
-            margin-top: 0.4em;
-            margin-bottom: 0.2em;
-          }
-          #definition h2 {
-            margin-top: 0.5em;
-            margin-bottom: 0.2em;
-          }
-          #definition h3,
-          #definition h4 {
-            margin-top: 0.4em;
-            margin-bottom: 0.2em;
-          }
-          #definition p {
-            margin-bottom: 0.4em;
-          }
-          #definition blockquote {
-            margin: 0.4em 0;
-          }
-          #definition ul,
-          #definition ol {
-            margin-bottom: 0.4em;
-          }
-          #definition li {
-            margin-bottom: 0.2em;
-          }
-          #definition .math-display {
-            margin: 0.6em 0;
-          }
         `}</style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -374,10 +343,6 @@ export default function PDFDocument() {
         <div id="logic" className="section-break">
           <h1>Logic</h1>
           <Logic />
-        </div>
-
-        <div id="definition" className="section-break">
-          <Definition />
         </div>
 
         <div id="predictions" className="section-break">

@@ -3,12 +3,7 @@ import { Download, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import {
-  definitionSubsections,
-  logicSubsections,
-  predictionsSubsections,
-  theorySubsections,
-} from "../../lib/navigation";
+import { logicSubsections, predictionsSubsections, theorySubsections } from "../../lib/navigation";
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -17,7 +12,6 @@ export default function Sidebar() {
   // Check if we're on the theory page (home page)
   const isTheoryPage = pathname === "/" || pathname === "/theory";
   const isLogicPage = pathname === "/logic";
-  const isDefinitionPage = pathname === "/definition";
   const isPredictionsPage = pathname === "/predictions";
   const isCitationsPage = pathname === "/citations";
 
@@ -134,23 +128,6 @@ export default function Sidebar() {
             {isLogicPage && (
               <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
                 {logicSubsections.map((subsection) => (
-                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
-                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                  </li>
-                ))}
-              </div>
-            )}
-            <li className="mt-2">
-              <Link
-                className={`text-lg font-medium ${isDefinitionPage ? "opacity-100" : "opacity-60"}`}
-                href="/definition"
-              >
-                Definition
-              </Link>
-            </li>
-            {isDefinitionPage && (
-              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
-                {definitionSubsections.map((subsection) => (
                   <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
                     <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
                   </li>
