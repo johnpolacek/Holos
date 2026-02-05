@@ -51,17 +51,8 @@ export const predictionsSubsections: Subsection[] = [
   { id: "tertiary-prediction", title: "Tertiary" },
   { id: "extrapolative-prediction", title: "Extrapolative" },
   { id: "testable-implications", title: "Implications" },
-  { id: "experiment-1", title: "Experiment 1" },
-  { id: "experiment-2", title: "Experiment 2" },
-  { id: "experiment-3", title: "Experiment 3" },
-  { id: "experiment-4", title: "Experiment 4" },
-];
-
-export const trajectorySubsections: Subsection[] = [
-  { id: "phase-0", title: "Phase 0: Pre-Visibility" },
-  { id: "phase-1", title: "Phase 1: Signal Emergence" },
-  { id: "phase-2", title: "Phase 2: Integration Shift" },
-  { id: "phase-3", title: "Phase 3: Quiet Maturity" },
+  { id: "experiments", title: "Experiments" },
+  { id: "trajectory", title: "Trajectory" },
 ];
 
 export const sections: Section[] = [
@@ -78,12 +69,6 @@ export const sections: Section[] = [
     title: "Predictions",
     path: "/predictions",
     subsections: predictionsSubsections,
-  },
-  {
-    id: "trajectory",
-    title: "Trajectory",
-    path: "/trajectory",
-    subsections: trajectorySubsections,
   },
   { id: "citations", title: "Citations", path: "/citations", subsections: [] },
 ];

@@ -50,12 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/trajectory`,
-      lastModified: new Date("2024-06-19"),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    {
       url: `${baseUrl}/citations`,
       lastModified: new Date("2024-06-19"),
       changeFrequency: "monthly" as const,

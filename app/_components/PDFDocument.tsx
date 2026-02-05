@@ -4,7 +4,6 @@ import Content from "./Content";
 import Definition from "./Definition";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
-import Trajectory from "./Trajectory";
 
 export default function PDFDocument() {
   return (
@@ -384,10 +383,6 @@ export default function PDFDocument() {
         <div id="predictions" className="section-break">
           <h1>Predictions</h1>
           <Predictions />
-        </div>
-
-        <div id="trajectory" className="section-break">
-          <Trajectory />
         </div>
 
         <div id="citations" className="section-break">

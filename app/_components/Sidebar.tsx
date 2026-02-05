@@ -8,7 +8,6 @@ import {
   logicSubsections,
   predictionsSubsections,
   theorySubsections,
-  trajectorySubsections,
 } from "../../lib/navigation";
 
 export default function Sidebar() {
@@ -19,7 +18,6 @@ export default function Sidebar() {
   const isTheoryPage = pathname === "/" || pathname === "/theory";
   const isLogicPage = pathname === "/logic";
   const isDefinitionPage = pathname === "/definition";
-  const isTrajectoryPage = pathname === "/trajectory";
   const isPredictionsPage = pathname === "/predictions";
   const isCitationsPage = pathname === "/citations";
 
@@ -170,23 +168,6 @@ export default function Sidebar() {
             {isPredictionsPage && (
               <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
                 {predictionsSubsections.map((subsection) => (
-                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
-                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                  </li>
-                ))}
-              </div>
-            )}
-            <li className="mt-2">
-              <Link
-                className={`text-lg font-medium ${isTrajectoryPage ? "opacity-100" : "opacity-60"}`}
-                href="/trajectory"
-              >
-                Trajectory
-              </Link>
-            </li>
-            {isTrajectoryPage && (
-              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
-                {trajectorySubsections.map((subsection) => (
                   <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
                     <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
                   </li>
