@@ -510,21 +510,23 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>At extreme limits, many distinctions collapse.</>,
       <>
-        At the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the usual
-        distinctions between “here” and “there,” or “now” and “then,” mathematically vanish. This
-        physical limit suggests that separation is not fundamental, but an emergent feature of how
-        reality is structured.
+        At the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, concepts
+        like “here” and “there,” or “now” and “then,” lose their meaning. This is not a
+        philosophical claim but a physical one. It suggests that separation is not fundamental, but
+        an emergent feature of how reality is structured.
       </>,
       <>
-        What we experience as an expansive universe may be a single, self-consistent informational
-        process expressed across space, time, and scale. Distance, duration, and individuality are
-        not illusions. They are the structures that make experience possible.
+        What we experience as an expansive universe may instead be understood as a single,
+        self-consistent informational process expressed across space, time, and scale. Distance,
+        duration, and individuality are not illusions. They are the constraints that make localized
+        experience possible.
       </>,
       <>
-        In Holos, life exists because observation allows reality to differentiate itself. Conscious
-        systems do not merely occupy the universe. They participate in its realization. When a
-        system reaches sufficient integration, expressed as <a href="/definition">Φ ≥ Φ_c</a>,
-        possibility becomes experience.
+        In Holos, life exists because observation allows reality to close on itself. Conscious
+        systems do not merely occupy the universe. They are the means by which physical possibility
+        becomes reality-as-experienced, as opposed to reality-as-equations. When a system reaches
+        sufficient integration, expressed as <a href="/definition">Φ ≥ Φ_c</a>, interaction is no
+        longer just relational. It becomes perspective.
         <FootnoteLink number={11} />
       </>,
     ],
@@ -534,25 +536,28 @@ export const sections: ContentSection[] = [
     title: "⊛ Holos",
     paragraphs: [
       <>
-        The symbol ⊛ denotes a relational operator. Unlike standard multiplication, it does not act
-        on isolated values or scale quantities. Instead, it represents structured composition, where
-        relationships are preserved as the operation is applied repeatedly. In formal terms, it can
-        be modeled as an <a href="https://en.wikipedia.org/wiki/Functor">endofunctor</a> acting on
-        informational states. A full treatment appears in <a href="/logic">Logic</a>.
+        The symbol ⊛ denotes a relational operator. Unlike standard multiplication, it does not
+        combine quantities or scale values. Instead, it represents structured composition, where
+        relationships are preserved as the operation is applied. Informally, it describes how two
+        processes remain coupled rather than reduced to a single result.
       </>,
       <>
         Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the recursive coupling
         of Creation and Observation as two inseparable aspects of reality. Creation generates
-        possibilities. Observation selects and registers experience. The result feeds back into the
-        process. This relationship is expressed as <em>R = C ⊛ O</em> and developed formally in{" "}
-        <a href="/logic">Logic</a>.
+        physical possibilities. Observation registers experience. Each constrains the other. This
+        relationship is expressed as <em>R = C ⊛ O</em>.
       </>,
       <>
-        The ⊛ operator is <strong>structural, not dynamical</strong>. It does not introduce a
-        physical force or describe change over time. Instead, it specifies how possibility and
-        experience are logically connected within spacetime. In this sense, ⊛ describes an{" "}
-        <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> relationship: how reality
-        arises through the recursive interaction of what can exist and what is observed.
+        The ⊛ operator is <strong>structural, not dynamical</strong>. It does not describe a force,
+        a mechanism, or an evolution in time. Instead, it specifies a closure condition: how
+        possibility becomes reality only when physical structure is taken up into experience. In
+        this sense, ⊛ is an ontological relation, not a physical law. It describes how reality is
+        completed, not how it moves.
+      </>,
+      <>
+        Formally, ⊛ can be modeled as a structure-preserving mapping over informational states,
+        similar in spirit to an <a href="https://en.wikipedia.org/wiki/Functor">endofunctor</a>. A
+        more precise treatment of this interpretation is developed in <a href="/logic">Logic</a>.
       </>,
     ],
   },

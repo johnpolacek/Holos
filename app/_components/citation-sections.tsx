@@ -431,8 +431,8 @@ export const citationMainSections: CitationMainSection[] = [
       },
       {
         number: 10,
-        id: "footer-god",
-        title: "God",
+        id: "footer-omega",
+        title: "The Omega Point",
         items: [
           {
             name: "Panentheism",
@@ -1121,8 +1121,7 @@ export const citationMainSections: CitationMainSection[] = [
           {
             name: "Ex nihilo",
             url: "https://en.wikipedia.org/wiki/Ex_nihilo",
-            description:
-              "Panpsychism avoids life emerging from absolutely nothing.",
+            description: "Panpsychism avoids life emerging from absolutely nothing.",
           },
           {
             name: "Mind–body dualism",
@@ -1170,14 +1169,12 @@ export const citationMainSections: CitationMainSection[] = [
           {
             name: "Theory of relativity",
             url: "https://en.wikipedia.org/wiki/Theory_of_relativity",
-            description:
-              "Holos does not contradict relativity.",
+            description: "Holos does not contradict relativity.",
           },
           {
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
-            description:
-              "Holos does not break unitarity; unobserved branches remain in Creation.",
+            description: "Holos does not break unitarity; unobserved branches remain in Creation.",
           },
           {
             name: "Anthropocentrism",
@@ -1324,14 +1321,12 @@ export const citationMainSections: CitationMainSection[] = [
           {
             name: "Inflation (cosmology)",
             url: "https://en.wikipedia.org/wiki/Inflation_(cosmology)",
-            description:
-              "Inflationary dynamics tuned for complexity growth.",
+            description: "Inflationary dynamics tuned for complexity growth.",
           },
           {
             name: "Multiverse",
             url: "https://en.wikipedia.org/wiki/Multiverse",
-            description:
-              "Uninhabitable branches ontologically unrealized due to lack of Φ.",
+            description: "Uninhabitable branches ontologically unrealized due to lack of Φ.",
           },
         ],
       },
