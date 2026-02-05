@@ -367,16 +367,6 @@ export default function Logic() {
           <FootnoteLink className="relative left-1 -top-2.5" number={14} />
         </h2>
 
-        <p className="text-black/70 italic text-sm pb-2">
-          These axioms define the minimal assumptions used throughout Holos. They are structural
-          rather than mechanistic and do not assert specific physical outcomes. Objections and
-          stress tests appear in the{" "}
-          <a href="/defense" className="text-black/80 hover:text-black underline">
-            Defense
-          </a>{" "}
-          section.
-        </p>
-
         <div className="flex flex-col gap-8">
           {/* Axiom 1 */}
           <div className="flex flex-col gap-3">
@@ -1146,10 +1136,10 @@ export default function Logic() {
         </div>
       </section>
 
-      {/* V. Extrapolative Propositions */}
-      <section id="extrapolative-propositions" className="flex flex-col gap-6">
+      {/* V. Extrapolative Proposition */}
+      <section id="extrapolative-proposition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          V. Extrapolative Propositions
+          V. Extrapolative Proposition
           <FootnoteLink number={17} />
         </h2>
 
@@ -1164,67 +1154,7 @@ export default function Logic() {
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <h3 className="text-xl font-semibold text-black/90">
-                Proposition VI — Transcension as an Asymptotic Trend
-              </h3>
-
-              <p className="text-black/80 leading-relaxed">
-                As systems pursue higher informational integration under finite energy and
-                signal-speed constraints, development may increasingly favor inward consolidation
-                over outward spatial expansion. This resembles{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Ephemeralization"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ephemeralization
-                </a>
-                — doing more with less — without requiring abandonment of physical reality.
-              </p>
-
-              <p className="text-black/80 leading-relaxed">
-                This proposition does <strong>not</strong> claim that intelligence must leave
-                spacetime, escape biology, or migrate into higher dimensions. It suggests only that
-                persistent systems tend to reduce energetic leakage, material redundancy, and
-                long-distance coordination wherever possible.
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary VI.1 — Visibility as a Phase, Not a Goal
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    The most detectable phases of intelligence may be transient. Long-lived systems
-                    are expected to minimize unnecessary radiation, large-scale restructuring, and
-                    broadcast-style signaling. Silence can emerge naturally from optimization rather
-                    than concealment.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary VI.2 — Horizons as Informational Boundaries
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Physical horizons (such as black hole event horizons) can be understood as
-                    limits on external description rather than absolute limits on internal
-                    structure. This does not imply accessibility or exploitation, only that horizons
-                    mark boundaries of projection rather than existence.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Proposition VII */}
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-black/90">
-                Proposition VII — Recursive Closure as a Formal Limit
+                Proposition VI — Recursive Closure as a Formal Limit
               </h3>
 
               <p className="text-black/80 leading-relaxed">

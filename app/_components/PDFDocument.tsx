@@ -1,7 +1,6 @@
 import { sections } from "../../lib/navigation";
 import Citations from "./Citations";
 import Content from "./Content";
-import Defense from "./Defense";
 import Definition from "./Definition";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
@@ -380,10 +379,6 @@ export default function PDFDocument() {
 
         <div id="definition" className="section-break">
           <Definition />
-        </div>
-
-        <div id="defense" className="section-break">
-          <Defense />
         </div>
 
         <div id="predictions" className="section-break">

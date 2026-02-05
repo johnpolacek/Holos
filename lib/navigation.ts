@@ -34,7 +34,7 @@ export const logicSubsections: Subsection[] = [
   { id: "logic-axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundations" },
   { id: "mathematical-formalism", title: "Math" },
-  { id: "extrapolative-propositions", title: "Extrapolations" },
+  { id: "extrapolative-proposition", title: "Extrapolation" },
 ];
 
 export const definitionSubsections: Subsection[] = [
@@ -43,18 +43,6 @@ export const definitionSubsections: Subsection[] = [
   { id: "3-mathematical-formalism", title: "Mathematical" },
   { id: "4-ontological-thresholds", title: "Thresholds" },
   { id: "5-relationship-to-physics-the-consistency-filter", title: "Physics" },
-];
-
-export const defenseSubsections: Subsection[] = [
-  { id: "axiom-1", title: "Relationality" },
-  { id: "axiom-2", title: "Manifestation" },
-  { id: "axiom-3", title: "Conservation" },
-  { id: "axiom-4", title: "Topological Unification" },
-  { id: "axiom-5", title: "Interface" },
-  { id: "failure-modes-stress-testing", title: "Stress-Testing" },
-  { id: "primary-unresolved-challenge", title: "Challenge" },
-  { id: "positioning-holos", title: "Comparison" },
-  { id: "conclusion", title: "Conclusion" },
 ];
 
 export const predictionsSubsections: Subsection[] = [
@@ -86,7 +74,6 @@ export const sections: Section[] = [
     path: "/definition",
     subsections: definitionSubsections,
   },
-  { id: "defense", title: "Defense", path: "/defense", subsections: defenseSubsections },
   {
     id: "predictions",
     title: "Predictions",

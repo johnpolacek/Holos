@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
-  defenseSubsections,
   definitionSubsections,
   logicSubsections,
   predictionsSubsections,
@@ -19,7 +18,6 @@ export default function Sidebar() {
   // Check if we're on the theory page (home page)
   const isTheoryPage = pathname === "/" || pathname === "/theory";
   const isLogicPage = pathname === "/logic";
-  const isDefensePage = pathname === "/defense";
   const isDefinitionPage = pathname === "/definition";
   const isTrajectoryPage = pathname === "/trajectory";
   const isPredictionsPage = pathname === "/predictions";
@@ -155,23 +153,6 @@ export default function Sidebar() {
             {isDefinitionPage && (
               <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
                 {definitionSubsections.map((subsection) => (
-                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
-                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                  </li>
-                ))}
-              </div>
-            )}
-            <li className="mt-2">
-              <Link
-                className={`text-lg font-medium ${isDefensePage ? "opacity-100" : "opacity-60"}`}
-                href="/defense"
-              >
-                Defense
-              </Link>
-            </li>
-            {isDefensePage && (
-              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
-                {defenseSubsections.map((subsection) => (
                   <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
                     <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
                   </li>

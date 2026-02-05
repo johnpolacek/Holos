@@ -191,10 +191,6 @@ export const sections: ContentSection[] = [
         Their purpose is to explore the space of possibilities that emerges when observation,
         relativity, and scale are applied to unresolved cosmic questions.
       </>,
-      <>
-        Where these ideas intersect with existing data or produce testable implications, they are
-        addressed in <a href="/defense">Defense</a> and <a href="/predictions">Predictions</a>.
-      </>,
     ],
   },
   {

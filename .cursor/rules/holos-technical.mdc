@@ -1,11 +1,11 @@
 ---
 description: Technical addendum for Holos framework math and citations (IDE-Pivot, JWST, DESI).
-globs: ["**/content-data.tsx", "**/Logic.tsx", "**/Predictions.tsx", "**/Defense.tsx"]
+globs: ["**/content-data.tsx", "**/Logic.tsx", "**/Predictions.tsx"]
 ---
 
 # Technical Addendum: The IDE-Pivot Equation
 
-When editing Holos framework content (Logic, Predictions, content-data, Defense), keep math and citations consistent with the following.
+When editing Holos framework content (Logic, Predictions, content-data), keep math and citations consistent with the following.
 
 ## IDE-Pivot and Succession Operator
 
