@@ -27,14 +27,15 @@ export const theorySubsections: Subsection[] = [
 ];
 
 export const logicSubsections: Subsection[] = [
-  { id: "minimal-core", title: "Minimal Core" },
-  { id: "operational-definition", title: "Operational Definition" },
+  { id: "minimal-core", title: "Core" },
+  { id: "operational-definition", title: "Definition" },
   { id: "primitive-definitions", title: "Primitives" },
   { id: "logic-axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundations" },
+  { id: "ontology", title: "Ontology" },
+  { id: "relationship-to-physics", title: "Physics" },
   { id: "mathematical-formalism", title: "Math" },
   { id: "extrapolative-proposition", title: "Extrapolation" },
-  { id: "ontology", title: "Ontology" },
 ];
 
 export const predictionsSubsections: Subsection[] = [

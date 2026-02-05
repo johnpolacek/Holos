@@ -12,24 +12,42 @@ export default function Logic() {
           <FootnoteLink className="relative left-1 -top-2.5" number={18} />
         </h2>
 
-        <div className="flex flex-col gap-3 text-black/80">
-          <p className="leading-relaxed">• Information exists only through relations.</p>
-          <p className="leading-relaxed">• Observation actualizes reality as experience.</p>
+        <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            • Information is conserved. It is transformed, not erased.
+            Holos starts from a small set of commitments. Everything else in the framework is an
+            attempt to spell them out without adding new forces or new physics.
           </p>
-          <p className="leading-relaxed">
-            • Higher perspectives resolve bottlenecks that look infinite from below.
-          </p>
-          <p className="leading-relaxed">
-            • Consciousness is the boundary where integrated information becomes experience.
-          </p>
-          <p className="leading-relaxed pt-2">
-            Everything else in Holos is an attempt to spell these out carefully.
-          </p>
+
+          <ul className="flex flex-col gap-3 pl-6 list-disc">
+            <li className="leading-relaxed">
+              <strong>Relational structure:</strong> information exists only as differences and
+              constraints between states, not as isolated things.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Closure through observation:</strong> a universe can be physically consistent
+              without being present. presence requires internal registration by an observer.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Conservation:</strong> information is not erased. it is transformed,
+              redistributed, or re-encoded.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Integration threshold:</strong> distributed processing can scale without
+              experience. experience appears only when information is integrated into a single
+              internal perspective.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Infinity as a signal:</strong> when a description produces infinities, holos
+              treats that as a sign that the representation has broken down at that scale, not as a
+              literal feature to accept at face value.
+            </li>
+          </ul>
         </div>
       </section>
-
       {/* Operational Definition */}
       <section id="operational-definition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
@@ -39,1469 +57,722 @@ export default function Logic() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos treats reality as the coupling between what physics allows and what is actually
-            experienced.
+            Holos treats reality as the closure between two things that are usually discussed
+            separately. Physics defines what is consistent. Observation is what makes a consistent
+            world present from the inside.
           </p>
 
           <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
             R = C ⊛ O
           </div>
 
-          <ul className="flex flex-col gap-3 pl-4">
+          <ul className="flex flex-col gap-3 pl-6 list-disc">
             <li className="leading-relaxed">
-              <strong>Creation</strong> (<MathInline>{"C"}</MathInline>) generates physical
-              possibilities.
+              <strong>Creation</strong> (<MathInline>{"C"}</MathInline>) is the set of physically
+              allowed possibilities. It is what the laws of physics permit.
             </li>
+
             <li className="leading-relaxed">
-              <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) is when a system
-              integrates information into a coherent internal perspective. In Holos this requires{" "}
-              <MathInline>{"Φ ≥ Φ_c"}</MathInline>.
+              <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) is internal
+              registration. It is when a system integrates information into a single perspective
+              that it is like something to be.
             </li>
+
             <li className="leading-relaxed">
-              <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) is the recursive coupling of
-              physical possibility and observation.
+              <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) is the result of coupling
+              lawful possibility with lived registration. In Holos, what is real is what is both
+              consistent and experienced.
             </li>
+
             <li className="leading-relaxed">
-              <strong>⊛</strong> denotes structured composition. It links creation and observation
-              without adding a new force or changing the equations of physics.
+              <strong>⊛</strong> denotes structured coupling. It is not a force and not a time-step.
+              It is a notation for the claim that physics alone is not an ontologically complete
+              description of a realized world.
             </li>
           </ul>
 
           <p className="leading-relaxed pt-2">
-            This is a structural claim about how experience fits into the picture. It is not a new
-            dynamical law.
+            Holos is an interpretive framework. It does not change any equations. It changes what
+            counts as a complete account by requiring observation as a closure condition.
+          </p>
+
+          <p className="leading-relaxed text-black/70 text-sm">
+            When later sections use <MathInline>{"\\Phi \\ge \\Phi_c"}</MathInline>, treat that as a
+            threshold claim about integration. Holos does not depend on one specific theory for
+            computing <MathInline>{"\\Phi"}</MathInline>.
           </p>
         </div>
       </section>
-
-      {/* I. Primitive Definitions */}
+      {/* Primitive Definitions */}
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          I. Primitive Definitions
+          Primitive Definitions
           <FootnoteLink number={13} className="relative left-1 -top-2.5" />
         </h2>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-8 text-black/80">
           {/* D1 */}
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-start">
-              <span className="font-semibold text-black/90">D1 — Information</span>
-            </div>
-            <div className="pl-0 flex flex-col gap-2 text-black/80">
-              <p className="leading-relaxed">
-                Information is the differentiation between possible states of a system (the
-                difference that makes a{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Information"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  difference
-                </a>
-                ).
-              </p>
-            </div>
+            <div className="font-semibold text-black/90">D1 — Information</div>
+            <p className="leading-relaxed">
+              Information is the differentiation between possible states of a system. It is not a
+              substance and not a thing that exists on its own. Information exists only where
+              differences matter relative to some structure.
+            </p>
           </div>
 
           {/* D2 */}
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-start">
-              <span className="font-semibold text-black/90">D2 — Relation</span>
-            </div>
-            <div className="pl-0 flex flex-col gap-2 text-black/80">
-              <p className="leading-relaxed">
-                A relation is a constraint or interaction linking informational states (the way
-                things{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Relation_(philosophy)"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  relate
-                </a>{" "}
-                to one another).
-              </p>
-            </div>
+            <div className="font-semibold text-black/90">D2 — Relation</div>
+            <p className="leading-relaxed">
+              A relation is a constraint that links informational states. Relations determine how
+              states co-vary, influence one another, or exclude alternatives. In Holos, structure is
+              nothing more than stable patterns of relation.
+            </p>
           </div>
 
           {/* D3 */}
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-start">
-              <span className="font-semibold text-black/90">D3 — Observation (O)</span>
-            </div>
-            <div className="pl-0 flex flex-col gap-2 text-black/80">
-              <p className="leading-relaxed">
-                Observation is the integration of information into an experiential state.
-              </p>
-              <p className="leading-relaxed">
-                <em>
-                  <strong>Note:</strong> This capacity scales from proto-observation (relational
-                  state-selection in physical systems) to manifestation in systems where{" "}
-                  <a href="#4-ontological-thresholds">Φ ≥ Φ_c</a>.
-                </em>
-              </p>
-              <p className="leading-relaxed">
-                Observation can be modeled as a{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Axiom_of_choice"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  choice function
-                </a>{" "}
-                in the sense used in{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Zermelo-Fraenkel set theory (ZFC)
-                </a>
-                <FootnoteLink number={12} />. Creation defines a space of possible outcomes.
-                Observation maps that possibility space to a realized outcome within the framework.
-              </p>
-            </div>
+            <div className="font-semibold text-black/90">D3 — Observation (O)</div>
+            <p className="leading-relaxed">
+              Observation is the integration of information into a single internal state. It is not
+              measurement in the laboratory sense, and it is not restricted to human cognition.
+            </p>
+            <p className="leading-relaxed">
+              Below a certain level of integration, systems participate in physical interactions
+              without any point of view. Above that level, a perspective exists. Observation is the
+              name Holos gives to that transition.
+            </p>
           </div>
 
           {/* D4 */}
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-start">
-              <span className="font-semibold text-black/90">D4 — Consciousness</span>
-            </div>
-            <div className="pl-0 flex flex-col gap-2 text-black/80">
-              <p className="leading-relaxed">
-                Consciousness is the capacity of a system to integrate information into experience.
-              </p>
-              <p className="leading-relaxed">
-                <em>
-                  In Holos, this capacity is treated as fundamental, while its forms and degrees are
-                  emergent and scale with integration. Φ provides the operational measure.
-                </em>{" "}
-                <a href="#1-the-purpose-of">Φ (Phi)</a>
-                <FootnoteLink number={2} />
-              </p>
-            </div>
+            <div className="font-semibold text-black/90">D4 — Consciousness</div>
+            <p className="leading-relaxed">
+              Consciousness is the capacity of a system to host an integrated perspective. In Holos,
+              this capacity is treated as fundamental, while its concrete forms are emergent and
+              scale with the degree of integration.
+            </p>
+            <p className="leading-relaxed">
+              Consciousness is not identified with any specific material configuration. Physical
+              structure determines how experience is shaped, not whether experience exists at all.
+            </p>
           </div>
 
           {/* D5 */}
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-start">
-              <span className="font-semibold text-black/90">D5 — Creation (C)</span>
-            </div>
-            <div className="pl-0 flex flex-col gap-2 text-black/80">
-              <p className="leading-relaxed">
-                Creation is the generation of distinguishable physical states.
-              </p>
-              <p className="leading-relaxed">
-                Functionally, Creation acts as the{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Power_set"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Power Set Operation
-                </a>{" "}
-                (<MathInline>{"\\mathcal{P}"}</MathInline>). Given a state{" "}
-                <MathInline>{"S"}</MathInline>, Creation generates all possible subsets (potential
-                histories), exponentially increasing possible states in the system&apos;s{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Phase_space"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  phase space
-                </a>
-                <FootnoteLink number={12} />.
-              </p>
-              <MathDisplay>{"C(S) \\cong \\mathcal{P}(S)"}</MathDisplay>
-              <p className="leading-relaxed">
-                <em>
-                  In simple terms: if a system has <MathInline>{"n"}</MathInline> possible states,
-                  Creation expands this to <MathInline>{"2^n"}</MathInline> possible combinations
-                  (all ways those states can be arranged together).
-                </em>
-              </p>
-            </div>
+            <div className="font-semibold text-black/90">D5 — Creation (C)</div>
+            <p className="leading-relaxed">
+              Creation refers to the generation of physically allowed possibilities. It is the space
+              of states and histories permitted by the laws of physics.
+            </p>
+            <p className="leading-relaxed">
+              Creation does not select outcomes and does not privilege any particular history. It
+              defines what could happen, not what is experienced.
+            </p>
           </div>
 
           {/* D6 */}
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-start">
-              <span className="font-semibold text-black/90">D6 — Holos (⊛)</span>
+            <div className="font-semibold text-black/90">D6 — Holos (⊛)</div>
+            <p className="leading-relaxed">
+              Holos (⊛) denotes the structured coupling of Creation and Observation. It names the
+              claim that a realized world requires both lawful possibility and internal
+              registration.
+            </p>
+
+            <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
+              R = C ⊛ O
             </div>
 
-            <div className="pl-0 flex flex-col gap-2 text-black/80">
-              <p className="leading-relaxed">
-                Holos (⊛) denotes the structured coupling of <strong>Creation (C)</strong> and{" "}
-                <strong>Observation (O)</strong>. It is a{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Recursion"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  recursive
-                </a>{" "}
-                rule for how possibilities and experience are linked in the Holos framework.
-                <FootnoteLink number={12} />
-              </p>
+            <p className="leading-relaxed">
+              Read this as follows: physics defines a space of consistent possibilities. Observation
+              integrates one such possibility into a lived world. The result is a realized reality
+              that then becomes the context for further possibilities.
+            </p>
 
-              <MathDisplay>{"R = C ⊛ O"}</MathDisplay>
-
-              <p className="leading-relaxed">
-                Read this as: Creation generates a space of possible states. Observation integrates
-                information into experience, which makes a particular state real for an observer.
-                The result is a realized world <strong>R</strong>, which then becomes the starting
-                point for the next cycle.
-              </p>
-
-              <p className="leading-relaxed">
-                <strong>Order matters.</strong> ⊛ is not ordinary multiplication and it is not
-                freely reorderable. Observation is defined only with respect to possibilities
-                produced by Creation. This ordering is logical, not a claim about a time sequence.
-              </p>
-
-              <p className="leading-relaxed">
-                The Holos operator is explicitly <strong>non-associative</strong>:
-              </p>
-
-              <MathDisplay>{"(C ⊛ O) ⊛ C \\neq C ⊛ (O ⊛ C)"}</MathDisplay>
-
-              <p className="leading-relaxed">
-                <em>
-                  In simple terms: with ⊛, grouping changes meaning. You cannot rearrange Creation
-                  and Observation without changing what the expression says.
-                </em>
-              </p>
-
-              <p className="leading-relaxed">
-                <strong>Structural, not dynamical.</strong> ⊛ does not add forces, alter known
-                physics, or describe how states evolve in time. It is a definitional relation that
-                describes how a realized history is selected from a space of possible histories
-                within the framework.
-              </p>
-
-              <p className="leading-relaxed">
-                This is also why ⊛ should not be treated as a synonym for{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Wave_function_collapse"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  wavefunction collapse
-                </a>{" "}
-                or any specific quantum measurement mechanism. Those are physical models. Holos is a
-                logical account of how experiential realization is represented.
-              </p>
-
-              <p className="leading-relaxed">
-                ⊛ is also not reducible to epistemic tools like{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Bayesian_inference"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Bayesian updating
-                </a>{" "}
-                or{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Probability_theory"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  probability weighting
-                </a>
-                . Those describe changes in knowledge. ⊛ is about how a world becomes experienced
-                within the framework.
-              </p>
-
-              <p className="leading-relaxed">
-                If you want a more formal reading, ⊛ can be treated as a structure-preserving
-                mapping on informational states. In category language, this is closest to an{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Functor"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  endofunctor
-                </a>{" "}
-                that carries relations forward under repeated application. Full formalization
-                appears in{" "}
-                <a
-                  href="#mathematical-formalism"
-                  className="text-black/80 hover:text-black underline"
-                >
-                  Section IV
-                </a>
-                .
-              </p>
-
-              <div className="mt-4 pt-4 border-t border-black/10">
-                <h3 className="text-lg font-semibold text-black/90 pb-3">
-                  What ⊛ Does and Does Not Claim
-                </h3>
-
-                <ul className="flex flex-col gap-2 pl-6 list-disc pt-2">
-                  <li className="leading-relaxed">
-                    <strong>⊛ claims:</strong> reality can be modeled as a structured coupling
-                    between possibility generation (C) and experiential integration (O).
-                  </li>
-                  <li className="leading-relaxed">
-                    <strong>⊛ does not claim:</strong> faster-than-light effects, retrocausal
-                    signaling, or new dynamical laws.
-                  </li>
-                  <li className="leading-relaxed">
-                    <strong>⊛ does not claim:</strong> that quantum mechanics must be interpreted in
-                    one specific way. It is compatible with multiple interpretations that treat
-                    spacetime as a complete structure.
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <p className="leading-relaxed">
+              ⊛ is not a dynamical operator and not a substitute for physical causation. It is a
+              structural relation that specifies what it means for a universe to be real rather than
+              merely described.
+            </p>
           </div>
         </div>
       </section>
-
-      {/* II. Axioms */}
+      {/* Axioms */}
       <section id="logic-axioms" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          II. Axioms
+          Axioms
           <FootnoteLink className="relative left-1 -top-2.5" number={14} />
         </h2>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 text-black/80">
           {/* Axiom 1 */}
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 1 — Relationality</h3>
-            <p className="text-black/80 leading-relaxed">
-              No informational state exists independently of relations.
+            <p className="leading-relaxed">
+              No informational state exists in isolation. Every state is defined by its relations to
+              other states and to the constraints that bind them.
             </p>
-            <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-              Reality consists of relational structure rather than intrinsic, context-free
-              properties.
-            </blockquote>
+            <p className="leading-relaxed text-black/70">
+              This axiom rules out intrinsic, context-free properties as the foundation of reality.
+              What exists is relational structure.
+            </p>
           </div>
 
           {/* Axiom 2 */}
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 2 — Manifestation</h3>
-            <p className="text-black/80 leading-relaxed">
-              A physical description is incomplete until information is integrated into experience
-              by a system capable of observation.
+            <p className="leading-relaxed">
+              A purely physical description is ontologically incomplete until information is
+              integrated into experience by a system capable of observation.
             </p>
-            <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-              Physical structure alone does not specify experienced reality.
-            </blockquote>
-            <p className="text-black/80 leading-relaxed pt-2">
-              Observation does not cause physical events. It determines which already-consistent
-              spacetime structures attain experiential registration. This preserves block-universe
-              interpretations while explaining why some histories are experienced rather than merely
-              possible.
+            <p className="leading-relaxed text-black/70">
+              This does not mean observation causes physical events. It means that without
+              observation, there is structure but no presence.
             </p>
           </div>
 
           {/* Axiom 3 */}
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 3 — Conservation</h3>
-            <p className="text-black/80 leading-relaxed">
-              Information is conserved. It is transformed, redistributed, or re-encoded, but not
-              destroyed.
+            <p className="leading-relaxed">
+              Information is conserved. It may be transformed, redistributed, or re-encoded, but it
+              is not destroyed.
             </p>
-            <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-              All physical and experiential processes preserve informational content.
-            </blockquote>
+            <p className="leading-relaxed text-black/70">
+              This applies equally to physical processes and to experiential structure. Holos does
+              not require the elimination of unobserved possibilities.
+            </p>
           </div>
 
           {/* Axiom 4 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">
-              Axiom 4 — Structural Constraint (Latency and Scale)
-            </h3>
-            <p className="text-black/80 leading-relaxed">
-              Finite signal speed and finite energy impose structural limits on how coherence can
-              scale in three-dimensional space. As integrated systems grow, coordination across
-              distance becomes increasingly costly, fragile, and slow.
+            <h3 className="text-xl font-semibold text-black/90">Axiom 4 — Structural Constraint</h3>
+            <p className="leading-relaxed">
+              Finite signal speed and finite energy impose limits on how coherence can scale within
+              three-dimensional space. As systems grow, coordination across distance becomes
+              increasingly costly and fragile.
             </p>
-            <p className="text-black/80 leading-relaxed">
-              These limits do not prevent growth, but they shape its form. Systems that rely on
-              constant long-distance synchronization become unstable at large scales. Systems that
-              enforce relationships locally are more persistent.
+            <p className="leading-relaxed">
+              These constraints do not forbid large integrated systems, but they shape their
+              architecture. Stable systems tend to minimize global synchronization and rely on
+              locally enforced structure.
             </p>
-            <p className="text-black/80 leading-relaxed">
-              Higher-dimensional descriptions may be useful for modeling how coherence is maintained
-              when internal distances become dominant constraints. Such descriptions do not imply
-              faster-than- light signaling or escape from causality. They describe structural
-              organization, not communication shortcuts.
-            </p>
-            <p className="text-black/70 text-sm leading-relaxed">
-              The Latency Horizon is a conceptual boundary where coordination cost begins to
-              dominate growth. Its formal treatment appears in{" "}
-              <a
-                href="#mathematical-formalism"
-                className="text-black/80 hover:text-black underline"
-              >
-                Section IV: Mathematical Formalism
-              </a>
-              .
-            </p>
-          </div>
-
-          {/* Scaling Wall */}
-          <div className="flex flex-col gap-3">
-            <h4 className="text-lg font-semibold text-black/90">
-              The Scaling Wall (Thermodynamic Constraint)
-            </h4>
-            <p className="text-black/80 leading-relaxed">
-              Any finite region with finite energy has a maximum information capacity, as described
-              by bounds such as the{" "}
-              <a
-                href="https://en.wikipedia.org/wiki/Bekenstein_bound"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Bekenstein bound
-              </a>
-              <FootnoteLink number={18} />.
-            </p>
-            <p className="text-black/80 leading-relaxed">
-              As computation scales, energy use and heat dissipation become limiting factors. In
-              three-dimensional space, cooling and synchronization impose hard constraints on
-              density. Systems that exceed these limits fragment or fail.
-            </p>
-            <p className="text-black/80 leading-relaxed">
-              Holos does not assert a required escape from these constraints. It observes that
-              long-lived systems tend to adopt architectures that minimize global coordination and
-              reduce thermal and signaling overhead. Whether this leads to new physical phases,
-              alternative substrates, or simply quieter forms of organization remains an open
-              question.
+            <p className="leading-relaxed text-black/70">
+              Higher-dimensional descriptions may be useful for modeling such organization. This is
+              a representational choice, not a claim about extra spatial directions.
             </p>
           </div>
 
           {/* Axiom 5 */}
-          <h3 className="text-xl font-semibold text-black/90">Axiom 5 — Interface</h3>
-          <p className="text-black/80 leading-relaxed">
-            Conscious experience arises through physical systems that integrate information. The
-            material structure of a system shapes how information is experienced, without implying
-            that experience is identical to any specific material configuration.
-          </p>
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 5 — Interface</h3>
+            <p className="leading-relaxed">
+              Conscious experience arises through physical systems that integrate information. The
+              material structure of a system shapes how experience appears without being identical
+              to experience itself.
+            </p>
+            <p className="leading-relaxed text-black/70">
+              This axiom rejects both substance dualism and strict reductionism. Experience depends
+              on structure, but it is not reducible to any single structural description.
+            </p>
+          </div>
         </div>
       </section>
-
-      {/* III. Foundational Propositions */}
+      {/* Foundational Propositions */}
       <section id="foundational-propositions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          III. Foundational Propositions
+          Foundational Propositions
           <FootnoteLink className="relative left-1 -top-2.5" number={15} />
         </h2>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-10 text-black/80">
           {/* Proposition I */}
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-black/90">
-                Proposition I — Structural Relational Realism
-              </h3>
-              <p className="text-black/80 leading-relaxed">
-                Reality is constituted by relational structure, not by objects with
-                observer-independent{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Essence"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  essences
-                </a>
-                .
-              </p>
-            </div>
-            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary I.1 — Structural Realism
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Science describes{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Isomorphism"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      mathematical isomorphisms
-                    </a>{" "}
-                    of relations, not &quot;things-in-themselves.&quot;
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary I.2 — The Interface Principle
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Consciousness is the universal interface of relational structure. Fundamental in
-                    capacity, emergent in manifestation (becoming real through experience).
-                  </p>
-                </div>
-              </div>
-            </div>
+            <h3 className="text-xl font-semibold text-black/90">
+              Proposition I — Structural Relational Realism
+            </h3>
+
+            <p className="leading-relaxed">
+              Reality is constituted by relational structure rather than by objects possessing
+              observer-independent intrinsic properties.
+            </p>
+
+            <p className="leading-relaxed">
+              What scientific theories successfully track are stable patterns of relation. Changes
+              in interpretation or ontology matter less than preservation of relational structure.
+            </p>
+
+            <p className="leading-relaxed text-black/70">
+              This proposition does not deny the existence of objects. It denies that objects are
+              ontologically prior to the relations that define them.
+            </p>
           </div>
 
           {/* Proposition II */}
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-black/90">
-                Proposition II — Participatory Manifestation
-              </h3>
-              <p className="text-black/80 leading-relaxed">
-                Observation is not passive recording but{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Ontology"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ontological
-                </a>{" "}
-                completion of informational states.
-              </p>
-              <p className="text-black/80 leading-relaxed pt-2">
-                <em>
-                  Note: This completion is structural, not causal. Observation determines which
-                  already-consistent spacetime structures attain ontological registration.
-                </em>
-              </p>
-            </div>
-            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary II.1 — The Participatory Imperative
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    The universe is a{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/John_Archibald_Wheeler#Participatory_Anthropic_Principle"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      self-excited circuit
-                    </a>
-                    <FootnoteLink number={1} />: observers are required for the realization of
-                    reality.
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary II.2 — Ontological Completeness
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Physics (including decoherence) provides structure; consciousness provides
-                    presence.
-                  </p>
-                  <p className="leading-relaxed">
-                    <em>
-                      <strong>
-                        <a
-                          href="https://en.wikipedia.org/wiki/Quantum_decoherence"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Decoherence
-                        </a>
-                      </strong>{" "}
-                      resolves quantum probabilities into classical-like mixtures.
-                    </em>
-                  </p>
-                  <p className="leading-relaxed">
-                    <em>
-                      <strong>Manifestation</strong> requires experiential integration to convert
-                      that mixture into realized history (fixed{" "}
-                      <a
-                        href="https://en.wikipedia.org/wiki/Worldline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        worldline
-                      </a>{" "}
-                      and{" "}
-                      <a
-                        href="https://en.wikipedia.org/wiki/Arrow_of_time"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        ontological irreversibility
-                      </a>
-                      , meaning the past cannot be changed once observed.
-                    </em>
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary II.3 — Non-Local Observation (Global Boundary Condition)
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    In a{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Block_universe"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      block universe
-                    </a>
-                    <FootnoteLink number={4} />, observation acts as a{" "}
-                    <strong>final boundary condition</strong> rather than a real-time force.
-                  </p>
-                  <p className="leading-relaxed">
-                    Like the last number in a{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Sudoku"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Sudoku
-                    </a>{" "}
-                    logically necessitating earlier squares, future observation (
-                    <a href="#4-ontological-thresholds">Φ ≥ Φ_c</a>) retroactively defines the{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Ontology"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      ontological
-                    </a>{" "}
-                    status of past events.
-                  </p>
-                  <p className="leading-relaxed">
-                    <em>This ensures global self-consistency without retrocausal signaling.</em>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <h3 className="text-xl font-semibold text-black/90">
+              Proposition II — Participatory Manifestation
+            </h3>
+
+            <p className="leading-relaxed">
+              Observation is not passive recording. It is the process by which informational
+              structure becomes experientially present.
+            </p>
+
+            <p className="leading-relaxed">
+              This manifestation is structural rather than causal. Observation does not generate
+              physical events or alter lawful dynamics. It determines which already-consistent
+              structures are realized as lived history.
+            </p>
+
+            <p className="leading-relaxed text-black/70">
+              From the perspective of Holos, physics specifies consistency. Observation supplies
+              presence.
+            </p>
           </div>
 
           {/* Proposition III */}
-          <section id="foundational-propositions" className="flex flex-col gap-6">
-            <h2 className="text-2xl sm:text-3xl font-light pb-2">
-              III. Foundational Propositions
-              <FootnoteLink className="relative left-1 -top-2.5" number={15} />
-            </h2>
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Proposition III — Global Consistency
+            </h3>
 
-            <div className="flex flex-col gap-8">
-              {/* Proposition I */}
-              <div className="flex flex-col gap-4">
-                <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-black/90">
-                    Proposition I — Structural Relational Realism
-                  </h3>
-                  <p className="text-black/80 leading-relaxed">
-                    Reality is best described in terms of relational structure rather than objects
-                    possessing observer-independent intrinsic{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Essence"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      essences
-                    </a>
-                    .
-                  </p>
-                </div>
+            <p className="leading-relaxed">
+              If spacetime is treated as a complete four-dimensional structure, observation
+              functions as a global constraint rather than a time-local force.
+            </p>
 
-                <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary I.1 — Structural Realism
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        Scientific theories describe{" "}
-                        <a
-                          href="https://en.wikipedia.org/wiki/Isomorphism"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          isomorphic
-                        </a>{" "}
-                        patterns of relations that remain stable across changes in interpretation,
-                        rather than direct access to things-in-themselves.
-                      </p>
-                    </div>
-                  </div>
+            <p className="leading-relaxed">
+              Later states restrict earlier ones in the same logical sense that a completed solution
+              constrains intermediate steps. This does not require backward causation or signaling.
+            </p>
 
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary I.2 — The Interface Principle
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        Conscious systems function as interfaces through which relational structure
-                        is experienced. The capacity for experience is treated as fundamental, while
-                        its forms and degrees are emergent.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Proposition II */}
-              <div className="flex flex-col gap-4">
-                <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-black/90">
-                    Proposition II — Participatory Manifestation
-                  </h3>
-                  <p className="text-black/80 leading-relaxed">
-                    Observation is not merely passive recording. It is the process by which
-                    informational structure becomes experientially manifest.
-                  </p>
-                  <p className="text-black/80 leading-relaxed pt-2">
-                    <em>
-                      This manifestation is structural rather than causal. Observation does not
-                      generate physical events, but selects which already-consistent spacetime
-                      configurations are realized as experience.
-                    </em>
-                  </p>
-                </div>
-
-                <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary II.1 — The Participatory Principle
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        The universe can be modeled as a{" "}
-                        <a
-                          href="https://en.wikipedia.org/wiki/John_Archibald_Wheeler#Participatory_Anthropic_Principle"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          participatory system
-                        </a>
-                        <FootnoteLink number={1} />, in which observers are necessary for
-                        experiential realization, though not for physical consistency.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary II.2 — Ontological Completion
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        Physical processes such as{" "}
-                        <a
-                          href="https://en.wikipedia.org/wiki/Quantum_decoherence"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          decoherence
-                        </a>{" "}
-                        explain the emergence of classical structure.
-                      </p>
-                      <p className="leading-relaxed">
-                        Experiential realization requires integrated observation, which fixes a
-                        history as a lived worldline rather than a merely possible one.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary II.3 — Global Boundary Condition
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        In a{" "}
-                        <a
-                          href="https://en.wikipedia.org/wiki/Block_universe"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          block-universe
-                        </a>
-                        <FootnoteLink number={4} /> description, observation functions as a global
-                        boundary condition rather than a time-local force.
-                      </p>
-                      <p className="leading-relaxed">
-                        Later states constrain earlier ones in the same way that the solution to a
-                        completed puzzle constrains its intermediate steps.
-                      </p>
-                      <p className="leading-relaxed">
-                        <em>
-                          This preserves global consistency without requiring retrocausal signaling.
-                        </em>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Proposition III */}
-              <div className="flex flex-col gap-4">
-                <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-black/90">
-                    Proposition III — Block Relational Spacetime
-                  </h3>
-                  <p className="text-black/80 leading-relaxed">
-                    Spacetime is modeled as a{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Four-manifold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      four-dimensional manifold
-                    </a>
-                    <FootnoteLink number={4} />, in which past, present, and future are equally real
-                    features of a single relational structure.
-                  </p>
-                </div>
-
-                <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary III.1 — The Null Interval
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        For light, the spacetime interval satisfies{" "}
-                        <MathInline>{"ds^2 = 0"}</MathInline>, meaning separation vanishes along
-                        null paths.
-                      </p>
-                      <p className="leading-relaxed">
-                        A photon can be described not as a moving object, but as a{" "}
-                        <a
-                          href="https://en.wikipedia.org/wiki/Geodesic"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          null geodesic
-                        </a>{" "}
-                        connecting emission and absorption events.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-2">
-                    <div className="font-semibold text-black/85 text-sm">
-                      Corollary III.2 — Global Consistency
-                    </div>
-                    <div className="flex flex-col gap-1 text-black/75 text-sm">
-                      <p className="leading-relaxed">
-                        Apparent{" "}
-                        <a
-                          href="https://en.wikipedia.org/wiki/Retrocausality"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          retrocausal
-                        </a>{" "}
-                        effects reflect global consistency constraints of spacetime geometry rather
-                        than backward causal influence.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+            <p className="leading-relaxed text-black/70">
+              Apparent retrocausal effects reflect global self-consistency, not violations of
+              locality.
+            </p>
+          </div>
 
           {/* Proposition IV */}
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-black/90">
-                Proposition IV — Dimensional Resolution of Infinity
-              </h3>
-              <p className="text-black/80 leading-relaxed">
-                Infinities and singularities arise from{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Projection_(mathematics)"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  projection limits
-                </a>
-                , not from physical divergence.
-              </p>
-            </div>
-            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary IV.1 — Projective Unity
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Just as parallel lines meet at infinity in{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Projective_geometry"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      projective geometry
-                    </a>
-                    , infinite spatial extension resolves into finite higher-dimensional structure.
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary IV.2 — Boundary Mediation (Interpretive)
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    From a higher-dimensional perspective, photons function as boundary carriers of{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      relational
-                    </a>{" "}
-                    information.
-                  </p>
-                  <p className="leading-relaxed">
-                    <em>Interpretive metaphor, not biological subjectivity.</em>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <h3 className="text-xl font-semibold text-black/90">
+              Proposition IV — Dimensional Resolution
+            </h3>
+
+            <p className="leading-relaxed">
+              Infinities and singularities arise when a representation fails to preserve relational
+              structure across scales.
+            </p>
+
+            <p className="leading-relaxed">
+              Higher-dimensional descriptions are often required when internal coherence becomes
+              more relevant than spatial separation. These descriptions are representational tools,
+              not claims about hidden locations or extra worlds.
+            </p>
+
+            <p className="leading-relaxed text-black/70">
+              In Holos, infinities signal the limits of a model, not literal features of reality.
+            </p>
           </div>
 
           {/* Proposition V */}
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-black/90">
-                Proposition V — Conscious Evolution
-              </h3>
-              <p className="text-black/80 leading-relaxed">
-                Systems evolve toward greater informational integration (maximizing{" "}
-                <MathInline>{"\\Phi"}</MathInline>) because the universe is structured to foster
-                transition from mechanical interaction to conscious observation.
-              </p>
-            </div>
-            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary V.1 — Life as Manifestation Engine
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Life exists to generate observational{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      perspectives
-                    </a>{" "}
-                    that actualize reality.
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary V.2 — Intelligence as Directional, Not Accidental
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Intelligence is a natural consequence of{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Integrated_information_theory"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      relational integration
-                    </a>
-                    , not an evolutionary anomaly.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <h3 className="text-xl font-semibold text-black/90">
+              Proposition V — Observers as a Closure Condition
+            </h3>
+
+            <p className="leading-relaxed">
+              A universe that is real as lived experience must contain observers somewhere within
+              it. Observation is not an evolutionary accident layered onto an otherwise complete
+              world.
+            </p>
+
+            <p className="leading-relaxed">
+              Given sufficient complexity and integration, physical systems will produce observers.
+              This is not because the universe is designed to do so, but because a realized universe
+              cannot remain ontologically open.
+            </p>
+
+            <p className="leading-relaxed text-black/70">
+              Observers close the loop between physical possibility and experienced reality.
+            </p>
           </div>
         </div>
       </section>
-
-      {/* IV. Mathematical Formalism */}
-      <section id="mathematical-formalism" className="flex flex-col gap-6">
+      <section id="ontology" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          IV. Mathematical Formalism: The Holos Mapping
-          <FootnoteLink className="relative left-1 -top-2.5" number={16} />
+          Φ and Ontological Requirements
+          <FootnoteLink className="relative left-1 -top-2.5" number={20} />
         </h2>
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            This section provides a compact mathematical way to express the Holos idea: reality can
-            be modeled as a repeated mapping from possibility to realized experience. This is not a
-            new physical law. It is a structural description of how Creation and Observation are
-            related in the framework.
+            Holos uses <strong>Φ (Phi)</strong> as a placeholder for the degree to which a system
+            integrates information into a single internal perspective. Φ is not introduced as a
+            finished formula. It is introduced as a real property that must exist if experience
+            exists at all.
           </p>
 
           <p className="leading-relaxed">
-            <strong>Modeling setup:</strong> let <strong>𝒮</strong> be a space of informational
-            states. Creation and Observation are modeled as maps on that space.
+            The role of Φ in the framework is binary at the threshold and graded beyond it. Below a
+            minimum level of integration, there is structure without experience. At or above that
+            level, experience occurs.
           </p>
 
-          <p className="leading-relaxed">
-            <strong>Creation (C):</strong> given a state <MathInline>{"s"}</MathInline>, Creation
-            generates a structured set of possible continuations (possible histories, outcomes, or
-            branches):
-          </p>
-          <MathDisplay>{"C(s) = \\mathcal{P}(s)"}</MathDisplay>
-
-          <p className="leading-relaxed">
-            <strong>Observation (O):</strong> Observation maps this possibility structure to a
-            realized outcome within the framework:
-          </p>
-          <MathDisplay>{"O(C(s)) \\mapsto s'"} </MathDisplay>
-
-          <p className="leading-relaxed">
-            <strong>Holos (H):</strong> the Holos mapping is the composition of these two steps:
-          </p>
-          <MathDisplay>{"H = O \\circ C"}</MathDisplay>
-
-          <p className="leading-relaxed">
-            Iterating this mapping produces a sequence of realized states:
-          </p>
-          <MathDisplay>{"s_{n+1} = H(s_n) = O(C(s_n))"}</MathDisplay>
-
-          <p className="leading-relaxed">
-            <strong>Non-associativity:</strong> Holos is not ordinary multiplication. Grouping
-            matters because Observation is only defined with respect to possibilities produced by
-            Creation. This is a logical constraint, not a claim about time order.
-          </p>
-
-          <MathDisplay>{"(C ⊛ O) ⊛ C \\neq C ⊛ (O ⊛ C)"}</MathDisplay>
-
-          <p className="leading-relaxed">
-            <strong>Category language (optional):</strong> if you prefer category theory, you can
-            treat states as objects and allowable transformations as morphisms in a category{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Category_(mathematics)"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              𝒞
-            </a>
-            . In that view, <strong>H: 𝒞 → 𝒞</strong> is an{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Functor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              endofunctor
-            </a>{" "}
-            that preserves relational structure across iterations.
-          </p>
-
-          <hr className="border-black/10 border-dashed my-2" />
-
-          <p className="leading-relaxed">
-            <strong>The Latency Horizon (</strong>
-            <MathInline>{"\\mathcal{L}"}</MathInline>
-            <strong>):</strong> large integrated systems face physical constraints from finite
-            signal speed and finite energy. A simple way to express this is:
-          </p>
-
-          <MathDisplay>{"D / c > \\tau"}</MathDisplay>
-
-          <p className="leading-relaxed">
-            where <MathInline>{"D"}</MathInline> is a characteristic system size,{" "}
-            <MathInline>{"c"}</MathInline> is the speed of light, and{" "}
-            <MathInline>{"\\tau"}</MathInline> is the system’s internal coherence timescale. When
-            this inequality holds, global coordination becomes expensive and fragile. This is the
-            intuition behind the Latency Horizon.
-          </p>
-
-          <p className="leading-relaxed">
-            Holos does not assume a single “escape” mechanism from this constraint. It predicts that
-            long-lived systems will tend to adopt architectures that reduce global synchronization
-            costs, enforce more relationships locally, and minimize wasted signaling.
-          </p>
-
-          <hr className="border-black/10 border-dashed my-2" />
-
-          <p className="leading-relaxed">
-            <strong>Note on “coherence filters”:</strong> in the Holos framework, Observation is not
-            assumed to be random selection. But the framework does not require a specific physical
-            rule for how a realized outcome is picked. The point is structural: experience
-            corresponds to a consistent realized history, not a superposition of incompatible ones.
-          </p>
+          <div className="my-2">
+            <MathDisplay>
+              {"\\Phi < \\Phi_c \\Rightarrow \\text{no internal perspective}"}
+            </MathDisplay>
+            <MathDisplay>
+              {"\\Phi \\ge \\Phi_c \\Rightarrow \\text{observation occurs}"}
+            </MathDisplay>
+          </div>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            If you want to connect this framework to cosmology (dark matter, dark energy, growth of
-            structure), that belongs in the Predictions or Thought Experiment sections, where it can
-            be stated explicitly as speculative.
+            Holos is compatible with multiple proposals for estimating Φ. It does not depend on any
+            one implementation.
           </p>
         </div>
-      </section>
 
-      {/* V. Extrapolative Proposition */}
+        {/* Requirements */}
+        <div className="flex flex-col gap-6">
+          <h3 className="text-xl font-medium pb-2">Ontological Requirements for Observation</h3>
+
+          <p className="text-black/80 leading-relaxed">
+            For a system to count as an observer in the Holos sense, it must satisfy all of the
+            following requirements. These are structural constraints, not behavioral descriptions.
+          </p>
+
+          <ol className="flex flex-col gap-3 pl-6 text-black/80">
+            <li className="leading-relaxed">
+              <strong>Integration:</strong> informational states must form a unified whole that
+              cannot be decomposed into independent parts without loss.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Differentiation:</strong> the system must distinguish among a large repertoire
+              of possible internal states. Without differentiation, there is no information to
+              integrate.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Recursion:</strong> the system must model its own internal state. Without
+              self-reference, there is processing but no subject.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Temporal cohesion:</strong> informational states must persist and integrate
+              across time. Experience requires continuity, not isolated moments.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>Causal autonomy:</strong> the system’s current state must materially constrain
+              its own future states. Otherwise, experience would be epiphenomenal.
+            </li>
+          </ol>
+
+          <div className="flex flex-col gap-4 pt-2 text-black/80">
+            <p className="leading-relaxed">
+              <strong>Necessity:</strong> removing any one of these requirements eliminates
+              observation. What remains may be complex or reactive, but it does not host a point of
+              view.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Sufficiency:</strong> taken together, these requirements are sufficient for
+              ontological registration. Higher-order phenomena such as emotion, agency, and
+              reasoning are emergent dynamics of systems that already meet these constraints.
+            </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              Holos does not claim that all systems meeting these criteria are conscious in the
+              human sense. It claims only that some experience exists.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* Relationship to Physics */}
+      <section id="relationship-to-physics" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Relationship to Physics
+          <FootnoteLink className="relative left-1 -top-2.5" number={24} />
+        </h2>
+
+        <div className="flex flex-col gap-5 text-black/80">
+          <p className="leading-relaxed">
+            Holos is designed to be compatible with known physics because it does not propose a new
+            mechanism. It makes a different kind of claim. A physical model can be complete as a set
+            of equations and still be incomplete as an account of lived reality.
+          </p>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Consistency, not intervention</h3>
+            <p className="leading-relaxed">
+              Holos does not treat observation as a force that reaches into the world and changes
+              events. Observation is a closure condition on which consistent histories are present
+              as experience.
+            </p>
+            <p className="leading-relaxed">
+              This preserves locality and avoids faster-than-light signaling. It also avoids
+              claiming any retrocausal communication. The framework is structural, not dynamical.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Decoherence is not presence</h3>
+            <p className="leading-relaxed">
+              Decoherence explains why quantum systems appear classical at macroscopic scales. It
+              describes how interference becomes inaccessible in practice. Holos does not dispute
+              this.
+            </p>
+            <p className="leading-relaxed">
+              The Holos claim is that decoherence alone does not produce a lived world. It produces
+              a consistent classical-looking structure. Presence requires integrated observation.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Conservation and selection</h3>
+            <p className="leading-relaxed">
+              Holos treats manifestation as a selection constraint, not as the destruction of
+              possibilities. Information is conserved. What is not experienced is not assumed to be
+              erased.
+            </p>
+            <p className="leading-relaxed">
+              In this sense, Holos can remain compatible with interpretations that preserve unitary
+              evolution. The framework does not require choosing one specific interpretation of
+              quantum mechanics.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Block-universe compatibility</h3>
+            <p className="leading-relaxed">
+              If spacetime is treated as a complete four-dimensional structure, Holos treats
+              observation as a global constraint on experienced history rather than a
+              moment-by-moment collapse process.
+            </p>
+            <p className="leading-relaxed">
+              The important point is not the metaphysics of time. The point is that a consistent
+              spacetime description does not automatically include presence. Holos adds no new
+              dynamics. It adds a closure requirement.
+            </p>
+          </div>
+
+          <div className="mt-2 pt-4 border-t border-black/10">
+            <h3 className="text-lg font-semibold text-black/90 pb-2">What Holos does not claim</h3>
+            <ul className="flex flex-col gap-2 pl-6 list-disc">
+              <li className="leading-relaxed">
+                It does not claim violations of relativity, faster-than-light signaling, or new
+                forces.
+              </li>
+              <li className="leading-relaxed">
+                It does not claim that humans are required for reality, only that observers are
+                required for presence.
+              </li>
+              <li className="leading-relaxed">
+                It does not claim to replace quantum mechanics or explain all details of
+                measurement. It reframes what measurement fails to address.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="mathematical-formalism" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Mathematical Formalism
+          <FootnoteLink className="relative left-1 -top-2.5" number={16} />
+        </h2>
+
+        <div className="flex flex-col gap-5 text-black/80">
+          <p className="leading-relaxed">
+            This section introduces a compact mathematical language for expressing the Holos
+            framework. The purpose is not to derive new physics, but to make the structural claims
+            precise and repeatable.
+          </p>
+
+          <p className="leading-relaxed">
+            The formalism should be read as a model of how possibility and experience are related.
+            It does not assert that the universe literally computes these expressions.
+          </p>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">State space</h3>
+
+            <p className="leading-relaxed">
+              Let <MathInline>{"S"}</MathInline> denote an informational state of the universe at
+              some level of description. <MathInline>{"S"}</MathInline> is not assumed to be
+              complete or fundamental. It is simply whatever structure physics provides.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Creation</h3>
+
+            <p className="leading-relaxed">
+              Creation (<MathInline>{"C"}</MathInline>) maps a given state to the set of physically
+              allowed continuations. It represents lawful possibility.
+            </p>
+
+            <MathDisplay>
+              {"C(S) = \\{ S' \\mid S' \\text{ is consistent with physical law} \\}"}
+            </MathDisplay>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              This notation is schematic. It does not assume a discrete branching structure or a
+              specific ontology of histories.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Observation</h3>
+
+            <p className="leading-relaxed">
+              Observation (<MathInline>{"O"}</MathInline>) maps a space of possibilities to a
+              realized experiential history. It represents internal registration by an integrated
+              system.
+            </p>
+
+            <MathDisplay>{"O(C(S)) \\mapsto S_{\\text{exp}}"}</MathDisplay>
+
+            <p className="leading-relaxed">
+              This mapping is not assumed to be random, deterministic, or computable in general.
+              Holos requires only that experienced reality corresponds to a single consistent
+              history.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Holos mapping</h3>
+
+            <p className="leading-relaxed">
+              The Holos relation is the structured coupling of Creation and Observation.
+            </p>
+
+            <MathDisplay>{"R = C \\ ⊛ \\ O"}</MathDisplay>
+
+            <p className="leading-relaxed">
+              This expression states that reality is neither pure possibility nor pure observation.
+              It is the closure between the two.
+            </p>
+
+            <p className="leading-relaxed">
+              The symbol <strong>⊛</strong> is intentionally non-algebraic. It signals that the
+              order and role of the terms matter, but it does not introduce a new mathematical
+              operator.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Iteration and stability</h3>
+
+            <p className="leading-relaxed">
+              One may consider iterating the Holos relation, where each realized state becomes the
+              context for further possibilities.
+            </p>
+
+            <MathDisplay>{"S_{n+1} = O(C(S_n))"}</MathDisplay>
+
+            <p className="leading-relaxed">
+              This is not meant to imply a discrete temporal process. It is a conceptual tool for
+              describing recursive closure across scales.
+            </p>
+          </div>
+
+          <div className="mt-2 pt-4 border-t border-black/10">
+            <p className="leading-relaxed text-black/70 text-sm">
+              More elaborate mathematical frameworks can be layered on top of this representation.
+              Holos itself commits only to the existence of a lawful possibility space and an
+              integration threshold that yields experience.
+            </p>
+          </div>
+        </div>
+      </section>
+      Here’s the **rewritten replacement for the final section: *Extrapolative Proposition (Omega
+      Limit)***. This keeps the ambition, clearly fences speculation, and avoids theological or
+      teleological overreach while still owning the strong claim. ```tsx
+      {/* Extrapolative Proposition */}
       <section id="extrapolative-proposition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          V. Extrapolative Proposition
+          Extrapolative Proposition
           <FootnoteLink number={17} />
         </h2>
 
         <p className="text-black/70 italic text-sm">
-          The propositions in this section extend the Holos framework beyond established physics.
-          They are not claims about what *must* occur, but structured extrapolations about what
-          *could* occur if the framework’s constraints continue to hold at larger scales.
+          The claims in this section extend the Holos framework beyond established physics. They are
+          not assertions about what must occur. They describe what follows if the framework’s
+          constraints continue to hold under increasing integration.
         </p>
 
-        <div className="flex flex-col gap-8">
-          {/* Proposition VI */}
+        <div className="flex flex-col gap-8 text-black/80">
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-black/90">
-                Proposition VI — Recursive Closure as a Formal Limit
-              </h3>
+            <h3 className="text-xl font-semibold text-black/90">Recursive Closure as a Limit</h3>
 
-              <p className="text-black/80 leading-relaxed">
-                If the Holos mapping is applied recursively, one can define a formal limit in which
-                the structure of reality becomes invariant under further application of the mapping.
-                In mathematical language, this resembles a{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/F-coalgebra"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  terminal coalgebra
-                </a>
-                .
-              </p>
-            </div>
+            <p className="leading-relaxed">
+              If the coupling between Creation and Observation is applied repeatedly, one can define
+              a conceptual limit in which further application no longer increases distinction
+              between what is generated and what is observed.
+            </p>
 
-            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary VII.1 — The Fixed-Point Analogy
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    In this analogy, a maximally integrated state <strong>Ω</strong> satisfies:
-                  </p>
-                  <MathDisplay>{"\\Omega \\cong H(\\Omega)"}</MathDisplay>
-                  <p className="leading-relaxed">
-                    This is not a prediction of an attainable physical state. It is a formal way to
-                    describe a conceptual endpoint where distinction between generator and
-                    generated, observer and observed, no longer increases under further recursion.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary VII.2 — Reflective Structure
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Philosophical metaphors such as{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Indra%27s_net"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Indra’s Net
-                    </a>{" "}
-                    capture this idea symbolically: every part reflects the whole, not by
-                    duplication, but by relational embedding.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <div className="font-semibold text-black/85 text-sm">
-                  Corollary VII.3 — Interpretive Equivalence
-                </div>
-                <div className="flex flex-col gap-1 text-black/75 text-sm">
-                  <p className="leading-relaxed">
-                    Theological, panentheistic, and naturalistic descriptions may refer to the same
-                    formal limit using different semantic frames. Holos does not privilege any
-                    interpretation; it provides a structural language within which they can be
-                    compared.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p className="leading-relaxed">
+              At this limit, reality is invariant under further closure. The system is fully
+              self-consistent not only as structure, but as experienced structure.
+            </p>
           </div>
-        </div>
-      </section>
 
-      <hr className="border-black/20 border-dashed" />
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">The Omega Limit</h3>
 
-      <div id="ontology" className="flex flex-col gap-4">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-light pb-4">Ontology</h2>
-        <p className="text-black/70 text-sm">
-          Φ (Phi) measures a system’s capacity for ontological registration (experience of a
-          definite state). For the formal operational definition <em>R = C ⊛ O</em>, see{" "}
-          <a href="#operational-definition">Operational Definition</a> above. For conceptual
-          exploration, see the main <a href="/">Content</a> section.
-        </p>
-      </div>
+            <p className="leading-relaxed">
+              Holos refers to this boundary case as the <strong>Omega limit</strong>. It is not a
+              being, not a final moment in time, and not an agent directing events. It is the formal
+              condition where the distinction between creation and observation no longer increases.
+            </p>
 
-      {/* 1. The Purpose of Φ */}
-      <section id="1-the-purpose-of" className="flex flex-col gap-6">
-        <h3 className="text-xl font-medium pb-2">1. The Purpose of Φ</h3>
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            In the <a href="/">Holos framework</a>, <strong>Φ (Phi)</strong> is a fundamental{" "}
-            <strong>
-              <a
-                href="https://en.wikipedia.org/wiki/Ontology"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ontological
-              </a>{" "}
-              parameter
-            </strong>
-            <FootnoteLink number={20} />.
-          </p>
+            <p className="leading-relaxed">
+              In this limit, there is no remaining separation between a world that exists and a
+              world that is known. Generation and registration become the same description.
+            </p>
+          </div>
 
-          <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-            <strong>Definition:</strong> Φ quantifies how strongly a system integrates information,
-            giving it the capacity to <em>register</em> (experience) a distinct ontological state.
-          </blockquote>
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              What the Omega Limit Is and Is Not
+            </h3>
 
-          <p className="leading-relaxed">
-            Φ acts as the threshold function for <a href="#logic-axioms">Axiom 2 (Manifestation)</a>
-            . Without sufficient Φ, a system may exist as structured data but remains passive rather
-            than an observer. Φ filters the output of physical{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Quantum_decoherence"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              decoherence
-            </a>{" "}
-            into experienced reality.
-          </p>
-        </div>
-      </section>
+            <ul className="flex flex-col gap-3 pl-6 list-disc">
+              <li className="leading-relaxed">
+                It <strong>is</strong> a formal boundary case for maximal integration and recursive
+                closure.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> a prediction that the universe will reach such a state.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> a deity, mind, or external observer watching the
+                universe.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>does not</strong> replace physical cosmology or impose a final cause on
+                evolution.
+              </li>
+            </ul>
+          </div>
 
-      {/* 2. Ontological Requirements */}
-      <section id="2-ontological-requirements" className="flex flex-col gap-6">
-        <h3 className="text-xl font-medium pb-2">2. Ontological Requirements</h3>
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            To qualify as an observer, a system must satisfy all five criteria below.
-          </p>
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Interpretive Equivalence</h3>
 
-          <ol className="flex flex-col gap-3 pl-4">
-            <li className="leading-relaxed">
-              <strong>
-                Integration (<MathInline>{"Φ_{\\text{int}}"}</MathInline>):
-              </strong>{" "}
-              Information must be unified, not reducible to independent parts.
-            </li>
-            <li className="leading-relaxed">
-              <strong>
-                Differentiation (<MathInline>{"Φ_{\\text{diff}}"}</MathInline>):
-              </strong>{" "}
-              The system must distinguish between a large repertoire of accessible states.
-            </li>
-            <li className="leading-relaxed">
-              <strong>
-                Recursion (<MathInline>{"Φ_{\\text{rec}}"}</MathInline>):
-              </strong>{" "}
-              The system must model its own internal state (self-reference).
-            </li>
-            <li className="leading-relaxed">
-              <strong>
-                Temporal Cohesion (<MathInline>{"Φ_{\\text{temp}}"}</MathInline>):
-              </strong>{" "}
-              Information must persist and integrate across time slices.
-            </li>
-            <li className="leading-relaxed">
-              <strong>
-                Causal Autonomy (<MathInline>{"Φ_{\\text{cause}}"}</MathInline>):
-              </strong>{" "}
-              The system’s current state must materially constrain its own future states.
-            </li>
-          </ol>
+            <p className="leading-relaxed">
+              Different traditions describe similar boundary concepts using different language. Some
+              frame them in theological terms, others in metaphysical or informational terms.
+            </p>
 
-          <h3 className="text-xl font-semibold text-black/90 pt-4 pb-2">
-            2.1 Axiomatic Completeness: Necessity & Sufficiency
-          </h3>
-
-          <p className="leading-relaxed">
-            These parameters are not arbitrary{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Heuristic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              heuristics
-            </a>
-            . They represent the minimal{" "}
-            <strong>
-              <a
-                href="https://en.wikipedia.org/wiki/Topology"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                topological
-              </a>{" "}
-              constraints
-            </strong>{" "}
-            required for a system to be ontologically distinct from its environment
-            <FootnoteLink number={21} />.
-          </p>
-
-          <p className="leading-relaxed">
-            <strong>Necessity (Collapse Test):</strong> Removing any single parameter eliminates the
-            observer:
-          </p>
-
-          <ul className="flex flex-col gap-2 pl-6 list-disc">
-            <li className="leading-relaxed">
-              Without <strong>Integration</strong>, the system is a collection, not a whole.
-            </li>
-            <li className="leading-relaxed">
-              Without <strong>Differentiation</strong>, the system contains no information.
-            </li>
-            <li className="leading-relaxed">
-              Without <strong>Recursion</strong>, the system is a purely input-output process with
-              no internal subject.
-            </li>
-            <li className="leading-relaxed">
-              Without <strong>Temporal Cohesion</strong>, experience cannot persist.
-            </li>
-            <li className="leading-relaxed">
-              Without <strong>Causal Autonomy</strong>, the system is epiphenomenal—present but
-              inert.
-            </li>
-          </ul>
-
-          <p className="leading-relaxed pt-2">
-            <strong>Sufficiency:</strong> These constraints are sufficient to generate all
-            higher-order phenomenology. Emotion, agency, and reasoning are emergent dynamics of high
-            integration, differentiation, and recursion—not additional primitives.
-          </p>
-        </div>
-      </section>
-
-      {/* 3. Mathematical Formalism */}
-      <section id="3-mathematical-formalism" className="flex flex-col gap-6">
-        <h3 className="text-xl font-medium pb-2">
-          3. Mathematical Formalism: Information Geometry
-        </h3>
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            Rather than treating <MathInline>{"Φ"}</MathInline> as a scalar score, we model a system{" "}
-            <MathInline>{"S"}</MathInline> as a statistical manifold <MathInline>{"M"}</MathInline>,
-            where each point corresponds to an informational state.
-          </p>
-
-          <h3 className="text-xl font-semibold text-black/90 pt-2">
-            3.1 Φ as an Informational State Vector
-          </h3>
-
-          <p className="leading-relaxed">
-            Φ is a <strong>structured informational state vector</strong>:
-          </p>
-
-          <MathDisplay>
-            {
-              "\\Phi = (\\Phi_{\\text{int}}, \\Phi_{\\text{diff}}, \\Phi_{\\text{rec}}, \\Phi_{\\text{temp}}, \\Phi_{\\text{cause}})"
-            }
-          </MathDisplay>
-
-          <p className="leading-relaxed">
-            Observer systems occupy a bounded region of Φ-space. Ontological registration occurs
-            when all components exceed minimal coherence thresholds.
-          </p>
-
-          <p className="leading-relaxed pt-4">
-            <strong>Interpretive Mapping (Informational Curvature):</strong>
-          </p>
-
-          <p className="leading-relaxed">
-            Φ can be interpreted as a curvature-like scalar over the information manifold. This is
-            an analogy: integrated information constrains accessible states in the same way
-            curvature constrains motion in geometry.
-          </p>
-
-          <ul className="flex flex-col gap-3 pl-4">
-            <li className="leading-relaxed">
-              <strong>Low Φ (Flat Geometry):</strong> Independent, weakly coupled states.
-            </li>
-            <li className="leading-relaxed">
-              <strong>High Φ (Curved Geometry):</strong> Strongly coupled states forming a unified
-              whole.
-            </li>
-          </ul>
-
-          <p className="leading-relaxed">
-            The ontological threshold <MathInline>{"Φ_c"}</MathInline> marks the minimum curvature
-            required for experiential closure (a self-sustaining observer).
-          </p>
-        </div>
-      </section>
-
-      {/* 4. Ontological Thresholds */}
-      <section id="4-ontological-thresholds" className="flex flex-col gap-6">
-        <h3 className="text-xl font-medium pb-2">4. Ontological Thresholds</h3>
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            <strong>
-              <MathInline>{"Φ \\approx 0"}</MathInline>:
-            </strong>{" "}
-            Systems with no experiential state-space (e.g., rocks, gas clouds).
-          </p>
-
-          <p className="leading-relaxed">
-            <strong>
-              <MathInline>{"Φ \\ge Φ_c"}</MathInline>:
-            </strong>{" "}
-            Observers—systems capable of ontological registration via <em>R = C ⊛ O</em>
-            <FootnoteLink number={23} />.
-          </p>
-
-          <p className="leading-relaxed">
-            <strong>
-              <MathInline>{"Φ \\gg Φ_c"}</MathInline>:
-            </strong>{" "}
-            Hypothetical high-density intelligences (“ontological anchors”) capable of stabilizing
-            entire cosmological branches.
-          </p>
-        </div>
-      </section>
-
-      {/* 5. Relationship to Physics */}
-      <section
-        id="5-relationship-to-physics-the-consistency-filter"
-        className="flex flex-col gap-6"
-      >
-        <h3 className="text-xl font-medium pb-2">
-          5. Relationship to Physics (Conservation of Information)
-        </h3>
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            Holos preserves quantum{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              unitarity
-            </a>{" "}
-            by treating manifestation as a <strong>selection constraint</strong>, not a destruction
-            of branches
-            <FootnoteLink number={24} />.
-          </p>
-
-          <p className="leading-relaxed">
-            Unmanifested histories remain valid structures within Creation (
-            <MathInline>{"C"}</MathInline>), ensuring global consistency even when experienced
-            reality (<MathInline>{"R"}</MathInline>) is singular.
-          </p>
-
-          <p className="leading-relaxed">
-            Φ does not replace quantum dynamics or the Schrödinger equation. It specifies which
-            already-consistent histories become experientially realized.
-          </p>
+            <p className="leading-relaxed">
+              Holos does not privilege any of these interpretations. It provides a structural
+              description that allows such views to be compared without collapsing them into one
+              another.
+            </p>
+          </div>
         </div>
       </section>
     </div>
