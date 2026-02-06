@@ -1,4 +1,5 @@
 import { FootnoteLink } from "./citation-sections";
+import InterpretiveComparisonTable from "./InterpretiveComparisonTable";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 
@@ -103,10 +104,21 @@ export default function Logic() {
           </p>
         </div>
       </section>
-      {/* Primitive Definitions */}
+      <div id="comparison">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Comparison with Competing Interpretations
+        </h2>
+        <p className="leading-relaxed text-black/80 mb-4">
+          Holos does not reject existing quantum interpretations. Instead, it re-positions their
+          strongest insights within a single ontological framework. The table below clarifies where
+          Holos aligns with — and diverges from — major interpretations.
+        </p>
+        <InterpretiveComparisonTable />
+      </div>
+      {/* Primitives */}
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Primitive Definitions
+          Primitives
           <FootnoteLink number={13} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-8 text-black/80">

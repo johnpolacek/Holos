@@ -3,7 +3,7 @@ import Logic from "../_components/Logic";
 import PageLayout from "../_components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Holos (⊛) – Primitive Definitions, Axioms, and Core Propositions",
+  title: "Holos (⊛) – Logic – Primitive Definitions, Axioms and Foundations",
   description:
     "A formal mathematical and philosophical structure defining Holos (⊛) through primitive definitions, axioms, foundational propositions, and extrapolative propositions.",
   alternates: {

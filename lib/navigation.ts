@@ -29,6 +29,7 @@ export const theorySubsections: Subsection[] = [
 export const logicSubsections: Subsection[] = [
   { id: "minimal-core", title: "Core" },
   { id: "operational-definition", title: "Definition" },
+  { id: "comparison", title: "Comparison" },
   { id: "primitive-definitions", title: "Primitives" },
   { id: "logic-axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundations" },
@@ -39,14 +40,12 @@ export const logicSubsections: Subsection[] = [
 ];
 
 export const predictionsSubsections: Subsection[] = [
-  { id: "comparison", title: "Comparison" },
-  { id: "primary-prediction", title: "Primary" },
-  { id: "secondary-predictions", title: "Secondary" },
-  { id: "tertiary-prediction", title: "Tertiary" },
-  { id: "extrapolative-prediction", title: "Extrapolative" },
-  { id: "testable-implications", title: "Implications" },
-  { id: "experiments", title: "Experiments" },
-  { id: "trajectory", title: "Trajectory" },
+  { id: "prediction-introduction", title: "Introduction" },
+  { id: "commitments", title: "Commitments" },
+  { id: "expectations", title: "Expectations" },
+  { id: "experimentation", title: "Experimentation" },
+  { id: "speculation", title: "Speculation" },
+  { id: "technology", title: "Technology" },
 ];
 
 export const sections: Section[] = [
