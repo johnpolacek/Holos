@@ -22,6 +22,13 @@ export default function Citations() {
               <h4 id={subsection.id} className="font-semibold">
                 {subsection.title}
               </h4>
+              {subsection.canonicalLink ? (
+                <p className="text-black/60 text-xs mb-1">
+                  <a href={subsection.canonicalLink} className="underline hover:no-underline">
+                    See: {mainSection.title} › {subsection.title}
+                  </a>
+                </p>
+              ) : null}
               <div className="flex">
                 <sup className="relative top-2 pr-2">{subsection.number}</sup>
                 <ul className="flex flex-col gap-2">

@@ -1,4 +1,4 @@
-import { FootnoteLink } from "./citation-sections";
+import { FootnoteLink, logicCitationMap } from "./citation-sections";
 import InterpretiveComparisonTable from "./InterpretiveComparisonTable";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
@@ -10,7 +10,7 @@ export default function Logic() {
       <section id="minimal-core" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Minimal Core
-          <FootnoteLink className="relative left-1 -top-2.5" number={18} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["minimal-core"]} />
         </h2>
 
         <div className="flex flex-col gap-4 text-black/80">
@@ -53,7 +53,7 @@ export default function Logic() {
       <section id="operational-definition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Operational Definition
-          <FootnoteLink className="relative left-1 -top-2.5" number={19} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["operational-definition"]} />
         </h2>
 
         <div className="flex flex-col gap-4 text-black/80">
@@ -119,7 +119,7 @@ export default function Logic() {
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Primitives
-          <FootnoteLink number={13} className="relative left-1 -top-2.5" />
+          <FootnoteLink number={logicCitationMap["primitive-definitions"]} className="relative left-1 -top-2.5" />
         </h2>
         <div className="flex flex-col gap-8 text-black/80">
           {/* D1 */}
@@ -214,7 +214,7 @@ export default function Logic() {
       <section id="logic-axioms" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Axioms
-          <FootnoteLink className="relative left-1 -top-2.5" number={14} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["logic-axioms"]} />
         </h2>
 
         <div className="flex flex-col gap-8 text-black/80">
@@ -295,7 +295,7 @@ export default function Logic() {
       <section id="foundational-propositions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Foundational Propositions
-          <FootnoteLink className="relative left-1 -top-2.5" number={15} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["foundational-propositions"]} />
         </h2>
         <div className="flex flex-col gap-10 text-black/80">
           {/* Proposition I */}
@@ -414,7 +414,7 @@ export default function Logic() {
       <section id="ontology" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Φ and Ontological Requirements
-          <FootnoteLink className="relative left-1 -top-2.5" number={20} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["ontology"]} />
         </h2>
 
         <div className="flex flex-col gap-4 text-black/80">
@@ -507,7 +507,7 @@ export default function Logic() {
       <section id="relationship-to-physics" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Relationship to Physics
-          <FootnoteLink className="relative left-1 -top-2.5" number={24} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["relationship-to-physics"]} />
         </h2>
 
         <div className="flex flex-col gap-5 text-black/80">
@@ -593,7 +593,7 @@ export default function Logic() {
       <section id="mathematical-formalism" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Mathematical Formalism
-          <FootnoteLink className="relative left-1 -top-2.5" number={16} />
+          <FootnoteLink className="relative left-1 -top-2.5" number={logicCitationMap["mathematical-formalism"]} />
         </h2>
 
         <div className="flex flex-col gap-5 text-black/80">
@@ -707,7 +707,7 @@ export default function Logic() {
       <section id="extrapolative-proposition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Extrapolative Proposition
-          <FootnoteLink number={17} />
+          <FootnoteLink number={logicCitationMap["extrapolative-proposition"]} />
         </h2>
 
         <p className="text-black/70 italic text-sm">

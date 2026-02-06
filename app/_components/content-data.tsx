@@ -1,5 +1,5 @@
 import type React from "react";
-import { FootnoteLink } from "./citation-sections";
+import { FootnoteLink, overviewCitationMap } from "./citation-sections";
 import MathInline from "./MathInline";
 
 export interface ContentSection {
@@ -94,7 +94,7 @@ export const sections: ContentSection[] = [
       <>
         Consciousness is not what systems do. It is what happens when a system becomes capable of
         witnessing reality from the inside.
-        <FootnoteLink number={2} />
+        <FootnoteLink number={overviewCitationMap["consciousness"]} />
       </>,
     ],
   },
@@ -128,7 +128,7 @@ export const sections: ContentSection[] = [
       <>
         This raises the next question. If spacetime is a complete geometric object, what is its
         structure?
-        <FootnoteLink number={3} />
+        <FootnoteLink number={overviewCitationMap["our-universe"]} />
       </>,
     ],
   },
@@ -176,7 +176,7 @@ export const sections: ContentSection[] = [
       <>
         If coherence can outrun what four dimensions can support, additional descriptive frameworks
         are required.
-        <FootnoteLink number={4} />
+        <FootnoteLink number={overviewCitationMap["spacetime"]} />
       </>,
     ],
   },
@@ -233,7 +233,7 @@ export const sections: ContentSection[] = [
         coincide. This limit is <a href="https://en.wikipedia.org/wiki/Asymptote">asymptotic</a>,
         not reachable, and marks the boundary where further structural distinction ceases to be
         meaningful.
-        <FootnoteLink number={5} />
+        <FootnoteLink number={overviewCitationMap["higher-dimensions"]} />
       </>,
     ],
   },
@@ -263,7 +263,7 @@ export const sections: ContentSection[] = [
         From the Holos perspective, infinities appear as warnings, not features. Resolving them
         requires either additional structure or a boundary that enforces consistency. In physics,
         those boundaries are not abstract. They appear as real, measurable limits.
-        <FootnoteLink number={6} />
+        <FootnoteLink number={overviewCitationMap["infinity"]} />
       </>,
     ],
   },
@@ -283,7 +283,7 @@ export const sections: ContentSection[] = [
         Modern physics suggests that information is not destroyed by black holes, but reorganized.
         The <a href="https://en.wikipedia.org/wiki/Holographic_principle">holographic principle</a>{" "}
         proposes that all information contained within a volume can be represented on its boundary,
-        such as the <a href="#footer-blackholes">event horizon</a>. Black holes are not just objects
+        such as the <a href="/citations#black-holes">event horizon</a>. Black holes are not just objects
         in spacetime, but boundaries where projection collapses and structure must be encoded
         differently.
       </>,
@@ -293,7 +293,7 @@ export const sections: ContentSection[] = [
         establishes a physical precedent for the idea that highly integrated systems leave fewer
         visible signatures. As integration increases, outward expression diminishes. What remains is
         compact, dense, and less detectable.
-        <FootnoteLink number={7} />
+        <FootnoteLink number={overviewCitationMap["black-holes"]} />
       </>,
     ],
   },
@@ -344,7 +344,7 @@ export const sections: ContentSection[] = [
       </>,
       <>
         The result is a universe that is full of life, but quiet to pre-integrated observers.
-        <FootnoteLink number={8} />
+        <FootnoteLink number={overviewCitationMap["aliens"]} />
       </>,
     ],
   },
@@ -495,7 +495,7 @@ export const sections: ContentSection[] = [
         These interpretations are not mutually exclusive. They represent different lenses applied to
         the same underlying claim: that reality, at its limit, forms a unified whole where creation
         and observation are no longer distinct.
-        <FootnoteLink number={10} />
+        <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
   },
@@ -523,7 +523,7 @@ export const sections: ContentSection[] = [
         becomes reality-as-experienced, as opposed to reality-as-equations. When a system reaches
         sufficient integration, expressed as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>,
         interaction is no longer just relational. It becomes perspective.
-        <FootnoteLink number={11} />
+        <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
     ],
   },

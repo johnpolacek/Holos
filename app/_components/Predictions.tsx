@@ -1,18 +1,6 @@
-import { FootnoteLink } from "./citation-sections";
+import { FootnoteLink, predictionsCitationMap } from "./citation-sections";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
-
-const predictionsCitationMap: Record<string, number> = {
-  "primary-prediction": 34,
-  "secondary-predictions": 35,
-  "tertiary-prediction": 36,
-  "extrapolative-prediction": 37,
-  "testable-implications": 38,
-  "experiment-1": 39,
-  "experiment-2": 40,
-  "experiment-3": 41,
-  "experiment-4": 42,
-};
 
 export default function Predictions() {
   return (
@@ -23,7 +11,7 @@ export default function Predictions() {
           <h2 className="text-2xl sm:text-3xl font-light pb-2">
             Predictions
             <FootnoteLink
-              number={predictionsCitationMap["primary-prediction"]}
+              number={predictionsCitationMap["prediction-introduction"]}
               className="relative left-1 -top-2.5"
             />
           </h2>
@@ -80,7 +68,7 @@ export default function Predictions() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Commitments
           <FootnoteLink
-            number={predictionsCitationMap["secondary-predictions"]}
+            number={predictionsCitationMap["commitments"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -188,7 +176,7 @@ export default function Predictions() {
         <h2 className="text-2xl sm:text-3xl font-light">
           Expectations
           <FootnoteLink
-            number={predictionsCitationMap["tertiary-prediction"]}
+            number={predictionsCitationMap["expectations"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -276,7 +264,7 @@ export default function Predictions() {
         <h2 className="text-2xl sm:text-3xl font-light">
           Experimentation
           <FootnoteLink
-            number={predictionsCitationMap["experiment-1"]}
+            number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -299,7 +287,7 @@ export default function Predictions() {
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
           Experiment 1: Integration Thresholds and Observer Emergence
           <FootnoteLink
-            number={predictionsCitationMap["experiment-1"]}
+            number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
           />
         </h3>
@@ -370,7 +358,7 @@ export default function Predictions() {
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
           Experiment 2: Observer-Cut Sensitivity in Relational Systems
           <FootnoteLink
-            number={predictionsCitationMap["experiment-4"]}
+            number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
           />
         </h3>
@@ -490,7 +478,7 @@ export default function Predictions() {
         <h2 className="text-2xl sm:text-3xl font-light">
           Speculation
           <FootnoteLink
-            number={predictionsCitationMap["extrapolative-prediction"]}
+            number={predictionsCitationMap["speculation"]}
             className="relative left-1 -top-2.5"
           />
         </h2>
@@ -770,6 +758,31 @@ export default function Predictions() {
                 In Holos, exploration does not scale through presence or expansion, but through
                 patience. Sentinel Probes exist to watch, not to arrive.
               </p>
+            </div>
+
+            
+
+            {/* 3) Gravitational-Lens Observatories */}
+            <div className="flex flex-col gap-2">
+              <h5 className="font-semibold text-black/90">Gravitational-Lens Observatories</h5>
+              <p className="leading-relaxed">
+                Observation systems that exploit natural gravitational lenses to achieve extreme
+                resolution without large, radiative infrastructure.
+              </p>
+              <ul className="flex flex-col gap-2 pl-6 list-disc">
+                <li className="leading-relaxed">
+                  <strong>Purpose:</strong> deep inspection of distant systems already identified as
+                  anomalous, interesting, or poorly constrained by existing models.
+                </li>
+                <li className="leading-relaxed">
+                  <strong>How it works:</strong> instruments positioned along stellar or mass focal
+                  lines integrate signals over long durations, trading time for resolution.
+                </li>
+                <li className="leading-relaxed">
+                  <strong>Implication:</strong> exploration shifts from surveying everything to
+                  interrogating specific questions the shared map cannot yet answer.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

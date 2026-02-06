@@ -181,5 +181,5 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
 }
 
 function getFooterIdForNumber(num: number): string {
-  return citationAnchorMap[num] ?? "footer-why";
+  return citationAnchorMap[num] ?? "why";
 }

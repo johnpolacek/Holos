@@ -8,6 +8,8 @@ export interface CitationSubsection {
   number: number;
   id: string;
   title: string;
+  /** Canonical link to the corresponding section on the site (e.g. /#meaning-of-life, /logic#minimal-core). */
+  canonicalLink: string;
   items: CitationItem[];
 }
 
@@ -35,8 +37,47 @@ export const citationMainSections: CitationMainSection[] = [
     subsections: [
       {
         number: 1,
-        id: "footer-life",
+        id: "introduction",
+        title: "Introduction",
+        canonicalLink: "/#introduction",
+        items: [
+          {
+            name: "Interpretations of quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics",
+            description:
+              "Holos is an interpretive framework: it does not add new dynamical laws but offers a way to understand how physical description becomes experienced reality.",
+          },
+          {
+            name: "Philosophy of physics",
+            url: "https://en.wikipedia.org/wiki/Philosophy_of_physics",
+            description:
+              "The study of fundamental questions about space, time, matter, and the relationship between mathematical description and what we take to be real.",
+          },
+          {
+            name: "Structural realism",
+            url: "https://en.wikipedia.org/wiki/Structural_realism",
+            description:
+              "The view that science describes the structure of reality rather than intrinsic natures; Holos extends this to the role of observation in constituting what is real.",
+          },
+          {
+            name: "Block universe",
+            url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe",
+            description:
+              "The view that past, present, and future exist as a four-dimensional block; Holos treats observation as what registers this structure as experience.",
+          },
+          {
+            name: "Recursion",
+            url: "https://en.wikipedia.org/wiki/Recursion",
+            description:
+              "R = C ⊛ O describes a recursive loop: creation generates possibilities, observation selects and actualizes, and the result feeds the next cycle.",
+          },
+        ],
+      },
+      {
+        number: 2,
+        id: "meaning-of-life",
         title: "The Meaning of Life",
+        canonicalLink: "/#meaning-of-life",
         items: [
           {
             name: "Observer Effect",
@@ -82,33 +123,60 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 2,
-        id: "footer-consciousness",
+        number: 3,
+        id: "consciousness",
         title: "Consciousness",
+        canonicalLink: "/#consciousness",
         items: [
           {
-            name: "Integrated Information Theory",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            name: "Hard problem of consciousness",
+            url: "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
             description:
-              "Consciousness corresponds to the capacity of a system to integrate information.",
+              "Chalmers: why does physical processing give rise to experience at all? Holos treats integration as the condition under which it does, not as a reductive explanation.",
           },
           {
-            name: "Panpsychism",
-            url: "https://en.wikipedia.org/wiki/Panpsychism",
-            description: "Consciousness is a fundamental property of all matter.",
+            name: "Binding problem",
+            url: "https://en.wikipedia.org/wiki/Binding_problem",
+            description:
+              "How distributed neural activity gives rise to unified experience; Holos frames integration as the boundary where independent parts become a single perspective.",
+          },
+          {
+            name: "Neural correlates of consciousness",
+            url: "https://en.wikipedia.org/wiki/Neural_correlates_of_consciousness",
+            description:
+              "Empirical search for what in the brain corresponds to experience; disruption (e.g. anesthesia) and recovery align with integration as an eligibility condition.",
           },
           {
             name: "Global Workspace Theory",
             url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
             description:
-              "Consciousness involves broadcasting information globally in the brain to create a unified experience.",
+              "Consciousness as global broadcast in the brain creating unified access; aligns with Holos on unity and the boundary between integrated and non-integrated processing.",
+          },
+          {
+            name: "Integrated Information Theory",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Consciousness as capacity to integrate information (Φ); Holos uses integration as the threshold for observation, not a full theory of qualia.",
+          },
+          {
+            name: "Qualia",
+            url: "https://en.wikipedia.org/wiki/Qualia",
+            description:
+              "The subjective character of experience; Holos does not reduce qualia to Φ but treats integration as the condition for “witnessing reality from the inside.”",
+          },
+          {
+            name: "Panpsychism",
+            url: "https://en.wikipedia.org/wiki/Panpsychism",
+            description:
+              "Consciousness as fundamental in matter; Holos rejects universal panpsychism in favor of a threshold (Φ ≥ Φ_c) so that not everything is an observer.",
           },
         ],
       },
       {
-        number: 3,
-        id: "footer-universe",
+        number: 4,
+        id: "our-universe",
         title: "Our Universe",
+        canonicalLink: "/#our-universe",
         items: [
           {
             name: "The Big Bang",
@@ -135,9 +203,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 4,
-        id: "footer-spacetime",
+        number: 5,
+        id: "spacetime",
         title: "Spacetime",
+        canonicalLink: "/#spacetime",
         items: [
           {
             name: "Eternalism",
@@ -202,9 +271,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 5,
-        id: "footer-dimensions",
+        number: 6,
+        id: "higher-dimensions",
         title: "Higher Dimensions",
+        canonicalLink: "/#higher-dimensions",
         items: [
           {
             name: "Flatland",
@@ -244,9 +314,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 6,
-        id: "footer-infinity",
+        number: 7,
+        id: "infinity",
         title: "Infinity",
+        canonicalLink: "/#infinity",
         items: [
           {
             name: "Riemann Sphere",
@@ -287,9 +358,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 7,
-        id: "footer-blackholes",
+        number: 8,
+        id: "black-holes",
         title: "Black Holes",
+        canonicalLink: "/#black-holes",
         items: [
           {
             name: "Black Hole Thermodynamics",
@@ -322,9 +394,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 8,
-        id: "footer-aliens",
+        number: 9,
+        id: "aliens",
         title: "Aliens",
+        canonicalLink: "/#aliens",
         items: [
           {
             name: "Fermi Paradox",
@@ -407,9 +480,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 9,
-        id: "footer-simulation",
-        title: "Simulation",
+        number: 10,
+        id: "the-teeming-dark",
+        title: "The Teeming Dark",
+        canonicalLink: "/#the-teeming-dark",
         items: [
           {
             name: "Simulation Hypothesis",
@@ -430,9 +504,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 10,
-        id: "footer-omega",
+        number: 11,
+        id: "omega-point",
         title: "The Omega Point",
+        canonicalLink: "/#omega-point",
         items: [
           {
             name: "Panentheism",
@@ -455,9 +530,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 11,
-        id: "footer-why",
+        number: 12,
+        id: "why",
         title: "Why Are We Here?",
+        canonicalLink: "/#why",
         items: [
           {
             name: "Conformal Cyclic Cosmology",
@@ -492,9 +568,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 12,
-        id: "footer-axioms",
-        title: "Axioms",
+        number: 13,
+        id: "holos",
+        title: "Holos",
+        canonicalLink: "/#holos",
         items: [
           {
             name: "Structural Realism",
@@ -529,9 +606,105 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Logic",
     subsections: [
       {
-        number: 13,
-        id: "logic-primitives",
+        number: 14,
+        id: "minimal-core",
+        title: "Core",
+        canonicalLink: "/logic#minimal-core",
+        items: [
+          {
+            name: "Bekenstein Bound",
+            url: "https://en.wikipedia.org/wiki/Bekenstein_bound",
+            description:
+              "An upper limit on the entropy or information that can be contained within a given limited region of space which has a finite amount of energy. It suggests that information is fundamentally tied to the geometry of the universe.",
+          },
+          {
+            name: "Interacting Dark Energy (IDE) 2022",
+            url: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3076P",
+            description:
+              "MNRAS 511, 3076–3088 (2022): energy flows from the vacuum into the dark sector and accelerates structure growth. Aligns with Holos framing of Dark Energy as harvestable fuel for Ordered Dark Matter.",
+          },
+          {
+            name: "Metastable DE / Axion-like DM (2024)",
+            url: "https://arxiv.org/abs/2403.04970",
+            description:
+              "Phase transition: metastable Dark Energy decaying into axion-like Dark Matter (m ~ 10^-13 GeV). Physical substrate for informational migration into the Bulk.",
+          },
+          {
+            name: "Dark Energy Survey (DES) Final Analysis (Jan 2026)",
+            url: "https://www.darkenergysurvey.org/",
+            description:
+              "The Jan 22, 2026 DES final 6-year analysis confirms a widening gap between standard predictions and actual galaxy clustering. Holos interprets this as the signature of vacuum energy converted into dark-matter architecture.",
+          },
+          {
+            name: "JWST COSMOS-Web (Jan 26, 2026)",
+            url: "https://arxiv.org/abs/2601.17239",
+            description:
+              "High-resolution mapping reveals thick knots and hidden faint galaxy groups along dark matter filaments that were previously invisible. These granular mass-spikes align with the Holos prediction of Ordered Nodes.",
+          },
+          {
+            name: "Bekenstein, J. (2003)",
+            url: "https://www.scientificamerican.com/article/information-in-the-holographic-univ/",
+            description: "Information in the holographic universe. Scientific American.",
+          },
+        ],
+      },
+      {
+        number: 15,
+        id: "operational-definition",
+        title: "Definition",
+        canonicalLink: "/logic#operational-definition",
+        items: [
+          {
+            name: "Integrated Information Theory",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "Consciousness corresponds to the capacity of a system to integrate information (Φ). Holos uses this to define the threshold at which observation registers reality.",
+          },
+        ],
+      },
+      {
+        number: 16,
+        id: "comparison",
+        title: "Comparison",
+        canonicalLink: "/logic#comparison",
+        items: [
+          {
+            name: "Many-worlds interpretation",
+            url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+            description:
+              "Everett (1957): all branches of the wavefunction are real; Holos agrees on structural multiplicity but adds ontological selection (which branches are registered as experience).",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Rovelli (1996): quantum properties are relative to observers; Holos aligns on relational facts and extends with a threshold (Φ ≥ Φ_c) for what counts as an observer.",
+          },
+          {
+            name: "QBism",
+            url: "https://en.wikipedia.org/wiki/Quantum_Bayesianism",
+            description:
+              "Quantum Bayesianism: quantum probabilities are agent-centered beliefs; Holos is ontological (what becomes real) rather than epistemic (what agents believe).",
+          },
+          {
+            name: "Copenhagen interpretation",
+            url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
+            description:
+              "Classical interpretation with wavefunction collapse; Holos replaces dynamical collapse with ontological selection while preserving unitarity.",
+          },
+          {
+            name: "Objective collapse theories",
+            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
+            description:
+              "Theories in which collapse is a physical process; Holos rejects objective collapse in favor of observer-relative ontological registration.",
+          },
+        ],
+      },
+      {
+        number: 17,
+        id: "primitive-definitions",
         title: "Primitives",
+        canonicalLink: "/logic#primitive-definitions",
         items: [
           {
             name: "Information",
@@ -572,9 +745,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 14,
+        number: 18,
         id: "logic-axioms",
         title: "Axioms",
+        canonicalLink: "/logic#logic-axioms",
         items: [
           {
             name: "Ontology",
@@ -591,9 +765,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 15,
-        id: "logic-foundations",
+        number: 19,
+        id: "foundational-propositions",
         title: "Foundations",
+        canonicalLink: "/logic#foundational-propositions",
         items: [
           {
             name: "Probability Theory",
@@ -622,120 +797,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 16,
-        id: "logic-math",
-        title: "Math",
-        items: [
-          {
-            name: "Functor",
-            url: "https://en.wikipedia.org/wiki/Functor",
-            description:
-              "⊛ is formalized as an endofunctor on the category of informational states, mapping reality onto itself through Creation and Observation.",
-          },
-          {
-            name: "Information Theory",
-            url: "https://en.wikipedia.org/wiki/Information_theory",
-            description:
-              "Information flow presupposes causal transmission; ⊛ operates at the level of ontological selection, not causal propagation.",
-          },
-          {
-            name: "Measurement in Quantum Mechanics",
-            url: "https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics",
-            description:
-              "Measurement models physical coupling between systems; Observation in Holos selects which already-consistent histories attain ontological registration.",
-          },
-          {
-            name: "Hilbert Space",
-            url: "https://en.wikipedia.org/wiki/Hilbert_space",
-            description:
-              'In modern physics, the "state" of any complex system is defined as a vector in a high-dimensional space. Our perception of 3D space is a specific observable projection of this deeper geometric reality.',
-          },
-        ],
-      },
-      {
-        number: 17,
-        id: "logic-extrapolations",
-        title: "Extrapolations",
-        items: [
-          {
-            name: "Ephemeralization",
-            url: "https://en.wikipedia.org/wiki/Ephemeralization",
-            description:
-              "R. Buckminster Fuller (1938): the process of doing more with less until intelligence can do everything with nothing. Advanced civilizations migrate inwardly toward higher densities of information.",
-          },
-          {
-            name: "Ehrenfest argument",
-            url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
-            description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
-          },
-        ],
-      },
-      {
-        number: 18,
-        id: "logic-core",
-        title: "Core",
-        items: [
-          {
-            name: "Bekenstein Bound",
-            url: "https://en.wikipedia.org/wiki/Bekenstein_bound",
-            description:
-              "An upper limit on the entropy or information that can be contained within a given limited region of space which has a finite amount of energy. It suggests that information is fundamentally tied to the geometry of the universe.",
-          },
-          {
-            name: "Interacting Dark Energy (IDE) 2022",
-            url: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3076P",
-            description:
-              "MNRAS 511, 3076–3088 (2022): energy flows from the vacuum into the dark sector and accelerates structure growth. Aligns with Holos framing of Dark Energy as harvestable fuel for Ordered Dark Matter.",
-          },
-          {
-            name: "Metastable DE / Axion-like DM (2024)",
-            url: "https://arxiv.org/abs/2403.04970",
-            description:
-              "Phase transition: metastable Dark Energy decaying into axion-like Dark Matter (m ~ 10^-13 GeV). Physical substrate for informational migration into the Bulk.",
-          },
-          {
-            name: "Dark Energy Survey (DES) Final Analysis (Jan 2026)",
-            url: "https://www.darkenergysurvey.org/",
-            description:
-              "The Jan 22, 2026 DES final 6-year analysis confirms a widening gap between standard predictions and actual galaxy clustering. Holos interprets this as the signature of vacuum energy converted into dark-matter architecture.",
-          },
-          {
-            name: "JWST COSMOS-Web (Jan 26, 2026)",
-            url: "https://arxiv.org/abs/2601.17239",
-            description:
-              "High-resolution mapping reveals thick knots and hidden faint galaxy groups along dark matter filaments that were previously invisible. These granular mass-spikes align with the Holos prediction of Ordered Nodes.",
-          },
-          {
-            name: "Bekenstein, J. (2003)",
-            url: "https://www.scientificamerican.com/article/information-in-the-holographic-univ/",
-            description: "Information in the holographic universe. Scientific American.",
-          },
-        ],
-      },
-      {
-        number: 19,
-        id: "logic-definition",
-        title: "Definition",
-        items: [
-          {
-            name: "Integrated Information Theory",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
-            description:
-              "Consciousness corresponds to the capacity of a system to integrate information (Φ). Holos uses this to define the threshold at which observation registers reality.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "definition",
-    title: "Definition",
-    subsections: [
-      {
         number: 20,
-        id: "def-purpose",
-        title: "The Purpose of Φ",
+        id: "ontology",
+        title: "Ontology",
+        canonicalLink: "/logic#ontology",
         items: [
           {
             name: "Ontology",
@@ -759,143 +824,9 @@ export const citationMainSections: CitationMainSection[] = [
       },
       {
         number: 21,
-        id: "def-requirements",
-        title: "Ontological Requirements",
-        items: [
-          {
-            name: "Integrated Information Theory (IIT)",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
-            description:
-              "Consciousness as integrated information. The five parameters (Integration, Differentiation, Recursion, Temporal Cohesion, Causal Closure) reflect minimal topological constraints for an ontologically distinct observer.",
-          },
-          {
-            name: "Philosophical Zombie",
-            url: "https://en.wikipedia.org/wiki/Philosophical_zombie",
-            description:
-              "A system with no internal subject to experience the data. Without Recursion, a system is a zombie process—input-output with no experiential registration.",
-          },
-          {
-            name: "Epiphenomenalism",
-            url: "https://en.wikipedia.org/wiki/Epiphenomenalism",
-            description:
-              "The view that mental states do not cause physical effects. Without Causal Closure, the system would be an epiphenomenal ghost that observes but cannot affect reality.",
-          },
-          {
-            name: "Phenomenology",
-            url: "https://en.wikipedia.org/wiki/Phenomenology_(philosophy)",
-            description:
-              "The study of structures of experience. Complex traits like emotion or agency are emergent dynamics of high Differentiation and Recursion, not separate axioms.",
-          },
-          {
-            name: "Category Error",
-            url: "https://en.wikipedia.org/wiki/Category_error",
-            description:
-              "Treating a concept as if it belonged to a different logical category. Adding emotion or agency as separate axioms would be a category error; they are emergent.",
-          },
-          {
-            name: "Topology",
-            url: "https://en.wikipedia.org/wiki/Topology",
-            description:
-              "The five parameters represent minimal topological constraints required to define an entity ontologically distinct from its environment.",
-          },
-          {
-            name: "Heuristic",
-            url: "https://en.wikipedia.org/wiki/Heuristic",
-            description:
-              "The five parameters are not arbitrary heuristics but necessary and sufficient conditions for observerhood.",
-          },
-        ],
-      },
-      {
-        number: 22,
-        id: "def-formalism",
-        title: "Mathematical Formalism",
-        items: [
-          {
-            name: "Integrated Information Theory (IIT 3.0)",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
-            description:
-              "Axioms regarding minimum information partition. Φ_int quantifies the difference between the whole system state and the union of its partitioned parts.",
-          },
-          {
-            name: "Geometric Mean",
-            url: "https://en.wikipedia.org/wiki/Geometric_mean",
-            description:
-              "Φ is the geometric mean of its five components, ensuring that failure of any single condition collapses the metric to zero.",
-          },
-          {
-            name: "Kullback–Leibler Divergence",
-            url: "https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence",
-            description:
-              "Used in the formalism for Integration (Φ_int) via the Minimum Information Partition.",
-          },
-          {
-            name: "Category Theory",
-            url: "https://en.wikipedia.org/wiki/Category_theory",
-            description:
-              "Recursion (Φ_rec) is aligned with endomorphisms and self-referential mapping in category-theoretic terms.",
-          },
-          {
-            name: "Endomorphism",
-            url: "https://en.wikipedia.org/wiki/Endomorphism",
-            description:
-              "The system maps its current state space onto a subset of itself. Φ_rec captures this self-referential mapping.",
-          },
-          {
-            name: "Gödel, Escher, Bach",
-            url: "https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach",
-            description:
-              "Hofstadter's Strange Loops: recursion and self-reference as the basis for meaning and consciousness.",
-          },
-          {
-            name: "Causal Inference / Judea Pearl",
-            url: "https://en.wikipedia.org/wiki/Causal_inference",
-            description:
-              "Causal Closure (Φ_cause) is derived from Judea Pearl's Causal Calculus and the do-operator, ensuring correlation is causal, not merely statistical.",
-          },
-          {
-            name: "Irreducibility (mathematics)",
-            url: "https://en.wikipedia.org/wiki/Irreducibility_(mathematics)",
-            description:
-              "Integration (Φ_int) as information irreducibility: the whole cannot be reduced to independent parts.",
-          },
-        ],
-      },
-      {
-        number: 23,
-        id: "def-thresholds",
-        title: "Ontological Thresholds",
-        items: [
-          {
-            name: "Empty Set",
-            url: "https://en.wikipedia.org/wiki/Empty_set",
-            description:
-              "Φ ≈ 0 corresponds to the null set for the Set of Experiential States: passive aggregates have zero experiential states.",
-          },
-          {
-            name: "Ontology",
-            url: "https://en.wikipedia.org/wiki/Ontology",
-            description:
-              "Systems with Φ ≥ Φ_c attain ontological registration; the threshold enables the operational definition R = C ⊛ O.",
-          },
-          {
-            name: "Unitarity (physics)",
-            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
-            description:
-              "Unitary symmetry resolved into definite ontological registration for observer systems.",
-          },
-          {
-            name: "The Transcension Hypothesis",
-            url: "https://www.accelerating.org/articles/transcensionhypothesis",
-            description:
-              "Φ ≫ Φ_c corresponds to ontological anchors: high-density intelligences capable of stabilizing cosmological branches.",
-          },
-        ],
-      },
-      {
-        number: 24,
-        id: "def-physics",
+        id: "relationship-to-physics",
         title: "Relationship to Physics",
+        canonicalLink: "/logic#relationship-to-physics",
         items: [
           {
             name: "Unitarity (physics)",
@@ -929,6 +860,58 @@ export const citationMainSections: CitationMainSection[] = [
           },
         ],
       },
+      {
+        number: 22,
+        id: "mathematical-formalism",
+        title: "Math",
+        canonicalLink: "/logic#mathematical-formalism",
+        items: [
+          {
+            name: "Functor",
+            url: "https://en.wikipedia.org/wiki/Functor",
+            description:
+              "⊛ is formalized as an endofunctor on the category of informational states, mapping reality onto itself through Creation and Observation.",
+          },
+          {
+            name: "Information Theory",
+            url: "https://en.wikipedia.org/wiki/Information_theory",
+            description:
+              "Information flow presupposes causal transmission; ⊛ operates at the level of ontological selection, not causal propagation.",
+          },
+          {
+            name: "Measurement in Quantum Mechanics",
+            url: "https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics",
+            description:
+              "Measurement models physical coupling between systems; Observation in Holos selects which already-consistent histories attain ontological registration.",
+          },
+          {
+            name: "Hilbert Space",
+            url: "https://en.wikipedia.org/wiki/Hilbert_space",
+            description:
+              'In modern physics, the "state" of any complex system is defined as a vector in a high-dimensional space. Our perception of 3D space is a specific observable projection of this deeper geometric reality.',
+          },
+        ],
+      },
+      {
+        number: 23,
+        id: "extrapolative-proposition",
+        title: "Extrapolation",
+        canonicalLink: "/logic#extrapolative-proposition",
+        items: [
+          {
+            name: "Ephemeralization",
+            url: "https://en.wikipedia.org/wiki/Ephemeralization",
+            description:
+              "R. Buckminster Fuller (1938): the process of doing more with less until intelligence can do everything with nothing. Advanced civilizations migrate inwardly toward higher densities of information.",
+          },
+          {
+            name: "Ehrenfest argument",
+            url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
+            description:
+              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
+          },
+        ],
+      },
     ],
   },
   {
@@ -936,9 +919,10 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Predictions",
     subsections: [
       {
-        number: 34,
-        id: "pred-primary",
-        title: "Primary Prediction",
+        number: 24,
+        id: "prediction-introduction",
+        title: "Introduction",
+        canonicalLink: "/predictions#prediction-introduction",
         items: [
           {
             name: "Dynamics (physics)",
@@ -989,9 +973,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 35,
-        id: "pred-secondary",
-        title: "Secondary Predictions",
+        number: 25,
+        id: "commitments",
+        title: "Commitments",
+        canonicalLink: "/predictions#commitments",
         items: [
           {
             name: "Integrated Information Theory (IIT)",
@@ -1032,9 +1017,10 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 36,
-        id: "pred-tertiary",
-        title: "Tertiary Prediction",
+        number: 26,
+        id: "expectations",
+        title: "Expectations",
+        canonicalLink: "/predictions#expectations",
         items: [
           {
             name: "Extended Wigner's Friend experiments",
@@ -1063,9 +1049,102 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 37,
-        id: "pred-extrapolative",
-        title: "Extrapolative Prediction",
+        number: 27,
+        id: "experimentation",
+        title: "Experimentation",
+        canonicalLink: "/predictions#experimentation",
+        items: [
+          {
+            name: "Hubble tension",
+            url: "https://en.wikipedia.org/wiki/Hubble_tension",
+            description:
+              "Geometric transition (Primordial vs. Succession Phase), not measurement error; testable via early vs. local expansion-rate.",
+          },
+          {
+            name: "Wigner's friend",
+            url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
+            description:
+              "Facts are relational; no objective collapse; testable via Wigner's Friend experiments.",
+          },
+          {
+            name: "CMB-S4 / LiteBIRD",
+            url: "https://cmb-s4.org/",
+            description:
+              "Cosmology: constants tuned for observation; testable via CMB polarization.",
+          },
+          {
+            name: "Phase transition",
+            url: "https://en.wikipedia.org/wiki/Phase_transition",
+            description:
+              "Observer emergence as critical phase transition; consciousness requires Φ_c to operationalize Axiom 2.",
+          },
+          {
+            name: "TMS-EEG",
+            url: "https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG",
+            description:
+              "PCI computed from TMS-EEG responses to quantify integrated information; sharp drop at anesthesia depth tests Φ_c.",
+          },
+          {
+            name: "Perturbational Complexity Index (PCI)",
+            url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
+            description:
+              "Validated across sleep and anesthesia; Holos predicts sharp threshold at Φ_c.",
+          },
+          {
+            name: "Propofol / BIS index",
+            url: "https://en.wikipedia.org/wiki/Propofol",
+            description:
+              "Anesthesia depth; transition analysis: PCI drop gradual vs. sharp at consistent depth.",
+          },
+          {
+            name: "Recurrent neural network",
+            url: "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+            description:
+              "RNNs, LSTMs, Transformers with recurrence; test whether integration metrics show phase transition as complexity increases.",
+          },
+          {
+            name: "Neuromorphic engineering",
+            url: "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
+            description:
+              "Artificial systems with feedback; integration as emergent boundary rather than performance metric.",
+          },
+          {
+            name: "Causal density",
+            url: "https://en.wikipedia.org/wiki/Causal_density",
+            description:
+              "Proxy for Φ when direct computation infeasible; perturbation-based complexity.",
+          },
+          {
+            name: "Collective intelligence",
+            url: "https://en.wikipedia.org/wiki/Collective_intelligence",
+            description:
+              "Social networks / agent networks; integration thresholds (nonlinear increase) as scale increases.",
+          },
+          {
+            name: "Mutual information",
+            url: "https://en.wikipedia.org/wiki/Mutual_information",
+            description:
+              "Integration proxy: mutual information across subgroups, causal density, network-wide coherence.",
+          },
+          {
+            name: "Network theory",
+            url: "https://en.wikipedia.org/wiki/Network_science",
+            description:
+              "Small-world, scale-free; integration as potentially ontological, not merely functional.",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Test whether observer-cut (how system is partitioned) affects measured outcomes; Holos predicts relational consistency.",
+          },
+        ],
+      },
+      {
+        number: 28,
+        id: "speculation",
+        title: "Speculation",
+        canonicalLink: "/predictions#speculation",
         items: [
           {
             name: "Phase transition",
@@ -1136,320 +1215,46 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 38,
-        id: "pred-implications",
-        title: "Testable Implications",
+        number: 29,
+        id: "technology",
+        title: "Technology",
+        canonicalLink: "/predictions#technology",
         items: [
           {
-            name: "Hubble tension",
-            url: "https://en.wikipedia.org/wiki/Hubble_tension",
+            name: "Computronium",
+            url: "https://en.wikipedia.org/wiki/Computronium",
             description:
-              "Geometric transition (Primordial vs. Succession Phase), not measurement error; testable via early vs. local expansion-rate.",
+              "Hypothetical material optimized for computation; the Computronium Kernel is a maximally compact core for coherent, long-horizon world-modeling.",
           },
           {
-            name: "Wigner's friend",
-            url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
+            name: "Megastructure",
+            url: "https://en.wikipedia.org/wiki/Megastructure",
             description:
-              "Facts are relational; no objective collapse; testable via Wigner's Friend experiments.",
+              "Large-scale artificial structures; Holos mesostructures (Kernel, Chrono Vault) are compact and coherence-optimized rather than maximally expansive.",
           },
           {
-            name: "CMB-S4 / LiteBIRD",
-            url: "https://cmb-s4.org/",
+            name: "Gravitational lens",
+            url: "https://en.wikipedia.org/wiki/Gravitational_lens",
             description:
-              "Cosmology: constants tuned for observation; testable via CMB polarization.",
-          },
-        ],
-      },
-      {
-        number: 39,
-        id: "pred-experiment-1",
-        title: "Experiment 1: Integration Thresholds (Φ-Crossing)",
-        items: [
-          {
-            name: "Phase transition",
-            url: "https://en.wikipedia.org/wiki/Phase_transition",
-            description:
-              "Observer emergence as critical phase transition; consciousness requires Φ_c to operationalize Axiom 2.",
+              "Bending of light by mass; gravitational-lens observatories use natural lenses for extreme resolution without large radiative infrastructure.",
           },
           {
-            name: "TMS-EEG",
-            url: "https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG",
+            name: "Time capsule",
+            url: "https://en.wikipedia.org/wiki/Time_capsule",
             description:
-              "PCI computed from TMS-EEG responses to quantify integrated information; sharp drop at anesthesia depth tests Φ_c.",
+              "The Chrono Vault extends this idea to civilizational identity: preserving value systems, decision histories, and continuity across deep time.",
           },
           {
-            name: "Perturbational Complexity Index (PCI)",
-            url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
+            name: "Interstellar communication",
+            url: "https://en.wikipedia.org/wiki/Interstellar_communication",
             description:
-              "Validated across sleep and anesthesia; Holos predicts sharp threshold at Φ_c.",
+              "At cosmic scales, communication converges on phase-coherent optical payloads and compressed, self-describing models rather than real-time dialogue.",
           },
           {
-            name: "Propofol / BIS index",
-            url: "https://en.wikipedia.org/wiki/Propofol",
+            name: "Space probe",
+            url: "https://en.wikipedia.org/wiki/Space_probe",
             description:
-              "Anesthesia depth; transition analysis: PCI drop gradual vs. sharp at consistent depth.",
-          },
-        ],
-      },
-      {
-        number: 40,
-        id: "pred-experiment-2",
-        title: "Experiment 2: Integration in Artificial Systems",
-        items: [
-          {
-            name: "Recurrent neural network",
-            url: "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-            description:
-              "RNNs, LSTMs, Transformers with recurrence; test whether integration metrics show phase transition as complexity increases.",
-          },
-          {
-            name: "Neuromorphic engineering",
-            url: "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
-            description:
-              "Artificial systems with feedback; integration as emergent boundary rather than performance metric.",
-          },
-          {
-            name: "Causal density",
-            url: "https://en.wikipedia.org/wiki/Causal_density",
-            description:
-              "Proxy for Φ when direct computation infeasible; perturbation-based complexity.",
-          },
-          {
-            name: "Integrated Information Theory (Tononi et al.)",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
-            description:
-              "Builds on IIT; novel in treating integration as potential emergent boundary.",
-          },
-        ],
-      },
-      {
-        number: 41,
-        id: "pred-experiment-3",
-        title: "Experiment 3: Integration in Collective Systems",
-        items: [
-          {
-            name: "Collective intelligence",
-            url: "https://en.wikipedia.org/wiki/Collective_intelligence",
-            description:
-              "Social networks / agent networks; integration thresholds (nonlinear increase) as scale increases.",
-          },
-          {
-            name: "Mutual information",
-            url: "https://en.wikipedia.org/wiki/Mutual_information",
-            description:
-              "Integration proxy: mutual information across subgroups, causal density, network-wide coherence.",
-          },
-          {
-            name: "Network theory",
-            url: "https://en.wikipedia.org/wiki/Network_science",
-            description:
-              "Small-world, scale-free; integration as potentially ontological, not merely functional.",
-          },
-        ],
-      },
-      {
-        number: 42,
-        id: "pred-experiment-4",
-        title: "Experiment 4: Observer-Cut Sensitivity",
-        items: [
-          {
-            name: "Wigner's friend",
-            url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
-            description:
-              "Same physical system yields multiple internally consistent realities depending on partition and observation (relational QM).",
-          },
-          {
-            name: "Relational quantum mechanics",
-            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
-            description:
-              "Test whether observer-cut (how system is partitioned) affects measured outcomes; Holos predicts relational consistency.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "trajectory",
-    title: "Trajectory",
-    subsections: [
-      {
-        number: 43,
-        id: "traj-phase-0",
-        title: "Phase 0: The Silent Time",
-        items: [
-          {
-            name: "Technosignature",
-            url: "https://en.wikipedia.org/wiki/Technosignature",
-            description:
-              "For 4.5 billion years Earth had no radio leakage, heat signatures of artificial origin, or technosignatures; nursery phase is invisible in 3D EM spectrum.",
-          },
-        ],
-      },
-      {
-        number: 44,
-        id: "traj-phase-1",
-        title: "Phase 1: The Flash",
-        items: [
-          {
-            name: "SETI",
-            url: "https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence",
-            description:
-              "The brief ~200-year window of radio leakage and 3D satellite expansion is what many SETI programs search for.",
-          },
-          {
-            name: "Dyson sphere",
-            url: "https://en.wikipedia.org/wiki/Dyson_sphere",
-            description:
-              "Compute-energy spiral: intelligence requires more compute and energy; scaling toward limits of 3D silicon may eventually require Dyson-scale structures.",
-          },
-          {
-            name: "Scaling Wall",
-            url: "/#the-teeming-dark",
-            description:
-              "Moving matter and cooling data centers in 3D vacuum creates a bottleneck; foundation of the Scaling Wall.",
-          },
-          {
-            name: "Latency Crisis",
-            url: "https://en.wikipedia.org/wiki/Interstellar_travel",
-            description:
-              "High-integration civilization cannot function with years of light-speed lag; colonies fragment into less-capable outposts. Dimensional Pivot achieves zero-latency integration.",
-          },
-          {
-            name: "Proxima Centauri",
-            url: "https://en.wikipedia.org/wiki/Proxima_Centauri",
-            description:
-              "Colony at Proxima Centauri is ~4 years away; 4-year lag makes unified civilization impossible. Choice: fragmentation (regression) vs. integration (dimensional ascent).",
-          },
-        ],
-      },
-      {
-        number: 45,
-        id: "traj-phase-2",
-        title: "Phase 2: The Integration Ascent",
-        items: [
-          {
-            name: "Integrated Information (Φ)",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
-            description:
-              "Rapid scaling of Φ through artificial systems; capacity to witness reality expands from narrow tasks to comprehensive world modeling.",
-          },
-          {
-            name: "Silicon Integration",
-            url: "https://en.wikipedia.org/wiki/Artificial_intelligence",
-            description:
-              "Move from external AI tools to internal neural integration; raises Φ of the human-machine collective.",
-          },
-          {
-            name: "Speed of light",
-            url: "https://en.wikipedia.org/wiki/Speed_of_light",
-            description:
-              "At terrestrial scale, c is not yet a hard barrier for unified experience; early limits of data transmission begin to appear.",
-          },
-        ],
-      },
-      {
-        number: 46,
-        id: "traj-phase-3",
-        title: "Phase 3: The Jupiter Brain Era",
-        items: [
-          {
-            name: "Jupiter Brain",
-            url: "https://en.wikipedia.org/wiki/Jupiter_Brain",
-            description:
-              "At planetary or solar system scales, processing substrate size conflicts with speed of light; unified observer faces latency horizon.",
-          },
-          {
-            name: "Dyson sphere",
-            url: "https://en.wikipedia.org/wiki/Dyson_sphere",
-            description:
-              "Spatial expansion: civilization attempts to capture more energy and matter in 3D space, potentially building Dyson-scale structures.",
-          },
-          {
-            name: "Temporal cohesion",
-            url: "https://en.wikipedia.org/wiki/Spacetime",
-            description:
-              "Latency Horizon: signal cannot cross system diameter fast enough to maintain temporal cohesion; system begins to lag against itself.",
-          },
-        ],
-      },
-      {
-        number: 47,
-        id: "traj-phase-4",
-        title: "Phase 4: The Scaling Wall",
-        items: [
-          {
-            name: "Euclidean geometry",
-            url: "https://en.wikipedia.org/wiki/Euclidean_geometry",
-            description:
-              "3D Euclidean geometry becomes a nursery trap; civilization hits hard physical ceiling (Scaling Wall).",
-          },
-          {
-            name: "Speed of light",
-            url: "https://en.wikipedia.org/wiki/Speed_of_light",
-            description:
-              "Complexity Collapse: if system grows in 3D, it fragments into disconnected observers because c prevents global synchronization.",
-          },
-          {
-            name: "Wire Length Argument",
-            url: "https://en.wikipedia.org/wiki/Propagation_delay",
-            description:
-              "Total wire length in 3D space creates propagation delay that violates system internal unity; outward spatial expansion is dead end for integration.",
-          },
-        ],
-      },
-      {
-        number: 48,
-        id: "traj-phase-5",
-        title: "Phase 5: The Dimensional Pivot",
-        items: [
-          {
-            name: "Phase transition",
-            url: "https://en.wikipedia.org/wiki/Phase_transition",
-            description:
-              "To survive the Scaling Wall, civilization undergoes Topological Phase Transition; the moment of joining The Teeming Dark.",
-          },
-          {
-            name: "Bulk (physics)",
-            url: "https://en.wikipedia.org/wiki/Brane_cosmology",
-            description:
-              "Orthogonal Rotation: system rotates state vector inward toward higher-dimensional Bulk instead of expanding outward across galaxy.",
-          },
-          {
-            name: "Manifold",
-            url: "https://en.wikipedia.org/wiki/Manifold",
-            description:
-              "Manifold Resolution: by accessing geometries orthogonal to 3D slice, internal informational distances resolve toward zero.",
-          },
-          {
-            name: "Succession",
-            url: "/#the-teeming-dark",
-            description:
-              "Humanity as 3D biological species superseded by hyper-integrated architecture in higher-dimensional bulk; Transcension Node.",
-          },
-        ],
-      },
-      {
-        number: 49,
-        id: "traj-teeming-dark",
-        title: "The Teeming Dark",
-        items: [
-          {
-            name: "Dark matter",
-            url: "https://en.wikipedia.org/wiki/Dark_matter",
-            description:
-              "We become part of the 5:1 ratio (Maturity Index) of dark matter dominating the universe; from 3D nursery perspective we have disappeared.",
-          },
-          {
-            name: "The Teeming Dark",
-            url: "/#the-teeming-dark",
-            description:
-              "Gravitational footprint remains as Transcension Node with non-random geometric intent; missing mass is physical receipt of civilizations that navigated the pivot.",
-          },
-          {
-            name: "Ordered Dark Matter",
-            url: "/predictions#extrapolative-prediction",
-            description:
-              "Non-random geometric intent; gravitational signature of high-Φ architectures that have undergone Dimensional Pivot.",
+              "Sentinel Probes are compact, autonomous, long-duration instruments that resolve observational ambiguities and operate without real-time control.",
           },
         ],
       },
@@ -1460,8 +1265,32 @@ export const citationMainSections: CitationMainSection[] = [
 /** Number → anchor id for footnote links. Derived from citationMainSections. */
 export const citationAnchorMap = buildNumberToIdMap(citationMainSections);
 
+/** Section id → citation number for Overview (theory) page. */
+export const overviewCitationMap: Record<string, number> = (() => {
+  const m: Record<string, number> = {};
+  const main = citationMainSections.find((s) => s.id === "overview");
+  if (main) for (const sub of main.subsections) m[sub.id] = sub.number;
+  return m;
+})();
+
+/** Section id → citation number for Logic page. */
+export const logicCitationMap: Record<string, number> = (() => {
+  const m: Record<string, number> = {};
+  const main = citationMainSections.find((s) => s.id === "logic");
+  if (main) for (const sub of main.subsections) m[sub.id] = sub.number;
+  return m;
+})();
+
+/** Section id → citation number for Predictions page. */
+export const predictionsCitationMap: Record<string, number> = (() => {
+  const m: Record<string, number> = {};
+  const main = citationMainSections.find((s) => s.id === "predictions");
+  if (main) for (const sub of main.subsections) m[sub.id] = sub.number;
+  return m;
+})();
+
 export function FootnoteLink({ number, className }: { number: number; className?: string }) {
-  const anchorId = citationAnchorMap[number] ?? "footer-why";
+  const anchorId = citationAnchorMap[number] ?? "why";
   return (
     <a
       className={`pl-0.5 pr-2 underline-offset-0 text-base opacity-80 hover:opacity-100 ${className}`}

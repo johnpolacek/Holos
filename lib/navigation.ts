@@ -16,6 +16,7 @@ export const theorySubsections: Subsection[] = [
   { id: "consciousness", title: "Consciousness" },
   { id: "our-universe", title: "Our Universe" },
   { id: "spacetime", title: "Spacetime" },
+  { id: "extrapolation", title: "A Note on Extrapolation" },
   { id: "higher-dimensions", title: "Higher Dimensions" },
   { id: "infinity", title: "Infinity" },
   { id: "black-holes", title: "Black Holes" },
@@ -44,8 +45,11 @@ export const predictionsSubsections: Subsection[] = [
   { id: "commitments", title: "Commitments" },
   { id: "expectations", title: "Expectations" },
   { id: "experimentation", title: "Experimentation" },
+  { id: "experiment-1", title: "Experiment 1" },
+  { id: "experiment-2", title: "Experiment 2" },
   { id: "speculation", title: "Speculation" },
   { id: "technology", title: "Technology" },
+  { id: "exploration-and-communication", title: "Exploration & Communication" },
 ];
 
 export const sections: Section[] = [
