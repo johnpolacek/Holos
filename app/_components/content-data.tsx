@@ -24,6 +24,8 @@ export const sections: ContentSection[] = [
         Holos is an interpretive framework for understanding the nature of reality. It does not
         propose new physical laws or challenge established physics. Instead, it offers an
         explanation for how the universe described by physics becomes the universe we experience.
+        Observation does not cause the universe, its laws, or its history. It functions here as a
+        closure condition for experience, not as a physical or causal agent.
       </>,
       <>
         At its core, Holos expresses this as <MathInline>R = C ⊛ O</MathInline>. Creation generates
@@ -40,7 +42,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-life",
     paragraphs: [
       <>
-        Life exists because reality requires observation. Physics describes how structures form and
+        Life exists because reality requires observation. This is not an anthropic selection claim
+        about why physical constants take certain values, but an ontological claim about how a
+        fully lawful universe becomes present as lived experience at all. Physics describes how
+        structures form and
         evolve, but description alone does not constitute existence. A universe of equations and
         spacetime histories is abstract unless something can register that it exists. Life is the
         mechanism through which observation becomes possibl.

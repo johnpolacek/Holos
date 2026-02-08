@@ -106,6 +106,13 @@ export default function Predictions() {
               <MathInline>{"C"}</MathInline>, but they are not experienced realities without{" "}
               <MathInline>{"O"}</MathInline>.
             </p>
+
+            <p className="leading-relaxed">
+              Anthropic principles explain why observers find themselves in observer-compatible
+              universes. They do not explain how observation itself exists or why physical structure
+              is experienced from the inside. This framework addresses that gap without assigning
+              observers any causal role in physical dynamics.
+            </p>
           </div>
 
           {/* C2 */}
