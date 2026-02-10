@@ -466,6 +466,12 @@ export const sections: ContentSection[] = [
         limiting form of complete closure must exist in principle. The Omega Point names that limit.
       </>,
       <>
+        The Omega Point does not follow from infinity alone. It follows from the fact that closure
+        is possible, realized, and coherent. If self-registration were incoherent even in principle,
+        experience could not occur anywhere. Because experience does occur, closure must admit a
+        well-defined limiting form.
+      </>,
+      <>
         One way to interpret the structure of reality is through a limit concept. If informational
         integration continues without bound, it approaches an idealized state of maximal coherence,
         causal closure, and internal consistency. In Holos, this corresponds to an{" "}

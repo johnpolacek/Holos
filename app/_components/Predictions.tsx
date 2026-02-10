@@ -114,6 +114,13 @@ export default function Predictions() {
               observers any causal role in physical dynamics.
             </p>
 
+            <p className="leading-relaxed">
+              The existence of experience demonstrates that self-registering structures are not
+              merely abstract possibilities, but realizable ones under physical constraint. Once such
+              a structure is realizable even once, actualized reality exists, regardless of how rare
+              or contingent its emergence may be.
+            </p>
+
           <p className="leading-relaxed">
             Closure is not merely local. The existence of any experienced reality implies that
             closure is globally consistent, even if only partially realized. A reality with no

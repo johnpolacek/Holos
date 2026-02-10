@@ -634,6 +634,13 @@ export default function Logic() {
               This notation is schematic. It does not assume a discrete branching structure or a
               specific ontology of histories.
             </p>
+
+            <p className="leading-relaxed">
+              Self-registration is not an additional assumption layered onto mathematics. Formal
+              systems already permit self-reference, recursion, and fixed points. If physical law
+              allows sufficiently expressive structure, then systems capable of registering their own
+              state are not forbidden. They are among the realizable possibilities.
+            </p>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -787,6 +794,13 @@ export default function Logic() {
           </div>
         </div>
       </section>
+
+      <div className="mt-8 pt-6 border-t border-black/20">
+        <p className="leading-relaxed text-lg text-black/90 font-medium">
+          Experience exists, therefore closure is realizable; closure is realizable, therefore a
+          coherent limiting form exists in principle.
+        </p>
+      </div>
     </div>
   );
 }
