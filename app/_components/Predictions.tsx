@@ -113,6 +113,13 @@ export default function Predictions() {
               is experienced from the inside. This framework addresses that gap without assigning
               observers any causal role in physical dynamics.
             </p>
+
+          <p className="leading-relaxed">
+            Closure is not merely local. The existence of any experienced reality implies that
+            closure is globally consistent, even if only partially realized. A reality with no
+            coherent limiting form would remain ontologically open and could not support experience
+            even in fragments.
+          </p>
           </div>
 
           {/* C2 */}

@@ -32,7 +32,9 @@ export const sections: ContentSection[] = [
         physical possibilities. Observation turns those possibilities into experience. Reality
         arises from the recursive composition of creation and observation. What follows explores the
         consequences of this idea, from life and consciousness to cosmology, structure, and the
-        ultimate limits of reality itself.
+        ultimate limits of reality itself. Because experience exists at all, this closure must be
+        well-defined in principle, not just locally, otherwise no instance of lived reality could
+        ever occur.
       </>,
     ],
   },
@@ -42,13 +44,14 @@ export const sections: ContentSection[] = [
     footerId: "footer-life",
     paragraphs: [
       <>
-        Life exists because reality requires observation. This is not an anthropic selection claim
-        about why physical constants take certain values, but an ontological claim about how a
-        fully lawful universe becomes present as lived experience at all. Physics describes how
-        structures form and
+        Life exists because reality requires observation. If closure were not coherent even in
+        principle, experience could not arise anywhere, since local observation would have nothing
+        stable to close against. This is not an anthropic selection claim about why physical
+        constants take certain values, but an ontological claim about how a fully lawful universe
+        becomes present as lived experience at all. Physics describes how structures form and
         evolve, but description alone does not constitute existence. A universe of equations and
         spacetime histories is abstract unless something can register that it exists. Life is the
-        mechanism through which observation becomes possibl.
+        mechanism through which observation becomes possible.
       </>,
       <>
         This idea appears in several places across science and philosophy. The{" "}
@@ -288,9 +291,9 @@ export const sections: ContentSection[] = [
         Modern physics suggests that information is not destroyed by black holes, but reorganized.
         The <a href="https://en.wikipedia.org/wiki/Holographic_principle">holographic principle</a>{" "}
         proposes that all information contained within a volume can be represented on its boundary,
-        such as the <a href="/citations#black-holes">event horizon</a>. Black holes are not just objects
-        in spacetime, but boundaries where projection collapses and structure must be encoded
-        differently.
+        such as the <a href="/citations#black-holes">event horizon</a>. Black holes are not just
+        objects in spacetime, but boundaries where projection collapses and structure must be
+        encoded differently.
       </>,
       <>
         From the perspective of Holos, black holes show that when integration and density exceed
@@ -458,6 +461,11 @@ export const sections: ContentSection[] = [
     footerId: "footer-omega",
     paragraphs: [
       <>
+        The Omega Point is not introduced as a prediction or goal. It follows from taking closure
+        seriously as a condition for experience. If closure operates locally and recursively, then a
+        limiting form of complete closure must exist in principle. The Omega Point names that limit.
+      </>,
+      <>
         One way to interpret the structure of reality is through a limit concept. If informational
         integration continues without bound, it approaches an idealized state of maximal coherence,
         causal closure, and internal consistency. In Holos, this corresponds to an{" "}
@@ -472,8 +480,10 @@ export const sections: ContentSection[] = [
       </>,
       <>
         In this sense, the Omega Point is not an agent and does not act on the universe. It is a
-        structural completion. It represents the limit where reality is fully self-consistent, with
-        no remaining separation between possibility and experience.
+        structural completion. Physics does not cause the Omega Point, it is a structural
+        consequence of reality being closed rather than ontologically incomplete. It represents the
+        limit where reality is fully self-consistent, with no remaining separation between
+        possibility and experience.
       </>,
       <>
         Historically, many philosophical and theological traditions have gestured toward similar
