@@ -49,7 +49,6 @@ export const predictionsSubsections: Subsection[] = [
   { id: "experiment-2", title: "Experiment 2" },
   { id: "speculation", title: "Speculation" },
   { id: "technology", title: "Technology" },
-  { id: "exploration-and-communication", title: "Exploration & Communication" },
 ];
 
 export const sections: Section[] = [

@@ -506,15 +506,95 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
-            What follows is bold but disciplined. These are not predictions — they’re “what if”
-            designs that <em>could</em> emerge if Holos is pointing at something real.
+            What follows are not predictions. They’re “what if” designs that <em>could</em> emerge
+            if the Holos framework is correct.
           </p>
 
           <p className="leading-relaxed">
-            The hard constraints are familiar: finite signal speed, noise, and thermodynamics. At
-            vast scales, coherence punishes bright sprawl. Integration favors compactness, locality,
-            and long-horizon stability.
+            We know the familiar hard constraints: finite signal speed, noise, and thermodynamics.
+            At vast scales, coherence punishes bright sprawl. Integration favors compactness,
+            locality, and long-horizon stability.
           </p>
+
+          {/* Holosian Scale */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">The Holosian Scale</h3>
+
+            <p className="leading-relaxed">
+              The{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Kardashev_scale"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Kardashev Scale
+              </a>{" "}
+              ranks civilizations by energy use. The Holosian scale ranks civilizations by
+              integration. The stages below are a map of what “advancement” looks like if coherence,
+              not throughput, is the main objective.
+            </p>
+
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1">
+                <h4 className="text-lg font-medium text-black/90">H0: Fragmented</h4>
+                <p className="leading-relaxed">
+                  High capability, low coordination. Internal conflict, waste, and short-horizon
+                  incentives dominate. Visibility is high because broadcasting is cheap and
+                  unmanaged.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <h4 className="text-lg font-medium text-black/90">H1: Planetary Integration</h4>
+                <p className="leading-relaxed">
+                  The civilization becomes coherent at the scale of a world. It can coordinate,
+                  self-correct, and sustain long-term projects without collapsing into factional
+                  drift.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <h4 className="text-lg font-medium text-black/90">H2: System Coherence</h4>
+                <p className="leading-relaxed">
+                  Coherence survives light-lag across a star system. The civilization functions as
+                  one asynchronous system and shifts from constant broadcast to rare, directed
+                  signaling.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <h4 className="text-lg font-medium text-black/90">H3: Post-Expansion</h4>
+                <p className="leading-relaxed">
+                  Physical sprawl stops being the default. Exploration becomes informational first,
+                  physical only when inference fails. The outward footprint shrinks even as
+                  capability grows.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <h4 className="text-lg font-medium text-black/90">H4: Deep Integration</h4>
+                <p className="leading-relaxed">
+                  The civilization operates like a single high-coherence system with minimal waste
+                  and minimal leakage. External visibility collapses. What remains detectable, if
+                  anything, is likely gravitational.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <h4 className="text-lg font-medium text-black/90">H5: Asymptotic Closure</h4>
+                <p className="leading-relaxed">
+                  This is not a destination or a goal. It is a limit concept: what complete,
+                  contradiction-free closure would look like if integration continues to deepen
+                  without breaking coherence.
+                </p>
+              </div>
+            </div>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              This scale is intentionally “quiet.” If it is even partly right, the most advanced
+              civilizations get harder to see, not easier.
+            </p>
+          </div>
 
           {/* 1) Visibility Collapse */}
           <div className="flex flex-col gap-4">
@@ -525,6 +605,10 @@ export default function Predictions() {
               target shifts from outward projection to internal coherence, it will compress,
               encrypt, and minimize waste. Broadcast is an early-stage habit, not a mature strategy.
             </p>
+            <p className="leading-relaxed">
+              On the Holosian Scale, this is the natural signature of H3–H4: rising capability with
+              shrinking radiative footprint.
+            </p>
           </div>
 
           {/* 2) Observational Regime */}
@@ -532,8 +616,8 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold text-black/90">Observational Regime</h3>
 
             <p className="leading-relaxed">
-              If “visibility collapse” is real, the most likely remaining footprint isn’t radio or
-              lasers — it’s gravity. Holos uses <strong>Dark Matter Node</strong> as a
+              If a civilization is H4-level integrated, the most likely remaining footprint isn't
+              radio or lasers. It's gravity. Holos uses <strong>Dark Matter Node</strong> as a
               phenomenological label for what these systems look like from the outside: compact,
               ordered mass structures that remain electromagnetically quiet while staying
               gravitationally coupled to the universe.
@@ -563,14 +647,67 @@ export default function Predictions() {
           <div id="technology" className="flex flex-col gap-6 pt-4">
             <h2 className="text-2xl sm:text-3xl font-light">Technology</h2>
 
-            {/* 1) Computronium Kernel */}
+            <h3 className="text-xl font-semibold text-black/90">Mesostructures</h3>
+            <p className="leading-relaxed pb-4">
+              The structures below are H3–H4 design patterns: compact enough to stay coherent under
+              light-lag and thermodynamics, and consequential enough to matter without bright
+              sprawl.
+            </p>
+
+            <p className="leading-relaxed">
+              The structures below reflect H3–H4 integration under thermodynamic constraint, from
+              energy generation, active coherence and computation, to long-term continuity.
+            </p>
+
+            {/* 1) Holocore */}
             <div className="flex flex-col gap-4">
-              <h3 className="text-xl font-semibold text-black/90">Mesostructures</h3>
-              <p className="leading-relaxed pb-4">
-                The structures below are compact enough to remain coherent, consequential enough to
-                matter cosmically, and each doing a distinct civilizational job.
+              <h4 className="text-lg font-medium text-black/90">Holocore</h4>
+
+              <p className="leading-relaxed">
+                A compact, gravitationally stabilized energy mesostructure designed to supply
+                massive, long-horizon power while minimizing radiative leakage.
               </p>
 
+              <p className="leading-relaxed">
+                Not a star-enclosing megastructure. Not bright sprawl. The Holocore concentrates
+                energy density rather than surface area — converting mass into stable, controlled
+                output through tightly regulated accretion, fusion, or rotational extraction.
+              </p>
+
+              <h5 className="font-semibold text-black/90">Purpose</h5>
+              <ul className="flex flex-col gap-2 pl-6 list-disc">
+                <li className="leading-relaxed">
+                  Provide sustained energy for deep-time computation and preservation
+                </li>
+                <li className="leading-relaxed">
+                  Power large-scale modeling, shielding, and entropy management systems
+                </li>
+                <li className="leading-relaxed">
+                  Support compact civilizational infrastructure without outward expansion
+                </li>
+                <li className="leading-relaxed">
+                  Maintain stability across millennia with minimal maintenance overhead
+                </li>
+              </ul>
+
+              <h5 className="font-semibold text-black/90">Design Characteristics</h5>
+              <ul className="flex flex-col gap-2 pl-6 list-disc">
+                <li className="leading-relaxed">Extreme energy density per unit volume</li>
+                <li className="leading-relaxed">Controlled accretion or fusion feed systems</li>
+                <li className="leading-relaxed">Directional or minimized waste heat emission</li>
+                <li className="leading-relaxed">
+                  Gravitationally compact and electromagnetically quiet
+                </li>
+              </ul>
+
+              <p className="leading-relaxed text-black/70 text-sm">
+                The Holocore is infrastructure, not spectacle. If H4 integration suppresses bright
+                sprawl, the energy backbone must be dense, quiet, and long-lived.
+              </p>
+            </div>
+
+            {/* 2) Computronium Kernel */}
+            <div className="flex flex-col gap-4">
               <h4 className="text-lg font-medium text-black/90">Computronium Kernel</h4>
 
               <p className="leading-relaxed">
@@ -604,7 +741,7 @@ export default function Predictions() {
               </p>
             </div>
 
-            {/* 2) Chrono Vault */}
+            {/* 3) Chrono Vault */}
             <div className="flex flex-col gap-4">
               <h4 className="text-lg font-medium text-black/90">Chrono Vault</h4>
 
@@ -776,8 +913,8 @@ export default function Predictions() {
               </div>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                In Holos, exploration does not scale through presence or expansion, but through
-                patience. Sentinel Probes exist to watch, not to arrive.
+                Past H3, exploration scales through patience, not presence. Sentinel probes exist to
+                watch, not to arrive.
               </p>
             </div>
 
