@@ -116,17 +116,17 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               The existence of experience demonstrates that self-registering structures are not
-              merely abstract possibilities, but realizable ones under physical constraint. Once such
-              a structure is realizable even once, actualized reality exists, regardless of how rare
-              or contingent its emergence may be.
+              merely abstract possibilities, but realizable ones under physical constraint. Once
+              such a structure is realizable even once, actualized reality exists, regardless of how
+              rare or contingent its emergence may be.
             </p>
 
-          <p className="leading-relaxed">
-            Closure is not merely local. The existence of any experienced reality implies that
-            closure is globally consistent, even if only partially realized. A reality with no
-            coherent limiting form would remain ontologically open and could not support experience
-            even in fragments.
-          </p>
+            <p className="leading-relaxed">
+              Closure is not merely local. The existence of any experienced reality implies that
+              closure is globally consistent, even if only partially realized. A reality with no
+              coherent limiting form would remain ontologically open and could not support
+              experience even in fragments.
+            </p>
           </div>
 
           {/* C2 */}
@@ -230,7 +230,7 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Proxy measures such as{" "}
               <a
-                href="https://en.wikipedia.org/wiki/Perturbational_complexity_index"
+                href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -339,7 +339,7 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Measure integration proxies such as the{" "}
               <a
-                href="https://en.wikipedia.org/wiki/Perturbational_complexity_index"
+                href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -780,8 +780,6 @@ export default function Predictions() {
                 patience. Sentinel Probes exist to watch, not to arrive.
               </p>
             </div>
-
-            
 
             {/* 3) Gravitational-Lens Observatories */}
             <div className="flex flex-col gap-2">

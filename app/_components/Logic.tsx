@@ -544,6 +544,22 @@ export default function Logic() {
           </div>
 
           <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">
+              QFT: Fields are structure, particles are registered events
+            </h3>
+            <p className="leading-relaxed">
+              In quantum field theory, fields are the continuous underlying description, while
+              “particles” are how interactions appear when they are forced into localized, countable
+              events. Detectors do not directly observe fields. They register discrete outcomes,
+              such as clicks, tracks, and energy deposits, because measurement is an interaction that
+              constrains a spread-out excitation into a definite event in a specific place and time.
+              In this framework, particles are not fundamental objects. They are context-dependent
+              registrations of field interactions, which is why a continuous theory can yield
+              discrete observations without requiring reality to be made of little beads.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Conservation and selection</h3>
             <p className="leading-relaxed">
               Holos treats manifestation as a selection constraint, not as the destruction of
