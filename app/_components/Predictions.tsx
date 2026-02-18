@@ -607,7 +607,7 @@ export default function Predictions() {
             </p>
             <p className="leading-relaxed">
               On the Holosian Scale, this is the natural signature of H3–H4: rising capability with
-              shrinking radiative footprint.
+              increasingly optimized and less obvious radiative signatures.
             </p>
           </div>
 
@@ -619,7 +619,7 @@ export default function Predictions() {
               If a civilization is H4-level integrated, the most likely remaining footprint isn't
               radio or lasers. It's gravity. Holos uses <strong>Dark Matter Node</strong> as a
               phenomenological label for what these systems look like from the outside: compact,
-              ordered mass structures that remain electromagnetically quiet while staying
+              ordered mass structures that minimize obvious emissions while still exporting waste heat, and staying
               gravitationally coupled to the universe.
             </p>
 
@@ -665,7 +665,7 @@ export default function Predictions() {
 
               <p className="leading-relaxed">
                 A compact, gravitationally stabilized energy mesostructure designed to supply
-                massive, long-horizon power while minimizing radiative leakage.
+                massive, long-horizon power while exporting waste heat in thermodynamically disciplined ways.
               </p>
 
               <p className="leading-relaxed">
@@ -694,9 +694,9 @@ export default function Predictions() {
               <ul className="flex flex-col gap-2 pl-6 list-disc">
                 <li className="leading-relaxed">Extreme energy density per unit volume</li>
                 <li className="leading-relaxed">Controlled accretion or fusion feed systems</li>
-                <li className="leading-relaxed">Directional or minimized waste heat emission</li>
+                <li className="leading-relaxed">Directional, low-temperature, or time-buffered waste heat emission</li>
                 <li className="leading-relaxed">
-                  Gravitationally compact and electromagnetically quiet
+                  Gravitationally compact, with emissions shaped to be hard to distinguish from natural backgrounds
                 </li>
               </ul>
 
