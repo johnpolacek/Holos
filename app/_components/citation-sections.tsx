@@ -132,7 +132,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Hard problem of consciousness",
             url: "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
             description:
-              "Chalmers: why does physical processing give rise to experience at all? Holos treats integration as the condition under which it does, not as a reductive explanation.",
+              "Chalmers: why does physical processing give rise to experience at all? Holos treats integration as the condition under which it does, not as a reductive explanation. The hard problem is not solved by reducing experience to physics. It is reframed by identifying the structural condition under which physical systems possess an internal perspective.",
           },
           {
             name: "Binding problem",

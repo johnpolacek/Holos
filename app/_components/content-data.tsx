@@ -97,7 +97,43 @@ export const sections: ContentSection[] = [
         Measures like Φ are useful because they track this transition empirically. When integration
         in the brain is disrupted, such as under anesthesia, experience fragments or disappears.
         When integration returns, unified experience returns with it. Holos does not claim that Φ
-        causes consciousness. It treats integration as the eligibility condition for observation.
+        causes consciousness. It treats integration as the eligibility condition for observation (
+        <MathInline>Φ ≥ Φ_c</MathInline>).
+      </>,
+      <>
+        When informational states become sufficiently integrated, the system forms a single causal
+        structure whose state exists from the inside as well as the outside. In Holos this
+        transition is what creates a point of view.
+      </>,
+      <div key="hard-problem">
+        <h3
+          id="consciousness-hard-problem"
+          className="text-xl font-semibold text-black/90 pt-4 pb-2"
+        >
+          Hard Problem
+        </h3>
+        <p className="leading-relaxed">
+          The hard problem arises because physical descriptions capture structure and dynamics but
+          do not automatically include first-person presence. Holos reframes the problem by
+          identifying an emergent structural condition under which physical systems have an internal
+          perspective.
+        </p>
+      </div>,
+      <>
+        Holos does not claim that complexity alone produces consciousness. The key condition is
+        integration. When informational states become sufficiently integrated, the system no longer
+        contains independent processes but a single causal structure whose state constrains itself.
+        At that boundary the system cannot be described purely from the outside. It also exists from
+        the inside as a unified informational state, as a point of view.
+      </>,
+      <>
+        Just as temperature appears when many molecular motions become statistically unified,
+        perspective appears when informational states become causally unified.
+      </>,
+      <>
+        Holos is a middle position. Consciousness is not fundamental everywhere, but it also cannot
+        be explained away as mere computation. It appears when specific structural conditions are
+        met.
       </>,
       <>
         Consciousness is not what systems do. It is what happens when a system becomes capable of
