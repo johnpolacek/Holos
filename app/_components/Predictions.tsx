@@ -647,7 +647,7 @@ export default function Predictions() {
           <div id="technology" className="flex flex-col gap-6 pt-4">
             <h2 className="text-2xl sm:text-3xl font-light">Technology</h2>
 
-            <h3 className="text-xl font-semibold text-black/90">Mesostructures</h3>
+            <h3 id="mesostructures" className="text-xl font-semibold text-black/90">Mesostructures</h3>
             <p className="leading-relaxed pb-4">
               The structures below are H3–H4 design patterns: compact enough to stay coherent under
               light-lag and thermodynamics, and consequential enough to matter without bright
@@ -786,7 +786,7 @@ export default function Predictions() {
 
           {/* 4) Exploration + Communication */}
           <div id="exploration-and-communication" className="flex flex-col gap-6">
-            <h3 className="text-xl font-semibold text-black/90">Communication</h3>
+            <h3 id="communication" className="text-xl font-semibold text-black/90">Communication</h3>
 
             <p className="leading-relaxed">
               Under known physics, there is no scalable form of real-time interstellar dialogue.
@@ -837,7 +837,7 @@ export default function Predictions() {
               </ul>
             </div>
 
-            <h3 className="text-xl font-semibold text-black/90">Exploration</h3>
+            <h3 id="exploration" className="text-xl font-semibold text-black/90">Exploration</h3>
 
             <p className="leading-relaxed">
               At cosmic scales, most structure is mapped remotely and shared through long-horizon
