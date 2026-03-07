@@ -127,6 +127,20 @@ export const sections: ContentSection[] = [
         the inside as a unified informational state, as a point of view.
       </>,
       <>
+        Recent experimental systems provide early examples of simplified biological networks
+        interacting with external environments through closed feedback loops. In laboratory studies,
+        cultured neurons grown on silicon substrates have been connected to digital environments and
+        shown to learn simple control tasks, such as adjusting signals to interact with video game
+        dynamics. These networks are far simpler than full nervous systems, yet they demonstrate
+        that neural tissue outside a body can form adaptive, integrated feedback structures capable
+        of goal-directed behavior. From the perspective of Holos, such systems illustrate the
+        principle that observation depends on informational integration rather than on a particular
+        organism or anatomical form. Whether these networks cross the integration threshold required
+        for genuine experience remains an open empirical question. However, they provide a useful
+        experimental platform for studying how increasing integration may give rise to unified
+        internal processing.
+      </>,
+      <>
         Just as temperature appears when many molecular motions become statistically unified,
         perspective appears when informational states become causally unified.
       </>,
