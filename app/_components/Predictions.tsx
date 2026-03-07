@@ -494,6 +494,89 @@ export default function Predictions() {
         </div>
       </section>
 
+      {/* Experiment 3 */}
+      <section id="experiment-3" className="flex flex-col gap-6">
+        <h3 className="text-xl sm:text-2xl font-medium pb-2">
+          Experiment 3: The Minimal Observer Boundary
+          <FootnoteLink
+            number={predictionsCitationMap["experimentation"]}
+            className="relative left-1 -top-2.5"
+          />
+        </h3>
+
+        <div className="flex flex-col gap-4 text-black/80">
+          <p className="leading-relaxed">
+            Holos proposes that observerhood appears when informational integration crosses a
+            structural threshold that allows a system to form a unified internal perspective. If
+            this claim is correct, then there should exist a lower boundary where systems
+            transition from distributed processing to unified internal registration.
+          </p>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">Objective</h4>
+            <p className="leading-relaxed">
+              Identify whether minimal biological neural systems interacting with an environment can
+              approach or cross the integration threshold associated with observerhood.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">System</h4>
+            <p className="leading-relaxed">
+              Cultured neural networks grown on multi-electrode arrays or silicon substrates capable
+              of bidirectional interaction with a digital environment.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h4 className="font-semibold text-black/90 mb-1">Method</h4>
+            <p className="leading-relaxed">
+              Establish a closed feedback loop between the neural network and a simulated
+              environment. Neural activity influences the environment through control signals, while
+              sensory input from the environment is returned to the network through electrical
+              stimulation.
+            </p>
+            <p className="leading-relaxed">
+              Gradually increase system complexity and integration by modifying network size,
+              connectivity density, feedback richness, and environmental coupling. During
+              operation, measure integration metrics including information-theoretic integration,
+              functional connectivity structure, and network-wide synchronization patterns.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">Holos Prediction</h4>
+            <p className="leading-relaxed">
+              There exists a regime in which increases in connectivity and feedback coupling
+              produce a nonlinear transition from distributed neural activity to coherent
+              system-level dynamics. At this boundary the network begins to behave as a unified
+              adaptive system rather than as loosely coupled components.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">Alternative Outcome</h4>
+            <p className="leading-relaxed">
+              If coherent adaptive behavior emerges without any identifiable integration
+              transition, this would weaken the claim that observerhood depends on a threshold in
+              informational integration.
+            </p>
+          </div>
+
+          <p className="leading-relaxed">
+            This experiment does not assume that such systems are conscious. Its purpose is to
+            investigate whether a measurable boundary exists between distributed biological
+            computation and unified system-level processing.
+          </p>
+
+          <p className="leading-relaxed text-black/70 text-sm">
+            <strong>Tests:</strong> Commitment 2 (observerhood is thresholded) and the structural
+            claim that sufficiently integrated feedback systems may form the minimal substrate
+            capable of hosting an internal perspective.
+          </p>
+        </div>
+      </section>
+
       {/* 4) Speculation */}
       <section id="speculation" className="flex flex-col gap-4">
         <h2 className="text-2xl sm:text-3xl font-light">
