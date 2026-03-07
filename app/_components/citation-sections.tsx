@@ -170,6 +170,12 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "Consciousness as fundamental in matter; Holos rejects universal panpsychism in favor of a threshold (Φ ≥ Φ_c) so that not everything is an observer.",
           },
+          {
+            name: "Cultured Neural Network Learning Systems",
+            url: "https://pubmed.ncbi.nlm.nih.gov/36228614/",
+            description:
+              "Recent laboratory experiments have demonstrated that networks of cultured neurons grown on silicon substrates can be interfaced with digital environments and trained through closed-loop feedback to perform simple tasks, including interacting with video game dynamics. These systems show that biological neural tissue can form adaptive feedback loops and integrated processing structures outside a full organism. While they do not demonstrate consciousness, they provide an experimental platform for studying minimal neural integration and learning dynamics.",
+          },
         ],
       },
       {
