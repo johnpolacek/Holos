@@ -277,6 +277,33 @@ export default function Predictions() {
               than selection.
             </p>
           </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Minimal neural systems: emergence of coherent integration
+            </h3>
+
+            <p className="leading-relaxed">
+              If observerhood depends on informational integration rather than biological scale,
+              then small biological neural networks interacting with an environment should exhibit
+              measurable transitions in system-level coherence as integration increases.
+            </p>
+
+            <p className="leading-relaxed">
+              Recent experiments with cultured neural networks connected to digital environments
+              suggest that biological neurons can form closed feedback loops outside of a full
+              organism. Under the Holos framework, progressively increasing connectivity, feedback
+              richness, and environmental coupling should eventually produce a regime where neural
+              activity shifts from distributed dynamics toward unified system-level organization.
+            </p>
+
+            <p className="leading-relaxed">
+              Such transitions would not demonstrate consciousness directly. However, the existence
+              of a reproducible boundary between loosely coupled neural computation and coherent
+              integrated dynamics would support the claim that observerhood depends on structural
+              integration rather than on organismal complexity.
+            </p>
+          </div>
         </div>
       </section>
 
