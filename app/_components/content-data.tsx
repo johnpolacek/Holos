@@ -101,6 +101,13 @@ export const sections: ContentSection[] = [
         <MathInline>Φ ≥ Φ_c</MathInline>).
       </>,
       <>
+        Related neuroscience models such as Global Neuronal Workspace Theory describe conscious
+        access as a large-scale ignition or broadcast event. Holos is compatible with that picture
+        at the level of access and reportability, but makes a narrower claim: global availability
+        matters because it signals that a system has crossed the deeper integration threshold
+        required for any first-person perspective at all.
+      </>,
+      <>
         When informational states become sufficiently integrated, the system forms a single causal
         structure whose state exists from the inside as well as the outside. In Holos this
         transition is what creates a point of view.

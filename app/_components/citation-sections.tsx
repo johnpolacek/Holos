@@ -147,10 +147,10 @@ export const citationMainSections: CitationMainSection[] = [
               "Empirical search for what in the brain corresponds to experience; disruption (e.g. anesthesia) and recovery align with integration as an eligibility condition.",
           },
           {
-            name: "Global Workspace Theory",
+            name: "Global Neuronal Workspace Theory (GNWT)",
             url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
             description:
-              "Consciousness as global broadcast in the brain creating unified access; aligns with Holos on unity and the boundary between integrated and non-integrated processing.",
+              "Conscious access as large-scale neural ignition and broadcast; relevant to Holos as an empirical model of access and reportability, though Holos treats integration as the deeper threshold for observerhood.",
           },
           {
             name: "Integrated Information Theory",

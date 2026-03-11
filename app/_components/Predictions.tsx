@@ -228,6 +228,12 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
+              If something like a Global Neuronal Workspace is involved in conscious access, these
+              threshold crossings should appear as abrupt transitions into globally available neural
+              states rather than as a gradual fading of reportability.
+            </p>
+
+            <p className="leading-relaxed">
               Proxy measures such as{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
