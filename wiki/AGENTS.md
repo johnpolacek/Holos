@@ -31,6 +31,8 @@ Keep summary-only, navigation, and cross-project context in the personal hub at 
 
 When detail exists here, summarize upward rather than duplicating it in `/Wiki`.
 
+Keep private research intake, discussion digestion, and pre-publication theory development out of this public repo. That private workflow now belongs in [`../../holos-research/wiki/`](../../holos-research/wiki/).
+
 ## Core Files
 
 - [`index.md`](index.md) is the first page to read and the catalog of durable pages in this project wiki.
