@@ -27,11 +27,11 @@ Use it for durable, project-specific knowledge that helps future work inside thi
 
 Keep deep Holos knowledge here.
 
-Keep summary-only, navigation, and cross-project context in the personal hub at [`../../../Wiki/`](../../../Wiki/) and the Holos hub summary at [`../../../Wiki/projects/holos.md`](../../../Wiki/projects/holos.md).
+Keep summary-only, navigation, and cross-project context in the personal hub at [`/Users/johnpolacek/Wiki/`](/Users/johnpolacek/Wiki/) and the Holos hub summary at [`/Users/johnpolacek/Wiki/projects/holos.md`](/Users/johnpolacek/Wiki/projects/holos.md).
 
 When detail exists here, summarize upward rather than duplicating it in `/Wiki`.
 
-Keep private research intake, discussion digestion, and pre-publication theory development out of this public repo. That private workflow now belongs in [`../../holos-research/wiki/`](../../holos-research/wiki/).
+Keep private research intake, discussion digestion, and pre-publication theory development out of this public repo. That private workflow now belongs in [`/Users/johnpolacek/Projects/holos-research/wiki/`](/Users/johnpolacek/Projects/holos-research/wiki/).
 
 ## Core Files
 
