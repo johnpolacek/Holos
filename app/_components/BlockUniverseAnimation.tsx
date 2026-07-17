@@ -41,7 +41,6 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
     // Get elements
     const phiSymbol = svg.querySelector("#phi-observer") as SVGTextElement;
     const phiRing = svg.querySelector("#phi-ring") as SVGCircleElement;
-    const solidificationWave = svg.querySelector("#solidification-wave") as SVGLineElement;
     const ghostLines = svg.querySelectorAll(".ghost-line") as NodeListOf<SVGLineElement>;
     const ghostPoints = svg.querySelectorAll(".ghost-point") as NodeListOf<SVGCircleElement>;
     const solidLines = svg.querySelectorAll(".solid-line") as NodeListOf<SVGLineElement>;
@@ -50,16 +49,11 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
     const t0Label = svg.querySelector("#t0-label") as SVGTextElement;
     const tnowLabel = svg.querySelector("#tnow-label") as SVGTextElement;
 
-    // Block dimensions
-    const blockLeft = 60;
-    const blockRight = 500;
-
     // Initial state
     gsap.set(solidLines, { opacity: 0 });
     gsap.set(solidPoints, { opacity: 0 });
     gsap.set(ghostLines, { opacity: 0.4 });
     gsap.set(ghostPoints, { opacity: 0.3 });
-    gsap.set(solidificationWave, { opacity: 0, attr: { x1: blockRight, x2: blockRight } });
     gsap.set(caption, { opacity: 0 });
     gsap.set(phiSymbol, { opacity: 0.6 });
     gsap.set(phiRing, { opacity: 0 });
@@ -71,7 +65,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
     });
     timelineRef.current = tl;
 
-    // Phase 1: Initial state - show ghostly past
+    // Phase 1: Initial state - the block as structure alone (C)
     tl.to(ghostLines, {
       opacity: 0.5,
       duration: 0.8,
@@ -122,74 +116,47 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         "observe+=0.3"
       );
 
-    // Phase 3: Solidification wave travels backward
-    tl.add("solidify")
+    // Phase 3: The whole block is realized at once. No wave, no direction, no
+    // propagation — the ghost/solid contrast compares two descriptions of the
+    // same tenseless block (structure alone vs. structure closed by
+    // observation), so the crossfade must be simultaneous everywhere.
+    tl.add("realize")
       .to(
-        solidificationWave,
+        ghostLines,
         {
-          opacity: 1,
-          duration: 0.1,
-        },
-        "solidify"
-      )
-      .to(
-        solidificationWave,
-        {
-          attr: { x1: blockLeft, x2: blockLeft },
-          duration: 2,
+          opacity: 0,
+          duration: 1.2,
           ease: "power1.inOut",
         },
-        "solidify"
-      );
-
-    // As wave passes, transform ghost to solid (staggered from right to left)
-    const lineCount = ghostLines.length;
-    ghostLines.forEach((line, i) => {
-      const reverseIndex = lineCount - 1 - i;
-      const delay = (reverseIndex / lineCount) * 1.8;
-
-      tl.to(
-        line,
+        "realize"
+      )
+      .to(
+        ghostPoints,
         {
           opacity: 0,
-          duration: 0.15,
+          duration: 1.2,
+          ease: "power1.inOut",
         },
-        `solidify+=${delay}`
-      );
-
-      tl.to(
-        solidLines[i],
+        "realize"
+      )
+      .to(
+        solidLines,
         {
           opacity: 1,
-          duration: 0.15,
+          duration: 1.2,
+          ease: "power1.inOut",
         },
-        `solidify+=${delay}`
-      );
-    });
-
-    const pointCount = ghostPoints.length;
-    ghostPoints.forEach((point, i) => {
-      const reverseIndex = pointCount - 1 - i;
-      const delay = (reverseIndex / pointCount) * 1.8;
-
-      tl.to(
-        point,
-        {
-          opacity: 0,
-          duration: 0.1,
-        },
-        `solidify+=${delay}`
-      );
-
-      tl.to(
-        solidPoints[i],
+        "realize"
+      )
+      .to(
+        solidPoints,
         {
           opacity: 1,
-          duration: 0.1,
+          duration: 1.2,
+          ease: "power1.inOut",
         },
-        `solidify+=${delay}`
+        "realize"
       );
-    });
 
     // Show caption
     tl.to(
@@ -198,17 +165,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         opacity: 0.7,
         duration: 0.5,
       },
-      "solidify+=1.5"
-    );
-
-    // Hide wave at end
-    tl.to(
-      solidificationWave,
-      {
-        opacity: 0,
-        duration: 0.3,
-      },
-      "solidify+=2"
+      "realize+=0.8"
     );
 
     // Hold the realized state
@@ -232,7 +189,6 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         },
         "reset"
       )
-      .set(solidificationWave, { attr: { x1: blockRight, x2: blockRight } })
       .set(ghostLines, { opacity: 0 })
       .set(ghostPoints, { opacity: 0 });
 
@@ -279,17 +235,15 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "1em" }}>
-          <em style={{ fontSize: "1.1em" }}>Retrospective Realization in the Block Universe</em>
+          <em style={{ fontSize: "1.1em" }}>Global Closure in the Block Universe</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
+          <p style={{ margin: "0.5em 0" }}>[ t₀ (Big Bang) ····· Φ (observer) ····· t_now ]</p>
           <p style={{ margin: "0.5em 0" }}>
-            t₀ (Big Bang) ←————— Solidification Wave ←————— Φ (Observer at t_now)
-          </p>
-          <p style={{ margin: "0.5em 0" }}>
-            The observer at the end of the circuit brings the beginning into existence.
+            A block that contains an observer is realized as a whole.
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            Future observation validates past reality (Participatory Anthropic Principle)
+            Realization is a tenseless constraint, not a process in time.
           </p>
         </div>
       </div>
@@ -301,15 +255,17 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing retrospective realization in a block universe where future observation validates past reality"
+      aria-label="Animation comparing a block universe described as structure alone with the same block realized as a whole because it contains an observer"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        Retrospective Realization in the Block Universe: In an eternalist view, the spacetime block
-        contains all moments simultaneously. The observer (Φ) at the future end of time triggers a
-        solidification wave that travels backward, transforming ghostly potential past events into
-        solid realized history. This illustrates the Participatory Anthropic Principle—future
-        observation validates past reality.
+        Global Closure in the Block Universe: In an eternalist view, the spacetime block contains
+        all moments tenselessly. The animation first shows the block in a faint, dashed style, then
+        shows the same block in solid form once the observer (Φ) it contains is highlighted. The
+        crossfade is simultaneous across the whole block: nothing travels backward and nothing
+        changes within the block. The two styles compare two descriptions of the same tenseless
+        structure — physical structure alone, and structure realized as experienced history because
+        it contains registration. Realization is a global constraint, not a process in time.
       </figcaption>
       <svg
         ref={svgRef}
@@ -328,7 +284,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontFamily="serif"
           fontStyle="italic"
         >
-          Retrospective Realization in the Block Universe
+          Global Closure in the Block Universe
         </text>
 
         {/* The Spacetime Block - outline */}
@@ -427,22 +383,11 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           />
         ))}
 
-        {/* Solidification wave (travels right to left) */}
-        <line
-          id="solidification-wave"
-          x1="500"
-          y1="115"
-          x2="500"
-          y2="185"
-          stroke="rgba(0, 0, 0, 0.8)"
-          strokeWidth="2"
-          opacity="0"
-        />
-
-        {/* Phi observer ring (pulse effect) */}
+        {/* Phi observer ring (pulse effect) — inside the block: observers are
+            part of the structure, not outside it */}
         <circle
           id="phi-ring"
-          cx="520"
+          cx="470"
           cy="150"
           r="15"
           fill="none"
@@ -454,7 +399,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         {/* Phi observer symbol */}
         <text
           id="phi-observer"
-          x="520"
+          x="470"
           y="157"
           textAnchor="middle"
           fill="rgba(0, 0, 0, 0.8)"
@@ -506,10 +451,10 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontStyle="italic"
           opacity="0"
         >
-          Future observation validates past reality
+          A block that contains an observer is realized as a whole
         </text>
 
-        {/* Participatory principle note */}
+        {/* Tenseless constraint note */}
         <text
           x="280"
           y="285"
@@ -518,7 +463,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontSize="10"
           fontFamily="monospace"
         >
-          Participatory Anthropic Principle
+          a tenseless constraint, not a process in time
         </text>
       </svg>
     </figure>

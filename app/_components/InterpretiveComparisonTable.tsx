@@ -16,7 +16,7 @@ export default function InterpretationComparisonTable() {
         <tbody className="text-black/80">
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">What is fundamental?</td>
-            <td className="py-3 pr-6">Relational structure + ontological manifestation</td>
+            <td className="py-3 pr-6">The totality (Ω), expressed as relational structure</td>
             <td className="py-3 pr-6">Universal wavefunction</td>
             <td className="py-3 pr-6">Relations between systems</td>
             <td className="py-3">Agent-centered beliefs</td>
@@ -40,7 +40,7 @@ export default function InterpretationComparisonTable() {
 
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">Role of observer</td>
-            <td className="py-3 pr-6">Ontologically constitutive (Φ ≥ Φc)</td>
+            <td className="py-3 pr-6">Local aperture of the totality (Φ ≥ Φc)</td>
             <td className="py-3 pr-6">Passive branch inhabitant</td>
             <td className="py-3 pr-6">Defines relational facts</td>
             <td className="py-3">Central agent</td>
@@ -48,7 +48,7 @@ export default function InterpretationComparisonTable() {
 
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">Reality without observers</td>
-            <td className="py-3 pr-6">Structurally valid, ontologically unregistered</td>
+            <td className="py-3 pr-6">Unlit structure: real as pattern, never lived</td>
             <td className="py-3 pr-6">Fully real</td>
             <td className="py-3 pr-6">Undefined</td>
             <td className="py-3">Undefined</td>

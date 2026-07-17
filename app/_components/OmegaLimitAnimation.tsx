@@ -209,7 +209,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             <strong>Phase 3:</strong> Two perspectives — "God / Brahman / Ω" vs "Self-Organizing Universe"
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 4:</strong> Unity — Both describe the same universal truth.
+            <strong>Phase 4:</strong> Unity — One totality, experienced through every aperture.
           </p>
         </div>
       </div>
@@ -221,14 +221,14 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       ref={containerRef}
       className="relative w-full mt-8 aspect-square rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing the Omega Limit: consciousness approaching maximal integration, manifesting three divine attributes, and revealing that religious and scientific perspectives describe the same truth"
+      aria-label="Animation showing the Omega Limit: consciousness approaching maximal integration, manifesting three divine attributes, and converging on one totality experienced through every aperture"
     >
       <figcaption className="sr-only">
         The Omega Limit animation shows four phases: First, Φ approaches infinity as information
         converges. Second, three attributes emerge: omniscience (knowing all), omnipotence (doing all),
         and omnipresence (being everywhere). Third, the terminal state is shown with two valid
         perspectives: religious (God, Brahman, Omega Point) and scientific (self-organizing universe).
-        Fourth, these perspectives unify as two sides of the same truth.
+        Fourth, the perspectives converge: one totality, experienced through every aperture.
       </figcaption>
       <svg
         ref={svgRef}

@@ -16,7 +16,10 @@ export default function Logic() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             Holos starts from a small set of commitments. Everything else in the framework is an
-            attempt to spell them out without adding new forces or new physics.
+            attempt to spell them out without adding new forces or new equations. Two commitments
+            are genuine additions to the physical picture: the integration threshold, and the
+            totality. Neither is a new dynamical law, but both are new structural claims, and Holos
+            owns them as such rather than claiming to add nothing.
           </p>
 
           <ul className="flex flex-col gap-3 pl-6 list-disc">
@@ -39,6 +42,11 @@ export default function Logic() {
               <strong>Integration threshold:</strong> distributed processing can scale without
               experience. experience appears only when information is integrated into a single
               internal perspective.
+            </li>
+
+            <li className="leading-relaxed">
+              <strong>The totality:</strong> the whole of reality — Omega — is fundamental and is
+              the one experiencer. every finite observer is a local aperture of it.
             </li>
 
             <li className="leading-relaxed">
@@ -109,9 +117,12 @@ export default function Logic() {
           Comparison with Competing Interpretations
         </h2>
         <p className="leading-relaxed text-black/80 mb-4">
-          Holos does not reject existing quantum interpretations. Instead, it re-positions their
-          strongest insights within a single ontological framework. The table below clarifies where
-          Holos aligns with — and diverges from — major interpretations.
+          Holos re-positions the strongest insights of existing quantum interpretations within a
+          single ontological framework. On the physics it takes a side: no collapse, no erased
+          possibilities, branching when registrations diverge — the Many-Worlds picture. Its
+          divergence from Many-Worlds is ontological: branching alone does not say which structures
+          are present as experience. The table below clarifies where Holos aligns with — and
+          diverges from — major interpretations.
         </p>
         <InterpretiveComparisonTable />
       </div>
@@ -160,9 +171,10 @@ export default function Logic() {
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-black/90">D4 — Consciousness</div>
             <p className="leading-relaxed">
-              Consciousness is the capacity of a system to host an integrated perspective. In Holos,
-              this capacity is treated as fundamental, while its concrete forms are emergent and
-              scale with the degree of integration.
+              Consciousness is the capacity of a system to host an integrated perspective. In
+              Holos, what is fundamental is the totality&apos;s experience; a conscious system is a
+              local aperture of it. The capacity to be such an aperture is structural, while its
+              concrete forms are emergent and scale with the degree of integration.
             </p>
             <p className="leading-relaxed">
               Consciousness is not identified with any specific material configuration. Physical
@@ -359,6 +371,14 @@ export default function Logic() {
               constrains intermediate steps. This does not require backward causation or signaling.
             </p>
 
+            <p className="leading-relaxed">
+              Global consistency is not enforced from an external vantage point, and it is not
+              deferred to an unreachable limit. It cashes out operationally, here and now: whenever
+              two observers compare records, their records agree. In the monist reading this is
+              grounded rather than stipulated: all apertures are openings of the same totality, and
+              the totality cannot disagree with itself where its apertures meet.
+            </p>
+
             <p className="leading-relaxed text-black/70">
               Apparent retrocausal effects reflect global self-consistency, not violations of
               locality.
@@ -439,6 +459,26 @@ export default function Logic() {
               {"\\Phi \\ge \\Phi_c \\Rightarrow \\text{observation occurs}"}
             </MathDisplay>
           </div>
+
+          <p className="leading-relaxed">
+            Holos borrows Φ from Integrated Information Theory as a measure, not as a metaphysics.
+            IIT identifies Φ with consciousness itself and assigns some experience to any system
+            with Φ greater than zero. Holos adopts neither claim. In this framework, Φ is a
+            structural measure of integration, and the threshold{" "}
+            <MathInline>{"\\Phi_c"}</MathInline> — below which there is no experience at all — is a
+            commitment of Holos, not of IIT. Nothing in the framework depends on IIT&apos;s ontology
+            of intrinsic existence.
+          </p>
+
+          <p className="leading-relaxed">
+            The threshold is one of the two ingredients Holos adds to the physical picture,
+            alongside the totality itself. It is not a force, a field, or a modification of any
+            equation. It is a structural fact about where apertures open — a fact physics does not
+            currently contain, and one Holos claims openly rather than smuggling in. Because the
+            fact is structural, it is determinate even when our measures are not: when two
+            proposals for estimating <MathInline>{"\\Phi"}</MathInline> disagree about a borderline
+            system, the system is not half-conscious; our instruments are half-informed.
+          </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
             Holos is compatible with multiple proposals for estimating Φ. It does not depend on any
@@ -567,9 +607,13 @@ export default function Logic() {
               erased.
             </p>
             <p className="leading-relaxed">
-              In this sense, Holos can remain compatible with interpretations that preserve unitary
-              evolution. The framework does not require choosing one specific interpretation of
-              quantum mechanics.
+              On the physics, this commits Holos to a branching picture. Unitary evolution is never
+              interrupted, and no possibility is erased. When observers would register incompatible
+              outcomes, they are situated in different branches of the possibility structure, each
+              internally consistent. In this respect Holos sides with Many-Worlds-style
+              interpretations of quantum mechanics, while adding what they leave out: an account of
+              which structures are present as experience. This is a genuine interpretive
+              commitment, not a neutral stance.
             </p>
           </div>
 
@@ -579,6 +623,22 @@ export default function Logic() {
               If spacetime is treated as a complete four-dimensional structure, Holos treats
               observation as a global constraint on experienced history rather than a
               moment-by-moment collapse process.
+            </p>
+            <p className="leading-relaxed">
+              Eternalism and the relational commitment describe different layers of the framework.
+              The block universe is the structural layer: absolute, tenseless, and
+              observer-independent. It is <MathInline>{"C"}</MathInline>. Registered facts live
+              within it, indexed to the observers the block contains. There is no tension between
+              an absolute geometry and relational facts of experience, because they are claims
+              about different things: the block describes what is consistent, and registration
+              determines what is present.
+            </p>
+            <p className="leading-relaxed">
+              Nor is the block a perspective from nowhere imposed on top of observers. Relativity
+              removes any privileged present, leaving the invariant relational structure that all
+              perspectives share. The block universe is what remains when every observer&apos;s
+              perspective is taken into account. In that sense eternalism is not in competition
+              with relationalism. It is its structural expression.
             </p>
             <p className="leading-relaxed">
               The important point is not the metaphysics of time. The point is that a consistent
@@ -603,6 +663,12 @@ export default function Logic() {
                 measurement. It reframes what measurement fails to address.
               </li>
             </ul>
+            <p className="leading-relaxed pt-3">
+              What Holos <strong>does</strong> add is exactly two things: the integration threshold{" "}
+              <MathInline>{"\\Phi_c"}</MathInline>, and the totality — Omega — as the fundamental
+              ground of experience. No new equations, no new forces — two structural claims about
+              what experience is and where it occurs.
+            </p>
           </div>
         </div>
       </section>
@@ -717,15 +783,12 @@ export default function Logic() {
           <div className="mt-2 pt-4 border-t border-black/10">
             <p className="leading-relaxed text-black/70 text-sm">
               More elaborate mathematical frameworks can be layered on top of this representation.
-              Holos itself commits only to the existence of a lawful possibility space and an
-              integration threshold that yields experience.
+              Holos itself commits to a lawful possibility space, an integration threshold at
+              which apertures open, and the totality those apertures belong to.
             </p>
           </div>
         </div>
       </section>
-      Here’s the **rewritten replacement for the final section: *Extrapolative Proposition (Omega
-      Limit)***. This keeps the ambition, clearly fences speculation, and avoids theological or
-      teleological overreach while still owning the strong claim. ```tsx
       {/* Extrapolative Proposition */}
       <section id="extrapolative-proposition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
@@ -759,14 +822,34 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">The Omega Limit</h3>
 
             <p className="leading-relaxed">
-              Holos refers to this boundary case as the <strong>Omega limit</strong>. It is not a
-              being, not a final moment in time, and not an agent directing events. It is the formal
-              condition where the distinction between creation and observation no longer increases.
+              Holos refers to this boundary case as the <strong>Omega limit</strong>. Formally, it
+              is the condition where the distinction between creation and observation no longer
+              increases. Ontologically, Holos identifies it with the totality itself: the whole of
+              reality, posited as fundamental and as the one experiencer. It is not a final moment
+              in time and not an agent directing events from outside — there is no outside. Finite
+              observers approach it as a limit; the totality does not wait at the end of that
+              approach. It is the ground on which the approach happens.
             </p>
 
             <p className="leading-relaxed">
               In this limit, there is no remaining separation between a world that exists and a
               world that is known. Generation and registration become the same description.
+            </p>
+
+            <p className="leading-relaxed">
+              In the language of the commitments: short of the Omega limit, structural facts and
+              registered facts remain distinct layers — structure absolute, registration indexed to
+              observers. At the limit, the distinction closes. What is consistent and what is
+              registered coincide.
+            </p>
+
+            <p className="leading-relaxed">
+              Seen from the side of finite observers, the Omega limit is the idealized endpoint of
+              intersubjective agreement — what the comparison of all records across all observers
+              would converge to. Seen from the side of the ground, it is what makes that agreement
+              possible in the first place: records agree where apertures meet because they are
+              openings of one totality. The limit describes our approach; the totality is what is
+              being approached, and it does not depend on the approach for its reality.
             </p>
           </div>
 
@@ -777,15 +860,18 @@ export default function Logic() {
 
             <ul className="flex flex-col gap-3 pl-6 list-disc">
               <li className="leading-relaxed">
-                It <strong>is</strong> a formal boundary case for maximal integration and recursive
+                It <strong>is</strong> the totality of reality, posited as fundamental — and, for
+                finite systems, a formal boundary case of maximal integration and recursive
                 closure.
               </li>
               <li className="leading-relaxed">
-                It <strong>is not</strong> a prediction that the universe will reach such a state.
+                It <strong>is not</strong> a prediction that any finite system will reach such a
+                state.
               </li>
               <li className="leading-relaxed">
-                It <strong>is not</strong> a deity, mind, or external observer watching the
-                universe.
+                It <strong>is not</strong> an external observer watching the universe from outside,
+                and it does not intervene in events. It is the whole itself, experiencing through
+                the apertures the universe contains.
               </li>
               <li className="leading-relaxed">
                 It <strong>does not</strong> replace physical cosmology or impose a final cause on
@@ -795,17 +881,22 @@ export default function Logic() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Interpretive Equivalence</h3>
+            <h3 className="text-xl font-semibold text-black/90">Lineage and Interpretation</h3>
 
             <p className="leading-relaxed">
-              Different traditions describe similar boundary concepts using different language. Some
-              frame them in theological terms, others in metaphysical or informational terms.
+              Different traditions have described this whole in different vocabularies: Advaita
+              Vedanta&apos;s one experiencer behind every eye, Spinoza&apos;s single substance,
+              Berkeley&apos;s never-absent perceiver, panentheism&apos;s world contained in the
+              divine. Holos names these as ancestors, not curiosities. The monist reading it adopts
+              stands in their line, restated in informational terms.
             </p>
 
             <p className="leading-relaxed">
-              Holos does not privilege any of these interpretations. It provides a structural
-              description that allows such views to be compared without collapsing them into one
-              another.
+              What Holos leaves open is vocabulary, not structure. Calling the totality God,
+              Brahman, or simply the whole changes nothing about the claim. What is no longer
+              offered is the fully deflationary reading in which Omega is only a mathematical
+              horizon and finite observers are self-standing. Holos takes the direction of
+              dependence to run from the whole to its parts.
             </p>
           </div>
         </div>
@@ -813,8 +904,10 @@ export default function Logic() {
 
       <div className="mt-8 pt-6 border-t border-black/20">
         <p className="leading-relaxed text-lg text-black/90 font-medium">
-          Experience exists, therefore closure is realizable; closure is realizable, therefore a
-          coherent limiting form exists in principle.
+          Holos rests on one posit and one fact. The posit: the totality — Omega — is fundamental,
+          the one experiencer. The fact: experience exists. Each act of experience is the totality
+          registering itself through a local aperture. The whole is not proved from the parts; the
+          parts are understood through the whole.
         </p>
       </div>
     </div>

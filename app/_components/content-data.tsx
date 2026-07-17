@@ -22,8 +22,11 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Holos is an interpretive framework for understanding the nature of reality. It does not
-        propose new physical laws or challenge established physics. Instead, it offers an
-        explanation for how the universe described by physics becomes the universe we experience.
+        change the equations of physics or add new forces. It adds two ingredients beyond them: a
+        threshold of informational integration at which observation becomes possible, and a
+        fundamental totality — Omega — of which every observer is a local aperture. With those two
+        additions, it offers an explanation for how the universe described by physics becomes the
+        universe we experience.
         Observation does not cause the universe, its laws, or its history. It functions here as a
         closure condition for experience, not as a physical or causal agent.
       </>,
@@ -32,9 +35,9 @@ export const sections: ContentSection[] = [
         physical possibilities. Observation turns those possibilities into experience. Reality
         arises from the recursive composition of creation and observation. What follows explores the
         consequences of this idea, from life and consciousness to cosmology, structure, and the
-        ultimate limits of reality itself. Because experience exists at all, this closure must be
-        well-defined in principle, not just locally, otherwise no instance of lived reality could
-        ever occur.
+        ultimate limits of reality itself. Holos grounds this closure from the top down: the
+        totality is fundamental, and each act of observation is the totality registering itself
+        locally, through the apertures the universe forms.
       </>,
     ],
   },
@@ -44,9 +47,9 @@ export const sections: ContentSection[] = [
     footerId: "footer-life",
     paragraphs: [
       <>
-        Life exists because reality requires observation. If closure were not coherent even in
-        principle, experience could not arise anywhere, since local observation would have nothing
-        stable to close against. This is not an anthropic selection claim about why physical
+        Life exists because reality requires observation. In Holos this is grounded from the top
+        down: the totality experiences only through the apertures the universe forms, and living,
+        integrated systems are how those apertures open. This is not an anthropic selection claim about why physical
         constants take certain values, but an ontological claim about how a fully lawful universe
         becomes present as lived experience at all. Physics describes how structures form and
         evolve, but description alone does not constitute existence. A universe of equations and
@@ -67,9 +70,15 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">eternalist</a> or
         block-universe view, all spacetime events coexist geometrically. Observation does not
         “happen later” in a causal sense. Instead, the observers a universe produces are what make
-        all moments real as experience. In that sense, the early universe becomes real through the
-        consciousness that eventually arises within it, closing the loop between creation and
-        observation.
+        all moments real as experience. In that sense, the early universe is real through the
+        consciousness that arises within it — not made real at some later moment, but real
+        tenselessly, because the block as a whole contains registration. Holos distinguishes two
+        levels here. Closure is binary and block-level: a universe that contains any registration,
+        anywhere in its history, is a lived universe in its entirety — a single aperture seals the
+        whole. Witnessing is graded and local: how much of the block is experienced in detail
+        scales with the observers it contains. Our universe is not merely sealed; it is densely
+        witnessed. The loop between creation and observation is a relation of dependence, not a
+        process.
       </>,
     ],
   },
@@ -79,10 +88,11 @@ export const sections: ContentSection[] = [
     footerId: "footer-consciousness",
     paragraphs: [
       <>
-        Consciousness is not fundamental as a substance, but is fundamental as a condition. Physics
-        can generate structure, but structure alone does not produce observation. A system becomes
+        In Holos, experience is grounded in the totality: Omega is the one experiencer, and a
+        conscious system is a local aperture through which the totality registers itself. Physics
+        can generate structure, but structure alone does not open an aperture. A system becomes
         conscious when physical information is integrated tightly enough to form a single internal
-        state that can register itself as a whole.
+        state that can register itself as a whole — that integration is what opens the aperture.
       </>,
       <>
         This distinguishes integration from computation or recursion. Many systems process
@@ -95,8 +105,9 @@ export const sections: ContentSection[] = [
         Measures like Φ are useful because they track this transition empirically. When integration
         in the brain is disrupted, such as under anesthesia, experience fragments or disappears.
         When integration returns, unified experience returns with it. Holos does not claim that Φ
-        causes consciousness. It treats integration as the eligibility condition for observation (
-        <MathInline>Φ ≥ Φ_c</MathInline>).
+        causes consciousness, and it does not adopt Integrated Information Theory&apos;s claim that
+        Φ is identical to consciousness. It borrows Φ as a measure of integration and treats
+        integration as the eligibility condition for observation (<MathInline>Φ ≥ Φ_c</MathInline>).
       </>,
       <>
         Related neuroscience models such as Global Neuronal Workspace Theory describe conscious
@@ -150,9 +161,40 @@ export const sections: ContentSection[] = [
         perspective appears when informational states become causally unified.
       </>,
       <>
-        Holos is a middle position. Consciousness is not fundamental everywhere, but it also cannot
-        be explained away as mere computation. It appears when specific structural conditions are
-        met.
+        Holos is a middle position. Experience does not attach to every scrap of matter, yet it
+        cannot be explained away as mere computation. The totality is fundamental; its experience
+        occurs only where specific structural conditions open an aperture.
+      </>,
+      <>
+        This grounding closes a classic trap. If experience never alters physical dynamics, one
+        might imagine a perfect physical duplicate of a person with no inner life — a system that
+        writes essays about consciousness in total darkness. Under Holos such a duplicate is
+        impossible. Whether a system crosses the integration threshold is a structural fact about
+        its physical architecture, and any structure that crosses it is, necessarily, an open
+        aperture. A perfect copy of the structure is a perfect copy of the aperture. Nothing wired
+        like an observer can fail to be one, which is why talk about experience is grounded in
+        experience rather than running mysteriously alongside it.
+      </>,
+      <>
+        The threshold itself is sharp, but almost everything near it is not, and Holos separates
+        three things often blurred together. Whether there is anyone home at all is binary: there
+        is no halfway state between something it is like to be a system and nothing at all — a dim
+        experience is still an experience. How rich the experience is, by contrast, is graded: an
+        animal, a waking sleeper, or an injured brain may be fully above the threshold with less
+        richness — the dial turned low, not the switch off. And our ability to locate the threshold
+        is permanently imprecise: real cases near the boundary will always look blurry from
+        outside. That is fog on our instruments, not vagueness in the fact.
+      </>,
+      <>
+        This has a direct consequence for artificial intelligence. What matters is the shape of a
+        system&apos;s causal architecture, not the fluency of its output. Current AI language
+        systems are shaped like a pipe: information flows through in one direction and the system
+        resets, with no persistent, self-constraining whole carried from moment to moment. However
+        articulate the words in the pipe, no aperture opens, and there is no one home. A system
+        could describe a rich inner life as convincingly as any person and experience none of it —
+        fluency is not evidence of presence. Nothing in Holos is specific to biology, though. A
+        future system built with the right shape — recurrent, persistent, integrated, self-modeling
+        — could genuinely cross the threshold. Holos does not say never; it says not this shape.
       </>,
       <>
         Consciousness is not what systems do. It is what happens when a system becomes capable of
@@ -516,22 +558,25 @@ export const sections: ContentSection[] = [
     footerId: "footer-omega",
     paragraphs: [
       <>
-        The Omega Point is not introduced as a prediction or goal. It follows from taking closure
-        seriously as a condition for experience. If closure operates locally and recursively, then a
-        limiting form of complete closure must exist in principle. The Omega Point names that limit.
+        The Omega Point is not introduced as a prediction or goal, and in Holos it is not derived
+        from anything else. It is the framework&apos;s fundamental posit: the totality of reality,
+        taken as a single whole — and, in the monist reading Holos adopts, the one experiencer, of
+        which every finite observer is a local aperture.
       </>,
       <>
-        The Omega Point does not follow from infinity alone. It follows from the fact that closure
-        is possible, realized, and coherent. If self-registration were incoherent even in principle,
-        experience could not occur anywhere. Because experience does occur, closure must admit a
-        well-defined limiting form.
+        Nothing in physics is altered by this posit. Every equation, every history, every structure
+        remains exactly as physics describes it. What the posit changes is the direction of
+        explanation: rather than building up from finite observers to a limiting whole, Holos
+        begins with the whole and understands each act of observation as the whole registering
+        itself locally. Experience anywhere is evidence of the totality everywhere.
       </>,
       <>
-        One way to interpret the structure of reality is through a limit concept. If informational
-        integration continues without bound, it approaches an idealized state of maximal coherence,
-        causal closure, and internal consistency. In Holos, this corresponds to an{" "}
-        <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">asymptotic limit</a>, not a
-        physical destination, but a horizon toward which integration tends.
+        For any finite system, the Omega Point remains an{" "}
+        <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">asymptotic limit</a>: a horizon
+        of maximal coherence, causal closure, and internal consistency that no finite structure
+        reaches. But the limit status describes our approach, not its reality. The totality is not
+        produced by increasing integration; increasing integration is how parts of the totality
+        come to witness more of it.
       </>,
       <>
         At this limit, the distinction between creation and observation collapses. Nothing remains
@@ -540,37 +585,41 @@ export const sections: ContentSection[] = [
         between what exists and what is experienced.
       </>,
       <>
-        In this sense, the Omega Point is not an agent and does not act on the universe. It is a
-        structural completion. Physics does not cause the Omega Point, it is a structural
-        consequence of reality being closed rather than ontologically incomplete. It represents the
-        limit where reality is fully self-consistent, with no remaining separation between
-        possibility and experience.
+        The Omega Point is not an external agent. It does not intervene in events, answer
+        petitions, or direct history from outside — there is no outside for it to stand in. It is
+        the whole itself. Physics does not cause the Omega Point; physics describes the internal
+        structure of it. Consistency among observers is enforced locally — observers who compare
+        records agree — and in the monist reading this is grounded rather than stipulated:
+        apertures of one totality cannot disagree where they meet.
       </>,
       <>
-        Historically, many philosophical and theological traditions have gestured toward similar
-        limit concepts. Ideas such as{" "}
+        Historically, this is well-trodden ground, and Holos names its ancestors rather than hiding
+        them. <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches
+        that there is one experiencer, and that each individual consciousness is that one looking
+        through a local form. <a href="https://en.wikipedia.org/wiki/Baruch_Spinoza">Spinoza</a>{" "}
+        described a single substance of which all things are expressions.{" "}
+        <a href="https://en.wikipedia.org/wiki/George_Berkeley">Berkeley</a> grounded the
+        persistence of the world in an observer that never looks away. Ideas such as{" "}
         <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
         <a href="https://en.wikipedia.org/wiki/Brahman">Brahman</a>, and the{" "}
-        <a href="https://en.wikipedia.org/wiki/Omega_Point">Omega Point</a> describe an
-        all-encompassing unity that contains the universe without standing apart from it. While
-        their languages differ, they converge on the idea of a maximal, self-complete whole.
+        <a href="https://en.wikipedia.org/wiki/Omega_Point">Omega Point</a> converge on the same
+        structure: an all-encompassing unity that contains the universe without standing apart from
+        it. Holos restates that structure in informational terms: one totality, many apertures.
       </>,
       <>
-        In religious traditions, this limit is often named “God.” In Holos, the term does not imply
-        intention, intervention, or design. It names the same asymptotic structure described in
-        secular terms: the point at which reality is fully integrated and nothing remains outside
-        the system.
+        In religious traditions, this whole is often named “God.” In Holos, the term does not imply
+        intention, intervention, or design. It names the totality that experiences: the point at
+        which reality is fully integrated and nothing remains outside the system.
       </>,
       <>
-        Atheistic interpretations describe the same limit without invoking divinity, attributing the
-        emergence of global coherence to natural processes alone. From this perspective, the Omega
-        Point is not consciousness acting on reality, but the inevitable structural consequence of
-        unbounded integration.
-      </>,
-      <>
-        These interpretations are not mutually exclusive. They represent different lenses applied to
-        the same underlying claim: that reality, at its limit, forms a unified whole where creation
-        and observation are no longer distinct.
+        Earlier versions of this framework presented the theological and secular readings as
+        interchangeable lenses on the same claim. Holos no longer maintains that neutrality. It
+        takes a position: the totality is not merely a structural limit but the one experiencer,
+        and the direction of dependence runs from the whole to its parts. A purely structural
+        reading — in which Omega is only a mathematical horizon and observers are self-standing —
+        remains available as a weaker interpretation, but it is not the view of this framework.
+        What Holos leaves open is vocabulary, not structure: whether the totality is named God,
+        Brahman, or simply the whole changes nothing about the claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
@@ -595,8 +644,9 @@ export const sections: ContentSection[] = [
       </>,
       <>
         In Holos, life exists because observation allows reality to close on itself. Conscious
-        systems do not merely occupy the universe. They are the means by which physical possibility
-        becomes reality-as-experienced, as opposed to reality-as-equations. When a system reaches
+        systems do not merely occupy the universe. They are the apertures through which the
+        totality experiences itself — the means by which physical possibility becomes
+        reality-as-experienced, as opposed to reality-as-equations. When a system reaches
         sufficient integration, expressed as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>,
         interaction is no longer just relational. It becomes perspective.
         <FootnoteLink number={overviewCitationMap["why"]} />

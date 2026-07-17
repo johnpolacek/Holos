@@ -25,11 +25,15 @@ export default function Predictions() {
             >
               dynamical laws
             </a>{" "}
-            or modify the equations of physics.
+            or modify the equations of physics. It adds two ingredients beyond them: the
+            integration threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about
+            where observation occurs, and the totality — Omega — as the fundamental ground of
+            experience, of which every observer is a local aperture. Every claim below follows
+            either from established physics or from those two additions.
           </p>
 
           <p className="leading-relaxed">
-            The sections below separate three kinds of claims. The last section includes speculative
+            The sections below separate four kinds of claims. The last section includes speculative
             extensions that aim to produce observable signatures, not just philosophy.
           </p>
 
@@ -122,10 +126,12 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Closure is not merely local. The existence of any experienced reality implies that
-              closure is globally consistent, even if only partially realized. A reality with no
-              coherent limiting form would remain ontologically open and could not support
-              experience even in fragments.
+              Closure has two levels. <strong>Sealing</strong> is binary and global: a universe
+              that contains any registration, anywhere in its history, is a lived universe — in the
+              monist reading, one the totality experiences through. A universe that never forms an
+              aperture is structure that is never lived. <strong>Witnessing</strong> is graded and
+              local: how much of a universe is experienced in detail scales with the observers it
+              contains. One observer seals; many witness.
             </p>
           </div>
 
@@ -153,6 +159,25 @@ export default function Predictions() {
               Observerhood is neither ubiquitous nor optional. It appears when structural conditions
               for integration are met.
             </p>
+
+            <p className="leading-relaxed">
+              Whether a system crosses this threshold is a fact about its causal architecture. It
+              belongs to the structural layer of reality, alongside the laws of physics, and is not
+              itself indexed to any other observer. Observerhood is the eligibility condition for
+              having a perspective; it is not relative to one. In the monist reading, crossing the
+              threshold is where an aperture opens: the totality registers itself through the
+              system.
+            </p>
+
+            <p className="leading-relaxed">
+              Two consequences follow. First, there are no dark duplicates: because crossing the
+              threshold is a structural fact, any system wired as an observer necessarily is one —
+              a physically identical copy of an observer cannot lack experience. Second, the
+              threshold is sharp while its surroundings are not. Whether there is experience at all
+              is binary; how rich the experience is, is graded above the line; and locating the
+              boundary by measurement is permanently imprecise. The fuzziness of real cases lives
+              in richness and in our instruments, not in whether anyone is home.
+            </p>
           </div>
 
           {/* C3 */}
@@ -162,19 +187,41 @@ export default function Predictions() {
             </h3>
 
             <p className="leading-relaxed">
-              If observation is ontological registration, then facts are always indexed to observing
-              systems. Holos therefore commits to the absence of absolute, observer-independent
-              facts.
+              Holos distinguishes two kinds of facts. <strong>Structural facts</strong> describe
+              what is consistent: the laws of physics, the space of allowed histories, and whether a
+              system meets the integration threshold. These are absolute and observer-independent.{" "}
+              <strong>Registered facts</strong> describe what is actualized as experience: which
+              outcome a system registers from its own perspective. These are always indexed to
+              observing systems.
             </p>
 
             <p className="leading-relaxed">
-              This does not imply contradiction. Different observers may register outcomes that are
-              not mutually reducible, but the total structure of reality must remain globally
-              consistent.
+              The relational commitment applies to registered facts. There is no absolute,
+              observer-independent fact about which outcome is experienced. The structural layer,
+              by contrast, is not relative — without it, registration would have nothing stable to
+              close against.
+            </p>
+
+            <p className="leading-relaxed">
+              This does not imply contradiction, and Holos is specific about why. No possibility is
+              erased (Axiom 3), so observers never collide over a single shared outcome. Where
+              registrations would be incompatible, they belong to different branches of the
+              possibility structure, each internally consistent. There is no rule that the first
+              observer fixes the truth for everyone — relativity permits no such “first,” and none
+              is needed.
+            </p>
+
+            <p className="leading-relaxed">
+              Within a branch, consistency is operational rather than abstract: whenever two
+              observers actually compare records, their records agree. Perspectives may differ
+              while separated; communication forces agreement. This is the checkable content of
+              “global consistency.” In the monist reading it is also grounded: apertures of one
+              totality cannot disagree where they meet.
             </p>
 
             <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-              Facts are relative to observers. Consistency is global.
+              Registered facts are relative to observers. Structural facts are absolute. Observers
+              who compare records agree.
             </blockquote>
 
             <p className="leading-relaxed">
@@ -261,7 +308,11 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Holos therefore aligns with relational approaches in which states are not absolute
-              properties, but facts relative to observing systems.
+              properties, but facts relative to observing systems — and with branching approaches
+              in which no possibility is erased. The operational signature is agreement: whenever
+              observers within a branch compare records, the records match. A confirmed,
+              irreconcilable record mismatch between communicating observers would falsify this
+              commitment.
             </p>
           </div>
 
@@ -278,9 +329,10 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Observer-incompatible universes may exist as valid physical structures while lacking
-              presence. Anthropic reasoning is therefore reframed as ontological filtering rather
-              than selection.
+              Observer-incompatible universes may exist as valid physical structures while never
+              being lived: with no apertures, the totality has no opening into them, and they
+              remain unlit structure. Anthropic reasoning is therefore reframed as ontological
+              filtering rather than selection.
             </p>
           </div>
 
