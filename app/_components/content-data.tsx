@@ -488,67 +488,56 @@ export const sections: ContentSection[] = [
         matter by roughly a factor of five.
       </>,
       <>
-        To further speculate, we can propose two categories of dark matter. The first is -{" "}
-        <strong>primordial dark matter</strong>, the more commonly understood diffuse, collisionless
-        - component that emerged in the early universe and provided scaffolding for galaxy
-        formation. It remains largely unchanged over time.
+        An earlier version of this thought experiment proposed that some dark matter might itself
+        be organized — “ordered dark matter,” mature systems hiding inside the dark-matter census.
+        That proposal is retired here, because the universe&apos;s own timeline rules it out.
       </>,
       <>
-        A second, purely hypothetical category can be introduced:{" "}
-        <strong>ordered dark matter</strong>. This does not refer to a new particle or a revised
-        cosmological model, but to the idea that structure without electromagnetic emission could,
-        in principle, become increasingly organized over cosmic timescales.
+        Dark matter&apos;s fingerprints are visible in the{" "}
+        <a href="https://en.wikipedia.org/wiki/Cosmic_microwave_background">
+          cosmic microwave background
+        </a>{" "}
+        — light released when the universe was 380,000 years old, before a single star had formed.
+        The pattern of ripples in that earliest light requires dark matter to have already existed,
+        already outweighing ordinary matter five to one. Life, by contrast, is a latecomer: it
+        needs stars, planets, and heavy elements forged across stellar generations — a wait of at
+        least a billion years. The scaffolding predates the builders. Cosmological dark matter
+        cannot be ancient life, and cannot have been built by it.
       </>,
       <>
-        If integration favors persistence, then the most enduring large-scale structures would be
-        those that minimize energetic leakage while remaining gravitationally bound. From our
-        perspective, such structures would appear dark, cold, and inert, even if internally complex.
-        In this speculative view, some fraction of non-luminous mass could include highly integrated
-        systems that no longer project strongly into electromagnetic space.
+        Observation agrees. When galaxy clusters collide, as in the{" "}
+        <a href="https://en.wikipedia.org/wiki/Bullet_Cluster">Bullet Cluster</a>, the dark matter
+        passes through itself without friction or pile-up — the behavior of a substance with no
+        internal organization at all. Organized systems grip, bump, and hold together; dark matter
+        demonstrably does not.
       </>,
       <>
-        This framing allows for conditional expectations. If ordered dark matter exists, we would
-        expect some dark matter structures to deviate subtly from purely collisionless behavior,
-        especially in long-lived, dynamically stable environments. Such deviations might appear as
-        persistent small-scale granularity, anisotropy, or coherence in gravitational lensing data,
-        rather than as new forces or particles.
+        What survives is the instinct behind the idea: most of what exists does not shine. Mature
+        life would belong to a different dark census — the non-luminous side of{" "}
+        <em>ordinary</em> matter. Cold, compact, built structures can emit no visible light while
+        remaining gravitationally present. Nothing in known physics forbids a universe well
+        stocked with such objects.
       </>,
       <>
-        Standard models predict smooth halo profiles, such as{" "}
-        <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
-          NFW profiles
-        </a>
-        , yet real galaxies show deviations that remain actively studied. Conventional explanations
-        include baryonic feedback, mergers, and measurement limits.
+        Thermodynamics then adds the crucial correction: such systems can hide their light, but
+        not their warmth. Anything that computes or works must shed heat, and while the heat can
+        be shaped, delayed, and diluted, its total cannot be canceled. The Teeming Dark therefore
+        makes one honest, checkable prediction: mature systems should appear as compact masses,
+        dark at every wavelength except a faint infrared glow — <strong>silent, but warm</strong>.
       </>,
       <>
-        Recent high-resolution surveys, including deep-field observations with the{" "}
-        <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">
-          James Webb Space Telescope
-        </a>
-        , have revealed small-scale structure in galactic mass distributions that is not yet fully
-        understood. The Teeming Dark does not challenge existing explanations, but asks a different
-        question. If long-lived integration leaves gravitational traces without light, what would
-        those traces look like?
-      </>,
-      <>
-        Under this thought experiment, maturity would not be measured by brightness or expansion,
-        but by gravitational texture. Older systems would appear quieter, denser, and more locally
-        structured, not because they are engineered, but because persistence favors compactness and
-        stability.
-      </>,
-      <>
-        This interpretation does not claim to resolve existing tensions in cosmology, nor does it
-        propose an alternative to standard models. However, it expands the space of interpretations
-        by questioning an implicit assumption: that non-luminous structure must also be simple or
-        inert. If this assumption is incomplete, some discrepancies may reflect limits in our
-        interpretive framework rather than errors in measurement.
+        This is not a private prediction. Astronomers already run infrared surveys hunting exactly
+        this signature — objects with more warmth than their starlight can explain — precisely
+        because waste heat is the one emission no technology can optimize away. The Teeming Dark
+        aligns itself with that search, rather than with anomalies in dark-matter maps, whose
+        deviations have viable conventional explanations.
       </>,
       <>
         As a thought experiment, the Teeming Dark reframes what “inhabited” might mean at cosmic
-        scale. A universe rich in long-lived, highly integrated systems could appear empty if our
-        instruments are tuned only to light. Silence, in this context, would not signal absence, but
-        endurance.
+        scale. A universe rich in long-lived, highly integrated systems could appear empty to
+        instruments tuned only to visible light. Silence, in this context, would not signal
+        absence but endurance — and the tell would not be a message, but warmth without
+        brightness.
       </>,
     ],
   },

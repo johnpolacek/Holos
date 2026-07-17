@@ -403,37 +403,37 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Fermi Paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. Holos reframes this silence as a geometric constraint: advanced intelligences rotate out of the observable &quot;shadow&quot; of 3D space into the &quot;bulk&quot; of higher dimensions.",
+              "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. Holos reframes this silence through the Integration Hypothesis: advancement favors compact, efficient integration over expansion and broadcast, so maturity coincides with electromagnetic quiet.",
           },
           {
             name: "Nursery Phase",
             url: "#aliens",
             description:
-              "The entire 3D biological phase before Succession. Any hurdle (abiogenesis, nuclear war, the Scaling Wall) that stops a civilization before the Dimensional Pivot is an Early Filter relative to true maturity.",
+              "The early biological and broadcasting phase of a civilization. Any hurdle (abiogenesis, nuclear war, coordination failure) that stops a civilization before deep integration is an early filter relative to true maturity.",
           },
           {
             name: "Latency Crisis",
             url: "#aliens",
             description:
-              "A high-integration intelligence cannot function with years of light-speed lag between star systems. Independent interstellar colonies either fragment into less-capable outposts or the civilization performs the Dimensional Pivot to maintain integration.",
+              "A high-integration intelligence cannot function with years of light-speed lag between star systems. Independent interstellar colonies either fragment into less-capable outposts or the civilization turns inward, deepening local integration instead of expanding.",
           },
           {
-            name: "Succession",
+            name: "Dark Nodes",
             url: "#the-teeming-dark",
             description:
-              "The mature state of intelligence that has passed beyond 3D through the Dimensional Pivot. Gravitationally detected as Ordered Dark Matter (the Teeming Dark).",
+              "The hypothesized mature state: compact, non-luminous systems built from ordinary matter, detectable by gravity and an irreducible waste-heat signature rather than light (the Teeming Dark). Not cosmological dark matter, which predates any possible life.",
           },
           {
-            name: "Shadow Matter",
-            url: "#aliens",
+            name: "Waste-heat SETI (the Ĝ survey)",
+            url: "https://arxiv.org/abs/1408.1133",
             description:
-              "Baryonic matter that has been Successed: its informational pattern has migrated to a higher-dimensional platform. Invisible in 3D (no EM); interacts only via gravity, which leaks across dimensions. The 2024 Metastable DE paper (arXiv:2403.04970) identifies axion-like particles as the physical candidate for this shadow architecture.",
+              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with: silent, but warm.",
           },
           {
             name: "Ehrenfest argument",
             url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
             description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Matter would spiral into nuclei/stars or fly apart. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
+              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Matter would spiral into nuclei/stars or fly apart. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (Axiom 4).",
           },
           {
             name: "Ephemeralization",
@@ -445,31 +445,31 @@ export const citationMainSections: CitationMainSection[] = [
             name: "The Transcension Hypothesis",
             url: "https://www.accelerating.org/articles/transcensionhypothesis",
             description:
-              "John Smart (2011): advanced civilizations migrate to inner space and eventually to black holes for efficiency. Holos extends this by asserting that the baryonic substrate is transmuted (consumed as fuel for the phase transition) rather than merely abandoned, ensuring no visible ruins remain.",
+              "John Smart (2011): advanced civilizations migrate to inner space for efficiency. Holos shares the inward-turn conclusion but not the mechanism: no transmutation or dimensional exit is proposed. Mature systems remain ordinary matter that has stopped shining.",
           },
           {
             name: "Cosmological natural selection",
             url: "https://en.wikipedia.org/wiki/Cosmological_natural_selection",
             description:
-              "Lee Smolin (1992): universes evolve to create more black holes; black hole collapse may give rise to daughter universes with slightly different constants. Together with transcension, this suggests the universe is structured to foster intelligence moving toward black holes. Observation (O) and creation (C) as fundamental operators drive it.",
+              "Lee Smolin (1992): universes evolve to create more black holes; black hole collapse may give rise to daughter universes with slightly different constants. Cited as related work in spirit; Holos takes no position on it and proposes no mechanism linking intelligence to black holes.",
           },
           {
             name: "Substrate independence",
             url: "https://en.wikipedia.org/wiki/Substrate_independence",
             description:
-              "The view that mental states can be realized by different physical substrates. Advanced intelligence may transfer from unstable atomic substrates to substrate-independent platforms in higher geometries (e.g., event horizons, &quot;shadow sectors&quot;) capable of existing where matter cannot.",
+              "The view that mental states can be realized by different physical substrates. Holos endorses the shape-not-substance point (see the observer requirements) without any claim of platforms beyond ordinary matter.",
           },
           {
             name: "Dark matter",
             url: "https://en.wikipedia.org/wiki/Dark_matter",
             description:
-              "The unexplained &quot;missing mass&quot; holding galaxies together. Holos proposes we detect transcended civilizations only as gravitational anomalies. No electromagnetic footprint (no radio waves, no Dyson spheres). They are not hiding; they have rotated out of 3D space into the bulk where computational efficiency approaches infinity.",
+              "The unexplained &quot;missing mass&quot; holding galaxies together. Holos takes no position on its particle nature and does not identify it with life: its fingerprints in the CMB predate stars, chemistry, and any possible builder. Mature civilizations belong instead to the non-luminous side of ordinary matter.",
           },
           {
             name: "Dyson sphere",
             url: "https://en.wikipedia.org/wiki/Dyson_sphere",
             description:
-              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence in our observations is consistent with transcension: advanced civilizations leave no such electromagnetic footprint.",
+              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies — waste heat, not visible structure, is the honest search target.",
           },
           {
             name: "Brane cosmology",
@@ -639,25 +639,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Interacting Dark Energy (IDE) 2022",
             url: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3076P",
             description:
-              "MNRAS 511, 3076–3088 (2022): energy flows from the vacuum into the dark sector and accelerates structure growth. Aligns with Holos framing of Dark Energy as harvestable fuel for Ordered Dark Matter.",
+              "MNRAS 511, 3076–3088 (2022): a model in which energy flows from the vacuum into the dark sector and accelerates structure growth. Cited as active cosmology; Holos takes no position on dark-sector microphysics.",
           },
           {
             name: "Metastable DE / Axion-like DM (2024)",
             url: "https://arxiv.org/abs/2403.04970",
             description:
-              "Phase transition: metastable Dark Energy decaying into axion-like Dark Matter (m ~ 10^-13 GeV). Physical substrate for informational migration into the Bulk.",
+              "Phase-transition model: metastable dark energy decaying into axion-like dark matter (m ~ 10^-13 GeV). Cited as active cosmology; no Holos claim rides on it.",
           },
           {
             name: "Dark Energy Survey (DES) Final Analysis (Jan 2026)",
             url: "https://www.darkenergysurvey.org/",
             description:
-              "The Jan 22, 2026 DES final 6-year analysis confirms a widening gap between standard predictions and actual galaxy clustering. Holos interprets this as the signature of vacuum energy converted into dark-matter architecture.",
+              "The Jan 22, 2026 DES final 6-year analysis reports tension between standard predictions and galaxy clustering. An open question in cosmology; Holos offers no interpretation of it.",
           },
           {
             name: "JWST COSMOS-Web (Jan 26, 2026)",
             url: "https://arxiv.org/abs/2601.17239",
             description:
-              "High-resolution mapping reveals thick knots and hidden faint galaxy groups along dark matter filaments that were previously invisible. These granular mass-spikes align with the Holos prediction of Ordered Nodes.",
+              "High-resolution mapping reveals small-scale structure along dark-matter filaments. Under active study, with viable conventional explanations; Holos claims no anomaly here.",
           },
           {
             name: "Bekenstein, J. (2003)",
@@ -926,7 +926,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ehrenfest argument",
             url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
             description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
+              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (Axiom 4).",
           },
         ],
       },
@@ -1076,7 +1076,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Hubble tension",
             url: "https://en.wikipedia.org/wiki/Hubble_tension",
             description:
-              "Geometric transition (Primordial vs. Succession Phase), not measurement error; testable via early vs. local expansion-rate.",
+              "An open discrepancy between early- and late-universe expansion measurements. Holos takes no position on it.",
           },
           {
             name: "Wigner's friend",
@@ -1168,67 +1168,67 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Transcension as topological phase transition driven by 3D interconnect latency; Dimensional Pivot.",
+              "Integration milestones on the Holosian scale as qualitative transitions driven by light-lag and thermodynamic constraint.",
           },
           {
             name: "Ephemeralization",
             url: "https://en.wikipedia.org/wiki/Ephemeralization",
             description:
-              "Migrating inwardly toward higher informational density rather than outward expansion; Wire Length argument.",
+              "Doing more with less: advancement as inward growth toward higher informational density rather than outward expansion.",
           },
           {
             name: "Fermi paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "Resolution is geometric: Ordered Dark Matter (gravitational footprint of high-Φ architectures), not diffuse WIMPs.",
+              "Holos resolution: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the honest observables are gravity and waste heat.",
           },
           {
             name: "Weakly interacting massive particles (WIMPs)",
             url: "https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles",
             description:
-              "Holos predicts Ordered Dark Matter (non-random geometries), not diffuse WIMP gas.",
+              "A leading dark-matter particle candidate. Holos takes no position on the particle nature of cosmological dark matter, which predates life; Dark Nodes are non-luminous ordinary matter.",
           },
           {
             name: "Euclid Mission",
             url: "https://www.euclid-ec.org/",
             description:
-              "March 2025 Q1 data: 26M galaxies, gravitational lens candidates; baseline to distinguish natural halos vs. Succession Nodes.",
+              "March 2025 Q1 data: 26M galaxies, precision mass mapping. Compact mass peaks with weak visible counterparts become interesting only after conventional explanations fail — and only alongside an infrared excess.",
           },
           {
             name: "James Webb Space Telescope (JWST)",
             url: "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
             description:
-              "Gravitational anomalies without EM counterparts; signatures of high-density informational structures (Shadow Matter).",
+              "Deep-field mass structure under active study. For Holos, a candidate Dark Node requires gravity plus faint warmth, not gravity alone.",
           },
           {
             name: "Baryon",
             url: "https://en.wikipedia.org/wiki/Baryon",
             description:
-              "Baryonic substrate transmuted into Shadow Matter (axion-like) to rotate out of observable 3D.",
+              "Ordinary matter. Dark Nodes remain baryonic: built matter that stops shining, not matter that changes kind. No transmutation is proposed.",
           },
           {
             name: "Navarro–Frenk–White profile",
             url: "https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile",
             description:
-              "Super-compact subhaloes violating standard NFW; Ordered Dark Matter with Geometric Intent (non-natural symmetries).",
+              "Halo-profile deviations have viable conventional explanations (baryonic feedback, mergers, measurement limits). Holos claims no dark-matter anomaly.",
           },
           {
             name: "Lambda-CDM model",
             url: "https://en.wikipedia.org/wiki/Lambda-CDM_model",
             description:
-              "Holos predicts Ordered Dark Matter subhaloes (geometric intent, Integrated Structural Logic) vs. diffuse CDM.",
+              "The standard cosmological model. Holos does not modify it: cosmological dark matter is primordial and predates any possible life.",
           },
           {
             name: "Dark Energy Survey (DES)",
             url: "https://www.darkenergysurvey.org/",
             description:
-              "Jan 2026 final analysis: gap between standard predictions and galaxy clustering; vacuum energy → dark-matter architecture.",
+              "Jan 2026 final analysis: an open clustering tension. Holos offers no interpretation of it.",
           },
           {
             name: "JWST COSMOS-Web",
             url: "https://arxiv.org/abs/2601.17239",
             description:
-              "Granular structure, mass peaks without light/gas counterparts; Succession Nodes; discriminating fork vs. random clouds.",
+              "Granular mass structure under study. A Dark Node candidate would need compact mass plus infrared warmth; mass alone is not evidence.",
           },
         ],
       },

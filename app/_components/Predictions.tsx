@@ -758,8 +758,8 @@ export default function Predictions() {
                 <h4 className="text-lg font-medium text-black/90">H4: Deep Integration</h4>
                 <p className="leading-relaxed">
                   The civilization operates like a single high-coherence system with minimal waste
-                  and minimal leakage. External visibility collapses. What remains detectable, if
-                  anything, is likely gravitational.
+                  and minimal leakage. External visibility collapses. What remains detectable is
+                  gravitational — and thermal: the waste heat no optimization can eliminate.
                 </p>
               </div>
 
@@ -775,7 +775,8 @@ export default function Predictions() {
 
             <p className="leading-relaxed text-black/70 text-sm">
               This scale is intentionally “quiet.” If it is even partly right, the most advanced
-              civilizations get harder to see, not easier.
+              civilizations get harder to see in light, not easier — though thermodynamics
+              guarantees they never become invisible in heat.
             </p>
           </div>
 
@@ -792,6 +793,12 @@ export default function Predictions() {
               On the Holosian Scale, this is the natural signature of H3–H4: rising capability with
               increasingly optimized and less obvious radiative signatures.
             </p>
+            <p className="leading-relaxed">
+              One caveat is non-negotiable: visibility collapse applies to light, not heat. A
+              civilization can compress, encrypt, and minimize — but anything that computes must
+              shed waste heat, and the total cannot be canceled. Mature systems become silent, not
+              cold.
+            </p>
           </div>
 
           {/* 2) Observational Regime */}
@@ -800,29 +807,35 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               If a civilization is H4-level integrated, the most likely remaining footprint isn't
-              radio or lasers. It's gravity. Holos uses <strong>Dark Matter Node</strong> as a
+              radio or lasers. It's gravity and heat. Holos uses <strong>Dark Node</strong> as a
               phenomenological label for what these systems look like from the outside: compact,
-              ordered mass structures that minimize obvious emissions while still exporting waste heat, and staying
-              gravitationally coupled to the universe.
+              ordered mass structures that minimize obvious emissions while still exporting waste
+              heat, and staying gravitationally coupled to the universe.
             </p>
 
             <p className="leading-relaxed">
               In this regime, you would look for persistent compactness, non-random organization,
-              and mass peaks with weak or absent baryonic counterparts — detectable through{" "}
+              and mass concentrations that are dark in visible light but carry a faint infrared
+              excess — detectable through{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Gravitational_lensing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 gravitational lensing
-              </a>{" "}
-              and precision mass mapping rather than emissions.
+              </a>
+              , precision mass mapping, and waste-heat surveys rather than radio searches.
+              Infrared searches for exactly this signature already exist; the honest search
+              channel is warmth plus weight, not messages.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
-              Holos does not claim any known anomaly is a node. It claims only that if long-term
-              integration leaves a gravitational footprint, this is the regime where it would show
-              up.
+              A Dark Node is <em>not</em> dark matter in the cosmologist&apos;s sense: cosmological
+              dark matter predates stars, chemistry, and any possible builder, and shows no
+              internal organization in cluster collisions. Nodes are ordinary matter that has
+              stopped shining. Holos does not claim any known anomaly is a node — only that if
+              long-term integration leaves a footprint, it is gravitational and thermal, and this
+              is where it would show up.
             </p>
           </div>
 
@@ -877,9 +890,13 @@ export default function Predictions() {
               <ul className="flex flex-col gap-2 pl-6 list-disc">
                 <li className="leading-relaxed">Extreme energy density per unit volume</li>
                 <li className="leading-relaxed">Controlled accretion or fusion feed systems</li>
-                <li className="leading-relaxed">Directional, low-temperature, or time-buffered waste heat emission</li>
                 <li className="leading-relaxed">
-                  Gravitationally compact, with emissions shaped to be hard to distinguish from natural backgrounds
+                  Waste heat shaped, delayed, and diluted — but never eliminated. The total thermal
+                  output is set by physics, not engineering
+                </li>
+                <li className="leading-relaxed">
+                  Gravitationally compact and dark in visible light, with an irreducible infrared
+                  signature
                 </li>
               </ul>
 
@@ -918,7 +935,7 @@ export default function Predictions() {
               </ul>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Note:</strong> The Kernel may <em>present</em> as a Dark Matter Node if
+                <strong>Note:</strong> The Kernel may <em>present</em> as a Dark Node if
                 coherence optimization suppresses radiative visibility. Node describes appearance,
                 not purpose.
               </p>
@@ -960,7 +977,7 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Note:</strong> The Vault may also <em>present</em> as a Dark Matter Node if
+                <strong>Note:</strong> The Vault may also <em>present</em> as a Dark Node if
                 its stability strategy drives it to become cold, compact, and electromagnetically
                 quiet.
               </p>
