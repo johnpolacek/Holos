@@ -59,10 +59,8 @@ export const sections: ContentSection[] = [
           Participatory Anthropic Principle
         </a>
         suggests the universe is a “self-excited circuit” that requires observers to bring its laws
-        into existence. <a href="https://en.wikipedia.org/wiki/Biocentrism_(ethics)">Biocentrism</a>
-        , more controversially, argues that life is not a byproduct of the universe but a central
-        organizing feature. Holos does not claim biology causes the universe, but while observers do
-        not cause the universe, without them, there is no reality to speak of, only structure.
+        into existence. Holos does not claim biology causes the universe, but while observers do not
+        cause the universe, without them, there is no reality to speak of, only structure.
       </>,
       <>
         This participation is not bound by linear time. In an{" "}

@@ -109,12 +109,6 @@ export const citationMainSections: CitationMainSection[] = [
               'The universe, as a condition of its existence, must be observed. As a "self-excited circuit", the universe requires one or more observers to bring its laws into existence.',
           },
           {
-            name: "Biocentrism",
-            url: "https://en.wikipedia.org/wiki/Biocentrism_(ethics)",
-            description:
-              "The philosophical perspective that biology is not a byproduct of the universe, but the force that organizes it. Life and consciousness are central to understanding the nature of reality.",
-          },
-          {
             name: "Von Neumann-Wigner Interpretation",
             url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
             description:
