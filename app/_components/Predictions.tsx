@@ -47,8 +47,8 @@ export default function Predictions() {
               quantum foundations, and cosmology if those commitments are right.
             </li>
             <li className="leading-relaxed">
-              <strong>Experimentation:</strong> concrete places where Holos is vulnerable with
-              specific empirical tests that could support or undermine its claims.
+              <strong>Testability and its limits:</strong> an honest account of what cannot be
+              tested — presence itself — and the two structural predictions that can genuinely fail.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> bold but disciplined extensions that <em>could</em>{" "}
@@ -365,10 +365,10 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* 3) Experimentation */}
+      {/* 3) Testability and its limits */}
       <section id="experimentation" className="flex flex-col gap-4">
         <h2 className="text-2xl sm:text-3xl font-light">
-          Experimentation
+          Testability and Its Limits
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -377,21 +377,38 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos does not propose new dynamics. Its claims are ontological. Even so, those claims
-            impose constraints on what patterns of observation should and should not be found.
+            Holos must be honest about what it cannot test. Its central claim is that observation is
+            a closure condition, not a force: it changes no equation and moves nothing. But every
+            experiment is a physical measurement, and an instrument only ever registers physical
+            change. So <strong>presence itself cannot be detected directly</strong>. An instrument
+            that finds nothing extra is exactly what Holos predicts, because there is nothing extra
+            to find — presence is what the physics is like from the inside, not an additional signal
+            beside it.
           </p>
 
           <p className="leading-relaxed">
-            This section identifies experimental contexts where those constraints are exposed. The
-            goal is not confirmation, but vulnerability.
+            This is not a gap Holos has failed to close. It follows from the framework&apos;s own
+            commitment that observation is dynamically inert. The sharpened form of the objection is
+            the <em>unfolding argument</em>: for any conscious system one can in principle describe a
+            behaviorally identical twin wired differently, and no external test could separate them.
+            Holos accepts this rather than evading it. The metaphysical core — presence, and the
+            totality it belongs to — is not empirically decidable, and the framework says so plainly.
+          </p>
+
+          <p className="leading-relaxed">
+            What remains testable is not presence but its <strong>structural preconditions</strong>:
+            claims about what observation requires, and how registered facts behave. These live in
+            the physical world and can genuinely fail. Two are worth stating, each with an explicit
+            way for Holos to lose. A prediction Holos shares with rival theories cannot single it
+            out, but a shared prediction it could fail is still worth more than one it cannot.
           </p>
         </div>
       </section>
 
-      {/* Experiment 1 */}
+      {/* Test A */}
       <section id="experiment-1" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          Experiment 1: Integration Thresholds and Observer Emergence
+          Test A: Consciousness tracks integration, not behavior
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -400,29 +417,39 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos claims that observerhood is a threshold phenomenon. Below a critical level of
-            integration, physical processing occurs without lived presence. Above it, unified
-            experience is unavoidable.
+            Everyday practice assumes a responsive system is conscious and an unresponsive one is
+            not. Holos makes a sharper, riskier claim: what matters is <em>integration</em>, and
+            integration can come apart from outward behavior. When the two diverge, Holos bets that
+            experience follows integration.
           </p>
 
           <p className="leading-relaxed">
-            This experiment tests whether transitions between conscious and unconscious states
-            exhibit discrete, state-like behavior rather than smooth degradation.
+            The bet is losable because the dissociations already exist. People under{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Ketamine"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ketamine
+            </a>
+            , in REM dreaming, or in certain seizures are behaviorally unresponsive yet later report
+            vivid experience; sleepwalkers and some automatisms are responsive yet report little or
+            nothing. These are natural experiments that pull integration apart from responsiveness.
           </p>
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Objective</h4>
             <p className="leading-relaxed">
-              Determine whether loss and recovery of conscious access correspond to a sharp
-              transition in large-scale neural integration, consistent with an observer threshold{" "}
-              <MathInline>{"Φ ≥ Φ_c"}</MathInline>.
+              Across states where responsiveness and integration diverge, determine whether later
+              reported experience tracks a measure of integration or tracks behavioral
+              responsiveness and arousal.
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Method</h4>
             <p className="leading-relaxed">
-              Measure integration proxies such as the{" "}
+              Combine no-report and post-hoc-report paradigms with integration proxies such as the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
@@ -430,31 +457,36 @@ export default function Predictions() {
               >
                 Perturbational Complexity Index
               </a>{" "}
-              during controlled transitions between wakefulness, anesthesia, and recovery in human
-              subjects.
+              across wakefulness, anesthesia, sleep stages, and dissociative states, treating
+              behavioral responsiveness and integration as separately varying factors rather than
+              proxies for each other.
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Holos Prediction</h4>
             <p className="leading-relaxed">
-              Integration measures will exhibit a nonlinear drop near a consistent transition
-              region, indicating loss of unified internal registration rather than gradual signal
-              decay.
+              Where they diverge, reported presence follows integration:
+              high-integration/low-responsiveness states are experienced; low-integration/
+              high-responsiveness states are not.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-black/90 mb-1">Alternative Outcome</h4>
+            <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
-              If integration decreases smoothly with no identifiable transition region, this would
-              weaken the claim that observerhood is thresholded rather than continuous.
+              If reported experience tracks behavioral responsiveness or raw arousal rather than
+              integration — if high-integration, unresponsive states turn out to be reliably
+              experience-free — the framework&apos;s core structural claim is undermined.
             </p>
           </div>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            <strong>Tests:</strong> Commitment 1 (presence depends on observers) and Commitment 2
-            (observerhood is thresholded).
+            <strong>What this can and cannot show:</strong> this tests a necessary structural
+            condition, not presence itself. It cannot prove an integrated system <em>is</em> an
+            observer, only whether integration is what experience depends on. Holos shares this
+            prediction with other integration-based accounts of consciousness; it is a test Holos
+            could fail, not a signature unique to Holos.
           </p>
         </div>
       </section>
@@ -462,7 +494,7 @@ export default function Predictions() {
       {/* Experiment 2 */}
       <section id="experiment-2" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          Experiment 2: Observer-Cut Sensitivity in Relational Systems
+          Test B: Observer-relative facts
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -471,14 +503,32 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos claims that facts are instantiated through ontological registration and are
-            therefore relative to observers. No observer cut is ontologically privileged.
+            This is the one genuinely physical test — it lives in quantum foundations, not in the
+            theory of mind. Holos claims that facts are instantiated through registration and are
+            therefore relative to observers, with no observer cut ontologically privileged. That is
+            a claim about the physical world, and it can be probed.
           </p>
 
           <p className="leading-relaxed">
-            This experiment probes whether different stable partitions of the same physical system
-            can yield distinct, internally consistent outcome structures that cannot all be
-            maintained as simultaneously single-valued facts.
+            Extended{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Wigner%27s_friend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Wigner&apos;s-friend
+            </a>{" "}
+            experiments already pursue exactly this question. The 2020 <em>Local Friendliness</em>{" "}
+            no-go theorem and its photonic tests show that if an in-lab observation counts as a
+            genuine fact, then absoluteness of observed events, locality, and freedom of choice
+            cannot all hold together. Holos gives up the absoluteness of observed events: registered
+            facts are observer-relative, while structural facts and consistency remain intact.
+          </p>
+
+          <p className="leading-relaxed">
+            The experiment below is a laboratory analog: it probes whether different stable
+            partitions of the same physical system can yield distinct, internally consistent outcome
+            structures that cannot all be maintained as simultaneously single-valued facts.
           </p>
 
           <div>
@@ -534,16 +584,26 @@ export default function Predictions() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-black/90 mb-1">Alternative Outcome</h4>
+            <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
-              If all observer cuts reduce cleanly to a single underlying description without
-              tension, this would weaken the claim that observer partitions are ontologically
-              constitutive.
+              If all observer cuts reduce cleanly to a single underlying, observer-independent
+              description without tension — or if extended Wigner&apos;s-friend tests decisively
+              restore the absoluteness of observed events — Commitment 3 is undermined.
             </p>
           </div>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            <strong>Tests:</strong> Commitment 3 (facts are relational but consistent).
+            <strong>What this can and cannot show:</strong> tests Commitment 3 (facts are relational
+            but consistent). This is a physical test with real failure conditions, but Holos shares
+            its relational prediction with{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Relational Quantum Mechanics
+            </a>
+            ; a positive result supports the family, not Holos alone.
           </p>
         </div>
 
@@ -579,10 +639,10 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* Experiment 3 */}
+      {/* A note on the integration correlates */}
       <section id="experiment-3" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          Experiment 3: The Minimal Observer Boundary
+          A note on the integration correlates
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -591,73 +651,28 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos proposes that observerhood appears when informational integration crosses a
-            structural threshold that allows a system to form a unified internal perspective. If
-            this claim is correct, then there should exist a lower boundary where systems
-            transition from distributed processing to unified internal registration.
+            Earlier versions of this page proposed two further experiments as confirmations: a sharp
+            integration drop under anesthesia, and cultured neural networks snapping into coherence
+            as connectivity grows. Both are retired here as tests, and it is worth being explicit
+            about why — the reasoning is a useful guard against self-deception.
           </p>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">Objective</h4>
-            <p className="leading-relaxed">
-              Identify whether minimal biological neural systems interacting with an environment can
-              approach or cross the integration threshold associated with observerhood.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">System</h4>
-            <p className="leading-relaxed">
-              Cultured neural networks grown on multi-electrode arrays or silicon substrates capable
-              of bidirectional interaction with a digital environment.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <h4 className="font-semibold text-black/90 mb-1">Method</h4>
-            <p className="leading-relaxed">
-              Establish a closed feedback loop between the neural network and a simulated
-              environment. Neural activity influences the environment through control signals, while
-              sensory input from the environment is returned to the network through electrical
-              stimulation.
-            </p>
-            <p className="leading-relaxed">
-              Gradually increase system complexity and integration by modifying network size,
-              connectivity density, feedback richness, and environmental coupling. During
-              operation, measure integration metrics including information-theoretic integration,
-              functional connectivity structure, and network-wide synchronization patterns.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">Holos Prediction</h4>
-            <p className="leading-relaxed">
-              There exists a regime in which increases in connectivity and feedback coupling
-              produce a nonlinear transition from distributed neural activity to coherent
-              system-level dynamics. At this boundary the network begins to behave as a unified
-              adaptive system rather than as loosely coupled components.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">Alternative Outcome</h4>
-            <p className="leading-relaxed">
-              If coherent adaptive behavior emerges without any identifiable integration
-              transition, this would weaken the claim that observerhood depends on a threshold in
-              informational integration.
-            </p>
-          </div>
 
           <p className="leading-relaxed">
-            This experiment does not assume that such systems are conscious. Its purpose is to
-            investigate whether a measurable boundary exists between distributed biological
-            computation and unified system-level processing.
+            A sharp transition at loss of consciousness is predicted by ordinary physicalist models
+            too — bifurcations, ignition, up/down states — so observing one confirms nothing
+            specific to Holos. And a cultured network almost <em>always</em> shows some nonlinear
+            transition — synchronization, criticality, avalanches are routine dish behavior — so an
+            experiment that counts any such transition as success cannot fail, and an experiment
+            that cannot fail proves nothing when it passes.
           </p>
 
-          <p className="leading-relaxed text-black/70 text-sm">
-            <strong>Tests:</strong> Commitment 2 (observerhood is thresholded) and the structural
-            claim that sufficiently integrated feedback systems may form the minimal substrate
-            capable of hosting an internal perspective.
+          <p className="leading-relaxed">
+            These remain useful only as <strong>correlate probes</strong> feeding Test A, and only
+            under two conditions: the integration measure and the threshold value are fixed in
+            advance, and there is a stated way to lose — the observed transition tracks a
+            non-integration variable (arousal, metabolic rate, raw activity) rather than integration.
+            Without a pre-committed measure and a real failure condition, a transition &quot;somewhere&quot;
+            is not evidence; it is decoration.
           </p>
         </div>
       </section>

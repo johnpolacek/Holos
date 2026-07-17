@@ -1069,7 +1069,7 @@ export const citationMainSections: CitationMainSection[] = [
       {
         number: 27,
         id: "experimentation",
-        title: "Experimentation",
+        title: "Testability and Its Limits",
         canonicalLink: "/predictions#experimentation",
         items: [
           {

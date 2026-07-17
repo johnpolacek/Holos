@@ -44,9 +44,9 @@ export const predictionsSubsections: Subsection[] = [
   { id: "prediction-introduction", title: "Introduction" },
   { id: "commitments", title: "Commitments" },
   { id: "expectations", title: "Expectations" },
-  { id: "experimentation", title: "Experimentation" },
-  { id: "experiment-1", title: "Experiment 1" },
-  { id: "experiment-2", title: "Experiment 2" },
+  { id: "experimentation", title: "Testability & Its Limits" },
+  { id: "experiment-1", title: "Test A: Integration vs. Behavior" },
+  { id: "experiment-2", title: "Test B: Observer-Relative Facts" },
   { id: "speculation", title: "Speculation" },
   { id: "technology", title: "Technology" },
 ];
