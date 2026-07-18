@@ -3,6 +3,7 @@
 import gsap from "gsap";
 import { Earth, Radio } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { seededRandom } from "@/lib/seeded-random";
 
 interface TeemingDarkAnimationProps {
   isPDF?: boolean;
@@ -154,7 +155,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
             <strong>The Switch:</strong> We were listening for the wrong signal
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Dark Nodes:</strong> Compact, non-luminous structures — gravitationally present, dark in visible light, faintly warm in the infrared.
+            <strong>Dark Nodes:</strong> Compact, non-luminous structures: gravitationally present, dark in visible light, faintly warm in the infrared.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             The silence is not empty. It is the Teeming Dark.
@@ -165,11 +166,13 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
   }
 
   // Generate random starfield positions (light gray dots)
+  // Seeded so server and client render the same coordinates
+  const rand = seededRandom(0x57a4f1e1);
   const stars = Array.from({ length: 100 }, () => ({
-    cx: 20 + Math.random() * 520,
-    cy: 15 + Math.random() * 220,
-    r: 0.8 + Math.random() * 1.2,
-    opacity: 0.2 + Math.random() * 0.35,
+    cx: 20 + rand() * 520,
+    cy: 15 + rand() * 220,
+    r: 0.8 + rand() * 1.2,
+    opacity: 0.2 + rand() * 0.35,
   }));
 
   return (

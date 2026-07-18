@@ -591,7 +591,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           fontFamily="monospace"
           opacity="0"
         >
-          Creation (C) — manifold of possibilities
+          Creation (C): manifold of possibilities
         </text>
         <text
           id="observation-label"
@@ -603,7 +603,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           fontFamily="monospace"
           opacity="0"
         >
-          Observation (O) — selection
+          Observation (O): selection
         </text>
 
         {/* Phi symbol - plain, no effects */}

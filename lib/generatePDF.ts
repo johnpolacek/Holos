@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import puppeteerCore from "puppeteer-core";
 import chromium from "@sparticuz/chromium";
 import { PDFDocument } from "pdf-lib";
@@ -5,6 +6,28 @@ import { PDFDocument } from "pdf-lib";
 
 // Check if we're running in a serverless environment (Vercel, AWS Lambda, etc.)
 const isServerless = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME;
+
+// Puppeteer's bundled Chrome is not always installed locally (it requires a
+// separate `npx puppeteer browsers install chrome` step). Rather than fail,
+// fall back to a Chrome already present on the system.
+const SYSTEM_CHROME_PATHS = [
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "/Applications/Chromium.app/Contents/MacOS/Chromium",
+  "/usr/bin/google-chrome",
+  "/usr/bin/google-chrome-stable",
+  "/usr/bin/chromium",
+  "/usr/bin/chromium-browser",
+];
+
+// Returns undefined when nothing is found, letting Puppeteer resolve its own
+// bundled browser as before.
+function resolveLocalChrome(): string | undefined {
+  const configured = process.env.PUPPETEER_EXECUTABLE_PATH;
+  if (configured) {
+    return configured;
+  }
+  return SYSTEM_CHROME_PATHS.find((path) => existsSync(path));
+}
 
 // For local development, try to use regular puppeteer (better performance)
 // For serverless, use puppeteer-core with chromium
@@ -231,7 +254,7 @@ export async function generatePDF(html: string): Promise<Buffer> {
     defaultViewport: isServerless
       ? { width: 1920, height: 1080, deviceScaleFactor: 1 }
       : undefined,
-    executablePath: isServerless ? await chromium.executablePath() : undefined,
+    executablePath: isServerless ? await chromium.executablePath() : resolveLocalChrome(),
     headless: isServerless ? "shell" : true,
   });
 

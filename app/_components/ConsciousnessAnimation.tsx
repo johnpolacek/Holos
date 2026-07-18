@@ -2,6 +2,7 @@
 
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
+import { seededRandom } from "@/lib/seeded-random";
 
 interface ConsciousnessAnimationProps {
   isPDF?: boolean;
@@ -301,12 +302,15 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
     };
   }, [isPDF, prefersReducedMotion]);
 
+  // Seeded so server and client render the same coordinates
+  const rand = seededRandom(0xc047c105);
+
   // Generate sea of circles
   const seaCircles: Array<{ x: number; y: number; r: number; key: string }> = [];
   for (let i = 0; i < 40; i++) {
-    const x = 50 + Math.random() * 460;
-    const y = 60 + Math.random() * 180;
-    const r = 4 + Math.random() * 6;
+    const x = 50 + rand() * 460;
+    const y = 60 + rand() * 180;
+    const r = 4 + rand() * 6;
     seaCircles.push({ x, y, r, key: `sea-${i}` });
   }
 
@@ -317,7 +321,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
     [];
   for (let i = 0; i < 8; i++) {
     const angle = (i / 8) * Math.PI * 2;
-    const radius = 35 + Math.random() * 20;
+    const radius = 35 + rand() * 20;
     const x = centerX + Math.cos(angle) * radius;
     const y = centerY + Math.sin(angle) * radius;
     clusterCircles.push({ x, y, origX: x, origY: y, key: `cluster-${i}` });

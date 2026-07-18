@@ -473,7 +473,7 @@ export default function IntegrationHypothesisAnimation({
         integration exceeds a threshold (Φ ≥ Φc), the system contracts into a compact core with
         suppressed emissions. Only rare directional beams appear. Finally, the electromagnetic
         signature fades, leaving only gravitational structure visible as warped grid lines and
-        lensing arcs. The civilization did not disappear—it became quiet.
+        lensing arcs. The civilization did not disappear; it became quiet.
       </figcaption>
       <svg
         ref={svgRef}

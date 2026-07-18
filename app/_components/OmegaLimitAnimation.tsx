@@ -200,16 +200,16 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 1:</strong> Φ approaches infinity — informational integration increases.
+            <strong>Phase 1:</strong> Φ approaches infinity: informational integration increases.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 2:</strong> Three attributes emerge — Omniscience, Omnipotence, Omnipresence.
+            <strong>Phase 2:</strong> Three attributes emerge: Omniscience, Omnipotence, Omnipresence.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 3:</strong> Two perspectives — "God / Brahman / Ω" vs "Self-Organizing Universe"
+            <strong>Phase 3:</strong> Two perspectives: "God / Brahman / Ω" vs "Self-Organizing Universe"
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 4:</strong> Unity — One totality, experienced through every aperture.
+            <strong>Phase 4:</strong> Unity: One totality, experienced through every aperture.
           </p>
         </div>
       </div>

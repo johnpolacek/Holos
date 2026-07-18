@@ -2,6 +2,7 @@
 
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
+import { seededRandom } from "@/lib/seeded-random";
 
 interface BlockUniverseAnimationProps {
   isPDF?: boolean;
@@ -205,9 +206,12 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
   const blockBottom = 180;
   const lineSpacing = 25;
 
+  // Seeded so server and client render the same coordinates
+  const rand = seededRandom(0x51ce7a11);
+
   for (let x = blockLeft + 20; x < blockRight - 60; x += lineSpacing) {
-    const height = 15 + Math.random() * 25;
-    const y1 = blockTop + 10 + Math.random() * 10;
+    const height = 15 + rand() * 25;
+    const y1 = blockTop + 10 + rand() * 10;
     const y2 = y1 + height;
     linePositions.push({ x, y1, y2 });
   }
@@ -215,8 +219,8 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
   // Generate ghost/solid point positions
   const pointPositions = [];
   for (let i = 0; i < 30; i++) {
-    const x = blockLeft + 30 + Math.random() * (blockRight - blockLeft - 100);
-    const y = blockTop + 15 + Math.random() * (blockBottom - blockTop - 30);
+    const x = blockLeft + 30 + rand() * (blockRight - blockLeft - 100);
+    const y = blockTop + 15 + rand() * (blockBottom - blockTop - 30);
     pointPositions.push({ x, y });
   }
 
@@ -264,7 +268,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         shows the same block in solid form once the observer (Φ) it contains is highlighted. The
         crossfade is simultaneous across the whole block: nothing travels backward and nothing
         changes within the block. The two styles compare two descriptions of the same tenseless
-        structure — physical structure alone, and structure realized as experienced history because
+        structure: physical structure alone, and structure realized as experienced history because
         it contains registration. Realization is a global constraint, not a process in time.
       </figcaption>
       <svg

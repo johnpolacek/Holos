@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/citations`,
   },
   openGraph: {
-    title: "Citations — Holos (⊛)",
+    title: "Citations – Holos (⊛)",
     description: "Citations and references for the Holos interpretive framework.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/citations`,
     siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",

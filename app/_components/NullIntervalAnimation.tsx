@@ -47,11 +47,9 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
     const particle = svg.querySelector("#particle") as SVGCircleElement;
     const particlePath = svg.querySelector("#particle-path") as SVGPathElement;
     const seam = svg.querySelector("#seam") as SVGLineElement;
-    const pinchLines = svg.querySelectorAll(".pinch-line") as NodeListOf<SVGLineElement>;
     const lowerDimLabel = svg.querySelector("#lower-dim-label") as SVGTextElement;
     const higherDimLabel = svg.querySelector("#higher-dim-label") as SVGTextElement;
     const nullIntervalLabel = svg.querySelector("#null-interval-label") as SVGTextElement;
-    const seamGlow = svg.querySelector("#seam-glow") as SVGLineElement;
 
     // Point positions
     const pointAX = 100;
@@ -66,8 +64,6 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
     gsap.set(particle, { opacity: 0, cx: pointAX, cy: pointAY });
     gsap.set(particlePath, { opacity: 0, strokeDashoffset: 500 });
     gsap.set(seam, { opacity: 0, attr: { x1: pointAX, y1: pointAY, x2: pointAX, y2: pointAY } });
-    gsap.set(seamGlow, { opacity: 0 });
-    gsap.set(pinchLines, { opacity: 0 });
     gsap.set([lowerDimLabel, higherDimLabel, nullIntervalLabel], { opacity: 0 });
 
     // Store original grid positions for pinch effect
@@ -394,7 +390,7 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
         moving through time, but as a static geometric structure that connects two points in
         spacetime like a seam. In our lower-dimensional perception, we see a particle traveling from
         emission (Point A) to absorption (Point B). From a higher-dimensional perspective, these two
-        events are connected by a null geodesic—a permanent seam where the spacetime distance is
+        events are connected by a null geodesic, a permanent seam where the spacetime distance is
         zero. The grid pinches toward this seam, illustrating how distance collapses for photons.
       </figcaption>
       <svg

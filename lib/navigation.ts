@@ -38,6 +38,7 @@ export const logicSubsections: Subsection[] = [
   { id: "relationship-to-physics", title: "Physics" },
   { id: "mathematical-formalism", title: "Math" },
   { id: "extrapolative-proposition", title: "Extrapolation" },
+  { id: "open-problems", title: "Open Problems" },
 ];
 
 export const predictionsSubsections: Subsection[] = [
@@ -47,6 +48,7 @@ export const predictionsSubsections: Subsection[] = [
   { id: "experimentation", title: "Testability & Its Limits" },
   { id: "experiment-1", title: "Test A: Integration vs. Behavior" },
   { id: "experiment-2", title: "Test B: Observer-Relative Facts" },
+  { id: "standing-bet", title: "The Standing Bet" },
   { id: "speculation", title: "Speculation" },
   { id: "technology", title: "Technology" },
 ];

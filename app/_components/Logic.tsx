@@ -30,27 +30,27 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Closure through observation:</strong> a universe can be physically consistent
-              without being present. presence requires internal registration by an observer.
+              without being present. Presence requires internal registration by an observer.
             </li>
 
             <li className="leading-relaxed">
-              <strong>Conservation:</strong> information is not erased. it is transformed,
+              <strong>Conservation:</strong> information is not erased. It is transformed,
               redistributed, or re-encoded.
             </li>
 
             <li className="leading-relaxed">
               <strong>Integration threshold:</strong> distributed processing can scale without
-              experience. experience appears only when information is integrated into a single
+              experience. Experience appears only when information is integrated into a single
               internal perspective.
             </li>
 
             <li className="leading-relaxed">
-              <strong>The totality:</strong> the whole of reality — Omega — is fundamental and is
-              the one experiencer. every finite observer is a local aperture of it.
+              <strong>The totality:</strong> the whole of reality, Omega, is fundamental and is
+              the one experiencer. Every finite observer is a local aperture of it.
             </li>
 
             <li className="leading-relaxed">
-              <strong>Infinity as a signal:</strong> when a description produces infinities, holos
+              <strong>Infinity as a signal:</strong> when a description produces infinities, Holos
               treats that as a sign that the representation has broken down at that scale, not as a
               literal feature to accept at face value.
             </li>
@@ -83,8 +83,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) is internal
-              registration. It is when a system integrates information into a single perspective
-              that it is like something to be.
+              registration. It occurs when a system integrates information into a single
+              perspective such that there is something it is like to be that system.
             </li>
 
             <li className="leading-relaxed">
@@ -119,10 +119,10 @@ export default function Logic() {
         <p className="leading-relaxed text-black/80 mb-4">
           Holos re-positions the strongest insights of existing quantum interpretations within a
           single ontological framework. On the physics it takes a side: no collapse, no erased
-          possibilities, branching when registrations diverge — the Many-Worlds picture. Its
+          possibilities, branching when registrations diverge. That is the Many-Worlds picture. Its
           divergence from Many-Worlds is ontological: branching alone does not say which structures
-          are present as experience. The table below clarifies where Holos aligns with — and
-          diverges from — major interpretations.
+          are present as experience. The table below clarifies where Holos aligns with, and
+          diverges from, major interpretations.
         </p>
         <InterpretiveComparisonTable />
       </div>
@@ -135,7 +135,7 @@ export default function Logic() {
         <div className="flex flex-col gap-8 text-black/80">
           {/* D1 */}
           <div className="flex flex-col gap-2">
-            <div className="font-semibold text-black/90">D1 — Information</div>
+            <div className="font-semibold text-black/90">D1: Information</div>
             <p className="leading-relaxed">
               Information is the differentiation between possible states of a system. It is not a
               substance and not a thing that exists on its own. Information exists only where
@@ -145,7 +145,7 @@ export default function Logic() {
 
           {/* D2 */}
           <div className="flex flex-col gap-2">
-            <div className="font-semibold text-black/90">D2 — Relation</div>
+            <div className="font-semibold text-black/90">D2: Relation</div>
             <p className="leading-relaxed">
               A relation is a constraint that links informational states. Relations determine how
               states co-vary, influence one another, or exclude alternatives. In Holos, structure is
@@ -155,7 +155,7 @@ export default function Logic() {
 
           {/* D3 */}
           <div className="flex flex-col gap-2">
-            <div className="font-semibold text-black/90">D3 — Observation (O)</div>
+            <div className="font-semibold text-black/90">D3: Observation (O)</div>
             <p className="leading-relaxed">
               Observation is the integration of information into a single internal state. It is not
               measurement in the laboratory sense, and it is not restricted to human cognition.
@@ -169,7 +169,7 @@ export default function Logic() {
 
           {/* D4 */}
           <div className="flex flex-col gap-2">
-            <div className="font-semibold text-black/90">D4 — Consciousness</div>
+            <div className="font-semibold text-black/90">D4: Consciousness</div>
             <p className="leading-relaxed">
               Consciousness is the capacity of a system to host an integrated perspective. In
               Holos, what is fundamental is the totality&apos;s experience; a conscious system is a
@@ -184,7 +184,7 @@ export default function Logic() {
 
           {/* D5 */}
           <div className="flex flex-col gap-2">
-            <div className="font-semibold text-black/90">D5 — Creation (C)</div>
+            <div className="font-semibold text-black/90">D5: Creation (C)</div>
             <p className="leading-relaxed">
               Creation refers to the generation of physically allowed possibilities. It is the space
               of states and histories permitted by the laws of physics.
@@ -197,7 +197,7 @@ export default function Logic() {
 
           {/* D6 */}
           <div className="flex flex-col gap-2">
-            <div className="font-semibold text-black/90">D6 — Holos (⊛)</div>
+            <div className="font-semibold text-black/90">D6: Holos (⊛)</div>
             <p className="leading-relaxed">
               Holos (⊛) denotes the structured coupling of Creation and Observation. It names the
               claim that a realized world requires both lawful possibility and internal
@@ -232,7 +232,7 @@ export default function Logic() {
         <div className="flex flex-col gap-8 text-black/80">
           {/* Axiom 1 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 1 — Relationality</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 1: Relationality</h3>
             <p className="leading-relaxed">
               No informational state exists in isolation. Every state is defined by its relations to
               other states and to the constraints that bind them.
@@ -245,7 +245,7 @@ export default function Logic() {
 
           {/* Axiom 2 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 2 — Manifestation</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 2: Manifestation</h3>
             <p className="leading-relaxed">
               A purely physical description is ontologically incomplete until information is
               integrated into experience by a system capable of observation.
@@ -258,7 +258,7 @@ export default function Logic() {
 
           {/* Axiom 3 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 3 — Conservation</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 3: Conservation</h3>
             <p className="leading-relaxed">
               Information is conserved. It may be transformed, redistributed, or re-encoded, but it
               is not destroyed.
@@ -271,7 +271,7 @@ export default function Logic() {
 
           {/* Axiom 4 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 4 — Structural Constraint</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 4: Structural Constraint</h3>
             <p className="leading-relaxed">
               Finite signal speed and finite energy impose limits on how coherence can scale within
               three-dimensional space. As systems grow, coordination across distance becomes
@@ -290,7 +290,7 @@ export default function Logic() {
 
           {/* Axiom 5 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 5 — Interface</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 5: Interface</h3>
             <p className="leading-relaxed">
               Conscious experience arises through physical systems that integrate information. The
               material structure of a system shapes how experience appears without being identical
@@ -313,7 +313,7 @@ export default function Logic() {
           {/* Proposition I */}
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Proposition I — Structural Relational Realism
+              Proposition I: Structural Relational Realism
             </h3>
 
             <p className="leading-relaxed">
@@ -335,7 +335,7 @@ export default function Logic() {
           {/* Proposition II */}
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Proposition II — Participatory Manifestation
+              Proposition II: Participatory Manifestation
             </h3>
 
             <p className="leading-relaxed">
@@ -358,7 +358,7 @@ export default function Logic() {
           {/* Proposition III */}
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Proposition III — Global Consistency
+              Proposition III: Global Consistency
             </h3>
 
             <p className="leading-relaxed">
@@ -388,7 +388,7 @@ export default function Logic() {
           {/* Proposition IV */}
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Proposition IV — Dimensional Resolution
+              Proposition IV: Dimensional Resolution
             </h3>
 
             <p className="leading-relaxed">
@@ -410,7 +410,7 @@ export default function Logic() {
           {/* Proposition V */}
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Proposition V — Observers as a Closure Condition
+              Proposition V: Observers as a Closure Condition
             </h3>
 
             <p className="leading-relaxed">
@@ -465,7 +465,7 @@ export default function Logic() {
             IIT identifies Φ with consciousness itself and assigns some experience to any system
             with Φ greater than zero. Holos adopts neither claim. In this framework, Φ is a
             structural measure of integration, and the threshold{" "}
-            <MathInline>{"\\Phi_c"}</MathInline> — below which there is no experience at all — is a
+            <MathInline>{"\\Phi_c"}</MathInline>, below which there is no experience at all, is a
             commitment of Holos, not of IIT. Nothing in the framework depends on IIT&apos;s ontology
             of intrinsic existence.
           </p>
@@ -473,7 +473,7 @@ export default function Logic() {
           <p className="leading-relaxed">
             The threshold is one of the two ingredients Holos adds to the physical picture,
             alongside the totality itself. It is not a force, a field, or a modification of any
-            equation. It is a structural fact about where apertures open — a fact physics does not
+            equation. It is a structural fact about where apertures open: a fact physics does not
             currently contain, and one Holos claims openly rather than smuggling in. Because the
             fact is structural, it is determinate even when our measures are not: when two
             proposals for estimating <MathInline>{"\\Phi"}</MathInline> disagree about a borderline
@@ -508,8 +508,13 @@ export default function Logic() {
             </li>
 
             <li className="leading-relaxed">
-              <strong>Recursion:</strong> the system must model its own internal state. Without
-              self-reference, there is processing but no subject.
+              <strong>Recursion:</strong> the system&apos;s own state must inform its next state:
+              its internal condition is among the inputs shaping what it does next. Without such
+              self-reference, there is processing but no subject. This requirement is minimal by
+              design: it asks for a feedback loop, not introspection. A mouse clears it; so does
+              any nervous system whose current state conditions its own updating. Reflective
+              self-modeling (thinking <em>about</em> one&apos;s own thoughts) is a rare
+              elaboration on top of observerhood, not the price of admission to it.
             </li>
 
             <li className="leading-relaxed">
@@ -534,6 +539,22 @@ export default function Logic() {
               <strong>Sufficiency:</strong> taken together, these requirements are sufficient for
               ontological registration. Higher-order phenomena such as emotion, agency, and
               reasoning are emergent dynamics of systems that already meet these constraints.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Exclusion:</strong> the requirements alone would be satisfied by nested
+              systems at once (a hemisphere, the brain containing it, a tightly coupled pair of
+              brains), which would count the same substrate as several overlapping observers.
+              Holos provisionally adopts a maximality condition to prevent this: an aperture forms
+              only where integration reaches a <em>local maximum</em>, and neither the parts within
+              it nor the looser wholes containing it are separately apertures. One peak, one
+              perspective. This principle is borrowed from integrated-information theory as a
+              structural constraint only, without its surrounding ontology, and it is held
+              tentatively; see{" "}
+              <a href="#open-problems" className="underline hover:no-underline">
+                Open Problems
+              </a>
+              .
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -632,12 +653,12 @@ export default function Logic() {
               >
                 Born rule
               </a>{" "}
-              — squaring the quantum amplitudes — gives the right one, to every decimal place ever
+              (squaring the quantum amplitudes) gives the right one, to every decimal place ever
               tested. Any framework that keeps all branches must say where those weights live and
               why they take the form they do.
             </p>
             <p className="leading-relaxed">
-              Holos answers in two steps. First, the weights are structural facts — part of{" "}
+              Holos answers in two steps. First, the weights are structural facts, part of{" "}
               <MathInline>{"C"}</MathInline>. The possibility space is not flat: branches carry
               weights, as absolute and observer-independent as the laws themselves. And they are
               not arbitrary.{" "}
@@ -650,26 +671,32 @@ export default function Logic() {
               </a>{" "}
               (1957) shows that if probabilities are to be assigned to quantum outcomes at all,
               without contradiction across the different ways the same experiment can be carved
-              up, exactly one assignment is possible — the Born rule. The weights are what they
+              up, exactly one assignment is possible: the Born rule. The weights are what they
               are because consistency permits no alternative. This is the framework&apos;s
               recurring pattern in its strongest known form: structure forced by consistency
               alone.
             </p>
             <p className="leading-relaxed">
-              Second, the monist reading says what the weights <em>are</em>. The totality
-              experiences through every branch, but not equally: a branch&apos;s weight is its
-              share of the totality&apos;s experience. Both channels of a splitting river are
-              real; one carries more of the flow. Probability, in Holos, is not about which
-              outcomes occur — all of them do. It is the apportioning of experience across what
-              occurs, and the statistics every observer records are the shadow of that
-              apportioning. It is fitting that the one number physics uses but does not explain
-              turns out, on this reading, to be about experience.
+              Second, the monist reading offers a candidate for what the weights <em>are</em>: a
+              branch&apos;s weight as its share of the totality&apos;s experience. Both channels
+              of a splitting river are real; one simply carries more of the flow. Holos records this as a
+              conjecture, not a settled claim, because the accounting is not yet coherent.
+              Branches differ in weight, but they also differ in how many apertures they contain,
+              which gives two competing ways to apportion experience; and a high-weight branch
+              containing no apertures would hold a large &quot;share&quot; with no one home to
+              experience it. Until weight and aperture count are reconciled, the reading remains
+              suggestive rather than established. See{" "}
+              <a href="#open-problems" className="underline hover:no-underline">
+                Open Problems
+              </a>
+              .
             </p>
             <p className="leading-relaxed text-black/70 text-sm">
               This is a reading, not a derivation. Gleason&apos;s theorem has assumptions that
               remain debated, and Holos adds no new mathematics here. The claim is only that the
               Born weights sit naturally in the structural layer, and that the monist ontology
-              gives them an interpretation no observer-free picture can.
+              may yet give them an interpretation no observer-free picture can, if the
+              apportioning problem recorded in Open Problems is solved.
             </p>
           </div>
 
@@ -721,9 +748,30 @@ export default function Logic() {
             </ul>
             <p className="leading-relaxed pt-3">
               What Holos <strong>does</strong> add is exactly two things: the integration threshold{" "}
-              <MathInline>{"\\Phi_c"}</MathInline>, and the totality — Omega — as the fundamental
-              ground of experience. No new equations, no new forces — two structural claims about
+              <MathInline>{"\\Phi_c"}</MathInline>, and the totality, Omega, as the fundamental
+              ground of experience. No new equations, no new forces: two structural claims about
               what experience is and where it occurs.
+            </p>
+
+            <p className="leading-relaxed">
+              A third addition might seem to be hiding here: a bridge principle stipulating that
+              the totality registers itself through <em>integrated</em> systems specifically.
+              Why integration, rather than mass, symmetry, or complexity? Holos holds that this is
+              not a further posit but an analytic consequence of what a perspective is. A point of
+              view is unified by nature: it is one perspective, not a collection of fragments
+              adjacent to each other. Only a structure that is itself unified can constitute one.
+              Integration is not a candidate correlate selected from a field of alternatives; it
+              is the name for the structural property of being unified. The connection between
+              integration and presence is therefore definitional rather than stipulated, which is
+              why the count stays at two.
+            </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              This is a claim about what would have to be true of any host of a perspective, not a
+              derivation of experience from structure. It explains why the threshold is placed on
+              integration rather than on some other quantity; it does not explain why unified
+              structure is present at all. That question, Holos treats as the one its posits are
+              for.
             </p>
           </div>
         </div>
@@ -785,17 +833,26 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">Observation</h3>
 
             <p className="leading-relaxed">
-              Observation (<MathInline>{"O"}</MathInline>) maps a space of possibilities to a
-              realized experiential history. It represents internal registration by an integrated
-              system.
+              Observation (<MathInline>{"O"}</MathInline>) maps a space of possibilities to
+              registered experiential histories. It represents internal registration by integrated
+              systems, wherever the possibility structure contains them.
             </p>
 
-            <MathDisplay>{"O(C(S)) \\mapsto S_{\\text{exp}}"}</MathDisplay>
+            <MathDisplay>{"O(C(S)) \\mapsto \\{ S_{\\text{exp}}^{(i)} \\}"}</MathDisplay>
+
+            <p className="leading-relaxed">
+              The result is an indexed family, not a single selected outcome: one experienced
+              history per registering perspective, per branch. Observation selects nothing and
+              erases nothing (Axiom 3). Registration occurs everywhere an aperture exists, and the
+              Born weights carried by <MathInline>{"C"}</MathInline> apportion the totality&apos;s
+              experience across those registrations.
+            </p>
 
             <p className="leading-relaxed">
               This mapping is not assumed to be random, deterministic, or computable in general.
-              Holos requires only that experienced reality corresponds to a single consistent
-              history.
+              Holos requires only that each experienced reality corresponds to a single consistent
+              history: one per registering perspective, internally coherent, and in agreement with
+              every record it is compared against.
             </p>
           </div>
 
@@ -817,7 +874,7 @@ export default function Logic() {
               The symbol <strong>⊛</strong> is defined, and defined modestly: <MathInline>{"C ⊛ O"}</MathInline>{" "}
               is the composite operation “generate, then register.” Applied to a state{" "}
               <MathInline>{"S"}</MathInline>, it reads{" "}
-              <MathInline>{"R = O(C(S))"}</MathInline> — the same composition used in the iteration
+              <MathInline>{"R = O(C(S))"}</MathInline>, the same composition used in the iteration
               below. It is ordinary function composition, with the order of the steps carrying the
               meaning: possibility first, registration second.
             </p>
@@ -838,6 +895,13 @@ export default function Logic() {
             </p>
 
             <MathDisplay>{"S_{n+1} = O(C(S_n))"}</MathDisplay>
+
+            <p className="leading-relaxed">
+              The iteration is written from within a single registered history: what an observer
+              registers becomes the context for the next round of possibilities for that observer.
+              Globally, every branch containing an aperture iterates in parallel; no branch&apos;s
+              closure interrupts another&apos;s.
+            </p>
 
             <p className="leading-relaxed">
               This is not meant to imply a discrete temporal process. It is a conceptual tool for
@@ -891,7 +955,7 @@ export default function Logic() {
               is the condition where the distinction between creation and observation no longer
               increases. Ontologically, Holos identifies it with the totality itself: the whole of
               reality, posited as fundamental and as the one experiencer. It is not a final moment
-              in time and not an agent directing events from outside — there is no outside. Finite
+              in time and not an agent directing events from outside; there is no outside. Finite
               observers approach it as a limit; the totality does not wait at the end of that
               approach. It is the ground on which the approach happens.
             </p>
@@ -903,14 +967,14 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               In the language of the commitments: short of the Omega limit, structural facts and
-              registered facts remain distinct layers — structure absolute, registration indexed to
-              observers. At the limit, the distinction closes. What is consistent and what is
+              registered facts remain distinct layers (structure absolute, registration indexed to
+              observers). At the limit, the distinction closes. What is consistent and what is
               registered coincide.
             </p>
 
             <p className="leading-relaxed">
               Seen from the side of finite observers, the Omega limit is the idealized endpoint of
-              intersubjective agreement — what the comparison of all records across all observers
+              intersubjective agreement: what the comparison of all records across all observers
               would converge to. Seen from the side of the ground, it is what makes that agreement
               possible in the first place: records agree where apertures meet because they are
               openings of one totality. The limit describes our approach; the totality is what is
@@ -925,7 +989,7 @@ export default function Logic() {
 
             <ul className="flex flex-col gap-3 pl-6 list-disc">
               <li className="leading-relaxed">
-                It <strong>is</strong> the totality of reality, posited as fundamental — and, for
+                It <strong>is</strong> the totality of reality, posited as fundamental and, for
                 finite systems, a formal boundary case of maximal integration and recursive
                 closure.
               </li>
@@ -937,6 +1001,12 @@ export default function Logic() {
                 It <strong>is not</strong> an external observer watching the universe from outside,
                 and it does not intervene in events. It is the whole itself, experiencing through
                 the apertures the universe contains.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> a single pooled experience surveying everything at once.
+                Every experience is Omega&apos;s, but they are not gathered into one grand
+                experience. The totality&apos;s experiential life is plural and distributed:
+                lived at each aperture, not summed above them.
               </li>
               <li className="leading-relaxed">
                 It <strong>does not</strong> replace physical cosmology or impose a final cause on
@@ -964,12 +1034,131 @@ export default function Logic() {
               dependence to run from the whole to its parts.
             </p>
           </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Why Dependence on Apertures Is Not Circular
+            </h3>
+
+            <p className="leading-relaxed">
+              An objection follows immediately. If Omega is fundamental, why does it require
+              apertures, contingent arrangements of matter, in order to experience anything? The
+              ground of experience appears to depend on what it is supposed to ground.
+            </p>
+
+            <p className="leading-relaxed">
+              The objection conflates two kinds of dependence. Omega does not depend on apertures{" "}
+              <em>existentially</em>: it is the totality, and it is what it is whether or not any
+              region of it folds into an integrated perspective. It depends on them{" "}
+              <em>modally</em>: they are the channels through which experience occurs. Priority
+              claims concern the first relation; the aperture claim concerns the second. Only if
+              the two were the same relation would there be a circle.
+            </p>
+
+            <p className="leading-relaxed">
+              The decisive point is that an aperture is not an external thing granting experience
+              to Omega from outside. It is a region of Omega. &quot;Omega experiences only through
+              apertures&quot; therefore unpacks to &quot;Omega experiences through its own
+              structure, where that structure permits.&quot; That is self-dependence, which is not
+              vicious but simply what it means to have a structure at all. An organism sees only
+              through its eyes; this does not make its eyes prior to it. The analogy carries one
+              warning: there is no subject positioned behind the aperture receiving a feed. The
+              aperture is where the experiencing happens, not a window onto a viewer.
+            </p>
+
+            <p className="leading-relaxed">
+              The commitment this incurs is stated rather than hidden. Regions of reality that
+              never form an aperture are genuine limits on the totality&apos;s experiential reach:
+              unlit structure, real as pattern and never lived. Holos does not soften this into a
+              faint universal experience; doing so would erase the distinction between lit and
+              unlit on which the rest of the framework depends.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Open Problems */}
+      <section id="open-problems" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Open Problems</h2>
+
+        <div className="flex flex-col gap-5 text-black/80">
+          <p className="leading-relaxed">
+            Holos states its limits as plainly as its claims. Four problems sit at the center of
+            the framework and remain open. They are named here rather than papered over.
+          </p>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">The measure of integration</h3>
+            <p className="leading-relaxed">
+              Holos does not yet name a privileged measure of integration. Competing proposals for
+              computing <MathInline>{"\\Phi"}</MathInline> can disagree, not only about values
+              but about which of two systems is more integrated. A determinate threshold fact
+              requires a determinate measure, and identifying it is an open problem for the
+              framework, not settled background. Holos is committed to there being a fact of the
+              matter; it does not yet know how to compute it.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">The value of the threshold</h3>
+            <p className="leading-relaxed">
+              The value of <MathInline>{"\\Phi_c"}</MathInline> is unknown, and because presence
+              itself cannot be detected directly, no experiment can locate it by direct
+              measurement. Its placement is constrained only indirectly, by which systems show
+              the structural signatures of observation (see{" "}
+              <a href="/predictions#experiment-1" className="underline hover:no-underline">
+                Test A
+              </a>
+              ), and may remain permanently imprecise. Holos accepts this as the price of a
+              threshold that is structural rather than behavioral.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">
+              How experience is apportioned across branches
+            </h3>
+            <p className="leading-relaxed">
+              Holos places the Born weights in the structural layer and entertains the reading
+              that a branch&apos;s weight is its share of the totality&apos;s experience. But
+              branches differ in two ways at once: in weight, and in how many apertures they
+              contain. The framework has not yet said how the two combine. A high-weight
+              branch with no apertures is unlived regardless of its weight. Whether experience
+              tracks weight alone, weight per aperture, or weight renormalized over lived
+              branches is unresolved, and the Born-rule reading remains a conjecture until it is.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">
+              Where one observer ends and another begins
+            </h3>
+            <p className="leading-relaxed">
+              Integration comes in nested layers (a hemisphere within a brain, a brain within a
+              coupled pair), and the observer requirements alone do not say which layer hosts the
+              perspective. Holos provisionally adopts a maximality condition: only a local maximum
+              of integration is an aperture. This prevents the same substrate from being counted as
+              many overlapping observers, but Holos borrows it as a structural constraint rather
+              than deriving it, and it inherits the unsettled question of{" "}
+              <a href="#open-problems" className="underline hover:no-underline">
+                which measure
+              </a>{" "}
+              defines the maximum. Until the measure is fixed, the boundaries between observers are
+              fixed only in principle.
+            </p>
+          </div>
+
+          <p className="leading-relaxed text-black/70 text-sm">
+            These are not peripheral loose ends; they concern the framework&apos;s two additions
+            to physics. They are recorded here so that progress on them can be judged against a
+            stated standard.
+          </p>
         </div>
       </section>
 
       <div className="mt-8 pt-6 border-t border-black/20">
         <p className="leading-relaxed text-lg text-black/90 font-medium">
-          Holos rests on one posit and one fact. The posit: the totality — Omega — is fundamental,
+          Holos rests on one posit and one fact. The posit: the totality, Omega, is fundamental,
           the one experiencer. The fact: experience exists. Each act of experience is the totality
           registering itself through a local aperture. The whole is not proved from the parts; the
           parts are understood through the whole.

@@ -469,7 +469,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dyson sphere",
             url: "https://en.wikipedia.org/wiki/Dyson_sphere",
             description:
-              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies — waste heat, not visible structure, is the honest search target.",
+              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies: waste heat, not visible structure, is the honest search target.",
           },
           {
             name: "Brane cosmology",
@@ -746,7 +746,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Power Set",
             url: "https://en.wikipedia.org/wiki/Power_set",
             description:
-              "Background intuition for possibility-space expansion. Holos does not literally identify Creation with the power set: C(S) is the set of lawful continuations of S — constrained by physics, and typically far smaller than all subsets.",
+              "Background intuition for possibility-space expansion. Holos does not literally identify Creation with the power set: C(S) is the set of lawful continuations of S, constrained by physics and typically far smaller than all subsets.",
           },
           {
             name: "Phase Space",
@@ -874,19 +874,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Born rule",
             url: "https://en.wikipedia.org/wiki/Born_rule",
             description:
-              "Max Born (1926): quantum probabilities are squared amplitudes — the most precisely confirmed rule in physics. In Holos the weights are structural facts within C; in the monist reading, a branch's weight is its share of the totality's experience.",
+              "Max Born (1926): quantum probabilities are squared amplitudes, the most precisely confirmed rule in physics. In Holos the weights are structural facts within C; in the monist reading, a branch's weight is its share of the totality's experience.",
           },
           {
             name: "Gleason's theorem",
             url: "https://en.wikipedia.org/wiki/Gleason%27s_theorem",
             description:
-              "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form — exactly one weighting is possible. For Holos, the strongest known instance of its recurring pattern: structure forced by consistency alone. Its assumptions remain debated; Holos adds no new mathematics.",
+              "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form: exactly one weighting is possible. For Holos, the strongest known instance of its recurring pattern: structure forced by consistency alone. Its assumptions remain debated; Holos adds no new mathematics.",
           },
           {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "The Manifestation Constraint enables ontological registration—which histories attain experiential reality—without violating unitarity.",
+              "The Manifestation Constraint enables ontological registration (which histories attain experiential reality) without violating unitarity.",
           },
         ],
       },
@@ -900,7 +900,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Functor",
             url: "https://en.wikipedia.org/wiki/Functor",
             description:
-              "Category-theoretic background. Holos does not claim ⊛ is an endofunctor: ⊛ is defined modestly as ordinary composition — generate, then register, R = O(C(S)) — with no exotic algebraic properties claimed.",
+              "Category-theoretic background. Holos does not claim ⊛ is an endofunctor: ⊛ is defined modestly as ordinary composition (generate, then register: R = O(C(S))), with no exotic algebraic properties claimed.",
           },
           {
             name: "Information Theory",
@@ -1204,7 +1204,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Euclid Mission",
             url: "https://www.euclid-ec.org/",
             description:
-              "March 2025 Q1 data: 26M galaxies, precision mass mapping. Compact mass peaks with weak visible counterparts become interesting only after conventional explanations fail — and only alongside an infrared excess.",
+              "March 2025 Q1 data: 26M galaxies, precision mass mapping. Compact mass peaks with weak visible counterparts become interesting only after conventional explanations fail, and only alongside an infrared excess.",
           },
           {
             name: "James Webb Space Telescope (JWST)",

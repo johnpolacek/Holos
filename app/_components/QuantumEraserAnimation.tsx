@@ -707,7 +707,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
           fontStyle="italic"
           opacity="0"
         >
-          Nothing travels backward — registration determines how facts sort
+          Nothing travels backward; registration determines how facts sort
         </text>
 
         {/* Arrowhead marker */}
