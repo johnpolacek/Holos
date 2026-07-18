@@ -658,7 +658,7 @@ export default function Logic() {
               why they take the form they do.
             </p>
             <p className="leading-relaxed">
-              Holos answers in two steps. First, the weights are structural facts, part of{" "}
+              Holos answers narrowly. The weights are structural facts, part of{" "}
               <MathInline>{"C"}</MathInline>. The possibility space is not flat: branches carry
               weights, as absolute and observer-independent as the laws themselves. And they are
               not arbitrary.{" "}
@@ -677,26 +677,29 @@ export default function Logic() {
               alone.
             </p>
             <p className="leading-relaxed">
-              Second, the monist reading offers a candidate for what the weights <em>are</em>: a
-              branch&apos;s weight as its share of the totality&apos;s experience. Both channels
-              of a splitting river are real; one simply carries more of the flow. Holos records this as a
-              conjecture, not a settled claim, because the accounting is not yet coherent.
-              Branches differ in weight, but they also differ in how many apertures they contain,
-              which gives two competing ways to apportion experience; and a high-weight branch
-              containing no apertures would hold a large &quot;share&quot; with no one home to
-              experience it. Until weight and aperture count are reconciled, the reading remains
-              suggestive rather than established. See{" "}
-              <a href="#open-problems" className="underline hover:no-underline">
-                Open Problems
-              </a>
-              .
+              Holos stops there, and declines a tempting further step. It does not read a
+              branch&apos;s weight as its share of the totality&apos;s experience. That reading
+              would require experience to be a quantity held in common and divided among branches,
+              which is precisely what the monist ontology denies: the totality&apos;s experiential
+              life is plural and distributed, not pooled. Experience occurs at apertures. There is
+              no reservoir from which branches draw
+              larger or smaller portions, so the question of which branch receives more of it does
+              not arise.
+            </p>
+            <p className="leading-relaxed">
+              What does remain is a problem Holos inherits rather than creates. Gleason fixes the
+              form the weights must take, but no branching account has fully explained why an
+              observer who is certain to have successors in every branch should expect Born
+              statistics rather than merely find them. That puzzle belongs to every no-collapse
+              interpretation, and Holos claims no solution to it. The framework is committed to
+              the weights being real and structural, not to having derived expectation from
+              branching.
             </p>
             <p className="leading-relaxed text-black/70 text-sm">
-              This is a reading, not a derivation. Gleason&apos;s theorem has assumptions that
+              This is a placement, not a derivation. Gleason&apos;s theorem has assumptions that
               remain debated, and Holos adds no new mathematics here. The claim is only that the
-              Born weights sit naturally in the structural layer, and that the monist ontology
-              may yet give them an interpretation no observer-free picture can, if the
-              apportioning problem recorded in Open Problems is solved.
+              Born weights sit naturally in the structural layer, alongside the laws, rather than
+              in the experiential one.
             </p>
           </div>
 
@@ -843,9 +846,9 @@ export default function Logic() {
             <p className="leading-relaxed">
               The result is an indexed family, not a single selected outcome: one experienced
               history per registering perspective, per branch. Observation selects nothing and
-              erases nothing (Axiom 3). Registration occurs everywhere an aperture exists, and the
-              Born weights carried by <MathInline>{"C"}</MathInline> apportion the totality&apos;s
-              experience across those registrations.
+              erases nothing (Axiom 3). Registration occurs everywhere an aperture exists. The
+              Born weights carried by <MathInline>{"C"}</MathInline> remain structural throughout:
+              they fix the statistics each registration records, not how much experience it holds.
             </p>
 
             <p className="leading-relaxed">
@@ -1083,7 +1086,7 @@ export default function Logic() {
 
         <div className="flex flex-col gap-5 text-black/80">
           <p className="leading-relaxed">
-            Holos states its limits as plainly as its claims. Four problems sit at the center of
+            Holos states its limits as plainly as its claims. Three problems sit at the center of
             the framework and remain open. They are named here rather than papered over.
           </p>
 
@@ -1114,18 +1117,74 @@ export default function Logic() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">
-              How experience is apportioned across branches
-            </h3>
+          <div id="path-to-threshold" className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">A path to the threshold</h3>
             <p className="leading-relaxed">
-              Holos places the Born weights in the structural layer and entertains the reading
-              that a branch&apos;s weight is its share of the totality&apos;s experience. But
-              branches differ in two ways at once: in weight, and in how many apertures they
-              contain. The framework has not yet said how the two combine. A high-weight
-              branch with no apertures is unlived regardless of its weight. Whether experience
-              tracks weight alone, weight per aperture, or weight renormalized over lived
-              branches is unresolved, and the Born-rule reading remains a conjecture until it is.
+              The two problems above are not invitations to despair; they are a research program.
+              Science pins down unobservables by triangulation all the time: no one has ever seen
+              an electron&apos;s charge, yet independent methods converged on it and every proposal
+              that disagreed was discarded. The same logic applies here, in three steps.
+            </p>
+            <p className="leading-relaxed">
+              <strong>Treat the threshold as a critical point, not a dial.</strong> If the
+              transition from distributed processing to a unified perspective is a genuine phase
+              transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a free parameter but a
+              critical point, and critical points leave measurable fingerprints: slowing near the
+              boundary, diverging fluctuations, a sharp change in some order parameter.
+              Consciousness medicine has already found one such boundary from the outside: the{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Perturbational Complexity Index
+              </a>{" "}
+              separates conscious from unconscious states across anesthesia, sleep, and disorders
+              of consciousness at an empirically discovered cutoff, without anyone measuring
+              presence directly. Locating <MathInline>{"\\Phi_c"}</MathInline> is that kind of
+              problem, not a metaphysical one.
+            </p>
+            <p className="leading-relaxed">
+              <strong>Cull the measures by convergence, then try to force uniqueness.</strong>{" "}
+              Holos does not need one anointed measure so much as it needs the adequate measures to
+              agree on the cases that matter, and that is testable now: run the candidate measures
+              across a battery of systems and keep the ones that rank the anchor cases the same
+              way. The stronger move is to derive the measure rather than choose it: state the
+              properties any measure of a single unified perspective must have, and see whether
+              consistency forces a unique form, as{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Gleason%27s_theorem"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gleason&apos;s theorem
+              </a>{" "}
+              forced the Born weights. Even narrowing the field to a small equivalence class would
+              remove most of the arbitrariness.
+            </p>
+            <p className="leading-relaxed">
+              <strong>Solve them jointly.</strong> The measure and the threshold constrain each
+              other: a candidate pair must simultaneously fit the anesthesia boundary, the
+              emergence of experience in development, split-brain dissociations, and wherever
+              minimal neural systems first show coherent integration. Coupled constraints are far
+              more rigid than separate ones; the band that satisfies all the anchor cases at once
+              is narrow. This is what{" "}
+              <a href="/predictions#experiment-1" className="underline hover:no-underline">
+                Test A
+              </a>{" "}
+              really is: not a single yes-or-no experiment but the calibration engine that locates
+              the threshold and validates the measure at the same time.
+            </p>
+            <p className="leading-relaxed">
+              Two honesty conditions bound the program. First, its anchor is report: the human
+              case is the one place inside access exists, so the threshold is located relative to
+              us and carried outward by the measure, with certainty that weakens as the cases grow
+              alien. That is the shape of all consciousness science, not a defect peculiar to
+              Holos. Second, the program can fail: it could return no robust measure and no
+              critical point, integration proving a matter of degree with no clean cut. That
+              outcome would falsify Holos&apos;s commitment to a determinate fact of the matter
+              and force a retreat to graded presence. A stated way to lose is what makes these
+              open problems scientific questions rather than definitions.
             </p>
           </div>
 

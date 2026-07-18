@@ -225,15 +225,12 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Branches are weighted, not merely counted. The statistics every observer records
               follow the Born rule, the unique self-consistent weighting of quantum outcomes
-              (Gleason&apos;s theorem). The monist reading suggests, as a conjecture Holos records
-              as unresolved, that a branch&apos;s weight is its share of the totality&apos;s
-              experience. See{" "}
+              (Gleason&apos;s theorem). Those weights are structural facts about the possibility
+              space, not a measure of how much experience a branch carries. Holos claims no
+              derivation of expectation from branching, a puzzle it inherits from every
+              no-collapse account rather than one it creates. See{" "}
               <a href="/logic#relationship-to-physics" className="underline hover:no-underline">
                 Logic
-              </a>{" "}
-              and{" "}
-              <a href="/logic#open-problems" className="underline hover:no-underline">
-                Open Problems
               </a>{" "}
               for the full account.
             </p>
@@ -530,7 +527,13 @@ export default function Predictions() {
             condition, not presence itself. It cannot prove an integrated system <em>is</em> an
             observer, only whether integration is what experience depends on. Holos shares this
             prediction with other integration-based accounts of consciousness; it is a test Holos
-            could fail, not a signature unique to Holos.
+            could fail, not a signature unique to Holos. It also doubles as the calibration
+            engine for the framework&apos;s open problems: the same data that test the claim
+            locate the threshold and cull the candidate measures (see{" "}
+            <a href="/logic#path-to-threshold" className="underline hover:no-underline">
+              A path to the threshold
+            </a>
+            ).
           </p>
         </div>
       </section>

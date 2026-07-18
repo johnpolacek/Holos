@@ -874,7 +874,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Born rule",
             url: "https://en.wikipedia.org/wiki/Born_rule",
             description:
-              "Max Born (1926): quantum probabilities are squared amplitudes, the most precisely confirmed rule in physics. In Holos the weights are structural facts within C; in the monist reading, a branch's weight is its share of the totality's experience.",
+              "Max Born (1926): quantum probabilities are squared amplitudes, the most precisely confirmed rule in physics. In Holos the weights are structural facts within C, fixing the statistics each observer records rather than measuring how much experience a branch carries.",
           },
           {
             name: "Gleason's theorem",
