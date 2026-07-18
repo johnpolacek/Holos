@@ -758,9 +758,18 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              The symbol <strong>⊛</strong> is intentionally non-algebraic. It signals that the
-              order and role of the terms matter, but it does not introduce a new mathematical
-              operator.
+              The symbol <strong>⊛</strong> is defined, and defined modestly: <MathInline>{"C ⊛ O"}</MathInline>{" "}
+              is the composite operation “generate, then register.” Applied to a state{" "}
+              <MathInline>{"S"}</MathInline>, it reads{" "}
+              <MathInline>{"R = O(C(S))"}</MathInline> — the same composition used in the iteration
+              below. It is ordinary function composition, with the order of the steps carrying the
+              meaning: possibility first, registration second.
+            </p>
+
+            <p className="leading-relaxed">
+              Holos claims no exotic algebraic properties for ⊛ beyond this. What the symbol adds
+              is not mathematics but ontology: the claim that both steps are required for a
+              realized world, and that neither step alone yields one.
             </p>
           </div>
 

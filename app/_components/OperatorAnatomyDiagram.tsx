@@ -6,7 +6,7 @@ interface OperatorAnatomyDiagramProps {
 
 export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatomyDiagramProps) {
   const pdfDescription =
-    "Operator Anatomy Diagram: The equation R = C ⊛ O is shown at the center. Leader lines connect to labels: C (Creation) - Generative Possibility / Power Set Operation, ⊛ (The Operator) - Recursive Relational Operator / Non-Associative, O (Observation) - Ontological Registration / Choice Function. A circular arrow indicates the recursive endofunctor loop. Key constraints listed: Structural not Dynamical, Information Preserving (Unitarity), Isomorphic at Ω.";
+    "Operator Anatomy Diagram: The equation R = C ⊛ O is shown at the center. Leader lines connect to labels: C (Creation) - Generative Possibility / Possibility Map C(S), ⊛ (The Operator) - Composition: Generate, then Register, O (Observation) - Ontological Registration / Choice Function. A circular arrow indicates the recursive closure loop, R = O(C(S)). Key constraints listed: Structural not Dynamical, Information Preserving (Unitarity), C and O Coincide at Ω.";
 
   return (
     <figure
@@ -24,7 +24,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
           </marker>
         </defs>
 
-        {/* Endofunctor Loop - faint circle with arrow */}
+        {/* Recursive closure loop - faint circle with arrow */}
         <circle
           cx="320"
           cy="200"
@@ -100,7 +100,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
             fontSize="9"
             fontFamily="sans-serif"
           >
-            Power Set P(·)
+            Possibility Map C(S)
           </text>
         </g>
 
@@ -136,7 +136,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
             fontSize="10"
             fontFamily="sans-serif"
           >
-            Recursive Relational · Non-Associative
+            Composition: Generate, then Register
           </text>
         </g>
 
@@ -211,7 +211,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
           fontSize="9"
           fontFamily="monospace"
         >
-          Isomorphic at Ω
+          C and O Coincide at Ω
         </text>
       </svg>
     </figure>

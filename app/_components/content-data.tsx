@@ -666,9 +666,12 @@ export const sections: ContentSection[] = [
         completed, not how it moves.
       </>,
       <>
-        Formally, ⊛ can be modeled as a structure-preserving mapping over informational states,
-        similar in spirit to an <a href="https://en.wikipedia.org/wiki/Functor">endofunctor</a>. A
-        more precise treatment of this interpretation is developed in <a href="/logic">Logic</a>.
+        Formally, ⊛ is defined — and defined modestly — as composition:{" "}
+        <em>C ⊛ O</em> names the two-step operation of generating lawful possibilities (
+        <em>C</em>) and then registering one as experience (<em>O</em>). Applied to a state{" "}
+        <em>S</em>, this reads <em>R = O(C(S))</em>: generate, then register. The symbol claims
+        nothing more exotic than that. Its content is the claim that both steps are required for a
+        realized world. The full treatment is developed in <a href="/logic">Logic</a>.
       </>,
     ],
   },

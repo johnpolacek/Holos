@@ -740,13 +740,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Zermelo–Fraenkel Set Theory (ZFC)",
             url: "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory",
             description:
-              "The standard axiomatic foundation for mathematics. Holos formalizes Observation as a choice function within this framework.",
+              "The standard axiomatic foundation for mathematics. Holos borrows the notion of a choice function to describe Observation; no stronger set-theoretic claim is made.",
           },
           {
             name: "Power Set",
             url: "https://en.wikipedia.org/wiki/Power_set",
             description:
-              "Creation acts as the power set operation: given a state S, Creation generates all possible subsets (potential histories), exponentially expanding the phase space.",
+              "Background intuition for possibility-space expansion. Holos does not literally identify Creation with the power set: C(S) is the set of lawful continuations of S — constrained by physics, and typically far smaller than all subsets.",
           },
           {
             name: "Phase Space",
@@ -888,7 +888,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Functor",
             url: "https://en.wikipedia.org/wiki/Functor",
             description:
-              "⊛ is formalized as an endofunctor on the category of informational states, mapping reality onto itself through Creation and Observation.",
+              "Category-theoretic background. Holos does not claim ⊛ is an endofunctor: ⊛ is defined modestly as ordinary composition — generate, then register, R = O(C(S)) — with no exotic algebraic properties claimed.",
           },
           {
             name: "Information Theory",
