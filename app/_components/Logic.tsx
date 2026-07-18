@@ -618,6 +618,62 @@ export default function Logic() {
           </div>
 
           <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">
+              The Born rule: weighted branches
+            </h3>
+            <p className="leading-relaxed">
+              A branching picture owes an account of quantum probability. If every outcome occurs
+              in some branch, what does it mean that one outcome is measured 70% of the time?
+              Counting branches gives the wrong answer; the{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Born_rule"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Born rule
+              </a>{" "}
+              — squaring the quantum amplitudes — gives the right one, to every decimal place ever
+              tested. Any framework that keeps all branches must say where those weights live and
+              why they take the form they do.
+            </p>
+            <p className="leading-relaxed">
+              Holos answers in two steps. First, the weights are structural facts — part of{" "}
+              <MathInline>{"C"}</MathInline>. The possibility space is not flat: branches carry
+              weights, as absolute and observer-independent as the laws themselves. And they are
+              not arbitrary.{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Gleason%27s_theorem"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gleason&apos;s theorem
+              </a>{" "}
+              (1957) shows that if probabilities are to be assigned to quantum outcomes at all,
+              without contradiction across the different ways the same experiment can be carved
+              up, exactly one assignment is possible — the Born rule. The weights are what they
+              are because consistency permits no alternative. This is the framework&apos;s
+              recurring pattern in its strongest known form: structure forced by consistency
+              alone.
+            </p>
+            <p className="leading-relaxed">
+              Second, the monist reading says what the weights <em>are</em>. The totality
+              experiences through every branch, but not equally: a branch&apos;s weight is its
+              share of the totality&apos;s experience. Both channels of a splitting river are
+              real; one carries more of the flow. Probability, in Holos, is not about which
+              outcomes occur — all of them do. It is the apportioning of experience across what
+              occurs, and the statistics every observer records are the shadow of that
+              apportioning. It is fitting that the one number physics uses but does not explain
+              turns out, on this reading, to be about experience.
+            </p>
+            <p className="leading-relaxed text-black/70 text-sm">
+              This is a reading, not a derivation. Gleason&apos;s theorem has assumptions that
+              remain debated, and Holos adds no new mathematics here. The claim is only that the
+              Born weights sit naturally in the structural layer, and that the monist ontology
+              gives them an interpretation no observer-free picture can.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Block-universe compatibility</h3>
             <p className="leading-relaxed">
               If spacetime is treated as a complete four-dimensional structure, Holos treats

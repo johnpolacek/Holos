@@ -188,8 +188,9 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Holos distinguishes two kinds of facts. <strong>Structural facts</strong> describe
-              what is consistent: the laws of physics, the space of allowed histories, and whether a
-              system meets the integration threshold. These are absolute and observer-independent.{" "}
+              what is consistent: the laws of physics, the space of allowed histories with their
+              quantum weights, and whether a system meets the integration threshold. These are
+              absolute and observer-independent.{" "}
               <strong>Registered facts</strong> describe what is actualized as experience: which
               outcome a system registers from its own perspective. These are always indexed to
               observing systems.
@@ -217,6 +218,17 @@ export default function Predictions() {
               while separated; communication forces agreement. This is the checkable content of
               “global consistency.” In the monist reading it is also grounded: apertures of one
               totality cannot disagree where they meet.
+            </p>
+
+            <p className="leading-relaxed">
+              Branches are weighted, not merely counted. The statistics every observer records
+              follow the Born rule — the unique self-consistent weighting of quantum outcomes
+              (Gleason&apos;s theorem). In the monist reading, a branch&apos;s weight is its share
+              of the totality&apos;s experience: all branches are lived, but not equally. See{" "}
+              <a href="/logic#relationship-to-physics" className="underline hover:no-underline">
+                Logic
+              </a>{" "}
+              for the full account.
             </p>
 
             <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">

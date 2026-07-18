@@ -871,6 +871,18 @@ export const citationMainSections: CitationMainSection[] = [
               "Φ preserves the probabilistic nature of quantum mechanics while adding a constraint on when observation registers reality.",
           },
           {
+            name: "Born rule",
+            url: "https://en.wikipedia.org/wiki/Born_rule",
+            description:
+              "Max Born (1926): quantum probabilities are squared amplitudes — the most precisely confirmed rule in physics. In Holos the weights are structural facts within C; in the monist reading, a branch's weight is its share of the totality's experience.",
+          },
+          {
+            name: "Gleason's theorem",
+            url: "https://en.wikipedia.org/wiki/Gleason%27s_theorem",
+            description:
+              "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form — exactly one weighting is possible. For Holos, the strongest known instance of its recurring pattern: structure forced by consistency alone. Its assumptions remain debated; Holos adds no new mathematics.",
+          },
+          {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
