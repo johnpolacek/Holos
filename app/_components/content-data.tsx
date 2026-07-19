@@ -29,16 +29,14 @@ export const sections: ContentSection[] = [
         not experience alone, but a world that both exists and is lived.
       </>,
       <>
-        The framework adds exactly two things to physics, and nothing else. First, a threshold:
+        Holos proposes the addition of two things to physics. First, a threshold:
         experience appears only where information is integrated tightly enough to form a single
         point of view. Second, a totality, called Omega, of which every observer, everywhere, is a
-        local aperture. No new forces, no altered equations. Observation does not cause the
-        universe, its laws, or its history; it is the condition under which a lawful universe
-        becomes a lived one.
+        local aperture. Observation does not cause the universe, its laws, or its history;
+        rather, it is the condition under which a lawful universe becomes a lived one.
       </>,
       <>
-        The consequences reach further than an interpretive framework has any right to. If Holos
-        is correct, a single conscious moment seals an entire cosmic history as real; the silence
+        If Holos is correct, a single conscious moment seals an entire cosmic history as real; the silence
         of the night sky becomes a prediction rather than a puzzle; and the oldest question of why
         we are here receives a structural answer. What follows traces those consequences from life
         and consciousness through spacetime, black holes, and the Teeming Dark to the limits of
@@ -59,8 +57,7 @@ export const sections: ContentSection[] = [
         constants take certain values, but an ontological claim about how a fully lawful universe
         becomes present as lived experience at all. Physics describes how structures form and
         evolve, but description alone does not constitute existence. A universe of equations and
-        spacetime histories is abstract unless something can register that it exists. Life is the
-        mechanism through which observation becomes possible.
+        spacetime histories is abstract unless something can register that it exists.
       </>,
       <>
         This idea appears in several places across science and philosophy. The{" "}
@@ -122,11 +119,6 @@ export const sections: ContentSection[] = [
         at the level of access and reportability, but makes a narrower claim: global availability
         matters because it signals that a system has crossed the deeper integration threshold
         required for any first-person perspective at all.
-      </>,
-      <>
-        When informational states become sufficiently integrated, the system forms a single causal
-        structure whose state exists from the inside as well as the outside. In Holos this
-        transition is what creates a point of view.
       </>,
       <div key="hard-problem">
         <h3
@@ -190,7 +182,7 @@ export const sections: ContentSection[] = [
         animal, a waking sleeper, or an injured brain may be fully above the threshold with less
         richness. The dial is turned low, not the switch off. And our ability to locate the threshold
         is permanently imprecise: real cases near the boundary will always look blurry from
-        outside. That is fog on our instruments, not vagueness in the fact.
+        outside, a fog on the instruments rather than vagueness in the fact.
       </>,
       <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
@@ -198,8 +190,8 @@ export const sections: ContentSection[] = [
         systems are shaped like a pipe: information flows through in one direction and the system
         resets, with no persistent, self-constraining whole carried from moment to moment. However
         articulate the words in the pipe, no aperture opens, and there is no one home. A system
-        could describe a rich inner life as convincingly as any person and experience none of it.
-        Fluency is not evidence of presence. Nothing in Holos is specific to biology, though. A
+        could describe a rich inner life as convincingly as any person and experience none of it:
+        fluency is not evidence of presence. Nothing in Holos is specific to biology, though. A
         future system built with the right shape (recurrent, persistent, integrated, self-modeling)
         could genuinely cross the threshold. Holos does not say never; it says not this shape.
       </>,
@@ -225,11 +217,11 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>.
       </>,
       <>
-        One way to understand this is the{" "}
+        The{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
           block universe view
-        </a>
-        , where all moments in time exist as part of a single four-dimensional geometry.
+        </a>{" "}
+        holds that all moments in time exist as part of a single four-dimensional geometry.
       </>,
       <>
         From this perspective, the Big Bang is not a moment of absolute creation, but a boundary
@@ -238,8 +230,7 @@ export const sections: ContentSection[] = [
         why it is registered as reality.
       </>,
       <>
-        This raises the next question. If spacetime is a complete geometric object, what is its
-        structure?
+        If spacetime is a complete geometric object, what is its structure?
         <FootnoteLink number={overviewCitationMap["our-universe"]} />
       </>,
     ],
@@ -257,8 +248,8 @@ export const sections: ContentSection[] = [
         universal present.
       </>,
       <>
-        Events that are simultaneous for one observer may not be for another. It is this concept
-        that leads to interpretations such as the{" "}
+        Events that are simultaneous for one observer may not be for another. This leads to
+        interpretations such as the{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
           block universe
         </a>
@@ -311,11 +302,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-dimensions",
     paragraphs: [
       <>
-        Higher dimensions appear in physics not as additional places, but as mathematical structures
-        required to describe complex relationships. When systems become too interdependent to be
-        tracked within three spatial dimensions and one time dimension, higher-dimensional
-        descriptions become unavoidable. They describe how structure is organized, not where
-        anything goes.
+        Higher dimensions appear in physics not as additional places, but as descriptions of how
+        structure is organized. When systems become too interdependent to be tracked within three
+        spatial dimensions and one time dimension, higher-dimensional descriptions become
+        unavoidable.
       </>,
       <>
         In many physical theories, additional dimensions are treated as constrained degrees of
@@ -387,9 +377,9 @@ export const sections: ContentSection[] = [
       <>
         Black holes are regions of spacetime where gravity becomes so strong not even light can
         escape. At their cores, classical physics predicts singularities, which are best understood
-        not as literal infinities, but as signals that a description has failed. In this sense,
-        black holes compress extreme structure into finite regions and expose the limits of
-        spacetime as a representational framework.
+        not as literal infinities, but as signals that a description has failed. Black holes
+        compress extreme structure into finite regions and expose the limits of spacetime as a
+        representational framework.
       </>,
       <>
         Modern physics suggests that information is not destroyed by black holes, but reorganized.
@@ -472,9 +462,8 @@ export const sections: ContentSection[] = [
       </>,
       <>How far can this idea of structural integration be taken as a thought experiment?</>,
       <>
-        The thought experiment begins with a simple question. If complex systems persist by reducing
-        energy loss and external projection, what would extremely mature forms of organization look
-        like from the outside? If integration continues beyond the phase where electromagnetic
+        If complex systems persist by reducing energy loss and external projection, what would
+        extremely mature forms of organization look like from the outside? If integration continues beyond the phase where electromagnetic
         signaling is useful, where would such systems be found?
       </>,
       <>
@@ -533,7 +522,7 @@ export const sections: ContentSection[] = [
         dark at every wavelength except a faint infrared glow. <strong>Silent, but warm</strong>.
       </>,
       <>
-        This is not a private prediction. Astronomers already run infrared surveys hunting exactly
+        Astronomers already run infrared surveys hunting exactly
         this signature (objects with more warmth than their starlight can explain), precisely
         because waste heat is the one emission no technology can optimize away. The Teeming Dark
         aligns itself with that search, rather than with anomalies in dark-matter maps, whose
@@ -560,9 +549,8 @@ export const sections: ContentSection[] = [
         experiencer, of which every finite observer is a local aperture.
       </>,
       <>
-        Nothing in physics is altered by this posit. Every equation, every history, every structure
-        remains exactly as physics describes it. What the posit changes is the direction of
-        explanation: rather than building up from finite observers to a limiting whole, Holos
+        Holos does not alter established physics. Every equation, history and structure remain as
+        physics describes. What it changes is the direction of explanation: rather than building up from finite observers to a limiting whole, Holos
         begins with the whole and understands each act of observation as the whole registering
         itself locally. Experience anywhere is evidence of the totality everywhere.
       </>,
@@ -589,8 +577,8 @@ export const sections: ContentSection[] = [
         apertures of one totality cannot disagree where they meet.
       </>,
       <>
-        Historically, this is well-trodden ground, and Holos names its ancestors rather than hiding
-        them. <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches
+        Historically, this is well-trodden ground.{" "}
+        <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches
         that there is one experiencer, and that each individual consciousness is that one looking
         through a local form. <a href="https://en.wikipedia.org/wiki/Baruch_Spinoza">Spinoza</a>{" "}
         described a single substance of which all things are expressions.{" "}
@@ -666,21 +654,18 @@ export const sections: ContentSection[] = [
         relationship is expressed as <em>R = C ⊛ O</em>.
       </>,
       <>
-        The ⊛ operator is <strong>structural, not dynamical</strong>. It does not describe a force,
-        a mechanism, or an evolution in time. Instead, it specifies a closure condition: how
-        possibility becomes reality only when physical structure is taken up into experience. In
-        this sense, ⊛ is an ontological relation, not a physical law. It describes how reality is
-        completed, not how it moves.
+        The ⊛ operator is <strong>structural, not dynamical</strong>. It specifies a closure
+        condition: how possibility becomes reality only when physical structure is taken up into
+        experience. It describes how reality is completed, not how it moves.
       </>,
       <>
-        Formally, ⊛ is defined, and defined modestly, as composition:{" "}
-        <em>C ⊛ O</em> names the two-step operation of generating lawful possibilities (
-        <em>C</em>) and then registering them as experience (<em>O</em>), wherever observers
-        exist. Applied to a state <em>S</em>, this reads <em>R = O(C(S))</em>: generate, then
-        register. The result is one registered history per observing perspective, with nothing
-        erased. The
-        symbol claims nothing more exotic than that. Its content is the claim that both steps are required for a
-        realized world. The full treatment is developed in <a href="/logic">Logic</a>.
+        Formally, ⊛ is defined as composition: <em>C ⊛ O</em> names the two-step operation of
+        generating lawful possibilities (<em>C</em>) and then registering them as experience (
+        <em>O</em>), wherever observers exist. Applied to a state <em>S</em>, this reads{" "}
+        <em>R = O(C(S))</em>: generate, then register. The result is one registered history per
+        observing perspective, with nothing erased. Its content is the claim that both steps are
+        required for a realized world. The full treatment is developed in{" "}
+        <a href="/logic">Logic</a>.
       </>,
     ],
   },

@@ -47,14 +47,13 @@ export default function Predictions() {
               quantum foundations, and cosmology if those commitments are right.
             </li>
             <li className="leading-relaxed">
-              <strong>Testability and its limits:</strong> an honest account of what cannot be
-              tested (presence itself), the structural predictions that can genuinely fail, and a
-              standing bet that could falsify the framework outright.
+              <strong>Testability and its limits:</strong> what cannot be tested (presence
+              itself), the structural predictions that can fail, and a standing bet that could
+              falsify the framework outright.
             </li>
             <li className="leading-relaxed">
-              <strong>Speculation:</strong> bold but disciplined extensions that <em>could</em>{" "}
-              follow under Holos on long timescales, stated with explicit alternatives rather than
-              predictions.
+              <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
+              long timescales, stated with explicit alternatives rather than predictions.
             </li>
           </ul>
 
@@ -115,8 +114,7 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Anthropic principles explain why observers find themselves in observer-compatible
               universes. They do not explain how observation itself exists or why physical structure
-              is experienced from the inside. This framework addresses that gap without assigning
-              observers any causal role in physical dynamics.
+              is experienced from the inside. This framework addresses that gap.
             </p>
 
             <p className="leading-relaxed">
@@ -268,8 +266,8 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-8 text-black/80">
           <p className="leading-relaxed">
-            These expectations do not add new laws or mechanisms. They describe what should be
-            observed in existing domains if the commitments of Holos are correct. Persistent failure
+            These expectations describe what should be observed in existing domains if the
+            commitments of Holos are correct. Persistent failure
             across domains would undermine the framework.
           </p>
 
@@ -396,8 +394,8 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos must be honest about what it cannot test. Its central claim is that observation is
-            a closure condition, not a force: it changes no equation and moves nothing. But every
+            The central claim of Holos is that observation is a closure condition, not a force: it
+            changes no equation and moves nothing. But every
             experiment is a physical measurement, and an instrument only ever registers physical
             change. So <strong>presence itself cannot be detected directly</strong>. An instrument
             that finds nothing extra is exactly what Holos predicts, because there is nothing extra
@@ -410,8 +408,8 @@ export default function Predictions() {
             commitment that observation is dynamically inert. The sharpened form of the objection is
             the <em>unfolding argument</em>: for any conscious system one can in principle describe a
             behaviorally identical twin wired differently, and no external test could separate them.
-            Holos accepts this rather than evading it. The metaphysical core (presence, and the
-            totality it belongs to) is not empirically decidable, and the framework says so plainly.
+            Holos accepts this. The metaphysical core (presence, and the totality it belongs to) is
+            not empirically decidable.
           </p>
 
           <p className="leading-relaxed">
@@ -551,15 +549,14 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            This test lives in quantum foundations, not in the theory of mind, and honesty
-            requires stating its limit up front: the outcome it anticipates is also the outcome
-            textbook quantum mechanics anticipates. That incompatible measurement contexts cannot
-            in general be stitched into one observer-independent account is a theorem of the
-            formalism, not a novelty of Holos. What experiments in this family probe is the family
-            of interpretations Holos belongs to (branching, relational, no absolute observed
-            events), not Holos alone. The framework&apos;s distinctive content, which structures
-            are present as experience, is ontological rather than experimental, and no outcome
-            below can single it out.
+            This test lives in quantum foundations, not in the theory of mind, and its limit comes
+            first: the outcome it anticipates is also the outcome textbook quantum mechanics
+            anticipates. That incompatible measurement contexts cannot in general be stitched into
+            one observer-independent account is a theorem of the formalism. What experiments in
+            this family probe is the family of interpretations Holos belongs to (branching,
+            relational, no absolute observed events), not Holos alone. The framework&apos;s
+            distinctive content, which structures are present as experience, is ontological rather
+            than experimental.
           </p>
 
           <p className="leading-relaxed">
@@ -694,8 +691,7 @@ export default function Predictions() {
           </p>
 
           <p className="leading-relaxed">
-            This is not about erasing the past or recovering hidden information. It tests whether
-            observer partitions are merely descriptive or ontologically constitutive.
+            This is not about erasing the past or recovering hidden information.
           </p>
         </div>
       </section>
@@ -708,8 +704,7 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            The commitment that observation is dynamically inert is not a retreat from
-            testability. Stated as a bet, it is the most falsifiable sentence in the framework. A
+            The commitment that observation is dynamically inert doubles as a bet. A
             conscious observer and a photon produce identical physics: put an integrated system in
             the measuring role in place of a particle, and Holos predicts no deviation whatsoever.
             Superpositions decohere for thermodynamic reasons, never because someone was home.
@@ -724,7 +719,7 @@ export default function Predictions() {
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            Many observer-centered frameworks quietly hope consciousness does something physical.
+            Some observer-centered frameworks quietly hope consciousness does something physical.
             Holos formally bets that it does not, and stakes itself on the bet. A century of
             placing ever-larger systems into superposition has found no such deviation; Holos
             treats that record not as an embarrassment to explain away, but as its own prediction,
@@ -747,8 +742,7 @@ export default function Predictions() {
           <p className="leading-relaxed">
             Earlier versions of this page proposed two further experiments as confirmations: a sharp
             integration drop under anesthesia, and cultured neural networks snapping into coherence
-            as connectivity grows. Both are retired here as tests, and it is worth being explicit
-            about why: the reasoning is a useful guard against self-deception.
+            as connectivity grows. Both are retired here as tests.
           </p>
 
           <p className="leading-relaxed">
@@ -919,7 +913,7 @@ export default function Predictions() {
                 gravitational lensing
               </a>
               , precision mass mapping, and waste-heat surveys rather than radio searches.
-              Infrared searches for exactly this signature already exist; the honest search
+              Infrared searches for exactly this signature already exist; the unavoidable search
               channel is warmth plus weight, not messages.
             </p>
 
@@ -955,8 +949,8 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                Not a star-enclosing megastructure. Not bright sprawl. The Holocore concentrates
-                energy density rather than surface area, converting mass into stable, controlled
+                Not a star-enclosing megastructure: the Holocore concentrates energy density
+                rather than surface area, converting mass into stable, controlled
                 output through tightly regulated accretion, fusion, or rotational extraction.
               </p>
 
@@ -1041,8 +1035,8 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                Not a library. Not a backup. A continuity anchor: “If we wake up in 100,000 years,
-                how do we know who we are?”
+                Not a library or a backup, but a continuity anchor: “If we wake up in 100,000
+                years, how do we know who we are?”
               </p>
 
               <h5 className="font-semibold text-black/90">Purpose</h5>
@@ -1203,8 +1197,8 @@ export default function Predictions() {
               </div>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                Past H3, exploration scales through patience, not presence. Sentinel probes exist to
-                watch, not to arrive.
+                Past H3, exploration scales through patience: sentinel probes exist to watch, not
+                to arrive.
               </p>
             </div>
 

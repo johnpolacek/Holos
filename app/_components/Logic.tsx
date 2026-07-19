@@ -16,10 +16,9 @@ export default function Logic() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             Holos starts from a small set of commitments. Everything else in the framework is an
-            attempt to spell them out without adding new forces or new equations. Two commitments
-            are genuine additions to the physical picture: the integration threshold, and the
-            totality. Neither is a new dynamical law, but both are new structural claims, and Holos
-            owns them as such rather than claiming to add nothing.
+            attempt to spell them out. Two commitments are genuine additions to the physical
+            picture: the integration threshold, and the totality. Neither is a new dynamical law,
+            but both are new structural claims.
           </p>
 
           <ul className="flex flex-col gap-3 pl-6 list-disc">
@@ -101,8 +100,8 @@ export default function Logic() {
           </ul>
 
           <p className="leading-relaxed pt-2">
-            Holos is an interpretive framework. It does not change any equations. It changes what
-            counts as a complete account by requiring observation as a closure condition.
+            Holos is an interpretive framework. It changes what counts as a complete account by
+            requiring observation as a closure condition.
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
@@ -466,23 +465,20 @@ export default function Logic() {
             with Φ greater than zero. Holos adopts neither claim. In this framework, Φ is a
             structural measure of integration, and the threshold{" "}
             <MathInline>{"\\Phi_c"}</MathInline>, below which there is no experience at all, is a
-            commitment of Holos, not of IIT. Nothing in the framework depends on IIT&apos;s ontology
-            of intrinsic existence.
+            commitment of Holos, not of IIT.
           </p>
 
           <p className="leading-relaxed">
             The threshold is one of the two ingredients Holos adds to the physical picture,
             alongside the totality itself. It is not a force, a field, or a modification of any
-            equation. It is a structural fact about where apertures open: a fact physics does not
-            currently contain, and one Holos claims openly rather than smuggling in. Because the
-            fact is structural, it is determinate even when our measures are not: when two
+            equation. It is a structural fact about where apertures open, a fact physics does not
+            currently contain. Because the fact is structural, it is determinate even when our measures are not: when two
             proposals for estimating <MathInline>{"\\Phi"}</MathInline> disagree about a borderline
             system, the system is not half-conscious; our instruments are half-informed.
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            Holos is compatible with multiple proposals for estimating Φ. It does not depend on any
-            one implementation.
+            Holos is compatible with multiple proposals for estimating Φ.
           </p>
         </div>
 
@@ -568,7 +564,7 @@ export default function Logic() {
               bearing on the totality they belong to. Whether apertures can form at scales of
               organization between the ones we know and the totality is left open: Holos neither
               asserts nor excludes such intermediates, and wherever integration reaches a local
-              maximum above the threshold, the same rule applies. One peak, one perspective.
+              maximum above the threshold, the same rule applies.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -601,7 +597,7 @@ export default function Logic() {
             </p>
             <p className="leading-relaxed">
               This preserves locality and avoids faster-than-light signaling. It also avoids
-              claiming any retrocausal communication. The framework is structural, not dynamical.
+              claiming any retrocausal communication.
             </p>
           </div>
 
@@ -686,9 +682,7 @@ export default function Logic() {
               (1957) shows that if probabilities are to be assigned to quantum outcomes at all,
               without contradiction across the different ways the same experiment can be carved
               up, exactly one assignment is possible: the Born rule. The weights are what they
-              are because consistency permits no alternative. This is the framework&apos;s
-              recurring pattern in its strongest known form: structure forced by consistency
-              alone.
+              are because consistency permits no alternative.
             </p>
             <p className="leading-relaxed">
               Holos stops there, and declines a tempting further step. It does not read a
@@ -756,8 +750,8 @@ export default function Logic() {
             </p>
             <p className="leading-relaxed">
               The important point is not the metaphysics of time. The point is that a consistent
-              spacetime description does not automatically include presence. Holos adds no new
-              dynamics. It adds a closure requirement.
+              spacetime description does not automatically include presence. What Holos adds is a
+              closure requirement.
             </p>
           </div>
 
@@ -778,10 +772,10 @@ export default function Logic() {
               </li>
             </ul>
             <p className="leading-relaxed pt-3">
-              What Holos <strong>does</strong> add is exactly two things: the integration threshold{" "}
+              What Holos <strong>does</strong> add is two things: the integration threshold{" "}
               <MathInline>{"\\Phi_c"}</MathInline>, and the totality, Omega, as the fundamental
-              ground of experience. No new equations, no new forces: two structural claims about
-              what experience is and where it occurs.
+              ground of experience. Two structural claims about what experience is and where it
+              occurs.
             </p>
 
             <p className="leading-relaxed">
@@ -814,9 +808,8 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              The count therefore stays at two, but honestly now: the bridge&apos;s analytic
-              core costs nothing, and its substantive half is defended by argument and exposed
-              to failure. It would fail if something could host a unified perspective while its
+              The count therefore stays at two. The bridge&apos;s analytic core costs nothing;
+              its substantive half can fail. It would fail if something could host a unified perspective while its
               parts remained independent, a conscious screen. And its precise content waits on
               the open problem of the measure: until the right measure of integration is
               identified, &quot;parts making a difference to one another&quot; is an argued
@@ -933,7 +926,7 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              The symbol <strong>⊛</strong> is defined, and defined modestly: <MathInline>{"C ⊛ O"}</MathInline>{" "}
+              The symbol <strong>⊛</strong> is defined as composition: <MathInline>{"C ⊛ O"}</MathInline>{" "}
               is the composite operation “generate, then register.” Applied to a state{" "}
               <MathInline>{"S"}</MathInline>, it reads{" "}
               <MathInline>{"R = O(C(S))"}</MathInline>, the same composition used in the iteration
@@ -942,8 +935,7 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              Holos claims no exotic algebraic properties for ⊛ beyond this. What the symbol adds
-              is not mathematics but ontology: the claim that both steps are required for a
+              What the symbol adds is not mathematics but ontology: the claim that both steps are required for a
               realized world, and that neither step alone yields one.
             </p>
           </div>
@@ -1030,8 +1022,7 @@ export default function Logic() {
             <p className="leading-relaxed">
               In the language of the commitments: short of the Omega limit, structural facts and
               registered facts remain distinct layers (structure absolute, registration indexed to
-              observers). At the limit, the distinction closes. What is consistent and what is
-              registered coincide.
+              observers). At the limit, what is consistent and what is registered coincide.
             </p>
 
             <p className="leading-relaxed">
@@ -1090,8 +1081,8 @@ export default function Logic() {
               Different traditions have described this whole in different vocabularies: Advaita
               Vedanta&apos;s one experiencer behind every eye, Spinoza&apos;s single substance,
               Berkeley&apos;s never-absent perceiver, panentheism&apos;s world contained in the
-              divine. Holos names these as ancestors, not curiosities. The monist reading it adopts
-              stands in their line, restated in informational terms.
+              divine. The monist reading Holos adopts stands in their line, restated in
+              informational terms.
             </p>
 
             <p className="leading-relaxed">
@@ -1135,8 +1126,7 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              The commitment this incurs is stated rather than hidden. Regions of reality that
-              never form an aperture are genuine limits on the totality&apos;s experiential reach:
+              Regions of reality that never form an aperture are genuine limits on the totality&apos;s experiential reach:
               unlit structure, real as pattern and never lived. Holos does not soften this into a
               faint universal experience; doing so would erase the distinction between lit and
               unlit on which the rest of the framework depends.
@@ -1188,8 +1178,7 @@ export default function Logic() {
               Nor does this reduce the oneness to a label doing no work. The structural walls
               explain the plurality; the unity explains what the plurality cannot: why records
               agree wherever apertures meet (openings of one totality cannot disagree with
-              itself), and why there is presence at all rather than structure alone. Division of
-              labor, not redundancy.
+              itself), and why there is presence at all rather than structure alone.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -1209,8 +1198,7 @@ export default function Logic() {
 
         <div className="flex flex-col gap-5 text-black/80">
           <p className="leading-relaxed">
-            Holos states its limits as plainly as its claims. Four problems sit at the center of
-            the framework and remain open. They are named here rather than papered over.
+            Four problems sit at the center of the framework and remain open.
           </p>
 
           <div className="flex flex-col gap-3">
@@ -1306,7 +1294,7 @@ export default function Logic() {
               the threshold and validates the measure at the same time.
             </p>
             <p className="leading-relaxed">
-              Two honesty conditions bound the program. First, its anchor is report: the human
+              Two conditions bound the program. First, its anchor is report: the human
               case is the one place inside access exists, so the threshold is located relative to
               us and carried outward by the measure, with certainty that weakens as the cases grow
               alien. That is the shape of all consciousness science, not a defect peculiar to

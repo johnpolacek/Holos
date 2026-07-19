@@ -469,7 +469,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dyson sphere",
             url: "https://en.wikipedia.org/wiki/Dyson_sphere",
             description:
-              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies: waste heat, not visible structure, is the honest search target.",
+              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies: waste heat, not visible structure, is the unavoidable search target.",
           },
           {
             name: "Brane cosmology",
@@ -645,19 +645,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Metastable DE / Axion-like DM (2024)",
             url: "https://arxiv.org/abs/2403.04970",
             description:
-              "Phase-transition model: metastable dark energy decaying into axion-like dark matter (m ~ 10^-13 GeV). Cited as active cosmology; no Holos claim rides on it.",
+              "Phase-transition model: metastable dark energy decaying into axion-like dark matter (m ~ 10^-13 GeV).",
           },
           {
             name: "Dark Energy Survey (DES) Final Analysis (Jan 2026)",
             url: "https://www.darkenergysurvey.org/",
             description:
-              "The Jan 22, 2026 DES final 6-year analysis reports tension between standard predictions and galaxy clustering. An open question in cosmology; Holos offers no interpretation of it.",
+              "The Jan 22, 2026 DES final 6-year analysis reports tension between standard predictions and galaxy clustering. An open question in cosmology.",
           },
           {
             name: "JWST COSMOS-Web (Jan 26, 2026)",
             url: "https://arxiv.org/abs/2601.17239",
             description:
-              "High-resolution mapping reveals small-scale structure along dark-matter filaments. Under active study, with viable conventional explanations; Holos claims no anomaly here.",
+              "High-resolution mapping reveals small-scale structure along dark-matter filaments. Under active study, with viable conventional explanations.",
           },
           {
             name: "Bekenstein, J. (2003)",
@@ -880,7 +880,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Gleason's theorem",
             url: "https://en.wikipedia.org/wiki/Gleason%27s_theorem",
             description:
-              "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form: exactly one weighting is possible. For Holos, the strongest known instance of its recurring pattern: structure forced by consistency alone. Its assumptions remain debated; Holos adds no new mathematics.",
+              "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form: exactly one weighting is possible. Its assumptions remain debated; Holos adds no new mathematics.",
           },
           {
             name: "Ontology",
@@ -900,7 +900,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Functor",
             url: "https://en.wikipedia.org/wiki/Functor",
             description:
-              "Category-theoretic background. Holos does not claim ⊛ is an endofunctor: ⊛ is defined modestly as ordinary composition (generate, then register: R = O(C(S))), with no exotic algebraic properties claimed.",
+              "Category-theoretic background. Holos does not claim ⊛ is an endofunctor: ⊛ is ordinary composition (generate, then register: R = O(C(S))), with no exotic algebraic properties claimed.",
           },
           {
             name: "Information Theory",
@@ -1192,7 +1192,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Fermi paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "Holos resolution: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the honest observables are gravity and waste heat.",
+              "Holos resolution: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
           },
           {
             name: "Weakly interacting massive particles (WIMPs)",
