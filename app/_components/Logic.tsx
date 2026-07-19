@@ -701,19 +701,18 @@ export default function Logic() {
               not arise.
             </p>
             <p className="leading-relaxed">
-              Declining that step has a cost, and Holos pays it in the open. With the
-              experiential reading retracted, the framework currently offers no account of what
-              the weight <em>measures</em>. Its form is forced (Gleason), its location is stated
-              (the structural layer, alongside the laws), but a number can have a mandatory form
-              and a definite address and still lack an interpretation. Candidate readings exist:
-              a primitive physical magnitude of branches, needing no translation into anything
-              else, as mass needs none; or the rational credence of an observer uncertain which
-              branch they are in. Holos endorses neither yet. What the weight means is recorded
-              among the framework&apos;s{" "}
+              Declining that step leaves a gap. With the experiential reading retracted, the
+              framework currently offers no account of what the weight <em>measures</em>. Its
+              form is forced (Gleason), its location is stated (the structural layer, alongside
+              the laws), but a number can have a mandatory form and a definite address and still
+              lack an interpretation. Candidate readings exist: a primitive physical magnitude
+              of branches, needing no translation into anything else, as mass needs none; or the
+              rational credence of an observer uncertain which branch they are in. Holos
+              endorses neither yet. What the weight means is recorded among the framework&apos;s{" "}
               <a href="#open-problems" className="underline hover:no-underline">
                 Open Problems
-              </a>{" "}
-              rather than papered over with a choice made too early.
+              </a>
+              .
             </p>
 
             <p className="leading-relaxed">
