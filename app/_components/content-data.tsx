@@ -22,24 +22,24 @@ export const sections: ContentSection[] = [
         purpose? <em>What does it mean to be real?</em>
       </>,
       <>
-        Holos is an interpretive framework built on a single idea: a universe is not complete
-        until it is witnessed. At its core is one expression,{" "}
-        <MathInline>R = C ⊛ O</MathInline>. Creation generates physical possibilities. Observation
-        registers them as experience. Reality is the closure of the two: not equations alone, and
-        not experience alone, but a world that both exists and is lived.
+        Holos is an interpretive framework built on a single idea: a universe is not complete until
+        it is witnessed. At its core is one expression, <MathInline>R = C ⊛ O</MathInline>. Creation
+        generates physical possibilities. Observation registers them as experience. Reality is the
+        closure of the two: not equations alone, and not experience alone, but a world that both
+        exists and is lived.
       </>,
       <>
-        Holos proposes the addition of two things to physics. First, a threshold:
-        experience appears only where information is integrated tightly enough to form a single
-        point of view. Second, a totality, called Omega, of which every observer, everywhere, is a
-        local aperture. Observation does not cause the universe, its laws, or its history;
-        rather, it is the condition under which a lawful universe becomes a lived one.
+        Holos proposes the addition of two things to physics. First, a threshold: experience appears
+        only where information is integrated tightly enough to form a single point of view. Second,
+        a totality, called Omega, of which every observer, everywhere, is a local aperture.
+        Observation does not cause the universe, its laws, or its history; rather, it is the
+        condition under which a lawful universe becomes a lived one.
       </>,
       <>
-        If Holos is correct, a single conscious moment seals an entire cosmic history as real; the silence
-        of the night sky becomes a prediction rather than a puzzle; and the oldest question of why
-        we are here receives a structural answer. What follows traces those consequences from life
-        and consciousness through spacetime, black holes, and the Teeming Dark to the limits of
+        If Holos is correct, a single conscious moment seals an entire cosmic history as real; the
+        silence of the night sky becomes a prediction rather than a puzzle; and the oldest question
+        of why we are here receives a structural answer. What follows traces those consequences from
+        life and consciousness through spacetime, black holes, and the Teeming Dark to the limits of
         reality itself, marking clearly which claims are established physics, which are
         extrapolation, and what would prove the whole thing wrong.
       </>,
@@ -53,11 +53,11 @@ export const sections: ContentSection[] = [
       <>
         Life exists because reality requires observation. In Holos this is grounded from the top
         down: the totality experiences only through the apertures the universe forms, and living,
-        integrated systems are how those apertures open. This is not an anthropic selection claim about why physical
-        constants take certain values, but an ontological claim about how a fully lawful universe
-        becomes present as lived experience at all. Physics describes how structures form and
-        evolve, but description alone does not constitute existence. A universe of equations and
-        spacetime histories is abstract unless something can register that it exists.
+        integrated systems are how those apertures open. This is not an anthropic selection claim
+        about why physical constants take certain values, but an ontological claim about how a fully
+        lawful universe becomes present as lived experience at all. Physics describes how structures
+        form and evolve, but description alone does not constitute existence. A universe of
+        equations and spacetime histories is abstract unless something can register that it exists.
       </>,
       <>
         This idea appears in several places across science and philosophy. The{" "}
@@ -77,12 +77,12 @@ export const sections: ContentSection[] = [
         consciousness that arises within it: not made real at some later moment, but real
         tenselessly, because the history it belongs to contains registration. Holos distinguishes
         two levels here. Closure is binary and branch-level: a history that contains any
-        registration, anywhere along it, is a lived history in its entirety. A single aperture
-        seals its whole branch, from beginning to end. Branches that never form an aperture remain
-        unlit structure, real as pattern but never lived. Witnessing is graded and local: how much
-        of a lived history is experienced in detail scales with the observers it contains. Our
-        branch is not merely sealed; it is densely witnessed. The loop between creation and
-        observation is a relation of dependence, not a process.
+        registration, anywhere along it, is a lived history in its entirety. A single aperture seals
+        its whole branch, from beginning to end. Branches that never form an aperture remain unlit
+        structure, real as pattern but never lived. Witnessing is graded and local: how much of a
+        lived history is experienced in detail scales with the observers it contains. Our branch is
+        not merely sealed; it is densely witnessed. The loop between creation and observation is a
+        relation of dependence, not a process.
       </>,
     ],
   },
@@ -176,13 +176,13 @@ export const sections: ContentSection[] = [
       </>,
       <>
         The threshold itself is sharp, but almost everything near it is not, and Holos separates
-        three things often blurred together. Whether there is anyone home at all is binary: there
-        is no halfway state between something it is like to be a system and nothing at all; a dim
+        three things often blurred together. Whether there is anyone home at all is binary: there is
+        no halfway state between something it is like to be a system and nothing at all; a dim
         experience is still an experience. How rich the experience is, by contrast, is graded: an
         animal, a waking sleeper, or an injured brain may be fully above the threshold with less
-        richness. The dial is turned low, not the switch off. And our ability to locate the threshold
-        is permanently imprecise: real cases near the boundary will always look blurry from
-        outside, a fog on the instruments rather than vagueness in the fact.
+        richness. The dial is turned low, not the switch off. And our ability to locate the
+        threshold is permanently imprecise: real cases near the boundary will always look blurry
+        from outside, a fog on the instruments rather than vagueness in the fact.
       </>,
       <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
@@ -271,10 +271,10 @@ export const sections: ContentSection[] = [
           delayed-choice quantum eraser
         </a>{" "}
         and thought experiments like{" "}
-        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a>{" "}
-        suggest that consistency in physics is enforced globally rather than by simple temporal
-        sequence of events. Together, these results suggest that spacetime, as we describe it, may
-        be an effective structure, but it is also incomplete.
+        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> suggest that
+        consistency in physics is enforced globally rather than by simple temporal sequence of
+        events. Together, these results suggest that spacetime, as we describe it, may be an
+        effective structure, but it is also incomplete.
       </>,
       <>
         If coherence can outrun what four dimensions can support, additional descriptive frameworks
@@ -319,8 +319,8 @@ export const sections: ContentSection[] = [
         mathematical spaces. We simply interact with a restricted subset of them.
       </>,
       <>
-        As systems become more integrated, coherence depends less on spatial separation and more
-        on <a href="https://en.wikipedia.org/wiki/Principle_of_locality">local structure</a>. This can
+        As systems become more integrated, coherence depends less on spatial separation and more on{" "}
+        <a href="https://en.wikipedia.org/wiki/Principle_of_locality">local structure</a>. This can
         be understood as structural reorientation rather than motion. Like modern circuit boards
         stacking layers to shorten paths, integrated systems reduce effective distance without
         violating physical limits. Causality,{" "}
@@ -463,8 +463,9 @@ export const sections: ContentSection[] = [
       <>How far can this idea of structural integration be taken as a thought experiment?</>,
       <>
         If complex systems persist by reducing energy loss and external projection, what would
-        extremely mature forms of organization look like from the outside? If integration continues beyond the phase where electromagnetic
-        signaling is useful, where would such systems be found?
+        extremely mature forms of organization look like from the outside? If integration continues
+        beyond the phase where electromagnetic signaling is useful, where would such systems be
+        found?
       </>,
       <>
         In this view, three-dimensional spacetime functions as a developmental environment.
@@ -484,9 +485,9 @@ export const sections: ContentSection[] = [
         matter by roughly a factor of five.
       </>,
       <>
-        An earlier version of this thought experiment proposed that some dark matter might itself
-        be organized: “ordered dark matter,” mature systems hiding inside the dark-matter census.
-        That proposal is retired here, because the universe&apos;s own timeline rules it out.
+        An earlier version of this thought experiment proposed that some dark matter might itself be
+        organized: “ordered dark matter,” mature systems hiding inside the dark-matter census. That
+        proposal is retired here, because the universe&apos;s own timeline rules it out.
       </>,
       <>
         Dark matter&apos;s fingerprints are visible in the{" "}
@@ -495,10 +496,10 @@ export const sections: ContentSection[] = [
         </a>
         , light released when the universe was 380,000 years old, before a single star had formed.
         The pattern of ripples in that earliest light requires dark matter to have already existed,
-        already outweighing ordinary matter five to one. Life, by contrast, is a latecomer: it
-        needs stars, planets, and heavy elements forged across stellar generations, a wait of at
-        least a billion years. The scaffolding predates the builders. Cosmological dark matter
-        cannot be ancient life, and cannot have been built by it.
+        already outweighing ordinary matter five to one. Life, by contrast, is a latecomer: it needs
+        stars, planets, and heavy elements forged across stellar generations, a wait of at least a
+        billion years. The scaffolding predates the builders. Cosmological dark matter cannot be
+        ancient life, and cannot have been built by it.
       </>,
       <>
         Observation agrees. When galaxy clusters collide, as in the{" "}
@@ -509,50 +510,48 @@ export const sections: ContentSection[] = [
       </>,
       <>
         What survives is the instinct behind the idea: most of what exists does not shine. Mature
-        life would belong to a different dark census, the non-luminous side of{" "}
-        <em>ordinary</em> matter: cold, compact, built structures that emit no visible light while
-        remaining gravitationally present. Two further constraints bound how many there can be.
-        The ordinary-matter books are nearly balanced: the early universe records how much
-        ordinary matter exists in total, and surveys have located almost all of it, so built
-        structures must fit inside a small and shrinking gap in the accounting. And astronomy has
-        already hunted compact dark objects directly, watching millions of stars for the brief
-        gravitational magnification a passing dark mass produces, and found too few to permit a
-        large hidden population. If such structures exist, they are a trace population: rare, not
-        a census. The Teeming Dark was never a claim about tonnage, though. A universe can be
-        poor in hidden mass and still rich in minds.
+        life would belong to a different dark census, the non-luminous side of <em>ordinary</em>{" "}
+        matter: cold, compact, built structures that emit no visible light while remaining
+        gravitationally present. Two further constraints bound how many there can be. The
+        ordinary-matter books are nearly balanced: the early universe records how much ordinary
+        matter exists in total, and surveys have located almost all of it, so built structures must
+        fit inside a small and shrinking gap in the accounting. And astronomy has already hunted
+        compact dark objects directly, watching millions of stars for the brief gravitational
+        magnification a passing dark mass produces, and found too few to permit a large hidden
+        population. If such structures exist, they are a trace population: rare, not a census. The
+        Teeming Dark was never a claim about tonnage, though. A universe can be poor in hidden mass
+        and still rich in minds.
       </>,
       <>
         Thermodynamics then adds a correction, and it must be stated carefully. Anything that
-        computes must shed heat, and the total cannot be canceled; but physics guarantees only
-        that the heat <em>exists</em>, not that it is easy to see. A system chooses the
-        temperature at which it radiates, and one that dumps its heat barely above the cosmic
-        background glows only where the sky already glows. What closes this loophole is the
-        framework&apos;s own thesis: radiating cold requires enormous surfaces (shedding the same
-        power near the background temperature takes a hundred-million-fold more radiating area),
-        and vast sprawl is exactly what integration abandons. Compact and computing means warm
-        above the background. The expectation follows: mature systems should appear as compact
-        masses, dark in visible light, with a faint infrared excess.{" "}
-        <strong>Silent, but warm</strong>.
+        computes must shed heat, and the total cannot be canceled; but physics guarantees only that
+        the heat <em>exists</em>, not that it is easy to see. A system chooses the temperature at
+        which it radiates, and one that dumps its heat barely above the cosmic background glows only
+        where the sky already glows. What closes this loophole is the framework&apos;s own thesis:
+        radiating cold requires enormous surfaces (shedding the same power near the background
+        temperature takes a hundred-million-fold more radiating area), and vast sprawl is exactly
+        what integration abandons. Compact and computing means warm above the background. The
+        expectation follows: mature systems should appear as compact masses, dark in visible light,
+        with a faint infrared excess. <strong>Silent, but warm</strong>.
       </>,
       <>
-        Two honesty notes bound that expectation. First, it is a search channel, not a
-        fingerprint: a compact mass with a faint infrared excess is also what a brown dwarf, a
-        rogue planet, or a cooled stellar remnant looks like, and no instrument reads purpose off
-        a warm dark blob at interstellar distances. The claim is only that if mature life leaves
-        a footprint at all, this channel is where it appears; astronomers already run infrared
-        surveys hunting unexplained warmth, and the Teeming Dark aligns itself with that search
-        rather than with anomalies in dark-matter maps, whose deviations have viable conventional
-        explanations. Second, one escape stays open: a civilization that mostly sleeps, deferring
-        its computing to a colder cosmic future, emits almost nothing while it waits. Holos
-        cannot close that door; it can only note that a sleeping universe and an empty one look
-        alike by design.
+        Two honesty notes bound that expectation. First, it is a search channel, not a fingerprint:
+        a compact mass with a faint infrared excess is also what a brown dwarf, a rogue planet, or a
+        cooled stellar remnant looks like, and no instrument reads purpose off a warm dark blob at
+        interstellar distances. The claim is only that if mature life leaves a footprint at all,
+        this channel is where it appears; astronomers already run infrared surveys hunting
+        unexplained warmth, and the Teeming Dark aligns itself with that search rather than with
+        anomalies in dark-matter maps, whose deviations have viable conventional explanations.
+        Second, one escape stays open: a civilization that mostly sleeps, deferring its computing to
+        a colder cosmic future, emits almost nothing while it waits. Holos cannot close that door;
+        it can only note that a sleeping universe and an empty one look alike by design.
       </>,
       <>
         As a thought experiment, the Teeming Dark reframes what “inhabited” might mean at cosmic
         scale. A universe rich in long-lived, highly integrated systems could appear empty to
-        instruments tuned only to visible light. Silence, in this context, would not signal
-        absence but endurance, and the closest thing to a tell would not be a message, but
-        warmth without brightness.
+        instruments tuned only to visible light. Silence, in this context, would not signal absence
+        but endurance, and the closest thing to a tell would not be a message, but warmth without
+        brightness.
       </>,
     ],
   },
@@ -564,22 +563,23 @@ export const sections: ContentSection[] = [
       <>
         The Omega Point is not introduced as a prediction or goal, and in Holos it is not derived
         from anything else. It is the framework&apos;s fundamental posit: the totality of reality,
-        taken as a single whole. In the monist reading Holos adopts, it is also the one
-        experiencer, of which every finite observer is a local aperture.
+        taken as a single whole. In the monist reading Holos adopts, it is also the one experiencer,
+        of which every finite observer is a local aperture.
       </>,
       <>
         Holos does not alter established physics. Every equation, history and structure remain as
-        physics describes. What it changes is the direction of explanation: rather than building up from finite observers to a limiting whole, Holos
-        begins with the whole and understands each act of observation as the whole registering
-        itself locally. Experience anywhere is evidence of the totality everywhere.
+        physics describes. What it changes is the direction of explanation: rather than building up
+        from finite observers to a limiting whole, Holos begins with the whole and understands each
+        act of observation as the whole registering itself locally. Experience anywhere is evidence
+        of the totality everywhere.
       </>,
       <>
         For any finite system, the Omega Point remains an{" "}
         <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">asymptotic limit</a>: a horizon
         of maximal coherence, causal closure, and internal consistency that no finite structure
         reaches. But the limit status describes our approach, not its reality. The totality is not
-        produced by increasing integration; increasing integration is how parts of the totality
-        come to witness more of it.
+        produced by increasing integration; increasing integration is how parts of the totality come
+        to witness more of it.
       </>,
       <>
         At this limit, the distinction between creation and observation collapses. Nothing remains
@@ -588,19 +588,19 @@ export const sections: ContentSection[] = [
         between what exists and what is experienced.
       </>,
       <>
-        The Omega Point is not an external agent. It does not intervene in events, answer
-        petitions, or direct history from outside; there is no outside for it to stand in. It is
-        the whole itself. Physics does not cause the Omega Point; physics describes the internal
-        structure of it. Consistency among observers is enforced locally (observers who compare
-        records agree), and in the monist reading this is grounded rather than stipulated:
-        apertures of one totality cannot disagree where they meet.
+        The Omega Point is not an external agent. It does not intervene in events, answer petitions,
+        or direct history from outside; there is no outside for it to stand in. It is the whole
+        itself. Physics does not cause the Omega Point; physics describes the internal structure of
+        it. Consistency among observers is enforced locally (observers who compare records agree),
+        and in the monist reading this is grounded rather than stipulated: apertures of one totality
+        cannot disagree where they meet.
       </>,
       <>
         Historically, this is well-trodden ground.{" "}
-        <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches
-        that there is one experiencer, and that each individual consciousness is that one looking
-        through a local form. <a href="https://en.wikipedia.org/wiki/Baruch_Spinoza">Spinoza</a>{" "}
-        described a single substance of which all things are expressions.{" "}
+        <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches that
+        there is one experiencer, and that each individual consciousness is that one looking through
+        a local form. <a href="https://en.wikipedia.org/wiki/Baruch_Spinoza">Spinoza</a> described a
+        single substance of which all things are expressions.{" "}
         <a href="https://en.wikipedia.org/wiki/George_Berkeley">Berkeley</a> grounded the
         persistence of the world in an observer that never looks away. Ideas such as{" "}
         <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
@@ -617,12 +617,12 @@ export const sections: ContentSection[] = [
       <>
         Earlier versions of this framework presented the theological and secular readings as
         interchangeable lenses on the same claim. Holos no longer maintains that neutrality. It
-        takes a position: the totality is not merely a structural limit but the one experiencer,
-        and the direction of dependence runs from the whole to its parts. A purely structural
-        reading, in which Omega is only a mathematical horizon and observers are self-standing,
-        remains available as a weaker interpretation, but it is not the view of this framework.
-        What Holos leaves open is vocabulary, not structure: whether the totality is named God,
-        Brahman, or simply the whole changes nothing about the claim being made.
+        takes a position: the totality is not merely a structural limit but the one experiencer, and
+        the direction of dependence runs from the whole to its parts. A purely structural reading,
+        in which Omega is only a mathematical horizon and observers are self-standing, remains
+        available as a weaker interpretation, but it is not the view of this framework. What Holos
+        leaves open is vocabulary, not structure: whether the totality is named God, Brahman, or
+        simply the whole changes nothing about the claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
@@ -647,11 +647,11 @@ export const sections: ContentSection[] = [
       </>,
       <>
         In Holos, life exists because observation allows reality to close on itself. Conscious
-        systems do not merely occupy the universe. They are the apertures through which the
-        totality experiences itself: the means by which physical possibility becomes
-        reality-as-experienced, as opposed to reality-as-equations. When a system reaches
-        sufficient integration, expressed as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>,
-        interaction is no longer just relational. It becomes perspective.
+        systems do not merely occupy the universe. They are the apertures through which the totality
+        experiences itself: the means by which physical possibility becomes reality-as-experienced,
+        as opposed to reality-as-equations. When a system reaches sufficient integration, expressed
+        as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>, interaction is no longer just
+        relational. It becomes perspective.
         <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
     ],
@@ -683,8 +683,8 @@ export const sections: ContentSection[] = [
         <em>O</em>), wherever observers exist. Applied to a state <em>S</em>, this reads{" "}
         <em>R = O(C(S))</em>: generate, then register. The result is one registered history per
         observing perspective, with nothing erased. Its content is the claim that both steps are
-        required for a realized world. The full treatment is developed in{" "}
-        <a href="/logic">Logic</a>.
+        required for a realized world. The full treatment is developed in <a href="/logic">Logic</a>
+        .
       </>,
     ],
   },

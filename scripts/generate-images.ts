@@ -1,6 +1,6 @@
-import puppeteer from "puppeteer";
 import { writeFileSync } from "fs";
 import { join } from "path";
+import puppeteer from "puppeteer";
 
 async function generateImages() {
   const browser = await puppeteer.launch({
@@ -10,7 +10,7 @@ async function generateImages() {
 
   try {
     const page = await browser.newPage();
-    
+
     // Set viewport to match image dimensions
     await page.setViewport({ width: 1200, height: 630 });
 
@@ -82,10 +82,7 @@ async function generateImages() {
       type: "png",
       clip: { x: 0, y: 0, width: 1200, height: 630 },
     });
-    writeFileSync(
-      join(process.cwd(), "app", "opengraph-image.png"),
-      opengraphBuffer
-    );
+    writeFileSync(join(process.cwd(), "app", "opengraph-image.png"), opengraphBuffer);
     console.log("✓ Generated opengraph-image.png");
 
     // Generate twitter image (same design)
@@ -93,10 +90,7 @@ async function generateImages() {
       type: "png",
       clip: { x: 0, y: 0, width: 1200, height: 630 },
     });
-    writeFileSync(
-      join(process.cwd(), "app", "twitter-image.png"),
-      twitterBuffer
-    );
+    writeFileSync(join(process.cwd(), "app", "twitter-image.png"), twitterBuffer);
     console.log("✓ Generated twitter-image.png");
   } finally {
     await browser.close();

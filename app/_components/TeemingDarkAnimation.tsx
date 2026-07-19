@@ -155,7 +155,8 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
             <strong>The Switch:</strong> We were listening for the wrong signal
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Dark Nodes:</strong> Compact, non-luminous structures: gravitationally present, dark in visible light, faintly warm in the infrared.
+            <strong>Dark Nodes:</strong> Compact, non-luminous structures: gravitationally present,
+            dark in visible light, faintly warm in the infrared.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             The silence is not empty. It is the Teeming Dark.

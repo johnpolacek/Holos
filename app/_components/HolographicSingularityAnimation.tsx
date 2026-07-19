@@ -7,7 +7,9 @@ interface HolographicSingularityAnimationProps {
   isPDF?: boolean;
 }
 
-export default function HolographicSingularityAnimation({ isPDF = false }: HolographicSingularityAnimationProps) {
+export default function HolographicSingularityAnimation({
+  isPDF = false,
+}: HolographicSingularityAnimationProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const timelineRef = useRef<gsap.core.Timeline | null>(null);
@@ -50,7 +52,9 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
     const caption = svg.querySelector("#caption") as SVGTextElement;
     const reconstructionLines = Array.from(svg.querySelectorAll(".reconstruction-line"));
     const reconstructedShapes = Array.from(svg.querySelectorAll(".reconstructed-shape"));
-    const reconstructionLabelGroup = svg.querySelector("#reconstruction-label-group") as SVGGElement;
+    const reconstructionLabelGroup = svg.querySelector(
+      "#reconstruction-label-group"
+    ) as SVGGElement;
 
     // Initial states
     gsap.set(title, { opacity: 0 });
@@ -76,27 +80,35 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
     // Phase 1: Show title and singularity
     tl.add("start")
       .to(title, { opacity: 0.7, duration: 0.5 }, "start")
-      .to(singularity, { 
-        opacity: 1, 
-        scale: 1, 
-        duration: 0.5, 
-        ease: "back.out(1.7)" 
-      }, "start+=0.3")
+      .to(
+        singularity,
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 0.5,
+          ease: "back.out(1.7)",
+        },
+        "start+=0.3"
+      )
       .to(singularityLabel, { opacity: 0.6, duration: 0.4 }, "start+=0.6");
 
     // Phase 2: Draw event horizon
     tl.add("horizon", "+=0.3")
-      .to(eventHorizon, { 
-        opacity: 1, 
-        scale: 1, 
-        duration: 0.8, 
-        ease: "power2.out" 
-      }, "horizon")
+      .to(
+        eventHorizon,
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 0.8,
+          ease: "power2.out",
+        },
+        "horizon"
+      )
       .to(horizonLabel, { opacity: 0.6, duration: 0.4 }, "horizon+=0.5");
 
     // Phase 3: Information packets appear and fall
     tl.add("infall", "+=0.5");
-    
+
     // Animate each packet falling and flattening
     const packetData = [
       { packet: "#packet-1", bit: "#bit-1", delay: 0 },
@@ -108,36 +120,52 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
     packetData.forEach(({ packet, bit, delay }) => {
       const packetEl = svg.querySelector(packet) as SVGGElement;
       const bitEl = svg.querySelector(bit) as SVGElement;
-      
+
       if (packetEl && bitEl) {
         // Show packet
-        tl.to(packetEl, { 
-          opacity: 1, 
-          duration: 0.3 
-        }, `infall+=${delay}`);
-        
+        tl.to(
+          packetEl,
+          {
+            opacity: 1,
+            duration: 0.3,
+          },
+          `infall+=${delay}`
+        );
+
         // Move packet toward center
-        tl.to(packetEl, {
-          x: 0,
-          y: 0,
-          scale: 0.5,
-          duration: 1,
-          ease: "power2.in",
-        }, `infall+=${delay + 0.2}`);
-        
+        tl.to(
+          packetEl,
+          {
+            x: 0,
+            y: 0,
+            scale: 0.5,
+            duration: 1,
+            ease: "power2.in",
+          },
+          `infall+=${delay + 0.2}`
+        );
+
         // Flatten packet (disappear) and show bit on horizon
-        tl.to(packetEl, {
-          opacity: 0,
-          scale: 0,
-          duration: 0.2,
-        }, `infall+=${delay + 1.1}`);
-        
-        tl.to(bitEl, {
-          opacity: 1,
-          scale: 1,
-          duration: 0.3,
-          ease: "back.out(1.7)",
-        }, `infall+=${delay + 1.2}`);
+        tl.to(
+          packetEl,
+          {
+            opacity: 0,
+            scale: 0,
+            duration: 0.2,
+          },
+          `infall+=${delay + 1.1}`
+        );
+
+        tl.to(
+          bitEl,
+          {
+            opacity: 1,
+            scale: 1,
+            duration: 0.3,
+            ease: "back.out(1.7)",
+          },
+          `infall+=${delay + 1.2}`
+        );
       }
     });
 
@@ -147,50 +175,72 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
       .to(phiLabel, { opacity: 0.5, duration: 0.3 }, "observer+=0.2");
 
     // Phase 5: Scanner beams
-    tl.add("scan", "+=0.3")
-      .to(scannerBeams, { 
-        opacity: 0.5, 
-        duration: 0.5, 
-        stagger: 0.1 
-      }, "scan");
+    tl.add("scan", "+=0.3").to(
+      scannerBeams,
+      {
+        opacity: 0.5,
+        duration: 0.5,
+        stagger: 0.1,
+      },
+      "scan"
+    );
 
     // Phase 6: Bits pulse and reconstruction happens
     tl.add("reconstruct", "+=0.3")
       // Pulse the bits
-      .to(bits, {
-        scale: 1.5,
-        duration: 0.3,
-        stagger: 0.1,
-        ease: "power2.out",
-      }, "reconstruct")
-      .to(bits, {
-        scale: 1,
-        duration: 0.2,
-        stagger: 0.1,
-      }, "reconstruct+=0.4")
+      .to(
+        bits,
+        {
+          scale: 1.5,
+          duration: 0.3,
+          stagger: 0.1,
+          ease: "power2.out",
+        },
+        "reconstruct"
+      )
+      .to(
+        bits,
+        {
+          scale: 1,
+          duration: 0.2,
+          stagger: 0.1,
+        },
+        "reconstruct+=0.4"
+      )
       // Show reconstruction lines
-      .to(reconstructionLines, {
-        opacity: 0.6,
-        duration: 0.4,
-        stagger: 0.1,
-      }, "reconstruct+=0.5")
+      .to(
+        reconstructionLines,
+        {
+          opacity: 0.6,
+          duration: 0.4,
+          stagger: 0.1,
+        },
+        "reconstruct+=0.5"
+      )
       // Show reconstructed shapes inside
-      .to(reconstructedShapes, {
-        opacity: 0.5,
-        scale: 1,
-        duration: 0.5,
-        stagger: 0.15,
-        ease: "back.out(1.2)",
-      }, "reconstruct+=0.8")
+      .to(
+        reconstructedShapes,
+        {
+          opacity: 0.5,
+          scale: 1,
+          duration: 0.5,
+          stagger: 0.15,
+          ease: "back.out(1.2)",
+        },
+        "reconstruct+=0.8"
+      )
       // Show reconstruction label
-      .to(reconstructionLabelGroup, {
-        opacity: 0.7,
-        duration: 0.4,
-      }, "reconstruct+=1.2");
+      .to(
+        reconstructionLabelGroup,
+        {
+          opacity: 0.7,
+          duration: 0.4,
+        },
+        "reconstruct+=1.2"
+      );
 
     // Phase 7: Show caption
-    tl.add("caption", "+=0.3")
-      .to(caption, { opacity: 0.8, duration: 0.5 }, "caption");
+    tl.add("caption", "+=0.3").to(caption, { opacity: 0.8, duration: 0.5 }, "caption");
 
     // Hold
     tl.to({}, { duration: 2.5 });
@@ -198,9 +248,22 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
     // Reset
     tl.add("reset")
       .to(
-        [title, singularity, singularityLabel, eventHorizon, horizonLabel,
-         ...packets, ...bits, phiSymbol, phiLabel, ...scannerBeams, caption,
-         ...reconstructionLines, ...reconstructedShapes, reconstructionLabelGroup],
+        [
+          title,
+          singularity,
+          singularityLabel,
+          eventHorizon,
+          horizonLabel,
+          ...packets,
+          ...bits,
+          phiSymbol,
+          phiLabel,
+          ...scannerBeams,
+          caption,
+          ...reconstructionLines,
+          ...reconstructedShapes,
+          reconstructionLabelGroup,
+        ],
         { opacity: 0, duration: 0.5 },
         "reset"
       )
@@ -262,9 +325,9 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
         The Holographic Event Horizon animation shows a black hole with a singularity at the center
         and an event horizon circle around it. 3D information packets (cubes and spheres) fall
         toward the singularity but are flattened into 2D bits that attach to the event horizon
-        surface. A Φ symbol represents a higher-dimensional observer who scans the horizon,
-        causing the bits to pulse and project inward, revealing ghostly reconstructions of the
-        original shapes inside the circle.
+        surface. A Φ symbol represents a higher-dimensional observer who scans the horizon, causing
+        the bits to pulse and project inward, revealing ghostly reconstructions of the original
+        shapes inside the circle.
       </figcaption>
       <svg
         ref={svgRef}
@@ -353,8 +416,22 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
             strokeWidth="1.5"
             strokeDasharray="3 2"
           />
-          <line x1="275" y1="160" x2="285" y2="150" stroke="rgba(60, 60, 60, 0.6)" strokeWidth="1" />
-          <line x1="285" y1="160" x2="295" y2="150" stroke="rgba(60, 60, 60, 0.6)" strokeWidth="1" />
+          <line
+            x1="275"
+            y1="160"
+            x2="285"
+            y2="150"
+            stroke="rgba(60, 60, 60, 0.6)"
+            strokeWidth="1"
+          />
+          <line
+            x1="285"
+            y1="160"
+            x2="295"
+            y2="150"
+            stroke="rgba(60, 60, 60, 0.6)"
+            strokeWidth="1"
+          />
         </g>
 
         {/* Packet 2 - sphere from top-right */}
@@ -501,8 +578,22 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
             stroke="rgba(60, 60, 60, 0.4)"
             strokeWidth="1"
           />
-          <line x1="233" y1="123" x2="240" y2="116" stroke="rgba(60, 60, 60, 0.3)" strokeWidth="0.5" />
-          <line x1="240" y1="123" x2="247" y2="116" stroke="rgba(60, 60, 60, 0.3)" strokeWidth="0.5" />
+          <line
+            x1="233"
+            y1="123"
+            x2="240"
+            y2="116"
+            stroke="rgba(60, 60, 60, 0.3)"
+            strokeWidth="0.5"
+          />
+          <line
+            x1="240"
+            y1="123"
+            x2="247"
+            y2="116"
+            stroke="rgba(60, 60, 60, 0.3)"
+            strokeWidth="0.5"
+          />
         </g>
 
         {/* Reconstructed sphere 2 - top right inside */}

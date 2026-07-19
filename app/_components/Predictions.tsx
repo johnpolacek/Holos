@@ -25,11 +25,11 @@ export default function Predictions() {
             >
               dynamical laws
             </a>{" "}
-            or modify the equations of physics. It adds two ingredients beyond them: the
-            integration threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about
-            where observation occurs, and the totality, Omega, as the fundamental ground of
-            experience, of which every observer is a local aperture. Every claim below follows
-            either from established physics or from those two additions.
+            or modify the equations of physics. It adds two ingredients beyond them: the integration
+            threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about where
+            observation occurs, and the totality, Omega, as the fundamental ground of experience, of
+            which every observer is a local aperture. Every claim below follows either from
+            established physics or from those two additions.
           </p>
 
           <p className="leading-relaxed">
@@ -47,9 +47,9 @@ export default function Predictions() {
               quantum foundations, and cosmology if those commitments are right.
             </li>
             <li className="leading-relaxed">
-              <strong>Testability and its limits:</strong> what cannot be tested (presence
-              itself), the structural predictions that can fail, and a standing bet that could
-              falsify the framework outright.
+              <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
+              the structural predictions that can fail, and a standing bet that could falsify the
+              framework outright.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
@@ -125,9 +125,9 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Closure has two levels. <strong>Sealing</strong> is binary and branch-wide: a
-              history that contains any registration, anywhere along it, is a lived history in its
-              entirety; in the monist reading, it is one the totality experiences through. A branch or
+              Closure has two levels. <strong>Sealing</strong> is binary and branch-wide: a history
+              that contains any registration, anywhere along it, is a lived history in its entirety;
+              in the monist reading, it is one the totality experiences through. A branch or
               universe that never forms an aperture is structure that is never lived.{" "}
               <strong>Witnessing</strong> is graded and local: how much of a lived history is
               experienced in detail scales with the observers it contains. One observer seals a
@@ -171,12 +171,12 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Two consequences follow. First, there are no dark duplicates: because crossing the
-              threshold is a structural fact, any system wired as an observer necessarily is one:
-              a physically identical copy of an observer cannot lack experience. Second, the
-              threshold is sharp while its surroundings are not. Whether there is experience at all
-              is binary; how rich the experience is, is graded above the line; and locating the
-              boundary by measurement is permanently imprecise. The fuzziness of real cases lives
-              in richness and in our instruments, not in whether anyone is home.
+              threshold is a structural fact, any system wired as an observer necessarily is one: a
+              physically identical copy of an observer cannot lack experience. Second, the threshold
+              is sharp while its surroundings are not. Whether there is experience at all is binary;
+              how rich the experience is, is graded above the line; and locating the boundary by
+              measurement is permanently imprecise. The fuzziness of real cases lives in richness
+              and in our instruments, not in whether anyone is home.
             </p>
           </div>
 
@@ -190,17 +190,16 @@ export default function Predictions() {
               Holos distinguishes two kinds of facts. <strong>Structural facts</strong> describe
               what is consistent: the laws of physics, the space of allowed histories with their
               quantum weights, and whether a system meets the integration threshold. These are
-              absolute and observer-independent.{" "}
-              <strong>Registered facts</strong> describe what is actualized as experience: which
-              outcome a system registers from its own perspective. These are always indexed to
-              observing systems.
+              absolute and observer-independent. <strong>Registered facts</strong> describe what is
+              actualized as experience: which outcome a system registers from its own perspective.
+              These are always indexed to observing systems.
             </p>
 
             <p className="leading-relaxed">
               The relational commitment applies to registered facts. There is no absolute,
-              observer-independent fact about which outcome is experienced. The structural layer,
-              by contrast, is not relative; without it, registration would have nothing stable to
-              close against.
+              observer-independent fact about which outcome is experienced. The structural layer, by
+              contrast, is not relative; without it, registration would have nothing stable to close
+              against.
             </p>
 
             <p className="leading-relaxed">
@@ -208,26 +207,26 @@ export default function Predictions() {
               erased (Axiom 3), so observers never collide over a single shared outcome. Where
               registrations would be incompatible, they belong to different branches of the
               possibility structure, each internally consistent. There is no rule that the first
-              observer fixes the truth for everyone; relativity permits no such “first,” and none
-              is needed.
+              observer fixes the truth for everyone; relativity permits no such “first,” and none is
+              needed.
             </p>
 
             <p className="leading-relaxed">
               Within a branch, consistency is operational rather than abstract: whenever two
-              observers actually compare records, their records agree. Perspectives may differ
-              while separated; communication forces agreement. This is the checkable content of
-              “global consistency.” In the monist reading it is also grounded: apertures of one
-              totality cannot disagree where they meet.
+              observers actually compare records, their records agree. Perspectives may differ while
+              separated; communication forces agreement. This is the checkable content of “global
+              consistency.” In the monist reading it is also grounded: apertures of one totality
+              cannot disagree where they meet.
             </p>
 
             <p className="leading-relaxed">
               Branches are weighted, not merely counted. The statistics every observer records
               follow the Born rule, the unique self-consistent weighting of quantum outcomes
               (Gleason&apos;s theorem). Those weights are structural facts about the possibility
-              space, not a measure of how much experience a branch carries. What the weight
-              itself measures, Holos records as an open problem rather than resolving by fiat,
-              and it claims no derivation of expectation from branching, a puzzle it inherits
-              from every no-collapse account rather than one it creates. See{" "}
+              space, not a measure of how much experience a branch carries. What the weight itself
+              measures, Holos records as an open problem rather than resolving by fiat, and it
+              claims no derivation of expectation from branching, a puzzle it inherits from every
+              no-collapse account rather than one it creates. See{" "}
               <a href="/logic#relationship-to-physics" className="underline hover:no-underline">
                 Logic
               </a>{" "}
@@ -267,8 +266,8 @@ export default function Predictions() {
         <div className="flex flex-col gap-8 text-black/80">
           <p className="leading-relaxed">
             These expectations describe what should be observed in existing domains if the
-            commitments of Holos are correct. Persistent failure
-            across domains would undermine the framework.
+            commitments of Holos are correct. Persistent failure across domains would undermine the
+            framework.
           </p>
 
           {/* Neuroscience */}
@@ -323,8 +322,8 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Holos therefore aligns with relational approaches in which states are not absolute
-              properties, but facts relative to observing systems, and with branching approaches
-              in which no possibility is erased. The operational signature is agreement: whenever
+              properties, but facts relative to observing systems, and with branching approaches in
+              which no possibility is erased. The operational signature is agreement: whenever
               observers within a branch compare records, the records match. A confirmed,
               irreconcilable record mismatch between communicating observers would falsify this
               commitment.
@@ -345,11 +344,11 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Observer-incompatible universes may exist as valid physical structures while never
-              being lived: with no apertures, the totality has no opening into them, and they
-              remain unlit structure. The nearest examples are not exotic: under the branching
-              picture, observer-free branches of our own universe are unlit structure in exactly
-              the same sense. Anthropic reasoning is therefore reframed as ontological filtering
-              rather than selection.
+              being lived: with no apertures, the totality has no opening into them, and they remain
+              unlit structure. The nearest examples are not exotic: under the branching picture,
+              observer-free branches of our own universe are unlit structure in exactly the same
+              sense. Anthropic reasoning is therefore reframed as ontological filtering rather than
+              selection.
             </p>
           </div>
 
@@ -395,21 +394,21 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             The central claim of Holos is that observation is a closure condition, not a force: it
-            changes no equation and moves nothing. But every
-            experiment is a physical measurement, and an instrument only ever registers physical
-            change. So <strong>presence itself cannot be detected directly</strong>. An instrument
-            that finds nothing extra is exactly what Holos predicts, because there is nothing extra
-            to find: presence is what the physics is like from the inside, not an additional signal
-            beside it.
+            changes no equation and moves nothing. But every experiment is a physical measurement,
+            and an instrument only ever registers physical change. So{" "}
+            <strong>presence itself cannot be detected directly</strong>. An instrument that finds
+            nothing extra is exactly what Holos predicts, because there is nothing extra to find:
+            presence is what the physics is like from the inside, not an additional signal beside
+            it.
           </p>
 
           <p className="leading-relaxed">
             This is not a gap Holos has failed to close. It follows from the framework&apos;s own
             commitment that observation is dynamically inert. The sharpened form of the objection is
-            the <em>unfolding argument</em>: for any conscious system one can in principle describe a
-            behaviorally identical twin wired differently, and no external test could separate them.
-            Holos accepts this. The metaphysical core (presence, and the totality it belongs to) is
-            not empirically decidable.
+            the <em>unfolding argument</em>: for any conscious system one can in principle describe
+            a behaviorally identical twin wired differently, and no external test could separate
+            them. Holos accepts this. The metaphysical core (presence, and the totality it belongs
+            to) is not empirically decidable.
           </p>
 
           <p className="leading-relaxed">
@@ -418,8 +417,8 @@ export default function Predictions() {
             the physical world and can genuinely fail. Two are worth stating, each with an explicit
             way for Holos to lose. A prediction Holos shares with rival theories cannot single it
             out, but a shared prediction it could fail is still worth more than one it cannot.
-            Beneath both sits a standing bet, stated after the tests, on which the framework
-            stakes itself outright.
+            Beneath both sits a standing bet, stated after the tests, on which the framework stakes
+            itself outright.
           </p>
         </div>
       </section>
@@ -501,7 +500,9 @@ export default function Predictions() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-black/90 mb-1">The confound, and which half survives</h4>
+            <h4 className="font-semibold text-black/90 mb-1">
+              The confound, and which half survives
+            </h4>
             <p className="leading-relaxed">
               Reports require memory, and the states this test targets are precisely those where
               memory is least reliable. A report of nothing is therefore ambiguous between{" "}
@@ -526,9 +527,9 @@ export default function Predictions() {
             condition, not presence itself. It cannot prove an integrated system <em>is</em> an
             observer, only whether integration is what experience depends on. Holos shares this
             prediction with other integration-based accounts of consciousness; it is a test Holos
-            could fail, not a signature unique to Holos. It also doubles as the calibration
-            engine for the framework&apos;s open problems: the same data that test the claim
-            locate the threshold and cull the candidate measures (see{" "}
+            could fail, not a signature unique to Holos. It also doubles as the calibration engine
+            for the framework&apos;s open problems: the same data that test the claim locate the
+            threshold and cull the candidate measures (see{" "}
             <a href="/logic#path-to-threshold" className="underline hover:no-underline">
               A path to the threshold
             </a>
@@ -552,11 +553,10 @@ export default function Predictions() {
             This test lives in quantum foundations, not in the theory of mind, and its limit comes
             first: the outcome it anticipates is also the outcome textbook quantum mechanics
             anticipates. That incompatible measurement contexts cannot in general be stitched into
-            one observer-independent account is a theorem of the formalism. What experiments in
-            this family probe is the family of interpretations Holos belongs to (branching,
-            relational, no absolute observed events), not Holos alone. The framework&apos;s
-            distinctive content, which structures are present as experience, is ontological rather
-            than experimental.
+            one observer-independent account is a theorem of the formalism. What experiments in this
+            family probe is the family of interpretations Holos belongs to (branching, relational,
+            no absolute observed events), not Holos alone. The framework&apos;s distinctive content,
+            which structures are present as experience, is ontological rather than experimental.
           </p>
 
           <p className="leading-relaxed">
@@ -577,8 +577,8 @@ export default function Predictions() {
 
           <p className="leading-relaxed">
             One caveat follows from Holos&apos;s own threshold: the &quot;friends&quot; in current
-            photonic tests are far below <MathInline>{"\\Phi_c"}</MathInline> and register
-            nothing, so these experiments constrain the logical structure of observed events, not
+            photonic tests are far below <MathInline>{"\\Phi_c"}</MathInline> and register nothing,
+            so these experiments constrain the logical structure of observed events, not
             registration itself. Holos predicts that repeating them with genuine observers would
             change nothing physical, a prediction formalized as the standing bet below.
           </p>
@@ -704,9 +704,9 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            The commitment that observation is dynamically inert doubles as a bet. A
-            conscious observer and a photon produce identical physics: put an integrated system in
-            the measuring role in place of a particle, and Holos predicts no deviation whatsoever.
+            The commitment that observation is dynamically inert doubles as a bet. A conscious
+            observer and a photon produce identical physics: put an integrated system in the
+            measuring role in place of a particle, and Holos predicts no deviation whatsoever.
             Superpositions decohere for thermodynamic reasons, never because someone was home.
           </p>
 
@@ -714,16 +714,16 @@ export default function Predictions() {
             <strong>How Holos loses:</strong> if any experiment ever finds a consciousness-linked
             deviation from unitary quantum mechanics (a superposition that degrades when an
             integrated observer registers it, beyond what ordinary decoherence accounts for), the
-            framework is falsified outright. Observation would be a force after all, and every
-            page of Holos denies that it is one.
+            framework is falsified outright. Observation would be a force after all, and every page
+            of Holos denies that it is one.
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
             Some observer-centered frameworks quietly hope consciousness does something physical.
-            Holos formally bets that it does not, and stakes itself on the bet. A century of
-            placing ever-larger systems into superposition has found no such deviation; Holos
-            treats that record not as an embarrassment to explain away, but as its own prediction,
-            confirmed so far.
+            Holos formally bets that it does not, and stakes itself on the bet. A century of placing
+            ever-larger systems into superposition has found no such deviation; Holos treats that
+            record not as an embarrassment to explain away, but as its own prediction, confirmed so
+            far.
           </p>
         </div>
       </section>
@@ -747,9 +747,9 @@ export default function Predictions() {
 
           <p className="leading-relaxed">
             A sharp transition at loss of consciousness is predicted by ordinary physicalist models
-            too (bifurcations, ignition, up/down states), so observing one confirms nothing
-            specific to Holos. And a cultured network almost <em>always</em> shows some nonlinear
-            transition (synchronization, criticality, and avalanches are routine dish behavior), so an
+            too (bifurcations, ignition, up/down states), so observing one confirms nothing specific
+            to Holos. And a cultured network almost <em>always</em> shows some nonlinear transition
+            (synchronization, criticality, and avalanches are routine dish behavior), so an
             experiment that counts any such transition as success cannot fail, and an experiment
             that cannot fail proves nothing when it passes.
           </p>
@@ -758,9 +758,9 @@ export default function Predictions() {
             These remain useful only as <strong>correlate probes</strong> feeding Test A, and only
             under two conditions: the integration measure and the threshold value are fixed in
             advance, and there is a stated way to lose: the observed transition tracks a
-            non-integration variable (arousal, metabolic rate, raw activity) rather than integration.
-            Without a pre-committed measure and a real failure condition, a transition &quot;somewhere&quot;
-            is not evidence; it is decoration.
+            non-integration variable (arousal, metabolic rate, raw activity) rather than
+            integration. Without a pre-committed measure and a real failure condition, a transition
+            &quot;somewhere&quot; is not evidence; it is decoration.
           </p>
         </div>
       </section>
@@ -863,9 +863,9 @@ export default function Predictions() {
 
             <p className="leading-relaxed text-black/70 text-sm">
               This scale is intentionally “quiet.” If it is even partly right, the most advanced
-              civilizations get harder to see in light, not easier. Thermodynamics guarantees
-              their heat exists; it is their own compactness that keeps that heat above the
-              cosmic background and, in principle, findable.
+              civilizations get harder to see in light, not easier. Thermodynamics guarantees their
+              heat exists; it is their own compactness that keeps that heat above the cosmic
+              background and, in principle, findable.
             </p>
           </div>
 
@@ -883,14 +883,13 @@ export default function Predictions() {
               increasingly optimized and less obvious radiative signatures.
             </p>
             <p className="leading-relaxed">
-              One caveat is non-negotiable: visibility collapse applies to light, not heat.
-              Anything that computes must shed waste heat, and the total cannot be canceled.
-              Heat can be hidden in only one way: radiated barely above the cosmic background,
-              which requires radiating surfaces so vast they contradict compactness itself. A
-              civilization that stays compact and keeps computing stays warm above the
-              background. Mature systems become silent, not cold; the one exception is systems
-              that stop computing and sleep, and a sleeping civilization is indistinguishable
-              from none at all.
+              One caveat is non-negotiable: visibility collapse applies to light, not heat. Anything
+              that computes must shed waste heat, and the total cannot be canceled. Heat can be
+              hidden in only one way: radiated barely above the cosmic background, which requires
+              radiating surfaces so vast they contradict compactness itself. A civilization that
+              stays compact and keeps computing stays warm above the background. Mature systems
+              become silent, not cold; the one exception is systems that stop computing and sleep,
+              and a sleeping civilization is indistinguishable from none at all.
             </p>
           </div>
 
@@ -917,22 +916,22 @@ export default function Predictions() {
               >
                 gravitational lensing
               </a>
-              , precision mass mapping, and waste-heat surveys rather than radio searches.
-              Infrared searches for exactly this signature already exist; the unavoidable search
-              channel is warmth plus weight, not messages.
+              , precision mass mapping, and waste-heat surveys rather than radio searches. Infrared
+              searches for exactly this signature already exist; the unavoidable search channel is
+              warmth plus weight, not messages.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
               A Dark Node is <em>not</em> dark matter in the cosmologist&apos;s sense: cosmological
-              dark matter predates stars, chemistry, and any possible builder, and shows no
-              internal organization in cluster collisions. Nodes are ordinary matter that has
-              stopped shining. Holos does not claim any known anomaly is a node, only that if
-              long-term integration leaves a footprint, it is gravitational and thermal, and this
-              is where it would show up. Two limits bound the idea. The ordinary-matter budget
-              and microlensing searches permit nodes only as a trace population, not a hidden
-              census. And a node&apos;s observational profile (compact, dark, faintly warm) is
-              shared with brown dwarfs, rogue planets, and cooled stellar remnants, so the Dark
-              Node is a search channel, not a fingerprint.
+              dark matter predates stars, chemistry, and any possible builder, and shows no internal
+              organization in cluster collisions. Nodes are ordinary matter that has stopped
+              shining. Holos does not claim any known anomaly is a node, only that if long-term
+              integration leaves a footprint, it is gravitational and thermal, and this is where it
+              would show up. Two limits bound the idea. The ordinary-matter budget and microlensing
+              searches permit nodes only as a trace population, not a hidden census. And a
+              node&apos;s observational profile (compact, dark, faintly warm) is shared with brown
+              dwarfs, rogue planets, and cooled stellar remnants, so the Dark Node is a search
+              channel, not a fingerprint.
             </p>
           </div>
 
@@ -940,7 +939,9 @@ export default function Predictions() {
           <div id="technology" className="flex flex-col gap-6 pt-4">
             <h2 className="text-2xl sm:text-3xl font-light">Technology</h2>
 
-            <h3 id="mesostructures" className="text-xl font-semibold text-black/90">Mesostructures</h3>
+            <h3 id="mesostructures" className="text-xl font-semibold text-black/90">
+              Mesostructures
+            </h3>
             <p className="leading-relaxed pb-4">
               The structures below are H3–H4 design patterns: compact enough to stay coherent under
               light-lag and thermodynamics, and consequential enough to matter without bright
@@ -954,13 +955,14 @@ export default function Predictions() {
 
               <p className="leading-relaxed">
                 A compact, gravitationally stabilized energy mesostructure designed to supply
-                massive, long-horizon power while exporting waste heat in thermodynamically disciplined ways.
+                massive, long-horizon power while exporting waste heat in thermodynamically
+                disciplined ways.
               </p>
 
               <p className="leading-relaxed">
-                Not a star-enclosing megastructure: the Holocore concentrates energy density
-                rather than surface area, converting mass into stable, controlled
-                output through tightly regulated accretion, fusion, or rotational extraction.
+                Not a star-enclosing megastructure: the Holocore concentrates energy density rather
+                than surface area, converting mass into stable, controlled output through tightly
+                regulated accretion, fusion, or rotational extraction.
               </p>
 
               <h5 className="font-semibold text-black/90">Purpose</h5>
@@ -1028,9 +1030,9 @@ export default function Predictions() {
               </ul>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Note:</strong> The Kernel may <em>present</em> as a Dark Node if
-                coherence optimization suppresses radiative visibility. Node describes appearance,
-                not purpose.
+                <strong>Note:</strong> The Kernel may <em>present</em> as a Dark Node if coherence
+                optimization suppresses radiative visibility. Node describes appearance, not
+                purpose.
               </p>
             </div>
 
@@ -1044,8 +1046,8 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                Not a library or a backup, but a continuity anchor: “If we wake up in 100,000
-                years, how do we know who we are?”
+                Not a library or a backup, but a continuity anchor: “If we wake up in 100,000 years,
+                how do we know who we are?”
               </p>
 
               <h5 className="font-semibold text-black/90">Purpose</h5>
@@ -1070,16 +1072,17 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Note:</strong> The Vault may also <em>present</em> as a Dark Node if
-                its stability strategy drives it to become cold, compact, and electromagnetically
-                quiet.
+                <strong>Note:</strong> The Vault may also <em>present</em> as a Dark Node if its
+                stability strategy drives it to become cold, compact, and electromagnetically quiet.
               </p>
             </div>
           </div>
 
           {/* 4) Exploration + Communication */}
           <div id="exploration-and-communication" className="flex flex-col gap-6">
-            <h3 id="communication" className="text-xl font-semibold text-black/90">Communication</h3>
+            <h3 id="communication" className="text-xl font-semibold text-black/90">
+              Communication
+            </h3>
 
             <p className="leading-relaxed">
               Under known physics, there is no scalable form of real-time interstellar dialogue.
@@ -1130,7 +1133,9 @@ export default function Predictions() {
               </ul>
             </div>
 
-            <h3 id="exploration" className="text-xl font-semibold text-black/90">Exploration</h3>
+            <h3 id="exploration" className="text-xl font-semibold text-black/90">
+              Exploration
+            </h3>
 
             <p className="leading-relaxed">
               At cosmic scales, most structure is mapped remotely and shared through long-horizon
@@ -1206,8 +1211,8 @@ export default function Predictions() {
               </div>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                Past H3, exploration scales through patience: sentinel probes exist to watch, not
-                to arrive.
+                Past H3, exploration scales through patience: sentinel probes exist to watch, not to
+                arrive.
               </p>
             </div>
 

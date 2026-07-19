@@ -7,7 +7,9 @@ interface ShadowProjectionAnimationProps {
   isPDF?: boolean;
 }
 
-export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProjectionAnimationProps) {
+export default function ShadowProjectionAnimation({
+  isPDF = false,
+}: ShadowProjectionAnimationProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const timelineRef = useRef<gsap.core.Timeline | null>(null);
@@ -42,7 +44,9 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
     const tesseract = svg.querySelector("#tesseract") as SVGGElement;
     const tesseractOuter = svg.querySelector("#tesseract-outer") as SVGPathElement;
     const tesseractInner = svg.querySelector("#tesseract-inner") as SVGPathElement;
-    const tesseractConnections = svg.querySelectorAll(".tesseract-connection") as NodeListOf<SVGLineElement>;
+    const tesseractConnections = svg.querySelectorAll(
+      ".tesseract-connection"
+    ) as NodeListOf<SVGLineElement>;
     const shadowGrid = svg.querySelector("#shadow-grid") as SVGGElement;
     const shadowA = svg.querySelector("#shadow-a") as SVGPathElement;
     const shadowB = svg.querySelector("#shadow-b") as SVGPathElement;
@@ -74,17 +78,17 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
       const rad = (angle * Math.PI) / 180;
       const cos = Math.cos(rad);
       const sin = Math.sin(rad);
-      
+
       // 4D to 3D to 2D projection simulation
       const scale = 0.8 + 0.2 * cos;
       const offset = 20 * sin;
-      
+
       // Outer cube vertices (simplified 4D projection)
       const outerSize = 50 * scale;
       const innerSize = 30 * scale;
       const cx = 280;
       const cy = 100;
-      
+
       // Outer cube path
       const outerPath = `
         M${cx - outerSize + offset},${cy - outerSize}
@@ -93,7 +97,7 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         L${cx - outerSize - offset},${cy + outerSize}
         Z
       `;
-      
+
       // Inner cube path (rotated differently)
       const innerOffset = -offset * 0.6;
       const innerPath = `
@@ -103,18 +107,38 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         L${cx - innerSize - innerOffset},${cy + innerSize * 0.8}
         Z
       `;
-      
+
       tesseractOuter.setAttribute("d", outerPath);
       tesseractInner.setAttribute("d", innerPath);
-      
+
       // Update connections between cubes
       const connections = [
-        { x1: cx - outerSize + offset, y1: cy - outerSize, x2: cx - innerSize + innerOffset, y2: cy - innerSize * 0.8 },
-        { x1: cx + outerSize + offset, y1: cy - outerSize, x2: cx + innerSize + innerOffset, y2: cy - innerSize * 0.8 },
-        { x1: cx + outerSize - offset, y1: cy + outerSize, x2: cx + innerSize - innerOffset, y2: cy + innerSize * 0.8 },
-        { x1: cx - outerSize - offset, y1: cy + outerSize, x2: cx - innerSize - innerOffset, y2: cy + innerSize * 0.8 },
+        {
+          x1: cx - outerSize + offset,
+          y1: cy - outerSize,
+          x2: cx - innerSize + innerOffset,
+          y2: cy - innerSize * 0.8,
+        },
+        {
+          x1: cx + outerSize + offset,
+          y1: cy - outerSize,
+          x2: cx + innerSize + innerOffset,
+          y2: cy - innerSize * 0.8,
+        },
+        {
+          x1: cx + outerSize - offset,
+          y1: cy + outerSize,
+          x2: cx + innerSize - innerOffset,
+          y2: cy + innerSize * 0.8,
+        },
+        {
+          x1: cx - outerSize - offset,
+          y1: cy + outerSize,
+          x2: cx - innerSize - innerOffset,
+          y2: cy + innerSize * 0.8,
+        },
       ];
-      
+
       tesseractConnections.forEach((line, i) => {
         if (connections[i]) {
           line.setAttribute("x1", String(connections[i].x1));
@@ -123,10 +147,10 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
           line.setAttribute("y2", String(connections[i].y2));
         }
       });
-      
+
       // Update shadow projections (the "separate" forces)
       const shadowOffset = offset * 1.5;
-      
+
       // Shadow A (represents Gravity)
       const shadowAPath = `
         M${160 + shadowOffset * 0.5},${240}
@@ -135,7 +159,7 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         L${160 + shadowOffset * 0.8},${260}
         Z
       `;
-      
+
       // Shadow B (represents EM)
       const shadowBPath = `
         M${360 - shadowOffset * 0.5},${240}
@@ -144,17 +168,18 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         L${360 - shadowOffset * 0.8},${260}
         Z
       `;
-      
+
       shadowA.setAttribute("d", shadowAPath);
       shadowB.setAttribute("d", shadowBPath);
-      
+
       // Update projection lines
       projectionLines.forEach((line, i) => {
-        const startX = i < 2 ? cx - outerSize * (i === 0 ? 1 : -1) + (i === 0 ? offset : -offset) : cx;
+        const startX =
+          i < 2 ? cx - outerSize * (i === 0 ? 1 : -1) + (i === 0 ? offset : -offset) : cx;
         const startY = cy + outerSize;
         const endX = i < 2 ? (i === 0 ? 180 + shadowOffset * 0.6 : 380 - shadowOffset * 0.6) : 280;
         const endY = 240;
-        
+
         line.setAttribute("x1", String(startX));
         line.setAttribute("y1", String(startY));
         line.setAttribute("x2", String(endX));
@@ -175,10 +200,14 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         opacity: 0.3,
         duration: 0.5,
       })
-      .to(lowerLabel, {
-        opacity: 0.6,
-        duration: 0.3,
-      }, "-=0.2");
+      .to(
+        lowerLabel,
+        {
+          opacity: 0.6,
+          duration: 0.3,
+        },
+        "-=0.2"
+      );
 
     // Phase 2: Show the "separate" shadows first
     tl.add("shadows", "+=0.3")
@@ -187,78 +216,129 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         duration: 0.4,
         stagger: 0.2,
       })
-      .to([gravityLabel, emLabel], {
-        opacity: 0.5,
-        duration: 0.3,
-      }, "-=0.2");
+      .to(
+        [gravityLabel, emLabel],
+        {
+          opacity: 0.5,
+          duration: 0.3,
+        },
+        "-=0.2"
+      );
 
     // Phase 3: Reveal the higher-dimensional source
     tl.add("reveal", "+=0.5")
-      .to(upperLabel, {
-        opacity: 0.6,
-        duration: 0.3,
-      }, "reveal")
-      .to(tesseract, {
-        opacity: 1,
-        duration: 0.3,
-      }, "reveal")
-      .to([tesseractOuter, tesseractInner], {
-        opacity: 0.8,
-        duration: 0.5,
-      }, "reveal+=0.2")
-      .to(tesseractConnections, {
-        opacity: 0.4,
-        duration: 0.4,
-        stagger: 0.05,
-      }, "reveal+=0.3");
+      .to(
+        upperLabel,
+        {
+          opacity: 0.6,
+          duration: 0.3,
+        },
+        "reveal"
+      )
+      .to(
+        tesseract,
+        {
+          opacity: 1,
+          duration: 0.3,
+        },
+        "reveal"
+      )
+      .to(
+        [tesseractOuter, tesseractInner],
+        {
+          opacity: 0.8,
+          duration: 0.5,
+        },
+        "reveal+=0.2"
+      )
+      .to(
+        tesseractConnections,
+        {
+          opacity: 0.4,
+          duration: 0.4,
+          stagger: 0.05,
+        },
+        "reveal+=0.3"
+      );
 
     // Show projection lines
-    tl.to(projectionLines, {
-      opacity: 0.3,
-      duration: 0.4,
-      stagger: 0.1,
-    }, "-=0.2");
+    tl.to(
+      projectionLines,
+      {
+        opacity: 0.3,
+        duration: 0.4,
+        stagger: 0.1,
+      },
+      "-=0.2"
+    );
 
     // Phase 4: Rotate the tesseract and show synchronized shadows
-    tl.add("rotate", "+=0.3")
-      .to(syncLabel, {
+    tl.add("rotate", "+=0.3").to(
+      syncLabel,
+      {
         opacity: 0.6,
         duration: 0.3,
-      }, "rotate");
+      },
+      "rotate"
+    );
 
     // Continuous rotation showing unification
-    tl.to(rotationState, {
-      angle: 360,
-      duration: 6,
-      ease: "none",
-      onUpdate: () => updateTesseract(rotationState.angle),
-    }, "rotate+=0.3");
+    tl.to(
+      rotationState,
+      {
+        angle: 360,
+        duration: 6,
+        ease: "none",
+        onUpdate: () => updateTesseract(rotationState.angle),
+      },
+      "rotate+=0.3"
+    );
 
     // Phase 5: Compactification
     tl.add("compact", "-=1")
-      .to(syncLabel, {
-        opacity: 0,
-        duration: 0.2,
-      }, "compact")
-      .to(compactLabel, {
-        opacity: 0.6,
-        duration: 0.3,
-      }, "compact+=0.2")
-      .to(tesseract, {
-        scale: 0.1,
-        transformOrigin: "280px 100px",
-        duration: 1.5,
-        ease: "power2.in",
-      }, "compact+=0.5")
-      .to(compactPoint, {
-        opacity: 1,
-        scale: 1,
-        duration: 0.3,
-      }, "-=0.3")
-      .to([tesseractOuter, tesseractInner, tesseractConnections], {
-        opacity: 0,
-        duration: 0.3,
-      }, "-=0.3");
+      .to(
+        syncLabel,
+        {
+          opacity: 0,
+          duration: 0.2,
+        },
+        "compact"
+      )
+      .to(
+        compactLabel,
+        {
+          opacity: 0.6,
+          duration: 0.3,
+        },
+        "compact+=0.2"
+      )
+      .to(
+        tesseract,
+        {
+          scale: 0.1,
+          transformOrigin: "280px 100px",
+          duration: 1.5,
+          ease: "power2.in",
+        },
+        "compact+=0.5"
+      )
+      .to(
+        compactPoint,
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 0.3,
+        },
+        "-=0.3"
+      )
+      .to(
+        [tesseractOuter, tesseractInner, tesseractConnections],
+        {
+          opacity: 0,
+          duration: 0.3,
+        },
+        "-=0.3"
+      );
 
     // Show that shadows still respond even when compactified
     tl.to(rotationState, {
@@ -269,12 +349,16 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
     });
 
     // Pulse the compact point
-    tl.to(compactPoint, {
-      attr: { r: 8 },
-      duration: 0.3,
-      repeat: 3,
-      yoyo: true,
-    }, "-=2");
+    tl.to(
+      compactPoint,
+      {
+        attr: { r: 8 },
+        duration: 0.3,
+        repeat: 3,
+        yoyo: true,
+      },
+      "-=2"
+    );
 
     // Hold complete state
     tl.to({}, { duration: 2 });
@@ -282,8 +366,20 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
     // Reset
     tl.add("reset")
       .to(
-        [tesseract, shadowGrid, shadowA, shadowB, projectionLines, 
-         upperLabel, lowerLabel, gravityLabel, emLabel, compactPoint, compactLabel, syncLabel],
+        [
+          tesseract,
+          shadowGrid,
+          shadowA,
+          shadowB,
+          projectionLines,
+          upperLabel,
+          lowerLabel,
+          gravityLabel,
+          emLabel,
+          compactPoint,
+          compactLabel,
+          syncLabel,
+        ],
         {
           opacity: 0,
           duration: 0.5,
@@ -333,7 +429,8 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
             What appears as separate forces are shadows of unified higher geometry
           </p>
           <p style={{ margin: "0.5em 0", fontSize: "0.85em" }}>
-            Compactification: Higher dimensions curl up into invisible scales while still influencing our reality
+            Compactification: Higher dimensions curl up into invisible scales while still
+            influencing our reality
           </p>
         </div>
       </div>
@@ -351,9 +448,9 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
       <figcaption className="sr-only">
         The Shadow Projection: Geometric Unification. This animation visualizes how our perceived
         separate forces (gravity and electromagnetism) might actually be projections of a single
-        unified geometry in higher dimensions. A rotating tesseract in the upper portion casts
-        two separate shadows onto a lower grid. As the higher shape rotates, both shadows move
-        in perfect synchronization, revealing their common source. The animation also demonstrates
+        unified geometry in higher dimensions. A rotating tesseract in the upper portion casts two
+        separate shadows onto a lower grid. As the higher shape rotates, both shadows move in
+        perfect synchronization, revealing their common source. The animation also demonstrates
         compactification, where the higher-dimensional structure curls up into an invisible point
         while still influencing the lower-dimensional shadows.
       </figcaption>
@@ -423,10 +520,46 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
             opacity="0"
           />
           {/* Connections between cubes (4D edges) */}
-          <line className="tesseract-connection" x1="230" y1="50" x2="250" y2="70" stroke="rgba(120, 120, 120, 0.4)" strokeWidth="1" strokeDasharray="3 2" />
-          <line className="tesseract-connection" x1="330" y1="50" x2="310" y2="70" stroke="rgba(120, 120, 120, 0.4)" strokeWidth="1" strokeDasharray="3 2" />
-          <line className="tesseract-connection" x1="330" y1="150" x2="310" y2="130" stroke="rgba(120, 120, 120, 0.4)" strokeWidth="1" strokeDasharray="3 2" />
-          <line className="tesseract-connection" x1="230" y1="150" x2="250" y2="130" stroke="rgba(120, 120, 120, 0.4)" strokeWidth="1" strokeDasharray="3 2" />
+          <line
+            className="tesseract-connection"
+            x1="230"
+            y1="50"
+            x2="250"
+            y2="70"
+            stroke="rgba(120, 120, 120, 0.4)"
+            strokeWidth="1"
+            strokeDasharray="3 2"
+          />
+          <line
+            className="tesseract-connection"
+            x1="330"
+            y1="50"
+            x2="310"
+            y2="70"
+            stroke="rgba(120, 120, 120, 0.4)"
+            strokeWidth="1"
+            strokeDasharray="3 2"
+          />
+          <line
+            className="tesseract-connection"
+            x1="330"
+            y1="150"
+            x2="310"
+            y2="130"
+            stroke="rgba(120, 120, 120, 0.4)"
+            strokeWidth="1"
+            strokeDasharray="3 2"
+          />
+          <line
+            className="tesseract-connection"
+            x1="230"
+            y1="150"
+            x2="250"
+            y2="130"
+            stroke="rgba(120, 120, 120, 0.4)"
+            strokeWidth="1"
+            strokeDasharray="3 2"
+          />
         </g>
 
         {/* Compact point (appears during compactification) */}
@@ -442,21 +575,104 @@ export default function ShadowProjectionAnimation({ isPDF = false }: ShadowProje
         />
 
         {/* Projection lines */}
-        <line className="projection-line" x1="230" y1="150" x2="180" y2="240" stroke="rgba(100, 100, 100, 0.3)" strokeWidth="1" strokeDasharray="4 3" opacity="0" />
-        <line className="projection-line" x1="330" y1="150" x2="380" y2="240" stroke="rgba(100, 100, 100, 0.3)" strokeWidth="1" strokeDasharray="4 3" opacity="0" />
+        <line
+          className="projection-line"
+          x1="230"
+          y1="150"
+          x2="180"
+          y2="240"
+          stroke="rgba(100, 100, 100, 0.3)"
+          strokeWidth="1"
+          strokeDasharray="4 3"
+          opacity="0"
+        />
+        <line
+          className="projection-line"
+          x1="330"
+          y1="150"
+          x2="380"
+          y2="240"
+          stroke="rgba(100, 100, 100, 0.3)"
+          strokeWidth="1"
+          strokeDasharray="4 3"
+          opacity="0"
+        />
 
         {/* Shadow/Projection Grid (Lower Dimension) */}
         <g id="shadow-grid" opacity="0">
           {/* Grid lines */}
-          <line x1="100" y1="220" x2="460" y2="220" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="100" y1="240" x2="460" y2="240" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="100" y1="260" x2="460" y2="260" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="100" y1="280" x2="460" y2="280" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="140" y1="210" x2="140" y2="285" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="200" y1="210" x2="200" y2="285" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="280" y1="210" x2="280" y2="285" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="360" y1="210" x2="360" y2="285" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
-          <line x1="420" y1="210" x2="420" y2="285" stroke="rgba(150, 150, 150, 0.4)" strokeWidth="1" />
+          <line
+            x1="100"
+            y1="220"
+            x2="460"
+            y2="220"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="100"
+            y1="240"
+            x2="460"
+            y2="240"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="100"
+            y1="260"
+            x2="460"
+            y2="260"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="100"
+            y1="280"
+            x2="460"
+            y2="280"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="140"
+            y1="210"
+            x2="140"
+            y2="285"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="200"
+            y1="210"
+            x2="200"
+            y2="285"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="280"
+            y1="210"
+            x2="280"
+            y2="285"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="360"
+            y1="210"
+            x2="360"
+            y2="285"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
+          <line
+            x1="420"
+            y1="210"
+            x2="420"
+            y2="285"
+            stroke="rgba(150, 150, 150, 0.4)"
+            strokeWidth="1"
+          />
         </g>
 
         {/* Shadow A (Gravity) */}

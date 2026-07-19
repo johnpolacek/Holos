@@ -502,14 +502,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
 
         {/* Screen with total pattern */}
         <g id="screen-group" opacity="0">
-          <line
-            x1="330"
-            y1="70"
-            x2="330"
-            y2="230"
-            stroke="rgba(80, 80, 80, 0.7)"
-            strokeWidth="2"
-          />
+          <line x1="330" y1="70" x2="330" y2="230" stroke="rgba(80, 80, 80, 0.7)" strokeWidth="2" />
           <text
             x="330"
             y="62"
@@ -712,14 +705,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
 
         {/* Arrowhead marker */}
         <defs>
-          <marker
-            id="arrowhead"
-            markerWidth="6"
-            markerHeight="6"
-            refX="5"
-            refY="3"
-            orient="auto"
-          >
+          <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
             <path d="M0,0 L6,3 L0,6 Z" fill="rgba(0, 0, 0, 0.3)" />
           </marker>
         </defs>

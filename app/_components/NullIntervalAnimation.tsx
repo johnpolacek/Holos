@@ -67,7 +67,13 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
     gsap.set([lowerDimLabel, higherDimLabel, nullIntervalLabel], { opacity: 0 });
 
     // Store original grid positions for pinch effect
-    const gridPositions: { line: SVGLineElement; x1: number; y1: number; x2: number; y2: number }[] = [];
+    const gridPositions: {
+      line: SVGLineElement;
+      x1: number;
+      y1: number;
+      x2: number;
+      y2: number;
+    }[] = [];
     gridLines.forEach((line) => {
       gridPositions.push({
         line,
@@ -86,13 +92,12 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
     timelineRef.current = tl;
 
     // Phase 1: Show the spacetime grid
-    tl.add("start")
-      .to(gridLines, {
-        opacity: 0.3,
-        duration: 0.8,
-        stagger: 0.02,
-        ease: "power2.out",
-      });
+    tl.add("start").to(gridLines, {
+      opacity: 0.3,
+      duration: 0.8,
+      stagger: 0.02,
+      ease: "power2.out",
+    });
 
     // Phase 2: Show emission and absorption points
     tl.add("points", "+=0.3")
@@ -242,18 +247,18 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
       // Calculate distance to the seam line for pinch effect
       const seamMidX = (pointAX + pointBX) / 2;
       const seamMidY = (pointAY + pointBY) / 2;
-      
+
       // Calculate pinch factor based on distance to seam
       const distToSeam1 = Math.sqrt((x1 - seamMidX) ** 2 + (y1 - seamMidY) ** 2);
       const distToSeam2 = Math.sqrt((x2 - seamMidX) ** 2 + (y2 - seamMidY) ** 2);
-      
+
       const pinchFactor1 = Math.max(0, 1 - distToSeam1 / 300) * 15;
       const pinchFactor2 = Math.max(0, 1 - distToSeam2 / 300) * 15;
-      
+
       // Direction toward seam
       const angle1 = Math.atan2(seamMidY - y1, seamMidX - x1);
       const angle2 = Math.atan2(seamMidY - y2, seamMidX - x2);
-      
+
       const newX1 = x1 + Math.cos(angle1) * pinchFactor1;
       const newY1 = y1 + Math.sin(angle1) * pinchFactor1;
       const newX2 = x2 + Math.cos(angle2) * pinchFactor2;
@@ -311,7 +316,17 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
     // Reset
     tl.add("reset")
       .to(
-        [gridLines, pointA, pointB, labelA, labelB, particle, particlePath, seam, nullIntervalLabel],
+        [
+          gridLines,
+          pointA,
+          pointB,
+          labelA,
+          labelB,
+          particle,
+          particlePath,
+          seam,
+          nullIntervalLabel,
+        ],
         {
           opacity: 0,
           duration: 0.5,
@@ -414,21 +429,125 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
         </text>
 
         {/* Spacetime grid - horizontal lines */}
-        <line className="grid-line" x1="50" y1="60" x2="510" y2="60" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="50" y1="100" x2="510" y2="100" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="50" y1="140" x2="510" y2="140" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="50" y1="180" x2="510" y2="180" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="50" y1="220" x2="510" y2="220" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="50" y1="260" x2="510" y2="260" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
+        <line
+          className="grid-line"
+          x1="50"
+          y1="60"
+          x2="510"
+          y2="60"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="50"
+          y1="100"
+          x2="510"
+          y2="100"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="50"
+          y1="140"
+          x2="510"
+          y2="140"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="50"
+          y1="180"
+          x2="510"
+          y2="180"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="50"
+          y1="220"
+          x2="510"
+          y2="220"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="50"
+          y1="260"
+          x2="510"
+          y2="260"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
 
         {/* Spacetime grid - vertical lines */}
-        <line className="grid-line" x1="90" y1="50" x2="90" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="150" y1="50" x2="150" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="210" y1="50" x2="210" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="270" y1="50" x2="270" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="330" y1="50" x2="330" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="390" y1="50" x2="390" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
-        <line className="grid-line" x1="450" y1="50" x2="450" y2="270" stroke="rgba(150, 150, 150, 0.5)" strokeWidth="1" />
+        <line
+          className="grid-line"
+          x1="90"
+          y1="50"
+          x2="90"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="150"
+          y1="50"
+          x2="150"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="210"
+          y1="50"
+          x2="210"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="270"
+          y1="50"
+          x2="270"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="330"
+          y1="50"
+          x2="330"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="390"
+          y1="50"
+          x2="390"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
+        <line
+          className="grid-line"
+          x1="450"
+          y1="50"
+          x2="450"
+          y2="270"
+          stroke="rgba(150, 150, 150, 0.5)"
+          strokeWidth="1"
+        />
 
         {/* Particle path (dashed, showing the perceived journey) */}
         <path
@@ -561,7 +680,14 @@ export default function NullIntervalAnimation({ isPDF = false }: NullIntervalAni
         <text x="530" y="160" fill="rgba(0, 0, 0, 0.3)" fontSize="9" fontFamily="monospace">
           Space
         </text>
-        <text x="30" y="50" fill="rgba(0, 0, 0, 0.3)" fontSize="9" fontFamily="monospace" transform="rotate(-90, 30, 50)">
+        <text
+          x="30"
+          y="50"
+          fill="rgba(0, 0, 0, 0.3)"
+          fontSize="9"
+          fontFamily="monospace"
+          transform="rotate(-90, 30, 50)"
+        >
           Time
         </text>
       </svg>

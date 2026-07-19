@@ -57,7 +57,11 @@ export default function SpacetimeBlockAnimation({ isPDF = false }: SpacetimeBloc
     // Initial state - everything hidden except the point
     gsap.set(bigBangPoint, { opacity: 1, scale: 1, transformOrigin: "center center" });
     gsap.set(bigBangBoundary, { opacity: 0 });
-    gsap.set([blockFront, blockTop, blockSide], { opacity: 0, scaleX: 0, transformOrigin: "left center" });
+    gsap.set([blockFront, blockTop, blockSide], {
+      opacity: 0,
+      scaleX: 0,
+      transformOrigin: "left center",
+    });
     gsap.set(nowSlice, { opacity: 0, x: 0 });
     gsap.set(worldlines, { opacity: 0, strokeDashoffset: 400 });
     gsap.set(caption, { opacity: 0 });
@@ -83,18 +87,17 @@ export default function SpacetimeBlockAnimation({ isPDF = false }: SpacetimeBloc
       });
 
     // Phase 2: Extrude the spacetime block
-    tl.add("extrude")
-      .to(
-        [blockFront, blockTop, blockSide],
-        {
-          opacity: 1,
-          scaleX: 1,
-          duration: 2,
-          ease: "power2.out",
-          stagger: 0.05,
-        },
-        "extrude"
-      );
+    tl.add("extrude").to(
+      [blockFront, blockTop, blockSide],
+      {
+        opacity: 1,
+        scaleX: 1,
+        duration: 2,
+        ease: "power2.out",
+        stagger: 0.05,
+      },
+      "extrude"
+    );
 
     // Phase 3: Worldlines appear and draw themselves
     tl.add("worldlines", "-=1.5");
@@ -196,7 +199,16 @@ export default function SpacetimeBlockAnimation({ isPDF = false }: SpacetimeBloc
     // Reset
     tl.add("reset")
       .to(
-        [blockFront, blockTop, blockSide, worldlines, nowSlice, bigBangBoundary, caption, simultaneityLabel],
+        [
+          blockFront,
+          blockTop,
+          blockSide,
+          worldlines,
+          nowSlice,
+          bigBangBoundary,
+          caption,
+          simultaneityLabel,
+        ],
         {
           opacity: 0,
           duration: 0.5,
@@ -429,14 +441,7 @@ export default function SpacetimeBlockAnimation({ isPDF = false }: SpacetimeBloc
           markerEnd="url(#arrow)"
         />
         <defs>
-          <marker
-            id="arrow"
-            markerWidth="6"
-            markerHeight="6"
-            refX="5"
-            refY="3"
-            orient="auto"
-          >
+          <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
             <path d="M0,0 L6,3 L0,6 Z" fill="rgba(0, 0, 0, 0.2)" />
           </marker>
         </defs>

@@ -314,14 +314,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           markerEnd="url(#arrowhead)"
         />
         <defs>
-          <marker
-            id="arrowhead"
-            markerWidth="6"
-            markerHeight="6"
-            refX="5"
-            refY="3"
-            orient="auto"
-          >
+          <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
             <path d="M0,0 L6,3 L0,6 Z" fill="rgba(0, 0, 0, 0.2)" />
           </marker>
         </defs>

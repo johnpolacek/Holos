@@ -22,9 +22,7 @@ export default function PageTransition({ children, className = "" }: PageTransit
   return (
     <div
       className={`transition-all duration-300 ease-out ${
-        isVisible 
-          ? "opacity-100 translate-y-0" 
-          : "opacity-0 translate-y-3"
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3"
       } ${className}`}
     >
       {children}

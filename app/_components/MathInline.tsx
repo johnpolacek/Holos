@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import type React from "react";
 import katex from "katex";
+import type React from "react";
+import { useEffect, useRef } from "react";
 
 // Only import CSS in browser environment
 if (typeof window !== "undefined") {
@@ -28,5 +28,9 @@ export default function MathInline({ children }: MathInlineProps) {
   }, [mathContent]);
 
   // Include math content as text for SSR/PDF generation, will be replaced by KaTeX on client
-  return <span ref={containerRef} className="math-inline">{mathContent}</span>;
+  return (
+    <span ref={containerRef} className="math-inline">
+      {mathContent}
+    </span>
+  );
 }

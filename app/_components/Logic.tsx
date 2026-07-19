@@ -960,12 +960,11 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              In standard notation this is simply{" "}
-              <MathInline>{"R = (O \\circ C)(S)"}</MathInline>: apply{" "}
-              <MathInline>{"C"}</MathInline>, then apply <MathInline>{"O"}</MathInline>. Nothing is
-              hidden in the glyph. Holos retains ⊛ because the framework is named for the relation
-              it marks, not because the operation it denotes is unusual, and a reader who mentally
-              substitutes the composition symbol loses nothing.
+              In standard notation this is simply <MathInline>{"R = (O \\circ C)(S)"}</MathInline>:
+              apply <MathInline>{"C"}</MathInline>, then apply <MathInline>{"O"}</MathInline>.
+              Nothing is hidden in the glyph. Holos retains ⊛ because the framework is named for the
+              relation it marks, not because the operation it denotes is unusual, and a reader who
+              mentally substitutes the composition symbol loses nothing.
             </p>
 
             <p className="leading-relaxed">
@@ -990,9 +989,10 @@ export default function Logic() {
               per perspective per branch, while <MathInline>{"C"}</MathInline> takes a single state:
               feeding the family back in unlabeled would not compose. Writing{" "}
               <MathInline>{"O_i"}</MathInline> selects the history registered by perspective{" "}
-              <MathInline>{"i"}</MathInline>, so the iteration follows one observer&apos;s thread and
-              the types line up. Globally, every branch containing an aperture iterates in parallel;
-              no branch&apos;s closure interrupts another&apos;s, and no thread is privileged.
+              <MathInline>{"i"}</MathInline>, so the iteration follows one observer&apos;s thread
+              and the types line up. Globally, every branch containing an aperture iterates in
+              parallel; no branch&apos;s closure interrupts another&apos;s, and no thread is
+              privileged.
             </p>
 
             <p className="leading-relaxed">
