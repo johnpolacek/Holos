@@ -773,14 +773,45 @@ export default function Logic() {
             <p className="leading-relaxed">
               A third addition might seem to be hiding here: a bridge principle stipulating that
               the totality registers itself through <em>integrated</em> systems specifically.
-              Why integration, rather than mass, symmetry, or complexity? Holos holds that this is
-              not a further posit but an analytic consequence of what a perspective is. A point of
-              view is unified by nature: it is one perspective, not a collection of fragments
-              adjacent to each other. Only a structure that is itself unified can constitute one.
-              Integration is not a candidate correlate selected from a field of alternatives; it
-              is the name for the structural property of being unified. The connection between
-              integration and presence is therefore definitional rather than stipulated, which is
-              why the count stays at two.
+              Why integration, rather than mass, symmetry, or complexity? An earlier version of
+              this section answered that the connection is definitional: a perspective is unified
+              by nature, integration is the name for being unified, and so the count stays at
+              two. Stated that baldly, the answer proves too little, because &quot;unified&quot;
+              means two different things. An experience can be one (a single field, not adjacent
+              fragments) while the machinery producing it is many: the image on a screen is
+              seamless, and the pixels beneath it are strangers to each other. The unity of what
+              appears does not, by itself, fix the wiring of what produces it.
+            </p>
+
+            <p className="leading-relaxed">
+              So Holos divides the claim into the part that is definitional and the part that
+              must be argued. The definitional part is small: a perspective is one, so whatever
+              hosts it must be one thing in some structural sense. That much is analytic and
+              free. The substantive part is the identification of a structure&apos;s oneness
+              with causal integration, and for that Holos gives an argument rather than a
+              definition. What else could a structure&apos;s being one consist in? A heap of
+              sand is many things in a pile: remove a grain and nothing else notices. A body is
+              one thing: its parts constrain each other everywhere. Being one, for a structure,
+              is its parts making a difference to one another, and that is what integration
+              measures. The screen is no counterexample but a confirmation: nobody thinks the
+              screen has a point of view, its pixels are exactly as independent as they seem,
+              and the picture&apos;s unity lives in the one structure in the room whose parts do
+              constrain each other, the viewer&apos;s brain.
+            </p>
+
+            <p className="leading-relaxed">
+              The count therefore stays at two, but honestly now: the bridge&apos;s analytic
+              core costs nothing, and its substantive half is defended by argument and exposed
+              to failure. It would fail if something could host a unified perspective while its
+              parts remained independent, a conscious screen. And its precise content waits on
+              the open problem of the measure: until the right measure of integration is
+              identified, &quot;parts making a difference to one another&quot; is an argued
+              direction, not a finished quantity. Holos holds it as a working hypothesis, in
+              exactly the sense its{" "}
+              <a href="#open-problems" className="underline hover:no-underline">
+                Open Problems
+              </a>{" "}
+              section already owns.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -1176,7 +1207,14 @@ export default function Logic() {
               but about which of two systems is more integrated. A determinate threshold fact
               requires a determinate measure, and identifying it is an open problem for the
               framework, not settled background. Holos is committed to there being a fact of the
-              matter; it does not yet know how to compute it.
+              matter; it does not yet know how to compute it. The stakes reach back into the
+              framework&apos;s core argument: the identification of a structure&apos;s oneness
+              with causal integration (see{" "}
+              <a href="#relationship-to-physics" className="underline hover:no-underline">
+                Relationship to Physics
+              </a>
+              ) remains an argued direction rather than a finished quantity until the measure is
+              fixed.
             </p>
           </div>
 
