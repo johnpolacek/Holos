@@ -18,8 +18,8 @@ export const sections: ContentSection[] = [
       <>
         We live in a universe described with extraordinary precision, yet filled with mystery.
         Physics tells us how matter moves, how spacetime bends, how probabilities evolve. It says
-        nothing about the one fact every reader of this sentence knows firsthand: that all of it
-        is <em>present</em>. Experienced. Lived. <em>What does it mean to be real?</em>
+        nothing about the questions at the heart of existence. Why are we here? Does life have a
+        purpose? <em>What does it mean to be real?</em>
       </>,
       <>
         Holos is an interpretive framework built on a single idea: a universe is not complete
