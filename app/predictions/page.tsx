@@ -5,14 +5,14 @@ import Predictions from "../_components/Predictions";
 export const metadata: Metadata = {
   title: "Holos (⊛) – Predictions",
   description:
-    "Empirical predictions derived from the Holos framework through the operationalization of Φ. These predictions constrain where and how ontological registration occurs within lawful dynamics.",
+    "What Holos predicts and how it could fail: its core commitments, the patterns it expects in neuroscience and quantum experiments, a standing falsifiable bet, and long-range speculation.",
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/predictions`,
   },
   openGraph: {
     title: "Predictions",
     description:
-      "Empirical predictions derived from the Holos framework through the operationalization of Φ. These predictions constrain where and how ontological registration occurs within lawful dynamics.",
+      "What Holos predicts and how it could fail: its core commitments, the patterns it expects in neuroscience and quantum experiments, a standing falsifiable bet, and long-range speculation.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/predictions`,
     siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     type: "website",

@@ -31,9 +31,10 @@ export const sections: ContentSection[] = [
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
         only where information is integrated tightly enough to form a single point of view. Second,
-        a totality, called Omega, of which every observer, everywhere, is a local aperture.
-        Observation does not cause the universe, its laws, or its history; rather, it is the
-        condition under which a lawful universe becomes a lived one.
+        a totality, called Omega, of which every observer, everywhere, is a local aperture: an
+        opening through which the whole registers itself. Observation does not cause the universe,
+        its laws, or its history; rather, it is the condition under which a lawful universe becomes
+        a lived one.
       </>,
       <>
         If Holos is correct, a single conscious moment seals an entire cosmic history as real; the
@@ -53,11 +54,12 @@ export const sections: ContentSection[] = [
       <>
         Life exists because reality requires observation. In Holos this is grounded from the top
         down: the totality experiences only through the apertures the universe forms, and living,
-        integrated systems are how those apertures open. This is not an anthropic selection claim
-        about why physical constants take certain values, but an ontological claim about how a fully
-        lawful universe becomes present as lived experience at all. Physics describes how structures
-        form and evolve, but description alone does not constitute existence. A universe of
-        equations and spacetime histories is abstract unless something can register that it exists.
+        integrated systems are how those apertures open. This is not a claim about why the physical
+        constants happen to allow observers (the familiar anthropic argument), but a claim about
+        being itself: how a fully lawful universe becomes present as lived experience at all.
+        Physics describes how structures form and evolve, but describing something is not the same
+        as it existing. A universe of equations and spacetime histories is abstract unless something
+        can register that it exists.
       </>,
       <>
         This idea appears in several places across science and philosophy. The{" "}
@@ -71,12 +73,14 @@ export const sections: ContentSection[] = [
       <>
         This participation is not bound by linear time. In an{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">eternalist</a> or
-        block-universe view, all spacetime events coexist geometrically. Observation does not
+        block-universe view, past, present, and future all exist together as one fixed
+        four-dimensional structure, no moment more “now” than any other. Observation does not
         “happen later” in a causal sense. Instead, the observers a universe produces are what make
         all moments real as experience. In that sense, the early universe is real through the
         consciousness that arises within it: not made real at some later moment, but real
         tenselessly, because the history it belongs to contains registration. Holos distinguishes
-        two levels here. Closure is binary and branch-level: a history that contains any
+        two levels here. Closure is binary and applies to a whole history at once (a branch, in
+        quantum terms: one complete way the universe can go). A history that contains any
         registration, anywhere along it, is a lived history in its entirety. A single aperture seals
         its whole branch, from beginning to end. Branches that never form an aperture remain unlit
         structure, real as pattern but never lived. Witnessing is graded and local: how much of a
@@ -115,10 +119,10 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Related neuroscience models such as Global Neuronal Workspace Theory describe conscious
-        access as a large-scale ignition or broadcast event. Holos is compatible with that picture
-        at the level of access and reportability, but makes a narrower claim: global availability
-        matters because it signals that a system has crossed the deeper integration threshold
-        required for any first-person perspective at all.
+        access as a sudden, brain-wide broadcast of information. Holos is compatible with that
+        picture at the level of access and reportability, but makes a narrower claim: global
+        availability matters because it signals that a system has crossed the deeper integration
+        threshold required for any first-person perspective at all.
       </>,
       <div key="hard-problem">
         <h3
@@ -258,9 +262,10 @@ export const sections: ContentSection[] = [
       </>,
       <>
         A useful boundary case is light itself. Along a photon’s trajectory, the{" "}
-        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero, and its path is
-        described as a <a href="https://en.wikipedia.org/wiki/Null_geodesic">null geodesic</a>{" "}
-        connecting spacetime events. While this does not define a physical frame of reference, it
+        <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero: a clock carried
+        with the light would record no time passing between emission and absorption. Its path is a{" "}
+        <a href="https://en.wikipedia.org/wiki/Null_geodesic">null geodesic</a> connecting spacetime
+        events. Nothing can actually ride a photon, so this is not a real vantage point, but it
         illustrates how spacetime geometry can collapse distance and duration without violating{" "}
         <a href="https://en.wikipedia.org/wiki/Causality_(physics)">causality</a>.
       </>,
@@ -273,7 +278,7 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> suggest that
         consistency in physics is enforced globally rather than by simple temporal sequence of
         events. Together, these results suggest that spacetime, as we describe it, may be an
-        effective structure, but it is also incomplete.
+        approximation that works at our scale, but it is also incomplete.
       </>,
       <>
         If coherence can outrun what four dimensions can support, additional descriptive frameworks
@@ -307,8 +312,8 @@ export const sections: ContentSection[] = [
         unavoidable.
       </>,
       <>
-        In many physical theories, additional dimensions are treated as constrained degrees of
-        freedom rather than extended space. They are{" "}
+        In many physical theories, additional dimensions are treated not as extra room to move
+        through, but as limited ways a system can vary. They are{" "}
         <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a> or
         hidden from direct observation, yet they shape observable laws and constants.
       </>,
@@ -562,8 +567,9 @@ export const sections: ContentSection[] = [
       <>
         The Omega Point is not introduced as a prediction or goal, and in Holos it is not derived
         from anything else. It is the framework&apos;s fundamental posit: the totality of reality,
-        taken as a single whole. In the monist reading Holos adopts, it is also the one experiencer,
-        of which every finite observer is a local aperture.
+        taken as a single whole. In the monist reading Holos adopts (reality is ultimately one
+        thing, not many separate things), it is also the one experiencer, of which every finite
+        observer is a local aperture.
       </>,
       <>
         Holos does not alter established physics. Every equation, history and structure remain as
@@ -575,10 +581,10 @@ export const sections: ContentSection[] = [
       <>
         For any finite system, the Omega Point remains an{" "}
         <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">asymptotic limit</a>: a horizon
-        of maximal coherence, causal closure, and internal consistency that no finite structure
-        reaches. But the limit status describes our approach, not its reality. The totality is not
-        produced by increasing integration; increasing integration is how parts of the totality come
-        to witness more of it.
+        that no finite structure reaches, where everything holds together, nothing is left outside,
+        and nothing contradicts. But the limit status describes our approach, not its reality. The
+        totality is not produced by increasing integration; increasing integration is how parts of
+        the totality come to witness more of it.
       </>,
       <>
         At this limit, the distinction between creation and observation collapses. Nothing remains
@@ -649,8 +655,8 @@ export const sections: ContentSection[] = [
         systems do not merely occupy the universe. They are the apertures through which the totality
         experiences itself: the means by which physical possibility becomes reality-as-experienced,
         as opposed to reality-as-equations. When a system reaches sufficient integration, expressed
-        as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>, interaction is no longer just
-        relational. It becomes perspective.
+        as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>, interaction is no longer just one
+        thing acting on another. It becomes a point of view.
         <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
     ],

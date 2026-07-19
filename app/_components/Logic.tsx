@@ -48,7 +48,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>The totality:</strong> the whole of reality, Omega, is fundamental and is the
-              one experiencer. Every finite observer is a local aperture of it.
+              one experiencer. Every finite observer is a local aperture of it: an opening through
+              which the whole experiences.
             </li>
 
             <li className="leading-relaxed">
@@ -100,8 +101,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>⊛</strong> denotes structured coupling. It is not a force and not a time-step.
-              It is a notation for the claim that physics alone is not an ontologically complete
-              description of a realized world.
+              It is a notation for the claim that physics alone does not fully describe a realized
+              world: it says what is consistent, not what is lived.
             </li>
           </ul>
 
@@ -258,8 +259,8 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 2: Manifestation</h3>
             <p className="leading-relaxed">
-              A purely physical description is ontologically incomplete until information is
-              integrated into experience by a system capable of observation.
+              A purely physical description is incomplete as an account of reality until information
+              is integrated into experience by a system capable of observation.
             </p>
             <p className="leading-relaxed text-black/70">
               This does not mean observation causes physical events. It means that without
@@ -331,7 +332,7 @@ export default function Logic() {
             </h3>
 
             <p className="leading-relaxed">
-              Reality is constituted by relational structure rather than by objects possessing
+              Reality is made of relationships between things, not of objects possessing
               observer-independent intrinsic properties.
             </p>
 
@@ -342,7 +343,8 @@ export default function Logic() {
 
             <p className="leading-relaxed text-black/70">
               This proposition does not deny the existence of objects. It denies that objects are
-              ontologically prior to the relations that define them.
+              prior to the relations that define them: nothing exists fully formed before its
+              relations.
             </p>
           </div>
 
@@ -388,9 +390,10 @@ export default function Logic() {
             <p className="leading-relaxed">
               Global consistency is not enforced from an external vantage point, and it is not
               deferred to an unreachable limit. It cashes out operationally, here and now: whenever
-              two observers compare records, their records agree. In the monist reading this is
-              grounded rather than stipulated: all apertures are openings of the same totality, and
-              the totality cannot disagree with itself where its apertures meet.
+              two observers compare records, their records agree. In the monist reading (reality as
+              one experiencer) this is grounded rather than stipulated: all apertures are openings
+              of the same totality, and the totality cannot disagree with itself where its apertures
+              meet.
             </p>
 
             <p className="leading-relaxed text-black/70">
@@ -539,7 +542,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Causal autonomy:</strong> the system’s current state must materially constrain
-              its own future states. Otherwise, experience would be epiphenomenal.
+              its own future states. Otherwise, experience would be a byproduct that changes
+              nothing: present, but making no difference to what the system does.
             </li>
           </ol>
 
@@ -551,9 +555,10 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              <strong>Sufficiency:</strong> taken together, these requirements are sufficient for
-              ontological registration. Higher-order phenomena such as emotion, agency, and
-              reasoning are emergent dynamics of systems that already meet these constraints.
+              <strong>Sufficiency:</strong> taken together, these requirements are enough for a
+              system to register reality: to host a genuine point of view rather than merely process
+              information. Higher-order phenomena such as emotion, agency, and reasoning arise
+              naturally in systems that already meet these constraints.
             </p>
 
             <p className="leading-relaxed">
@@ -661,13 +666,13 @@ export default function Logic() {
               erased.
             </p>
             <p className="leading-relaxed">
-              On the physics, this commits Holos to a branching picture. Unitary evolution is never
-              interrupted, and no possibility is erased. When observers would register incompatible
-              outcomes, they are situated in different branches of the possibility structure, each
-              internally consistent. In this respect Holos sides with Many-Worlds-style
-              interpretations of quantum mechanics, while adding what they leave out: an account of
-              which structures are present as experience. This is a genuine interpretive commitment,
-              not a neutral stance.
+              On the physics, this commits Holos to a branching picture. The quantum state evolves
+              smoothly and reversibly, never collapsing (unitary evolution), and no possibility is
+              erased. When observers would register incompatible outcomes, they are situated in
+              different branches of the possibility structure, each internally consistent. In this
+              respect Holos sides with Many-Worlds-style interpretations of quantum mechanics, while
+              adding what they leave out: an account of which structures are present as experience.
+              This is a genuine interpretive commitment, not a neutral stance.
             </p>
           </div>
 
@@ -722,8 +727,8 @@ export default function Logic() {
               is forced (Gleason), its location is stated (the structural layer, alongside the
               laws), but a number can have a mandatory form and a definite address and still lack an
               interpretation. Candidate readings exist: a primitive physical magnitude of branches,
-              needing no translation into anything else, as mass needs none; or the rational
-              credence of an observer uncertain which branch they are in. Holos endorses neither
+              needing no translation into anything else, as mass needs none; or a measure of how
+              confident an observer should be about which branch they are in. Holos endorses neither
               yet. What the weight means is recorded among the framework&apos;s{" "}
               <a href="#open-problems" className="underline hover:no-underline">
                 Open Problems
@@ -756,12 +761,12 @@ export default function Logic() {
             </p>
             <p className="leading-relaxed">
               Eternalism and the relational commitment describe different layers of the framework.
-              The block universe is the structural layer: absolute, tenseless, and
-              observer-independent. It is <MathInline>{"C"}</MathInline>. Registered facts live
-              within it, indexed to the observers the block contains. There is no tension between an
-              absolute geometry and relational facts of experience, because they are claims about
-              different things: the block describes what is consistent, and registration determines
-              what is present.
+              The block universe is the structural layer: absolute, observer-independent, and
+              tenseless, with no moment picked out as the present. It is{" "}
+              <MathInline>{"C"}</MathInline>. Registered facts live within it, indexed to the
+              observers the block contains. There is no tension between an absolute geometry and
+              relational facts of experience, because they are claims about different things: the
+              block describes what is consistent, and registration determines what is present.
             </p>
             <p className="leading-relaxed">
               Nor is the block a perspective from nowhere imposed on top of observers. Relativity
@@ -1292,10 +1297,11 @@ export default function Logic() {
             <p className="leading-relaxed">
               <strong>Treat the threshold as a critical point, not a dial.</strong> If the
               transition from distributed processing to a unified perspective is a genuine phase
-              transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a free parameter but a
-              critical point, and critical points leave measurable fingerprints: slowing near the
-              boundary, diverging fluctuations, a sharp change in some order parameter.
-              Consciousness medicine has already found one such boundary from the outside: the{" "}
+              transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a number we are free to
+              tune but a critical point, and critical points leave measurable fingerprints: slowing
+              near the boundary, diverging fluctuations, a sharp jump in some measurable quantity
+              that tracks the transition. Consciousness medicine has already found one such boundary
+              from the outside: the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
@@ -1388,10 +1394,10 @@ export default function Logic() {
               share-of-experience reading retracted, the framework does not say what the number
               attached to a branch is a quantity <em>of</em>: not frequency in a single world (every
               outcome occurs), not a portion of experience (experience is not pooled and divided).
-              Candidate readings exist, from a primitive magnitude of the possibility structure to
-              self-locating credence within it, and Holos endorses none of them yet. Every
-              no-collapse account inherits this gap, but inheriting a problem does not discharge it.
-              See{" "}
+              Candidate readings exist, from a primitive magnitude of the possibility structure to a
+              measure of how confident an observer should be about where in it they stand, and Holos
+              endorses none of them yet. Every no-collapse account inherits this gap, but inheriting
+              a problem does not discharge it. See{" "}
               <a href="#relationship-to-physics" className="underline hover:no-underline">
                 Relationship to Physics
               </a>

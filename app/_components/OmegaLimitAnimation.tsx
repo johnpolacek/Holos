@@ -731,7 +731,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontStyle="italic"
           >
-            Complete ontological registration.
+            Everything registered; nothing left outside.
           </text>
         </g>
 

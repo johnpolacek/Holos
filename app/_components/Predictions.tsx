@@ -28,8 +28,8 @@ export default function Predictions() {
             or modify the equations of physics. It adds two ingredients beyond them: the integration
             threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about where
             observation occurs, and the totality, Omega, as the fundamental ground of experience, of
-            which every observer is a local aperture. Every claim below follows either from
-            established physics or from those two additions.
+            which every observer is a local aperture: an opening through which it registers itself.
+            Every claim below follows either from established physics or from those two additions.
           </p>
 
           <p className="leading-relaxed">
@@ -91,8 +91,9 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               A physical description can be complete and still fail to explain why there is anything
-              it is like to be inside the system it describes. This gap is ontological rather than
-              merely epistemic.
+              it is like to be inside the system it describes. The gap is not missing information.
+              It is that a complete description can be true and still leave out that anything is
+              being lived at all.
             </p>
 
             <p className="leading-relaxed">
@@ -107,8 +108,9 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Unobserved histories therefore remain valid structures within{" "}
-              <MathInline>{"C"}</MathInline>, but they are not experienced realities without{" "}
-              <MathInline>{"O"}</MathInline>.
+              <MathInline>{"C"}</MathInline>, the space of what physics permits, but without{" "}
+              <MathInline>{"O"}</MathInline>, an observer to register them, they are not experienced
+              realities.
             </p>
 
             <p className="leading-relaxed">
@@ -119,17 +121,17 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               The existence of experience demonstrates that self-registering structures are not
-              merely abstract possibilities, but realizable ones under physical constraint. Once
-              such a structure is realizable even once, actualized reality exists, regardless of how
-              rare or contingent its emergence may be.
+              merely abstract possibilities: physics permits them to be built, and at least one has
+              been. Once such a structure is realizable even once, actualized reality exists,
+              regardless of how rare or contingent its emergence may be.
             </p>
 
             <p className="leading-relaxed">
               Closure has two levels. <strong>Sealing</strong> is binary and branch-wide: a history
               that contains any registration, anywhere along it, is a lived history in its entirety;
-              in the monist reading, it is one the totality experiences through. A branch or
-              universe that never forms an aperture is structure that is never lived.{" "}
-              <strong>Witnessing</strong> is graded and local: how much of a lived history is
+              in the monist reading (reality as one experiencer), it is one the totality experiences
+              through. A branch or universe that never forms an aperture is structure that is never
+              lived. <strong>Witnessing</strong> is graded and local: how much of a lived history is
               experienced in detail scales with the observers it contains. One observer seals a
               branch; many witness it.
             </p>
@@ -161,12 +163,12 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Whether a system crosses this threshold is a fact about its causal architecture. It
-              belongs to the structural layer of reality, alongside the laws of physics, and is not
-              itself indexed to any other observer. Observerhood is the eligibility condition for
-              having a perspective; it is not relative to one. In the monist reading, crossing the
-              threshold is where an aperture opens: the totality registers itself through the
-              system.
+              Whether a system crosses this threshold is a fact about how its parts are wired
+              together. It belongs to the structural layer of reality, alongside the laws of
+              physics, and is not itself indexed to any other observer. Observerhood is what
+              qualifies a system to have a perspective at all; it is not relative to one. In the
+              monist reading, crossing the threshold is where an aperture opens: the totality
+              registers itself through the system.
             </p>
 
             <p className="leading-relaxed">
@@ -283,15 +285,16 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Large-scale neural integration measures should therefore exhibit nonlinear behavior
-              near loss and recovery of consciousness. Below threshold, processing continues without
-              unified access to experience.
+              Large-scale neural integration measures should therefore change abruptly, not
+              smoothly, near loss and recovery of consciousness. Below threshold, processing
+              continues without unified access to experience.
             </p>
 
             <p className="leading-relaxed">
-              If something like a Global Neuronal Workspace is involved in conscious access, these
-              threshold crossings should appear as abrupt transitions into globally available neural
-              states rather than as a gradual fading of reportability.
+              If something like a Global Neuronal Workspace (a theory in which conscious access is
+              information broadcast brain-wide) is involved, these threshold crossings should appear
+              as sharp switches into brain-wide availability rather than a gradual fading of what
+              can be reported.
             </p>
 
             <p className="leading-relaxed">
@@ -315,9 +318,9 @@ export default function Predictions() {
             </h3>
 
             <p className="leading-relaxed">
-              If facts are instantiated through registration, quantum experiments should continue to
-              allow descriptions in which different observers register incompatible outcomes without
-              violating global consistency.
+              If facts are brought into being through registration, quantum experiments should
+              continue to allow descriptions in which different observers register incompatible
+              outcomes without violating global consistency.
             </p>
 
             <p className="leading-relaxed">
@@ -347,8 +350,9 @@ export default function Predictions() {
               being lived: with no apertures, the totality has no opening into them, and they remain
               unlit structure. The nearest examples are not exotic: under the branching picture,
               observer-free branches of our own universe are unlit structure in exactly the same
-              sense. Anthropic reasoning is therefore reframed as ontological filtering rather than
-              selection.
+              sense. Anthropic reasoning (the observation that we can only find ourselves in a
+              universe able to support us) is therefore reframed as ontological filtering rather
+              than selection.
             </p>
           </div>
 
@@ -408,7 +412,7 @@ export default function Predictions() {
             the <em>unfolding argument</em>: for any conscious system one can in principle describe
             a behaviorally identical twin wired differently, and no external test could separate
             them. Holos accepts this. The metaphysical core (presence, and the totality it belongs
-            to) is not empirically decidable.
+            to) cannot be settled by any experiment.
           </p>
 
           <p className="leading-relaxed">
@@ -441,7 +445,7 @@ export default function Predictions() {
           </p>
 
           <p className="leading-relaxed">
-            The bet is losable because the dissociations already exist. People under{" "}
+            The bet is losable because cases where the two come apart already exist. People under{" "}
             <a
               href="https://en.wikipedia.org/wiki/Ketamine"
               target="_blank"
@@ -466,7 +470,8 @@ export default function Predictions() {
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Method</h4>
             <p className="leading-relaxed">
-              Combine no-report and post-hoc-report paradigms with integration proxies such as the{" "}
+              Combine study designs where subjects report only afterward, or not at all, with
+              integration proxies such as the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
@@ -551,11 +556,12 @@ export default function Predictions() {
           <p className="leading-relaxed">
             This test lives in quantum foundations, not in the theory of mind, and its limit comes
             first: the outcome it anticipates is also the outcome textbook quantum mechanics
-            anticipates. That incompatible measurement contexts cannot in general be stitched into
-            one observer-independent account is a theorem of the formalism. What experiments in this
-            family probe is the family of interpretations Holos belongs to (branching, relational,
-            no absolute observed events), not Holos alone. The framework&apos;s distinctive content,
-            which structures are present as experience, is ontological rather than experimental.
+            anticipates. Quantum mechanics itself proves that incompatible measurement setups cannot
+            always be combined into one account that holds for every observer. What experiments in
+            this family probe is the family of interpretations Holos belongs to (branching,
+            relational, no absolute observed events), not Holos alone. The framework&apos;s
+            distinctive content, which structures are present as experience, is ontological rather
+            than experimental.
           </p>
 
           <p className="leading-relaxed">
@@ -567,7 +573,8 @@ export default function Predictions() {
             >
               Wigner&apos;s-friend
             </a>{" "}
-            experiments already pursue exactly this question. The 2020 <em>Local Friendliness</em>{" "}
+            experiments, in which one observer measures another observer who has already made a
+            measurement, already pursue exactly this question. The 2020 <em>Local Friendliness</em>{" "}
             no-go theorem and its photonic tests show that if an in-lab observation counts as a
             genuine fact, then absoluteness of observed events, locality, and freedom of choice
             cannot all hold together. Holos gives up the absoluteness of observed events: registered
@@ -591,8 +598,9 @@ export default function Predictions() {
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Objective</h4>
             <p className="leading-relaxed">
-              Test whether observer cuts function as ontologically constitutive partitions rather
-              than merely epistemic descriptions of a single observer-independent state.
+              Test whether the way a system is sliced into observer and observed actually creates
+              the facts each slice sees, or merely re-describes one state that exists independently
+              of any observer.
             </p>
           </div>
 
@@ -607,8 +615,9 @@ export default function Predictions() {
               >
                 superconducting qubit
               </a>{" "}
-              array (for example, 8–20 qubits) evolved under a known Hamiltonian with tunable
-              decoherence and noise.
+              array (for example, 8–20 qubits) evolved under a known Hamiltonian (the rule that
+              fixes how the system changes over time) with tunable decoherence (how fast its quantum
+              character blurs into ordinary classical behavior) and noise.
             </p>
           </div>
 
@@ -679,7 +688,8 @@ export default function Predictions() {
               Quantum Eraser
             </a>
             , which shows that what counts as an observable fact depends on how information is
-            registered. Unitary evolution is preserved in both cases.
+            registered. The underlying quantum evolution, which loses no information, is preserved
+            in both cases.
           </p>
 
           <p className="leading-relaxed text-black/80">
@@ -706,7 +716,8 @@ export default function Predictions() {
             The commitment that observation is dynamically inert doubles as a bet. A conscious
             observer and a photon produce identical physics: put an integrated system in the
             measuring role in place of a particle, and Holos predicts no deviation whatsoever.
-            Superpositions decohere for thermodynamic reasons, never because someone was home.
+            Superpositions lose their quantum character for thermodynamic reasons, never because
+            someone was home.
           </p>
 
           <p className="leading-relaxed">
@@ -730,7 +741,7 @@ export default function Predictions() {
       {/* A note on the integration correlates */}
       <section id="experiment-3" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          A note on the integration correlates
+          A note on the integration measures
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -746,11 +757,12 @@ export default function Predictions() {
 
           <p className="leading-relaxed">
             A sharp transition at loss of consciousness is predicted by ordinary physicalist models
-            too (bifurcations, ignition, up/down states), so observing one confirms nothing specific
-            to Holos. And a cultured network almost <em>always</em> shows some nonlinear transition
-            (synchronization, criticality, and avalanches are routine dish behavior), so an
-            experiment that counts any such transition as success cannot fail, and an experiment
-            that cannot fail proves nothing when it passes.
+            too (sudden tipping points and network-wide switch-ons of the kind these systems produce
+            anyway), so observing one confirms nothing specific to Holos. And a cultured network
+            almost <em>always</em> shows some nonlinear transition (neurons falling into step and
+            cascades of activity are routine dish behavior), so an experiment that counts any such
+            transition as success cannot fail, and an experiment that cannot fail proves nothing
+            when it passes.
           </p>
 
           <p className="leading-relaxed">
@@ -899,9 +911,9 @@ export default function Predictions() {
             <p className="leading-relaxed">
               If a civilization is H4-level integrated, the most likely remaining footprint isn't
               radio or lasers. It's gravity and heat. Holos uses <strong>Dark Node</strong> as a
-              phenomenological label for what these systems look like from the outside: compact,
-              ordered mass structures that minimize obvious emissions while still exporting waste
-              heat, and staying gravitationally coupled to the universe.
+              label for what these systems look like from the outside: compact, ordered mass
+              structures that minimize obvious emissions while still exporting waste heat, and
+              staying gravitationally coupled to the universe.
             </p>
 
             <p className="leading-relaxed">
@@ -1005,8 +1017,9 @@ export default function Predictions() {
               <h4 className="text-lg font-medium text-black/90">Computronium Kernel</h4>
 
               <p className="leading-relaxed">
-                A maximally compact computational core built from computronium and optimized for
-                coherent, long-horizon modeling rather than raw throughput.
+                A maximally compact computational core built from computronium (matter arranged so
+                that nearly every particle does useful computation) and optimized for coherent,
+                long-horizon modeling rather than raw throughput.
               </p>
 
               <p className="leading-relaxed">

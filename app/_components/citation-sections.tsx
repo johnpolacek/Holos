@@ -45,7 +45,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Interpretations of quantum mechanics",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics",
             description:
-              "Holos is an interpretive framework: it does not add new dynamical laws but offers a way to understand how physical description becomes experienced reality.",
+              "Holos is an interpretive framework: it does not add new laws of physics, only a way to understand how a physical description turns into lived experience.",
           },
           {
             name: "Philosophy of physics",
@@ -57,7 +57,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Structural realism",
             url: "https://en.wikipedia.org/wiki/Structural_realism",
             description:
-              "The view that science describes the structure of reality rather than intrinsic natures; Holos extends this to the role of observation in constituting what is real.",
+              "The view that science describes relationships between things, not what they are in themselves; Holos extends this by giving observation a role in making things real.",
           },
           {
             name: "Block universe",
@@ -126,7 +126,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Hard problem of consciousness",
             url: "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
             description:
-              "Chalmers: why does physical processing give rise to experience at all? Holos treats integration as the condition under which it does, not as a reductive explanation. The hard problem is not solved by reducing experience to physics. It is reframed by identifying the structural condition under which physical systems possess an internal perspective.",
+              "Chalmers: why does physical activity produce felt experience at all? Holos does not answer this, but reframes it: integration is the condition under which a physical system has an inside view.",
           },
           {
             name: "Binding problem",
@@ -138,13 +138,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Neural correlates of consciousness",
             url: "https://en.wikipedia.org/wiki/Neural_correlates_of_consciousness",
             description:
-              "Empirical search for what in the brain corresponds to experience; disruption (e.g. anesthesia) and recovery align with integration as an eligibility condition.",
+              "Search for what in the brain matches experience; anesthesia switching it off, and recovery switching it back on, fit integration as the condition for being an observer.",
           },
           {
             name: "Global Neuronal Workspace Theory (GNWT)",
             url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
             description:
-              "Conscious access as large-scale neural ignition and broadcast; relevant to Holos as an empirical model of access and reportability, though Holos treats integration as the deeper threshold for observerhood.",
+              "The theory that conscious access happens when a signal lights up and spreads across the brain; Holos treats this as a model of what gets reported, not the deeper threshold (integration) for being an observer at all.",
           },
           {
             name: "Integrated Information Theory",
@@ -309,7 +309,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Projective Geometry",
             url: "https://en.wikipedia.org/wiki/Projective_geometry",
             description:
-              "A branch of geometry that studies properties invariant under projective transformations, where parallel lines meet at infinity.",
+              "A branch of geometry studying what stays the same when the point of view changes; parallel lines meet at infinity.",
           },
         ],
       },
@@ -323,7 +323,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Riemann Sphere",
             url: "https://en.wikipedia.org/wiki/Riemann_sphere",
             description:
-              "Exemplifies how higher-dimensional perspectives transform infinite structures into finite, observable entities.",
+              "An example of how viewing from a higher dimension turns an infinite structure into something finite and observable.",
           },
           {
             name: "Fractals",
@@ -383,7 +383,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Loop Quantum Gravity",
             url: "https://en.wikipedia.org/wiki/Loop_quantum_gravity",
             description:
-              "Spacetime is quantized at smaller scales, wrapping infinite spacetime structures into finite loops.",
+              "Space and time come in tiny discrete chunks rather than being smooth, folding infinite structure into finite loops.",
           },
           {
             name: "Holographic Principle",
@@ -457,7 +457,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Substrate independence",
             url: "https://en.wikipedia.org/wiki/Substrate_independence",
             description:
-              "The view that mental states can be realized by different physical substrates. Holos endorses the shape-not-substance point (see the observer requirements) without any claim of platforms beyond ordinary matter.",
+              "The view that a mind could run on different kinds of physical material, not just brains. Holos agrees that pattern matters more than material, without claiming minds can run on anything beyond ordinary matter.",
           },
           {
             name: "Dark matter",
@@ -475,7 +475,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Brane cosmology",
             url: "https://en.wikipedia.org/wiki/Brane_cosmology",
             description:
-              "Higher-dimensional &quot;bulk&quot; space in which our 3D universe may be embedded as a brane. Intelligences that transcend 3D rotate out of our observable &quot;shadow&quot; into this bulk, moving closer to what Holos frames as the unified source of reality.",
+              "The idea that our 3D universe may be a thin brane floating in a larger, higher-dimensional space. An intelligence that moved into that larger space would vanish entirely from our view, drawing closer to what Holos frames as the unified source of reality.",
           },
         ],
       },
@@ -575,7 +575,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Speed of Light",
             url: "https://en.wikipedia.org/wiki/Speed_of_light",
             description:
-              "The invariant speed limit of the universe where spacetime separation vanishes, suggesting all events occur at a single point.",
+              "The universe's fixed speed limit. At light speed, the spacetime gap between events disappears, as if everything happened at one point.",
           },
           {
             name: "Indra's Net",
@@ -595,7 +595,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Structural Realism",
             url: "https://en.wikipedia.org/wiki/Structural_realism",
             description:
-              "The view that science describes the mathematical structures and relationships of the physical world, rather than the intrinsic nature of the objects themselves.",
+              "The view that science describes the relationships between things, not what they are made of in themselves.",
           },
           {
             name: "Holos",
@@ -607,13 +607,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Recursive Operator",
             url: "https://en.wikipedia.org/wiki/Recursion",
             description:
-              "A mathematical operation where the output of observation becomes the input for the next cycle of creation, forming a self-referential system that builds complexity through iterative feedback loops.",
+              "A mathematical operation where the output of observation becomes the input for the next round of creation, forming a feedback loop that builds complexity over time.",
           },
           {
             name: "Category Theory",
             url: "https://en.wikipedia.org/wiki/Category_theory",
             description:
-              "A branch of mathematics that studies abstract structures and relationships between mathematical objects, focusing on how different systems relate to each other through morphisms and functors.",
+              "A branch of mathematics focused on how different mathematical systems relate to one another through structure-preserving maps, rather than what is inside each one.",
           },
         ],
       },
@@ -639,7 +639,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Interacting Dark Energy (IDE) 2022",
             url: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3076P",
             description:
-              "MNRAS 511, 3076–3088 (2022): a model in which energy flows from the vacuum into the dark sector and accelerates structure growth. Cited as active cosmology; Holos takes no position on dark-sector microphysics.",
+              "MNRAS 511, 3076–3088 (2022): a model where energy flows from empty space into dark matter and dark energy, speeding up how cosmic structures form. Cited as active cosmology; Holos takes no position on the underlying physics.",
           },
           {
             name: "Metastable DE / Axion-like DM (2024)",
@@ -690,7 +690,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Many-worlds interpretation",
             url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
             description:
-              "Everett (1957): all branches of the wavefunction are real; Holos agrees on structural multiplicity but adds ontological selection (which branches are registered as experience).",
+              "Everett (1957): every possible outcome of a quantum event really happens, in its own branch. Holos agrees all branches exist, but adds that only some are registered as anyone's actual experience.",
           },
           {
             name: "Relational quantum mechanics",
@@ -714,7 +714,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
             description:
-              "Theories in which collapse is a physical process; Holos rejects objective collapse in favor of observer-relative ontological registration.",
+              "Theories in which collapse is a physical process; Holos rejects that, holding instead that which facts become real is relative to the observer registering them.",
           },
         ],
       },
@@ -758,7 +758,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Invariant (physics)",
             url: "https://en.wikipedia.org/wiki/Invariant_(physics)",
             description:
-              "Reality consists of invariant relational structure, not intrinsic properties. The Holos operator ⊛ describes structural invariants, not dynamical evolution.",
+              "Reality is stable relationships, not fixed properties things carry on their own. ⊛ describes what stays constant in that structure, not how it changes over time.",
           },
         ],
       },
@@ -772,7 +772,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "The study of what exists. Observation in Holos performs ontological selection: which spacetime histories attain experiential registration.",
+              "The study of what exists. In Holos, observation decides which possible histories of spacetime actually become someone's lived experience.",
           },
           {
             name: "Epistemology",
@@ -798,7 +798,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wave Function Collapse",
             url: "https://en.wikipedia.org/wiki/Wave_function_collapse",
             description:
-              "⊛ is not stochastic collapse: it operates at the level of ontological selection, not time-directed dynamical collapse.",
+              "⊛ is not a physical collapse happening over time; it is about which outcome becomes real, not how that outcome comes about.",
           },
           {
             name: "Bayesian Inference",
@@ -836,7 +836,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Quantum Decoherence",
             url: "https://en.wikipedia.org/wiki/Quantum_decoherence",
             description:
-              "The process by which quantum systems interact with their environment. Φ filters the output of physical decoherence into experiential registration.",
+              "The process by which quantum systems interact with their environment. Φ decides which part of that process ends up as lived experience.",
           },
         ],
       },
@@ -862,7 +862,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Schrödinger Equation",
             url: "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation",
             description:
-              "Φ does not replace the Schrödinger equation; it introduces a Manifestation Constraint that preserves unitarity while enabling ontological registration.",
+              "Φ does not replace the Schrödinger equation; it adds a Manifestation Constraint that leaves the quantum math untouched while determining which histories become lived experience.",
           },
           {
             name: "Quantum Mechanics",
@@ -886,7 +886,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "The Manifestation Constraint enables ontological registration (which histories attain experiential reality) without violating unitarity.",
+              "The Manifestation Constraint determines which histories become lived experience, without altering the underlying quantum math.",
           },
         ],
       },
@@ -906,13 +906,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Information Theory",
             url: "https://en.wikipedia.org/wiki/Information_theory",
             description:
-              "Information flow presupposes causal transmission; ⊛ operates at the level of ontological selection, not causal propagation.",
+              "Sending information assumes a causal signal passes between places; ⊛ works differently: it selects which history is real, not which signal travels.",
           },
           {
             name: "Measurement in Quantum Mechanics",
             url: "https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics",
             description:
-              "Measurement models physical coupling between systems; Observation in Holos selects which already-consistent histories attain ontological registration.",
+              "Measurement models the physical interaction between systems; Observation in Holos instead selects which of the already-consistent histories becomes real.",
           },
           {
             name: "Hilbert Space",
@@ -964,13 +964,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "Ontological predictions about participatory manifestation; observers as boundary condition for self-consistent block universe.",
+              "Predictions about how reality comes into being through participation; observers are what keeps the block universe self-consistent.",
           },
           {
             name: "Block universe",
             url: "https://en.wikipedia.org/wiki/Block_universe",
             description:
-              "Observers act as boundary condition for self-consistent block universe (Axiom 2).",
+              "Observers are the constraint that keeps the block universe internally consistent (Axiom 2).",
           },
           {
             name: "Anthropic principle",
@@ -982,23 +982,24 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Cosmic microwave background (CMB) polarization",
             url: "https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization",
             description:
-              "CMB-S4, LiteBIRD: signatures consistent with low-entropy initial state and inflationary dynamics tuned for complexity growth.",
+              "CMB-S4, LiteBIRD: looking for signs the universe began highly ordered, with inflation tuned to let complexity grow.",
           },
           {
             name: "Past hypothesis",
             url: "https://en.wikipedia.org/wiki/Past_hypothesis",
             description:
-              "Low-entropy initial state; Holos predicts uninhabitable branches are mathematically valid but ontologically unrealized (lack of Φ).",
+              "The universe began in a highly ordered, low-entropy state. Holos predicts uninhabitable branches are mathematically possible but never actually become real (no Φ).",
           },
           {
             name: "Inflation (cosmology)",
             url: "https://en.wikipedia.org/wiki/Inflation_(cosmology)",
-            description: "Inflationary dynamics tuned for complexity growth.",
+            description: "Cosmic inflation, tuned in a way that let complexity grow later.",
           },
           {
             name: "Multiverse",
             url: "https://en.wikipedia.org/wiki/Multiverse",
-            description: "Uninhabitable branches ontologically unrealized due to lack of Φ.",
+            description:
+              "Branches where nothing could live are mathematically possible, but Holos says they never actually become real (no Φ).",
           },
         ],
       },
@@ -1012,7 +1013,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Integrated Information Theory (IIT)",
             url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
             description:
-              "Holos operationalizes consciousness through Φ; systems crossing Φ_c exhibit irreducible subjective experience. IIT-inspired metrics (e.g., PCI) test threshold.",
+              "Holos measures consciousness with Φ: once a system crosses the threshold Φ_c, it has real subjective experience. IIT-based tools like PCI test for that crossing.",
           },
           {
             name: "Panpsychism",
@@ -1042,7 +1043,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Consciousness as phase transition at Φ_c; PCI should reveal sharp transitions.",
+              "Holos treats consciousness turning on as a sudden switch at Φ_c, not a dial; PCI should show a sharp jump, not a gradual slope.",
           },
         ],
       },
@@ -1056,7 +1057,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Extended Wigner's Friend experiments",
             url: "https://www.science.org/doi/10.1126/sciadv.aaw9832",
             description:
-              "Two observers can hold different facts about the same event without breaking unitarity. Collapse relative to Φ frame.",
+              "Two observers can hold different facts about the same event without breaking the underlying quantum math (unitarity). Which one appears to collapse depends on the observer's Φ-frame.",
           },
           {
             name: "Unitarity (physics)",
@@ -1180,7 +1181,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Integration milestones on the Holosian scale as qualitative transitions driven by light-lag and thermodynamic constraint.",
+              "Integration advances in sudden jumps, not gradual growth, driven by light-speed delay and the unavoidable cost of waste heat.",
           },
           {
             name: "Ephemeralization",
