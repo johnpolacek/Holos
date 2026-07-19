@@ -557,6 +557,20 @@ export default function Logic() {
               .
             </p>
 
+            <p className="leading-relaxed">
+              The scope of this condition is bounded, and the boundary matters. Maximality
+              compares physical systems: brains, hemispheres, coupled pairs, and whatever other
+              integrated structures reality contains. Omega is not in that comparison. The
+              totality is not the largest whole in the ranking, one step up from the largest
+              system; it is not a system among systems at all, and asking whether it
+              out-integrates its parts is a category mistake, like asking whether a landscape is
+              its own tallest peak. The condition therefore individuates apertures without
+              bearing on the totality they belong to. Whether apertures can form at scales of
+              organization between the ones we know and the totality is left open: Holos neither
+              asserts nor excludes such intermediates, and wherever integration reaches a local
+              maximum above the threshold, the same rule applies. One peak, one perspective.
+            </p>
+
             <p className="leading-relaxed text-black/70 text-sm">
               Holos does not claim that all systems meeting these criteria are conscious in the
               human sense. It claims only that some experience exists.
@@ -1012,6 +1026,12 @@ export default function Logic() {
                 lived at each aperture, not summed above them.
               </li>
               <li className="leading-relaxed">
+                It <strong>is not</strong> an aperture writ large. The maximality condition that
+                individuates finite observers (one peak of integration, one perspective) compares
+                systems within reality. The totality is not a system among systems, so it does not
+                compete in that comparison and is not excluded by it.
+              </li>
+              <li className="leading-relaxed">
                 It <strong>does not</strong> replace physical cosmology or impose a final cause on
                 evolution.
               </li>
@@ -1204,6 +1224,15 @@ export default function Logic() {
               </a>{" "}
               defines the maximum. Until the measure is fixed, the boundaries between observers are
               fixed only in principle.
+            </p>
+            <p className="leading-relaxed">
+              Two clarifications bound this problem without solving it. First, the maximality
+              condition individuates finite observers only; it does not range over the totality,
+              which is not a system among systems and does not compete with its own apertures.
+              Second, the condition is silent about scale. Whether apertures can form at
+              intermediate levels of organization, larger than any brain and smaller than
+              everything, is left open: Holos neither asserts nor excludes them, and the same
+              rule would govern wherever they might form.
             </p>
           </div>
 
