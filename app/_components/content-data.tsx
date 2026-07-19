@@ -510,30 +510,49 @@ export const sections: ContentSection[] = [
       <>
         What survives is the instinct behind the idea: most of what exists does not shine. Mature
         life would belong to a different dark census, the non-luminous side of{" "}
-        <em>ordinary</em> matter. Cold, compact, built structures can emit no visible light while
-        remaining gravitationally present. Nothing in known physics forbids a universe well
-        stocked with such objects.
+        <em>ordinary</em> matter: cold, compact, built structures that emit no visible light while
+        remaining gravitationally present. Two further constraints bound how many there can be.
+        The ordinary-matter books are nearly balanced: the early universe records how much
+        ordinary matter exists in total, and surveys have located almost all of it, so built
+        structures must fit inside a small and shrinking gap in the accounting. And astronomy has
+        already hunted compact dark objects directly, watching millions of stars for the brief
+        gravitational magnification a passing dark mass produces, and found too few to permit a
+        large hidden population. If such structures exist, they are a trace population: rare, not
+        a census. The Teeming Dark was never a claim about tonnage, though. A universe can be
+        poor in hidden mass and still rich in minds.
       </>,
       <>
-        Thermodynamics then adds the crucial correction: such systems can hide their light, but
-        not their warmth. Anything that computes or works must shed heat, and while the heat can
-        be shaped, delayed, and diluted, its total cannot be canceled. The Teeming Dark therefore
-        makes one checkable prediction: mature systems should appear as compact masses,
-        dark at every wavelength except a faint infrared glow. <strong>Silent, but warm</strong>.
+        Thermodynamics then adds a correction, and it must be stated carefully. Anything that
+        computes must shed heat, and the total cannot be canceled; but physics guarantees only
+        that the heat <em>exists</em>, not that it is easy to see. A system chooses the
+        temperature at which it radiates, and one that dumps its heat barely above the cosmic
+        background glows only where the sky already glows. What closes this loophole is the
+        framework&apos;s own thesis: radiating cold requires enormous surfaces (shedding the same
+        power near the background temperature takes a hundred-million-fold more radiating area),
+        and vast sprawl is exactly what integration abandons. Compact and computing means warm
+        above the background. The expectation follows: mature systems should appear as compact
+        masses, dark in visible light, with a faint infrared excess.{" "}
+        <strong>Silent, but warm</strong>.
       </>,
       <>
-        Astronomers already run infrared surveys hunting exactly
-        this signature (objects with more warmth than their starlight can explain), precisely
-        because waste heat is the one emission no technology can optimize away. The Teeming Dark
-        aligns itself with that search, rather than with anomalies in dark-matter maps, whose
-        deviations have viable conventional explanations.
+        Two honesty notes bound that expectation. First, it is a search channel, not a
+        fingerprint: a compact mass with a faint infrared excess is also what a brown dwarf, a
+        rogue planet, or a cooled stellar remnant looks like, and no instrument reads purpose off
+        a warm dark blob at interstellar distances. The claim is only that if mature life leaves
+        a footprint at all, this channel is where it appears; astronomers already run infrared
+        surveys hunting unexplained warmth, and the Teeming Dark aligns itself with that search
+        rather than with anomalies in dark-matter maps, whose deviations have viable conventional
+        explanations. Second, one escape stays open: a civilization that mostly sleeps, deferring
+        its computing to a colder cosmic future, emits almost nothing while it waits. Holos
+        cannot close that door; it can only note that a sleeping universe and an empty one look
+        alike by design.
       </>,
       <>
         As a thought experiment, the Teeming Dark reframes what “inhabited” might mean at cosmic
         scale. A universe rich in long-lived, highly integrated systems could appear empty to
         instruments tuned only to visible light. Silence, in this context, would not signal
-        absence but endurance, and the tell would not be a message, but warmth without
-        brightness.
+        absence but endurance, and the closest thing to a tell would not be a message, but
+        warmth without brightness.
       </>,
     ],
   },

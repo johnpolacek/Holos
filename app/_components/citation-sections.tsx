@@ -421,13 +421,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dark Nodes",
             url: "#the-teeming-dark",
             description:
-              "The hypothesized mature state: compact, non-luminous systems built from ordinary matter, detectable by gravity and an irreducible waste-heat signature rather than light (the Teeming Dark). Not cosmological dark matter, which predates any possible life.",
+              "The hypothesized mature state: compact, non-luminous systems built from ordinary matter, a trace population detectable, if at all, by gravity and waste heat rather than light (the Teeming Dark). Not cosmological dark matter, which predates any possible life.",
           },
           {
             name: "Waste-heat SETI (the Ĝ survey)",
             url: "https://arxiv.org/abs/1408.1133",
             description:
-              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with: silent, but warm.",
+              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with: silent, but warm. A channel, not a fingerprint: warm dark masses are also what failed stars and cooled remnants look like.",
           },
           {
             name: "Ehrenfest argument",

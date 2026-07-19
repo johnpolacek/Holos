@@ -863,8 +863,9 @@ export default function Predictions() {
 
             <p className="leading-relaxed text-black/70 text-sm">
               This scale is intentionally “quiet.” If it is even partly right, the most advanced
-              civilizations get harder to see in light, not easier, though thermodynamics
-              guarantees they never become invisible in heat.
+              civilizations get harder to see in light, not easier. Thermodynamics guarantees
+              their heat exists; it is their own compactness that keeps that heat above the
+              cosmic background and, in principle, findable.
             </p>
           </div>
 
@@ -882,10 +883,14 @@ export default function Predictions() {
               increasingly optimized and less obvious radiative signatures.
             </p>
             <p className="leading-relaxed">
-              One caveat is non-negotiable: visibility collapse applies to light, not heat. A
-              civilization can compress, encrypt, and minimize, but anything that computes must
-              shed waste heat, and the total cannot be canceled. Mature systems become silent, not
-              cold.
+              One caveat is non-negotiable: visibility collapse applies to light, not heat.
+              Anything that computes must shed waste heat, and the total cannot be canceled.
+              Heat can be hidden in only one way: radiated barely above the cosmic background,
+              which requires radiating surfaces so vast they contradict compactness itself. A
+              civilization that stays compact and keeps computing stays warm above the
+              background. Mature systems become silent, not cold; the one exception is systems
+              that stop computing and sleep, and a sleeping civilization is indistinguishable
+              from none at all.
             </p>
           </div>
 
@@ -923,7 +928,11 @@ export default function Predictions() {
               internal organization in cluster collisions. Nodes are ordinary matter that has
               stopped shining. Holos does not claim any known anomaly is a node, only that if
               long-term integration leaves a footprint, it is gravitational and thermal, and this
-              is where it would show up.
+              is where it would show up. Two limits bound the idea. The ordinary-matter budget
+              and microlensing searches permit nodes only as a trace population, not a hidden
+              census. And a node&apos;s observational profile (compact, dark, faintly warm) is
+              shared with brown dwarfs, rogue planets, and cooled stellar remnants, so the Dark
+              Node is a search channel, not a fingerprint.
             </p>
           </div>
 
