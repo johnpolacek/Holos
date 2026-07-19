@@ -1097,6 +1097,64 @@ export default function Logic() {
               unlit on which the rest of the framework depends.
             </p>
           </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Why One Experiencer Has Many Sealed Perspectives
+            </h3>
+
+            <p className="leading-relaxed">
+              A second objection is the mirror image of a famous one. Panpsychism faces the
+              combination problem: if every particle carries a spark of experience, no one can
+              say how billions of sparks combine into the single unified experience of a person.
+              A monism of one experiencer inherits the problem upside down, as a decomposition
+              problem: if every experience is Omega&apos;s, what makes your experience and
+              another person&apos;s experience <em>two</em>, and why is the wall between them
+              absolute? No aperture has any access, faint or partial, to what it is like to be
+              another. Saying the totality&apos;s experiential life is plural and distributed
+              names this situation. It does not yet account for it.
+            </p>
+
+            <p className="leading-relaxed">
+              The first half of the account is structural. Two apertures are two because they are
+              two local maxima of integration with no integration bridging them: the same
+              maximality condition that individuates observers settles what makes them several.
+              And the wall between them is not a barrier holding something back. Experience
+              occurs at the aperture and is shaped by it; there is no subject positioned behind
+              the apertures through which a back-channel could run. Where structure does not
+              connect, experience does not connect. The sealing is not a mechanism added to the
+              plurality. It is the absence of any structure that could carry connection.
+            </p>
+
+            <p className="leading-relaxed">
+              The second half dissolves the air of paradox: one experiencer with mutually sealed
+              experiences is not exotic. It is what time already makes of every individual life.
+              A person at five and the same person decades later are one experiencer; no one
+              takes their separation to split them into two people. Yet the later moment has no
+              direct access to what it was like to be inside the earlier one. In the block
+              universe, all the moments of a life coexist tenselessly, each experienced from
+              within itself, none experienced from within another. Sealed plurality inside a
+              single experiencer is therefore already the ordinary structure of a human life.
+              Apertures stand to the totality as the moments of a life stand to the person:
+              genuinely many, genuinely sealed, and one.
+            </p>
+
+            <p className="leading-relaxed">
+              Nor does this reduce the oneness to a label doing no work. The structural walls
+              explain the plurality; the unity explains what the plurality cannot: why records
+              agree wherever apertures meet (openings of one totality cannot disagree with
+              itself), and why there is presence at all rather than structure alone. Division of
+              labor, not redundancy.
+            </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              The analogy has a stated limit. The moments of a life are threaded together by
+              memory and anticipation; apertures share no such threads. The analogy shows that
+              sealed plurality within one experiencer is coherent, not that apertures are
+              moments. What it removes is the charge of incoherence, which is all it is asked to
+              do.
+            </p>
+          </div>
         </div>
       </section>
 
