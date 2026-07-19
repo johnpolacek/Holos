@@ -226,9 +226,10 @@ export default function Predictions() {
               Branches are weighted, not merely counted. The statistics every observer records
               follow the Born rule, the unique self-consistent weighting of quantum outcomes
               (Gleason&apos;s theorem). Those weights are structural facts about the possibility
-              space, not a measure of how much experience a branch carries. Holos claims no
-              derivation of expectation from branching, a puzzle it inherits from every
-              no-collapse account rather than one it creates. See{" "}
+              space, not a measure of how much experience a branch carries. What the weight
+              itself measures, Holos records as an open problem rather than resolving by fiat,
+              and it claims no derivation of expectation from branching, a puzzle it inherits
+              from every no-collapse account rather than one it creates. See{" "}
               <a href="/logic#relationship-to-physics" className="underline hover:no-underline">
                 Logic
               </a>{" "}

@@ -701,13 +701,28 @@ export default function Logic() {
               not arise.
             </p>
             <p className="leading-relaxed">
-              What does remain is a problem Holos inherits rather than creates. Gleason fixes the
-              form the weights must take, but no branching account has fully explained why an
-              observer who is certain to have successors in every branch should expect Born
-              statistics rather than merely find them. That puzzle belongs to every no-collapse
-              interpretation, and Holos claims no solution to it. The framework is committed to
-              the weights being real and structural, not to having derived expectation from
-              branching.
+              Declining that step has a cost, and Holos pays it in the open. With the
+              experiential reading retracted, the framework currently offers no account of what
+              the weight <em>measures</em>. Its form is forced (Gleason), its location is stated
+              (the structural layer, alongside the laws), but a number can have a mandatory form
+              and a definite address and still lack an interpretation. Candidate readings exist:
+              a primitive physical magnitude of branches, needing no translation into anything
+              else, as mass needs none; or the rational credence of an observer uncertain which
+              branch they are in. Holos endorses neither yet. What the weight means is recorded
+              among the framework&apos;s{" "}
+              <a href="#open-problems" className="underline hover:no-underline">
+                Open Problems
+              </a>{" "}
+              rather than papered over with a choice made too early.
+            </p>
+
+            <p className="leading-relaxed">
+              A second gap is inherited rather than created. Gleason fixes the form the weights
+              must take, but no branching account has fully explained why an observer who is
+              certain to have successors in every branch should expect Born statistics rather
+              than merely find them. That puzzle belongs to every no-collapse interpretation,
+              and Holos claims no solution to it. The framework is committed to the weights
+              being real and structural, not to having derived expectation from branching.
             </p>
             <p className="leading-relaxed text-black/70 text-sm">
               This is a placement, not a derivation. Gleason&apos;s theorem has assumptions that
@@ -1195,7 +1210,7 @@ export default function Logic() {
 
         <div className="flex flex-col gap-5 text-black/80">
           <p className="leading-relaxed">
-            Holos states its limits as plainly as its claims. Three problems sit at the center of
+            Holos states its limits as plainly as its claims. Four problems sit at the center of
             the framework and remain open. They are named here rather than papered over.
           </p>
 
@@ -1332,10 +1347,29 @@ export default function Logic() {
             </p>
           </div>
 
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">What the branch weights measure</h3>
+            <p className="leading-relaxed">
+              Holos commits to the Born weights being real, structural, and consistency-forced in
+              form (Gleason&apos;s theorem). What it does not have is an interpretation. With the
+              share-of-experience reading retracted, the framework does not say what the number
+              attached to a branch is a quantity <em>of</em>: not frequency in a single world
+              (every outcome occurs), not a portion of experience (experience is not pooled and
+              divided). Candidate readings exist, from a primitive magnitude of the possibility
+              structure to self-locating credence within it, and Holos endorses none of them yet.
+              Every no-collapse account inherits this gap, but inheriting a problem does not
+              discharge it. See{" "}
+              <a href="#relationship-to-physics" className="underline hover:no-underline">
+                Relationship to Physics
+              </a>
+              .
+            </p>
+          </div>
+
           <p className="leading-relaxed text-black/70 text-sm">
             These are not peripheral loose ends; they concern the framework&apos;s two additions
-            to physics. They are recorded here so that progress on them can be judged against a
-            stated standard.
+            to physics and the quantum picture it commits to. They are recorded here so that
+            progress on them can be judged against a stated standard.
           </p>
         </div>
       </section>
