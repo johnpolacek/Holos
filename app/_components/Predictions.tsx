@@ -436,9 +436,8 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             Everyday practice assumes a responsive system is conscious and an unresponsive one is
-            not. Holos makes a sharper, riskier claim: what matters is <em>integration</em>, and
-            integration can come apart from outward behavior. When the two diverge, Holos bets that
-            experience follows integration.
+            not. In Holos, what matters is <em>integration</em>, and integration can come apart from
+            outward behavior. When the two diverge, Holos bets that experience follows integration.
           </p>
 
           <p className="leading-relaxed">

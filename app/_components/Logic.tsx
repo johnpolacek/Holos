@@ -358,9 +358,9 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              This manifestation is structural rather than causal. Observation does not generate
-              physical events or alter lawful dynamics. It determines which already-consistent
-              structures are realized as lived history.
+              This manifestation is structural, not causal. Observation does not generate physical
+              events or alter lawful dynamics. It determines which already-consistent structures are
+              realized as lived history.
             </p>
 
             <p className="leading-relaxed text-black/70">
@@ -1099,9 +1099,8 @@ export default function Logic() {
                 state.
               </li>
               <li className="leading-relaxed">
-                It <strong>is not</strong> an external observer watching the universe from outside,
-                and it does not intervene in events. It is the whole itself, experiencing through
-                the apertures the universe contains.
+                It <strong>is not</strong> an external observer watching the universe from outside.
+                It is the whole itself, experiencing through the apertures the universe contains.
               </li>
               <li className="leading-relaxed">
                 It <strong>is not</strong> a single pooled experience surveying everything at once.

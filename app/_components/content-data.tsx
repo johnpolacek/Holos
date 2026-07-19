@@ -168,11 +168,10 @@ export const sections: ContentSection[] = [
         This grounding closes a classic trap. If experience never alters physical dynamics, one
         might imagine a perfect physical duplicate of a person with no inner life: a system that
         writes essays about consciousness in total darkness. Under Holos such a duplicate is
-        impossible. Whether a system crosses the integration threshold is a structural fact about
-        its physical architecture, and any structure that crosses it is, necessarily, an open
-        aperture. A perfect copy of the structure is a perfect copy of the aperture. Nothing wired
-        like an observer can fail to be one, which is why talk about experience is grounded in
-        experience rather than running mysteriously alongside it.
+        impossible. Whether a system crosses the integration threshold depends only on how it is
+        built. Copy the structure exactly and you copy everything that makes it an observer,
+        experience included. Nothing built like an observer can fail to be one, which is why talk
+        about experience is grounded in experience rather than running mysteriously alongside it.
       </>,
       <>
         The threshold itself is sharp, but almost everything near it is not, and Holos separates
