@@ -362,12 +362,15 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 5: Totality</h3>
             <p className="leading-relaxed">
-              The whole of reality, Omega, is the one experiencer. Every observer is a local
-              aperture of it: where a system crosses the threshold, the one subject wakes. No new
-              subject comes into being.
+              The whole of reality, Omega, is the one experiencer. Physically, the whole is the
+              universal quantum state that Axiom 2 already requires: one state of everything, all
+              branches included. Every observer is a local aperture of it: where a system crosses
+              the threshold, the one subject wakes. No new subject comes into being.
             </p>
             <p className="leading-relaxed text-black/70">
-              This is the second of Holos&apos;s two additions to physics, and its job is unity:
+              This is the second of Holos&apos;s two additions to physics. What it adds is not the
+              whole itself, whose existence rests on physics, but the claim that the whole is the
+              one experiencer; that part is interpretive and can never be tested. Its job is unity:
               every observer is the same subject, walled off from the others by structure. It does
               not explain where waking happens; Axiom 3 does that. Its payoff is economy, one
               subject in place of billions arising without explanation, and it is philosophical, not

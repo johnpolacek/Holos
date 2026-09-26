@@ -654,12 +654,15 @@ export const sections: ContentSection[] = [
       <>
         The Omega Point is not introduced as a prediction or goal, and in Holos it is not derived
         from anything else. It is the framework&apos;s fundamental posit: the totality of reality,
-        taken as a single whole. In the monist reading Holos adopts (reality is ultimately one
-        thing, not many separate things), it is also the one experiencer, of which every finite
-        observer is a local aperture. The name echoes two older ideas it should not be confused
-        with: Teilhard de Chardin&apos;s spiritual endpoint of history, and Frank Tipler&apos;s
-        physical Omega Point, a prediction that required the universe to collapse back on itself and
-        is contradicted by its accelerating expansion. Holos means neither. Its Omega is not an
+        taken as a single whole. Physically, that whole is not mysterious. Quantum mechanics without
+        collapse, which Holos adopts, already describes everything as one universal quantum state,
+        every branch included, and that state is Omega. Its existence rests on physics. What Holos
+        adds is interpretive: in the monist reading it adopts (reality is ultimately one thing, not
+        many separate things), the whole is also the one experiencer, of which every finite observer
+        is a local aperture. The name echoes two older ideas it should not be confused with:
+        Teilhard de Chardin&apos;s spiritual endpoint of history, and Frank Tipler&apos;s physical
+        Omega Point, a prediction that required the universe to collapse back on itself and is
+        contradicted by its accelerating expansion. Holos means neither. Its Omega is not an
         endpoint in time but the whole itself.
       </>,
       <>

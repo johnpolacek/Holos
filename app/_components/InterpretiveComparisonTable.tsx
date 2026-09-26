@@ -16,7 +16,9 @@ export default function InterpretationComparisonTable() {
         <tbody className="text-black/80">
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">What is fundamental?</td>
-            <td className="py-3 pr-6">The totality (Ω), expressed as relational structure</td>
+            <td className="py-3 pr-6">
+              The totality (Ω): the universal quantum state, read as the one experiencer
+            </td>
             <td className="py-3 pr-6">Universal wavefunction</td>
             <td className="py-3 pr-6">Relations between systems</td>
             <td className="py-3">Agent-centered beliefs</td>
