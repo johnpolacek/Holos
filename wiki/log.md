@@ -206,3 +206,9 @@ Keep entries concise and grounded in inspected repo evidence.
 - Text: the Recursion citation no longer says observation "selects and actualizes"; the Minimal Core integration bullet now says "information about a world".
 - Left for John: "sealed" still has two meanings, the sealing of a past and mutually sealed perspectives. John declined the rename at problem 1.
 - Verified via `tsc --noEmit`, `biome check` (only the 13 existing warnings), SSR render checks of `/` and `/logic`, and regeneration of `public/holos.pdf`. Animation layout was not visually inspected.
+
+## [2026-09-26] update | rename the second sense of "sealed" to "walled off"
+
+- After problem 1, "sealed" meant two things: sealing, a past carried into lived experience, and "sealed perspectives", apertures cut off from one another. John chose to rename the second sense.
+- Edited `Logic.tsx`: the section is retitled "Why One Experiencer Has Many Walled-Off Perspectives" (anchor `#why-one-experiencer` unchanged, lineage link text updated), and "sealed" becomes "walled off" throughout the decomposition discussion. `.cursor/rules/holos-guardrails.mdc` now reserves "sealing" for the lived-past sense. Earlier log entries keep the old title as history.
+- Verified via `tsc --noEmit`, `biome check` (only the 13 existing warnings), an SSR render check of `/logic`, and regeneration of `public/holos.pdf`. The first PDF attempt timed out after the dev server was stopped mid-run; a rerun succeeded.

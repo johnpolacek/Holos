@@ -1218,7 +1218,7 @@ export default function Logic() {
               dependence to run from the whole to its parts, for the one reason the monist reading
               earns: on it, no subject ever comes from nothing (see{" "}
               <a href="#why-one-experiencer" className="underline hover:no-underline">
-                Why One Experiencer Has Many Sealed Perspectives
+                Why One Experiencer Has Many Walled-Off Perspectives
               </a>
               ).
             </p>
@@ -1266,7 +1266,7 @@ export default function Logic() {
 
           <div id="why-one-experiencer" className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Why One Experiencer Has Many Sealed Perspectives
+              Why One Experiencer Has Many Walled-Off Perspectives
             </h3>
 
             <p className="leading-relaxed">
@@ -1288,21 +1288,21 @@ export default function Logic() {
               between them is not a barrier holding something back. Experience occurs at the
               aperture and is shaped by it; there is no subject positioned behind the apertures
               through which a back-channel could run. Where structure does not connect, experience
-              does not connect. The sealing is not a mechanism added to the plurality. It is the
+              does not connect. The wall is not a mechanism added to the plurality. It is the
               absence of any structure that could carry connection.
             </p>
 
             <p className="leading-relaxed">
-              The second half dissolves the air of paradox: one experiencer with mutually sealed
+              The second half dissolves the air of paradox: one experiencer with mutually walled-off
               experiences is not exotic. It is what time already makes of every individual life. A
               person at five and the same person decades later are one experiencer; no one takes
               their separation to split them into two people. Yet the later moment has no direct
               access to what it was like to be inside the earlier one. In the block universe, all
               the moments of a life coexist tenselessly, each experienced from within itself, none
-              experienced from within another. Sealed plurality inside a single experiencer is
+              experienced from within another. Walled-off plurality inside a single experiencer is
               therefore already the ordinary structure of a human life. Apertures stand to the
               totality as the moments of a life stand to the person: genuinely many, genuinely
-              sealed, and one.
+              walled off, and one.
             </p>
 
             <p className="leading-relaxed">
@@ -1325,7 +1325,7 @@ export default function Logic() {
 
             <p className="leading-relaxed text-black/70 text-sm">
               The analogy has a stated limit. The moments of a life are threaded together by memory
-              and anticipation; apertures share no such threads. The analogy shows that sealed
+              and anticipation; apertures share no such threads. The analogy shows that walled-off
               plurality within one experiencer is coherent, not that apertures are moments. What it
               removes is the charge of incoherence, which is all it is asked to do.
             </p>
