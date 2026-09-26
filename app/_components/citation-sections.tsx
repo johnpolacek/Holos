@@ -876,7 +876,7 @@ export const citationMainSections: CitationMainSection[] = [
       {
         number: 22,
         id: "mathematical-formalism",
-        title: "Math",
+        title: "Notation",
         canonicalLink: "/logic#mathematical-formalism",
         items: [
           {

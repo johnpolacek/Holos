@@ -24,9 +24,10 @@ export const sections: ContentSection[] = [
       <>
         Holos is an interpretive framework built on a single idea: a universe can be complete as
         structure and still not be lived. At its core is one expression,{" "}
-        <MathInline>R = C ⊛ O</MathInline>. Creation generates physical possibilities. Observation
-        registers them as experience. Reality in the full sense is the closure of the two: not
-        equations alone, and not experience alone, but a world that both exists and is lived.
+        <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means &quot;generate, then
+        register.&quot; Creation generates physical possibilities. Observation registers them as
+        experience. Reality in the full sense is the closure of the two: not equations alone, and
+        not experience alone, but a world that both exists and is lived.
       </>,
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
@@ -571,9 +572,9 @@ export const sections: ContentSection[] = [
         matter by roughly a factor of five.
       </>,
       <>
-        An earlier version of this thought experiment proposed that some dark matter might itself be
-        organized: “ordered dark matter,” mature systems hiding inside the dark-matter census. That
-        proposal is retired here, because the universe&apos;s own timeline rules it out.
+        A tempting version of this idea is that some dark matter might itself be organized: mature
+        systems hiding inside the dark-matter census. The universe&apos;s own timeline rules that
+        out.
       </>,
       <>
         Dark matter&apos;s fingerprints are visible in the{" "}
@@ -651,7 +652,11 @@ export const sections: ContentSection[] = [
         from anything else. It is the framework&apos;s fundamental posit: the totality of reality,
         taken as a single whole. In the monist reading Holos adopts (reality is ultimately one
         thing, not many separate things), it is also the one experiencer, of which every finite
-        observer is a local aperture.
+        observer is a local aperture. The name echoes two older ideas it should not be confused
+        with: Teilhard de Chardin&apos;s spiritual endpoint of history, and Frank Tipler&apos;s
+        physical Omega Point, a prediction that required the universe to collapse back on itself and
+        is contradicted by its accelerating expansion. Holos means neither. Its Omega is not an
+        endpoint in time but the whole itself.
       </>,
       <>
         Holos does not alter established physics. Every equation, history and structure remain as
@@ -704,16 +709,15 @@ export const sections: ContentSection[] = [
         which reality is fully integrated and nothing remains outside the system.
       </>,
       <>
-        Earlier versions of this framework presented the theological and secular readings as
-        interchangeable lenses on the same claim. Holos no longer maintains that neutrality. It
-        takes a position: the totality is not merely a structural limit but the one experiencer, and
-        the direction of dependence runs from the whole to its parts. A purely structural reading,
-        in which Omega is only a mathematical horizon and observers are self-standing, remains
-        available as a weaker interpretation, but it is not the view of this framework. It is weaker
-        because each observer&apos;s subject must then appear from nothing when a system crosses the
-        threshold, and no one can say how. What Holos leaves open is vocabulary, not structure:
-        whether the totality is named God, Brahman, or simply the whole changes nothing about the
-        claim being made.
+        Holos does not treat the theological and secular readings as interchangeable lenses on the
+        same claim. It takes a position: the totality is not merely a structural limit but the one
+        experiencer, and the direction of dependence runs from the whole to its parts. A purely
+        structural reading, in which Omega is only a mathematical horizon and observers are
+        self-standing, remains available as a weaker interpretation, but it is not the view of this
+        framework. It is weaker because each observer&apos;s subject must then appear from nothing
+        when a system crosses the threshold, and no one can say how. What Holos leaves open is
+        vocabulary, not structure: whether the totality is named God, Brahman, or simply the whole
+        changes nothing about the claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
@@ -745,8 +749,8 @@ export const sections: ContentSection[] = [
         systems do not merely occupy the universe. They are the apertures through which the totality
         experiences itself: the means by which physical possibility becomes reality as lived, as
         opposed to reality as structure alone. When a system reaches sufficient integration,
-        expressed as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>, interaction is no longer
-        just one thing acting on another. It becomes a point of view.
+        expressed as <a href="/logic#ontology">Φ ≥ Φ_c</a>, interaction is no longer just one thing
+        acting on another. It becomes a point of view.
         <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
     ],

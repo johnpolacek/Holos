@@ -59,6 +59,38 @@ export default function Logic() {
               literal feature to accept at face value.
             </li>
           </ul>
+
+          <p className="leading-relaxed">
+            <strong>How the commitments fit together.</strong> Only two items above are additions to
+            physics: the integration threshold and the totality. The rest are interpretive
+            commitments about how to read the physics we already have. Around them, Holos also takes
+            sides and leaves questions open, and it says which is which:
+          </p>
+
+          <ul className="flex flex-col gap-2 pl-6 list-disc">
+            <li className="leading-relaxed">
+              <strong>Additions to physics:</strong> the threshold{" "}
+              <MathInline>{"\\Phi_c"}</MathInline>, where apertures open; and Omega, the one
+              experiencer.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Sides taken:</strong> branching quantum mechanics with no collapse; Born
+              weights as self-locating odds; lived regions as the causal pasts of observers;
+              experience and activity as two sides of one event.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Observer requirements:</strong> six structural conditions, with a provisional
+              maximality rule for where one observer ends.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Open problems:</strong> the measure of integration, the value of the
+              threshold, and the boundaries between observers.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Companion ideas, not core:</strong> the Integration Hypothesis and the Teeming
+              Dark. If they fail, the core stands.
+            </li>
+          </ul>
         </div>
       </section>
       {/* Operational Definition */}
@@ -882,14 +914,14 @@ export default function Logic() {
             <p className="leading-relaxed">
               A third addition might seem to be hiding here: a bridge principle stipulating that the
               totality registers itself through <em>integrated</em> systems specifically. Why
-              integration, rather than mass, symmetry, or complexity? An earlier version of this
-              section answered that the connection is definitional: a perspective is unified by
-              nature, integration is the name for being unified, and so the count stays at two.
-              Stated that baldly, the answer proves too little, because &quot;unified&quot; means
-              two different things. An experience can be one (a single field, not adjacent
-              fragments) while the machinery producing it is many: the image on a screen is
-              seamless, and the pixels beneath it are strangers to each other. The unity of what
-              appears does not, by itself, fix the wiring of what produces it.
+              integration, rather than mass, symmetry, or complexity? One tempting answer is that
+              the connection is definitional: a perspective is unified by nature, integration is the
+              name for being unified, and so the count stays at two. Stated that baldly, the answer
+              proves too little, because &quot;unified&quot; means two different things. An
+              experience can be one (a single field, not adjacent fragments) while the machinery
+              producing it is many: the image on a screen is seamless, and the pixels beneath it are
+              strangers to each other. The unity of what appears does not, by itself, fix the wiring
+              of what produces it.
             </p>
 
             <p className="leading-relaxed">
@@ -934,7 +966,7 @@ export default function Logic() {
       </section>
       <section id="mathematical-formalism" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Mathematical Formalism
+          Notation
           <FootnoteLink
             className="relative left-1 -top-2.5"
             number={logicCitationMap["mathematical-formalism"]}
@@ -943,14 +975,13 @@ export default function Logic() {
 
         <div className="flex flex-col gap-5 text-black/80">
           <p className="leading-relaxed">
-            This section introduces a compact mathematical language for expressing the Holos
-            framework. The purpose is not to derive new physics, but to make the structural claims
-            precise and repeatable.
+            This section introduces a compact notation for the Holos framework. It derives nothing
+            new; its purpose is to make the structural claims precise and repeatable.
           </p>
 
           <p className="leading-relaxed">
-            The formalism should be read as a model of how possibility and experience are related.
-            It does not assert that the universe literally computes these expressions.
+            The notation should be read as a model of how possibility and experience are related. It
+            does not assert that the universe literally computes these expressions.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -1122,8 +1153,8 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">The Omega Limit</h3>
 
             <p className="leading-relaxed">
-              Holos refers to this boundary case as the <strong>Omega limit</strong>. Formally, it
-              is the condition where the distinction between creation and observation no longer
+              Holos refers to this boundary case as the <strong>Omega limit</strong>. Schematically,
+              it is the condition where the distinction between creation and observation no longer
               increases. Ontologically, Holos identifies it with the totality itself: the whole of
               reality, posited as fundamental and as the one experiencer. It is not a final moment
               in time and not an agent directing events from outside; there is no outside. Finite
@@ -1154,11 +1185,9 @@ export default function Logic() {
               A note on the word. &quot;Limit&quot; here is conceptual, not mathematical: no
               quantity is claimed to converge, and no metric on the distance between structure and
               registration is defined. Saying the distinction &quot;no longer increases&quot; states
-              a boundary condition, not a computed one. The vocabulary also carries less weight than
-              it once did. Before Omega was posited as fundamental, the limit had to do the work of
-              establishing what was approached; now the totality is the ground, and the limit
-              language describes only the approach finite observers make toward witnessing more of
-              it.
+              a boundary condition, not a computed one. The vocabulary also carries little weight:
+              the totality is the ground, and the limit language describes only the approach finite
+              observers make toward witnessing more of it.
             </p>
           </div>
 
@@ -1212,11 +1241,11 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               What Holos leaves open is vocabulary, not structure. Calling the totality God,
-              Brahman, or simply the whole changes nothing about the claim. What is no longer
-              offered is the fully deflationary reading in which Omega is only a mathematical
-              horizon and finite observers are self-standing. Holos takes the direction of
-              dependence to run from the whole to its parts, for the one reason the monist reading
-              earns: on it, no subject ever comes from nothing (see{" "}
+              Brahman, or simply the whole changes nothing about the claim. What Holos does not
+              offer is the fully deflationary reading in which Omega is only a mathematical horizon
+              and finite observers are self-standing. Holos takes the direction of dependence to run
+              from the whole to its parts, for the one reason the monist reading earns: on it, no
+              subject ever comes from nothing (see{" "}
               <a href="#why-one-experiencer" className="underline hover:no-underline">
                 Why One Experiencer Has Many Walled-Off Perspectives
               </a>
@@ -1504,12 +1533,76 @@ export default function Logic() {
         </div>
       </section>
 
+      {/* Revisions */}
+      <section id="revisions" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Revisions</h2>
+
+        <div className="flex flex-col gap-4 text-black/80">
+          <p className="leading-relaxed">
+            Holos is written in public and revised when it is wrong. These claims appeared in
+            earlier versions and have been retired or replaced, each for a stated reason.
+          </p>
+
+          <ul className="flex flex-col gap-3 pl-6 list-disc">
+            <li className="leading-relaxed">
+              <strong>Ordered dark matter.</strong> Retired: cosmological dark matter existed before
+              any life could, and it outweighs all the ordinary matter anything could be built from.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Theological and secular readings as interchangeable.</strong> Replaced by the
+              monist position: the structural reading is weaker, because on it each subject appears
+              from nothing.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Observation as selection.</strong> Replaced: observation selects nothing and
+              erases nothing; each branch is registered from within.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Sealing a whole branch from beginning to end.</strong> Replaced by sealing an
+              observer&apos;s causal past, which gives the claim experiential content.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Born weights as shares of experience.</strong> Retracted: experience is not
+              pooled. The weights are now read as self-locating odds.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Omega as the ground of record agreement.</strong> Dropped: physics secures
+              agreement. Omega&apos;s one job is that no subject comes from nothing.
+            </li>
+            <li className="leading-relaxed">
+              <strong>The bridge to integration as purely definitional.</strong> Replaced by a small
+              definitional core plus an argued identification that can fail.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Five observer requirements.</strong> Extended to six: aboutness, grounded in
+              senses of the system&apos;s own, rules out inert high-integration arrays.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Current AI as &quot;no one home.&quot;</strong> Replaced by an open question
+              with two borders: grounded aboutness and integration.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Anesthesia and cultured-network transitions as confirmations.</strong> Retired
+              as tests: ordinary models predict them too. They remain correlate probes.
+            </li>
+            <li className="leading-relaxed">
+              <strong>The qubit observer-cut experiment.</strong> Retired: qubits register nothing
+              below the threshold, and the predicted result was ordinary contextuality.
+            </li>
+            <li className="leading-relaxed">
+              <strong>&quot;Confirmed so far&quot; for the standing bet.</strong> Corrected to
+              untested: no superposition tested so far has contained an observer.
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <div className="mt-8 pt-6 border-t border-black/20">
         <p className="leading-relaxed text-lg text-black/90 font-medium">
-          Holos rests on one posit and one fact. The posit: the totality, Omega, is fundamental, the
-          one experiencer. The fact: experience exists. Each act of experience is the totality
-          registering itself through a local aperture. The whole is not proved from the parts; the
-          parts are understood through the whole.
+          Holos rests on one fact and two additions. The fact: experience exists. The additions: the
+          totality, Omega, the one experiencer; and the threshold where it wakes. Each act of
+          experience is the totality registering itself through a local aperture. The whole is not
+          proved from the parts; the parts are understood through the whole.
         </p>
       </div>
     </div>

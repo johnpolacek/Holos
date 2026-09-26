@@ -676,11 +676,11 @@ export default function Predictions() {
             >
               Relational Quantum Mechanics
             </a>
-            ; a positive result supports the family, not Holos alone. A laboratory analog proposed
-            earlier, superconducting qubits sliced into different observer cuts, is retired: by
-            Holos&apos;s own threshold, qubit readouts register nothing, and its predicted result
-            was ordinary quantum contextuality, which the branching picture Holos adopts already
-            accounts for.
+            ; a positive result supports the family, not Holos alone. A laboratory analog with
+            superconducting qubits, sliced into different observer cuts, would not work as a test:
+            by Holos&apos;s own threshold, qubit readouts register nothing, and its predicted result
+            would be ordinary quantum contextuality, which the branching picture Holos adopts
+            already accounts for.
           </p>
         </div>
       </section>
@@ -737,9 +737,9 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Earlier versions of this page proposed two further experiments as confirmations: a sharp
-            integration drop under anesthesia, and cultured neural networks snapping into coherence
-            as connectivity grows. Both are retired here as tests.
+            Two further experiments might look like confirmations: a sharp integration drop under
+            anesthesia, and cultured neural networks snapping into coherence as connectivity grows.
+            Neither counts as a test.
           </p>
 
           <p className="leading-relaxed">

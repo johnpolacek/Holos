@@ -36,9 +36,10 @@ export const logicSubsections: Subsection[] = [
   { id: "foundational-propositions", title: "Foundations" },
   { id: "ontology", title: "Ontology" },
   { id: "relationship-to-physics", title: "Physics" },
-  { id: "mathematical-formalism", title: "Math" },
+  { id: "mathematical-formalism", title: "Notation" },
   { id: "extrapolative-proposition", title: "Extrapolation" },
   { id: "open-problems", title: "Open Problems" },
+  { id: "revisions", title: "Revisions" },
 ];
 
 export const predictionsSubsections: Subsection[] = [
