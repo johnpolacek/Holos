@@ -236,13 +236,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Spacetime Interval",
             url: "https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval",
             description:
-              "The invariant measure of distance between two events in spacetime. For light, this interval is zero, meaning emission and absorption occur at the same point.",
+              "The invariant measure of separation between two events in spacetime. For light the interval is zero, though emission and absorption remain two distinct events.",
           },
           {
             name: "Null Interval",
             url: "https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval",
             description:
-              "A spacetime interval of zero length, which occurs for light rays. In this case, the emission and absorption of a photon occur at the same spacetime point from a higher-dimensional perspective.",
+              "A spacetime interval of zero, which occurs along light rays. A zero interval does not make two events one: emission and absorption stay distinct, and no observer can ride the light.",
           },
           {
             name: "Light Cone",
@@ -260,13 +260,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Retrocausality",
             url: "https://en.wikipedia.org/wiki/Retrocausality",
             description:
-              "The concept that future events can influence past events. Experiments like the Quantum Eraser suggest that choices made in the present can resolve the quantum state of the past, supporting the block universe model.",
+              "The idea that future events can influence past ones. Holos rejects it: the quantum eraser needs no backward influence, only the sorting of records made later.",
           },
           {
             name: "Quantum Eraser Experiment",
             url: "https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser",
             description:
-              "Demonstrates that the measurement of a particle's path is correlated with its behavior in the past, supporting the view of spacetime as a unified, pre-existing whole rather than a linear sequence.",
+              "The screen pattern never changes; interference appears only when recorded hits are sorted using later measurements. Ordinary quantum mechanics predicts every result, with nothing traveling backward in time.",
           },
         ],
       },
@@ -286,24 +286,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "String Theory",
             url: "https://en.wikipedia.org/wiki/String_theory",
             description:
-              "Fundamental particles of the universe are tiny strings that vibrate in extra dimensions.",
+              "A proposal that fundamental particles are tiny vibrating strings, requiring extra spatial dimensions. Unconfirmed; Holos takes no position on it.",
           },
           {
             name: "Quantum Gravity",
             url: "https://en.wikipedia.org/wiki/Quantum_gravity",
             description:
-              "Gravity and the other fundamental forces are unified within a multi-dimensional framework.",
+              "The unfinished effort to reconcile gravity with quantum theory; some approaches use extra dimensions, none yet confirmed.",
           },
           {
             name: "Brane Cosmology",
             url: "https://en.wikipedia.org/wiki/Brane_cosmology",
-            description: "Our universe is a slice of a larger, multi-dimensional reality",
+            description:
+              "A proposal that our universe is a slice of a larger, higher-dimensional space. Unconfirmed.",
           },
           {
             name: "Kaluza-Klein Theory",
             url: "https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory",
             description:
-              "A unified field theory that extends general relativity to higher dimensions, showing how electromagnetism and gravity emerge from a single higher-dimensional geometry.",
+              "A 1920s theory extending general relativity to a fifth dimension, in which electromagnetism appears alongside gravity from one geometry. No extra dimension has been observed.",
           },
           {
             name: "Projective Geometry",
@@ -319,6 +320,12 @@ export const citationMainSections: CitationMainSection[] = [
         title: "Infinity",
         canonicalLink: "/#infinity",
         items: [
+          {
+            name: "Ultraviolet catastrophe",
+            url: "https://en.wikipedia.org/wiki/Ultraviolet_catastrophe",
+            description:
+              "Classical physics predicted infinite radiation from hot objects. The infinity signaled a broken description, and the fix, energy in discrete packets, became the foundation of quantum theory.",
+          },
           {
             name: "Riemann Sphere",
             url: "https://en.wikipedia.org/wiki/Riemann_sphere",

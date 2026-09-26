@@ -289,19 +289,23 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Causality_(physics)">causality</a>.
       </>,
       <>
-        Quantum experiments such as the{" "}
+        Quantum experiments add a twist of their own. In the{" "}
         <a href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">
           delayed-choice quantum eraser
-        </a>{" "}
-        and thought experiments like{" "}
-        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> suggest that
-        consistency in physics is enforced globally rather than by simple temporal sequence of
-        events. Together, these results suggest that spacetime, as we describe it, may be an
-        approximation that works at our scale, but it is also incomplete.
+        </a>
+        , a choice made after a particle has landed seems to decide whether it behaved like a wave
+        or a particle. It does not. The pattern on the screen never changes; what changes is how the
+        recorded hits are sorted afterward, and ordinary quantum mechanics predicts every result
+        with nothing traveling backward in time. Thought experiments like{" "}
+        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> press the same
+        point from another side: what counts as a fact depends on who has registered what. Neither
+        shows that spacetime is broken. Both show that the facts an observer can speak of depend on
+        the records they hold.
       </>,
       <>
-        If coherence can outrun what four dimensions can support, additional descriptive frameworks
-        are required.
+        Describing all those records together, even for a handful of particles, takes far more
+        variables than the four dimensions of spacetime provide. That is where talk of higher
+        dimensions begins.
         <FootnoteLink number={overviewCitationMap["spacetime"]} />
       </>,
     ],
@@ -325,21 +329,25 @@ export const sections: ContentSection[] = [
     footerId: "footer-dimensions",
     paragraphs: [
       <>
-        Higher dimensions appear in physics not as additional places, but as descriptions of how
-        structure is organized. When systems become too interdependent to be tracked within three
-        spatial dimensions and one time dimension, higher-dimensional descriptions become
-        unavoidable.
+        The word &quot;dimension&quot; means two different things in physics, and it helps to keep
+        them apart. The first is a number of variables. Saying where one ball sits on a table takes
+        two numbers; describing a billion interacting particles takes billions, and quantum
+        mechanics needs far more. Physicists call the space of all those variables high-dimensional,
+        but none of its dimensions is a direction you could walk in. The second meaning is extra
+        directions of space itself.
       </>,
       <>
-        In many physical theories, additional dimensions are treated not as extra room to move
-        through, but as limited ways a system can vary. They are{" "}
-        <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a> or
-        hidden from direct observation, yet they shape observable laws and constants.
+        Some theories, string theory among them, propose extra directions of space, curled up so
+        small they cannot be seen (
+        <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a>) yet
+        shaping the laws and constants we observe. These remain unconfirmed proposals, and Holos
+        takes no position on them. When Holos speaks of higher dimensions, it means the first sense:
+        descriptions with many variables.
       </>,
       <>
         Higher dimensions are often imagined as places advanced systems might move into. That
-        interpretation mistakes description for location. We already exist within higher-dimensional
-        mathematical spaces. We simply interact with a restricted subset of them.
+        mistakes description for location. We already exist within higher-dimensional descriptions,
+        in the first sense; we simply interact with a small part of what they describe.
       </>,
       <>
         As systems become more integrated, coherence depends less on spatial separation and more on{" "}
@@ -351,10 +359,11 @@ export const sections: ContentSection[] = [
         light still apply.
       </>,
       <>
-        From this perspective, higher-dimensional observation becomes necessary as integration
-        increases. It is not an external viewpoint, but a limiting description that emerges when
-        many relationships must be considered simultaneously rather than sequentially. At the
-        extreme limit, this converges on an idealized observer where creation and observation
+        From this perspective, higher-dimensional description becomes necessary as integration
+        increases: the more a system&apos;s parts depend on one another, the more variables it takes
+        to describe them together. It is not an external viewpoint, but a limiting description that
+        emerges when many relationships must be considered simultaneously rather than sequentially.
+        At the extreme limit, this converges on an idealized observer where creation and observation
         coincide. This limit is <a href="https://en.wikipedia.org/wiki/Asymptote">asymptotic</a>,
         not reachable, and marks the boundary where further structural distinction ceases to be
         meaningful.
@@ -377,12 +386,15 @@ export const sections: ContentSection[] = [
         coherence.
       </>,
       <>
-        The same idea appears in physics. Light provides a useful boundary case. Along a photon’s
-        trajectory, the <a href="https://en.wikipedia.org/wiki/Proper_time">proper time</a> is zero,
-        so emission and absorption are connected without duration. Distance is not removed, but it
-        collapses under a different perspective. From within spacetime, light traverses distance.
-        From the limit of its path, extension disappears. This does not violate physics, but it
-        shows how infinities can arise from perspective rather than substance.
+        The same idea appears in physics. Around 1900, classical physics predicted that a hot object
+        should give off an infinite amount of energy as high-frequency light, a result later
+        nicknamed the{" "}
+        <a href="https://en.wikipedia.org/wiki/Ultraviolet_catastrophe">ultraviolet catastrophe</a>.
+        Nothing in nature does that: a glowing oven does not pour out infinite radiation. The
+        infinity was a sign that the description had broken down. The fix, the idea that light
+        energy comes in discrete packets, which Max Planck introduced in 1900, became the foundation
+        of quantum theory. The infinity was not a feature of the world but a warning about the
+        theory.
       </>,
       <>
         From the Holos perspective, infinities appear as warnings, not features. Resolving them
