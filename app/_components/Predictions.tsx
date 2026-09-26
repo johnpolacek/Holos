@@ -906,14 +906,14 @@ export default function Predictions() {
 
             <p className="leading-relaxed text-black/70 text-sm">
               A Dark Node is <em>not</em> dark matter in the cosmologist&apos;s sense: cosmological
-              dark matter predates stars, chemistry, and any possible builder, and shows no internal
-              organization in cluster collisions. Nodes are ordinary matter that has stopped
-              shining. Holos does not claim any known anomaly is a node, only that if long-term
-              integration leaves a footprint, it is gravitational and thermal, and this is where it
-              would show up. Two limits bound the idea. The ordinary-matter budget and microlensing
-              searches permit nodes only as a trace population, not a hidden census. And a
-              node&apos;s observational profile (compact, dark, faintly warm) is shared with brown
-              dwarfs, rogue planets, and cooled stellar remnants, so the Dark Node is a search
+              dark matter predates stars, chemistry, and any possible builder, and outweighs all the
+              ordinary matter a builder could use about five to one. Nodes are ordinary matter that
+              has stopped shining. Holos does not claim any known anomaly is a node, only that if
+              long-term integration leaves a footprint, it is gravitational and thermal, and this is
+              where it would show up. Two limits bound the idea. The ordinary-matter budget and
+              microlensing searches permit nodes only as a trace population, not a hidden census.
+              And a node&apos;s observational profile (compact, dark, faintly warm) is shared with
+              brown dwarfs, rogue planets, and cooled stellar remnants, so the Dark Node is a search
               channel, not a fingerprint.
             </p>
           </div>

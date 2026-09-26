@@ -396,11 +396,15 @@ export const sections: ContentSection[] = [
         encoded differently.
       </>,
       <>
-        From the perspective of Holos, black holes show that when integration and density exceed
-        what spacetime can support, structure is compressed rather than allowed to diverge. This
-        establishes a physical precedent for the idea that highly integrated systems leave fewer
-        visible signatures. As integration increases, outward expression diminishes. What remains is
-        compact, dense, and less detectable.
+        From the perspective of Holos, black holes offer a limited precedent, and the limits matter.
+        They show that the most compact concentrations of mass need not shine: an isolated black
+        hole emits almost nothing and is found through gravity alone, by the orbits it bends and the
+        light it lenses. But the precedent is about compactness, not integration. A black hole is
+        the simplest object physics knows, described by little more than its mass, spin, and charge,
+        and nothing like an integrated system. And when matter falls in, the result is the opposite
+        of quiet: feeding black holes power quasars, the brightest objects in the universe. What
+        carries over is only this: compact mass can be dark in its own light and still be found by
+        its gravity.
         <FootnoteLink number={overviewCitationMap["black-holes"]} />
       </>,
     ],
@@ -508,25 +512,24 @@ export const sections: ContentSection[] = [
         ancient life, and cannot have been built by it.
       </>,
       <>
-        Observation agrees. When galaxy clusters collide, as in the{" "}
-        <a href="https://en.wikipedia.org/wiki/Bullet_Cluster">Bullet Cluster</a>, the dark matter
-        passes through itself without friction or pile-up: the behavior of a substance with no
-        internal organization at all. Organized systems grip, bump, and hold together; dark matter
-        demonstrably does not.
+        The raw materials rule it out too. The early universe also records how much{" "}
+        <a href="https://en.wikipedia.org/wiki/Baryon">ordinary matter</a>, the atoms everything
+        familiar is made of, exists in total, and it comes to only about a fifth of the dark matter.
+        Anything life builds, it builds from ordinary matter. Dark matter cannot be made of built
+        structures, because the atoms to make it never existed.
       </>,
       <>
         What survives is the instinct behind the idea: most of what exists does not shine. Mature
         life would belong to a different dark census, the non-luminous side of <em>ordinary</em>{" "}
         matter: cold, compact, built structures that emit no visible light while remaining
         gravitationally present. Two further constraints bound how many there can be. The
-        ordinary-matter books are nearly balanced: the early universe records how much ordinary
-        matter exists in total, and surveys have located almost all of it, so built structures must
-        fit inside a small and shrinking gap in the accounting. And astronomy has already hunted
-        compact dark objects directly, watching millions of stars for the brief gravitational
-        magnification a passing dark mass produces, and found too few to permit a large hidden
-        population. If such structures exist, they are a trace population: rare, not a census. The
-        Teeming Dark was never a claim about tonnage, though. A universe can be poor in hidden mass
-        and still rich in minds.
+        ordinary-matter books are nearly balanced: surveys have located almost all of the total the
+        early universe records, so built structures must fit inside a small and shrinking gap in the
+        accounting. And astronomy has already hunted compact dark objects directly, watching
+        millions of stars for the brief gravitational magnification a passing dark mass produces,
+        and found too few to permit a large hidden population. If such structures exist, they are a
+        trace population: rare, not a census. The Teeming Dark was never a claim about tonnage,
+        though. A universe can be poor in hidden mass and still rich in minds.
       </>,
       <>
         Thermodynamics then adds a correction, and it must be stated carefully. Anything that
@@ -639,12 +642,16 @@ export const sections: ContentSection[] = [
     title: "Why Are We Here?",
     footerId: "footer-why",
     paragraphs: [
-      <>At extreme limits, many distinctions collapse.</>,
+      <>At extreme limits, familiar distinctions lose their absolute standing.</>,
       <>
-        At the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, concepts
-        like “here” and “there,” or “now” and “then,” lose their meaning. This is not a
-        philosophical claim but a physical one. It suggests that separation is not fundamental, but
-        an emergent feature of how reality is structured.
+        Relativity removes the universal “now”: events simultaneous for one observer are not
+        simultaneous for another. Along a ray of light, moving at the{" "}
+        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the spacetime
+        interval between emission and absorption is zero, though the two remain distinct events and
+        no observer can ride the light. These are physical facts, and they show that how things are
+        separated depends on the structure of spacetime rather than being fixed in advance. Holos
+        reads them as a hint, not a proof, that separation is not fundamental but a feature of how
+        reality is structured.
       </>,
       <>
         What we experience as an expansive universe may instead be understood as a single,
