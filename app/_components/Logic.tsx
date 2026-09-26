@@ -1513,9 +1513,31 @@ export default function Logic() {
               metaphysical one.
             </p>
             <p className="leading-relaxed">
+              The fingerprints are already being measured. Waking cortex runs near a specific
+              critical point, the edge between stability and chaos, and drifts away from it under
+              anesthesia, deep sleep, and disorders of consciousness (
+              <a
+                href="https://doi.org/10.1073/pnas.2024455119"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Toker et al. 2022
+              </a>
+              ). Measures of criticality in resting EEG predict anesthetic loss of consciousness and
+              track PCI (
+              <a
+                href="https://doi.org/10.1038/s42003-024-06613-8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Communications Biology, 2024
+              </a>
+              ). This is the kind of signature a genuine switch should leave.
+            </p>
+            <p className="leading-relaxed">
               A cutoff that sorts patients is not yet proof of a sharp switch, since a smooth
               quantity can be cut anywhere. What would count is the signature of a switch itself,
-              and one is already on record.{" "}
+              and there is early evidence for one.{" "}
               <a
                 href="https://doi.org/10.1371/journal.pone.0011903"
                 target="_blank"
@@ -1525,7 +1547,17 @@ export default function Logic() {
               </a>{" "}
               find that consciousness is lost and regained at different anesthetic levels: the way
               in and the way out do not match, a lag known as neural inertia. A lag of that kind is
-              a hallmark of sharp switches rather than smooth dials. In a finite system like a
+              a hallmark of sharp switches rather than smooth dials. In humans the evidence is only
+              suggestive: in 393 surgical patients, the brain&apos;s slow-wave response differed
+              between going under and coming back (
+              <a
+                href="https://doi.org/10.1097/ALN.0000000000001759"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Warnaby et al. 2017
+              </a>
+              ), but the lag appeared in the EEG, not in responsiveness. In a finite system like a
               brain, even a genuine switch shows up as a steep transition rather than a mathematical
               jump, so the search is for steepness and lag, not a perfect step.
             </p>
@@ -1559,6 +1591,29 @@ export default function Logic() {
               </a>{" "}
               really is: not a single yes-or-no experiment but the calibration engine that locates
               the threshold and validates the measure at the same time.
+            </p>
+            <p className="leading-relaxed">
+              The field already has a model for running such tests. The{" "}
+              <a
+                href="https://doi.org/10.1038/s41586-025-08888-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                COGITATE adversarial collaboration
+              </a>{" "}
+              (Nature, 2025) pitted integrated information theory against global workspace theory
+              with predictions fixed in advance, and its results challenged key claims of both. Test
+              A should follow the same design. A caution applies to the measure itself: more than
+              100 researchers called integrated information theory pseudoscience, a debate aired in{" "}
+              <a
+                href="https://doi.org/10.1038/s41593-025-01881-x"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Nature Neuroscience in 2025
+              </a>
+              . The charge targets the theory&apos;s untestable claim that Φ simply is
+              consciousness, which Holos does not adopt; Holos borrows Φ only as a measure.
             </p>
             <p className="leading-relaxed">
               Two conditions bound the program. First, its anchor is report: the human case is the

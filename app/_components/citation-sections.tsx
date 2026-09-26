@@ -514,6 +514,17 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/#omega-point",
         items: [
           {
+            name: "Everett (1957), Relative state formulation of quantum mechanics",
+            url: "https://doi.org/10.1103/RevModPhys.29.454",
+            description:
+              "Reviews of Modern Physics: the origin of the universal wave function. Physically, Holos's Omega is this one universal quantum state.",
+          },
+          {
+            name: "Everett's relative-state formulation (Stanford Encyclopedia of Philosophy)",
+            url: "https://plato.stanford.edu/entries/qm-everett/",
+            description: "Reference overview of Everett's theory and its interpretations.",
+          },
+          {
             name: "Panentheism",
             url: "https://en.wikipedia.org/wiki/Panentheism",
             description:
@@ -771,6 +782,36 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/logic#ontology",
         items: [
           {
+            name: "Toker et al. (2022), Consciousness is supported by near-critical slow cortical electrodynamics",
+            url: "https://doi.org/10.1073/pnas.2024455119",
+            description:
+              "PNAS: waking cortex runs near the edge between stability and chaos and drifts away from it when consciousness is lost. The kind of signature a genuine switch should leave.",
+          },
+          {
+            name: "Critical dynamics in spontaneous EEG predict anesthetic-induced loss of consciousness and perturbational complexity (2024)",
+            url: "https://doi.org/10.1038/s42003-024-06613-8",
+            description:
+              "Communications Biology: criticality measures in resting EEG predict anesthetic loss of consciousness and track PCI.",
+          },
+          {
+            name: "Warnaby et al. (2017), A signature of neural inertia in humans",
+            url: "https://doi.org/10.1097/ALN.0000000000001759",
+            description:
+              "Anesthesiology: in 393 surgical patients, slow-wave activity differed between induction and emergence. The lag appeared in the EEG, not in responsiveness, so the human evidence is suggestive.",
+          },
+          {
+            name: "COGITATE Consortium (2025), Adversarial testing of global neuronal workspace and integrated information theories",
+            url: "https://doi.org/10.1038/s41586-025-08888-1",
+            description:
+              "Nature: a preregistered adversarial collaboration whose results challenged key claims of both theories. The model design for Test A.",
+          },
+          {
+            name: "What makes a theory of consciousness unscientific? (2025)",
+            url: "https://doi.org/10.1038/s41593-025-01881-x",
+            description:
+              "Nature Neuroscience: argues that IIT's core identity claim is untestable. Holos does not adopt that claim and borrows Φ only as a measure.",
+          },
+          {
             name: "Aaronson (2014), Why I Am Not An Integrated Information Theorist",
             url: "https://scottaaronson.blog/?p=1799",
             description:
@@ -786,7 +827,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Friedman et al. (2010), Evidence for neural inertia",
             url: "https://doi.org/10.1371/journal.pone.0011903",
             description:
-              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. A lag of that kind is a hallmark of sharp switches, the signature Holos's threshold predicts.",
+              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. A lag of that kind is a hallmark of sharp switches, the signature Holos's threshold predicts; human evidence is still suggestive.",
           },
           {
             name: "Ontology",
@@ -1054,6 +1095,36 @@ export const citationMainSections: CitationMainSection[] = [
         title: "Testability and Its Limits",
         canonicalLink: "/predictions#experimentation",
         items: [
+          {
+            name: "Chalmers and McQueen (2022), Consciousness and the collapse of the wave function",
+            url: "https://arxiv.org/abs/2105.02314",
+            description:
+              "The named rival to the standing bet: integrated consciousness collapses the wave function, testable in principle on quantum computers. Holos bets it does not.",
+          },
+          {
+            name: "Wiseman, Cavalcanti, and Rieffel (2023), A thoughtful Local Friendliness no-go theorem",
+            url: "https://doi.org/10.22331/q-2023-09-14-1112",
+            description:
+              "Quantum: proposes a human-level AI on a quantum computer as the friend, the road toward a genuine observer in Check B.",
+          },
+          {
+            name: "Laux and Cavalcanti (2026), Extended Wigner's friend scenarios with agent-like observers on quantum computers",
+            url: "https://arxiv.org/abs/2609.12527",
+            description:
+              "Preprint, not yet peer reviewed: agent-like observers on IBM hardware; Local Friendliness violations persist. The agents are far below Φ_c.",
+          },
+          {
+            name: "Pedalino et al. (2026), Probing quantum mechanics with nanoparticle matter-wave interferometry",
+            url: "https://doi.org/10.1038/s41586-025-09917-9",
+            description:
+              "Nature: quantum interference of sodium clusters of more than 7,000 atoms, the current size record.",
+          },
+          {
+            name: "Donadi et al. (2021), Underground test of gravity-related wave function collapse",
+            url: "https://doi.org/10.1038/s41567-020-1008-4",
+            description:
+              "Nature Physics: rules out the parameter-free Diósi-Penrose collapse model.",
+          },
           {
             name: "Wigner's friend",
             url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",

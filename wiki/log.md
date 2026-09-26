@@ -300,3 +300,11 @@ Keep entries concise and grounded in inspected repo evidence.
 - Resolution (door H): Omega is identified with the universal quantum state. Its existence rests on physics; what Holos adds is only that this whole is the one experiencer, which is interpretive and untestable. The title stays "Bounded by Physics" until the threshold is measured.
 - Edited `Logic.tsx` (Axiom 5 statement and commentary), `content-data.tsx` (Omega Point opener), `InterpretiveComparisonTable.tsx` ("What is fundamental?" row), and `.cursor/rules/holos-guardrails.mdc`.
 - Verified via `tsc --noEmit` and `biome check` (only the 13 existing warnings).
+
+## [2026-09-26] update | current research added, with canonical links (door K)
+
+- John asked for the latest developments behind the threshold program, the standing bet, and Omega. A preview was approved before anything was added. Every DOI was checked against doi.org.
+- Logic, A path to the threshold: criticality evidence (Toker et al. 2022 in PNAS; a 2024 Communications Biology paper on EEG criticality predicting anesthetic loss of consciousness and tracking PCI). Human neural inertia (Warnaby et al. 2017 in Anesthesiology) is added with its caveat: the lag appeared in the EEG, not in responsiveness. The line "one is already on record" was softened to "there is early evidence for one". COGITATE (Nature 2025) is named as the model design for Test A, and the 2025 Nature Neuroscience pseudoscience debate is added as a caution on borrowing Φ.
+- Predictions: Check B gains Wiseman, Cavalcanti, and Rieffel 2023 (a human-level AI on a quantum computer as the friend) and Laux and Cavalcanti's September 2026 arXiv preprint (agent-like observers on IBM hardware, violations intact, labeled as not yet peer reviewed). The standing bet names Chalmers and McQueen 2022 as its rival, and adds Pedalino et al. 2026 (sodium clusters of more than 7,000 atoms) and Donadi et al. 2021 (parameter-free Diósi-Penrose ruled out).
+- Overview Omega Point: links "universal quantum state" to Everett 1957. The Citations page gains 12 entries across Ontology, Experimentation, and Omega Point, and the Friedman note now marks the human evidence as suggestive.
+- Verified via `tsc --noEmit`, `biome check` (only the 13 existing warnings), SSR render checks of all four pages, and regeneration of `public/holos.pdf`.

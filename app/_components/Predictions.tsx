@@ -695,6 +695,25 @@ export default function Predictions() {
             change nothing physical, a prediction formalized as the standing bet below.
           </p>
 
+          <p className="leading-relaxed">
+            The field is moving toward genuine friends.{" "}
+            <a
+              href="https://doi.org/10.22331/q-2023-09-14-1112"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Wiseman, Cavalcanti, and Rieffel (2023)
+            </a>{" "}
+            proposed running a human-level artificial intelligence on a quantum computer as the
+            friend. A September 2026 preprint, not yet peer reviewed, placed{" "}
+            <a href="https://arxiv.org/abs/2609.12527" target="_blank" rel="noopener noreferrer">
+              agent-like observers on IBM quantum hardware
+            </a>{" "}
+            and found the violations intact. Agents that store results and predict their own
+            measurements are still far below <MathInline>{"\\Phi_c"}</MathInline> by Holos&apos;s
+            standard, so the bet remains untested, but this is the road that reaches it.
+          </p>
+
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Holos Expectation</h4>
             <p className="leading-relaxed">
@@ -760,6 +779,35 @@ export default function Predictions() {
             integrated observer registers it, beyond what ordinary decoherence accounts for), the
             framework is falsified outright. Observation would be a force after all, and every page
             of Holos denies that it is one.
+          </p>
+
+          <p className="leading-relaxed">
+            The bet has a named rival.{" "}
+            <a href="https://arxiv.org/abs/2105.02314" target="_blank" rel="noopener noreferrer">
+              Chalmers and McQueen (2022)
+            </a>{" "}
+            propose that integrated consciousness does collapse the wave function, combining
+            integrated information theory with a physical collapse model, and note that versions of
+            the idea could be tested on quantum computers. Holos bets the opposite, so the same
+            experiment would decide between them. Meanwhile quantum mechanics keeps holding as
+            systems grow: clusters of more than 7,000 sodium atoms now show quantum interference (
+            <a
+              href="https://doi.org/10.1038/s41586-025-09917-9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pedalino et al. 2026
+            </a>
+            ), and the simplest version of gravity-caused collapse has been ruled out in an
+            underground experiment (
+            <a
+              href="https://doi.org/10.1038/s41567-020-1008-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Donadi et al. 2021
+            </a>
+            ).
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
