@@ -137,8 +137,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>⊛</strong> denotes structured coupling. It is not a force and not a time-step.
-              It is a notation for the claim that physics alone does not fully describe a realized
-              world: it says what is consistent, not what is lived.
+              It is a notation for the claim that physics describes a realized world only from
+              outside: it fixes what is lived, but cannot state that it is lived.
             </li>
           </ul>
 
@@ -298,12 +298,18 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 2: Manifestation</h3>
             <p className="leading-relaxed">
-              A purely physical description is incomplete as an account of reality until information
-              is integrated into experience by a system capable of observation.
+              A purely physical description fixes everything that happens but states it only from
+              outside. Where information is integrated into experience by a system capable of
+              observation, there is also an inside, and the physical vocabulary has no way to say
+              so.
             </p>
             <p className="leading-relaxed text-black/70">
-              This does not mean observation causes physical events. It means that without
-              observation, there is structure but no presence.
+              The gap is in the description, not in the world. A floor plan records every wall of a
+              house and still cannot say what living there is like; build the house exactly from the
+              plan, and it is livable all the same. Nothing exists beyond what physics fixes, and a
+              perfect physical copy has the same inside (Axiom 5). This does not mean observation
+              causes physical events. It means that without observation, there is structure but no
+              presence.
             </p>
           </div>
 
@@ -355,9 +361,11 @@ export default function Logic() {
               Spinoza&apos;s picture of mind and body as two aspects of one substance, restated for
               integrated systems. It also fixes how strong the link is: since there is one event, a
               perfect copy of the outside is a copy of the inside in any possible world, not just
-              under our laws. And it answers the charge that experience does nothing. Experience
-              adds no force to physics; it is the inside of the physics, so whatever an
-              observer&apos;s activity causes, its experience causes too.
+              under our laws. This is why the gap named in Axiom 2 is a gap in description only:
+              physics misses no fact, only the inside view of some of them. And it answers the
+              charge that experience does nothing. Experience adds no force to physics; it is the
+              inside of the physics, so whatever an observer&apos;s activity causes, its experience
+              causes too.
             </p>
           </div>
         </div>
@@ -704,8 +712,9 @@ export default function Logic() {
         <div className="flex flex-col gap-5 text-black/80">
           <p className="leading-relaxed">
             Holos is designed to be compatible with known physics because it does not propose a new
-            mechanism. It makes a different kind of claim. A physical model can be complete as a set
-            of equations and still be incomplete as an account of lived reality.
+            mechanism. It makes a different kind of claim. A physical model can fix every fact and
+            still describe them only from outside. What it leaves out is not a fact about the world
+            but a way of stating one: that some of it is lived.
           </p>
 
           <div className="flex flex-col gap-3">

@@ -92,8 +92,9 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               A physical description can be complete and still fail to explain why there is anything
-              it is like to be inside the system it describes. The gap is not missing information.
-              It is that a complete description can be true and still leave out that anything is
+              it is like to be inside the system it describes. The gap is not a missing fact: a
+              perfect physical copy has the same inside. It is that the description is written from
+              outside, and can be true and complete while saying nothing of whether anything is
               being lived at all.
             </p>
 
