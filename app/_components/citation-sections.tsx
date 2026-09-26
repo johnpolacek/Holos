@@ -82,13 +82,14 @@ export const citationMainSections: CitationMainSection[] = [
           {
             name: "Observer Effect",
             url: "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
-            description: "The disturbance of an observed system by the act of observation.",
+            description:
+              "The disturbance of a system by the physical act of measuring it. Holos denies any further, consciousness-linked disturbance: observation changes no physics.",
           },
           {
             name: "Copenhagen Interpretation",
             url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
             description:
-              "The act of observation collapses a quantum system's wavefunction into a definite state.",
+              "Observation collapses the wavefunction into a definite state. Holos rejects collapse: evolution stays unitary, and each branch is registered from within.",
           },
           {
             name: "Quantum Darwinism",
@@ -112,7 +113,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Von Neumann-Wigner Interpretation",
             url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
             description:
-              "An interpretation of quantum mechanics in which consciousness is formulated as a necessary process for the quantum measurement process.",
+              "Consciousness causes collapse. Cited as the view Holos bets against: a consciousness-linked deviation from quantum mechanics would falsify Holos (the standing bet).",
           },
         ],
       },
@@ -218,7 +219,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Block Universe Model",
             url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe",
             description:
-              "The view that the universe is a four-dimensional block where past, present, and future all exist simultaneously. All events are fixed in spacetime, and the flow of time is an illusion of consciousness moving through this static structure.",
+              "The view that past, present, and future exist together as one four-dimensional block. All events are fixed in spacetime; nothing, consciousness included, moves through it.",
           },
           {
             name: "Relativity of Simultaneity",
@@ -254,7 +255,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Null Geodesic",
             url: "https://en.wikipedia.org/wiki/Geodesic",
             description:
-              "The path that light follows through spacetime. For photons, this is a static geometric structure that permanently connects emission and absorption points, appearing as motion only from our temporal perspective.",
+              "The path light follows through spacetime. Its interval is zero, but it still connects two distinct events, and nothing can ride along it.",
           },
           {
             name: "Retrocausality",
@@ -413,13 +414,13 @@ export const citationMainSections: CitationMainSection[] = [
               "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. Holos reframes this silence through the Integration Hypothesis: advancement favors compact, efficient integration over expansion and broadcast, so maturity coincides with electromagnetic quiet.",
           },
           {
-            name: "Nursery Phase",
+            name: "Early broadcasting phase",
             url: "#aliens",
             description:
               "The early biological and broadcasting phase of a civilization. Any hurdle (abiogenesis, nuclear war, coordination failure) that stops a civilization before deep integration is an early filter relative to true maturity.",
           },
           {
-            name: "Latency Crisis",
+            name: "Light-speed latency",
             url: "#aliens",
             description:
               "A high-integration intelligence cannot function with years of light-speed lag between star systems. Independent interstellar colonies either fragment into less-capable outposts or the civilization turns inward, deepening local integration instead of expanding.",
@@ -482,7 +483,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Brane cosmology",
             url: "https://en.wikipedia.org/wiki/Brane_cosmology",
             description:
-              "The idea that our 3D universe may be a thin brane floating in a larger, higher-dimensional space. An intelligence that moved into that larger space would vanish entirely from our view, drawing closer to what Holos frames as the unified source of reality.",
+              "The idea that our 3D universe may be a thin brane in a larger, higher-dimensional space. Unconfirmed; Holos takes no position, and proposes no migration into extra dimensions.",
           },
         ],
       },
@@ -493,20 +494,16 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/#the-teeming-dark",
         items: [
           {
-            name: "Simulation Hypothesis",
-            url: "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+            name: "Massive compact halo object (MACHO)",
+            url: "https://en.wikipedia.org/wiki/Massive_compact_halo_object",
             description:
-              "Proposes that what humans experience as the world is actually a simulated reality.",
+              "Microlensing surveys watched millions of stars for dark compact masses and found too few to make up a large hidden population. Dark Nodes can only be a trace population.",
           },
           {
-            name: "Naturalism",
-            url: "https://en.wikipedia.org/wiki/Naturalism_(philosophy)",
-            description: "Everything arises from natural properties and causes.",
-          },
-          {
-            name: "Solipsism",
-            url: "https://en.wikipedia.org/wiki/Solipsism",
-            description: "Only one's own mind is sure to exist",
+            name: "Missing baryon problem",
+            url: "https://en.wikipedia.org/wiki/Missing_baryon_problem",
+            description:
+              "Surveys have now located nearly all the ordinary matter the early universe records, leaving little room for hidden built structures.",
           },
         ],
       },
@@ -561,16 +558,10 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/#why",
         items: [
           {
-            name: "Conformal Cyclic Cosmology",
-            url: "https://en.wikipedia.org/wiki/Conformal_cyclic_cosmology",
-            description:
-              "The universe undergoes infinite cycles of big bangs and expansions creating an eternal sequence of universes.",
-          },
-          {
             name: "Unitarity",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "The principle that probabilities must sum to one, ensuring the conservation of information in quantum mechanics. Information is never lost, even in singularities.",
+              "The principle that probabilities must sum to one, ensuring the conservation of information in quantum mechanics. Whether this holds inside black holes is the open information paradox.",
           },
           {
             name: "Many-Worlds Interpretation",
@@ -582,7 +573,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Speed of Light",
             url: "https://en.wikipedia.org/wiki/Speed_of_light",
             description:
-              "The universe's fixed speed limit. At light speed, the spacetime gap between events disappears, as if everything happened at one point.",
+              "The universe's fixed speed limit. Along a light ray the spacetime interval is zero, though emission and absorption remain distinct events.",
           },
           {
             name: "Indra's Net",
@@ -959,7 +950,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Cosmic microwave background (CMB) polarization",
             url: "https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization",
             description:
-              "CMB-S4, LiteBIRD: looking for signs the universe began highly ordered, with inflation tuned to let complexity grow.",
+              "CMB-S4, LiteBIRD: searching the polarization of the earliest light for primordial gravitational waves, a test of inflation. Holos makes no prediction here.",
           },
           {
             name: "Past hypothesis",
@@ -970,7 +961,8 @@ export const citationMainSections: CitationMainSection[] = [
           {
             name: "Inflation (cosmology)",
             url: "https://en.wikipedia.org/wiki/Inflation_(cosmology)",
-            description: "Cosmic inflation, tuned in a way that let complexity grow later.",
+            description:
+              "A proposed early phase of rapid expansion that would explain the universe's flatness and smoothness. Holos takes no position on it.",
           },
           {
             name: "Multiverse",
@@ -1002,13 +994,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Illusionism (philosophy)",
             url: "https://en.wikipedia.org/wiki/Illusionism_(philosophy)",
             description:
-              "The view that consciousness is an illusion; Holos predicts Φ_c threshold for genuine experience.",
+              "The view that consciousness is an illusion. Holos rejects it: experience is the one fact the framework starts from.",
           },
           {
             name: "Qualia",
             url: "https://en.wikipedia.org/wiki/Qualia",
             description:
-              "High-Φ systems (human cortex) correlate with qualia; sub-Φ_c systems show only mechanical processing.",
+              "The felt character of experience. Holos locates qualia in systems that meet the observer requirements; below Φ_c there is processing without experience.",
           },
           {
             name: "Perturbational Complexity Index (PCI)",
@@ -1158,7 +1150,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Integration advances in sudden jumps, not gradual growth, driven by light-speed delay and the unavoidable cost of waste heat.",
+              "A speculative reading: civilizational integration may advance in jumps rather than smoothly, as light-speed delay and waste heat reshape what can be coordinated.",
           },
           {
             name: "Ephemeralization",

@@ -11,7 +11,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.
 export const metadata: Metadata = {
   title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
   description:
-    "Holos is an interpretive framework exploring how reality emerges through the recursive relationship between creation and observation. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+    "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
   icons: {
     icon: "icon.svg",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     description:
-      "Holos is an interpretive framework exploring how reality emerges through the recursive relationship between creation and observation. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+      "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
     url: siteUrl,
     siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     description:
-      "Holos is an interpretive framework exploring how reality emerges through the recursive relationship between creation and observation. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+      "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
     images: ["/twitter-image.png"],
   },
 };
@@ -49,7 +49,7 @@ const jsonLd = {
   "@type": "Article",
   headline: "Holos: A Scientific Interpretive Framework for Explaining Reality",
   description:
-    "Holos is an interpretive framework exploring how reality emerges through the recursive relationship between creation and observation. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+    "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
   author: {
     "@type": "Person",
     name: "John Polacek",

@@ -29,7 +29,8 @@ export default function Predictions() {
             threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about where
             observation occurs, and the totality, Omega, as the fundamental ground of experience, of
             which every observer is a local aperture: an opening through which it registers itself.
-            Every claim below follows either from established physics or from those two additions.
+            The commitments, expectations, and tests below follow either from established physics or
+            from those two additions. The speculation at the end does not; it is labeled as such.
           </p>
 
           <p className="leading-relaxed">
@@ -155,8 +156,8 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               What matters is integration. Below a critical level, there is no unified internal
-              state that could count as “what is happening for the system.” Above that level,
-              experience is unavoidable.
+              state that could count as “what is happening for the system.” Above that level, in a
+              system that meets the other observer requirements, experience is unavoidable.
             </p>
 
             <div className="my-2">
@@ -281,7 +282,8 @@ export default function Predictions() {
         <div className="flex flex-col gap-8 text-black/80">
           <p className="leading-relaxed">
             These expectations describe what should be observed in existing domains if the
-            commitments of Holos are correct. Persistent failure across domains would undermine the
+            commitments of Holos are correct. Most are shared with rival views, so meeting them fits
+            Holos without confirming it; persistent failure across domains would undermine the
             framework.
           </p>
 
@@ -321,6 +323,19 @@ export default function Predictions() {
               </a>{" "}
               are relevant not as definitions of consciousness, but as probes of whether integration
               crosses a critical boundary.
+            </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              A sharp transition would fit Holos but not confirm it: ordinary physicalist models
+              predict tipping points too. What can fail is{" "}
+              <a href="#experiment-1" className="underline hover:no-underline">
+                Test A
+              </a>
+              ; see also the{" "}
+              <a href="#experiment-3" className="underline hover:no-underline">
+                note on integration measures
+              </a>
+              .
             </p>
           </div>
 
@@ -368,6 +383,11 @@ export default function Predictions() {
               universe able to support us) is therefore reframed as ontological filtering rather
               than selection.
             </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              This is a reframing, not a new prediction: it expects exactly what standard anthropic
+              reasoning expects, and no cosmological observation could favor one over the other.
+            </p>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -393,7 +413,12 @@ export default function Predictions() {
               Such transitions would not demonstrate consciousness directly. However, the existence
               of a reproducible boundary between loosely coupled neural computation and coherent
               integrated dynamics would support the claim that observerhood depends on structural
-              integration rather than on organismal complexity.
+              integration rather than on organismal complexity. That support counts only under the
+              conditions in the{" "}
+              <a href="#experiment-3" className="underline hover:no-underline">
+                note on integration measures
+              </a>
+              : a measure and threshold fixed in advance, and a stated way to lose.
             </p>
           </div>
         </div>
@@ -1078,8 +1103,9 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Note:</strong> The Vault may also <em>present</em> as a Dark Node if its
-                stability strategy drives it to become cold, compact, and electromagnetically quiet.
+                <strong>Note:</strong> Unlike the Kernel, a Vault that stops computing can go cold.
+                It would then not be a Dark Node, which still exports waste heat, but the sleeping
+                case: compact, dark, and close to undetectable.
               </p>
             </div>
           </div>

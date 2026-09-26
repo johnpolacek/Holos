@@ -113,7 +113,8 @@ export const sections: ContentSection[] = [
         information, model their environment, or even model themselves, yet nothing is experienced.
         Integration marks the boundary where distributed processes stop behaving as independent
         parts and instead function as a unified perspective. Below that boundary, there is no
-        experience at all. Above it, experience becomes unavoidable.
+        experience at all. Above it, in a system whose integrated states are about a world,
+        experience becomes unavoidable.
       </>,
       <>
         Measures like Φ are useful because they track this transition empirically. When integration
@@ -316,11 +317,13 @@ export const sections: ContentSection[] = [
     title: "A Note on Extrapolation",
     paragraphs: [
       <>
-        The sections that follow (Higher Dimensions, Black Holes, Aliens, God, Why Are We Here?)
-        extend beyond established physics into interpretation. They are not claims of new physical
-        laws, but reasoned extrapolations constrained by the <a href="/logic">Holos axioms</a>.
-        Their purpose is to explore the space of possibilities that emerges when observation,
-        relativity, and scale are applied to unresolved cosmic questions.
+        The sections that follow (Higher Dimensions, Infinity, Black Holes, Aliens, The Teeming
+        Dark, Why Are We Here?) extend beyond established physics into interpretation. They are not
+        claims of new physical laws, but reasoned extrapolations constrained by the{" "}
+        <a href="/logic">Holos axioms</a>. Their purpose is to explore the space of possibilities
+        that emerges when observation, relativity, and scale are applied to unresolved cosmic
+        questions. The Omega Point section is the exception: the totality it describes is one of the
+        framework&apos;s two core commitments, not an extrapolation.
       </>,
     ],
   },
@@ -360,14 +363,12 @@ export const sections: ContentSection[] = [
         light still apply.
       </>,
       <>
-        From this perspective, higher-dimensional description becomes necessary as integration
-        increases: the more a system&apos;s parts depend on one another, the more variables it takes
-        to describe them together. It is not an external viewpoint, but a limiting description that
-        emerges when many relationships must be considered simultaneously rather than sequentially.
-        At the extreme limit, this converges on an idealized observer where creation and observation
-        coincide. This limit is <a href="https://en.wikipedia.org/wiki/Asymptote">asymptotic</a>,
-        not reachable, and marks the boundary where further structural distinction ceases to be
-        meaningful.
+        From this perspective, what integration changes is not how many variables a system has but
+        whether they can be taken apart. A gas of independent particles needs billions of numbers,
+        yet each can be described on its own. When parts depend on one another, the description no
+        longer splits into separate pieces: the variables must be considered together rather than
+        one at a time. That joint description is not an external viewpoint or a place, only the
+        honest shape of a whole whose parts constrain each other.
         <FootnoteLink number={overviewCitationMap["higher-dimensions"]} />
       </>,
     ],
@@ -526,13 +527,14 @@ export const sections: ContentSection[] = [
         would arrive almost as soon as we saw them coming, and we are early. The evidence so far
         cannot choose between them.{" "}
         <a href="https://doi.org/10.1088/0067-0049/217/2/25">An infrared survey</a> of about 100,000
-        galaxies found none reprocessing most of its starlight into waste heat, which fits the
-        Integration Hypothesis, though a universe where life is rare fits it too. Finding even one
-        galaxy glowing with a civilization&apos;s heat would count against it. Finding a watching
-        probe nearby would fit it.
+        galaxies found none reprocessing more than 85% of its starlight into waste heat, which fits
+        the Integration Hypothesis, though a universe where life is rare fits it too. Finding even
+        one galaxy glowing with a civilization&apos;s heat would count against it. Finding a
+        watching probe nearby would fit it.
       </>,
       <>
-        The result is a universe that is full of life, but quiet to pre-integrated observers.
+        If the hypothesis holds, the universe could be full of life and still quiet to
+        pre-integrated observers.
         <FootnoteLink number={overviewCitationMap["aliens"]} />
       </>,
     ],
@@ -568,8 +570,8 @@ export const sections: ContentSection[] = [
         To explore this possibility, consider{" "}
         <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a>, a form of mass that
         does not emit light but shapes cosmic structure through gravity. It is cold, persistent, and
-        largely invisible to electromagnetic observation. Its abundance exceeds that of visible
-        matter by roughly a factor of five.
+        largely invisible to electromagnetic observation. Its abundance exceeds that of all ordinary
+        matter, luminous or not, by roughly a factor of five.
       </>,
       <>
         A tempting version of this idea is that some dark matter might itself be organized: mature
@@ -745,12 +747,13 @@ export const sections: ContentSection[] = [
         experience possible.
       </>,
       <>
-        In Holos, life exists because observation allows reality to close on itself. Conscious
-        systems do not merely occupy the universe. They are the apertures through which the totality
-        experiences itself: the means by which physical possibility becomes reality as lived, as
-        opposed to reality as structure alone. When a system reaches sufficient integration,
-        expressed as <a href="/logic#ontology">Φ ≥ Φ_c</a>, interaction is no longer just one thing
-        acting on another. It becomes a point of view.
+        In Holos, what life does is let reality close on itself: not a purpose the universe needed,
+        but a role observers fill wherever they arise. Conscious systems do not merely occupy the
+        universe. They are the apertures through which the totality experiences itself: the means by
+        which physical possibility becomes reality as lived, as opposed to reality as structure
+        alone. When a system reaches sufficient integration, expressed as{" "}
+        <a href="/logic#ontology">Φ ≥ Φ_c</a>, interaction is no longer just one thing acting on
+        another. It becomes a point of view.
         <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
     ],

@@ -743,11 +743,12 @@ export default function Logic() {
               “particles” are how interactions appear when they are forced into localized, countable
               events. Detectors do not directly observe fields. They register discrete outcomes,
               such as clicks, tracks, and energy deposits, because measurement is an interaction
-              that constrains a spread-out excitation into a definite event in a specific place and
-              time. In this framework, particles are not fundamental objects. They are
-              context-dependent registrations of field interactions, which is why a continuous
-              theory can yield discrete observations without requiring reality to be made of little
-              beads.
+              that entangles a spread-out excitation with a detector, and within each branch the
+              detector&apos;s record shows one definite event in a specific place and time. Nothing
+              collapses; each branch simply holds its own record. In this framework, particles are
+              not fundamental objects. They are context-dependent registrations of field
+              interactions, which is why a continuous theory can yield discrete observations without
+              requiring reality to be made of little beads.
             </p>
           </div>
 
@@ -1130,7 +1131,12 @@ export default function Logic() {
         <p className="text-black/70 italic text-sm">
           The claims in this section extend the Holos framework beyond established physics. They are
           not assertions about what must occur. They describe what follows if the framework’s
-          constraints continue to hold under increasing integration.
+          constraints continue to hold under increasing integration. One thing here is not
+          extrapolation: the totality, Omega, is a core commitment (see{" "}
+          <a href="#minimal-core" className="underline hover:no-underline">
+            Minimal Core
+          </a>
+          ). What is extrapolative is the limit picture of finite systems approaching it.
         </p>
 
         <div className="flex flex-col gap-8 text-black/80">
