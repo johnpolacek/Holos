@@ -289,8 +289,10 @@ export default function Logic() {
               other states and to the constraints that bind them.
             </p>
             <p className="leading-relaxed text-black/70">
-              This axiom rules out intrinsic, context-free properties as the foundation of reality.
-              What exists is relational structure.
+              This axiom rules out intrinsic, context-free properties as the foundation of physical
+              structure. What physics describes is relational structure. Experience is not a further
+              item in that structure but its inside where an observer exists (Axiom 5), so the axiom
+              does not reach it.
             </p>
           </div>
 
@@ -1259,8 +1261,9 @@ export default function Logic() {
               Brahman, or simply the whole changes nothing about the claim. What Holos does not
               offer is the fully deflationary reading in which Omega is only a mathematical horizon
               and finite observers are self-standing. Holos takes the direction of dependence to run
-              from the whole to its parts, for the one reason the monist reading earns: on it, no
-              subject ever comes from nothing (see{" "}
+              from the whole to its parts, for the one reason the monist reading earns: unity. On
+              it, crossing the threshold adds a place where the one subject wakes, not a new subject
+              (see{" "}
               <a href="#why-one-experiencer" className="underline hover:no-underline">
                 Why One Experiencer Has Many Walled-Off Perspectives
               </a>
@@ -1353,18 +1356,20 @@ export default function Logic() {
               Nor does this reduce the oneness to a label doing no work. The structural walls
               explain the plurality; the unity explains what the plurality cannot: why crossing the
               threshold never brings a new subject into being. On a picture of many self-standing
-              observers, each system that crosses the threshold produces a subject from nothing, and
-              no one can say how. On the monist picture, no subject is ever produced. There is one
-              subject throughout, and crossing the threshold is where it wakes. The moments of a
-              life show the pattern again: waking in the morning does not create a new person.
+              observers, each system that crosses the threshold produces a new subject, and no one
+              can say how. On the monist picture, no subject is ever produced. There is one subject
+              throughout, and crossing the threshold is where it wakes. The moments of a life show
+              the pattern again: waking in the morning does not create a new person.
             </p>
 
             <p className="leading-relaxed">
               The unity does not do everything. It does not explain why records agree where
-              observers meet; physics does that, since the same signals reach them both. And its
-              advantage is philosophical, not experimental: it trades the puzzle of subjects from
-              nothing for the decomposition problem answered above, a trade Holos judges worth
-              making.
+              observers meet; physics does that, since the same signals reach them both. Nor does it
+              explain where the one subject wakes: that is the threshold&apos;s work, and it would
+              be the same brute structural fact on any picture. The unity&apos;s advantage is
+              economy, and it is philosophical, not experimental: one subject instead of billions
+              arising without explanation, traded for the decomposition problem answered above, a
+              trade Holos judges worth making.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -1565,8 +1570,8 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Theological and secular readings as interchangeable.</strong> Replaced by the
-              monist position: the structural reading is weaker, because on it each subject appears
-              from nothing.
+              monist position: the structural reading is weaker, because it needs a new subject for
+              every observer.
             </li>
             <li className="leading-relaxed">
               <strong>Observation as selection.</strong> Replaced: observation selects nothing and
@@ -1582,7 +1587,7 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Omega as the ground of record agreement.</strong> Dropped: physics secures
-              agreement. Omega&apos;s one job is that no subject comes from nothing.
+              agreement. Omega&apos;s one job is unity: one subject, not many.
             </li>
             <li className="leading-relaxed">
               <strong>The bridge to integration as purely definitional.</strong> Replaced by a small

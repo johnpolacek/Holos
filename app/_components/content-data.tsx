@@ -143,8 +143,8 @@ export const sections: ContentSection[] = [
           do not automatically include first-person presence. Holos does not derive experience from
           structure. It takes experience to be fundamental, the totality&apos;s own, and identifies
           the structural condition under which a physical system becomes an aperture of it. That
-          answers where experience occurs, not why there is experience at all; the second question
-          is what the framework&apos;s posits are for.
+          answers where experience occurs, not why there is experience at all. The second question
+          Holos does not answer: its posits take experience as given, the one fact it starts from.
         </p>
       </div>,
       <>
@@ -664,10 +664,11 @@ export const sections: ContentSection[] = [
         Holos does not alter established physics. Every equation, history and structure remain as
         physics describes. What it changes is the direction of explanation: rather than building up
         from finite observers to a limiting whole, Holos begins with the whole and understands each
-        act of observation as the whole registering itself locally. The payoff is that no subject
-        ever appears from nothing: when a system crosses the threshold, no new experiencer comes
-        into being. The one experiencer wakes there, the way waking in the morning does not create a
-        new person.
+        act of observation as the whole registering itself locally. The payoff is unity: when a
+        system crosses the threshold, no new experiencer comes into being. The one experiencer wakes
+        there, the way waking in the morning does not create a new person. Where it wakes is not
+        explained by Omega; the threshold settles that, on any picture. What Omega adds is economy:
+        one subject in place of billions of separate selves, each arising without explanation.
       </>,
       <>
         For any finite system, the Omega Point remains an{" "}
@@ -716,10 +717,10 @@ export const sections: ContentSection[] = [
         experiencer, and the direction of dependence runs from the whole to its parts. A purely
         structural reading, in which Omega is only a mathematical horizon and observers are
         self-standing, remains available as a weaker interpretation, but it is not the view of this
-        framework. It is weaker because each observer&apos;s subject must then appear from nothing
-        when a system crosses the threshold, and no one can say how. What Holos leaves open is
-        vocabulary, not structure: whether the totality is named God, Brahman, or simply the whole
-        changes nothing about the claim being made.
+        framework. It is weaker because it needs a new, separate subject every time a system crosses
+        the threshold, each one arising without explanation, where the monist reading needs only
+        one. What Holos leaves open is vocabulary, not structure: whether the totality is named God,
+        Brahman, or simply the whole changes nothing about the claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
