@@ -75,8 +75,8 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Sides taken:</strong> branching quantum mechanics with no collapse; Born
-              weights as self-locating odds; lived regions as the causal pasts of observers;
-              experience and activity as two sides of one event.
+              weights as self-locating odds; lit regions as the causal pasts of observers, with
+              experience lived only inside them; experience and activity as two sides of one event.
             </li>
             <li className="leading-relaxed">
               <strong>Observer requirements:</strong> six structural conditions, with a provisional
@@ -131,8 +131,10 @@ export default function Logic() {
               lawful possibility with lived registration. Holos uses &quot;real&quot; at two
               strengths: structure is real whether or not it is lived, and{" "}
               <MathInline>{"R"}</MathInline> names reality in the full sense, structure that is also
-              lived. Throughout, &quot;unlit&quot; marks the first and &quot;lived&quot; the second.
-              A region is lived when it lies in the causal past of an observer.
+              lived. Three words keep this precise. &quot;Lived&quot; marks where experience occurs:
+              inside observers. &quot;Lit&quot; marks the causal past of an observer, the world its
+              experience is made from and about. &quot;Unlit&quot; marks structure outside every
+              observer&apos;s causal past.
             </li>
 
             <li className="leading-relaxed">
@@ -836,21 +838,21 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              A worry follows from sealing. Lived status is yes or no and ignores weight, so a
-              branch with a tiny weight that contains an observer is fully lived. Counted one by
-              one, most branches of many repeated experiments show roughly even results whatever the
-              weights, so if every lived observer counted equally, a typical observer should expect
-              the wrong statistics. But the worry depends on counting, and counting fails here. Try
-              to count branches, or the observers in them, and you get either an arbitrary number or
-              an infinite one. If you are one of infinitely many observers, equal odds of being each
-              one cannot be set up by counting: every share would be zero, and adding up zeros one
-              at a time never makes a whole. A tenth of an infinite collection also has exactly as
-              many members as nine tenths. Holos treats an infinity as a sign that a description has
-              broken down, and this is such a case: counting is the wrong tool. What survives is
-              weight. A single point on a line has no length, and a short stretch has as many points
-              as a long one, yet the short stretch is shorter. Each observer is a point; the weights
-              are the lengths. Yes-or-no lived status supplies no rival measure, so weight is the
-              only measure left to set the odds.
+              A worry follows from yes-or-no status. Lived status is yes or no and ignores weight,
+              so a branch with a tiny weight that contains an observer is fully lived. Counted one
+              by one, most branches of many repeated experiments show roughly even results whatever
+              the weights, so if every lived observer counted equally, a typical observer should
+              expect the wrong statistics. But the worry depends on counting, and counting fails
+              here. Try to count branches, or the observers in them, and you get either an arbitrary
+              number or an infinite one. If you are one of infinitely many observers, equal odds of
+              being each one cannot be set up by counting: every share would be zero, and adding up
+              zeros one at a time never makes a whole. A tenth of an infinite collection also has
+              exactly as many members as nine tenths. Holos treats an infinity as a sign that a
+              description has broken down, and this is such a case: counting is the wrong tool. What
+              survives is weight. A single point on a line has no length, and a short stretch has as
+              many points as a long one, yet the short stretch is shorter. Each observer is a point;
+              the weights are the lengths. Yes-or-no lived status supplies no rival measure, so
+              weight is the only measure left to set the odds.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -1578,8 +1580,13 @@ export default function Logic() {
               erases nothing; each branch is registered from within.
             </li>
             <li className="leading-relaxed">
-              <strong>Sealing a whole branch from beginning to end.</strong> Replaced by sealing an
+              <strong>Sealing a whole branch from beginning to end.</strong> Replaced by an
               observer&apos;s causal past, which gives the claim experiential content.
+            </li>
+            <li className="leading-relaxed">
+              <strong>The whole causal past as &quot;lived&quot;.</strong> Split: lived is where
+              experience occurs, inside observers; lit is the causal past it draws on. No one lived
+              through the early universe.
             </li>
             <li className="leading-relaxed">
               <strong>Born weights as shares of experience.</strong> Retracted: experience is not

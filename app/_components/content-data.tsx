@@ -38,13 +38,13 @@ export const sections: ContentSection[] = [
         a lived one.
       </>,
       <>
-        If Holos is correct, a single conscious moment seals its entire causal past as lived,
-        reaching back to the universe&apos;s earliest moments; the silence of the night sky gets a
-        testable explanation rather than remaining a puzzle; and the oldest question of why we are
-        here receives a structural answer. What follows traces those consequences from life and
-        consciousness through spacetime, black holes, and the Teeming Dark to the limits of reality
-        itself, marking clearly which claims are established physics, which are extrapolation, and
-        what would prove the whole thing wrong.
+        If Holos is correct, a single conscious moment lights its entire causal past, making
+        everything back to the universe&apos;s earliest moments part of the world it lives in; the
+        silence of the night sky gets a testable explanation rather than remaining a puzzle; and the
+        oldest question of why we are here receives a structural answer. What follows traces those
+        consequences from life and consciousness through spacetime, black holes, and the Teeming
+        Dark to the limits of reality itself, marking clearly which claims are established physics,
+        which are extrapolation, and what would prove the whole thing wrong.
       </>,
     ],
   },
@@ -78,20 +78,21 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">eternalist</a> or
         block-universe view, past, present, and future all exist together as one fixed
         four-dimensional structure, no moment more “now” than any other. Observation does not
-        “happen later” in a causal sense. Instead, observers seal their past. Every aperture is
-        built from its causal past, everything that could ever have influenced it, and carries that
-        past into a lived perspective through its traces: starlight, the cosmic microwave
-        background, the fossil record. In that sense, the early universe is lived through the
-        consciousness that arises within it: not made lived at some later moment, but lived
-        tenselessly, because it lies in the causal past of observers. Holos distinguishes two levels
-        here. Sealing is binary and follows the structure of spacetime: a region is lived if it lies
-        in the causal past of at least one aperture in its branch (a branch, in quantum terms, is
-        one complete way the universe can go). The lived universe is the union of those causal
-        pasts. Whatever lies outside all of them remains unlit structure, real as pattern but never
-        lived: branches that never form an aperture, regions beyond every observer&apos;s horizon,
-        and the far future after the last observer. Witnessing is direct experience, graded and
-        local: how much of a lived history is experienced in detail scales with the observers it
-        contains. Our past is not merely sealed; it is densely witnessed. The loop between creation
+        “happen later” in a causal sense. Holos separates three things here, each with its own word.{" "}
+        <em>Lived</em> is where experience actually occurs: inside apertures, and nowhere else. No
+        one lived through the early universe. <em>Lit</em> is everything in the causal past of at
+        least one aperture in its branch (a branch, in quantum terms, is one complete way the
+        universe can go): everything that could ever have influenced an observer. Every aperture is
+        built from its causal past and draws on it through its traces, such as starlight, the cosmic
+        microwave background, and the fossil record, so the lit region is the world experience is
+        made from and about. The word is nearly literal: your causal past is exactly the region
+        whose light, or any signal, can reach you. Lighting is binary and follows the structure of
+        spacetime, and it happens tenselessly, not at some later moment. Whatever lies outside every
+        aperture&apos;s causal past is <em>unlit</em> structure, real as pattern but never part of
+        any observer&apos;s world: branches that never form an aperture, regions beyond every
+        observer&apos;s horizon, and the far future after the last observer. <em>Witnessing</em> is
+        graded: how much of the lit region an observer&apos;s experience is actually about, and in
+        what detail. Our past is not merely lit; it is densely witnessed. The loop between creation
         and observation is a relation of dependence, not a process.
       </>,
     ],

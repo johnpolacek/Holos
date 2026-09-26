@@ -760,7 +760,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Equivalence Relation",
             url: "https://en.wikipedia.org/wiki/Equivalence_relation",
             description:
-              "Lived and unlit partition histories into two classes: a structural classification, not a transition between states.",
+              "Lit and unlit partition spacetime into two classes: a structural classification, not a transition between states.",
           },
         ],
       },
