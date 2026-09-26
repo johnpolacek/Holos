@@ -721,42 +721,56 @@ export default function Logic() {
               because consistency permits no alternative.
             </p>
             <p className="leading-relaxed">
-              Holos stops there, and declines a tempting further step. It does not read a
-              branch&apos;s weight as its share of the totality&apos;s experience. That reading
-              would require experience to be a quantity held in common and divided among branches,
-              which is precisely what the monist ontology denies: the totality&apos;s experiential
-              life is plural and distributed, not pooled. Experience occurs at apertures. There is
-              no reservoir from which branches draw larger or smaller portions, so the question of
-              which branch receives more of it does not arise.
+              Holos declines one tempting reading. It does not read a branch&apos;s weight as its
+              share of the totality&apos;s experience. That reading would require experience to be a
+              quantity held in common and divided among branches, which is precisely what the monist
+              ontology denies: the totality&apos;s experiential life is plural and distributed, not
+              pooled. Experience occurs at apertures. There is no reservoir from which branches draw
+              larger or smaller portions, so the question of which branch receives more of it does
+              not arise.
             </p>
             <p className="leading-relaxed">
-              Declining that step leaves a gap. With the experiential reading retracted, the
-              framework currently offers no account of what the weight <em>measures</em>. Its form
-              is forced (Gleason), its location is stated (the structural layer, alongside the
-              laws), but a number can have a mandatory form and a definite address and still lack an
-              interpretation. Candidate readings exist: a primitive physical magnitude of branches,
-              needing no translation into anything else, as mass needs none; or a measure of how
-              confident an observer should be about which branch they are in. Holos endorses neither
-              yet. What the weight means is recorded among the framework&apos;s{" "}
-              <a href="#open-problems" className="underline hover:no-underline">
-                Open Problems
-              </a>
-              .
+              What the weight does measure is odds. After a measurement splits the world, but before
+              you look, there are observers in every branch, and you are one of them without yet
+              knowing which. The weight of a branch is your odds of being among its observers. That
+              is why an outcome with 70% of the weight is seen 70% of the time: not because the
+              other outcomes fail to happen, but because 70% of the weight lies with the observers
+              who see it. The reading keeps the weights where Holos placed them, in the structural
+              layer. The odds are a fact about the possibility space, not a quantity of experience.
             </p>
 
             <p className="leading-relaxed">
-              A second gap is inherited rather than created. Gleason fixes the form the weights must
-              take, but no branching account has fully explained why an observer who is certain to
-              have successors in every branch should expect Born statistics rather than merely find
-              them. That puzzle belongs to every no-collapse interpretation, and Holos claims no
-              solution to it. The framework is committed to the weights being real and structural,
-              not to having derived expectation from branching.
+              A worry follows from sealing. Lived status is yes or no and ignores weight, so a
+              branch with a tiny weight that contains an observer is fully lived. Counted one by
+              one, most branches of many repeated experiments show roughly even results whatever the
+              weights, so if every lived observer counted equally, a typical observer should expect
+              the wrong statistics. But the worry depends on counting, and counting fails here. Try
+              to count branches, or the observers in them, and you get either an arbitrary number or
+              an infinite one. If you are one of infinitely many observers, equal odds of being each
+              one cannot be set up by counting: every share would be zero, and adding up zeros one
+              at a time never makes a whole. A tenth of an infinite collection also has exactly as
+              many members as nine tenths. Holos treats an infinity as a sign that a description has
+              broken down, and this is such a case: counting is the wrong tool. What survives is
+              weight. A single point on a line has no length, and a short stretch has as many points
+              as a long one, yet the short stretch is shorter. Each observer is a point; the weights
+              are the lengths. Yes-or-no lived status supplies no rival measure, so weight is the
+              only measure left to set the odds.
             </p>
+
             <p className="leading-relaxed text-black/70 text-sm">
-              This is a placement, not a derivation. Gleason&apos;s theorem has assumptions that
-              remain debated, and Holos adds no new mathematics here. The claim is only that the
-              Born weights sit naturally in the structural layer, alongside the laws, rather than in
-              the experiential one.
+              This is an argument by elimination, not a derivation from first principles. Odds need
+              a measure, counting supplies none, and weight is the only measure that survives when
+              branches are subdivided. Published derivations reach the same rule by other routes,
+              among them{" "}
+              <a
+                href="https://doi.org/10.1093/bjps/axw004"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sebens and Carroll&apos;s account of self-locating uncertainty
+              </a>
+              , and Holos depends on none of them in particular. Gleason&apos;s theorem has
+              assumptions that remain debated, and Holos adds no new mathematics here.
             </p>
           </div>
 
@@ -1258,7 +1272,7 @@ export default function Logic() {
 
         <div className="flex flex-col gap-5 text-black/80">
           <p className="leading-relaxed">
-            Four problems sit at the center of the framework and remain open.
+            Three problems sit at the center of the framework and remain open.
           </p>
 
           <div className="flex flex-col gap-3">
@@ -1395,29 +1409,10 @@ export default function Logic() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">What the branch weights measure</h3>
-            <p className="leading-relaxed">
-              Holos commits to the Born weights being real, structural, and consistency-forced in
-              form (Gleason&apos;s theorem). What it does not have is an interpretation. With the
-              share-of-experience reading retracted, the framework does not say what the number
-              attached to a branch is a quantity <em>of</em>: not frequency in a single world (every
-              outcome occurs), not a portion of experience (experience is not pooled and divided).
-              Candidate readings exist, from a primitive magnitude of the possibility structure to a
-              measure of how confident an observer should be about where in it they stand, and Holos
-              endorses none of them yet. Every no-collapse account inherits this gap, but inheriting
-              a problem does not discharge it. See{" "}
-              <a href="#relationship-to-physics" className="underline hover:no-underline">
-                Relationship to Physics
-              </a>
-              .
-            </p>
-          </div>
-
           <p className="leading-relaxed text-black/70 text-sm">
-            These are not peripheral loose ends; they concern the framework&apos;s two additions to
-            physics and the quantum picture it commits to. They are recorded here so that progress
-            on them can be judged against a stated standard.
+            These are not peripheral loose ends; they concern the integration threshold, one of the
+            framework&apos;s two additions to physics. They are recorded here so that progress on
+            them can be judged against a stated standard.
           </p>
         </div>
       </section>

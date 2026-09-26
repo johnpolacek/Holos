@@ -835,6 +835,12 @@ export const citationMainSections: CitationMainSection[] = [
               "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form: exactly one weighting is possible. Its assumptions remain debated; Holos adds no new mathematics.",
           },
           {
+            name: "Sebens and Carroll (2018), Self-locating uncertainty and the origin of probability in Everettian quantum mechanics",
+            url: "https://doi.org/10.1093/bjps/axw004",
+            description:
+              "British Journal for the Philosophy of Science: after branching and before looking, an observer is uncertain which branch they are in, and the Born weights are the rational odds. Holos adopts this reading of the weights and reaches it by elimination: counting fails, weight survives.",
+          },
+          {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
