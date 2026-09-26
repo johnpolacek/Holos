@@ -940,6 +940,10 @@ export default function Predictions() {
             <h3 id="mesostructures" className="text-xl font-semibold text-black/90">
               Mesostructures
             </h3>
+            <p className="leading-relaxed text-black/70 italic text-sm">
+              These are design sketches, not predictions: imaginative illustrations of what
+              engineering might look like if the Integration Hypothesis holds.
+            </p>
             <p className="leading-relaxed pb-4">
               The structures below are H3–H4 design patterns: compact enough to stay coherent under
               light-lag and thermodynamics, and consequential enough to matter without bright
@@ -988,14 +992,17 @@ export default function Predictions() {
                   output is set by physics, not engineering
                 </li>
                 <li className="leading-relaxed">
-                  Gravitationally compact and dark in visible light, with an irreducible infrared
-                  signature
+                  Compact, so it cannot hide its heat: at modest power it glows faintly in the
+                  infrared; at high power it glows brightly, and it is only as quiet as its output
+                  allows
                 </li>
               </ul>
 
               <p className="leading-relaxed text-black/70 text-sm">
                 The Holocore is infrastructure, not spectacle. If H4 integration suppresses bright
-                sprawl, the energy backbone must be dense, quiet, and long-lived.
+                sprawl, the energy backbone must be dense and long-lived, and it can be only as
+                quiet as its power allows: compact and powerful means hot, the same physics that
+                keeps mature systems warm.
               </p>
             </div>
 

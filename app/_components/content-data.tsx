@@ -614,10 +614,11 @@ export const sections: ContentSection[] = [
         which it radiates, and one that dumps its heat barely above the cosmic background glows only
         where the sky already glows. What closes this loophole is the framework&apos;s own thesis:
         radiating cold requires enormous surfaces (shedding the same power near the background
-        temperature takes a hundred-million-fold more radiating area), and vast sprawl is exactly
-        what integration abandons. Compact and computing means warm above the background. The
-        expectation follows: mature systems should appear as compact masses, dark in visible light,
-        with a faint infrared excess. <strong>Silent, but warm</strong>.
+        temperature takes about a hundred million times the radiating area needed near room
+        temperature), and vast sprawl is exactly what integration abandons. Compact and computing
+        means warm above the background. The expectation follows: mature systems should appear as
+        compact masses, dark in visible light, with a faint infrared excess.{" "}
+        <strong>Silent, but warm</strong>.
       </>,
       <>
         Two honesty notes bound that expectation. First, it is a search channel, not a fingerprint:
