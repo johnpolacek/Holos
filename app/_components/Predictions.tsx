@@ -49,8 +49,8 @@ export default function Predictions() {
             </li>
             <li className="leading-relaxed">
               <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
-              a structural test that can fail, a consistency check, and a standing bet that could
-              falsify the framework outright.
+              a structural test that can fail, a consistency check, and a standing bet on the
+              physics Holos adopts, with its consequences for the framework declared in advance.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
@@ -489,8 +489,8 @@ export default function Predictions() {
             outcome is the one standard quantum mechanics already predicts, so it guards against
             contradiction rather than singling Holos out. A prediction Holos shares with rival
             theories cannot single it out, but a shared prediction it could fail is still worth more
-            than one it cannot. Beneath both sits a standing bet, stated after them, on which the
-            framework stakes itself outright.
+            than one it cannot. Beneath both sits a standing bet, stated after them, on the physics
+            Holos adopts, with what it would cost the framework declared in advance.
           </p>
         </div>
       </section>
@@ -776,9 +776,33 @@ export default function Predictions() {
           <p className="leading-relaxed">
             <strong>How Holos loses:</strong> if any experiment ever finds a consciousness-linked
             deviation from unitary quantum mechanics (a superposition that degrades when an
-            integrated observer registers it, beyond what ordinary decoherence accounts for), the
-            framework is falsified outright. Observation would be a force after all, and every page
-            of Holos denies that it is one.
+            integrated observer registers it, beyond what ordinary decoherence accounts for),
+            Holos&apos;s physics is falsified. Observation would be a force after all.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>What that would cost, declared now.</strong> Losing the bet would falsify three
+            things: Axiom 2 as read here (no collapse), the branching picture with its self-locating
+            odds, and the clause in Axiom 4 that experience adds no force. It would not touch the
+            core. The threshold (Axiom 3) would become the point where collapse happens, and so, for
+            the first time, physically detectable. Experience would still be the inside of physical
+            activity (Axiom 4); that activity would simply include a collapse law. Omega (Axiom 5)
+            would be the universe with its single history. Lived, lit, and unlit would apply within
+            that one history. Holos would adopt a collapse reading of the kind{" "}
+            <a href="https://arxiv.org/abs/2105.02314" target="_blank" rel="noopener noreferrer">
+              Chalmers and McQueen
+            </a>{" "}
+            propose, with its threshold as the collapse point.
+          </p>
+
+          <p className="leading-relaxed">
+            This fallback is stated before any result exists, which is what separates it from a
+            rescue. It does not make the core unfalsifiable: the core still loses through{" "}
+            <a href="#experiment-1" className="underline hover:no-underline">
+              Test A
+            </a>
+            , if experience turns out to track behavior rather than integration. No reading of
+            quantum physics escapes that.
           </p>
 
           <p className="leading-relaxed">
@@ -812,15 +836,16 @@ export default function Predictions() {
 
           <p className="leading-relaxed text-black/70 text-sm">
             Some observer-centered frameworks quietly hope consciousness does something physical.
-            Holos formally bets that it does not, and stakes itself on the bet. The bet is untested
-            so far. A century of placing ever-larger systems into superposition has found no
-            deviation of any kind, but by Holos&apos;s own threshold none of those systems was an
-            observer: photons, molecules, and superconducting circuits all sit far below{" "}
+            Holos formally bets that it does not, and states in advance what losing would cost. The
+            bet is untested so far. A century of placing ever-larger systems into superposition has
+            found no deviation of any kind, but by Holos&apos;s own threshold none of those systems
+            was an observer: photons, molecules, and superconducting circuits all sit far below{" "}
             <MathInline>{"\\Phi_c"}</MathInline>. That record shows quantum mechanics holding at
             those scales; it does not yet reach the case the bet is about. The bet is also the one
             standard physics makes. What makes it worth stating is that Holos, unlike views that
-            need consciousness to act, cannot hedge on it: the first experiment to put a genuine
-            observer in the friend&apos;s role settles it.
+            need consciousness to act, does not hedge on it: the first experiment to put a genuine
+            observer in the friend&apos;s role settles it, and the consequences are already on the
+            page.
           </p>
         </div>
       </section>

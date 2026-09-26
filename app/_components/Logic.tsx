@@ -1731,6 +1731,11 @@ export default function Logic() {
               below the threshold, and the predicted result was ordinary contextuality.
             </li>
             <li className="leading-relaxed">
+              <strong>&quot;Falsified outright&quot; for the standing bet.</strong> Replaced by a
+              fallback declared in advance: a consciousness-linked collapse would falsify the
+              no-collapse physics, not the core, and the threshold would become the collapse point.
+            </li>
+            <li className="leading-relaxed">
               <strong>&quot;Confirmed so far&quot; for the standing bet.</strong> Corrected to
               untested: no superposition tested so far has contained an observer.
             </li>

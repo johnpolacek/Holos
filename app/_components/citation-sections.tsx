@@ -693,7 +693,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
             description:
-              "Theories in which collapse is a physical process; Holos rejects them. A consciousness-linked collapse would falsify Holos outright (the standing bet).",
+              "Theories in which collapse is a physical process; Holos rejects them. A consciousness-linked collapse would falsify Holos's no-collapse physics; its declared fallback keeps the core, with the threshold as the collapse point (the standing bet).",
           },
         ],
       },
