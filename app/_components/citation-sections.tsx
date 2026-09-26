@@ -1173,6 +1173,24 @@ export const citationMainSections: CitationMainSection[] = [
               "Holos resolution: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
           },
           {
+            name: "Hanson et al. (2021), If loud aliens explain human earliness, quiet aliens are also rare",
+            url: "https://doi.org/10.3847/1538-4357/ac2369",
+            description:
+              "The Astrophysical Journal: the grabby aliens model. Visible, expanding civilizations exist but have not reached us, and we are early. Named on the site as the main rival to the Integration Hypothesis.",
+          },
+          {
+            name: "Griffith et al. (2015), The Ĝ infrared search, III",
+            url: "https://doi.org/10.1088/0067-0049/217/2/25",
+            description:
+              "The Astrophysical Journal Supplement: of about 100,000 galaxies surveyed with WISE, none hosts a civilization reprocessing more than 85% of its starlight into waste heat.",
+          },
+          {
+            name: "Zoo hypothesis",
+            url: "https://en.wikipedia.org/wiki/Zoo_hypothesis",
+            description:
+              "The idea that mature civilizations deliberately leave young ones alone. For Holos, non-contact needs no agreement: leaving a young civilization alone costs nothing, while contact takes effort.",
+          },
+          {
             name: "Weakly interacting massive particles (WIMPs)",
             url: "https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles",
             description:

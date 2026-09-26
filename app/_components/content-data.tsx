@@ -38,12 +38,12 @@ export const sections: ContentSection[] = [
       </>,
       <>
         If Holos is correct, a single conscious moment seals its entire causal past as lived,
-        reaching back to the universe&apos;s earliest moments; the silence of the night sky becomes
-        a prediction rather than a puzzle; and the oldest question of why we are here receives a
-        structural answer. What follows traces those consequences from life and consciousness
-        through spacetime, black holes, and the Teeming Dark to the limits of reality itself,
-        marking clearly which claims are established physics, which are extrapolation, and what
-        would prove the whole thing wrong.
+        reaching back to the universe&apos;s earliest moments; the silence of the night sky gets a
+        testable explanation rather than remaining a puzzle; and the oldest question of why we are
+        here receives a structural answer. What follows traces those consequences from life and
+        consciousness through spacetime, black holes, and the Teeming Dark to the limits of reality
+        itself, marking clearly which claims are established physics, which are extrapolation, and
+        what would prove the whole thing wrong.
       </>,
     ],
   },
@@ -455,7 +455,11 @@ export const sections: ContentSection[] = [
       </>,
       <>
         In this case, progress would make civilizations less detectable, and this explanation is
-        referred to here as the <strong>Integration Hypothesis</strong>.
+        referred to here as the <strong>Integration Hypothesis</strong>. Here
+        &quot;integration&quot; means a civilization growing compact and efficient, a different use
+        from the integration of a single mind that the observer threshold measures. The hypothesis
+        is a companion to Holos, not a consequence of its core: if it fails, the threshold and the
+        totality stand untouched.
       </>,
       <>
         While early technological civilizations are likely to emit radio signals, reshape their
@@ -474,7 +478,8 @@ export const sections: ContentSection[] = [
         Large-scale interstellar expansion is constrained by the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, introducing
         growing latency as distances increase. Expansion produces fragmented descendants rather than
-        a unified intelligence. There is no stable path to a galaxy-spanning civilization.
+        a unified intelligence: a colony ten light-years away cannot be steered from home, so it
+        becomes a civilization of its own. There is no easy path to a galaxy-spanning civilization.
       </>,
       <>
         The long-lived outcome is not stagnation but inward growth. Civilizations continue to
@@ -482,6 +487,48 @@ export const sections: ContentSection[] = [
         concentrate locally. Exploration does not stop, but it becomes distributed rather than
         centralized. Communication to distant technology or other civilizations is highly
         directional and compressed, thus very hard to detect.
+      </>,
+      <>
+        The strongest objection is simple: it only takes one. If a million civilizations arose and
+        all but one went quiet, the one that kept spreading could cross the galaxy in a few million
+        years, and the galaxy is about ten billion years old. &quot;Most go quiet&quot; is not
+        enough.
+      </>,
+      <>
+        Part of the answer is that the objection mixes up two things: being explored and being
+        settled. A small, dark, quiet probe is as easy to miss as a trail camera in the woods, and
+        we have barely looked: a few searches of nearby stable orbits in the 1980s found nothing, at
+        sensitivities too low to rule much out. The galaxy may be thoroughly explored, our own
+        system included, by watchers built to observe rather than arrive (see{" "}
+        <a href="/predictions#exploration">Sentinel Probes</a>). A mature civilization loses nothing
+        by leaving a young one alone, an old idea in SETI known as the{" "}
+        <a href="https://en.wikipedia.org/wiki/Zoo_hypothesis">zoo hypothesis</a>; contact is what
+        takes effort.
+      </>,
+      <>
+        What we clearly do not see is visible settlement: reshaped star systems, or whole galaxies
+        glowing with waste heat. Here the hypothesis makes a claim about spreading. Think of
+        settlements like an epidemic. If each settlement founds more than one new settlement before
+        it turns inward, settling explodes across the galaxy; if fewer than one, it fizzles after a
+        few hops. The Integration Hypothesis bets the number stays below one, because distance
+        breaks control: each new settlement soon becomes an independent civilization facing the same
+        pull toward compactness. Self-copying probes that never settle down would break the bet. The
+        reply is that a copier which cannot be recalled becomes a rival, the one thing a mature
+        civilization has every reason never to build.
+      </>,
+      <>
+        A rival explanation fits the silence too. On{" "}
+        <a href="https://doi.org/10.3847/1538-4357/ac2369">
+          Robin Hanson&apos;s &quot;grabby aliens&quot; model
+        </a>
+        , visible settlers do exist but have not reached us yet: expanding near light speed, they
+        would arrive almost as soon as we saw them coming, and we are early. The evidence so far
+        cannot choose between them.{" "}
+        <a href="https://doi.org/10.1088/0067-0049/217/2/25">An infrared survey</a> of about 100,000
+        galaxies found none reprocessing most of its starlight into waste heat, which fits the
+        Integration Hypothesis, though a universe where life is rare fits it too. Finding even one
+        galaxy glowing with a civilization&apos;s heat would count against it. Finding a watching
+        probe nearby would fit it.
       </>,
       <>
         The result is a universe that is full of life, but quiet to pre-integrated observers.
