@@ -9,7 +9,9 @@ export default function PDFDocument() {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>Holos: A Scientific Interpretive Framework for Explaining Reality</title>
+        <title>
+          Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics
+        </title>
         <style>{`
           @font-face {
             font-family: 'Bitter';
@@ -309,7 +311,7 @@ export default function PDFDocument() {
               <span>Holos</span>
             </div>
             <h1 className="title-main">
-              Holos: A Scientific Interpretive Framework for Explaining Reality
+              Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics
             </h1>
           </div>
         </div>

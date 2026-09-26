@@ -70,7 +70,7 @@ async function generateImages() {
         <body>
           <div class="symbol">⊛</div>
           <div class="holos-text">Holos</div>
-          <div class="subtitle">A Scientific Interpretive Framework for Explaining Reality</div>
+          <div class="subtitle">An Interpretive Framework for Understanding Reality,<br />Bounded by Physics</div>
         </body>
       </html>
     `;

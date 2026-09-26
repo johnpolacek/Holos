@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Citations – Holos (⊛)",
     description: "Citations and references for the Holos interpretive framework.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/citations`,
-    siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+    siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     type: "website",
   },
 };

@@ -9,7 +9,7 @@ const bitter = Bitter({ subsets: ["latin"] });
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+  title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
   description:
     "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
   icons: {
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+    title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     description:
       "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
     url: siteUrl,
-    siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+    siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+        alt: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
       },
     ],
     locale: "en_US",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+    title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     description:
       "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
     images: ["/twitter-image.png"],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+  headline: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
   description:
     "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
   author: {

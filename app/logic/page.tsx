@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "A formal mathematical and philosophical structure defining Holos (⊛) through primitive definitions, axioms, foundational propositions, and extrapolative propositions.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/logic`,
-    siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
+    siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     type: "website",
   },
 };
