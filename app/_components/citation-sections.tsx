@@ -773,6 +773,18 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/logic#ontology",
         items: [
           {
+            name: "Aaronson (2014), Why I Am Not An Integrated Information Theorist",
+            url: "https://scottaaronson.blog/?p=1799",
+            description:
+              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: integrated states must model a world beyond the system.",
+          },
+          {
+            name: "Friedman et al. (2010), Evidence for neural inertia",
+            url: "https://doi.org/10.1371/journal.pone.0011903",
+            description:
+              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. A lag of that kind is a hallmark of sharp switches, the signature Holos's threshold predicts.",
+          },
+          {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:

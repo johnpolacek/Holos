@@ -170,8 +170,9 @@ export default function Logic() {
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-black/90">D3: Observation (O)</div>
             <p className="leading-relaxed">
-              Observation is the integration of information into a single internal state. It is not
-              measurement in the laboratory sense, and it is not restricted to human cognition.
+              Observation is the integration of information about a world into a single internal
+              state. It is not measurement in the laboratory sense, and it is not restricted to
+              human cognition.
             </p>
             <p className="leading-relaxed">
               Below a certain level of integration, systems participate in physical interactions
@@ -553,6 +554,13 @@ export default function Logic() {
               force: the structure that hosts experience does the causal work, which is all Holos
               asks of it.
             </li>
+
+            <li className="leading-relaxed">
+              <strong>Aboutness:</strong> the system&apos;s integrated states must be organized as a
+              model of a world beyond the system, with channels through which that world can reach
+              it. A dreaming brain keeps both, with its input channels temporarily gated. Without
+              aboutness, integration is a closed loop with nothing to be a view of.
+            </li>
           </ol>
 
           <div className="flex flex-col gap-4 pt-2 text-black/80">
@@ -567,6 +575,28 @@ export default function Logic() {
               system to register reality: to host a genuine point of view rather than merely process
               information. Higher-order phenomena such as emotion, agency, and reasoning arise
               naturally in systems that already meet these constraints.
+            </p>
+
+            <p className="leading-relaxed">
+              <strong>Why aboutness is on the list:</strong> integration scores alone can be fooled.
+              The computer scientist{" "}
+              <a
+                href="https://scottaaronson.blog/?p=1799"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Scott Aaronson showed
+              </a>{" "}
+              that very simple structures, such as large arrays of simple logic gates wired in
+              regular patterns, can score higher on integration measures than a brain while doing
+              nothing at all: no perception, no memory of a world, no behavior. Without aboutness,
+              such an array could satisfy every other requirement, and the sufficiency claim would
+              certify it as an observer. Aboutness rules it out on principle: a point of view is
+              always a view of something, and the array&apos;s states are about nothing beyond the
+              array. The requirement is structural, not historical. A perfect copy of an observer,
+              however it came to exist, has the same channels and the same world model, so it is an
+              observer too. Where aboutness shades off, as in brain organoids grown with no sensory
+              input, Holos marks an open edge rather than a verdict.
             </p>
 
             <p className="leading-relaxed">
@@ -1350,6 +1380,23 @@ export default function Logic() {
               consciousness at an empirically discovered cutoff, without anyone measuring presence
               directly. Locating <MathInline>{"\\Phi_c"}</MathInline> is that kind of problem, not a
               metaphysical one.
+            </p>
+            <p className="leading-relaxed">
+              A cutoff that sorts patients is not yet proof of a sharp switch, since a smooth
+              quantity can be cut anywhere. What would count is the signature of a switch itself,
+              and one is already on record.{" "}
+              <a
+                href="https://doi.org/10.1371/journal.pone.0011903"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Animal studies
+              </a>{" "}
+              find that consciousness is lost and regained at different anesthetic levels: the way
+              in and the way out do not match, a lag known as neural inertia. A lag of that kind is
+              a hallmark of sharp switches rather than smooth dials. In a finite system like a
+              brain, even a genuine switch shows up as a steep transition rather than a mathematical
+              jump, so the search is for steepness and lag, not a perfect step.
             </p>
             <p className="leading-relaxed">
               <strong>Cull the measures by convergence, then try to force uniqueness.</strong> Holos

@@ -170,11 +170,16 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Whether a system crosses this threshold is a fact about how its parts are wired
-              together. It belongs to the structural layer of reality, alongside the laws of
-              physics, and is not itself indexed to any other observer. Observerhood is what
-              qualifies a system to have a perspective at all; it is not relative to one. In the
-              monist reading, crossing the threshold is where an aperture opens: the totality
-              registers itself through the system.
+              together, and integration alone is not enough: the integrated state must be about a
+              world beyond the system (see the observer requirements in{" "}
+              <a href="/logic#ontology" className="underline hover:no-underline">
+                Logic
+              </a>
+              ). It belongs to the structural layer of reality, alongside the laws of physics, and
+              is not itself indexed to any other observer. Observerhood is what qualifies a system
+              to have a perspective at all; it is not relative to one. In the monist reading,
+              crossing the threshold is where an aperture opens: the totality registers itself
+              through the system.
             </p>
 
             <p className="leading-relaxed">

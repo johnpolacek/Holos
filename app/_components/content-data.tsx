@@ -150,7 +150,8 @@ export const sections: ContentSection[] = [
         integration. When informational states become sufficiently integrated, the system no longer
         contains independent processes but a single causal structure whose state constrains itself.
         At that boundary the system cannot be described purely from the outside. It also exists from
-        the inside as a unified informational state, as a point of view.
+        the inside as a unified informational state, as a point of view. Integration must also be
+        about something: a closed loop with no world to take in has nothing to be a view of.
       </>,
       <>
         Recent experimental systems provide early examples of simplified biological networks
@@ -167,8 +168,9 @@ export const sections: ContentSection[] = [
         internal processing.
       </>,
       <>
-        Just as temperature appears when many molecular motions become statistically unified,
-        perspective appears when informational states become causally unified.
+        Water does not become gradually more solid as it cools; it freezes at a sharp point. In the
+        same way, a system does not become gradually more someone: perspective appears when its
+        informational states become causally unified.
       </>,
       <>
         Holos is a middle position. Experience does not attach to every scrap of matter, yet it
