@@ -192,7 +192,8 @@ export default function Logic() {
             </p>
             <p className="leading-relaxed">
               Consciousness is not identified with any specific material configuration. Physical
-              structure determines how experience is shaped, not whether experience exists at all.
+              structure determines where experience occurs and how it is shaped; the experience
+              itself is the inside of that structure&apos;s activity (Axiom 5).
             </p>
           </div>
 
@@ -308,15 +309,23 @@ export default function Logic() {
 
           {/* Axiom 5 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 5: Interface</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 5: Two Sides</h3>
             <p className="leading-relaxed">
-              Conscious experience arises through physical systems that integrate information. The
-              material structure of a system shapes how experience appears without being identical
-              to experience itself.
+              In a system that meets the observer requirements, experience and the system&apos;s
+              physical activity are two sides of one event: physical activity seen from outside,
+              experience lived from inside. Neither side reduces to the other, and in such a system
+              neither occurs without the other. In the monist reading, the inside is the one
+              subject, awake at that place.
             </p>
             <p className="leading-relaxed text-black/70">
-              This axiom rejects both substance dualism and strict reductionism. Experience depends
-              on structure, but it is not reducible to any single structural description.
+              This axiom rejects both substance dualism, which makes experience and activity two
+              things, and strict reductionism, which says only the outside is real. It is
+              Spinoza&apos;s picture of mind and body as two aspects of one substance, restated for
+              integrated systems. It also fixes how strong the link is: since there is one event, a
+              perfect copy of the outside is a copy of the inside in any possible world, not just
+              under our laws. And it answers the charge that experience does nothing. Experience
+              adds no force to physics; it is the inside of the physics, so whatever an
+              observer&apos;s activity causes, its experience causes too.
             </p>
           </div>
         </div>
@@ -551,8 +560,8 @@ export default function Logic() {
               <strong>Causal autonomy:</strong> the system’s current state must materially constrain
               its own future states. A system driven entirely from outside is a relay, not a unified
               whole. This is a requirement on physical structure, not a claim that experience adds a
-              force: the structure that hosts experience does the causal work, which is all Holos
-              asks of it.
+              force: the structure does the causal work, and its working, lived from inside, is the
+              experience (Axiom 5).
             </li>
 
             <li className="leading-relaxed">

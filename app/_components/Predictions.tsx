@@ -185,11 +185,12 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Two consequences follow. First, there are no dark duplicates: because crossing the
               threshold is a structural fact, any system wired as an observer necessarily is one: a
-              physically identical copy of an observer cannot lack experience. Second, the threshold
-              is sharp while its surroundings are not. Whether there is experience at all is binary;
-              how rich the experience is, is graded above the line; and locating the boundary by
-              measurement is permanently imprecise. The fuzziness of real cases lives in richness
-              and in our instruments, not in whether anyone is home.
+              physically identical copy of an observer cannot lack experience, in any possible
+              world, because experience is the inside of the same event (Axiom 5). Second, the
+              threshold is sharp while its surroundings are not. Whether there is experience at all
+              is binary; how rich the experience is, is graded above the line; and locating the
+              boundary by measurement is permanently imprecise. The fuzziness of real cases lives in
+              richness and in our instruments, not in whether anyone is home.
             </p>
           </div>
 
@@ -696,7 +697,9 @@ export default function Predictions() {
             observer and a photon produce identical physics: put an integrated system in the
             measuring role in place of a particle, and Holos predicts no deviation whatsoever.
             Superpositions lose their quantum character for thermodynamic reasons, never because
-            someone was home.
+            someone was home. This does not make experience idle. Under Holos, experience is the
+            inside of the physics, so when the physics does everything, experience is doing its
+            share, not nothing.
           </p>
 
           <p className="leading-relaxed">

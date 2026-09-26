@@ -181,10 +181,13 @@ export const sections: ContentSection[] = [
         This grounding closes a classic trap. If experience never alters physical dynamics, one
         might imagine a perfect physical duplicate of a person with no inner life: a system that
         writes essays about consciousness in total darkness. Under Holos such a duplicate is
-        impossible. Whether a system crosses the integration threshold depends only on how it is
-        built. Copy the structure exactly and you copy everything that makes it an observer,
-        experience included. Nothing built like an observer can fail to be one, which is why talk
-        about experience is grounded in experience rather than running mysteriously alongside it.
+        impossible, not just in our universe but in any. Experience and the activity of an observer
+        are not two things that happen to go together. They are one event with two sides: seen from
+        outside, it is physical activity; lived from inside, it is experience. Copy the outside
+        exactly and you have copied the inside, because there was only ever one thing. This is also
+        why experience is not along for the ride. When you say you are conscious, the activity that
+        produces the words is, from the inside, the experience you are reporting. Talk about
+        experience is caused by experience, because the experience is the inside of its cause.
       </>,
       <>
         The threshold itself is sharp, but almost everything near it is not, and Holos separates
