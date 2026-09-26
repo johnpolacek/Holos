@@ -127,13 +127,19 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Closure has two levels. <strong>Sealing</strong> is binary and branch-wide: a history
-              that contains any registration, anywhere along it, is a lived history in its entirety;
-              in the monist reading (reality as one experiencer), it is one the totality experiences
-              through. A branch or universe that never forms an aperture is structure that is never
-              lived. <strong>Witnessing</strong> is graded and local: how much of a lived history is
-              experienced in detail scales with the observers it contains. One observer seals a
-              branch; many witness it.
+              Closure has two levels. <strong>Sealing</strong> is binary and follows the causal
+              structure of spacetime: a region is lived if it lies in the causal past of at least
+              one aperture in its branch. Every aperture is built from its causal past and carries
+              that past into a lived perspective through its traces, so the lived universe is the
+              union of its apertures&apos; causal pasts; in the monist reading (reality as one
+              experiencer), it is the totality&apos;s lived history. A stretch of history shared by
+              many branches is lived wherever it lies in the causal past of an aperture in any
+              branch that grows from it. Whatever lies outside every aperture&apos;s causal past,
+              including branches that never form one and the far future after the last observer, is
+              structure that is never lived. The relation is tenseless, but it points one way: an
+              aperture seals its past, not its future. <strong>Witnessing</strong> is direct
+              experience, graded and local: how much of a lived history is experienced in detail
+              scales with the observers it contains. One observer seals its past; many witness it.
             </p>
           </div>
 

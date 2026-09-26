@@ -22,11 +22,11 @@ export const sections: ContentSection[] = [
         purpose? <em>What does it mean to be real?</em>
       </>,
       <>
-        Holos is an interpretive framework built on a single idea: a universe is not complete until
-        it is witnessed. At its core is one expression, <MathInline>R = C ⊛ O</MathInline>. Creation
-        generates physical possibilities. Observation registers them as experience. Reality is the
-        closure of the two: not equations alone, and not experience alone, but a world that both
-        exists and is lived.
+        Holos is an interpretive framework built on a single idea: a universe can be complete as
+        structure and still not be lived. At its core is one expression,{" "}
+        <MathInline>R = C ⊛ O</MathInline>. Creation generates physical possibilities. Observation
+        registers them as experience. Reality in the full sense is the closure of the two: not
+        equations alone, and not experience alone, but a world that both exists and is lived.
       </>,
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
@@ -37,12 +37,13 @@ export const sections: ContentSection[] = [
         a lived one.
       </>,
       <>
-        If Holos is correct, a single conscious moment seals an entire cosmic history as real; the
-        silence of the night sky becomes a prediction rather than a puzzle; and the oldest question
-        of why we are here receives a structural answer. What follows traces those consequences from
-        life and consciousness through spacetime, black holes, and the Teeming Dark to the limits of
-        reality itself, marking clearly which claims are established physics, which are
-        extrapolation, and what would prove the whole thing wrong.
+        If Holos is correct, a single conscious moment seals its entire causal past as lived,
+        reaching back to the universe&apos;s earliest moments; the silence of the night sky becomes
+        a prediction rather than a puzzle; and the oldest question of why we are here receives a
+        structural answer. What follows traces those consequences from life and consciousness
+        through spacetime, black holes, and the Teeming Dark to the limits of reality itself,
+        marking clearly which claims are established physics, which are extrapolation, and what
+        would prove the whole thing wrong.
       </>,
     ],
   },
@@ -52,14 +53,15 @@ export const sections: ContentSection[] = [
     footerId: "footer-life",
     paragraphs: [
       <>
-        Life exists because reality requires observation. In Holos this is grounded from the top
-        down: the totality experiences only through the apertures the universe forms, and living,
-        integrated systems are how those apertures open. This is not a claim about why the physical
-        constants happen to allow observers (the familiar anthropic argument), but a claim about
-        being itself: how a fully lawful universe becomes present as lived experience at all.
-        Physics describes how structures form and evolve, but describing something is not the same
-        as it existing. A universe of equations and spacetime histories is abstract unless something
-        can register that it exists.
+        Life is how a universe comes to be lived. In Holos this is grounded from the top down: the
+        totality experiences only through the apertures the universe forms, and living, integrated
+        systems are how those apertures open. This is not a claim about why the physical constants
+        happen to allow observers (the familiar anthropic argument), and not a claim that the
+        universe needed life. It is a claim about what life does: it is where a fully lawful
+        universe becomes present as lived experience at all. Physics describes how structures form
+        and evolve, and those structures exist whether or not anyone is there. What they lack
+        without observers is not existence but presence: there is nothing it is like to be anywhere
+        within them.
       </>,
       <>
         This idea appears in several places across science and philosophy. The{" "}
@@ -68,25 +70,28 @@ export const sections: ContentSection[] = [
         </a>{" "}
         suggests the universe is a “self-excited circuit” that requires observers to bring its laws
         into existence. Holos does not claim that observers cause the universe. It claims that
-        without them there is no reality to speak of, only structure.
+        without them the universe is real only as structure: consistent, complete, and never lived.
       </>,
       <>
         This participation is not bound by linear time. In an{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">eternalist</a> or
         block-universe view, past, present, and future all exist together as one fixed
         four-dimensional structure, no moment more “now” than any other. Observation does not
-        “happen later” in a causal sense. Instead, the observers a universe produces are what make
-        all moments real as experience. In that sense, the early universe is real through the
-        consciousness that arises within it: not made real at some later moment, but real
-        tenselessly, because the history it belongs to contains registration. Holos distinguishes
-        two levels here. Closure is binary and applies to a whole history at once (a branch, in
-        quantum terms: one complete way the universe can go). A history that contains any
-        registration, anywhere along it, is a lived history in its entirety. A single aperture seals
-        its whole branch, from beginning to end. Branches that never form an aperture remain unlit
-        structure, real as pattern but never lived. Witnessing is graded and local: how much of a
-        lived history is experienced in detail scales with the observers it contains. Our branch is
-        not merely sealed; it is densely witnessed. The loop between creation and observation is a
-        relation of dependence, not a process.
+        “happen later” in a causal sense. Instead, observers seal their past. Every aperture is
+        built from its causal past, everything that could ever have influenced it, and carries that
+        past into a lived perspective through its traces: starlight, the cosmic microwave
+        background, the fossil record. In that sense, the early universe is lived through the
+        consciousness that arises within it: not made lived at some later moment, but lived
+        tenselessly, because it lies in the causal past of observers. Holos distinguishes two levels
+        here. Sealing is binary and follows the structure of spacetime: a region is lived if it lies
+        in the causal past of at least one aperture in its branch (a branch, in quantum terms, is
+        one complete way the universe can go). The lived universe is the union of those causal
+        pasts. Whatever lies outside all of them remains unlit structure, real as pattern but never
+        lived: branches that never form an aperture, regions beyond every observer&apos;s horizon,
+        and the far future after the last observer. Witnessing is direct experience, graded and
+        local: how much of a lived history is experienced in detail scales with the observers it
+        contains. Our past is not merely sealed; it is densely witnessed. The loop between creation
+        and observation is a relation of dependence, not a process.
       </>,
     ],
   },
@@ -232,7 +237,7 @@ export const sections: ContentSection[] = [
         From this perspective, the Big Bang is not a moment of absolute creation, but a boundary
         within spacetime itself. If all histories already exist geometrically, then the role of
         observation becomes sharper. Physics supplies the full structure, but not an explanation for
-        why it is registered as reality.
+        why any of it is lived.
       </>,
       <>
         If spacetime is a complete geometric object, what is its structure?
@@ -662,10 +667,10 @@ export const sections: ContentSection[] = [
       <>
         In Holos, life exists because observation allows reality to close on itself. Conscious
         systems do not merely occupy the universe. They are the apertures through which the totality
-        experiences itself: the means by which physical possibility becomes reality-as-experienced,
-        as opposed to reality-as-equations. When a system reaches sufficient integration, expressed
-        as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>, interaction is no longer just one
-        thing acting on another. It becomes a point of view.
+        experiences itself: the means by which physical possibility becomes reality as lived, as
+        opposed to reality as structure alone. When a system reaches sufficient integration,
+        expressed as <a href="/logic#4-ontological-thresholds">Φ ≥ Φ_c</a>, interaction is no longer
+        just one thing acting on another. It becomes a point of view.
         <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
     ],
@@ -688,8 +693,8 @@ export const sections: ContentSection[] = [
       </>,
       <>
         The ⊛ operator is <strong>structural, not dynamical</strong>. It specifies a closure
-        condition: how possibility becomes reality only when physical structure is taken up into
-        experience. It describes how reality is completed, not how it moves.
+        condition: how possibility becomes lived reality only when physical structure is taken up
+        into experience. It describes how reality is completed, not how it moves.
       </>,
       <>
         Formally, ⊛ is defined as composition: <em>C ⊛ O</em> names the two-step operation of

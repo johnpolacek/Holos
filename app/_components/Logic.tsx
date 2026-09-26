@@ -32,7 +32,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Closure through observation:</strong> a universe can be physically consistent
-              without being present. Presence requires internal registration by an observer.
+              without being present. Presence requires internal registration by an observer, and it
+              reaches as far as that observer&apos;s causal past.
             </li>
 
             <li className="leading-relaxed">
@@ -95,8 +96,11 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) is the result of coupling
-              lawful possibility with lived registration. In Holos, what is real is what is both
-              consistent and experienced.
+              lawful possibility with lived registration. Holos uses &quot;real&quot; at two
+              strengths: structure is real whether or not it is lived, and{" "}
+              <MathInline>{"R"}</MathInline> names reality in the full sense, structure that is also
+              lived. Throughout, &quot;unlit&quot; marks the first and &quot;lived&quot; the second.
+              A region is lived when it lies in the causal past of an observer.
             </li>
 
             <li className="leading-relaxed">
@@ -1182,10 +1186,11 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              Branches or universes that never form an aperture are genuine limits on the
-              totality&apos;s experiential reach: unlit structure, real as pattern and never lived.
-              Holos does not soften this into a faint universal experience; doing so would erase the
-              distinction between lit and unlit on which the rest of the framework depends.
+              Whatever lies outside the causal past of every aperture, whole unlit branches among
+              it, marks a genuine limit on the totality&apos;s experiential reach: unlit structure,
+              real as pattern and never lived. Holos does not soften this into a faint universal
+              experience; doing so would erase the distinction between lit and unlit on which the
+              rest of the framework depends.
             </p>
           </div>
 

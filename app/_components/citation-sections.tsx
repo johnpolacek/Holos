@@ -57,7 +57,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Structural realism",
             url: "https://en.wikipedia.org/wiki/Structural_realism",
             description:
-              "The view that science describes relationships between things, not what they are in themselves; Holos extends this by giving observation a role in making things real.",
+              "The view that science describes relationships between things, not what they are in themselves; Holos extends this by giving observation a role in making structure lived.",
           },
           {
             name: "Block universe",
@@ -672,7 +672,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "QBism",
             url: "https://en.wikipedia.org/wiki/Quantum_Bayesianism",
             description:
-              "Quantum Bayesianism: quantum probabilities are agent-centered beliefs; Holos is ontological (what becomes real) rather than epistemic (what agents believe).",
+              "Quantum Bayesianism: quantum probabilities are agent-centered beliefs; Holos is ontological (what is lived) rather than epistemic (what agents believe).",
           },
           {
             name: "Copenhagen interpretation",
