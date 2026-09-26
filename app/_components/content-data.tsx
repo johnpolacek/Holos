@@ -585,8 +585,10 @@ export const sections: ContentSection[] = [
         Holos does not alter established physics. Every equation, history and structure remain as
         physics describes. What it changes is the direction of explanation: rather than building up
         from finite observers to a limiting whole, Holos begins with the whole and understands each
-        act of observation as the whole registering itself locally. Experience anywhere is evidence
-        of the totality everywhere.
+        act of observation as the whole registering itself locally. The payoff is that no subject
+        ever appears from nothing: when a system crosses the threshold, no new experiencer comes
+        into being. The one experiencer wakes there, the way waking in the morning does not create a
+        new person.
       </>,
       <>
         For any finite system, the Omega Point remains an{" "}
@@ -606,9 +608,9 @@ export const sections: ContentSection[] = [
         The Omega Point is not an external agent. It does not intervene in events, answer petitions,
         or direct history from outside; there is no outside for it to stand in. It is the whole
         itself. Physics does not cause the Omega Point; physics describes the internal structure of
-        it. Consistency among observers is enforced locally (observers who compare records agree),
-        and in the monist reading this is grounded rather than stipulated: apertures of one totality
-        cannot disagree where they meet.
+        it. Consistency among observers is enforced locally: observers who compare records agree,
+        because the same physical signals reach them both. Physics secures that agreement on its
+        own; the monist reading claims no extra role in it.
       </>,
       <>
         Historically, this is well-trodden ground.{" "}
@@ -635,9 +637,11 @@ export const sections: ContentSection[] = [
         takes a position: the totality is not merely a structural limit but the one experiencer, and
         the direction of dependence runs from the whole to its parts. A purely structural reading,
         in which Omega is only a mathematical horizon and observers are self-standing, remains
-        available as a weaker interpretation, but it is not the view of this framework. What Holos
-        leaves open is vocabulary, not structure: whether the totality is named God, Brahman, or
-        simply the whole changes nothing about the claim being made.
+        available as a weaker interpretation, but it is not the view of this framework. It is weaker
+        because each observer&apos;s subject must then appear from nothing when a system crosses the
+        threshold, and no one can say how. What Holos leaves open is vocabulary, not structure:
+        whether the totality is named God, Brahman, or simply the whole changes nothing about the
+        claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],

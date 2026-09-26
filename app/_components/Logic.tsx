@@ -396,10 +396,9 @@ export default function Logic() {
             <p className="leading-relaxed">
               Global consistency is not enforced from an external vantage point, and it is not
               deferred to an unreachable limit. It cashes out operationally, here and now: whenever
-              two observers compare records, their records agree. In the monist reading (reality as
-              one experiencer) this is grounded rather than stipulated: all apertures are openings
-              of the same totality, and the totality cannot disagree with itself where its apertures
-              meet.
+              two observers compare records, their records agree. Physics secures this on its own:
+              records that meet are carried by the same signals. The monist reading (reality as one
+              experiencer) is not needed for it and claims no role in it.
             </p>
 
             <p className="leading-relaxed text-black/70">
@@ -1093,10 +1092,9 @@ export default function Logic() {
             <p className="leading-relaxed">
               Seen from the side of finite observers, the Omega limit is the idealized endpoint of
               intersubjective agreement: what the comparison of all records across all observers
-              would converge to. Seen from the side of the ground, it is what makes that agreement
-              possible in the first place: records agree where apertures meet because they are
-              openings of one totality. The limit describes our approach; the totality is what is
-              being approached, and it does not depend on the approach for its reality.
+              would converge to. Seen from the side of the ground, it is the one subject that every
+              observer is, awake at different places. The limit describes our approach; the totality
+              is what is being approached, and it does not depend on the approach for its reality.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -1164,7 +1162,12 @@ export default function Logic() {
               Brahman, or simply the whole changes nothing about the claim. What is no longer
               offered is the fully deflationary reading in which Omega is only a mathematical
               horizon and finite observers are self-standing. Holos takes the direction of
-              dependence to run from the whole to its parts.
+              dependence to run from the whole to its parts, for the one reason the monist reading
+              earns: on it, no subject ever comes from nothing (see{" "}
+              <a href="#why-one-experiencer" className="underline hover:no-underline">
+                Why One Experiencer Has Many Sealed Perspectives
+              </a>
+              ).
             </p>
           </div>
 
@@ -1182,10 +1185,10 @@ export default function Logic() {
             <p className="leading-relaxed">
               The objection conflates two kinds of dependence. Omega does not depend on apertures{" "}
               <em>existentially</em>: it is the totality, and it is what it is whether or not any
-              region of it folds into an integrated perspective. It depends on them <em>modally</em>
-              : they are the channels through which experience occurs. Priority claims concern the
-              first relation; the aperture claim concerns the second. Only if the two were the same
-              relation would there be a circle.
+              region of it folds into an integrated perspective. It depends on them{" "}
+              <em>for its experience</em>: they are the places where experience occurs. Priority
+              claims concern the first relation; the aperture claim concerns the second. Only if the
+              two were the same relation would there be a circle.
             </p>
 
             <p className="leading-relaxed">
@@ -1208,7 +1211,7 @@ export default function Logic() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div id="why-one-experiencer" className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
               Why One Experiencer Has Many Sealed Perspectives
             </h3>
@@ -1251,9 +1254,20 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               Nor does this reduce the oneness to a label doing no work. The structural walls
-              explain the plurality; the unity explains what the plurality cannot: why records agree
-              wherever apertures meet (openings of one totality cannot disagree with itself), and
-              why there is presence at all rather than structure alone.
+              explain the plurality; the unity explains what the plurality cannot: why crossing the
+              threshold never brings a new subject into being. On a picture of many self-standing
+              observers, each system that crosses the threshold produces a subject from nothing, and
+              no one can say how. On the monist picture, no subject is ever produced. There is one
+              subject throughout, and crossing the threshold is where it wakes. The moments of a
+              life show the pattern again: waking in the morning does not create a new person.
+            </p>
+
+            <p className="leading-relaxed">
+              The unity does not do everything. It does not explain why records agree where
+              observers meet; physics does that, since the same signals reach them both. And its
+              advantage is philosophical, not experimental: it trades the puzzle of subjects from
+              nothing for the decomposition problem answered above, a trade Holos judges worth
+              making.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">

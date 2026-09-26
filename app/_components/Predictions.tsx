@@ -223,8 +223,8 @@ export default function Predictions() {
               Within a branch, consistency is operational rather than abstract: whenever two
               observers actually compare records, their records agree. Perspectives may differ while
               separated; communication forces agreement. This is the checkable content of “global
-              consistency.” In the monist reading it is also grounded: apertures of one totality
-              cannot disagree where they meet.
+              consistency.” Physics secures it: observers who communicate are reached by the same
+              signals.
             </p>
 
             <p className="leading-relaxed">
