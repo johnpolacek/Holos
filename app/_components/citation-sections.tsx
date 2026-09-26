@@ -441,7 +441,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ehrenfest argument",
             url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
             description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Matter would spiral into nuclei/stars or fly apart. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (Axiom 4).",
+              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Matter would spiral into nuclei/stars or fly apart. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (the Structural Constraint principle).",
           },
           {
             name: "Ephemeralization",
@@ -906,7 +906,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ehrenfest argument",
             url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
             description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (Axiom 4).",
+              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (the Structural Constraint principle).",
           },
         ],
       },

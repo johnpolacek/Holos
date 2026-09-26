@@ -18,65 +18,31 @@ export default function Logic() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Holos starts from a small set of commitments. Everything else in the framework is an
-            attempt to spell them out. Two commitments are genuine additions to the physical
-            picture: the integration threshold, and the totality. Neither is a new dynamical law,
-            but both are new structural claims.
-          </p>
-
-          <ul className="flex flex-col gap-3 pl-6 list-disc">
-            <li className="leading-relaxed">
-              <strong>Relational structure:</strong> information exists only as differences and
-              constraints between states, not as isolated things.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Closure through observation:</strong> a universe can be physically consistent
-              without being present. Presence requires internal registration by an observer, and it
-              reaches as far as that observer&apos;s causal past.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Conservation:</strong> information is not erased. It is transformed,
-              redistributed, or re-encoded.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Integration threshold:</strong> distributed processing can scale without
-              experience. Experience appears only when information about a world is integrated into
-              a single internal perspective.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>The totality:</strong> the whole of reality, Omega, is fundamental and is the
-              one experiencer. Every finite observer is a local aperture of it: an opening through
-              which the whole experiences.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Infinity as a signal:</strong> when a description produces infinities, Holos
-              treats that as a sign that the representation has broken down at that scale, not as a
-              literal feature to accept at face value.
-            </li>
-          </ul>
-
-          <p className="leading-relaxed">
-            <strong>How the commitments fit together.</strong> Only two items above are additions to
-            physics: the integration threshold and the totality. The rest are interpretive
-            commitments about how to read the physics we already have. Around them, Holos also takes
-            sides and leaves questions open, and it says which is which:
+            Holos starts from five{" "}
+            <a href="#logic-axioms" className="underline hover:no-underline">
+              axioms
+            </a>
+            . Two of them are genuine additions to the physical picture: the integration threshold,
+            and the totality. Neither is a new dynamical law, but both are new structural claims.
+            Around the axioms, Holos also takes sides, sets a method, leaves questions open, and
+            keeps some ideas as companions rather than core. It says which is which:
           </p>
 
           <ul className="flex flex-col gap-2 pl-6 list-disc">
             <li className="leading-relaxed">
               <strong>Additions to physics:</strong> the threshold{" "}
-              <MathInline>{"\\Phi_c"}</MathInline>, where apertures open; and Omega, the one
-              experiencer.
+              <MathInline>{"\\Phi_c"}</MathInline>, where apertures open (Axiom 3); and Omega, the
+              one experiencer (Axiom 5).
             </li>
             <li className="leading-relaxed">
-              <strong>Sides taken:</strong> branching quantum mechanics with no collapse; Born
-              weights as self-locating odds; lit regions as the causal pasts of observers, with
-              experience lived only inside them; experience and activity as two sides of one event.
+              <strong>Sides taken:</strong> relational structure (Axiom 1); branching quantum
+              mechanics with no collapse (Axiom 2); experience and activity as two sides of one
+              event (Axiom 4); Born weights as self-locating odds; lit regions as the causal pasts
+              of observers, with experience lived only inside them (D7).
+            </li>
+            <li className="leading-relaxed">
+              <strong>Method:</strong> infinities signal a broken description, not a feature of
+              reality (Proposition IV).
             </li>
             <li className="leading-relaxed">
               <strong>Observer requirements:</strong> six structural conditions, with a provisional
@@ -87,8 +53,8 @@ export default function Logic() {
               threshold, and the boundaries between observers.
             </li>
             <li className="leading-relaxed">
-              <strong>Companion ideas, not core:</strong> the Integration Hypothesis and the Teeming
-              Dark. If they fail, the core stands.
+              <strong>Companion ideas, not core:</strong> the Structural Constraint principle, the
+              Integration Hypothesis, and the Teeming Dark. If they fail, the core stands.
             </li>
           </ul>
         </div>
@@ -228,7 +194,7 @@ export default function Logic() {
             <p className="leading-relaxed">
               Consciousness is not identified with any specific material configuration. Physical
               structure determines where experience occurs and how it is shaped; the experience
-              itself is the inside of that structure&apos;s activity (Axiom 5).
+              itself is the inside of that structure&apos;s activity (Axiom 4).
             </p>
           </div>
 
@@ -272,6 +238,22 @@ export default function Logic() {
               merely described.
             </p>
           </div>
+
+          {/* D7 */}
+          <div className="flex flex-col gap-2">
+            <div className="font-semibold text-black/90">D7: Lived, lit, and unlit</div>
+            <p className="leading-relaxed">
+              <strong>Lived</strong> is where experience occurs: inside observers, and nowhere else.{" "}
+              <strong>Lit</strong> is the causal past of at least one observer in its branch: the
+              world its experience is made from and about. <strong>Unlit</strong> is structure
+              outside every observer&apos;s causal past. <strong>Witnessing</strong> is graded: how
+              much of the lit region an observer&apos;s experience is actually about.
+            </p>
+            <p className="leading-relaxed">
+              These are classifications, not causes. Observation does not cause physical events;
+              without observers there is structure, but nothing lived and nothing lit.
+            </p>
+          </div>
         </div>
       </section>
       {/* Axioms */}
@@ -285,6 +267,13 @@ export default function Logic() {
         </h2>
 
         <div className="flex flex-col gap-8 text-black/80">
+          <p className="leading-relaxed">
+            These five axioms are the core of Holos. Axioms 3 and 5 are its two additions to
+            physics. Axioms 1, 2, and 4 are the sides it takes in reading the physics we already
+            have. Everything else on this page is a definition, follows from these axioms, or is
+            marked as open or as a companion idea.
+          </p>
+
           {/* Axiom 1 */}
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 1: Relationality</h3>
@@ -295,71 +284,60 @@ export default function Logic() {
             <p className="leading-relaxed text-black/70">
               This axiom rules out intrinsic, context-free properties as the foundation of physical
               structure. What physics describes is relational structure. Experience is not a further
-              item in that structure but its inside where an observer exists (Axiom 5), so the axiom
+              item in that structure but its inside where an observer exists (Axiom 4), so the axiom
               does not reach it.
             </p>
           </div>
 
           {/* Axiom 2 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 2: Manifestation</h3>
-            <p className="leading-relaxed">
-              A purely physical description fixes everything that happens but states it only from
-              outside. Where information is integrated into experience by a system capable of
-              observation, there is also an inside, and the physical vocabulary has no way to say
-              so.
-            </p>
-            <p className="leading-relaxed text-black/70">
-              The gap is in the description, not in the world. A floor plan records every wall of a
-              house and still cannot say what living there is like; build the house exactly from the
-              plan, and it is livable all the same. Nothing exists beyond what physics fixes, and a
-              perfect physical copy has the same inside (Axiom 5). This does not mean observation
-              causes physical events. It means that without observation, there is structure but no
-              presence.
-            </p>
-          </div>
-
-          {/* Axiom 3 */}
-          <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 3: Conservation</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 2: Conservation</h3>
             <p className="leading-relaxed">
               Information is conserved. It may be transformed, redistributed, or re-encoded, but it
               is not destroyed.
             </p>
             <p className="leading-relaxed text-black/70">
-              This applies equally to physical processes and to experiential structure. Holos does
-              not require the elimination of unobserved possibilities.
+              On the physics, this is unitary quantum evolution with no collapse: every possibility
+              remains, each in its own branch. Observation selects nothing and erases nothing (see{" "}
+              <a href="#relationship-to-physics" className="underline hover:no-underline">
+                Relationship to Physics
+              </a>
+              ).
+            </p>
+          </div>
+
+          {/* Axiom 3 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 3: Threshold</h3>
+            <p className="leading-relaxed">
+              A system hosts a point of view when, and only when, it meets the observer
+              requirements: its integration <MathInline>{"\\Phi"}</MathInline> reaches a threshold{" "}
+              <MathInline>{"\\Phi_c"}</MathInline> at a local maximum, in states that are about a
+              world. Below the threshold there is no experience at all.
+            </p>
+            <p className="leading-relaxed text-black/70">
+              This is the first of Holos&apos;s two additions to physics. It is not a force, a
+              field, or a change to any equation, but a structural fact about where observers occur.
+              The requirements are listed under{" "}
+              <a href="#ontology" className="underline hover:no-underline">
+                Φ and Ontological Requirements
+              </a>
+              ; the measure and the value of the threshold are{" "}
+              <a href="#open-problems" className="underline hover:no-underline">
+                open problems
+              </a>
+              .
             </p>
           </div>
 
           {/* Axiom 4 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 4: Structural Constraint</h3>
-            <p className="leading-relaxed">
-              Finite signal speed and finite energy impose limits on how coherence can scale within
-              three-dimensional space. As systems grow, coordination across distance becomes
-              increasingly costly and fragile.
-            </p>
-            <p className="leading-relaxed">
-              These constraints do not forbid large integrated systems, but they shape their
-              architecture. Stable systems tend to minimize global synchronization and rely on
-              locally enforced structure.
-            </p>
-            <p className="leading-relaxed text-black/70">
-              Higher-dimensional descriptions may be useful for modeling such organization. This is
-              a representational choice, not a claim about extra spatial directions.
-            </p>
-          </div>
-
-          {/* Axiom 5 */}
-          <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 5: Two Sides</h3>
+            <h3 className="text-xl font-semibold text-black/90">Axiom 4: Two Sides</h3>
             <p className="leading-relaxed">
               In a system that meets the observer requirements, experience and the system&apos;s
               physical activity are two sides of one event: physical activity seen from outside,
               experience lived from inside. Neither side reduces to the other, and in such a system
-              neither occurs without the other. In the monist reading, the inside is the one
-              subject, awake at that place.
+              neither occurs without the other.
             </p>
             <p className="leading-relaxed text-black/70">
               This axiom rejects both substance dualism, which makes experience and activity two
@@ -367,11 +345,42 @@ export default function Logic() {
               Spinoza&apos;s picture of mind and body as two aspects of one substance, restated for
               integrated systems. It also fixes how strong the link is: since there is one event, a
               perfect copy of the outside is a copy of the inside in any possible world, not just
-              under our laws. This is why the gap named in Axiom 2 is a gap in description only:
-              physics misses no fact, only the inside view of some of them. And it answers the
-              charge that experience does nothing. Experience adds no force to physics; it is the
-              inside of the physics, so whatever an observer&apos;s activity causes, its experience
-              causes too.
+              under our laws. And it answers the charge that experience does nothing. Experience
+              adds no force to physics; it is the inside of the physics, so whatever an
+              observer&apos;s activity causes, its experience causes too.
+            </p>
+            <p className="leading-relaxed text-black/70">
+              It also says exactly what physics leaves out. A purely physical description fixes
+              everything that happens but states it only from outside, and its vocabulary has no way
+              to say that any of it is lived. The gap is in the description, not in the world. A
+              floor plan records every wall of a house and still cannot say what living there is
+              like; build the house exactly from the plan, and it is livable all the same.
+            </p>
+          </div>
+
+          {/* Axiom 5 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 5: Totality</h3>
+            <p className="leading-relaxed">
+              The whole of reality, Omega, is the one experiencer. Every observer is a local
+              aperture of it: where a system crosses the threshold, the one subject wakes. No new
+              subject comes into being.
+            </p>
+            <p className="leading-relaxed text-black/70">
+              This is the second of Holos&apos;s two additions to physics, and its job is unity:
+              every observer is the same subject, walled off from the others by structure. It does
+              not explain where waking happens; Axiom 3 does that. Its payoff is economy, one
+              subject in place of billions arising without explanation, and it is philosophical, not
+              experimental. Omega is not an agent, does not intervene, and does not pool its
+              experiences into one grand experience (see{" "}
+              <a href="#extrapolative-proposition" className="underline hover:no-underline">
+                The Omega Limit
+              </a>{" "}
+              and{" "}
+              <a href="#why-one-experiencer" className="underline hover:no-underline">
+                Why One Experiencer Has Many Walled-Off Perspectives
+              </a>
+              ).
             </p>
           </div>
         </div>
@@ -391,6 +400,8 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">
               Proposition I: Structural Relational Realism
             </h3>
+
+            <p className="text-sm text-black/60">Follows from Axiom 1.</p>
 
             <p className="leading-relaxed">
               Reality is made of relationships between things, not of objects possessing
@@ -415,6 +426,10 @@ export default function Logic() {
               Proposition II: Participatory Manifestation
             </h3>
 
+            <p className="text-sm text-black/60">
+              Follows from Axioms 3 and 4, with the definitions in D7.
+            </p>
+
             <p className="leading-relaxed">
               Observation is not passive recording. It is the process by which informational
               structure becomes experientially present.
@@ -437,6 +452,8 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">
               Proposition III: Global Consistency
             </h3>
+
+            <p className="text-sm text-black/60">Follows from Axiom 2 and relativity.</p>
 
             <p className="leading-relaxed">
               If spacetime is treated as a complete four-dimensional structure, consistency is a
@@ -469,6 +486,10 @@ export default function Logic() {
               Proposition IV: Dimensional Resolution
             </h3>
 
+            <p className="text-sm text-black/60">
+              A principle of method, not derived from the axioms: how Holos reads infinities.
+            </p>
+
             <p className="leading-relaxed">
               Infinities and singularities arise when a representation fails to preserve relational
               structure across scales.
@@ -490,6 +511,10 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">
               Proposition V: Observers as a Closure Condition
             </h3>
+
+            <p className="text-sm text-black/60">
+              Follows from Axioms 3 and 4, with the definitions in D7.
+            </p>
 
             <p className="leading-relaxed">
               A universe that is real as lived experience must contain observers somewhere within
@@ -607,7 +632,7 @@ export default function Logic() {
               its own future states. A system driven entirely from outside is a relay, not a unified
               whole. This is a requirement on physical structure, not a claim that experience adds a
               force: the structure does the causal work, and its working, lived from inside, is the
-              experience (Axiom 5).
+              experience (Axiom 4).
             </li>
 
             <li className="leading-relaxed">
@@ -1049,7 +1074,7 @@ export default function Logic() {
             <p className="leading-relaxed">
               The result is an indexed family, not a single selected outcome: one experienced
               history per registering perspective, per branch. Observation selects nothing and
-              erases nothing (Axiom 3). Registration occurs everywhere an aperture exists. The Born
+              erases nothing (Axiom 2). Registration occurs everywhere an aperture exists. The Born
               weights carried by <MathInline>{"C"}</MathInline> remain structural throughout: they
               fix the statistics each registration records, not how much experience it holds.
             </p>
@@ -1160,6 +1185,25 @@ export default function Logic() {
         </p>
 
         <div className="flex flex-col gap-8 text-black/80">
+          <div id="structural-constraint" className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Companion Principle: Structural Constraint
+            </h3>
+            <p className="leading-relaxed">
+              Finite signal speed and finite energy impose limits on how coherence can scale within
+              three-dimensional space. As systems grow, coordination across distance becomes
+              increasingly costly and fragile. These constraints do not forbid large integrated
+              systems, but they shape their architecture: stable systems tend to minimize global
+              synchronization and rely on locally enforced structure.
+            </p>
+            <p className="leading-relaxed text-black/70">
+              This is ordinary physics, not a Holos axiom. It underwrites the companion ideas, the
+              Integration Hypothesis and the Teeming Dark, rather than the core. Higher-dimensional
+              descriptions may be useful for modeling such organization; that is a representational
+              choice, not a claim about extra spatial directions.
+            </p>
+          </div>
+
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">Recursive Closure as a Limit</h3>
 
@@ -1589,6 +1633,11 @@ export default function Logic() {
             <li className="leading-relaxed">
               <strong>Sealing a whole branch from beginning to end.</strong> Replaced by an
               observer&apos;s causal past, which gives the claim experiential content.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Axioms that left out the two additions.</strong> Rebuilt: the threshold and
+              the totality are now Axioms 3 and 5; Manifestation became the definitions of lived,
+              lit, and unlit; Structural Constraint became a companion principle.
             </li>
             <li className="leading-relaxed">
               <strong>The whole causal past as &quot;lived&quot;.</strong> Split: lived is where

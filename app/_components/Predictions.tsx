@@ -90,6 +90,14 @@ export default function Predictions() {
               1. Presence depends on observers
             </h3>
 
+            <p className="text-sm text-black/60">
+              From Axioms 3 and 4, with the definitions in D7. See{" "}
+              <a href="/logic#logic-axioms" className="underline hover:no-underline">
+                Axioms
+              </a>
+              .
+            </p>
+
             <p className="leading-relaxed">
               A physical description can be complete and still fail to explain why there is anything
               it is like to be inside the system it describes. The gap is not a missing fact: a
@@ -151,6 +159,14 @@ export default function Predictions() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">2. Observerhood is thresholded</h3>
 
+            <p className="text-sm text-black/60">
+              From Axiom 3. See{" "}
+              <a href="/logic#logic-axioms" className="underline hover:no-underline">
+                Axioms
+              </a>
+              .
+            </p>
+
             <p className="leading-relaxed">
               Holos rejects the idea that experience increases smoothly with greater amounts of
               computation. Distributed processing can scale indefinitely without producing a single
@@ -190,7 +206,7 @@ export default function Predictions() {
               Two consequences follow. First, there are no dark duplicates: because crossing the
               threshold is a structural fact, any system wired as an observer necessarily is one: a
               physically identical copy of an observer cannot lack experience, in any possible
-              world, because experience is the inside of the same event (Axiom 5). Second, the
+              world, because experience is the inside of the same event (Axiom 4). Second, the
               threshold is sharp while its surroundings are not. Whether there is experience at all
               is binary; how rich the experience is, is graded above the line; and locating the
               boundary by measurement is permanently imprecise. The fuzziness of real cases lives in
@@ -203,6 +219,14 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold text-black/90">
               3. Facts are relational but consistent
             </h3>
+
+            <p className="text-sm text-black/60">
+              From Axioms 1 and 2. See{" "}
+              <a href="/logic#logic-axioms" className="underline hover:no-underline">
+                Axioms
+              </a>
+              .
+            </p>
 
             <p className="leading-relaxed">
               Holos distinguishes two kinds of facts. <strong>Structural facts</strong> describe
@@ -222,7 +246,7 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               This does not imply contradiction, and Holos is specific about why. No possibility is
-              erased (Axiom 3), so observers never collide over a single shared outcome. Where
+              erased (Axiom 2), so observers never collide over a single shared outcome. Where
               registrations would be incompatible, they belong to different branches of the
               possibility structure, each internally consistent. There is no rule that the first
               observer fixes the truth for everyone; relativity permits no such “first,” and none is
