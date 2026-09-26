@@ -9,10 +9,10 @@ export default function AxiomDiagram({ axiom, isPDF = false }: AxiomDiagramProps
   if (isPDF) {
     const descriptions: Record<string, string> = {
       relationality: "Reality is relationships, not isolated objects.",
-      manifestation: "Observation realizes the spacetime structure.",
+      manifestation: "Observation makes the spacetime structure lived.",
       conservation: "Information is conserved across all transformations.",
-      unification: "Infinities resolve into finite structures in higher dimensions.",
-      interface: "Consciousness is the universe experiencing its own information.",
+      unification: "Infinities resolve into finite structures in higher-dimensional descriptions.",
+      interface: "Experience and activity are two sides of one event.",
     };
     return (
       <div
@@ -546,7 +546,7 @@ export default function AxiomDiagram({ axiom, isPDF = false }: AxiomDiagramProps
           fontSize="8"
           fontFamily="sans-serif"
         >
-          consciousness bridges all
+          two sides of one event
         </text>
 
         <defs>
@@ -560,10 +560,10 @@ export default function AxiomDiagram({ axiom, isPDF = false }: AxiomDiagramProps
 
   const labels: Record<string, string> = {
     relationality: "Reality is defined by relationships, not isolated objects",
-    manifestation: "Observation realizes structure from possibility",
+    manifestation: "Observation makes structure lived",
     conservation: "Information is conserved through all transformations",
-    unification: "Infinities resolve to finite in higher dimensions",
-    interface: "Consciousness is the interface between information and experience",
+    unification: "Infinities resolve to finite in higher-dimensional descriptions",
+    interface: "Experience is the inside of an observer's physical activity",
   };
 
   return (

@@ -316,7 +316,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
             This warping fuses separate dimensions into a unified 4D Block
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic", marginTop: "1em" }}>
-            Invariance of c necessitates the Block Universe
+            Invariance of c motivates the Block Universe
           </p>
         </div>
       </div>
@@ -328,7 +328,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation demonstrating how the invariance of the speed of light causes space and time to warp, necessitating the Block Universe model"
+      aria-label="Animation demonstrating how the invariance of the speed of light causes space and time to warp, motivating the Block Universe model"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
@@ -338,7 +338,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
         constant speed. As Observer B approaches the speed of light, the grid lines of space
         (horizontal) and time (vertical) warp and stretch. This warping causes the separate grid
         lines to fuse into a single, tilted 4D Block structure where past, present, and future are
-        visually integrated. The invariance of c (speed of light) necessitates the Block Universe.
+        visually integrated. The invariance of c (speed of light) motivates the Block Universe.
       </figcaption>
       <svg
         ref={svgRef}
@@ -766,7 +766,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
           fontStyle="italic"
           opacity="0"
         >
-          Invariance of c necessitates the Block Universe
+          Invariance of c motivates the Block Universe
         </text>
 
         {/* Axis labels */}

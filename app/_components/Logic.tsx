@@ -43,8 +43,8 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Integration threshold:</strong> distributed processing can scale without
-              experience. Experience appears only when information is integrated into a single
-              internal perspective.
+              experience. Experience appears only when information about a world is integrated into
+              a single internal perspective.
             </li>
 
             <li className="leading-relaxed">

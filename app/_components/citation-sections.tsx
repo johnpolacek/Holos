@@ -69,7 +69,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Recursion",
             url: "https://en.wikipedia.org/wiki/Recursion",
             description:
-              "R = C ⊛ O describes a recursive loop: creation generates possibilities, observation selects and actualizes, and the result feeds the next cycle.",
+              "R = C ⊛ O describes a recursive loop: creation generates possibilities, observation registers them from within without selecting or erasing any, and each registered history feeds the next cycle.",
           },
         ],
       },

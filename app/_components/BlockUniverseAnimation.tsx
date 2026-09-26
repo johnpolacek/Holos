@@ -117,7 +117,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         "observe+=0.3"
       );
 
-    // Phase 3: The whole block is realized at once. No wave, no direction, no
+    // Phase 3: The observer's causal past is sealed at once. No wave, no direction, no
     // propagation — the ghost/solid contrast compares two descriptions of the
     // same tenseless block (structure alone vs. structure closed by
     // observation), so the crossfade must be simultaneous everywhere.
@@ -239,15 +239,13 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "1em" }}>
-          <em style={{ fontSize: "1.1em" }}>Global Closure in the Block Universe</em>
+          <em style={{ fontSize: "1.1em" }}>Sealing in the Block Universe</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>[ t₀ (Big Bang) ····· Φ (observer) ····· t_now ]</p>
-          <p style={{ margin: "0.5em 0" }}>
-            A block that contains an observer is realized as a whole.
-          </p>
+          <p style={{ margin: "0.5em 0" }}>An observer seals its causal past as lived.</p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            Realization is a tenseless constraint, not a process in time.
+            Sealing is tenseless, not a process in time.
           </p>
         </div>
       </div>
@@ -259,17 +257,18 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation comparing a block universe described as structure alone with the same block realized as a whole because it contains an observer"
+      aria-label="Animation comparing a block universe described as structure alone with the same history lived because it lies in the causal past of an observer"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        Global Closure in the Block Universe: In an eternalist view, the spacetime block contains
-        all moments tenselessly. The animation first shows the block in a faint, dashed style, then
-        shows the same block in solid form once the observer (Φ) it contains is highlighted. The
-        crossfade is simultaneous across the whole block: nothing travels backward and nothing
-        changes within the block. The two styles compare two descriptions of the same tenseless
-        structure: physical structure alone, and structure realized as experienced history because
-        it contains registration. Realization is a global constraint, not a process in time.
+        Sealing in the Block Universe: In an eternalist view, the spacetime block contains all
+        moments tenselessly. The animation first shows the history in a faint, dashed style, then
+        shows it in solid form once the observer (Φ) is highlighted. Everything that turns solid
+        lies in the observer&apos;s causal past; the stretch after the observer stays empty. The
+        crossfade is simultaneous: nothing travels backward and nothing changes within the block.
+        The two styles compare two descriptions of the same tenseless structure: physical structure
+        alone, and structure lived because an observer carries it into a perspective. Sealing is
+        tenseless, not a process in time.
       </figcaption>
       <svg
         ref={svgRef}
@@ -288,7 +287,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontFamily="serif"
           fontStyle="italic"
         >
-          Global Closure in the Block Universe
+          Sealing in the Block Universe
         </text>
 
         {/* The Spacetime Block - outline */}
@@ -448,7 +447,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontStyle="italic"
           opacity="0"
         >
-          A block that contains an observer is realized as a whole
+          An observer seals its causal past as lived
         </text>
 
         {/* Tenseless constraint note */}
@@ -460,7 +459,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontSize="10"
           fontFamily="monospace"
         >
-          a tenseless constraint, not a process in time
+          tenseless, not a process in time
         </text>
       </svg>
     </figure>

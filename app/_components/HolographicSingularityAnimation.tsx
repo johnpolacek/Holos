@@ -169,7 +169,7 @@ export default function HolographicSingularityAnimation({
       }
     });
 
-    // Phase 4: Show Φ observer
+    // Phase 4: Show the boundary description (∂)
     tl.add("observer", "+=0.5")
       .to(phiSymbol, { opacity: 0.8, duration: 0.4 }, "observer")
       .to(phiLabel, { opacity: 0.5, duration: 0.3 }, "observer+=0.2");
@@ -304,7 +304,7 @@ export default function HolographicSingularityAnimation({
             3D information packets → Flattened to 2D bits on horizon
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Φ (Higher-Dimensional Observer):</strong> Reconstructs information from boundary
+            <strong>∂ (Boundary Description):</strong> Reconstructs information from the horizon
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             Information is preserved, not lost.
@@ -319,15 +319,16 @@ export default function HolographicSingularityAnimation({
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing how 3D information falling into a black hole is preserved on the 2D event horizon surface and can be reconstructed by a higher-dimensional observer, demonstrating the Holographic Principle"
+      aria-label="Animation showing how 3D information falling into a black hole is preserved on the 2D event horizon surface and can be reconstructed from a description of the boundary, demonstrating the Holographic Principle"
     >
       <figcaption className="sr-only">
         The Holographic Event Horizon animation shows a black hole with a singularity at the center
         and an event horizon circle around it. 3D information packets (cubes and spheres) fall
         toward the singularity but are flattened into 2D bits that attach to the event horizon
-        surface. A Φ symbol represents a higher-dimensional observer who scans the horizon, causing
+        surface. A ∂ symbol represents a description of the boundary that reads the horizon, causing
         the bits to pulse and project inward, revealing ghostly reconstructions of the original
-        shapes inside the circle.
+        shapes inside the circle. The boundary description is a representation, not an observer in a
+        higher dimension.
       </figcaption>
       <svg
         ref={svgRef}
@@ -657,7 +658,7 @@ export default function HolographicSingularityAnimation({
           </text>
         </g>
 
-        {/* Φ Symbol (Higher-Dimensional Observer) */}
+        {/* ∂ Symbol (boundary description, a representation, not an observer) */}
         <text
           id="phi-symbol"
           x="480"
@@ -669,7 +670,7 @@ export default function HolographicSingularityAnimation({
           fontStyle="italic"
           opacity="0"
         >
-          Φ
+          ∂
         </text>
         <text
           id="phi-label"
@@ -681,10 +682,10 @@ export default function HolographicSingularityAnimation({
           fontFamily="sans-serif"
           opacity="0"
         >
-          Higher-D Observer
+          Boundary View
         </text>
 
-        {/* Scanner beams from Φ through horizon */}
+        {/* Scanner beams from ∂ through horizon */}
         <line
           className="scanner-beam"
           x1="460"

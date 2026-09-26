@@ -40,9 +40,9 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
             <p style={{ margin: "0.5em 0" }}>→ ∞ in all directions</p>
           </div>
           <div style={{ textAlign: "center" }}>
-            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Higher-Dimensional Observer</p>
+            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Higher-Dimensional View</p>
             <p style={{ margin: "0.5em 0" }}>Grid wrapped into sphere</p>
-            <p style={{ margin: "0.5em 0" }}>Φ = Point at Infinity</p>
+            <p style={{ margin: "0.5em 0" }}>Point at Infinity</p>
           </div>
         </div>
         <p style={{ textAlign: "center", margin: "1em 0", fontStyle: "italic" }}>
@@ -63,7 +63,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
         This graphic shows two perspectives side by side. On the left, a grid extends infinitely in
         all directions from our 3D perspective. On the right, the same grid is shown wrapped into a
         sphere from a higher-dimensional viewpoint, where all the infinite directions converge at a
-        single Point at Infinity marked with Φ.
+        single Point at Infinity.
       </figcaption>
       <svg
         ref={svgRef}
@@ -117,7 +117,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           fontSize="10"
           fontFamily="monospace"
         >
-          HIGHER-DIMENSIONAL OBSERVER
+          HIGHER-DIMENSIONAL VIEW
         </text>
 
         {/* === LEFT SIDE: Infinite Grid === */}
@@ -274,7 +274,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           strokeWidth="2"
         />
 
-        {/* Φ symbol at Point at Infinity */}
+        {/* ∞ symbol at Point at Infinity */}
         <text
           x="420"
           y="65"
@@ -284,7 +284,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           fontFamily="serif"
           fontStyle="italic"
         >
-          Φ
+          ∞
         </text>
 
         {/* Finite label */}

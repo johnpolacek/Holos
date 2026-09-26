@@ -354,20 +354,15 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "1em" }}>
-          <em style={{ fontSize: "1.1em" }}>
-            Consciousness: Fundamental in Capacity, Emergent in Complexity
-          </em>
+          <em style={{ fontSize: "1.1em" }}>Consciousness: Where Integration Opens an Aperture</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
+          <p style={{ margin: "0.5em 0" }}>Scattered parts → Integration (Φ ≥ Φc) → Aperture</p>
           <p style={{ margin: "0.5em 0" }}>
-            Intrinsic Capacity (disorganized) → Integration (Φ ≥ Φc) → Realized Event
-          </p>
-          <p style={{ margin: "0.5em 0" }}>
-            Like electromagnetism organized into a circuit, consciousness emerges through
-            integration.
+            Like water freezing at a sharp point, the change happens all at once at the threshold.
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            Intrinsic capacity scales into self-awareness through integration
+            No new subject is created: the one experiencer wakes here
           </p>
         </div>
       </div>
@@ -379,16 +374,16 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing consciousness emerging through integration of fundamental capacity"
+      aria-label="Animation showing scattered parts integrating until they cross the threshold and an aperture opens"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        Consciousness: Fundamental in Capacity, Emergent in Complexity. This animation shows how
-        disorganized intrinsic capacity (represented by pulsing dashed circles) becomes organized
-        through integration. As circles cluster and connect, they cross the integration threshold (Φ
-        ≥ Φc) where the Phi symbol appears. The cluster then snaps into a realized shape,
-        demonstrating how consciousness emerges not as a separate substance but as a specific
-        organization of the existing field.
+        Consciousness: Where Integration Opens an Aperture. This animation shows scattered parts
+        (represented by pulsing dashed circles) becoming organized through integration. As circles
+        cluster and connect, they cross the integration threshold (Φ ≥ Φc) where the Phi symbol
+        appears. The cluster then snaps into one unified shape: an aperture. No new subject is
+        created; the one experiencer wakes there, as waking in the morning does not create a new
+        person.
       </figcaption>
       <svg
         ref={svgRef}
@@ -407,7 +402,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           fontFamily="serif"
           fontStyle="italic"
         >
-          Consciousness: Fundamental in Capacity, Emergent in Complexity
+          Consciousness: Where Integration Opens an Aperture
         </text>
 
         {/* Universe grid (background field) */}
@@ -544,7 +539,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           fontStyle="italic"
           opacity="0"
         >
-          Mechanism → Realized Event
+          Integration → Aperture
         </text>
 
         {/* Bottom label */}
@@ -556,7 +551,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           fontSize="10"
           fontFamily="monospace"
         >
-          Intrinsic capacity scales into self-awareness through integration
+          No new subject is created: the one experiencer wakes here
         </text>
       </svg>
     </figure>

@@ -205,7 +205,7 @@ export default function IntegrationHypothesisAnimation({
     tl.add("integrate", "+=1.5")
       // Change label
       .to(label, { opacity: 0, duration: 0.3 }, "integrate")
-      // Φ symbol appears
+      // Integration symbol appears (civilizational integration, not the Φ threshold)
       .to(
         phiSymbol,
         {
@@ -216,9 +216,9 @@ export default function IntegrationHypothesisAnimation({
         },
         "integrate+=0.2"
       )
-      .set(label, { textContent: "Integration increases (Φ ≥ Φc)" }, "integrate+=0.5")
+      .set(label, { textContent: "Integration increases" }, "integrate+=0.5")
       .to(label, { opacity: 0.6, duration: 0.3 }, "integrate+=0.5")
-      // Φ fades out after brief appearance
+      // Integration symbol fades out after brief appearance
       .to(
         phiSymbol,
         {
@@ -313,7 +313,7 @@ export default function IntegrationHypothesisAnimation({
     tl.add("footprint", "+=1")
       // Change label
       .to(label, { opacity: 0, duration: 0.3 }, "footprint")
-      .set(label, { textContent: "What remains: gravitational structure" }, "footprint+=0.3")
+      .set(label, { textContent: "What remains: gravity and faint warmth" }, "footprint+=0.3")
       .to(label, { opacity: 0.6, duration: 0.3 }, "footprint+=0.3")
       // Core fades further
       .to(
@@ -443,13 +443,14 @@ export default function IntegrationHypothesisAnimation({
             <strong>Coordination Costs:</strong> Scale increases strain (light-speed constraint)
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Integration Threshold:</strong> Φ ≥ Φc triggers compaction
+            <strong>Integration:</strong> Efficiency favors a compact core
           </p>
           <p style={{ margin: "0.5em 0" }}>
             <strong>Quiet Phase:</strong> Dense core, directed beams, low emission
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>What Remains:</strong> Gravitational structure (observable), EM silence
+            <strong>What Remains:</strong> Gravity and faint infrared warmth; silent in visible
+            light
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             It did not disappear. It became quiet.
@@ -464,16 +465,17 @@ export default function IntegrationHypothesisAnimation({
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing how a single civilization evolves from a high-emission, sprawling early phase to a compact, integrated quiet phase. As integration increases, electromagnetic emissions collapse while gravitational structure remains detectable. The Fermi paradox is explained by visibility collapse through integration."
+      aria-label="Animation showing how a single civilization evolves from a high-emission, sprawling early phase to a compact, integrated quiet phase. As integration increases, visible emissions collapse while gravity and faint infrared warmth remain detectable. The Fermi paradox is explained by visibility collapse through integration."
     >
       <figcaption className="sr-only">
         One Civilization, Two Footprints animation. A civilization on a grid plane starts in an
         early noisy phase with chaotic particles, expanding boundaries, and broadcast radiation
         rings. As scale increases, coordination costs rise (shown via lagging tether lines). When
-        integration exceeds a threshold (Φ ≥ Φc), the system contracts into a compact core with
-        suppressed emissions. Only rare directional beams appear. Finally, the electromagnetic
-        signature fades, leaving only gravitational structure visible as warped grid lines and
-        lensing arcs. The civilization did not disappear; it became quiet.
+        integration increases, the system contracts into a compact core with suppressed emissions.
+        Only rare directional beams appear. Finally, the electromagnetic signature fades, leaving
+        gravitational structure, visible as warped grid lines and lensing arcs, along with faint
+        infrared warmth that no compact, computing system can avoid. The civilization did not
+        disappear; it became quiet.
       </figcaption>
       <svg
         ref={svgRef}
@@ -762,7 +764,7 @@ export default function IntegrationHypothesisAnimation({
           />
         </g>
 
-        {/* Φ Symbol (integration trigger) */}
+        {/* Integration symbol (civilizational integration, not the Φ threshold) */}
         <text
           id="phiSymbol"
           x="280"
@@ -774,7 +776,7 @@ export default function IntegrationHypothesisAnimation({
           fontStyle="italic"
           opacity="0"
         >
-          Φ
+          ∫
         </text>
 
         {/* Compact Core (quiet maturity) */}

@@ -25,21 +25,21 @@ export default function OntologicalAnchorAnimation({
         </div>
         <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
           <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
-            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Abstract Possibility</p>
-            <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Unobserved states</p>
+            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Unlit Structure</p>
+            <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Real as pattern, never lived</p>
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>(dashed, disconnected)</p>
           </div>
           <div style={{ textAlign: "center", fontSize: "2em" }}>Φ →</div>
           <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
-            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Manifested Reality</p>
-            <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Observed states</p>
+            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Lived Reality</p>
+            <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Carried into a perspective</p>
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>(solid, connected)</p>
           </div>
         </div>
         <div
           style={{ textAlign: "center", marginTop: "1em", fontStyle: "italic", fontSize: "0.85em" }}
         >
-          Consciousness is the mechanism by which possibility is selected into experienced reality.
+          Consciousness is where structure becomes lived: nothing selected, nothing erased.
         </div>
       </div>
     );
@@ -49,13 +49,14 @@ export default function OntologicalAnchorAnimation({
     <figure
       className="relative w-full mt-8 aspect-video rounded-2xl border border-gray-200 overflow-hidden bg-white"
       role="img"
-      aria-label="Diagram showing how consciousness (Φ) serves as the ontological anchor, transforming abstract possibility into manifested reality"
+      aria-label="Diagram showing how consciousness (Φ) serves as the ontological anchor: the same structure, unlit on one side and lived on the other"
     >
       <figcaption className="sr-only">
-        The Ontological Anchor diagram shows two states side by side. On the left, abstract
-        possibility is represented by scattered dashed shapes. On the right, manifested reality
-        shows the same shapes as solid and connected. The Φ symbol in the center represents
-        consciousness as the anchor that collapses possibility into reality.
+        The Ontological Anchor diagram shows the same structure two ways, side by side. On the left,
+        unlit structure is represented by scattered dashed shapes: real as pattern, never lived. On
+        the right, lived reality shows the same shapes as solid and connected. The Φ symbol in the
+        center represents consciousness as the anchor where structure becomes lived. Nothing is
+        selected and nothing is erased.
       </figcaption>
       <svg
         viewBox="0 0 560 315"
@@ -87,7 +88,7 @@ export default function OntologicalAnchorAnimation({
           strokeDasharray="4 4"
         />
 
-        {/* LEFT SIDE: Abstract Possibility */}
+        {/* LEFT SIDE: Unlit structure */}
         <text
           x="140"
           y="58"
@@ -96,7 +97,7 @@ export default function OntologicalAnchorAnimation({
           fontSize="11"
           fontFamily="monospace"
         >
-          ABSTRACT POSSIBILITY
+          UNLIT STRUCTURE
         </text>
         <text
           x="140"
@@ -234,7 +235,7 @@ export default function OntologicalAnchorAnimation({
           markerEnd="url(#arrowRight)"
         />
 
-        {/* RIGHT SIDE: Manifested Reality */}
+        {/* RIGHT SIDE: Lived reality */}
         <text
           x="420"
           y="58"
@@ -243,7 +244,7 @@ export default function OntologicalAnchorAnimation({
           fontSize="11"
           fontFamily="monospace"
         >
-          MANIFESTED REALITY
+          LIVED REALITY
         </text>
         <text
           x="420"
@@ -393,7 +394,7 @@ export default function OntologicalAnchorAnimation({
           fontFamily="serif"
           fontStyle="italic"
         >
-          Consciousness is the mechanism by which possibility is selected into experienced reality.
+          Consciousness is where structure becomes lived: nothing selected, nothing erased.
         </text>
 
         {/* Arrow marker */}

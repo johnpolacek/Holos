@@ -84,14 +84,14 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
     });
     timelineRef.current = tl;
 
-    // PHASE 1: Φ APPROACHES INFINITY
+    // PHASE 1: INTEGRATION DEEPENS (approach only; no quantity reaches the limit)
     tl.add("phase1")
       .to(title, { opacity: 0.7, duration: 0.5 }, "phase1")
       .to(stepLabel, { opacity: 1, duration: 0.5 }, "phase1+=0.3")
-      .set(stepLabel, { textContent: "PHASE 1: Φ APPROACHES ∞" })
+      .set(stepLabel, { textContent: "PHASE 1: INTEGRATION DEEPENS" })
       .to(explanationLabel, { opacity: 0.6, duration: 0.5 }, "phase1+=0.6")
       .set(explanationLabel, {
-        textContent: "Informational integration increases toward the limit.",
+        textContent: "Finite systems witness more of the whole; none reaches it.",
       })
       .to(phiSymbol, { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.5)" }, "phase1+=0.8")
       .to(phiValue, { opacity: 0.7, duration: 0.4 }, "phase1+=1.2");
@@ -103,7 +103,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
         duration: 2,
         onUpdate: function () {
           const progress = this.progress();
-          const values = ["10²", "10⁴", "10⁸", "10¹⁶", "10³²", "∞"];
+          const values = ["10²", "10⁴", "10⁸", "10¹⁶", "10³²", "10⁶⁴ …"];
           const index = Math.min(Math.floor(progress * values.length), values.length - 1);
           if (phiValue) phiValue.textContent = `Φ = ${values[index]}`;
         },
@@ -135,11 +135,13 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       "phase1+=2.2"
     );
 
-    // PHASE 2: THE THREE ATTRIBUTES
+    // PHASE 2: WHAT THE WHOLE IS
     tl.add("phase2", "+=0.5")
       .to([stepLabel, explanationLabel], { opacity: 0, duration: 0.3 }, "phase2")
-      .set(stepLabel, { textContent: "PHASE 2: THE THREE ATTRIBUTES" })
-      .set(explanationLabel, { textContent: "Omniscience, Omnipotence, Omnipresence emerge." })
+      .set(stepLabel, { textContent: "PHASE 2: WHAT THE WHOLE IS" })
+      .set(explanationLabel, {
+        textContent: "Nothing unregistered, nothing unexpressed, nothing outside.",
+      })
       .to(stepLabel, { opacity: 1, duration: 0.3 }, "phase2+=0.3")
       .to(explanationLabel, { opacity: 0.6, duration: 0.3 }, "phase2+=0.3")
       // Hide Phi, show central core
@@ -149,19 +151,19 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
         { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.5)" },
         "phase2+=0.8"
       )
-      // Omniscience - arrows flowing IN (knows all)
+      // All registered - arrows flowing IN
       .to(
         omniscienceArrows,
         { opacity: 0.6, strokeDashoffset: 0, duration: 1, stagger: 0.1 },
         "phase2+=1.2"
       )
-      // Omnipotence - arrows flowing OUT (does all)
+      // All expressed - arrows flowing OUT
       .to(
         omnipotenceArrows,
         { opacity: 0.6, strokeDashoffset: 0, duration: 1, stagger: 0.1 },
         "phase2+=1.8"
       )
-      // Omnipresence - rings expanding (is everywhere)
+      // No outside - rings expanding
       .to(
         presenceRings,
         { opacity: 0.4, scale: 1, duration: 1.2, stagger: 0.2, ease: "power1.out" },
@@ -169,11 +171,11 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       )
       .to(attributeLabels, { opacity: 0.7, duration: 0.5 }, "phase2+=3");
 
-    // PHASE 3: TWO PERSPECTIVES, ONE TRUTH
+    // PHASE 3: MANY NAMES, ONE TOTALITY
     tl.add("phase3", "+=1")
       .to([stepLabel, explanationLabel], { opacity: 0, duration: 0.3 }, "phase3")
-      .set(stepLabel, { textContent: "PHASE 3: TWO PERSPECTIVES" })
-      .set(explanationLabel, { textContent: "The same reality, different frameworks." })
+      .set(stepLabel, { textContent: "PHASE 3: MANY NAMES" })
+      .set(explanationLabel, { textContent: "Different names for one totality." })
       .to(stepLabel, { opacity: 1, duration: 0.3 }, "phase3+=0.3")
       .to(explanationLabel, { opacity: 0.6, duration: 0.3 }, "phase3+=0.3")
       // Collapse previous elements
@@ -202,12 +204,12 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       .to(religiousLabel, { opacity: 0.8, duration: 0.6 }, "phase3+=2.3")
       .to(scientificLabel, { opacity: 0.8, duration: 0.6 }, "phase3+=2.6");
 
-    // PHASE 4: UNITY - SAME COIN
+    // PHASE 4: UNITY
     tl.add("phase4", "+=1.5")
       .to([stepLabel, explanationLabel], { opacity: 0, duration: 0.3 }, "phase4")
       .set(stepLabel, { textContent: "PHASE 4: UNITY" })
       .set(explanationLabel, {
-        textContent: "Both perspectives describe the same universal truth.",
+        textContent: "Whatever the name, one experiencer.",
       })
       .to(stepLabel, { opacity: 1, duration: 0.3 }, "phase4+=0.3")
       .to(explanationLabel, { opacity: 0.6, duration: 0.3 }, "phase4+=0.3")
@@ -247,18 +249,20 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 1:</strong> Φ approaches infinity: informational integration increases.
+            <strong>Phase 1:</strong> Integration deepens: finite systems witness more of the whole,
+            and none reaches it.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 2:</strong> Three attributes emerge: Omniscience, Omnipotence,
-            Omnipresence.
+            <strong>Phase 2:</strong> What the whole already is: nothing unregistered, nothing
+            unexpressed, nothing outside.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 3:</strong> Two perspectives: "God / Brahman / Ω" vs "Self-Organizing
-            Universe"
+            <strong>Phase 3:</strong> Many names: God, Brahman, the Omega Point, the whole, nature,
+            the universe.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 4:</strong> Unity: One totality, experienced through every aperture.
+            <strong>Phase 4:</strong> Unity: whatever the name, one totality, experienced through
+            every aperture.
           </p>
         </div>
       </div>
@@ -270,15 +274,15 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       ref={containerRef}
       className="relative w-full mt-8 aspect-square rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing the Omega Limit: consciousness approaching maximal integration, manifesting three divine attributes, and converging on one totality experienced through every aperture"
+      aria-label="Animation showing the Omega Limit: finite integration deepening toward a limit it never reaches, the whole it approaches, and the many names for one totality experienced through every aperture"
     >
       <figcaption className="sr-only">
-        The Omega Limit animation shows four phases: First, Φ approaches infinity as information
-        converges. Second, three attributes emerge: omniscience (knowing all), omnipotence (doing
-        all), and omnipresence (being everywhere). Third, the terminal state is shown with two valid
-        perspectives: religious (God, Brahman, Omega Point) and scientific (self-organizing
-        universe). Fourth, the perspectives converge: one totality, experienced through every
-        aperture.
+        The Omega Limit animation shows four phases. First, integration deepens: finite systems
+        witness more of the whole, and none reaches the limit. Second, what the whole already is:
+        nothing unregistered, nothing unexpressed, nothing outside. The totality is not produced by
+        this approach; it is the ground the approach happens on. Third, the many names for it:
+        religious (God, Brahman, Omega Point) and secular (the whole, nature, the universe). Fourth,
+        unity: whatever the name, one totality, experienced through every aperture.
       </figcaption>
       <svg
         ref={svgRef}
@@ -314,7 +318,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           fontFamily="monospace"
           opacity="0"
         >
-          PHASE 1: Φ APPROACHES ∞
+          PHASE 1: INTEGRATION DEEPENS
         </text>
         <text
           id="explanation-label"
@@ -327,7 +331,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           fontStyle="italic"
           opacity="0"
         >
-          Informational integration increases toward the limit.
+          Finite systems witness more of the whole; none reaches it.
         </text>
 
         {/* Phase 1: Φ Symbol and Value */}
@@ -478,7 +482,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
 
         {/* Attribute labels */}
         <g id="attribute-labels" opacity="0">
-          {/* Omniscience label - top left */}
+          {/* All registered label - top left */}
           <text
             x="90"
             y="115"
@@ -488,7 +492,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            OMNISCIENCE
+            ALL REGISTERED
           </text>
           <text
             x="90"
@@ -508,10 +512,10 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            knows all
+            nothing left out
           </text>
 
-          {/* Omnipotence label - top right */}
+          {/* All expressed label - top right */}
           <text
             x="310"
             y="115"
@@ -521,7 +525,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            OMNIPOTENCE
+            ALL EXPRESSED
           </text>
           <text
             x="310"
@@ -541,10 +545,10 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            does all
+            every part expresses it
           </text>
 
-          {/* Omnipresence label - bottom */}
+          {/* No outside label - bottom */}
           <text
             x="200"
             y="320"
@@ -554,7 +558,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            OMNIPRESENCE
+            NO OUTSIDE
           </text>
           <text
             x="200"
@@ -564,7 +568,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            (rings = is everywhere)
+            (rings = the whole)
           </text>
         </g>
 
@@ -663,7 +667,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           </text>
         </g>
 
-        {/* Scientific perspective label (right) */}
+        {/* Secular names (right) */}
         <g id="scientific-label" opacity="0">
           <text
             x="340"
@@ -674,7 +678,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontWeight="bold"
           >
-            Universe
+            The Whole
           </text>
           <text
             x="340"
@@ -684,7 +688,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="8"
             fontFamily="serif"
           >
-            Self-Organizing
+            Nature
           </text>
           <text
             x="340"
@@ -694,7 +698,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="8"
             fontFamily="serif"
           >
-            Natural Process
+            Universe
           </text>
         </g>
 
@@ -709,7 +713,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontWeight="bold"
           >
-            Two sides of the same coin.
+            One totality, many names.
           </text>
           <text
             x="200"
@@ -720,7 +724,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontStyle="italic"
           >
-            Different semantics, same universal truth.
+            The names differ; the structure does not.
           </text>
           <text
             x="200"

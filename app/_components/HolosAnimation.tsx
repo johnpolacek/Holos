@@ -209,7 +209,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
     // Hold the manifold state
     tl.to({}, { duration: 0.8 });
 
-    // Phase 3: Observation - collapse to selected path
+    // Phase 3: Observation - follow one observer's thread; other paths remain
     tl.add("observation")
       .to(
         creationLabel,
@@ -236,7 +236,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
         "observation+=0.2"
       );
 
-    // Fade non-selected particles and highlight chosen one
+    // Dim the other paths (not erased: other threads) and highlight this one
     particles.forEach((particle, i) => {
       if (i === chosenIndex) {
         tl.to(
@@ -266,7 +266,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
         tl.to(
           particle,
           {
-            opacity: 0,
+            opacity: 0.15,
             duration: 0.6,
             ease: "power2.in",
           },
@@ -275,7 +275,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
         tl.to(
           paths[i],
           {
-            opacity: 0,
+            opacity: 0.12,
             duration: 0.5,
             ease: "power2.in",
           },
@@ -287,7 +287,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
     // Hold observation state
     tl.to({}, { duration: 0.5 });
 
-    // Phase 4: Collapse to new result state
+    // Phase 4: The registered thread becomes the next state
     tl.add("collapse")
       .to(
         observationLabel,
@@ -460,7 +460,9 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
             <strong>The Holos Recursive Loop</strong>
           </p>
           <p style={{ margin: "0.5em 0" }}>Creation (C) generates a manifold of possibilities →</p>
-          <p style={{ margin: "0.5em 0" }}>Observation (O) selects one path →</p>
+          <p style={{ margin: "0.5em 0" }}>
+            Observation (O) registers each path from within; one observer&apos;s thread shown →
+          </p>
           <p style={{ margin: "0.5em 0" }}>Result becomes input for next cycle</p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
             sₙ → sₙ₊₁ (recursive state transition)
@@ -475,14 +477,15 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing the Holos recursive loop equation R = C ⊛ O, where Creation generates possibilities and Observation selects one path"
+      aria-label="Animation showing the Holos recursive loop equation R = C ⊛ O, where Creation generates possibilities and Observation registers them from within, following one observer's thread while the other paths remain"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
         The Holos Recursive Loop: R = C ⊛ O. Creation (C) generates a manifold of possibilities from
-        an initial state. Observation (O) selects one path, collapsing possibilities into a new
-        realized state. The result becomes input for the next cycle, representing recursive state
-        transitions from sₙ to sₙ₊₁.
+        an initial state. Observation (O) registers them from within, one lived history per
+        perspective; the animation follows one observer&apos;s thread, while the other paths fade
+        but remain, since nothing is erased. The registered history becomes input for the next
+        cycle, representing recursive state transitions from sₙ to sₙ₊₁.
       </figcaption>
       <svg
         ref={svgRef}
@@ -603,7 +606,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           fontFamily="monospace"
           opacity="0"
         >
-          Observation (O): selection
+          Observation (O): registration
         </text>
 
         {/* Phi symbol - plain, no effects */}
