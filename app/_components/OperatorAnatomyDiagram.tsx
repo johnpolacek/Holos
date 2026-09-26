@@ -6,7 +6,7 @@ interface OperatorAnatomyDiagramProps {
 
 export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatomyDiagramProps) {
   const pdfDescription =
-    "Operator Anatomy Diagram: The equation R = C ⊛ O is shown at the center. Leader lines connect to labels: C (Creation) - Generative Possibility / Possibility Map C(S), ⊛ (The Operator) - Composition: Generate, then Register, O (Observation) - Ontological Registration / One History per Perspective. A circular arrow indicates the recursive closure loop, R = O(C(S)). Key constraints listed: Structural not Dynamical, Information Preserving (Unitarity), C and O Coincide at Ω.";
+    "Operator Anatomy Diagram: The equation R = C ⊛ O is shown at the center. Leader lines connect to labels: C (Creation) - Generative Possibility / Possibility Map C(S), ⊛ (The Operator) - Composition: Possibility, then Registration, O (Observation) - Ontological Registration / One History per Perspective. A circular arrow indicates iteration along one observer's thread, R = O(C(S)). Key constraints listed: Structural not Dynamical, Information Preserving (Unitarity), C and O Coincide at Ω.";
 
   return (
     <figure
@@ -24,7 +24,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
           </marker>
         </defs>
 
-        {/* Recursive closure loop - faint circle with arrow */}
+        {/* Iteration along one thread - faint circle with arrow */}
         <circle
           cx="320"
           cy="200"
@@ -136,7 +136,7 @@ export default function OperatorAnatomyDiagram({ isPDF = false }: OperatorAnatom
             fontSize="10"
             fontFamily="sans-serif"
           >
-            Composition: Generate, then Register
+            Composition: Possibility, then Registration
           </text>
         </g>
 

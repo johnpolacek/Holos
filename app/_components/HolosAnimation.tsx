@@ -457,15 +457,17 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>The Holos Recursive Loop</strong>
+            <strong>Following One Thread</strong>
           </p>
           <p style={{ margin: "0.5em 0" }}>Creation (C) generates a manifold of possibilities →</p>
           <p style={{ margin: "0.5em 0" }}>
             Observation (O) registers each path from within; one observer&apos;s thread shown →
           </p>
-          <p style={{ margin: "0.5em 0" }}>Result becomes input for next cycle</p>
+          <p style={{ margin: "0.5em 0" }}>
+            Physics continues from that history; registration changes nothing
+          </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            sₙ → sₙ₊₁ (recursive state transition)
+            sₙ → sₙ₊₁ (one thread, step by step)
           </p>
         </div>
       </div>
@@ -477,15 +479,15 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing the Holos recursive loop equation R = C ⊛ O, where Creation generates possibilities and Observation registers them from within, following one observer's thread while the other paths remain"
+      aria-label="Animation showing the Holos relation R = C ⊛ O, where Creation generates possibilities and Observation registers them from within, following one observer's thread while the other paths remain"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        The Holos Recursive Loop: R = C ⊛ O. Creation (C) generates a manifold of possibilities from
-        an initial state. Observation (O) registers them from within, one lived history per
+        Following One Thread: R = C ⊛ O. Creation (C) generates a manifold of possibilities from an
+        initial state. Observation (O) registers them from within, one lived history per
         perspective; the animation follows one observer&apos;s thread, while the other paths fade
-        but remain, since nothing is erased. The registered history becomes input for the next
-        cycle, representing recursive state transitions from sₙ to sₙ₊₁.
+        but remain, since nothing is erased. Physics continues from the registered history, and
+        registration changes nothing, so the thread steps from sₙ to sₙ₊₁.
       </figcaption>
       <svg
         ref={svgRef}

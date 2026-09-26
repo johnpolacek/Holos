@@ -24,10 +24,11 @@ export const sections: ContentSection[] = [
       <>
         Holos is an interpretive framework built on a single idea: a universe can be complete as
         structure and still not be lived. At its core is one expression,{" "}
-        <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means &quot;generate, then
-        register.&quot; Creation generates physical possibilities. Observation registers them as
-        experience. Reality in the full sense is the closure of the two: not equations alone, and
-        not experience alone, but a world that both exists and is lived.
+        <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means &quot;possibility, then
+        registration&quot;: an order of logic, not of time. Creation is what physics allows.
+        Observation registers it as experience, wherever an observer exists, and changes nothing it
+        registers. Reality in the full sense needs both: not equations alone, and not experience
+        alone, but a world that both exists and is lived.
       </>,
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
@@ -765,16 +766,17 @@ export const sections: ContentSection[] = [
     title: "⊛ Holos",
     paragraphs: [
       <>
-        The symbol ⊛ denotes a relational operator. Unlike standard multiplication, it does not
-        combine quantities or scale values. Instead, it represents structured composition, where
-        relationships are preserved as the operation is applied. Informally, it describes how two
-        processes remain coupled rather than reduced to a single result.
+        The symbol ⊛ is not multiplication and not a new kind of mathematics. It is ordinary
+        composition: do one step, then the other. Think of a cookbook and a meal. The cookbook lists
+        every dish that can be made; tasting happens only where someone eats. A meal as eaten needs
+        both, and tasting never rewrites the recipe.
       </>,
       <>
-        Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the recursive coupling
-        of Creation and Observation as two inseparable aspects of reality. Creation generates
-        physical possibilities. Observation registers experience. Each constrains the other. This
-        relationship is expressed as <em>R = C ⊛ O</em>.
+        Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the pairing of
+        Creation and Observation as two aspects of one reality. Creation is what physics allows.
+        Observation registers it as experience. Neither alone is a realized world, and neither
+        changes the other: registration adds no constraint to physics. This relationship is
+        expressed as <em>R = C ⊛ O</em>.
       </>,
       <>
         The ⊛ operator is <strong>structural, not dynamical</strong>. It specifies a closure
@@ -785,10 +787,11 @@ export const sections: ContentSection[] = [
         Formally, ⊛ is defined as composition: <em>C ⊛ O</em> names the two-step operation of
         generating lawful possibilities (<em>C</em>) and then registering them as experience (
         <em>O</em>), wherever observers exist. Applied to a state <em>S</em>, this reads{" "}
-        <em>R = O(C(S))</em>: generate, then register. The result is one registered history per
-        observing perspective, with nothing erased. Its content is the claim that both steps are
-        required for a realized world. The full treatment is developed in <a href="/logic">Logic</a>
-        .
+        <em>R = O(C(S))</em>: possibility first, registration second, an order of logic rather than
+        time, since registering needs something to register. The result, <em>R</em>, is the family
+        of lived perspectives, one per observer, each with the lit world it draws on, and nothing
+        erased. Its content is the claim that both steps are required for a realized world. The full
+        treatment is developed in <a href="/logic">Logic</a>.
       </>,
     ],
   },

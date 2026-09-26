@@ -69,7 +69,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Recursion",
             url: "https://en.wikipedia.org/wiki/Recursion",
             description:
-              "R = C ⊛ O describes a recursive loop: creation generates possibilities, observation registers them from within without selecting or erasing any, and each registered history feeds the next cycle.",
+              "R = C ⊛ O is composition, not feedback: creation is what physics allows, and observation registers it from within without selecting, erasing, or changing any of it.",
           },
         ],
       },
@@ -599,13 +599,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Holos",
             url: "#holos",
             description:
-              "The interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation, symbolized by ⊛.",
+              "The whole of reality as both structure and lived experience: lawful possibility composed with registration, symbolized by ⊛.",
           },
           {
             name: "Recursive Operator",
             url: "https://en.wikipedia.org/wiki/Recursion",
             description:
-              "Holos's iteration: each registered history becomes the context for further possibilities. A conceptual tool for recursive closure, not a process unfolding in time.",
+              "Holos's iteration follows one observer's thread: from each registered history, physics allows what comes next. A conceptual tool, not a process in time and not feedback on physics.",
           },
         ],
       },
@@ -708,7 +708,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Invariant (physics)",
             url: "https://en.wikipedia.org/wiki/Invariant_(physics)",
             description:
-              "Reality is stable relationships, not fixed properties things carry on their own. ⊛ describes what stays constant in that structure, not how it changes over time.",
+              "Reality is stable relationships, not fixed properties things carry on their own. ⊛ concerns where that structure is lived, not how it changes over time.",
           },
         ],
       },

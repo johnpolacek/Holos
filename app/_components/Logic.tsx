@@ -138,9 +138,10 @@ export default function Logic() {
             </li>
 
             <li className="leading-relaxed">
-              <strong>⊛</strong> denotes structured coupling. It is not a force and not a time-step.
-              It is a notation for the claim that physics describes a realized world only from
-              outside: it fixes what is lived, but cannot state that it is lived.
+              <strong>⊛</strong> denotes composition: possibility, then registration, in logical
+              rather than temporal order. It is not a force and not a time-step. It is a notation
+              for the claim that physics describes a realized world only from outside: it fixes what
+              is lived, but cannot state that it is lived.
             </li>
           </ul>
 
@@ -248,9 +249,9 @@ export default function Logic() {
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-black/90">D6: Holos (⊛)</div>
             <p className="leading-relaxed">
-              Holos (⊛) denotes the structured coupling of Creation and Observation. It names the
-              claim that a realized world requires both lawful possibility and internal
-              registration.
+              Holos (⊛) denotes the composition of Creation and Observation. It names the claim that
+              a realized world requires both lawful possibility and internal registration, and that
+              registration changes nothing in what it registers.
             </p>
 
             <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
@@ -260,8 +261,9 @@ export default function Logic() {
             <p className="leading-relaxed">
               Read this as follows: physics defines a space of consistent possibilities. Observation
               registers them from the inside, wherever an observer exists: one lived history per
-              perspective. Nothing is picked out and nothing is discarded. Each registered history
-              then becomes the context for further possibilities.
+              perspective. Nothing is picked out and nothing is discarded. Following one
+              observer&apos;s thread, what happens next is simply what physics allows from that
+              history onward; registering it changes none of those possibilities.
             </p>
 
             <p className="leading-relaxed">
@@ -1064,23 +1066,26 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">Holos mapping</h3>
 
             <p className="leading-relaxed">
-              The Holos relation is the structured coupling of Creation and Observation.
+              The Holos relation is the composition of Creation and Observation.
             </p>
 
             <MathDisplay>{"R = C \\ ⊛ \\ O"}</MathDisplay>
 
             <p className="leading-relaxed">
               This expression states that reality is neither pure possibility nor pure observation.
-              It is the closure between the two.
+              It needs both. <MathInline>{"R"}</MathInline> is the family of lived perspectives, one
+              per observer per branch, each with the lit world it draws on: structure that is also
+              lived.
             </p>
 
             <p className="leading-relaxed">
               The symbol <strong>⊛</strong> is defined as composition:{" "}
-              <MathInline>{"C ⊛ O"}</MathInline> is the composite operation “generate, then
-              register.” Applied to a state <MathInline>{"S"}</MathInline>, it reads{" "}
+              <MathInline>{"C ⊛ O"}</MathInline> is the composite operation “possibility, then
+              registration.” Applied to a state <MathInline>{"S"}</MathInline>, it reads{" "}
               <MathInline>{"R = O(C(S))"}</MathInline>, the same composition used in the iteration
               below. It is ordinary function composition, with the order of the steps carrying the
-              meaning: possibility first, registration second.
+              meaning: possibility first, registration second. The order is logical, not temporal:
+              registering needs something to register.
             </p>
 
             <p className="leading-relaxed">
@@ -1101,8 +1106,9 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">Iteration and stability</h3>
 
             <p className="leading-relaxed">
-              One may consider iterating the Holos relation, where each realized state becomes the
-              context for further possibilities.
+              One may consider iterating the Holos relation along one observer&apos;s thread: from
+              each registered history, physics allows what comes next, and registration again
+              changes none of it.
             </p>
 
             <MathDisplay>{"S_{n+1}^{(i)} = O_i(C(S_n^{(i)}))"}</MathDisplay>
@@ -1121,7 +1127,8 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               This is not meant to imply a discrete temporal process. It is a conceptual tool for
-              describing recursive closure across scales.
+              following one perspective through the structure, not a feedback loop in which
+              observation shapes physics.
             </p>
           </div>
 
