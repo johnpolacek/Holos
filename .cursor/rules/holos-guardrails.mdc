@@ -1,0 +1,28 @@
+---
+description: Guardrails for editing Holos framework content. Retired claims that must not return, and the current commitments in brief.
+globs: ["**/content-data.tsx", "**/Logic.tsx", "**/Predictions.tsx", "**/citation-sections.tsx", "**/InterpretiveComparisonTable.tsx"]
+---
+
+# Holos content guardrails
+
+The site content is the source of truth for the framework's positions: `Logic.tsx` for commitments, `Predictions.tsx` for tests and speculation. The history of each change, and why it was made, is in `wiki/log.md`. Read the relevant section before editing it.
+
+## Retired claims: do not reintroduce
+
+- **Ordered dark matter** and everything built on it: Succession Nodes, the IDE-Pivot equation and "Succession Operator", dark energy as "fuel", DESI weakening as a signature of Succession, JWST COSMOS-Web mass peaks as nodes, axion-like particles as a substrate for "migration into the Bulk". Cosmological dark matter predates life (the CMB shows it) and outweighs all the ordinary matter anything could be built from. Dark Nodes are ordinary matter that has stopped shining: a trace population, a search channel and not a fingerprint.
+- **Observation as selection, or as a constraint on earlier states.** Observation selects nothing, erases nothing, and changes no physics. Histories that contain observers are lived; the rest remain unlit structure.
+- **Born weights as shares of experience.** The weights are structural facts within C; what they measure is an open problem.
+- **Theological and secular readings as interchangeable.** The monist reading is the framework's position.
+- **"Confirmed so far" for the standing bet.** No superposition tested so far has contained an observer. The bet is untested.
+- **The qubit observer-cut experiment.** Qubits register nothing below the threshold. Check B is a consistency check, not a test.
+
+## Current commitments in brief
+
+- Two additions to physics: the integration threshold Φ_c, and the totality Omega as the one experiencer.
+- Physics side: unitary, no collapse, branching. Relational QM is borrowed only for indexing registered facts to observers, not adopted.
+- ⊛ is ordinary composition: R = O(C(S)). Nothing exotic is claimed for the glyph.
+
+## Style
+
+- Plain language for a general reader; gloss technical terms on first use.
+- No em dashes; use colons, commas, or periods.

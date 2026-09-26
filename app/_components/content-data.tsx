@@ -133,9 +133,11 @@ export const sections: ContentSection[] = [
         </h3>
         <p className="leading-relaxed">
           The hard problem arises because physical descriptions capture structure and dynamics but
-          do not automatically include first-person presence. Holos reframes the problem by
-          identifying an emergent structural condition under which physical systems have an internal
-          perspective.
+          do not automatically include first-person presence. Holos does not derive experience from
+          structure. It takes experience to be fundamental, the totality&apos;s own, and identifies
+          the structural condition under which a physical system becomes an aperture of it. That
+          answers where experience occurs, not why there is experience at all; the second question
+          is what the framework&apos;s posits are for.
         </p>
       </div>,
       <>

@@ -607,13 +607,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Recursive Operator",
             url: "https://en.wikipedia.org/wiki/Recursion",
             description:
-              "A mathematical operation where the output of observation becomes the input for the next round of creation, forming a feedback loop that builds complexity over time.",
-          },
-          {
-            name: "Category Theory",
-            url: "https://en.wikipedia.org/wiki/Category_theory",
-            description:
-              "A branch of mathematics focused on how different mathematical systems relate to one another through structure-preserving maps, rather than what is inside each one.",
+              "Holos's iteration: each registered history becomes the context for further possibilities. A conceptual tool for recursive closure, not a process unfolding in time.",
           },
         ],
       },
@@ -636,30 +630,6 @@ export const citationMainSections: CitationMainSection[] = [
               "An upper limit on the entropy or information that can be contained within a given limited region of space which has a finite amount of energy. It suggests that information is fundamentally tied to the geometry of the universe.",
           },
           {
-            name: "Interacting Dark Energy (IDE) 2022",
-            url: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3076P",
-            description:
-              "MNRAS 511, 3076–3088 (2022): a model where energy flows from empty space into dark matter and dark energy, speeding up how cosmic structures form. Cited as active cosmology; Holos takes no position on the underlying physics.",
-          },
-          {
-            name: "Metastable DE / Axion-like DM (2024)",
-            url: "https://arxiv.org/abs/2403.04970",
-            description:
-              "Phase-transition model: metastable dark energy decaying into axion-like dark matter (m ~ 10^-13 GeV).",
-          },
-          {
-            name: "Dark Energy Survey (DES) Final Analysis (Jan 2026)",
-            url: "https://www.darkenergysurvey.org/",
-            description:
-              "The Jan 22, 2026 DES final 6-year analysis reports tension between standard predictions and galaxy clustering. An open question in cosmology.",
-          },
-          {
-            name: "JWST COSMOS-Web (Jan 26, 2026)",
-            url: "https://arxiv.org/abs/2601.17239",
-            description:
-              "High-resolution mapping reveals small-scale structure along dark-matter filaments. Under active study, with viable conventional explanations.",
-          },
-          {
             name: "Bekenstein, J. (2003)",
             url: "https://www.scientificamerican.com/article/information-in-the-holographic-univ/",
             description: "Information in the holographic universe. Scientific American.",
@@ -676,7 +646,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Integrated Information Theory",
             url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
             description:
-              "Consciousness corresponds to the capacity of a system to integrate information (Φ). Holos uses this to define the threshold at which observation registers reality.",
+              "IIT identifies consciousness with integrated information (Φ). Holos borrows Φ as a measure of integration only; the threshold Φ_c is its own commitment, not IIT's.",
           },
         ],
       },
@@ -708,13 +678,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Copenhagen interpretation",
             url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
             description:
-              "Classical interpretation with wavefunction collapse; Holos replaces dynamical collapse with ontological selection while preserving unitarity.",
+              "Classical interpretation with wavefunction collapse; Holos drops collapse entirely: evolution stays unitary, branches remain, and each is registered from within.",
           },
           {
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
             description:
-              "Theories in which collapse is a physical process; Holos rejects that, holding instead that which facts become real is relative to the observer registering them.",
+              "Theories in which collapse is a physical process; Holos rejects them. A consciousness-linked collapse would falsify Holos outright (the standing bet).",
           },
         ],
       },
@@ -731,28 +701,10 @@ export const citationMainSections: CitationMainSection[] = [
               "The differentiation between possible states of a system (the difference that makes a difference).",
           },
           {
-            name: "Axiom of Choice",
-            url: "https://en.wikipedia.org/wiki/Axiom_of_choice",
-            description:
-              "Observation functions as a choice function relative to each observer: every registration actualizes exactly one history from that observer's perspective, while unregistered histories are not erased.",
-          },
-          {
-            name: "Zermelo–Fraenkel Set Theory (ZFC)",
-            url: "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory",
-            description:
-              "The standard axiomatic foundation for mathematics. Holos borrows the notion of a choice function to describe Observation; no stronger set-theoretic claim is made.",
-          },
-          {
-            name: "Power Set",
-            url: "https://en.wikipedia.org/wiki/Power_set",
-            description:
-              "Background intuition for possibility-space expansion. Holos does not literally identify Creation with the power set: C(S) is the set of lawful continuations of S, constrained by physics and typically far smaller than all subsets.",
-          },
-          {
             name: "Phase Space",
             url: "https://en.wikipedia.org/wiki/Phase_space",
             description:
-              "The space of all possible states of a system. Creation expands possible states; Observation selects one trajectory to be actualized.",
+              "The space of all possible states of a system. Creation is the space of lawful states and trajectories; Observation registers trajectories from within and selects none.",
           },
           {
             name: "Invariant (physics)",
@@ -772,13 +724,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "The study of what exists. In Holos, observation decides which possible histories of spacetime actually become someone's lived experience.",
+              "The study of what exists. Holos separates structure, which exists whether or not it is lived, from presence, which requires observers.",
           },
           {
             name: "Epistemology",
             url: "https://en.wikipedia.org/wiki/Epistemology",
             description:
-              "The study of knowledge and belief. Holos distinguishes epistemic inference (what we know) from ontological selection (what becomes real).",
+              "The study of knowledge and belief. Holos distinguishes epistemic inference (what we know) from ontological presence (what is lived).",
           },
         ],
       },
@@ -792,25 +744,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Probability Theory",
             url: "https://en.wikipedia.org/wiki/Probability_theory",
             description:
-              "⊛ cannot be reduced to probability weighting; it describes ontological selection, not epistemic inference.",
+              "⊛ is not probability weighting: the Born weights are structural facts within C, while ⊛ concerns which structures are lived.",
           },
           {
             name: "Wave Function Collapse",
             url: "https://en.wikipedia.org/wiki/Wave_function_collapse",
             description:
-              "⊛ is not a physical collapse happening over time; it is about which outcome becomes real, not how that outcome comes about.",
+              "⊛ is not a physical collapse happening over time. No outcome is picked; each branch is registered from within.",
           },
           {
             name: "Bayesian Inference",
             url: "https://en.wikipedia.org/wiki/Bayesian_inference",
             description:
-              "Bayesian updating describes belief revision (epistemic). ⊛ describes how reality becomes real (ontological selection).",
+              "Bayesian updating describes belief revision (epistemic). ⊛ describes how structure becomes present (ontological).",
           },
           {
             name: "Equivalence Relation",
             url: "https://en.wikipedia.org/wiki/Equivalence_relation",
             description:
-              "⊛ induces an equivalence relation over spacetime histories rather than transitions between them.",
+              "Lived and unlit partition histories into two classes: a structural classification, not a transition between states.",
           },
         ],
       },
@@ -836,7 +788,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Quantum Decoherence",
             url: "https://en.wikipedia.org/wiki/Quantum_decoherence",
             description:
-              "The process by which quantum systems interact with their environment. Φ decides which part of that process ends up as lived experience.",
+              "The process by which quantum systems interact with their environment. Decoherence yields classical-looking branches; Φ marks where within them experience occurs.",
           },
         ],
       },
@@ -850,19 +802,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "Quantum mechanics requires unitarity. Holos preserves it by defining Manifestation as a Selection Operator; unobserved branches remain in Creation.",
+              "Quantum mechanics requires unitarity. Holos preserves it fully: nothing collapses, nothing is selected, and unobserved branches remain in Creation as unlit structure.",
           },
           {
             name: "Hilbert Space",
             url: "https://en.wikipedia.org/wiki/Hilbert_space",
             description:
-              "The mathematical space of all possible quantum states. The operator M acts as a weighting function without deleting branches from the global Hilbert space.",
+              "The mathematical space of all possible quantum states. Holos deletes no branches from it; the Born weights are structural facts about it.",
           },
           {
             name: "Schrödinger Equation",
             url: "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation",
             description:
-              "Φ does not replace the Schrödinger equation; it adds a Manifestation Constraint that leaves the quantum math untouched while determining which histories become lived experience.",
+              "Φ does not replace or modify the Schrödinger equation. It marks where experience occurs and leaves the quantum math untouched.",
           },
           {
             name: "Quantum Mechanics",
@@ -886,7 +838,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "The Manifestation Constraint determines which histories become lived experience, without altering the underlying quantum math.",
+              "Histories that contain observers are lived; the rest remain unlit structure. The underlying quantum math is unaltered.",
           },
         ],
       },
@@ -897,22 +849,16 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/logic#mathematical-formalism",
         items: [
           {
-            name: "Functor",
-            url: "https://en.wikipedia.org/wiki/Functor",
-            description:
-              "Category-theoretic background. Holos does not claim ⊛ is an endofunctor: ⊛ is ordinary composition (generate, then register: R = O(C(S))), with no exotic algebraic properties claimed.",
-          },
-          {
             name: "Information Theory",
             url: "https://en.wikipedia.org/wiki/Information_theory",
             description:
-              "Sending information assumes a causal signal passes between places; ⊛ works differently: it selects which history is real, not which signal travels.",
+              "Sending information assumes a causal signal passes between places; ⊛ sends nothing. It concerns which histories are lived, not which signals travel.",
           },
           {
             name: "Measurement in Quantum Mechanics",
             url: "https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics",
             description:
-              "Measurement models the physical interaction between systems; Observation in Holos instead selects which of the already-consistent histories becomes real.",
+              "Measurement models the physical interaction between systems; Observation in Holos is registration from within. It selects nothing and alters no interaction.",
           },
           {
             name: "Hilbert Space",
@@ -964,19 +910,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "Predictions about how reality comes into being through participation; observers are what keeps the block universe self-consistent.",
+              "Predictions about how structure becomes present as experience. Observers register the block universe from within; they do not hold it together.",
           },
           {
             name: "Block universe",
             url: "https://en.wikipedia.org/wiki/Block_universe",
             description:
-              "Observers are the constraint that keeps the block universe internally consistent (Axiom 2).",
+              "The structural layer of Holos: tenseless and observer-independent. Observers register it from within; its consistency does not depend on them.",
           },
           {
             name: "Anthropic principle",
             url: "https://en.wikipedia.org/wiki/Anthropic_principle",
             description:
-              "Participatory Anthropic Principle: observable constants favor life by necessity, not chance.",
+              "Holos reframes anthropic selection as ontological filtering: observer-free universes may exist as structure but are never lived.",
           },
           {
             name: "Cosmic microwave background (CMB) polarization",
@@ -988,7 +934,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Past hypothesis",
             url: "https://en.wikipedia.org/wiki/Past_hypothesis",
             description:
-              "The universe began in a highly ordered, low-entropy state. Holos predicts uninhabitable branches are mathematically possible but never actually become real (no Φ).",
+              "The universe began in a highly ordered, low-entropy state. In Holos, branches where nothing could live remain unlit: real as structure, never lived (no Φ).",
           },
           {
             name: "Inflation (cosmology)",
@@ -999,7 +945,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Multiverse",
             url: "https://en.wikipedia.org/wiki/Multiverse",
             description:
-              "Branches where nothing could live are mathematically possible, but Holos says they never actually become real (no Φ).",
+              "Branches where nothing could live are real as structure, but in Holos they are never lived (no Φ).",
           },
         ],
       },
@@ -1013,7 +959,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Integrated Information Theory (IIT)",
             url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
             description:
-              "Holos measures consciousness with Φ: once a system crosses the threshold Φ_c, it has real subjective experience. IIT-based tools like PCI test for that crossing.",
+              "Holos borrows Φ as a measure of integration, not IIT's identity claim. Crossing Φ_c is where experience occurs; PCI is a practical proxy.",
           },
           {
             name: "Panpsychism",
@@ -1037,13 +983,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Perturbational Complexity Index (PCI)",
             url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
             description:
-              "IIT-inspired metric; sharp phase transitions at Φ_c align with onset of experiential reporting.",
+              "IIT-inspired metric with an empirically calibrated cutoff between conscious and unconscious states. Holos treats it as a proxy for integration, not a detector of presence.",
           },
           {
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Holos treats consciousness turning on as a sudden switch at Φ_c, not a dial; PCI should show a sharp jump, not a gradual slope.",
+              "Holos treats the onset of experience as a switch at Φ_c, not a dial. A sharp jump alone would not confirm this, since ordinary models predict tipping points too.",
           },
         ],
       },
@@ -1057,25 +1003,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Extended Wigner's Friend experiments",
             url: "https://www.science.org/doi/10.1126/sciadv.aaw9832",
             description:
-              "Two observers can hold different facts about the same event without breaking the underlying quantum math (unitarity). Which one appears to collapse depends on the observer's Φ-frame.",
+              "Two observers can hold different registered facts about the same event without breaking unitarity. In Holos each fact is indexed to its branch and observer.",
           },
           {
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "Conservation of all possibilities; Holos predicts relational consistency without objective collapse.",
+              "Conservation of all possibilities; Holos predicts agreement among communicating observers without objective collapse.",
           },
           {
             name: "Relational quantum mechanics",
             url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
             description:
-              "Holos supports Relational QM over Objective Collapse models (spontaneous gravity-induced collapse).",
+              "Holos borrows RQM's point that facts are indexed to observing systems, but sides with branching, which keeps the universal state RQM rejects.",
           },
           {
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
             description:
-              "Holos predicts relational facts, not objective collapse; collapse is relative to Φ frame.",
+              "Holos rejects objective collapse: evolution is unitary, and apparent collapse is registration within a branch.",
           },
         ],
       },
@@ -1086,52 +1032,52 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/predictions#experimentation",
         items: [
           {
-            name: "Hubble tension",
-            url: "https://en.wikipedia.org/wiki/Hubble_tension",
-            description:
-              "An open discrepancy between early- and late-universe expansion measurements. Holos takes no position on it.",
-          },
-          {
             name: "Wigner's friend",
             url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
             description:
-              "Facts are relational; no objective collapse; testable via Wigner's Friend experiments.",
+              "Registered facts are observer-indexed; no objective collapse. Extended Wigner's-friend experiments constrain the family of views Holos belongs to (Check B).",
           },
           {
-            name: "CMB-S4 / LiteBIRD",
-            url: "https://cmb-s4.org/",
+            name: "Bong et al. (2020), A strong no-go theorem on the Wigner's friend paradox",
+            url: "https://doi.org/10.1038/s41567-020-0990-x",
             description:
-              "Cosmology: constants tuned for observation; testable via CMB polarization.",
+              "Nature Physics: the Local Friendliness theorem and its photonic test. Absoluteness of observed events, locality, and freedom of choice cannot all hold; Holos gives up the first.",
+          },
+          {
+            name: "Siclari et al. (2017), The neural correlates of dreaming",
+            url: "https://doi.org/10.1038/nn.4545",
+            description:
+              "Nature Neuroscience: dream reports occur after awakenings from both REM and NREM sleep, tracked by local activity in posterior cortex. The live challenge for Test A.",
           },
           {
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Observer emergence as critical phase transition; consciousness requires Φ_c to operationalize Axiom 2.",
+              "If the threshold is a genuine critical point, it should leave measurable signatures near the boundary; see A path to the threshold.",
           },
           {
             name: "TMS-EEG",
             url: "https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG",
             description:
-              "PCI computed from TMS-EEG responses to quantify integrated information; sharp drop at anesthesia depth tests Φ_c.",
+              "PCI is computed from TMS-EEG responses; it is the integration proxy Test A relies on.",
           },
           {
             name: "Perturbational Complexity Index (PCI)",
             url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
             description:
-              "Validated across sleep and anesthesia; Holos predicts sharp threshold at Φ_c.",
+              "Validated across sleep, anesthesia, and disorders of consciousness; Test A uses it to separate integration from responsiveness.",
           },
           {
             name: "Propofol / BIS index",
             url: "https://en.wikipedia.org/wiki/Propofol",
             description:
-              "Anesthesia depth; transition analysis: PCI drop gradual vs. sharp at consistent depth.",
+              "Anesthesia depth: one of the states Test A compares. A drop in integration alone confirms nothing specific to Holos.",
           },
           {
             name: "Recurrent neural network",
             url: "https://en.wikipedia.org/wiki/Recurrent_neural_network",
             description:
-              "RNNs, LSTMs, Transformers with recurrence; test whether integration metrics show phase transition as complexity increases.",
+              "Recurrent architectures; relevant to whether artificial systems can meet the recursion and integration requirements for observation.",
           },
           {
             name: "Neuromorphic engineering",
@@ -1167,7 +1113,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Relational quantum mechanics",
             url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
             description:
-              "Test whether observer-cut (how system is partitioned) affects measured outcomes; Holos predicts relational consistency.",
+              "Holos shares RQM's observer-indexed facts but not its rejection of a universal state; a positive Check B result supports the family, not Holos alone.",
           },
         ],
       },

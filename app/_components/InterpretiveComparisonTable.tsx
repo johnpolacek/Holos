@@ -32,7 +32,9 @@ export default function InterpretationComparisonTable() {
 
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">Collapse?</td>
-            <td className="py-3 pr-6">No physical collapse; ontological selection</td>
+            <td className="py-3 pr-6">
+              No collapse (branching); each branch registered from within
+            </td>
             <td className="py-3 pr-6">No collapse (branching)</td>
             <td className="py-3 pr-6">Relative collapse only</td>
             <td className="py-3">Belief update</td>
@@ -50,13 +52,13 @@ export default function InterpretationComparisonTable() {
             <td className="py-3 pr-6 font-medium">Reality without observers</td>
             <td className="py-3 pr-6">Unlit structure: real as pattern, never lived</td>
             <td className="py-3 pr-6">Fully real</td>
-            <td className="py-3 pr-6">Undefined</td>
-            <td className="py-3">Undefined</td>
+            <td className="py-3 pr-6">Relations still hold; any system can observe</td>
+            <td className="py-3">Outside the theory&apos;s scope</td>
           </tr>
 
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">Multiple realities?</td>
-            <td className="py-3 pr-6">Yes, cut-relative realized realities</td>
+            <td className="py-3 pr-6">Yes, branches: lived where observers exist</td>
             <td className="py-3 pr-6">Yes, branching universes</td>
             <td className="py-3 pr-6">Yes, relative facts</td>
             <td className="py-3">No</td>
@@ -64,7 +66,7 @@ export default function InterpretationComparisonTable() {
 
           <tr className="border-b border-black/10">
             <td className="py-3 pr-6 font-medium">Observer cuts</td>
-            <td className="py-3 pr-6">Create complete realities</td>
+            <td className="py-3 pr-6">Fixed by structure: a local Φ-maximum above Φc</td>
             <td className="py-3 pr-6">Irrelevant</td>
             <td className="py-3 pr-6">Change relations</td>
             <td className="py-3">Change beliefs</td>
@@ -80,8 +82,10 @@ export default function InterpretationComparisonTable() {
 
           <tr>
             <td className="py-3 pr-6 font-medium">Key prediction focus</td>
-            <td className="py-3 pr-6">Φ thresholds, observer cuts, dark-sector structure</td>
-            <td className="py-3 pr-6">Branch interference</td>
+            <td className="py-3 pr-6">
+              Integration threshold; no consciousness-linked deviation from quantum mechanics
+            </td>
+            <td className="py-3 pr-6">Same as standard quantum mechanics</td>
             <td className="py-3 pr-6">Relational consistency</td>
             <td className="py-3">Decision coherence</td>
           </tr>

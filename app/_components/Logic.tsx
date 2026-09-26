@@ -219,8 +219,9 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               Read this as follows: physics defines a space of consistent possibilities. Observation
-              integrates one such possibility into a lived world. The result is a realized reality
-              that then becomes the context for further possibilities.
+              registers them from the inside, wherever an observer exists: one lived history per
+              perspective. Nothing is picked out and nothing is discarded. Each registered history
+              then becomes the context for further possibilities.
             </p>
 
             <p className="leading-relaxed">
@@ -361,8 +362,8 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               This manifestation is structural, not causal. Observation does not generate physical
-              events or alter lawful dynamics. It determines which already-consistent structures are
-              realized as lived history.
+              events or alter lawful dynamics. It marks which already-consistent structures are
+              lived: the ones that contain observers. It picks no outcome and erases none.
             </p>
 
             <p className="leading-relaxed text-black/70">
@@ -378,13 +379,14 @@ export default function Logic() {
             </h3>
 
             <p className="leading-relaxed">
-              If spacetime is treated as a complete four-dimensional structure, observation
-              functions as a global constraint rather than a time-local force.
+              If spacetime is treated as a complete four-dimensional structure, consistency is a
+              property of whole histories, not something enforced moment by moment.
             </p>
 
             <p className="leading-relaxed">
-              Later states restrict earlier ones in the same logical sense that a completed solution
-              constrains intermediate steps. This does not require backward causation or signaling.
+              A history is consistent the way a completed solution is: every part fits every other
+              part. Observation adds no constraint to this. It registers histories that are already
+              consistent. Nothing here requires backward causation or signaling.
             </p>
 
             <p className="leading-relaxed">
@@ -432,14 +434,15 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               A universe that is real as lived experience must contain observers somewhere within
-              it. Observation is not an evolutionary accident layered onto an otherwise complete
-              world.
+              it. Observation is not an extra layered onto an otherwise complete world: without it,
+              the world is complete as structure but not present as experience.
             </p>
 
             <p className="leading-relaxed">
-              Given sufficient complexity and integration, physical systems will produce observers.
-              This is not because the universe is designed to do so, but because a realized universe
-              cannot remain ontologically open.
+              Wherever physical systems reach sufficient integration, observers exist, because
+              crossing the threshold is what being an observer is. This is not design, and nothing
+              guarantees it happens everywhere. Universes or branches that never produce observers
+              remain unlit structure: consistent, but never lived.
             </p>
 
             <p className="leading-relaxed text-black/70">
@@ -542,8 +545,10 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Causal autonomy:</strong> the system’s current state must materially constrain
-              its own future states. Otherwise, experience would be a byproduct that changes
-              nothing: present, but making no difference to what the system does.
+              its own future states. A system driven entirely from outside is a relay, not a unified
+              whole. This is a requirement on physical structure, not a claim that experience adds a
+              force: the structure that hosts experience does the causal work, which is all Holos
+              asks of it.
             </li>
           </ol>
 
@@ -659,11 +664,10 @@ export default function Logic() {
           </div>
 
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Conservation and selection</h3>
+            <h3 className="text-xl font-semibold text-black/90">Conservation and branching</h3>
             <p className="leading-relaxed">
-              Holos treats manifestation as a selection constraint, not as the destruction of
-              possibilities. Information is conserved. What is not experienced is not assumed to be
-              erased.
+              Holos treats manifestation neither as selection nor as the destruction of
+              possibilities. Information is conserved. What is not experienced is not erased.
             </p>
             <p className="leading-relaxed">
               On the physics, this commits Holos to a branching picture. The quantum state evolves
@@ -756,8 +760,8 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">Block-universe compatibility</h3>
             <p className="leading-relaxed">
               If spacetime is treated as a complete four-dimensional structure, Holos treats
-              observation as a global constraint on experienced history rather than a
-              moment-by-moment collapse process.
+              observation as a feature of whole experienced histories rather than a moment-by-moment
+              collapse process.
             </p>
             <p className="leading-relaxed">
               Eternalism and the relational commitment describe different layers of the framework.
@@ -1178,7 +1182,7 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              Regions of reality that never form an aperture are genuine limits on the
+              Branches or universes that never form an aperture are genuine limits on the
               totality&apos;s experiential reach: unlit structure, real as pattern and never lived.
               Holos does not soften this into a faint universal experience; doing so would erase the
               distinction between lit and unlit on which the rest of the framework depends.

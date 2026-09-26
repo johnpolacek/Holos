@@ -48,8 +48,8 @@ export default function Predictions() {
             </li>
             <li className="leading-relaxed">
               <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
-              the structural predictions that can fail, and a standing bet that could falsify the
-              framework outright.
+              a structural test that can fail, a consistency check, and a standing bet that could
+              falsify the framework outright.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
@@ -324,12 +324,13 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Holos therefore aligns with relational approaches in which states are not absolute
-              properties, but facts relative to observing systems, and with branching approaches in
-              which no possibility is erased. The operational signature is agreement: whenever
-              observers within a branch compare records, the records match. A confirmed,
-              irreconcilable record mismatch between communicating observers would falsify this
-              commitment.
+              Holos therefore sides with branching approaches, in which no possibility is erased,
+              and borrows one insight from relational approaches: registered facts are indexed to
+              the systems that register them. It does not adopt Relational Quantum Mechanics itself,
+              which rejects the universal state that branching requires. The operational signature
+              is agreement: whenever observers within a branch compare records, the records match. A
+              confirmed, irreconcilable record mismatch between communicating observers would
+              falsify this commitment.
             </p>
           </div>
 
@@ -418,11 +419,13 @@ export default function Predictions() {
           <p className="leading-relaxed">
             What remains testable is not presence but its <strong>structural preconditions</strong>:
             claims about what observation requires, and how registered facts behave. These live in
-            the physical world and can genuinely fail. Two are worth stating, each with an explicit
-            way for Holos to lose. A prediction Holos shares with rival theories cannot single it
-            out, but a shared prediction it could fail is still worth more than one it cannot.
-            Beneath both sits a standing bet, stated after the tests, on which the framework stakes
-            itself outright.
+            the physical world and can genuinely fail. One is stated below as a test, with an
+            explicit way for Holos to lose. The other is stated as a consistency check: its expected
+            outcome is the one standard quantum mechanics already predicts, so it guards against
+            contradiction rather than singling Holos out. A prediction Holos shares with rival
+            theories cannot single it out, but a shared prediction it could fail is still worth more
+            than one it cannot. Beneath both sits a standing bet, stated after them, on which the
+            framework stakes itself outright.
           </p>
         </div>
       </section>
@@ -439,9 +442,11 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Everyday practice assumes a responsive system is conscious and an unresponsive one is
-            not. In Holos, what matters is <em>integration</em>, and integration can come apart from
-            outward behavior. When the two diverge, Holos bets that experience follows integration.
+            Bedside assessment treats responsiveness as the sign of consciousness: a patient who
+            follows commands is conscious, and one who does not is presumed not to be. No serious
+            theory equates the two, but the proxy runs deep in practice. In Holos, what matters is{" "}
+            <em>integration</em>, and integration can come apart from outward behavior. When the two
+            diverge, Holos bets that experience follows integration.
           </p>
 
           <p className="leading-relaxed">
@@ -497,32 +502,63 @@ export default function Predictions() {
           <div>
             <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
-              If reported experience tracks behavioral responsiveness or raw arousal rather than
-              integration (if high-integration, unresponsive states turn out to be reliably
-              experience-free), the framework&apos;s core structural claim is undermined.
+              The clean way to lose is a positive report from below the line: subjects who, on
+              waking or recovering, give detailed reports of experience from periods when their
+              integration was below threshold, by a measure and cutoff fixed in advance. A report is
+              evidence that something was experienced, and it cannot be explained away as a failure
+              of memory. If such reports turn up reliably, experience does not depend on integration
+              the way Holos claims, and the framework&apos;s core structural claim fails. The
+              reverse finding, high-integration states that yield no reports, counts against Holos
+              only once report failure can be ruled out (see below).
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">
-              The confound, and which half survives
+              The confound, and which reports count
             </h4>
             <p className="leading-relaxed">
               Reports require memory, and the states this test targets are precisely those where
               memory is least reliable. A report of nothing is therefore ambiguous between{" "}
               <em>no experience occurred</em> and <em>experience occurred and was not encoded</em>.
               The evidence delivers unremembered; the prediction needs unexperienced. This confound
-              is not currently controlled, and it weakens one direction of the test: absent reports
-              from low-integration states cannot by themselves confirm absent experience.
+              is not currently controlled, so silence carries little weight in either direction: it
+              cannot confirm absent experience in low-integration states, and it cannot refute
+              present experience in high-integration ones.
             </p>
             <p className="leading-relaxed">
-              The other direction is unaffected and carries the weight. Where integration is high
-              and behavior is absent, subjects report rich experience: ketamine states, REM
-              dreaming, complex seizures. Those are positive reports, not inferences from silence,
-              and they are exactly the cases where the behavioral assumption fails and the
-              integration account succeeds. Holos rests Test A on this direction, and treats the
-              memory-confounded direction as suggestive pending a design that calibrates report
-              failure against states with known encoding.
+              Positive reports are unaffected, and they carry the test both ways. Where integration
+              is high and behavior is absent, subjects report rich experience: ketamine states, REM
+              dreaming, complex seizures. Those confirm the prediction without leaning on silence.
+              Where integration is low, a positive report is the losing case described above. Holos
+              rests Test A on positive reports, and treats silence as suggestive pending a design
+              that calibrates report failure against states with known encoding.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">
+              The live challenge: dreaming in non-REM sleep
+            </h4>
+            <p className="leading-relaxed">
+              The losing case is not hypothetical. Awakenings from non-REM sleep often produce dream
+              reports, yet non-REM sleep is where global measures such as PCI fall well below the
+              waking range. If vivid reports reliably follow periods whose measured integration sat
+              below the cutoff, Test A is lost.
+            </p>
+            <p className="leading-relaxed">
+              Holos has one principled reply, and it comes with a condition. The maximality
+              condition allows an aperture smaller than the whole cortex, and{" "}
+              <a href="https://doi.org/10.1038/nn.4545" target="_blank" rel="noopener noreferrer">
+                work on the neural correlates of dreaming
+              </a>{" "}
+              finds that whether a dream is reported, in REM or non-REM sleep, tracks local activity
+              in posterior cortex rather than the state of the brain as a whole. An aperture
+              confined to that region could be integrated above threshold while the whole brain is
+              not. But the reply is admissible only if the measure is local by commitment, stated
+              before the data are in. A measure chosen afterward to rescue the prediction would turn
+              the test into decoration, the failure the note on integration measures below warns
+              against.
             </p>
           </div>
 
@@ -542,10 +578,10 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* Experiment 2 */}
+      {/* Check B */}
       <section id="experiment-2" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          Test B: Observer-relative facts
+          Check B: Observer-relative facts
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -554,14 +590,12 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            This test lives in quantum foundations, not in the theory of mind, and its limit comes
-            first: the outcome it anticipates is also the outcome textbook quantum mechanics
-            anticipates. Quantum mechanics itself proves that incompatible measurement setups cannot
-            always be combined into one account that holds for every observer. What experiments in
-            this family probe is the family of interpretations Holos belongs to (branching,
-            relational, no absolute observed events), not Holos alone. The framework&apos;s
-            distinctive content, which structures are present as experience, is ontological rather
-            than experimental.
+            This check lives in quantum foundations, not in the theory of mind, and its status comes
+            first: it is a consistency check, not a test that could single Holos out. The outcome it
+            anticipates is the one textbook quantum mechanics already predicts. What experiments in
+            this family probe is the family of interpretations Holos belongs to (branching, with no
+            absolute observed events), not Holos alone. The framework&apos;s distinctive content,
+            which structures are present as experience, is ontological rather than experimental.
           </p>
 
           <p className="leading-relaxed">
@@ -574,11 +608,18 @@ export default function Predictions() {
               Wigner&apos;s-friend
             </a>{" "}
             experiments, in which one observer measures another observer who has already made a
-            measurement, already pursue exactly this question. The 2020 <em>Local Friendliness</em>{" "}
-            no-go theorem and its photonic tests show that if an in-lab observation counts as a
-            genuine fact, then absoluteness of observed events, locality, and freedom of choice
-            cannot all hold together. Holos gives up the absoluteness of observed events: registered
-            facts are observer-relative, while structural facts and consistency remain intact.
+            measurement, already pursue exactly this question. The 2020{" "}
+            <a
+              href="https://doi.org/10.1038/s41567-020-0990-x"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <em>Local Friendliness</em> no-go theorem
+            </a>{" "}
+            and its photonic tests show that if an in-lab observation counts as a genuine fact, then
+            absoluteness of observed events, locality, and freedom of choice cannot all hold
+            together. Holos gives up the absoluteness of observed events: registered facts are
+            observer-relative, while structural facts and consistency remain intact.
           </p>
 
           <p className="leading-relaxed">
@@ -589,79 +630,32 @@ export default function Predictions() {
             change nothing physical, a prediction formalized as the standing bet below.
           </p>
 
-          <p className="leading-relaxed">
-            The experiment below is a laboratory analog: it probes whether different stable
-            partitions of the same physical system can yield distinct, internally consistent outcome
-            structures that cannot all be maintained as simultaneously single-valued facts.
-          </p>
-
           <div>
-            <h4 className="font-semibold text-black/90 mb-1">Objective</h4>
+            <h4 className="font-semibold text-black/90 mb-1">Holos Expectation</h4>
             <p className="leading-relaxed">
-              Test whether the way a system is sliced into observer and observed actually creates
-              the facts each slice sees, or merely re-describes one state that exists independently
-              of any observer.
+              Local Friendliness inequalities keep being violated exactly as quantum mechanics
+              predicts, at every scale the experiments reach, including as the friend is made larger
+              and more complex.
             </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">System</h4>
-            <p className="leading-relaxed">
-              A controlled{" "}
-              <a
-                href="https://en.wikipedia.org/wiki/Superconducting_quantum_computing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                superconducting qubit
-              </a>{" "}
-              array (for example, 8–20 qubits) evolved under a known Hamiltonian (the rule that
-              fixes how the system changes over time) with tunable decoherence (how fast its quantum
-              character blurs into ordinary classical behavior) and noise.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">Observer Cuts</h4>
-            <ul className="flex flex-col gap-2 pl-6 list-disc">
-              <li className="leading-relaxed">
-                <strong>Local:</strong> individual qubit readouts.
-              </li>
-              <li className="leading-relaxed">
-                <strong>Regional:</strong> block-level collective observables.
-              </li>
-              <li className="leading-relaxed">
-                <strong>Global:</strong> a small set of global observables.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-black/90 mb-1">Holos Prediction</h4>
-            <ul className="flex flex-col gap-2 pl-6 list-disc">
-              <li className="leading-relaxed">
-                Each cut yields stable outcome statistics when repeated.
-              </li>
-              <li className="leading-relaxed">
-                The outcome structures are not jointly maintainable as a single,
-                observer-independent account without importing additional records or structure.
-              </li>
-            </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
-              If all observer cuts reduce cleanly to a single underlying, observer-independent
-              description without tension, or if extended Wigner&apos;s-friend tests decisively
-              restore the absoluteness of observed events, Commitment 3 is undermined.
+              No experiment in this family can restore the absoluteness of observed events on its
+              own: the theorem is a proof, and a violation only forces a choice among its
+              assumptions. What could go wrong for Holos is dependence on scale. If the violations
+              shrink or vanish as the friend grows toward a genuine observer, beyond what
+              decoherence accounts for, observation is doing something physical, and the standing
+              bet below is lost.
             </p>
           </div>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            <strong>What this can and cannot show:</strong> tests Commitment 3 (facts are relational
-            but consistent). This is a physical test with real failure conditions, but Holos shares
-            its relational prediction with{" "}
+            <strong>What this can and cannot show:</strong> checks Commitment 3 (facts are
+            relational but consistent) against quantum mechanics as it is actually observed. Holos
+            shares its expectation with standard quantum mechanics and with other views that give up
+            absolute observed events, such as{" "}
             <a
               href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics"
               target="_blank"
@@ -669,38 +663,11 @@ export default function Predictions() {
             >
               Relational Quantum Mechanics
             </a>
-            ; a positive result supports the family, not Holos alone.
-          </p>
-        </div>
-
-        {/* Relation to the Quantum Eraser */}
-        <div className="flex flex-col gap-4 bg-black/5 p-4 rounded-md">
-          <h4 className="font-semibold text-black/90">Relation to the Quantum Eraser</h4>
-
-          <p className="leading-relaxed text-black/80">
-            This experiment is conceptually related to the{" "}
-            <a
-              href="https://en.wikipedia.org/wiki/Quantum_eraser_experiment"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              Quantum Eraser
-            </a>
-            , which shows that what counts as an observable fact depends on how information is
-            registered. The underlying quantum evolution, which loses no information, is preserved
-            in both cases.
-          </p>
-
-          <p className="leading-relaxed text-black/80">
-            The difference is scope. Quantum erasers toggle between mutually exclusive readouts.
-            Here, the question is whether multiple <em>stable observer cuts</em> can each support
-            internally consistent facts that cannot all be maintained as a single
-            observer-independent account.
-          </p>
-
-          <p className="leading-relaxed">
-            This is not about erasing the past or recovering hidden information.
+            ; a positive result supports the family, not Holos alone. A laboratory analog proposed
+            earlier, superconducting qubits sliced into different observer cuts, is retired: by
+            Holos&apos;s own threshold, qubit readouts register nothing, and its predicted result
+            was ordinary quantum contextuality, which the branching picture Holos adopts already
+            accounts for.
           </p>
         </div>
       </section>
@@ -730,10 +697,15 @@ export default function Predictions() {
 
           <p className="leading-relaxed text-black/70 text-sm">
             Some observer-centered frameworks quietly hope consciousness does something physical.
-            Holos formally bets that it does not, and stakes itself on the bet. A century of placing
-            ever-larger systems into superposition has found no such deviation; Holos treats that
-            record not as an embarrassment to explain away, but as its own prediction, confirmed so
-            far.
+            Holos formally bets that it does not, and stakes itself on the bet. The bet is untested
+            so far. A century of placing ever-larger systems into superposition has found no
+            deviation of any kind, but by Holos&apos;s own threshold none of those systems was an
+            observer: photons, molecules, and superconducting circuits all sit far below{" "}
+            <MathInline>{"\\Phi_c"}</MathInline>. That record shows quantum mechanics holding at
+            those scales; it does not yet reach the case the bet is about. The bet is also the one
+            standard physics makes. What makes it worth stating is that Holos, unlike views that
+            need consciousness to act, cannot hedge on it: the first experiment to put a genuine
+            observer in the friend&apos;s role settles it.
           </p>
         </div>
       </section>
