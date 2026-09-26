@@ -315,3 +315,162 @@ Keep entries concise and grounded in inspected repo evidence.
 - Resolution (door S): the fallback is declared now, before any result exists, so it is not a rescue. A consciousness-linked collapse falsifies Holos's physics, not its core. Holos would then adopt a Chalmers and McQueen style collapse reading, with the threshold as the collapse point, Omega as the universe with one history, and lived, lit, and unlit applying within it. The core still loses through Test A, which no reading of quantum physics escapes.
 - Edited `Predictions.tsx` (the Testability bullet, the testability intro, and the standing bet's loss condition, with two new paragraphs: the declared cost and why it is not a rescue), `citation-sections.tsx` (Objective collapse note), `Logic.tsx` (a Revisions entry for "falsified outright"), and `.cursor/rules/holos-guardrails.mdc` (a retired-claim entry).
 - Verified via `tsc --noEmit`, `biome check` (only the 13 existing warnings), SSR render checks of `/logic`, `/predictions`, and `/citations`, and regeneration of `public/holos.pdf`.
+
+## [2026-09-26] update | "core" means Axioms 1, 3, 4, 5 (review item 1, option a)
+
+- A cold review found "core" used two ways: `Logic.tsx` called all five axioms the core, while the standing bet's fallback says losing Axiom 2 "would not touch the core", and the Commitments intro said rejecting any Commitment fails the framework, though Commitment 3 rests on Axiom 2.
+- Resolution: the five axioms are the framework; the core is Axioms 1, 3, 4, and 5, matching door S. Axiom 2 is the side taken on quantum physics, with the declared fallback. The Commitments intro now names 1 and 2 as fundamental and points Commitment 3 to the standing bet.
+- Explored and deferred: demoting Axiom 2 out of the axioms entirely (four axioms, a "current physics reading" section, about 39 renumbered references). Revisit after the Omega review items, since Axiom 5's shape may change.
+- Edited `Logic.tsx` (Axioms intro), `Predictions.tsx` (Commitments intro), `.cursor/rules/holos-guardrails.mdc`.
+
+## [2026-09-26] update | intro stops selling definitions and companions as payoffs (review items 2 and 3)
+
+- The intro's consequences sentence claimed the silence of the night sky as a consequence of Holos, though the Aliens section says the Integration Hypothesis is a companion whose failure leaves the core untouched. It also billed "a single conscious moment lights its entire causal past" as a payoff, though D7 makes lit a classification, true by definition.
+- Resolution: the sentence now leads with what the core delivers (one experiencer waking at the threshold; the causal past as the world experience is made from; a structural answer to why we are here) and names the silence explanation as a companion idea, separate from the core.
+- Edited `content-data.tsx` (Introduction, fourth paragraph).
+
+## [2026-09-26] update | Holosian H5 rewritten in civilizational terms (review item 4, option j)
+
+- H5 "Asymptotic Closure" described "complete, contradiction-free closure", the ⊛ and Omega vocabulary, which fused civilizational integration with the observer threshold that the Aliens section keeps apart.
+- Resolution: H5 is now "The Limit": maximal coherence at minimal waste, a limit concept no civilization reaches. No closure language.
+- Edited `Predictions.tsx` (Holosian Scale, H5).
+
+## [2026-09-26] update | citation notes swept for drift (review item 5, options n then p)
+
+- Four notes contradicted current Holos: Von Neumann-Wigner said a consciousness-linked deviation "would falsify Holos" (now: its no-collapse physics, not its core); Ontology and Causality carried old jargon, Causality misdefining causality itself; Quantum Mechanics said Φ "adds a constraint", against "registration adds no constraint".
+- A sweep of all 177 notes found 20 more. Contradictions: an Ontology note calling histories with observers "lived" (now lived inside observers, lit causal pasts); both Fermi notes selling the Integration Hypothesis as Holos's resolution (now a companion); Omega Point describing Tipler's endpoint without a disclaimer; RQM omitting that Holos keeps the universal state. Inaccuracies: Loop Quantum Gravity, Riemann Sphere, AdS/CFT, Infinite Sets ("wrapped"), Eternalism ("simultaneously"), Causal density (called perturbation-based). Overclaims: three Ephemeralization notes crediting Fuller with inward-turning civilizations; Collective intelligence implying group observers; vague Network theory and Neuromorphic fragments; "(no Φ)" in Past hypothesis and Multiverse; "ontological predictions" in Dynamics.
+- Deferred: the "switch" and "critical point" wording in the Toker, Friedman, and Phase transition notes waits on review item 12.
+- Edited `citation-sections.tsx` only; numbering unchanged.
+
+## [2026-09-26] update | Omega's payoff re-grounded: open individualism (review item 6, option t)
+
+- A cold review argued Axiom 5 bought only a count: "the one subject wakes here" and "a new subject arises here" leave the same thing to the threshold, so "economy" saved a number, not an explanation.
+- Resolution: the site now concedes that the count alone explains nothing about where or what, and names Omega's real work: it dissolves "why am I this one?" (the vertiginous question) and the duplication puzzle (Parfit's teletransportation case: both copies are you, with no remainder). The view is named open individualism, with Kolak as its nearest modern relative.
+- Edited `content-data.tsx` (Omega Point, second and last paragraphs), `Logic.tsx` (Axiom 5 commentary, Lineage, Why One Experiencer, Revisions: new "Economy as Omega's payoff" entry and an updated reason on the theological-secular entry), `citation-sections.tsx` (three new Omega Point entries), `.cursor/rules/holos-guardrails.mdc`.
+- Follow-on: sharpens review item 15, since self-locating Born odds assume "which branch am I in?" is a live question, which monism answers "all of them".
+
+## [2026-09-26] update | "fundamental" defined as underived (review item 7, option x)
+
+- A cold review found experience called "fundamental, the totality's own" while also absent below the threshold and fixed by physics in any possible world (Axiom 4), and Proposition I denying intrinsic properties without Axiom 1's carve-out for experience.
+- Resolution (starting-point reading): "fundamental" means underived, the one fact Holos starts from; not everywhere, and not free of physics. Where the structure is, the experience is, as inside and outside of one event.
+- Edited `content-data.tsx` (Hard Problem), `Logic.tsx` (D4 gains a defining paragraph; Proposition I gains Axiom 1's carve-out).
+- Rejected alternatives: a wetness reading (drop "fundamental", experience as identity only) and a talent reading (a capacity everywhere, exercised only above threshold, hard to tell from no capacity).
+
+## [2026-09-26] update | Holos among theories of mind, and six named debates (review item 8, option ac)
+
+- A cold review found Holos reinventing named debates without naming them. Six are now named where Holos meets them: priority cosmopsychism and its decomposition problem (Why One Experiencer), dual-aspect and Russellian monism (Axiom 4, beside Spinoza), the phenomenal concept strategy (Axiom 4's floor-plan argument), the boundary problem (the maximality condition), and the anti-vagueness argument (Consciousness, after the sharp-threshold paragraph; Holos takes the sharp-cutoff branch and owes a reason the cutoff falls where it does). Open individualism was added under item 6.
+- New `MindComparisonTable.tsx`: Holos against IIT, Global Workspace, Panpsychism, Cosmopsychism, and Illusionism across seven rows (fundamental, where experience occurs, sharp threshold, how many subjects, hardest problem, current AI, testability). It sits in a new Logic section `#mind-comparison` right after the quantum table, which is retitled "Holos among Quantum Interpretations". Nav entries: "Among Interpretations", "Among Theories of Mind".
+- Citations: nine entries added to the Logic Comparison subsection. DOIs for Goff 2017, Nagasawa and Wager 2016, Antony 2006, and Rosenberg 2004 were checked against Crossref (OUP returns 403 to scripted requests).
+- John asked for more "Holos among ___" views; candidates are listed in the session, pending his pick.
+- Verified: `tsc --noEmit`, `biome check app` (13 existing infos), `/` and `/logic` render with the new text. The seven-column table was not visually inspected.
+
+## [2026-09-26] update | the threshold: one universal shape, one conjectured value (review items 9 and 12, option an)
+
+- A cold review asked whether Φ_c is one number for every system (a new constant of nature) or each system's own crossing point, and found the site mixing first-order language (water freezing, "a sharp jump", neural inertia as "a hallmark of sharp switches") with continuous-transition evidence (criticality, slowing, fluctuations).
+- John liked the ambitious single number but not if illogical. Analysis: it is coherent (the Chandrasekhar limit is a universal threshold) but waits on a size-independent measure of integration. A stronger and more testable claim is universality: very different systems share a transition's shape (critical exponents) while crossing at different points.
+- Resolution (door AN, layered): the commitment is one universality class for every transition into observerhood; one universal value of Φ_c is a stated conjecture. A continuous transition gives exactly zero on one side and smooth growth on the other, which matches "anyone home is binary, richness is graded". Neural inertia (hysteresis) now counts as evidence for a sharp but first-order switch, and so against universality unless pharmacological; slowing and fluctuations point to a continuous transition. The two signatures discriminate, which makes the question testable.
+- Edited `content-data.tsx` (water-freezing analogy replaced by iron's Curie point), `Logic.tsx` (new "What is universal" paragraphs in the Φ section; Open Problems threshold value; A path to the threshold: fingerprints, Beggs and Plenz 2003 avalanches, neural inertia reread; Revisions entry), `Predictions.tsx` (neuroscience expectation), `MindComparisonTable.tsx` (sharp-threshold cell), `citation-sections.tsx` (Toker, Friedman, and Phase transition notes; three new Ontology entries). Beggs and Plenz DOI checked against Crossref.
+
+## [2026-09-26] update | aboutness made structural (review item 10, option ao)
+
+- A cold review found aboutness ("grounded in senses of its own; descriptions by other observers cannot ground it alone") judged the message, not the machine. Two identical microphones, one hearing birdsong and one hearing birdsong described, would differ in observerhood. The sharpest case: a brain in a vat fed a perfect simulation has identical inner activity, so Axiom 4 says it experiences, while the old rule said it is not an observer. Helen Keller, who learned the world largely through spelled words, showed the rule was also too strict.
+- Resolution: aboutness is now structural. Integrated states must track something beyond the system through input channels of its own, as it happens; any channel counts, text included. Aaronson's inert arrays stay excluded (nothing reaches them). Harnad is kept, read structurally.
+- Consequence: current AI meets aboutness narrowly (the conversation it tracks), and its open question narrows to integration alone. "A system given live senses would answer the first question" is replaced: cameras would widen its world without settling the question.
+- Edited `Logic.tsx` (requirement 6; Why aboutness is on the list; Revisions: one entry reworded, one added), `content-data.tsx` (AI paragraph), `MindComparisonTable.tsx`, `citation-sections.tsx` (Harnad), `.cursor/rules/holos-guardrails.mdc`.
+
+## [2026-09-26] update | observer requirements reduced to four (review item 11, option ar)
+
+- A cold review found recursion ("the system's own state must inform its next state") and causal autonomy passed by any thermostat, pendulum, or cooling rock, so they filtered nothing. What they aimed at, excluding one-way sweeps and outside-driven relays, is the feedback part of integration: any adequate measure scores a purely feedforward system at zero.
+- Resolution: the requirements are integration (now explicitly including feedback in both directions over time, with the mouse and no-introspection clarification and the Axiom 4 no-force note moved in), differentiation, temporal cohesion, and aboutness. A Revisions entry records the change.
+- Consequence: the AI paragraph no longer ticks a feedback box with "each word is fed back in"; the feedback question belongs to integration, the one open doubt.
+- Edited `Logic.tsx` (Minimal Core count, requirements list, Revisions), `content-data.tsx` (AI paragraph), `citation-sections.tsx` (Recurrent neural network note), `.cursor/rules/holos-guardrails.mdc`.
+
+## [2026-09-26] update | Test A uses held-out states (review item 13, option au)
+
+- A cold review found Test A partly circular: PCI's 0.31 cutoff was calibrated (Casarotto et al. 2016, Annals of Neurology, DOI checked against Crossref) on states known from report, with REM dreaming and ketamine on the conscious side, and Test A cited ketamine and REM as its confirmations. The site also said "the same data that test the claim locate the threshold."
+- Resolution: a new Test A block, "Held-out states, not the answer key": the cutoff is frozen before new data, and only states that played no part in setting it count, named in advance (non-REM dream reports, sleepwalking and automatisms, complex seizures, covert awareness detected by imaging, psychedelic states), following the COGITATE design. Calibration and testing now use separate data, stated in both Predictions and Logic's path to the threshold.
+- Edited `Predictions.tsx` (Test A: new block, positive-reports paragraph, what-this-can-show), `Logic.tsx` (path to the threshold), `citation-sections.tsx` (Casarotto entry).
+
+## [2026-09-26] update | far future dropped as an unlit example (review item 14, option ay)
+
+- A cold review noted that under no-collapse physics every possible thing happens in some branch, so a fluctuation observer (a Boltzmann brain) in the far future of some branch would light it. The concept of unlit survives; the example was at risk. Conditioning it on Boddy, Carroll, and Pollack (2016) was offered; John chose to drop it.
+- Unlit examples are now aperture-free branches and regions beyond every observer's horizon.
+- Edited `content-data.tsx` (Meaning of Life), `Predictions.tsx` (Commitment 1), `.cursor/rules/holos-guardrails.mdc`.
+
+## [2026-09-26] update | Born odds reconciled with monism (review item 15, option ba)
+
+- A cold review asked how self-locating uncertainty ("which branch am I in?") survives a monism whose one subject is in every branch. Sharpened by item 6, which now says "why am I this one?" has nothing to explain.
+- Resolution: a paragraph in the Born-rule section. The question is asked from inside a walled-off aperture, which genuinely lacks the information of which branch it is in. "Why am I this one?" asks for a reason, dissolved by monism; "which one is this?" asks for information, answered by the odds.
+- Edited `Logic.tsx` (Born rule), `.cursor/rules/holos-guardrails.mdc`.
+
+## [2026-09-26] update | language-model description corrected (review item 16, option bd)
+
+- A cold review noted the AI paragraph's "the loop closes only through the single word... like a relay team passing one baton" ignored the KV cache: each step reads stored internal state from every earlier step.
+- Resolution: information flows up through the layers and forward in time at each level, through stored notes later steps read but never rewrite; the only top-to-bottom path is the output word. The conclusion is unchanged: integration must settle it.
+- Edited `content-data.tsx` (AI paragraph), `.cursor/rules/holos-guardrails.mdc`.
+
+## [2026-09-26] update | Jevons objection answered; star-by-star surveys linked (review item 17, option bg)
+
+- A cold review raised the Jevons paradox: efficiency usually raises total energy use, so efficient civilizations should want more energy, and the Integration Hypothesis never said what stops growth.
+- Resolution: light-speed delay caps one mind's useful size, so growth becomes more compact nodes near home that can harvest the home star fully. The prediction sharpens from galaxies (where Ĝ found nothing) to single stars warm in the infrared.
+- John asked for current canonical survey links. Checked 2026-09-26: Project Hephaistos (project page; Suazo et al. 2024 MNRAS, DOI via Crossref: about five million stars, seven candidates); Hephaistos IV (Zackrisson et al., arXiv 2607.09460, July 2026 preprint: JWST traces two candidates to background galaxies); Hephaistos III (Korn et al., arXiv 2607.25701, July 2026 preprint: no clear explanation yet for the rest); Gaia DR4 (ESA page: due 2 December 2026).
+- Edited `content-data.tsx` (Aliens: two new paragraphs), `citation-sections.tsx` (six Aliens entries). When Gaia DR4 is out, or the Hephaistos preprints are published, update the wording.
+
+## [2026-09-26] update | Omega consolidated; the limit layer cut (review items 19 and 20, option bj)
+
+- A cold review found "Omega" naming three things: the universal quantum state, the one experiencer, and an asymptotic limit finite systems approach. The limit was undefined by the site's own admission, clashed with Omega existing now, and produced contradictions: "the point at which reality is fully integrated and nothing remains outside", "nothing remains unintegrated", and the animation's "nothing unregistered" and "Everything registered", all against unlit structure being part of the whole and never lived. Omega's Logic material also sat under "Extrapolative Proposition" though Omega is core.
+- Resolution: the limit layer is cut (Recursive Closure as a Limit, The Omega Limit, and the Overview's asymptotic-limit and "At this limit" paragraphs). One plain line replaces it: deeper integration means witnessing more of the whole, never all of it, and the whole is not fully lived.
+- Logic: new core section `#totality` ("Totality") after the Φ section, holding an intro, a revised "What Omega Is and Is Not" (adds: not an endpoint or limit; not fully registered), Lineage, Not Circular, and Why One Experiencer. `#extrapolative-proposition` is retitled "Companion Principle" and holds only Structural Constraint. Nav: "Totality" added, "Extrapolation" becomes "Companion". Revisions entry added.
+- Overview: section retitled "Omega" (anchor `#omega-point` kept for links), with a note that Holos drops "Point" because its Omega is not an endpoint. The God paragraph now reads "the whole, with nothing outside it, though not all of it is lived."
+- Animation (`OmegaLimitAnimation.tsx`, file name kept): title "Omega"; phase 1 "none takes in all of it"; phase 2 "Everything, now: lived at its apertures, unlit elsewhere"; "ALL REGISTERED" becomes "ALL INCLUDED"; unity line "Everything included; lived only at its apertures"; PDF text, aria-label, and figcaption updated. Visuals unchanged and not visually inspected.
+- Citations: Overview subsection title "Omega"; Logic subsection 23 titled "Companion Principle".
+
+## [2026-09-26] update | Overview trimmed: three sections folded (review item 21, option bq)
+
+- John's standing rule (Breadcrumb m:49, scope /whatisholos): judge content by whether a reader would lose a claim found nowhere else; animations never justify a section. He asked that nothing meaningful or novel be lost.
+- Our Universe merged into Spacetime: kept the observers-need-structure opening, the Big Bang as a boundary within spacetime, and "why is any of it lived?".
+- Higher Dimensions removed; its one novel idea moved to Consciousness as a new paragraph: integration changes not how many variables a system has but whether they can be taken apart, with "dimension" as variables and no position on extra space. Its circuit-board image moved to Aliens. Spacetime's "that is where talk of higher dimensions begins" bridge was dropped.
+- Black Holes removed; its limited precedent (compact mass can be dark and found by gravity; simplest object, not integrated; feeding black holes are the brightest) moved to Teeming Dark, and singularities-as-broken-description moved to Infinity. The holographic framing was dropped as unused by any claim.
+- Infinity kept, rewritten around the ultraviolet catastrophe, singularities, and projective geometry, and now linked to its real use: counting observers across branches gives an infinity, so counting is the wrong tool (the Born-rule argument).
+- Citations: the three subsections removed, their relevant items moved (Big Bang group into Spacetime; Projective Geometry, Loop Quantum Gravity, and a new Gravitational singularity entry into Infinity; a new Black hole entry into Teeming Dark); extra-dimension and unrelated infinity entries dropped (Flatland, String Theory, Quantum Gravity, Brane Cosmology, Kaluza-Klein, Fractals, Cellular Automata, AdS/CFT, Infinite Sets, Holographic Principle, Event Horizon, Black Hole Thermodynamics, Cosmic Censorship). Subsections renumbered 1 to 26.
+- Removed `SpacetimeBlockAnimation`, `ShadowProjectionAnimation`, and `HolographicSingularityAnimation` (git rm); nav and sitemap updated.
+
+## [2026-09-26] update | Speculation kept, held to a plausibility standard (review item 22)
+
+- John likes Speculation ("it is fun") and set a standard: each speculation must say why it is a likely possibility, and anything impossible or extremely unlikely is modified or removed. Duplicates are trimmed.
+- Audit results. Kept with a new "Why it is plausible" note: Holosian Scale (light delay and waste heat certain; coordination paying is the weak link), Visibility Collapse (compressed signals look like noise), Dark Node (compact computing sheds heat warm; brown dwarfs show such masses are findable), Holocore (fusion 0.7 percent; black-hole accretion roughly 30 to 40 percent; Penrose process up to 29 percent), Computronium Kernel (light delay rewards compactness, heat punishes it), Chrono Vault (storage is easy; the motive to pause is contested: aestivation versus Bennett, Hanson, and Riedel 2019), beams (a ten-meter laser's spot at ten light-years is smaller than Earth's orbit), Sentinel Probes (Bracewell 1960), lens observatories (solar focal line beyond about 550 AU; Turyshev et al. 2020).
+- Modified: Dark Node detection no longer claims "precision mass mapping" or "non-random organization" (galaxy mass maps cannot see such objects, and purpose cannot be read at a distance); it now names infrared surveys of individual stars and microlensing. The Holocore now names the home star as the likeliest backbone, matching the Jevons answer in Aliens. The Kernel is "as compact as its cooling allows", not "maximally compact".
+- Trimmed duplicates: Visibility Collapse's heat caveat and the Dark Node limits paragraph now point to the Teeming Dark.
+- Edited `Predictions.tsx` (Speculation), `citation-sections.tsx` (five Technology entries). Bennett, Hanson, and Riedel and Bracewell DOIs checked against Crossref.
+
+## [2026-09-26] update | repetition pass: one canonical home per idea (review item 23, option bx)
+
+- Rule m:49 updated with John's yes: labeled speculation may stay, never duplicated, and must say why it is plausible.
+- Principle: the Overview keeps a plain version where readers first meet an idea; Logic holds the canonical formal version; other mentions shrink to a sentence and a link. John asked that no new context be lost, so novel details moved to the canonical home before trims.
+- Lived, lit, unlit: D7 is canonical and absorbed Commitment 1's details (lit is binary and follows causal structure; the union of causal pasts; shared-history branches; unlit examples; "one observer lights its past; many witness it"; tenseless but one-way; the monist reading). Operational Definition and Commitment 1 now point to D7. Meaning of Life keeps the plain version.
+- Commitment 2's no-duplicates and sharp-threshold paragraph shrank to two sentences pointing to Axiom 4 and Consciousness. Commitment 3's Born recap shrank to two sentences pointing to Logic. The Overview's record-agreement lines shrank to one sentence. Why Are We Here now points to Spacetime for light's zero interval instead of restating it. The Φ section and Relationship to Physics no longer restate "two additions" at length.
+- Kept deliberately: the Overview's plain Omega puzzles paragraph, the Φ section's "our instruments are half-informed" (it adds the measure-disagreement case), the Predictions intro's summary of the additions (page orientation), and Commitment 3's operational record agreement (it is the checkable commitment).
+- Edited `Logic.tsx`, `Predictions.tsx`, `content-data.tsx`.
+
+## [2026-09-26] update | R = C ⊛ O kept as emblem, consolidated (review item 24, option ca via cd)
+
+- A cold review found the headline formula read as math while meaning only "possibility, then registration", and re-explained five times (Intro, Operational Definition, D6, Notation, the Overview's closing section). John explored replacing ⊛ with standard ∘: honest, but ∘ reads right to left (R = O ∘ C would suggest observation first) and does not work as an emblem.
+- Resolution: ⊛ stays as the emblem, called a shorthand at first sight in the Intro. Notation is the one formal home and now states C ⊛ O = O ∘ C, "the same composition, written in reading order." Operational Definition and D6 shrink to pointers; D6's duplicate formula box and reading paragraph are removed, with the "following one observer's thread" sentence moved into Notation's Observation. The Overview's closing section keeps the cookbook analogy and the name's meaning, with its two formal paragraphs replaced by a link. The Iteration and stability subsection is cut (index bookkeeping, no claim); its "no thread is privileged" moved into Observation. The Recursive Operator citation note updated.
+- Edited `content-data.tsx`, `Logic.tsx`, `citation-sections.tsx`.
+
+## [2026-09-26] update | quantum table gains the collapse views (review item 25)
+
+- A cold review noted the quantum comparison omitted collapse views, though the standing bet's declared fallback adopts one. Folded in the planned "Holos among observer-centered physics" idea.
+- `InterpretiveComparisonTable.tsx` is now data-driven, with two new columns (Objective Collapse; Consciousness Collapse) and a new row, "Does consciousness change physics?", where only consciousness collapse says yes and Holos names its bet and fallback. The Logic intro to the table names Diósi-Penrose and Chalmers and McQueen.
+
+## [2026-09-26] update | Axiom 2 stays; Self and Fermi tables added (review items 26, 28, 29)
+
+- Item 26 (option cf): Axiom 2 is not demoted. Item 1 already made the core (Axioms 1, 3, 4, 5) and the fallback explicit, the quantum table shows the bet beside the collapse views, and Omega's identification with the universal quantum state leans on Axiom 2. Demotion would have cost about 39 renumbered references for little gain.
+- New shared `ComparisonTable.tsx`; the quantum and mind tables now use it.
+- `SelfComparisonTable.tsx` ("Holos among Views of the Self", in Logic's Totality section after Why One Experiencer): Holos as open individualism against closed and empty individualism, across what you are, how many selves, why am I this one, a perfect copy, what walls perspectives apart, and when a life ends.
+- `FermiComparisonTable.tsx` (in the Overview's Aliens section, before its closing line): the Integration Hypothesis, shown without the ⊛ mark since it is a companion idea, against Rare Earth, Great Filter, Grabby Aliens, Zoo, and Aestivation, across why the silence, whether life is common, what we should find, and what would count against it. Citations for Rare Earth, Great Filter, and Aestivation added to Aliens.
+
+## [2026-09-26] verification | end of review round
+
+- `tsc --noEmit` clean; `biome check app` at the 13 existing infos; `/`, `/logic`, `/predictions`, and `/citations` render with no KaTeX errors; `public/holos.pdf` regenerated (1.88 MB) with system Chrome.
+- Screenshots of the four comparison tables at 1280 px: the Self and Fermi tables fit; the quantum (seven columns) and mind (seven columns) tables scroll sideways inside their containers, with tall cells. Readable, but a candidate for the animation and design pass.

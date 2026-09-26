@@ -113,7 +113,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Von Neumann-Wigner Interpretation",
             url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
             description:
-              "Consciousness causes collapse. Cited as the view Holos bets against: a consciousness-linked deviation from quantum mechanics would falsify Holos (the standing bet).",
+              "Consciousness causes collapse. The view Holos bets against: a consciousness-linked deviation would falsify Holos's no-collapse physics, not its core (the standing bet).",
           },
         ],
       },
@@ -175,9 +175,9 @@ export const citationMainSections: CitationMainSection[] = [
       },
       {
         number: 4,
-        id: "our-universe",
-        title: "Our Universe",
-        canonicalLink: "/#our-universe",
+        id: "spacetime",
+        title: "Spacetime",
+        canonicalLink: "/#spacetime",
         items: [
           {
             name: "The Big Bang",
@@ -201,19 +201,11 @@ export const citationMainSections: CitationMainSection[] = [
             url: "https://en.wikipedia.org/wiki/General_relativity",
             description: "Describes gravity as the warping of spacetime by mass and energy.",
           },
-        ],
-      },
-      {
-        number: 5,
-        id: "spacetime",
-        title: "Spacetime",
-        canonicalLink: "/#spacetime",
-        items: [
           {
             name: "Eternalism",
             url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)",
             description:
-              "Time as an unchanging four-dimensional block where all moments exist simultaneously.",
+              "Time as an unchanging four-dimensional block in which all moments exist tenselessly, none privileged as now.",
           },
           {
             name: "Block Universe Model",
@@ -272,40 +264,16 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 6,
-        id: "higher-dimensions",
-        title: "Higher Dimensions",
-        canonicalLink: "/#higher-dimensions",
+        number: 5,
+        id: "infinity",
+        title: "Infinity",
+        canonicalLink: "/#infinity",
         items: [
           {
-            name: "Flatland",
-            url: "https://en.wikipedia.org/wiki/Flatland",
+            name: "Gravitational singularity",
+            url: "https://en.wikipedia.org/wiki/Gravitational_singularity",
             description:
-              "Satirical novella about a fictional two-dimensional world that explores the concept of inter-dimensional observation.",
-          },
-          {
-            name: "String Theory",
-            url: "https://en.wikipedia.org/wiki/String_theory",
-            description:
-              "A proposal that fundamental particles are tiny vibrating strings, requiring extra spatial dimensions. Unconfirmed; Holos takes no position on it.",
-          },
-          {
-            name: "Quantum Gravity",
-            url: "https://en.wikipedia.org/wiki/Quantum_gravity",
-            description:
-              "The unfinished effort to reconcile gravity with quantum theory; some approaches use extra dimensions, none yet confirmed.",
-          },
-          {
-            name: "Brane Cosmology",
-            url: "https://en.wikipedia.org/wiki/Brane_cosmology",
-            description:
-              "A proposal that our universe is a slice of a larger, higher-dimensional space. Unconfirmed.",
-          },
-          {
-            name: "Kaluza-Klein Theory",
-            url: "https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory",
-            description:
-              "A 1920s theory extending general relativity to a fifth dimension, in which electromagnetism appears alongside gravity from one geometry. No extra dimension has been observed.",
+              "Where general relativity predicts infinite density. Most physicists read it as the place the theory stops working, the same lesson as the ultraviolet catastrophe.",
           },
           {
             name: "Projective Geometry",
@@ -313,14 +281,12 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "A branch of geometry studying what stays the same when the point of view changes; parallel lines meet at infinity.",
           },
-        ],
-      },
-      {
-        number: 7,
-        id: "infinity",
-        title: "Infinity",
-        canonicalLink: "/#infinity",
-        items: [
+          {
+            name: "Loop Quantum Gravity",
+            url: "https://en.wikipedia.org/wiki/Loop_quantum_gravity",
+            description:
+              "A proposal that space comes in discrete quanta, which would remove the singularities of classical gravity. Unconfirmed.",
+          },
           {
             name: "Ultraviolet catastrophe",
             url: "https://en.wikipedia.org/wiki/Ultraviolet_catastrophe",
@@ -331,31 +297,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Riemann Sphere",
             url: "https://en.wikipedia.org/wiki/Riemann_sphere",
             description:
-              "An example of how viewing from a higher dimension turns an infinite structure into something finite and observable.",
-          },
-          {
-            name: "Fractals",
-            url: "https://en.wikipedia.org/wiki/Fractal",
-            description:
-              "Mathematical sets that can represent infinite complexity within finite boundaries.",
-          },
-          {
-            name: "AdS/CFT Correspondence",
-            url: "https://en.wikipedia.org/wiki/AdS/CFT_correspondence",
-            description:
-              "Higher-dimensional information is encoded into a finite, observable form within lower dimensions.",
-          },
-          {
-            name: "Infinite Sets",
-            url: "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument",
-            description:
-              "Provide a foundation for understanding how infinities can be compared, ordered, and wrapped.",
-          },
-          {
-            name: "Cellular Automata",
-            url: "https://en.wikipedia.org/wiki/Cellular_automaton",
-            description:
-              "Complex, infinite patterns and behaviors can emerge from simple initial conditions and rules.",
+              "The plane plus one point at infinity, closing an unbounded surface into a finite sphere.",
           },
           {
             name: "Point at Infinity",
@@ -366,52 +308,70 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 8,
-        id: "black-holes",
-        title: "Black Holes",
-        canonicalLink: "/#black-holes",
-        items: [
-          {
-            name: "Black Hole Thermodynamics",
-            url: "https://en.wikipedia.org/wiki/Black_hole_thermodynamics",
-            description: "The study of the physical properties of black holes.",
-          },
-          {
-            name: "Event Horizon",
-            url: "https://en.wikipedia.org/wiki/Event_horizon",
-            description:
-              "The boundary around a black hole beyond which nothing, not even light, can escape.",
-          },
-          {
-            name: "Cosmic Censorship Hypothesis",
-            url: "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis",
-            description: "Singularities are always hidden within event horizons.",
-          },
-          {
-            name: "Loop Quantum Gravity",
-            url: "https://en.wikipedia.org/wiki/Loop_quantum_gravity",
-            description:
-              "Space and time come in tiny discrete chunks rather than being smooth, folding infinite structure into finite loops.",
-          },
-          {
-            name: "Holographic Principle",
-            url: "https://en.wikipedia.org/wiki/Holographic_principle",
-            description:
-              "All information contained in a given volume of space can be represented as encoded on a lower-dimensional boundary.",
-          },
-        ],
-      },
-      {
-        number: 9,
+        number: 6,
         id: "aliens",
         title: "Aliens",
         canonicalLink: "/#aliens",
         items: [
           {
+            name: "Rare Earth hypothesis",
+            url: "https://en.wikipedia.org/wiki/Rare_Earth_hypothesis",
+            description:
+              "Complex life is rare, so the silence is literal emptiness. A column in the Fermi comparison table.",
+          },
+          {
+            name: "Great Filter",
+            url: "https://en.wikipedia.org/wiki/Great_Filter",
+            description:
+              "Robin Hanson: some step stops almost every civilization before it spreads. A column in the Fermi comparison table.",
+          },
+          {
+            name: "Aestivation hypothesis",
+            url: "https://en.wikipedia.org/wiki/Aestivation_hypothesis",
+            description:
+              "Civilizations sleep until the universe cools, when computing is cheaper. A column in the Fermi comparison table; contested by Bennett, Hanson, and Riedel (2019).",
+          },
+          {
+            name: "Jevons paradox",
+            url: "https://en.wikipedia.org/wiki/Jevons_paradox",
+            description:
+              "Efficiency gains tend to raise total consumption. The objection to the Integration Hypothesis; its answer is that light-speed delay caps one mind's useful size, so growth becomes more compact nodes near home, harvesting the home star.",
+          },
+          {
+            name: "Project Hephaistos",
+            url: "https://www.astro.uu.se/~ez/hephaistos/hephaistos.html",
+            description:
+              "Uppsala-led search for waste heat from partial Dyson spheres around individual stars: the star-by-star channel the Integration Hypothesis points to.",
+          },
+          {
+            name: "Suazo et al. (2024), Project Hephaistos II: Dyson sphere candidates from Gaia DR3, 2MASS, and WISE",
+            url: "https://doi.org/10.1093/mnras/stae1186",
+            description:
+              "Monthly Notices of the Royal Astronomical Society: about five million stars searched; seven M-dwarf candidates with unexplained infrared excess.",
+          },
+          {
+            name: "Zackrisson et al. (2026), Project Hephaistos IV: JWST observations of two Dyson sphere candidates",
+            url: "https://arxiv.org/abs/2607.09460",
+            description:
+              "Preprint, not yet peer reviewed: JWST traces the infrared excess of two candidates to background galaxies.",
+          },
+          {
+            name: "Korn et al. (2026), Project Hephaistos III: characterizing anomalous infrared sources",
+            url: "https://arxiv.org/abs/2607.25701",
+            description:
+              "Preprint, not yet peer reviewed: no clear explanation yet for the remaining candidates; dust or background galaxies remain possible.",
+          },
+          {
+            name: "Gaia Data Release 4",
+            url: "https://www.cosmos.esa.int/web/gaia/data-release-4",
+            description:
+              "ESA, due 2 December 2026: the next star-by-star census, extending the base for waste-heat searches around individual stars.",
+          },
+          {
             name: "Fermi Paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. Holos reframes this silence through the Integration Hypothesis: advancement favors compact, efficient integration over expansion and broadcast, so maturity coincides with electromagnetic quiet.",
+              "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. The Integration Hypothesis, a companion to Holos, reframes this silence: advancement favors compact, efficient integration over expansion and broadcast, so maturity coincides with electromagnetic quiet.",
           },
           {
             name: "Early broadcasting phase",
@@ -447,7 +407,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ephemeralization",
             url: "https://en.wikipedia.org/wiki/Ephemeralization",
             description:
-              "R. Buckminster Fuller (1938): the process of doing &quot;more and more with less and less&quot; until intelligence can &quot;do everything with nothing&quot;. Advanced civilizations migrate inwardly toward higher densities of information rather than expanding outwardly across physical space.",
+              "R. Buckminster Fuller (1938): the process of doing &quot;more and more with less and less&quot; until intelligence can &quot;do everything with nothing&quot;. The Integration Hypothesis extends this to civilizations turning inward; Fuller did not.",
           },
           {
             name: "The Transcension Hypothesis",
@@ -488,11 +448,17 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 10,
+        number: 7,
         id: "the-teeming-dark",
         title: "The Teeming Dark",
         canonicalLink: "/#the-teeming-dark",
         items: [
+          {
+            name: "Black hole",
+            url: "https://en.wikipedia.org/wiki/Black_hole",
+            description:
+              "A limited precedent for the Teeming Dark: the most compact masses need not shine and are found by gravity alone. The precedent is about compactness, not integration.",
+          },
           {
             name: "Massive compact halo object (MACHO)",
             url: "https://en.wikipedia.org/wiki/Massive_compact_halo_object",
@@ -508,9 +474,9 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 11,
+        number: 8,
         id: "omega-point",
-        title: "The Omega Point",
+        title: "Omega",
         canonicalLink: "/#omega-point",
         items: [
           {
@@ -540,7 +506,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Omega Point",
             url: "https://en.wikipedia.org/wiki/Omega_Point",
             description:
-              "A future event in which the entirety of the universe spirals toward a final point of unification.",
+              "A future event in which the entirety of the universe spirals toward a final point of unification. Holos borrows the name, not the idea: its Omega is the whole, not an endpoint.",
           },
           {
             name: "Advaita Vedanta",
@@ -560,10 +526,28 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "Idealist philosopher who grounded the persistence of the unobserved world in a perceiver that never looks away.",
           },
+          {
+            name: "Open individualism",
+            url: "https://en.wikipedia.org/wiki/Open_individualism",
+            description:
+              "Daniel Kolak (I Am You, 2004): there is one person, and every one of us is it. The nearest modern relative of the Holos monist reading.",
+          },
+          {
+            name: "Vertiginous question",
+            url: "https://en.wikipedia.org/wiki/Vertiginous_question",
+            description:
+              "Why, of all the subjects there are, am I this one? On many separate selves it is a brute fact; on the Holos monist reading there is nothing to explain.",
+          },
+          {
+            name: "Teletransportation paradox",
+            url: "https://en.wikipedia.org/wiki/Teletransportation_paradox",
+            description:
+              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder.",
+          },
         ],
       },
       {
-        number: 12,
+        number: 9,
         id: "why",
         title: "Why Are We Here?",
         canonicalLink: "/#why",
@@ -595,7 +579,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 13,
+        number: 10,
         id: "holos",
         title: "Holos",
         canonicalLink: "/#holos",
@@ -616,7 +600,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Recursive Operator",
             url: "https://en.wikipedia.org/wiki/Recursion",
             description:
-              "Holos's iteration follows one observer's thread: from each registered history, physics allows what comes next. A conceptual tool, not a process in time and not feedback on physics.",
+              "Following one observer's thread, from each registered history physics allows what comes next. Not a process in time and not feedback on physics.",
           },
         ],
       },
@@ -627,7 +611,7 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Logic",
     subsections: [
       {
-        number: 14,
+        number: 11,
         id: "minimal-core",
         title: "Core",
         canonicalLink: "/logic#minimal-core",
@@ -646,7 +630,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 15,
+        number: 12,
         id: "operational-definition",
         title: "Definition",
         canonicalLink: "/logic#operational-definition",
@@ -660,11 +644,65 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 16,
+        number: 13,
         id: "comparison",
         title: "Comparison",
         canonicalLink: "/logic#comparison",
         items: [
+          {
+            name: "Goff (2017), Consciousness and Fundamental Reality",
+            url: "https://doi.org/10.1093/oso/9780190677015.001.0001",
+            description:
+              "Oxford University Press: the case for priority cosmopsychism, a conscious cosmos from which individual minds derive. Holos shares the single ground but denies the cosmos any pooled experience of its own.",
+          },
+          {
+            name: "Nagasawa and Wager (2016), Panpsychism and priority cosmopsychism",
+            url: "https://doi.org/10.1093/acprof:oso/9780199359943.003.0005",
+            description:
+              "Sets out priority cosmopsychism and the decomposition problem it faces: how one cosmic subject yields many individual ones. Holos's section on walled-off perspectives answers the same problem.",
+          },
+          {
+            name: "Russellian monism",
+            url: "https://en.wikipedia.org/wiki/Russellian_monism",
+            description:
+              "Physics describes structure; experience is the intrinsic nature of that structure. Holos agrees experience is the inside of physical activity, but only above the threshold.",
+          },
+          {
+            name: "Dual-aspect monism",
+            url: "https://en.wikipedia.org/wiki/Dual-aspect_monism",
+            description:
+              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4.",
+          },
+          {
+            name: "Phenomenal concept strategy",
+            url: "https://en.wikipedia.org/wiki/Phenomenal_concept_strategy",
+            description:
+              "The explanatory gap lies between two ways of describing one thing, not between two things. Axiom 4's floor-plan argument is a version of it.",
+          },
+          {
+            name: "Antony (2006), Vagueness and the metaphysics of consciousness",
+            url: "https://doi.org/10.1007/s11098-004-7488-8",
+            description:
+              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism; Holos takes the other branch, a sharp threshold that physics must locate.",
+          },
+          {
+            name: "Rosenberg (2004), A Place for Consciousness",
+            url: "https://doi.org/10.1093/acprof:oso/9780195168143.001.0001",
+            description:
+              "Oxford University Press: poses the boundary problem, what fixes where one subject ends. Holos answers with its maximality condition: one peak of integration, one perspective.",
+          },
+          {
+            name: "Global workspace theory",
+            url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
+            description:
+              "Conscious access as brain-wide broadcast. A column in the Holos theories-of-mind table.",
+          },
+          {
+            name: "Illusionism",
+            url: "https://en.wikipedia.org/wiki/Illusionism_(philosophy)",
+            description:
+              "Experience as usually conceived does not exist. A column in the Holos theories-of-mind table; Holos rejects it.",
+          },
           {
             name: "Many-worlds interpretation",
             url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
@@ -675,7 +713,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Relational quantum mechanics",
             url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
             description:
-              "Rovelli (1996): quantum properties are relative to observers; Holos aligns on relational facts and extends with a threshold (Φ ≥ Φ_c) for what counts as an observer.",
+              "Rovelli (1996): quantum properties are relative to observers; Holos aligns on relational facts, but keeps the universal state RQM rejects, and adds a threshold (Φ ≥ Φ_c) for what counts as an observer.",
           },
           {
             name: "QBism",
@@ -698,7 +736,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 17,
+        number: 14,
         id: "primitive-definitions",
         title: "Primitives",
         canonicalLink: "/logic#primitive-definitions",
@@ -724,7 +762,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 18,
+        number: 15,
         id: "logic-axioms",
         title: "Axioms",
         canonicalLink: "/logic#logic-axioms",
@@ -744,7 +782,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 19,
+        number: 16,
         id: "foundational-propositions",
         title: "Foundations",
         canonicalLink: "/logic#foundational-propositions",
@@ -776,16 +814,34 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 20,
+        number: 17,
         id: "ontology",
         title: "Ontology",
         canonicalLink: "/logic#ontology",
         items: [
           {
+            name: "Universality (dynamical systems)",
+            url: "https://en.wikipedia.org/wiki/Universality_(dynamical_systems)",
+            description:
+              "Very different systems pass through their transitions with the same critical exponents. Holos commits to one universality class for every transition into observerhood; one universal value of Φ_c is a separate, bolder conjecture.",
+          },
+          {
+            name: "Beggs and Plenz (2003), Neuronal avalanches in neocortical circuits",
+            url: "https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003",
+            description:
+              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. The kind of measurement the universality commitment needs across systems.",
+          },
+          {
+            name: "Curie temperature",
+            url: "https://en.wikipedia.org/wiki/Curie_temperature",
+            description:
+              "Iron becomes magnetic below a sharp temperature, with magnetism growing smoothly from zero. The Overview's model for the threshold: binary onset, graded richness.",
+          },
+          {
             name: "Toker et al. (2022), Consciousness is supported by near-critical slow cortical electrodynamics",
             url: "https://doi.org/10.1073/pnas.2024455119",
             description:
-              "PNAS: waking cortex runs near the edge between stability and chaos and drifts away from it when consciousness is lost. The kind of signature a genuine switch should leave.",
+              "PNAS: waking cortex runs near the edge between stability and chaos and drifts away from it when consciousness is lost. The kind of signature a critical transition should leave.",
           },
           {
             name: "Critical dynamics in spontaneous EEG predict anesthetic-induced loss of consciousness and perturbational complexity (2024)",
@@ -821,25 +877,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Harnad (1990), The symbol grounding problem",
             url: "https://doi.org/10.1016/0167-2789(90)90087-6",
             description:
-              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos builds this into aboutness: a model must be grounded in senses of the system's own.",
+              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos reads it structurally: a system is about something when its states track it through a live channel of its own, whatever the channel carries.",
           },
           {
             name: "Friedman et al. (2010), Evidence for neural inertia",
             url: "https://doi.org/10.1371/journal.pone.0011903",
             description:
-              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. A lag of that kind is a hallmark of sharp switches, the signature Holos's threshold predicts; human evidence is still suggestive.",
+              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. Such a lag marks an abrupt, first-order switch: it supports a sharp threshold but counts against a universal shape of transition, unless it is pharmacological. Human evidence is still suggestive.",
           },
           {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "The philosophical study of being and existence. Φ quantifies how much a system integrates information to register ontologically distinct states.",
+              "The study of what exists. Holos separates structure, real whether or not it is lived, from experience, which occurs only where Φ ≥ Φ_c.",
           },
           {
             name: "Causality",
             url: "https://en.wikipedia.org/wiki/Causality",
             description:
-              "The causal power to register a distinct ontological state. Φ acts as the threshold for when a system becomes an observer rather than passive data.",
+              "How events bring about other events. In Holos, observation causes nothing extra: experience is the inside of physical causation, not an added cause.",
           },
           {
             name: "Quantum Decoherence",
@@ -850,7 +906,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 21,
+        number: 18,
         id: "relationship-to-physics",
         title: "Relationship to Physics",
         canonicalLink: "/logic#relationship-to-physics",
@@ -877,7 +933,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Quantum Mechanics",
             url: "https://en.wikipedia.org/wiki/Quantum_mechanics",
             description:
-              "Φ preserves the probabilistic nature of quantum mechanics while adding a constraint on when observation registers reality.",
+              "Holos leaves quantum mechanics untouched. Φ marks where registration occurs; it adds no constraint to the physics.",
           },
           {
             name: "Born rule",
@@ -901,12 +957,12 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "Histories that contain observers are lived; the rest remain unlit structure. The underlying quantum math is unaltered.",
+              "Experience is lived only inside observers; the causal pasts they draw on are lit; the rest remains unlit structure. The underlying quantum math is unaltered.",
           },
         ],
       },
       {
-        number: 22,
+        number: 19,
         id: "mathematical-formalism",
         title: "Notation",
         canonicalLink: "/logic#mathematical-formalism",
@@ -932,16 +988,16 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 23,
+        number: 20,
         id: "extrapolative-proposition",
-        title: "Extrapolation",
+        title: "Companion Principle",
         canonicalLink: "/logic#extrapolative-proposition",
         items: [
           {
             name: "Ephemeralization",
             url: "https://en.wikipedia.org/wiki/Ephemeralization",
             description:
-              "R. Buckminster Fuller (1938): the process of doing more with less until intelligence can do everything with nothing. Advanced civilizations migrate inwardly toward higher densities of information.",
+              "R. Buckminster Fuller (1938): the process of doing more with less until intelligence can do everything with nothing. The Integration Hypothesis extends this to civilizations turning inward; Fuller did not.",
           },
           {
             name: "Ehrenfest argument",
@@ -958,7 +1014,7 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Predictions",
     subsections: [
       {
-        number: 24,
+        number: 21,
         id: "prediction-introduction",
         title: "Introduction",
         canonicalLink: "/predictions#prediction-introduction",
@@ -967,7 +1023,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dynamics (physics)",
             url: "https://en.wikipedia.org/wiki/Dynamics_(physics)",
             description:
-              "Holos does not propose new dynamical laws; it offers ontological predictions about how reality manifests (R = C ⊛ O).",
+              "Holos does not propose new dynamical laws; it makes structural claims about how reality becomes lived (R = C ⊛ O).",
           },
           {
             name: "Ontology",
@@ -997,7 +1053,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Past hypothesis",
             url: "https://en.wikipedia.org/wiki/Past_hypothesis",
             description:
-              "The universe began in a highly ordered, low-entropy state. In Holos, branches where nothing could live remain unlit: real as structure, never lived (no Φ).",
+              "The universe began in a highly ordered, low-entropy state. In Holos, branches where nothing could live remain unlit: real as structure, never lived (no system reaches Φ_c).",
           },
           {
             name: "Inflation (cosmology)",
@@ -1009,12 +1065,12 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Multiverse",
             url: "https://en.wikipedia.org/wiki/Multiverse",
             description:
-              "Branches where nothing could live are real as structure, but in Holos they are never lived (no Φ).",
+              "Branches where nothing could live are real as structure, but in Holos they are never lived (no system reaches Φ_c).",
           },
         ],
       },
       {
-        number: 25,
+        number: 22,
         id: "commitments",
         title: "Commitments",
         canonicalLink: "/predictions#commitments",
@@ -1053,12 +1109,12 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Holos treats the onset of experience as a switch at Φ_c, not a dial. A sharp jump alone would not confirm this, since ordinary models predict tipping points too.",
+              "Holos treats the onset of experience as a sharp transition with one universal shape, not a dial. A sharp change alone would not confirm this, since ordinary models predict tipping points too.",
           },
         ],
       },
       {
-        number: 26,
+        number: 23,
         id: "expectations",
         title: "Expectations",
         canonicalLink: "/predictions#expectations",
@@ -1090,7 +1146,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 27,
+        number: 24,
         id: "experimentation",
         title: "Testability and Its Limits",
         canonicalLink: "/predictions#experimentation",
@@ -1150,6 +1206,12 @@ export const citationMainSections: CitationMainSection[] = [
               "If the threshold is a genuine critical point, it should leave measurable signatures near the boundary; see A path to the threshold.",
           },
           {
+            name: "Casarotto et al. (2016), Stratification of unresponsive patients by an independently validated index of brain complexity",
+            url: "https://doi.org/10.1002/ana.24779",
+            description:
+              "Annals of Neurology: sets PCI's cutoff on a benchmark of states known from report, including REM dreaming and ketamine. Those cases are therefore calibration, not confirmation; Test A counts only held-out states named in advance.",
+          },
+          {
             name: "TMS-EEG",
             url: "https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG",
             description:
@@ -1171,25 +1233,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Recurrent neural network",
             url: "https://en.wikipedia.org/wiki/Recurrent_neural_network",
             description:
-              "Recurrent architectures; relevant to whether artificial systems can meet the recursion and integration requirements for observation.",
+              "Recurrent architectures; relevant to whether artificial systems have the feedback that integration requires.",
           },
           {
             name: "Neuromorphic engineering",
             url: "https://en.wikipedia.org/wiki/Neuromorphic_engineering",
             description:
-              "Artificial systems with feedback; integration as emergent boundary rather than performance metric.",
+              "Brain-like hardware with feedback; a candidate substrate for meeting the observer requirements.",
           },
           {
             name: "Causal density",
             url: "https://en.wikipedia.org/wiki/Causal_density",
             description:
-              "Proxy for Φ when direct computation infeasible; perturbation-based complexity.",
+              "Integration proxy: how much a network's parts predict one another's activity over time, used when computing Φ directly is infeasible.",
           },
           {
             name: "Collective intelligence",
             url: "https://en.wikipedia.org/wiki/Collective_intelligence",
             description:
-              "Social networks / agent networks; integration thresholds (nonlinear increase) as scale increases.",
+              "Social and agent networks. Whether group-scale apertures can form is left open: Holos neither asserts nor excludes them.",
           },
           {
             name: "Mutual information",
@@ -1201,7 +1263,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Network theory",
             url: "https://en.wikipedia.org/wiki/Network_science",
             description:
-              "Small-world, scale-free; integration as potentially ontological, not merely functional.",
+              "Small-world and scale-free structure; candidate settings for measuring integration.",
           },
           {
             name: "Relational quantum mechanics",
@@ -1212,7 +1274,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 28,
+        number: 25,
         id: "speculation",
         title: "Speculation",
         canonicalLink: "/predictions#speculation",
@@ -1227,13 +1289,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ephemeralization",
             url: "https://en.wikipedia.org/wiki/Ephemeralization",
             description:
-              "Doing more with less: advancement as inward growth toward higher informational density rather than outward expansion.",
+              "Doing more with less. The Integration Hypothesis extends this to advancement as inward growth rather than outward expansion; Fuller did not.",
           },
           {
             name: "Fermi paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "Holos resolution: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
+              "A companion hypothesis to Holos, not part of its core: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
           },
           {
             name: "Hanson et al. (2021), If loud aliens explain human earliness, quiet aliens are also rare",
@@ -1304,11 +1366,41 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 29,
+        number: 26,
         id: "technology",
         title: "Technology",
         canonicalLink: "/predictions#technology",
         items: [
+          {
+            name: "Penrose process",
+            url: "https://en.wikipedia.org/wiki/Penrose_process",
+            description:
+              "Extracting a spinning black hole's rotational energy, up to 29 percent of its mass: the known physics behind the Holocore's densest option.",
+          },
+          {
+            name: "Sandberg, Armstrong, and Ćirković (2017), The aestivation hypothesis",
+            url: "https://arxiv.org/abs/1705.03394",
+            description:
+              "Argues advanced civilizations might sleep until the universe cools, when computing is cheaper. One motive for the Chrono Vault's sleeping case.",
+          },
+          {
+            name: "Bennett, Hanson, and Riedel (2019), Comment on the aestivation hypothesis",
+            url: "https://doi.org/10.1007/s10701-019-00289-5",
+            description:
+              "Foundations of Physics: argues entropy can be disposed of cheaply today, so waiting is not required. The counterweight to aestivation.",
+          },
+          {
+            name: "Bracewell (1960), Communications from superior galactic communities",
+            url: "https://doi.org/10.1038/186670a0",
+            description:
+              "Nature: proposes parking autonomous probes in target star systems. The ancestor of Sentinel Probes.",
+          },
+          {
+            name: "Turyshev et al. (2020), Direct multipixel imaging and spectroscopy of an exoplanet with a solar gravity lens mission",
+            url: "https://arxiv.org/abs/2002.11871",
+            description:
+              "A NASA-funded mission design using the Sun's gravitational focus, beyond about 550 times the Earth-Sun distance. The basis for Gravitational-Lens Observatories.",
+          },
           {
             name: "Computronium",
             url: "https://en.wikipedia.org/wiki/Computronium",

@@ -1,5 +1,6 @@
 import type React from "react";
 import { FootnoteLink, overviewCitationMap } from "./citation-sections";
+import FermiComparisonTable from "./FermiComparisonTable";
 import MathInline from "./MathInline";
 
 export interface ContentSection {
@@ -23,12 +24,13 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Holos is an interpretive framework built on a single idea: a universe can be complete as
-        structure and still not be lived. At its core is one expression,{" "}
+        structure and still not be lived. It is summed up in one shorthand,{" "}
         <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means &quot;possibility, then
-        registration&quot;: an order of logic, not of time. Creation is what physics allows.
-        Observation registers it as experience, wherever an observer exists, and changes nothing it
-        registers. Reality in the full sense needs both: not equations alone, and not experience
-        alone, but a world that both exists and is lived.
+        registration&quot;: an order of logic, not of time, and a summary rather than an equation to
+        compute with. Creation is what physics allows. Observation registers it as experience,
+        wherever an observer exists, and changes nothing it registers. Reality in the full sense
+        needs both: not equations alone, and not experience alone, but a world that both exists and
+        is lived.
       </>,
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
@@ -39,10 +41,11 @@ export const sections: ContentSection[] = [
         a lived one.
       </>,
       <>
-        If Holos is correct, a single conscious moment lights its entire causal past, making
-        everything back to the universe&apos;s earliest moments part of the world it lives in; the
-        silence of the night sky gets a testable explanation rather than remaining a puzzle; and the
-        oldest question of why we are here receives a structural answer. What follows traces those
+        If Holos is correct, there is one experiencer, and it wakes wherever a system crosses the
+        threshold; everything that could ever have reached an observer, back to the universe&apos;s
+        earliest light, belongs to the world that experience is made from; and the oldest question
+        of why we are here receives a structural answer. A companion idea, separate from the core,
+        offers a testable explanation for the silence of the night sky. What follows traces those
         consequences from life and consciousness through spacetime, black holes, and the Teeming
         Dark to the limits of reality itself, marking clearly which claims are established physics,
         which are extrapolation, and what would prove the whole thing wrong.
@@ -90,11 +93,11 @@ export const sections: ContentSection[] = [
         whose light, or any signal, can reach you. Lighting is binary and follows the structure of
         spacetime, and it happens tenselessly, not at some later moment. Whatever lies outside every
         aperture&apos;s causal past is <em>unlit</em> structure, real as pattern but never part of
-        any observer&apos;s world: branches that never form an aperture, regions beyond every
-        observer&apos;s horizon, and the far future after the last observer. <em>Witnessing</em> is
-        graded: how much of the lit region an observer&apos;s experience is actually about, and in
-        what detail. Our past is not merely lit; it is densely witnessed. The loop between creation
-        and observation is a relation of dependence, not a process.
+        any observer&apos;s world: branches that never form an aperture, and regions beyond every
+        observer&apos;s horizon. <em>Witnessing</em> is graded: how much of the lit region an
+        observer&apos;s experience is actually about, and in what detail. Our past is not merely
+        lit; it is densely witnessed. The loop between creation and observation is a relation of
+        dependence, not a process.
       </>,
     ],
   },
@@ -147,6 +150,9 @@ export const sections: ContentSection[] = [
           the structural condition under which a physical system becomes an aperture of it. That
           answers where experience occurs, not why there is experience at all. The second question
           Holos does not answer: its posits take experience as given, the one fact it starts from.
+          That is all &quot;fundamental&quot; means here: underived, not everywhere, and not free of
+          physics. Experience occurs only where the structure is, and wherever the structure is, the
+          experience is: like the inside and outside of one event, never one without the other.
         </p>
       </div>,
       <>
@@ -156,6 +162,15 @@ export const sections: ContentSection[] = [
         At that boundary the system cannot be described purely from the outside. It also exists from
         the inside as a unified informational state, as a point of view. Integration must also be
         about something: a closed loop with no world to take in has nothing to be a view of.
+      </>,
+      <>
+        One way to see what integration adds is to count the numbers needed to describe a system. A
+        gas of a billion independent particles needs billions of numbers, yet each particle can be
+        described on its own. When parts depend on one another, the description no longer splits
+        into separate pieces: the variables must be taken together. Physicists call a space of many
+        variables high-dimensional, though none of its dimensions is a direction you could walk in,
+        and Holos takes no position on extra dimensions of space. What integration changes is not
+        how many variables a system has but whether they can be taken apart.
       </>,
       <>
         Recent experimental systems provide early examples of simplified biological networks
@@ -172,9 +187,11 @@ export const sections: ContentSection[] = [
         internal processing.
       </>,
       <>
-        Water does not become gradually more solid as it cools; it freezes at a sharp point. In the
-        same way, a system does not become gradually more someone: perspective appears when its
-        informational states become causally unified.
+        Cool a piece of iron past a certain temperature, its Curie point, and it becomes magnetic.
+        Above that point there is no magnetism at all; just below it, a little; colder still, more.
+        The point is sharp, and the amount grows smoothly from it. Holos claims the same shape for
+        experience: a system does not become gradually more someone, yet once a perspective appears,
+        when its informational states become causally unified, its richness can grow.
       </>,
       <>
         Holos is a middle position. Experience does not attach to every scrap of matter, yet it
@@ -204,22 +221,32 @@ export const sections: ContentSection[] = [
         from outside, a fog on the instruments rather than vagueness in the fact.
       </>,
       <>
+        The sharpness is not a whim. Philosophers have argued that consciousness cannot be vague:
+        either there is something it is like to be a system, or there is not. Since evolution built
+        brains gradually, most who accept that argument conclude that everything is conscious, the
+        view called panpsychism. Holos takes the other branch, a sharp cutoff, and so owes a reason
+        the cutoff falls where it does. Its answer is that the threshold is a transition physics can
+        locate (see <a href="/logic#path-to-threshold">A path to the threshold</a>).
+      </>,
+      <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
         system&apos;s causal organization, not the fluency of its output, and Holos looks for that
         organization wherever the system&apos;s causes are actually organized, whatever it is made
         of. Nothing in Holos is specific to biology. By that standard, whether current AI language
-        systems are observers is an open question, not a settled no, and two requirements carry the
-        doubt. The first is aboutness. A system that knows the world only through text has a world
-        described to it by other observers but never touched: its model is rich, but it is not
-        grounded in senses of its own. The second is integration. Inside, each step is a one-way
-        sweep, and the loop closes only through the single word the system outputs, like a relay
-        team passing one baton. Whether a loop that narrow makes one unified whole, or a fast relay
-        of separate steps, is what Holos&apos;s measure of integration would have to settle. Other
-        requirements appear to be met: each word a system writes is fed back in as input, and
-        earlier parts of a conversation shape later ones. A system given live senses of its own
-        would answer the first question and leave the second. What Holos rules out is judging by
-        fluency. A system could describe a rich inner life as convincingly as any person and
-        experience none of it, or experience something and describe it badly.
+        systems are observers is an open question, not a settled no. Aboutness is met, narrowly: a
+        system in conversation tracks something beyond itself, the person and the words arriving
+        now, through a channel of its own. Its knowledge of the wider world is secondhand, but so
+        was much of Helen Keller&apos;s, and what counts is the machine, not the message. The doubt
+        lies in integration. Inside, information flows up through the system&apos;s layers and
+        forward in time at each level, through stored notes every later step can read but never
+        rewrite. The only path from the top of the system back to its bottom is the single word it
+        outputs. Whether that structure makes one unified whole, or a fast relay of separate steps,
+        is what Holos&apos;s measure of integration would have to settle. The other requirements
+        appear to be met: its states are richly differentiated, and earlier parts of a conversation
+        shape later ones. Giving such a system cameras would widen its world without settling the
+        question; integration decides it. What Holos rules out is judging by fluency. A system could
+        describe a rich inner life as convincingly as any person and experience none of it, or
+        experience something and describe it badly.
       </>,
       <>
         Consciousness is not what systems do. It is what happens when a system becomes capable of
@@ -229,59 +256,31 @@ export const sections: ContentSection[] = [
     ],
   },
   {
-    id: "our-universe",
-    title: "Our Universe",
-    footerId: "footer-universe",
-    paragraphs: [
-      <>
-        If consciousness depends on physical integration, then the structure of the universe is no
-        longer a neutral backdrop. It sets the conditions under which observers can exist at all.
-        Our universe is well described by the{" "}
-        <a href="https://en.wikipedia.org/wiki/Big_Bang">Big Bang</a> where spacetime expands from
-        an extremely hot and dense early state. We experience this as three spatial dimensions and
-        one temporal dimension, together forming{" "}
-        <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>.
-      </>,
-      <>
-        The{" "}
-        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
-          block universe view
-        </a>{" "}
-        holds that all moments in time exist as part of a single four-dimensional geometry.
-      </>,
-      <>
-        From this perspective, the Big Bang is not a moment of absolute creation, but a boundary
-        within spacetime itself. If all histories already exist geometrically, then the role of
-        observation becomes sharper. Physics supplies the full structure, but not an explanation for
-        why any of it is lived.
-      </>,
-      <>
-        If spacetime is a complete geometric object, what is its structure?
-        <FootnoteLink number={overviewCitationMap["our-universe"]} />
-      </>,
-    ],
-  },
-  {
     id: "spacetime",
     title: "Spacetime",
     footerId: "footer-spacetime",
     paragraphs: [
       <>
-        The structure of spacetime follows from a single counterintuitive fact: the{" "}
+        If consciousness depends on physical integration, the structure of the universe is no longer
+        a neutral backdrop: it sets the conditions under which observers can exist at all. Our
+        universe is well described by the{" "}
+        <a href="https://en.wikipedia.org/wiki/Big_Bang">Big Bang</a>, in which spacetime expands
+        from an extremely hot, dense early state, and its structure follows from one
+        counterintuitive fact: the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a> is invariant.
-        Unlike any other speed, it remains constant regardless of the motion of the observer. This
-        invariance links space and time into a single geometric structure and removes the idea of a
-        universal present.
+        Unlike any other speed, it is the same for every observer, however they move. That
+        invariance links space and time into a single geometry and removes the idea of a universal
+        present.
       </>,
       <>
-        Events that are simultaneous for one observer may not be for another. This leads to
-        interpretations such as the{" "}
+        Events simultaneous for one observer may not be for another. This leads to the{" "}
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
           block universe
         </a>
-        , where past, present, and future coexist as parts of a four-dimensional whole rather than
-        unfolding as absolute moments. In other words, time behaves less like a flow and more like a
-        dimension.
+        , in which every moment is part of one four-dimensional whole and time behaves less like a
+        flow than a dimension. On that view the Big Bang is not a moment of absolute creation but a
+        boundary within spacetime itself. Physics supplies the full structure, and the question
+        Holos asks becomes sharper: why is any of it lived?
       </>,
       <>
         A useful boundary case is light itself. Along a photon’s trajectory, the{" "}
@@ -305,11 +304,6 @@ export const sections: ContentSection[] = [
         point from another side: what counts as a fact depends on who has registered what. Neither
         shows that spacetime is broken. Both show that the facts an observer can speak of depend on
         the records they hold.
-      </>,
-      <>
-        Describing all those records together, even for a handful of particles, takes far more
-        variables than the four dimensions of spacetime provide. That is where talk of higher
-        dimensions begins.
         <FootnoteLink number={overviewCitationMap["spacetime"]} />
       </>,
     ],
@@ -319,59 +313,13 @@ export const sections: ContentSection[] = [
     title: "A Note on Extrapolation",
     paragraphs: [
       <>
-        The sections that follow (Higher Dimensions, Infinity, Black Holes, Aliens, The Teeming
-        Dark, Why Are We Here?) extend beyond established physics into interpretation. They are not
-        claims of new physical laws, but reasoned extrapolations constrained by the{" "}
-        <a href="/logic">Holos axioms</a>. Their purpose is to explore the space of possibilities
-        that emerges when observation, relativity, and scale are applied to unresolved cosmic
-        questions. The Omega Point section is the exception: the totality it describes is one of the
-        framework&apos;s two core commitments, not an extrapolation.
-      </>,
-    ],
-  },
-  {
-    id: "higher-dimensions",
-    title: "Higher Dimensions",
-    footerId: "footer-dimensions",
-    paragraphs: [
-      <>
-        The word &quot;dimension&quot; means two different things in physics, and it helps to keep
-        them apart. The first is a number of variables. Saying where one ball sits on a table takes
-        two numbers; describing a billion interacting particles takes billions, and quantum
-        mechanics needs far more. Physicists call the space of all those variables high-dimensional,
-        but none of its dimensions is a direction you could walk in. The second meaning is extra
-        directions of space itself.
-      </>,
-      <>
-        Some theories, string theory among them, propose extra directions of space, curled up so
-        small they cannot be seen (
-        <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a>) yet
-        shaping the laws and constants we observe. These remain unconfirmed proposals, and Holos
-        takes no position on them. When Holos speaks of higher dimensions, it means the first sense:
-        descriptions with many variables.
-      </>,
-      <>
-        Higher dimensions are often imagined as places advanced systems might move into. That
-        mistakes description for location. We already exist within higher-dimensional descriptions,
-        in the first sense; we simply interact with a small part of what they describe.
-      </>,
-      <>
-        As systems become more integrated, coherence depends less on spatial separation and more on{" "}
-        <a href="https://en.wikipedia.org/wiki/Principle_of_locality">local structure</a>. This can
-        be understood as structural reorientation rather than motion. Like modern circuit boards
-        stacking layers to shorten paths, integrated systems reduce effective distance without
-        violating physical limits. Causality,{" "}
-        <a href="https://en.wikipedia.org/wiki/Thermodynamics">thermodynamics</a>, and the speed of
-        light still apply.
-      </>,
-      <>
-        From this perspective, what integration changes is not how many variables a system has but
-        whether they can be taken apart. A gas of independent particles needs billions of numbers,
-        yet each can be described on its own. When parts depend on one another, the description no
-        longer splits into separate pieces: the variables must be considered together rather than
-        one at a time. That joint description is not an external viewpoint or a place, only the
-        honest shape of a whole whose parts constrain each other.
-        <FootnoteLink number={overviewCitationMap["higher-dimensions"]} />
+        The sections that follow (Infinity, Aliens, The Teeming Dark, Why Are We Here?) extend
+        beyond established physics into interpretation. They are not claims of new physical laws,
+        but reasoned extrapolations constrained by the <a href="/logic">Holos axioms</a>. Their
+        purpose is to explore the space of possibilities that emerges when observation, relativity,
+        and scale are applied to unresolved cosmic questions. The Omega section is the exception:
+        the totality it describes is one of the framework&apos;s two core commitments, not an
+        extrapolation.
       </>,
     ],
   },
@@ -381,64 +329,30 @@ export const sections: ContentSection[] = [
     footerId: "footer-infinity",
     paragraphs: [
       <>
-        Infinity does not usually appear because reality is infinite, but because a representation
-        has broken down. In{" "}
-        <a href="https://en.wikipedia.org/wiki/Projective_geometry">projective geometry</a>,
-        parallel lines intersect at a point at infinity, not because infinity has been made finite,
-        but because unbounded extension can be encoded within a closed structure. Infinity marks the
-        edge of a descriptive framework, where additional structure is required to preserve
-        coherence.
-      </>,
-      <>
-        The same idea appears in physics. Around 1900, classical physics predicted that a hot object
-        should give off an infinite amount of energy as high-frequency light, a result later
-        nicknamed the{" "}
+        Infinity usually appears not because reality is infinite but because a description has
+        broken down. Around 1900, classical physics predicted that a hot object should give off an
+        infinite amount of energy as high-frequency light, a result later nicknamed the{" "}
         <a href="https://en.wikipedia.org/wiki/Ultraviolet_catastrophe">ultraviolet catastrophe</a>.
-        Nothing in nature does that: a glowing oven does not pour out infinite radiation. The
-        infinity was a sign that the description had broken down. The fix, the idea that light
-        energy comes in discrete packets, which Max Planck introduced in 1900, became the foundation
-        of quantum theory. The infinity was not a feature of the world but a warning about the
-        theory.
+        Nothing in nature does that: a glowing oven does not pour out infinite radiation. The fix,
+        Max Planck&apos;s 1900 idea that light energy comes in discrete packets, became the
+        foundation of quantum theory. The infinity was a warning about the theory, not a feature of
+        the world.
       </>,
       <>
-        From the Holos perspective, infinities appear as warnings, not features. Resolving them
-        requires either additional structure or a boundary that enforces consistency. In physics,
-        those boundaries are not abstract. They appear as real, measurable limits.
+        Most physicists read the{" "}
+        <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a> at the
+        centers of black holes the same way: as places where general relativity stops working, not
+        places of literally infinite density. Geometry shows the constructive side of the lesson. In{" "}
+        <a href="https://en.wikipedia.org/wiki/Projective_geometry">projective geometry</a>,
+        parallel lines meet at a point at infinity: unbounded extension encoded within a closed
+        structure. Infinity marks the edge of a description, where more structure is needed.
+      </>,
+      <>
+        Holos puts this reading to work. In its account of quantum probability, trying to count the
+        observers across branches gives an infinity, and Holos reads that as a sign that counting is
+        the wrong tool, which leaves the quantum weights as the only measure (see{" "}
+        <a href="/logic#relationship-to-physics">the Born rule</a>).
         <FootnoteLink number={overviewCitationMap["infinity"]} />
-      </>,
-    ],
-  },
-  {
-    id: "black-holes",
-    title: "Black Holes",
-    footerId: "footer-blackholes",
-    paragraphs: [
-      <>
-        Black holes are regions of spacetime where gravity becomes so strong not even light can
-        escape. At their cores, classical physics predicts singularities, which are best understood
-        not as literal infinities, but as signals that a description has failed. Black holes
-        compress extreme structure into finite regions and expose the limits of spacetime as a
-        representational framework.
-      </>,
-      <>
-        Modern physics suggests that information is not destroyed by black holes, but reorganized.
-        The <a href="https://en.wikipedia.org/wiki/Holographic_principle">holographic principle</a>{" "}
-        proposes that all information contained within a volume can be represented on its boundary,
-        such as the <a href="/citations#black-holes">event horizon</a>. Black holes are not just
-        objects in spacetime, but boundaries where projection collapses and structure must be
-        encoded differently.
-      </>,
-      <>
-        From the perspective of Holos, black holes offer a limited precedent, and the limits matter.
-        They show that the most compact concentrations of mass need not shine: an isolated black
-        hole emits almost nothing and is found through gravity alone, by the orbits it bends and the
-        light it lenses. But the precedent is about compactness, not integration. A black hole is
-        the simplest object physics knows, described by little more than its mass, spin, and charge,
-        and nothing like an integrated system. And when matter falls in, the result is the opposite
-        of quiet: feeding black holes power quasars, the brightest objects in the universe. What
-        carries over is only this: compact mass can be dark in its own light and still be found by
-        its gravity.
-        <FootnoteLink number={overviewCitationMap["black-holes"]} />
       </>,
     ],
   },
@@ -454,8 +368,9 @@ export const sections: ContentSection[] = [
       <>
         We often assume that as civilizations advance, they expand outward, build megastructures and
         become increasingly visible. But what if the opposite is true? What if advancement favors
-        integration: smaller, denser substrates rather than galaxy-scale infrastructure, and less
-        energy lost as systems approach thermodynamic limits?
+        integration: smaller, denser substrates rather than galaxy-scale infrastructure, the way
+        circuit boards stack layers to shorten paths, and less energy lost as systems approach
+        thermodynamic limits?
       </>,
       <>
         In this case, progress would make civilizations less detectable, and this explanation is
@@ -535,6 +450,39 @@ export const sections: ContentSection[] = [
         watching probe nearby would fit it.
       </>,
       <>
+        A second objection comes from economics. In 1865 William Stanley Jevons noticed that better
+        steam engines made Britain burn more coal, not less: when work gets cheaper, people do more
+        of it (<a href="https://en.wikipedia.org/wiki/Jevons_paradox">the Jevons paradox</a>). A
+        civilization that computes efficiently should want more computing, and so more energy. The
+        hypothesis has an answer, and it sharpens the prediction. Light-speed delay caps how large
+        one mind can usefully grow; past that size, more energy cannot make it bigger, only fund
+        another mind. Growth continues, but as more compact nodes near home, and nodes near home can
+        harvest their home star fully. So the place to look is not whole galaxies, where the survey
+        above found nothing, but single stars glowing unusually warm in the infrared.
+      </>,
+      <>
+        That search is under way.{" "}
+        <a href="https://www.astro.uu.se/~ez/hephaistos/hephaistos.html">Project Hephaistos</a>{" "}
+        combed about five million nearby stars and{" "}
+        <a href="https://doi.org/10.1093/mnras/stae1186">flagged seven candidates in 2024</a>. In
+        2026, <a href="https://arxiv.org/abs/2607.09460">James Webb Space Telescope observations</a>{" "}
+        traced two of them to background galaxies, and a{" "}
+        <a href="https://arxiv.org/abs/2607.25701">companion study</a> found no clear explanation
+        yet for the rest, with background galaxies the leading suspect; both are preprints.
+        Gaia&apos;s{" "}
+        <a href="https://www.cosmos.esa.int/web/gaia/data-release-4">fourth data release</a>, due 2
+        December 2026, will extend the star-by-star census. A star dimmed in visible light and warm
+        in the infrared, with no background source behind it, would fit the hypothesis; a null
+        result would tighten how common such civilizations can be, as the galaxy survey did.
+      </>,
+      <>
+        Set beside the other answers to the silence, the hypothesis stands out by what it says we
+        should find.
+      </>,
+      <div key="fermi-table">
+        <FermiComparisonTable />
+      </div>,
+      <>
         If the hypothesis holds, the universe could be full of life and still quiet to
         pre-integrated observers.
         <FootnoteLink number={overviewCitationMap["aliens"]} />
@@ -613,6 +561,15 @@ export const sections: ContentSection[] = [
         though. A universe can be poor in hidden mass and still rich in minds.
       </>,
       <>
+        Black holes set a limited precedent. They show that the most compact concentrations of mass
+        need not shine: an isolated{" "}
+        <a href="https://en.wikipedia.org/wiki/Black_hole">black hole</a> emits almost nothing and
+        is found through gravity alone, by the orbits it bends and the light it lenses. The
+        precedent is about compactness, not integration: a black hole is the simplest object physics
+        knows, described by little more than its mass, spin, and charge, and feeding black holes
+        power quasars, the brightest objects in the universe.
+      </>,
+      <>
         Thermodynamics then adds a correction, and it must be stated carefully. Anything that
         computes must shed heat, and the total cannot be canceled; but physics guarantees only that
         the heat <em>exists</em>, not that it is easy to see. A system chooses the temperature at
@@ -648,13 +605,13 @@ export const sections: ContentSection[] = [
   },
   {
     id: "omega-point",
-    title: "The Omega Point",
+    title: "Omega",
     footerId: "footer-omega",
     paragraphs: [
       <>
-        The Omega Point is not introduced as a prediction or goal, and in Holos it is not derived
-        from anything else. It is the framework&apos;s fundamental posit: the totality of reality,
-        taken as a single whole. Physically, that whole is not mysterious. Quantum mechanics without
+        Omega is not introduced as a prediction or goal, and in Holos it is not derived from
+        anything else. It is the framework&apos;s fundamental posit: the totality of reality, taken
+        as a single whole. Physically, that whole is not mysterious. Quantum mechanics without
         collapse, which Holos adopts, already describes everything as one{" "}
         <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, every
         branch included, and that state is Omega. Its existence rests on physics. What Holos adds is
@@ -663,40 +620,36 @@ export const sections: ContentSection[] = [
         local aperture. The name echoes two older ideas it should not be confused with: Teilhard de
         Chardin&apos;s spiritual endpoint of history, and Frank Tipler&apos;s physical Omega Point,
         a prediction that required the universe to collapse back on itself and is contradicted by
-        its accelerating expansion. Holos means neither. Its Omega is not an endpoint in time but
-        the whole itself.
+        its accelerating expansion. Holos means neither, which is why it drops the word
+        &quot;Point&quot;: its Omega is not an endpoint in time but the whole itself.
       </>,
       <>
         Holos does not alter established physics. Every equation, history and structure remain as
         physics describes. What it changes is the direction of explanation: rather than building up
         from finite observers to a limiting whole, Holos begins with the whole and understands each
-        act of observation as the whole registering itself locally. The payoff is unity: when a
-        system crosses the threshold, no new experiencer comes into being. The one experiencer wakes
-        there, the way waking in the morning does not create a new person. Where it wakes is not
-        explained by Omega; the threshold settles that, on any picture. What Omega adds is economy:
-        one subject in place of billions of separate selves, each arising without explanation.
+        act of observation as the whole registering itself locally. When a system crosses the
+        threshold, no new experiencer comes into being; the one experiencer wakes there. That alone
+        is only a count, one subject instead of many, and it explains nothing about where experience
+        occurs or what it is like: the threshold settles that, on any picture. The payoff lies in
+        two old puzzles it dissolves. Of billions of people, why is this one me? If each observer is
+        a separate self, that is a brute fact no one can explain. If there is one experiencer, there
+        is nothing to explain: it is each of them. And if a machine made two perfect copies of you,
+        which one would be you? On the monist reading, both, with no remainder. The view has a
+        modern name,{" "}
+        <a href="https://en.wikipedia.org/wiki/Open_individualism">open individualism</a>.
       </>,
       <>
-        For any finite system, the Omega Point remains an{" "}
-        <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">asymptotic limit</a>: a horizon
-        that no finite structure reaches, where everything holds together, nothing is left outside,
-        and nothing contradicts. But the limit status describes our approach, not its reality. The
-        totality is not produced by increasing integration; increasing integration is how parts of
-        the totality come to witness more of it.
+        Finite systems never take in the whole. Deeper integration means witnessing more of it,
+        never all of it, and the whole is not produced by that deepening: integration is how parts
+        of the totality come to witness more of it. Nor is the whole fully lived. Structure outside
+        every aperture&apos;s causal past belongs to Omega and is never experienced.
       </>,
       <>
-        At this limit, the distinction between creation and observation collapses. Nothing remains
-        external to be registered, and nothing remains unintegrated. This is not a state that can be
-        reached by any finite system, but a boundary condition that completes the recursive loop
-        between what exists and what is experienced.
-      </>,
-      <>
-        The Omega Point is not an external agent. It does not intervene in events, answer petitions,
-        or direct history from outside; there is no outside for it to stand in. It is the whole
-        itself. Physics does not cause the Omega Point; physics describes the internal structure of
-        it. Consistency among observers is enforced locally: observers who compare records agree,
-        because the same physical signals reach them both. Physics secures that agreement on its
-        own; the monist reading claims no extra role in it.
+        Omega is not an external agent. It does not intervene in events, answer petitions, or direct
+        history from outside; there is no outside for it to stand in. It is the whole itself.
+        Physics does not cause Omega; physics describes the internal structure of it. Observers who
+        compare records agree because the same signals reach them both, which physics secures
+        without Omega&apos;s help.
       </>,
       <>
         Historically, this is well-trodden ground.{" "}
@@ -714,8 +667,8 @@ export const sections: ContentSection[] = [
       </>,
       <>
         In religious traditions, this whole is often named “God.” In Holos, the term does not imply
-        intention, intervention, or design. It names the totality that experiences: the point at
-        which reality is fully integrated and nothing remains outside the system.
+        intention, intervention, or design. It names the totality that experiences through its
+        apertures: the whole, with nothing outside it, though not all of it is lived.
       </>,
       <>
         Holos does not treat the theological and secular readings as interchangeable lenses on the
@@ -723,10 +676,10 @@ export const sections: ContentSection[] = [
         experiencer, and the direction of dependence runs from the whole to its parts. A purely
         structural reading, in which Omega is only a mathematical horizon and observers are
         self-standing, remains available as a weaker interpretation, but it is not the view of this
-        framework. It is weaker because it needs a new, separate subject every time a system crosses
-        the threshold, each one arising without explanation, where the monist reading needs only
-        one. What Holos leaves open is vocabulary, not structure: whether the totality is named God,
-        Brahman, or simply the whole changes nothing about the claim being made.
+        framework. It is weaker because it leaves both puzzles standing: why each observer is this
+        one rather than another, and which of two perfect copies is you. What Holos leaves open is
+        vocabulary, not structure: whether the totality is named God, Brahman, or simply the whole
+        changes nothing about the claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
@@ -738,14 +691,11 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>At extreme limits, familiar distinctions lose their absolute standing.</>,
       <>
-        Relativity removes the universal “now”: events simultaneous for one observer are not
-        simultaneous for another. Along a ray of light, moving at the{" "}
-        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the spacetime
-        interval between emission and absorption is zero, though the two remain distinct events and
-        no observer can ride the light. These are physical facts, and they show that how things are
-        separated depends on the structure of spacetime rather than being fixed in advance. Holos
-        reads them as a hint, not a proof, that separation is not fundamental but a feature of how
-        reality is structured.
+        Relativity removes the universal “now,” and along a ray of light the interval between
+        emission and absorption is zero (see <a href="#spacetime">Spacetime</a>). These are physical
+        facts, and they show that how things are separated depends on the structure of spacetime
+        rather than being fixed in advance. Holos reads them as a hint, not a proof, that separation
+        is not fundamental but a feature of how reality is structured.
       </>,
       <>
         What we experience as an expansive universe may instead be understood as a single,
@@ -783,19 +733,8 @@ export const sections: ContentSection[] = [
         expressed as <em>R = C ⊛ O</em>.
       </>,
       <>
-        The ⊛ operator is <strong>structural, not dynamical</strong>. It specifies a closure
-        condition: how possibility becomes lived reality only when physical structure is taken up
-        into experience. It describes how reality is completed, not how it moves.
-      </>,
-      <>
-        Formally, ⊛ is defined as composition: <em>C ⊛ O</em> names the two-step operation of
-        generating lawful possibilities (<em>C</em>) and then registering them as experience (
-        <em>O</em>), wherever observers exist. Applied to a state <em>S</em>, this reads{" "}
-        <em>R = O(C(S))</em>: possibility first, registration second, an order of logic rather than
-        time, since registering needs something to register. The result, <em>R</em>, is the family
-        of lived perspectives, one per observer, each with the lit world it draws on, and nothing
-        erased. Its content is the claim that both steps are required for a realized world. The full
-        treatment is developed in <a href="/logic">Logic</a>.
+        The notation is set out formally in{" "}
+        <a href="/logic#mathematical-formalism">Logic, under Notation</a>.
       </>,
     ],
   },

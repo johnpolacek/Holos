@@ -91,7 +91,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       .set(stepLabel, { textContent: "PHASE 1: INTEGRATION DEEPENS" })
       .to(explanationLabel, { opacity: 0.6, duration: 0.5 }, "phase1+=0.6")
       .set(explanationLabel, {
-        textContent: "Finite systems witness more of the whole; none reaches it.",
+        textContent: "Finite systems witness more of the whole; none takes in all of it.",
       })
       .to(phiSymbol, { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.5)" }, "phase1+=0.8")
       .to(phiValue, { opacity: 0.7, duration: 0.4 }, "phase1+=1.2");
@@ -140,7 +140,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       .to([stepLabel, explanationLabel], { opacity: 0, duration: 0.3 }, "phase2")
       .set(stepLabel, { textContent: "PHASE 2: WHAT THE WHOLE IS" })
       .set(explanationLabel, {
-        textContent: "Nothing unregistered, nothing unexpressed, nothing outside.",
+        textContent: "Everything, now: lived at its apertures, unlit elsewhere.",
       })
       .to(stepLabel, { opacity: 1, duration: 0.3 }, "phase2+=0.3")
       .to(explanationLabel, { opacity: 0.6, duration: 0.3 }, "phase2+=0.3")
@@ -245,16 +245,16 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "1em" }}>
-          <em style={{ fontSize: "1.1em" }}>The Omega Limit</em>
+          <em style={{ fontSize: "1.1em" }}>Omega</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
             <strong>Phase 1:</strong> Integration deepens: finite systems witness more of the whole,
-            and none reaches it.
+            and none takes in all of it.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 2:</strong> What the whole already is: nothing unregistered, nothing
-            unexpressed, nothing outside.
+            <strong>Phase 2:</strong> What the whole already is: everything, now, lived at its
+            apertures and unlit elsewhere.
           </p>
           <p style={{ margin: "0.5em 0" }}>
             <strong>Phase 3:</strong> Many names: God, Brahman, the Omega Point, the whole, nature,
@@ -274,13 +274,13 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       ref={containerRef}
       className="relative w-full mt-8 aspect-square rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing the Omega Limit: finite integration deepening toward a limit it never reaches, the whole it approaches, and the many names for one totality experienced through every aperture"
+      aria-label="Animation showing Omega: finite integration witnessing more of the whole without taking in all of it, the whole that already exists, lived at its apertures and unlit elsewhere, and the many names for one totality experienced through every aperture"
     >
       <figcaption className="sr-only">
-        The Omega Limit animation shows four phases. First, integration deepens: finite systems
-        witness more of the whole, and none reaches the limit. Second, what the whole already is:
-        nothing unregistered, nothing unexpressed, nothing outside. The totality is not produced by
-        this approach; it is the ground the approach happens on. Third, the many names for it:
+        The Omega animation shows four phases. First, integration deepens: finite systems witness
+        more of the whole, and none takes in all of it. Second, what the whole already is:
+        everything, now, lived at its apertures and unlit elsewhere. The totality is not produced by
+        integration; it is the ground integration happens on. Third, the many names for it:
         religious (God, Brahman, Omega Point) and secular (the whole, nature, the universe). Fourth,
         unity: whatever the name, one totality, experienced through every aperture.
       </figcaption>
@@ -303,7 +303,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           fontStyle="italic"
           opacity="0"
         >
-          The Omega Limit
+          Omega
         </text>
 
         {/* Phase / Step Labels */}
@@ -331,7 +331,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           fontStyle="italic"
           opacity="0"
         >
-          Finite systems witness more of the whole; none reaches it.
+          Finite systems witness more of the whole; none takes in all of it.
         </text>
 
         {/* Phase 1: Φ Symbol and Value */}
@@ -492,7 +492,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            ALL REGISTERED
+            ALL INCLUDED
           </text>
           <text
             x="90"
@@ -735,7 +735,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontStyle="italic"
           >
-            Everything registered; nothing left outside.
+            Everything included; lived only at its apertures.
           </text>
         </g>
 

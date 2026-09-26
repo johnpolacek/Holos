@@ -80,8 +80,14 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
-            The statements in this section are fundamental to Holos. If any of these are rejected in
-            principle, the framework fails as a coherent account of how reality becomes experienced.
+            Commitments 1 and 2 are fundamental to Holos. If either is rejected in principle, the
+            framework fails as a coherent account of how reality becomes experienced. Commitment 3
+            rests on the no-collapse reading of Axiom 2; what losing that reading would cost is
+            declared in advance under{" "}
+            <a href="#standing-bet" className="underline hover:no-underline">
+              The Standing Bet
+            </a>
+            .
           </p>
 
           {/* C1 */}
@@ -137,21 +143,13 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Closure uses three words, each for one thing. <strong>Lived</strong> is where
-              experience occurs: inside apertures, and only there. <strong>Lit</strong> is binary
-              and follows the causal structure of spacetime: a region is lit if it lies in the
-              causal past of at least one aperture in its branch. Every aperture is built from its
-              causal past and draws on it through its traces, so the lit universe is the union of
-              its apertures&apos; causal pasts: the world experience is made from and about. In the
-              monist reading (reality as one experiencer), it is the totality&apos;s world, and the
-              apertures are where the totality lives it. A stretch of history shared by many
-              branches is lit wherever it lies in the causal past of an aperture in any branch that
-              grows from it. Whatever lies outside every aperture&apos;s causal past, including
-              branches that never form one and the far future after the last observer, is{" "}
-              <strong>unlit</strong>. The relation is tenseless, but it points one way: an aperture
-              lights its past, not its future. <strong>Witnessing</strong> is graded and local: how
-              much of the lit region experience is actually about, and in what detail. One observer
-              lights its past; many witness it.
+              Closure uses three words, each for one thing: <strong>lived</strong>, where experience
+              occurs; <strong>lit</strong>, the causal past it draws on; and <strong>unlit</strong>,
+              structure outside every observer&apos;s causal past. They are defined in{" "}
+              <a href="/logic#primitive-definitions" className="underline hover:no-underline">
+                Logic, D7
+              </a>
+              .
             </p>
           </div>
 
@@ -203,14 +201,14 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Two consequences follow. First, there are no dark duplicates: because crossing the
-              threshold is a structural fact, any system wired as an observer necessarily is one: a
-              physically identical copy of an observer cannot lack experience, in any possible
-              world, because experience is the inside of the same event (Axiom 4). Second, the
-              threshold is sharp while its surroundings are not. Whether there is experience at all
-              is binary; how rich the experience is, is graded above the line; and locating the
-              boundary by measurement is permanently imprecise. The fuzziness of real cases lives in
-              richness and in our instruments, not in whether anyone is home.
+              Two consequences follow. A physically identical copy of an observer cannot lack
+              experience (Axiom 4). And the threshold is sharp while its surroundings are not: the
+              fuzziness of real cases lives in richness and in our instruments, not in whether
+              anyone is home (see{" "}
+              <a href="/#consciousness" className="underline hover:no-underline">
+                Consciousness
+              </a>
+              ).
             </p>
           </div>
 
@@ -262,14 +260,9 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Branches are weighted, not merely counted. The statistics every observer records
-              follow the Born rule, the unique self-consistent weighting of quantum outcomes
-              (Gleason&apos;s theorem). Those weights are structural facts about the possibility
-              space, not a measure of how much experience a branch carries. For an observer, what
-              the weight measures is odds: after a measurement splits the world and before you look,
-              you are one of many observers without knowing which, and a branch&apos;s weight is
-              your odds of being among its observers. Counting cannot supply those odds, because the
-              observers cannot be counted, so weight is the only measure left. See{" "}
+              Branches are weighted, not merely counted: the statistics every observer records
+              follow the Born rule. The weights are structural facts, not amounts of experience, and
+              for an observer they are odds of being in one branch rather than another. See{" "}
               <a href="/logic#relationship-to-physics" className="underline hover:no-underline">
                 Logic
               </a>{" "}
@@ -327,8 +320,10 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Large-scale neural integration measures should therefore change abruptly, not
-              smoothly, near loss and recovery of consciousness. Below threshold, processing
+              Large-scale neural integration measures should therefore show the signatures of a
+              critical transition near loss and recovery of consciousness: slowing and growing
+              fluctuations as the boundary nears, and scaling exponents that match across
+              individuals and species, rather than a smooth fade. Below threshold, processing
               continues without unified access to experience.
             </p>
 
@@ -554,6 +549,25 @@ export default function Predictions() {
               proxies for each other.
             </p>
           </div>
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">
+              Held-out states, not the answer key
+            </h4>
+            <p className="leading-relaxed">
+              PCI&apos;s cutoff was set by calibrating it on people whose state was already known
+              from their reports (
+              <a href="https://doi.org/10.1002/ana.24779" target="_blank" rel="noopener noreferrer">
+                Casarotto et al. 2016
+              </a>
+              ), and the conscious side of that calibration included waking, REM dreaming, and
+              ketamine with vivid reports. Those cases cannot confirm Test A: they are the answer
+              key, not the exam. The test therefore freezes the cutoff before new data and counts
+              only states that played no part in setting it, named in advance: dream reports from
+              non-REM sleep, sleepwalking and other automatisms, complex seizures, covert awareness
+              in unresponsive patients detected by brain imaging, and psychedelic states. This is
+              the design of the COGITATE collaboration: predictions fixed first, data second.
+            </p>
+          </div>
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">Holos Prediction</h4>
@@ -593,11 +607,11 @@ export default function Predictions() {
             </p>
             <p className="leading-relaxed">
               Positive reports are unaffected, and they carry the test both ways. Where integration
-              is high and behavior is absent, subjects report rich experience: ketamine states, REM
-              dreaming, complex seizures. Those confirm the prediction without leaning on silence.
-              Where integration is low, a positive report is the losing case described above. Holos
-              rests Test A on positive reports, and treats silence as suggestive pending a design
-              that calibrates report failure against states with known encoding.
+              is high and behavior is absent, subjects report rich experience; on the held-out
+              states above, reports of that kind would confirm the prediction without leaning on
+              silence. Where integration is low, a positive report is the losing case described
+              above. Holos rests Test A on positive reports, and treats silence as suggestive
+              pending a design that calibrates report failure against states with known encoding.
             </p>
           </div>
 
@@ -632,9 +646,10 @@ export default function Predictions() {
             condition, not presence itself. It cannot prove an integrated system <em>is</em> an
             observer, only whether integration is what experience depends on. Holos shares this
             prediction with other integration-based accounts of consciousness; it is a test Holos
-            could fail, not a signature unique to Holos. It also doubles as the calibration engine
-            for the framework&apos;s open problems: the same data that test the claim locate the
-            threshold and cull the candidate measures (see{" "}
+            could fail, not a signature unique to Holos. It also feeds the calibration engine for
+            the framework&apos;s open problems, with a strict division: calibration states locate
+            the threshold and cull the candidate measures, and only held-out states test the claim
+            (see{" "}
             <a href="/logic#path-to-threshold" className="underline hover:no-underline">
               A path to the threshold
             </a>
@@ -901,7 +916,8 @@ export default function Predictions() {
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
             What follows are not predictions. They’re “what if” designs that <em>could</em> emerge
-            if the Holos framework is correct.
+            if the Holos framework is correct. Each is held to one standard: it must be physically
+            possible and not extremely unlikely, and each says why it is plausible.
           </p>
 
           <p className="leading-relaxed">
@@ -975,20 +991,19 @@ export default function Predictions() {
               </div>
 
               <div className="flex flex-col gap-1">
-                <h4 className="text-lg font-medium text-black/90">H5: Asymptotic Closure</h4>
+                <h4 className="text-lg font-medium text-black/90">H5: The Limit</h4>
                 <p className="leading-relaxed">
-                  This is not a destination or a goal. It is a limit concept: what complete,
-                  contradiction-free closure would look like if integration continues to deepen
-                  without breaking coherence.
+                  Maximal coherence at minimal waste. This is a limit concept, not a stage any
+                  civilization reaches.
                 </p>
               </div>
             </div>
 
             <p className="leading-relaxed text-black/70 text-sm">
-              This scale is intentionally “quiet.” If it is even partly right, the most advanced
-              civilizations get harder to see in light, not easier. Thermodynamics guarantees their
-              heat exists; it is their own compactness that keeps that heat above the cosmic
-              background and, in principle, findable.
+              <strong>Why it is plausible:</strong> every stage follows from two certainties,
+              light-speed delay and waste heat, plus one assumption: that coordination pays. The
+              assumption is the weak link. A civilization that never learns to coordinate stays at
+              H0, loud until it ends.
             </p>
           </div>
 
@@ -1006,13 +1021,18 @@ export default function Predictions() {
               increasingly optimized and less obvious radiative signatures.
             </p>
             <p className="leading-relaxed">
-              One caveat is non-negotiable: visibility collapse applies to light, not heat. Anything
-              that computes must shed waste heat, and the total cannot be canceled. Heat can be
-              hidden in only one way: radiated barely above the cosmic background, which requires
-              radiating surfaces so vast they contradict compactness itself. A civilization that
-              stays compact and keeps computing stays warm above the background. Mature systems
-              become silent, not cold; the one exception is systems that stop computing and sleep,
-              and a sleeping civilization is indistinguishable from none at all.
+              The collapse applies to light, not heat: compact systems that keep computing stay
+              warm, for the reasons given in the{" "}
+              <a href="/#the-teeming-dark" className="underline hover:no-underline">
+                Teeming Dark
+              </a>
+              .
+            </p>
+            <p className="leading-relaxed text-black/70 text-sm">
+              <strong>Why it is plausible:</strong> efficient communication already looks like
+              noise. A perfectly compressed signal has no repeating patterns left for an
+              eavesdropper to spot, so the better a civilization&apos;s codes, the less its traffic
+              stands out from the background.
             </p>
           </div>
 
@@ -1029,32 +1049,33 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              In this regime, you would look for persistent compactness, non-random organization,
-              and mass concentrations that are dark in visible light but carry a faint infrared
-              excess, detectable through{" "}
+              In this regime, you would look for masses that are dark in visible light but carry a
+              faint infrared excess, found through infrared surveys of individual stars and through{" "}
               <a
-                href="https://en.wikipedia.org/wiki/Gravitational_lensing"
+                href="https://en.wikipedia.org/wiki/Gravitational_microlensing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                gravitational lensing
-              </a>
-              , precision mass mapping, and waste-heat surveys rather than radio searches. Infrared
-              searches for exactly this signature already exist; the unavoidable search channel is
-              warmth plus weight, not messages.
+                microlensing
+              </a>{" "}
+              of compact dark objects, rather than radio searches. Mass maps of whole galaxies
+              cannot see objects this small, and no instrument can read purpose off a distant warm
+              mass. The unavoidable search channel is warmth plus weight, not messages.
             </p>
 
+            <p className="leading-relaxed">
+              Nodes are ordinary matter that has stopped shining, not cosmological dark matter. How
+              many there can be, and why a warm dark mass is a search channel rather than a
+              fingerprint, is set out in the{" "}
+              <a href="/#the-teeming-dark" className="underline hover:no-underline">
+                Teeming Dark
+              </a>
+              .
+            </p>
             <p className="leading-relaxed text-black/70 text-sm">
-              A Dark Node is <em>not</em> dark matter in the cosmologist&apos;s sense: cosmological
-              dark matter predates stars, chemistry, and any possible builder, and outweighs all the
-              ordinary matter a builder could use about five to one. Nodes are ordinary matter that
-              has stopped shining. Holos does not claim any known anomaly is a node, only that if
-              long-term integration leaves a footprint, it is gravitational and thermal, and this is
-              where it would show up. Two limits bound the idea. The ordinary-matter budget and
-              microlensing searches permit nodes only as a trace population, not a hidden census.
-              And a node&apos;s observational profile (compact, dark, faintly warm) is shared with
-              brown dwarfs, rogue planets, and cooled stellar remnants, so the Dark Node is a search
-              channel, not a fingerprint.
+              <strong>Why it is plausible:</strong> anything that computes sheds heat, and compact
+              systems shed it warm. Brown dwarfs and rogue planets already show that compact, dark,
+              faintly warm masses exist and can be found.
             </p>
           </div>
 
@@ -1087,9 +1108,14 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                Not a star-enclosing megastructure: the Holocore concentrates energy density rather
-                than surface area, converting mass into stable, controlled output through tightly
-                regulated accretion, fusion, or rotational extraction.
+                The likeliest energy backbone for a compact civilization is its home star, harvested
+                by nearby collectors (see{" "}
+                <a href="/#aliens" className="underline hover:no-underline">
+                  Aliens
+                </a>
+                ). The Holocore is the step beyond: it concentrates energy density rather than
+                surface area, converting mass into controlled output through fusion, regulated
+                accretion, or extraction of a black hole&apos;s spin.
               </p>
 
               <h5 className="font-semibold text-black/90">Purpose</h5>
@@ -1129,6 +1155,22 @@ export default function Predictions() {
                 quiet as its power allows: compact and powerful means hot, the same physics that
                 keeps mature systems warm.
               </p>
+              <p className="leading-relaxed text-black/70 text-sm">
+                <strong>Why it is plausible:</strong> every step is known physics; only the
+                engineering is unknown. Fusion releases about 0.7 percent of a mass as energy.
+                Matter falling into a rapidly spinning black hole can release roughly 30 to 40
+                percent, and the{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Penrose_process"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Penrose process
+                </a>{" "}
+                can draw out a spinning black hole&apos;s rotational energy, up to 29 percent of its
+                mass. A civilization that prizes compactness would prize the densest energy source
+                physics allows.
+              </p>
             </div>
 
             {/* 2) Computronium Kernel */}
@@ -1136,9 +1178,9 @@ export default function Predictions() {
               <h4 className="text-lg font-medium text-black/90">Computronium Kernel</h4>
 
               <p className="leading-relaxed">
-                A maximally compact computational core built from computronium (matter arranged so
-                that nearly every particle does useful computation) and optimized for coherent,
-                long-horizon modeling rather than raw throughput.
+                A computational core as compact as its cooling allows, built from computronium
+                (matter arranged so that nearly every particle does useful computation) and
+                optimized for coherent, long-horizon modeling rather than raw throughput.
               </p>
 
               <p className="leading-relaxed">
@@ -1164,6 +1206,12 @@ export default function Predictions() {
                 <strong>Note:</strong> The Kernel may <em>present</em> as a Dark Node if coherence
                 optimization suppresses radiative visibility. Node describes appearance, not
                 purpose.
+              </p>
+              <p className="leading-relaxed text-black/70 text-sm">
+                <strong>Why it is plausible:</strong> two known pressures meet here. Light delay
+                rewards compactness: a signal crosses a meter in about three nanoseconds, so smaller
+                thinks faster. Heat punishes it: power packed too densely cannot be cooled. The
+                Kernel sits where the two balance, as today&apos;s chips already do.
               </p>
             </div>
 
@@ -1206,6 +1254,28 @@ export default function Predictions() {
                 <strong>Note:</strong> Unlike the Kernel, a Vault that stops computing can go cold.
                 It would then not be a Dark Node, which still exports waste heat, but the sleeping
                 case: compact, dark, and close to undetectable.
+              </p>
+              <p className="leading-relaxed text-black/70 text-sm">
+                <strong>Why it is plausible:</strong> durable storage is ordinary engineering; what
+                is speculative is the motive to pause. The{" "}
+                <a
+                  href="https://arxiv.org/abs/1705.03394"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  aestivation hypothesis
+                </a>{" "}
+                argues computing is cheaper in the colder far future, so a civilization might sleep
+                until then; a{" "}
+                <a
+                  href="https://doi.org/10.1007/s10701-019-00289-5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  published reply
+                </a>{" "}
+                argues heat can be dumped cheaply today, so waiting is not required. Collapse,
+                fragmentation, and dormancy remain reasons enough to keep a way back.
               </p>
             </div>
           </div>
@@ -1263,6 +1333,12 @@ export default function Predictions() {
                   frequency, the transmission is effectively invisible.
                 </li>
               </ul>
+              <p className="leading-relaxed text-black/70 text-sm">
+                <strong>Why it is plausible:</strong> a laser sent through a ten-meter mirror
+                spreads, across ten light-years, to a spot smaller than Earth&apos;s orbit. A beam
+                therefore delivers far more signal per watt than broadcasting in every direction,
+                and it is dark to everyone outside its narrow cone.
+              </p>
             </div>
 
             <h3 id="exploration" className="text-xl font-semibold text-black/90">
@@ -1346,6 +1422,18 @@ export default function Predictions() {
                 Past H3, exploration scales through patience: sentinel probes exist to watch, not to
                 arrive.
               </p>
+              <p className="leading-relaxed text-black/70 text-sm">
+                <strong>Why it is plausible:</strong> Ronald{" "}
+                <a
+                  href="https://doi.org/10.1038/186670a0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Bracewell proposed exactly this in 1960
+                </a>
+                : a probe parked in a target system studies it in detail no beam can match, and can
+                wait indefinitely. Our own spacecraft already run autonomously for decades.
+              </p>
             </div>
 
             {/* 3) Gravitational-Lens Observatories */}
@@ -1369,6 +1457,18 @@ export default function Predictions() {
                   interrogating specific questions the shared map cannot yet answer.
                 </li>
               </ul>
+              <p className="leading-relaxed text-black/70 text-sm">
+                <strong>Why it is plausible:</strong> general relativity places the Sun&apos;s focal
+                line beyond about 550 times the Earth-Sun distance, and{" "}
+                <a
+                  href="https://arxiv.org/abs/2002.11871"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  NASA-funded studies
+                </a>{" "}
+                have already designed a mission to image an exoplanet from there.
+              </p>
             </div>
           </div>
         </div>

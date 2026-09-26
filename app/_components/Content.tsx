@@ -3,7 +3,6 @@ import AxiomDiagram from "./AxiomDiagram";
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
-import HolographicSingularityAnimation from "./HolographicSingularityAnimation";
 import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
@@ -14,8 +13,6 @@ import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import OperatorAnatomyDiagram from "./OperatorAnatomyDiagram";
 import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
-import ShadowProjectionAnimation from "./ShadowProjectionAnimation";
-import SpacetimeBlockAnimation from "./SpacetimeBlockAnimation";
 import TeemingDarkAnimation from "./TeemingDarkAnimation";
 
 interface ContentProps {
@@ -80,7 +77,6 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
           {section.id === "meaning-of-life" && <BlockUniverseAnimation isPDF={isPDF} />}
           {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
-          {section.id === "our-universe" && <SpacetimeBlockAnimation isPDF={isPDF} />}
           {section.id === "spacetime" && (
             <>
               <InvarianceWarpAnimation isPDF={isPDF} />
@@ -88,9 +84,7 @@ export default function Content({ isPDF = false }: ContentProps) {
               <QuantumEraserAnimation isPDF={isPDF} />
             </>
           )}
-          {section.id === "higher-dimensions" && <ShadowProjectionAnimation isPDF={isPDF} />}
           {section.id === "infinity" && <InfiniteWrapAnimation isPDF={isPDF} />}
-          {section.id === "black-holes" && <HolographicSingularityAnimation isPDF={isPDF} />}
           {section.id === "aliens" && <IntegrationHypothesisAnimation isPDF={isPDF} />}
           {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
           {section.id === "omega-point" && <OmegaLimitAnimation isPDF={isPDF} />}

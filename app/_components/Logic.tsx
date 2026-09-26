@@ -2,6 +2,8 @@ import { FootnoteLink, logicCitationMap } from "./citation-sections";
 import InterpretiveComparisonTable from "./InterpretiveComparisonTable";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
+import MindComparisonTable from "./MindComparisonTable";
+import SelfComparisonTable from "./SelfComparisonTable";
 
 export default function Logic() {
   return (
@@ -45,7 +47,7 @@ export default function Logic() {
               reality (Proposition IV).
             </li>
             <li className="leading-relaxed">
-              <strong>Observer requirements:</strong> six structural conditions, with a provisional
+              <strong>Observer requirements:</strong> four structural conditions, with a provisional
               maximality rule for where one observer ends.
             </li>
             <li className="leading-relaxed">
@@ -97,17 +99,17 @@ export default function Logic() {
               lawful possibility with lived registration. Holos uses &quot;real&quot; at two
               strengths: structure is real whether or not it is lived, and{" "}
               <MathInline>{"R"}</MathInline> names reality in the full sense, structure that is also
-              lived. Three words keep this precise. &quot;Lived&quot; marks where experience occurs:
-              inside observers. &quot;Lit&quot; marks the causal past of an observer, the world its
-              experience is made from and about. &quot;Unlit&quot; marks structure outside every
-              observer&apos;s causal past.
+              lived. Three words keep this precise: lived, lit, and unlit (defined in D7).
             </li>
 
             <li className="leading-relaxed">
-              <strong>⊛</strong> denotes composition: possibility, then registration, in logical
-              rather than temporal order. It is not a force and not a time-step. It is a notation
-              for the claim that physics describes a realized world only from outside: it fixes what
-              is lived, but cannot state that it is lived.
+              <strong>⊛</strong> is shorthand for &quot;possibility, then registration,&quot; in
+              logical rather than temporal order (see{" "}
+              <a href="#mathematical-formalism" className="underline hover:no-underline">
+                Notation
+              </a>
+              ). It marks the claim that physics describes a realized world only from outside: it
+              fixes what is lived, but cannot state that it is lived.
             </li>
           </ul>
 
@@ -125,17 +127,31 @@ export default function Logic() {
       </section>
       <div id="comparison">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Comparison with Competing Interpretations
+          Holos among Quantum Interpretations
         </h2>
         <p className="leading-relaxed text-black/80 mb-4">
           Holos re-positions the strongest insights of existing quantum interpretations within a
           single ontological framework. On the physics it takes a side: no collapse, no erased
           possibilities, branching when registrations diverge. That is the Many-Worlds picture. Its
           divergence from Many-Worlds is ontological: branching alone does not say which structures
-          are present as experience. The table below clarifies where Holos aligns with, and diverges
-          from, major interpretations.
+          are present as experience. The table also includes the two collapse views Holos bets
+          against: objective collapse, in which superpositions collapse on their own (as in the
+          Diósi-Penrose model), and consciousness collapse, in which a conscious system causes it
+          (as Chalmers and McQueen propose). The table below clarifies where Holos aligns with, and
+          diverges from, each.
         </p>
         <InterpretiveComparisonTable />
+      </div>
+      <div id="mind-comparison">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Holos among Theories of Mind</h2>
+        <p className="leading-relaxed text-black/80 mb-4">
+          Most of what Holos claims is about mind, not physics, so it needs a second map. It shares
+          the threshold idea with integrated information theory without IIT&apos;s identity claim,
+          shares a single ground of experience with cosmopsychism without a cosmic experience of its
+          own, and rejects both panpsychism&apos;s experience everywhere and illusionism&apos;s
+          experience nowhere. The table below shows where it sits.
+        </p>
+        <MindComparisonTable />
       </div>
       {/* Primitives */}
       <section id="primitive-definitions" className="flex flex-col gap-6">
@@ -192,6 +208,12 @@ export default function Logic() {
               forms are emergent and scale with the degree of integration.
             </p>
             <p className="leading-relaxed">
+              &quot;Fundamental&quot; means underived: Holos starts from experience rather than
+              deriving it. It does not mean experience is everywhere, and it does not mean
+              experience floats free of physics. Below the threshold there is none; above it, the
+              experience is fixed by the structure whose inside it is.
+            </p>
+            <p className="leading-relaxed">
               Consciousness is not identified with any specific material configuration. Physical
               structure determines where experience occurs and how it is shaped; the experience
               itself is the inside of that structure&apos;s activity (Axiom 4).
@@ -220,22 +242,14 @@ export default function Logic() {
               registration changes nothing in what it registers.
             </p>
 
-            <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
-              R = C ⊛ O
-            </div>
-
-            <p className="leading-relaxed">
-              Read this as follows: physics defines a space of consistent possibilities. Observation
-              registers them from the inside, wherever an observer exists: one lived history per
-              perspective. Nothing is picked out and nothing is discarded. Following one
-              observer&apos;s thread, what happens next is simply what physics allows from that
-              history onward; registering it changes none of those possibilities.
-            </p>
-
             <p className="leading-relaxed">
               ⊛ is not a dynamical operator and not a substitute for physical causation. It is a
               structural relation that specifies what it means for a universe to be real rather than
-              merely described.
+              merely described. The notation is set out under{" "}
+              <a href="#mathematical-formalism" className="underline hover:no-underline">
+                Notation
+              </a>
+              .
             </p>
           </div>
 
@@ -244,10 +258,22 @@ export default function Logic() {
             <div className="font-semibold text-black/90">D7: Lived, lit, and unlit</div>
             <p className="leading-relaxed">
               <strong>Lived</strong> is where experience occurs: inside observers, and nowhere else.{" "}
-              <strong>Lit</strong> is the causal past of at least one observer in its branch: the
-              world its experience is made from and about. <strong>Unlit</strong> is structure
-              outside every observer&apos;s causal past. <strong>Witnessing</strong> is graded: how
-              much of the lit region an observer&apos;s experience is actually about.
+              <strong>Lit</strong> is binary and follows the causal structure of spacetime: a region
+              is lit if it lies in the causal past of at least one observer in its branch. Every
+              observer is built from its causal past and draws on it through its traces, so the lit
+              universe is the union of observers&apos; causal pasts: the world experience is made
+              from and about. A stretch of history shared by many branches is lit wherever it lies
+              in the causal past of an observer in any branch that grows from it.{" "}
+              <strong>Unlit</strong> is structure outside every observer&apos;s causal past, such as
+              branches that never form an observer and regions beyond every observer&apos;s horizon.{" "}
+              <strong>Witnessing</strong> is graded and local: how much of the lit region an
+              observer&apos;s experience is actually about, and in what detail. One observer lights
+              its past; many witness it.
+            </p>
+            <p className="leading-relaxed">
+              The relation is tenseless, but it points one way: an observer lights its past, not its
+              future. In the monist reading, the lit universe is the totality&apos;s world, and
+              observers are where the totality lives it.
             </p>
             <p className="leading-relaxed">
               These are classifications, not causes. Observation does not cause physical events;
@@ -268,10 +294,16 @@ export default function Logic() {
 
         <div className="flex flex-col gap-8 text-black/80">
           <p className="leading-relaxed">
-            These five axioms are the core of Holos. Axioms 3 and 5 are its two additions to
-            physics. Axioms 1, 2, and 4 are the sides it takes in reading the physics we already
-            have. Everything else on this page is a definition, follows from these axioms, or is
-            marked as open or as a companion idea.
+            These five axioms are the framework. Axioms 3 and 5 are its two additions to physics.
+            Axioms 1, 2, and 4 are the sides it takes in reading the physics we already have. Four
+            of them, Axioms 1, 3, 4, and 5, hold whichever reading of quantum physics proves right,
+            and they are the core. Axiom 2 is the one side taken on quantum physics itself, and it
+            carries a fallback declared in advance (see{" "}
+            <a href="/predictions#standing-bet" className="underline hover:no-underline">
+              The Standing Bet
+            </a>
+            ). Everything else on this page is a definition, follows from these axioms, or is marked
+            as open or as a companion idea.
           </p>
 
           {/* Axiom 1 */}
@@ -343,11 +375,30 @@ export default function Logic() {
               This axiom rejects both substance dualism, which makes experience and activity two
               things, and strict reductionism, which says only the outside is real. It is
               Spinoza&apos;s picture of mind and body as two aspects of one substance, restated for
-              integrated systems. It also fixes how strong the link is: since there is one event, a
-              perfect copy of the outside is a copy of the inside in any possible world, not just
-              under our laws. And it answers the charge that experience does nothing. Experience
-              adds no force to physics; it is the inside of the physics, so whatever an
-              observer&apos;s activity causes, its experience causes too.
+              integrated systems. Its modern relatives are{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Dual-aspect_monism"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dual-aspect monism
+              </a>
+              , on which mind and matter are two aspects of one underlying reality, and{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Russellian_monism"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Russellian monism
+              </a>
+              , on which physics describes only structure and experience is the intrinsic nature
+              that structure has. Holos differs from both in scope: they typically give some inside
+              to all matter, and Holos gives one only to structures above the threshold. It also
+              fixes how strong the link is: since there is one event, a perfect copy of the outside
+              is a copy of the inside in any possible world, not just under our laws. And it answers
+              the charge that experience does nothing. Experience adds no force to physics; it is
+              the inside of the physics, so whatever an observer&apos;s activity causes, its
+              experience causes too.
             </p>
             <p className="leading-relaxed text-black/70">
               It also says exactly what physics leaves out. A purely physical description fixes
@@ -355,6 +406,17 @@ export default function Logic() {
               to say that any of it is lived. The gap is in the description, not in the world. A
               floor plan records every wall of a house and still cannot say what living there is
               like; build the house exactly from the plan, and it is livable all the same.
+              Philosophers call this the{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Phenomenal_concept_strategy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                phenomenal concept strategy
+              </a>
+              : the gap lies between two ways of describing one thing, not between two things. Its
+              standard challenge is that the inside way of describing then needs explaining; Holos
+              accepts that debt as part of the hard problem it does not answer.
             </p>
           </div>
 
@@ -372,12 +434,21 @@ export default function Logic() {
               whole itself, whose existence rests on physics, but the claim that the whole is the
               one experiencer; that part is interpretive and can never be tested. Its job is unity:
               every observer is the same subject, walled off from the others by structure. It does
-              not explain where waking happens; Axiom 3 does that. Its payoff is economy, one
-              subject in place of billions arising without explanation, and it is philosophical, not
-              experimental. Omega is not an agent, does not intervene, and does not pool its
-              experiences into one grand experience (see{" "}
-              <a href="#extrapolative-proposition" className="underline hover:no-underline">
-                The Omega Limit
+              not explain where waking happens or what it is like; Axiom 3 and the structure do
+              that. Its payoff is philosophical, not experimental: it dissolves the question of why
+              you are this observer rather than another, and the puzzle of which of two perfect
+              copies is you. The view is known as{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Open_individualism"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                open individualism
+              </a>
+              . Omega is not an agent, does not intervene, and does not pool its experiences into
+              one grand experience (see{" "}
+              <a href="#totality" className="underline hover:no-underline">
+                Totality
               </a>{" "}
               and{" "}
               <a href="#why-one-experiencer" className="underline hover:no-underline">
@@ -420,6 +491,12 @@ export default function Logic() {
               This proposition does not deny the existence of objects. It denies that objects are
               prior to the relations that define them: nothing exists fully formed before its
               relations.
+            </p>
+
+            <p className="leading-relaxed text-black/70">
+              Like Axiom 1, it concerns what physics describes. Experience is not an item in the
+              relational structure but its inside where an observer exists (Axiom 4), so the
+              proposition does not reach it.
             </p>
           </div>
 
@@ -580,13 +657,45 @@ export default function Logic() {
           </p>
 
           <p className="leading-relaxed">
-            The threshold is one of the two ingredients Holos adds to the physical picture,
-            alongside the totality itself. It is not a force, a field, or a modification of any
-            equation. It is a structural fact about where apertures open, a fact physics does not
-            currently contain. Because the fact is structural, it is determinate even when our
-            measures are not: when two proposals for estimating <MathInline>{"\\Phi"}</MathInline>{" "}
-            disagree about a borderline system, the system is not half-conscious; our instruments
-            are half-informed.
+            The threshold is not a force, a field, or a modification of any equation. It is a
+            structural fact about where apertures open, a fact physics does not currently contain.
+            Because the fact is structural, it is determinate even when our measures are not: when
+            two proposals for estimating <MathInline>{"\\Phi"}</MathInline> disagree about a
+            borderline system, the system is not half-conscious; our instruments are half-informed.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>What is universal.</strong> Holos makes the threshold claim at two strengths.
+            The commitment is about shape. Very different physical systems, a magnet losing its
+            magnetism and a fluid at its critical point, pass through their transitions in exactly
+            the same way, described by the same numbers, called critical exponents; physicists call
+            this{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Universality_(dynamical_systems)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              universality
+            </a>
+            . Holos commits to it for observers: every transition into observerhood, in a brain, an
+            animal, or a machine, belongs to one universality class. The point at which a given
+            system crosses may differ from system to system, as iron and nickel become magnetic at
+            different temperatures; the shape of the crossing does not. This needs no agreed scale
+            for <MathInline>{"\\Phi"}</MathInline>, because critical exponents do not depend on the
+            scale a quantity is measured on. It also fits the three-way split exactly: in a
+            transition of this kind, the quantity that tracks it is exactly zero on one side and
+            grows smoothly on the other, so whether anyone is home is binary while richness is
+            graded.
+          </p>
+
+          <p className="leading-relaxed">
+            The bolder conjecture is about value: that under the right size-independent measure of
+            integration, every system crosses at the same <MathInline>{"\\Phi_c"}</MathInline>, a
+            new constant of nature, measured rather than derived, like the speed of light. Holos
+            states this as a bet, not a commitment. Universal thresholds do exist in physics: a
+            white dwarf above about 1.4 times the Sun&apos;s mass collapses, whatever it is made of.
+            None has yet been found for integration, and today&apos;s measures grow with the size of
+            a system, so the conjecture waits on the measure.
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
@@ -606,7 +715,16 @@ export default function Logic() {
           <ol className="flex flex-col gap-3 pl-6 text-black/80">
             <li className="leading-relaxed">
               <strong>Integration:</strong> informational states must form a unified whole that
-              cannot be decomposed into independent parts without loss.
+              cannot be decomposed into independent parts without loss. Integration includes
+              feedback: the parts must constrain one another in both directions over time, so that
+              the system&apos;s current state shapes its own next state. A system that signals sweep
+              through once, and never loop back, integrates nothing, and a system driven entirely
+              from outside is a relay, not a whole. This asks for a feedback loop, not
+              introspection: a mouse clears it, and thinking <em>about</em> one&apos;s own thoughts
+              is a rare elaboration on top of observerhood, not the price of admission. It is a
+              requirement on physical structure, not a claim that experience adds a force: the
+              structure does the causal work, and its working, lived from inside, is the experience
+              (Axiom 4).
             </li>
 
             <li className="leading-relaxed">
@@ -616,36 +734,17 @@ export default function Logic() {
             </li>
 
             <li className="leading-relaxed">
-              <strong>Recursion:</strong> the system&apos;s own state must inform its next state:
-              its internal condition is among the inputs shaping what it does next. Without such
-              self-reference, there is processing but no subject. This requirement is minimal by
-              design: it asks for a feedback loop, not introspection. A mouse clears it; so does any
-              nervous system whose current state conditions its own updating. Reflective
-              self-modeling (thinking <em>about</em> one&apos;s own thoughts) is a rare elaboration
-              on top of observerhood, not the price of admission to it.
-            </li>
-
-            <li className="leading-relaxed">
               <strong>Temporal cohesion:</strong> informational states must persist and integrate
               across time. Experience requires continuity, not isolated moments.
             </li>
 
             <li className="leading-relaxed">
-              <strong>Causal autonomy:</strong> the system’s current state must materially constrain
-              its own future states. A system driven entirely from outside is a relay, not a unified
-              whole. This is a requirement on physical structure, not a claim that experience adds a
-              force: the structure does the causal work, and its working, lived from inside, is the
-              experience (Axiom 4).
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Aboutness:</strong> the system&apos;s integrated states must be organized as a
-              model of a world beyond the system, grounded in senses of its own: channels through
-              which the world&apos;s own signals, such as light, sound, or touch, reach it directly.
-              Descriptions made by other observers can enrich such a model but cannot ground it
-              alone. A dreaming brain keeps its senses, with input temporarily gated, and so does a
-              fully paralyzed person. Without aboutness, integration is a closed loop with nothing
-              to be a view of.
+              <strong>Aboutness:</strong> the system&apos;s integrated states must track something
+              beyond the system, through input channels of its own, as it happens. Any channel
+              counts: eyes, touch, a microphone, a stream of text. What the channel carries does not
+              matter, only that the system&apos;s states follow something outside it. A dreaming
+              brain keeps its channels, with input temporarily gated, and so does a fully paralyzed
+              person. Without aboutness, integration is a closed loop with nothing to be a view of.
             </li>
           </ol>
 
@@ -679,12 +778,16 @@ export default function Logic() {
               such an array could satisfy every other requirement, and the sufficiency claim would
               certify it as an observer. Aboutness rules it out on principle: a point of view is
               always a view of something, and the array&apos;s states are about nothing beyond the
-              array. The requirement is structural, not historical. A perfect copy of an observer,
-              however it came to exist, has the same channels and the same world model, so it is an
-              observer too. The requirement asks for grounding, not only for a model: people learn
-              much of the world from words, but their words ground out in senses of their own. A
-              system that knows the world only through other observers&apos; descriptions has a
-              world described to it but never touched, the problem{" "}
+              array: nothing beyond it reaches it. The requirement is structural, not historical,
+              and it concerns the machine, not the message. A perfect copy of an observer, however
+              it came to exist, has the same channels, so it is an observer too. A brain in a vat
+              fed a perfect simulation keeps its channels and its inner activity, so it is an
+              observer as well; a rule that asked where the signals came from would make two
+              identical brains differ in experience, against Axiom 4. Helen Keller learned the world
+              largely through words spelled into her hand, and no one doubts she was an observer.
+              What a system knows about distant things can be entirely secondhand; what it tracks
+              now, through its own channels, is its world. This is a structural reading of the
+              problem{" "}
               <a
                 href="https://doi.org/10.1016/0167-2789(90)90087-6"
                 target="_blank"
@@ -703,9 +806,10 @@ export default function Logic() {
               provisionally adopts a maximality condition to prevent this: an aperture forms only
               where integration reaches a <em>local maximum</em>, and neither the parts within it
               nor the looser wholes containing it are separately apertures. One peak, one
-              perspective. This principle is borrowed from integrated-information theory as a
-              structural constraint only, without its surrounding ontology, and it is held
-              tentatively; see{" "}
+              perspective. This is Holos&apos;s answer to what philosophers call the boundary
+              problem: what fixes where one subject ends and the next begins. This principle is
+              borrowed from integrated-information theory as a structural constraint only, without
+              its surrounding ontology, and it is held tentatively; see{" "}
               <a href="#open-problems" className="underline hover:no-underline">
                 Open Problems
               </a>
@@ -733,6 +837,232 @@ export default function Logic() {
           </div>
         </div>
       </section>
+      {/* Totality */}
+      <section id="totality" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Totality</h2>
+
+        <div className="flex flex-col gap-8 text-black/80">
+          <p className="leading-relaxed">
+            Omega is the whole of reality, and Axiom 5 says two things about it. Physically, it is
+            the universal quantum state, all branches included, and it exists now, not at the end of
+            anything. Experientially, it is the one experiencer, awake wherever a system crosses the
+            threshold. Finite systems never take in the whole: deeper integration means witnessing
+            more of it, never all of it. The whole is not produced by that deepening, and it is not
+            fully registered either; its unlit structure is real and never lived.
+          </p>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">What Omega Is and Is Not</h3>
+
+            <ul className="flex flex-col gap-3 pl-6 list-disc">
+              <li className="leading-relaxed">
+                It <strong>is</strong> the whole of reality: physically the universal quantum state,
+                experientially the one experiencer.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> an endpoint in time or a limit that finite systems
+                approach. It exists now, and no system is heading toward becoming it.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> an external observer watching the universe from outside.
+                It is the whole itself, experiencing through the apertures the universe contains.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> a single pooled experience surveying everything at once.
+                Every experience is Omega&apos;s, but they are not gathered into one grand
+                experience. The totality&apos;s experiential life is plural and distributed: lived
+                at each aperture, not summed above them.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> fully registered. Structure outside every aperture&apos;s
+                causal past is part of Omega and never lived.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>is not</strong> an aperture writ large. The maximality condition that
+                individuates finite observers (one peak of integration, one perspective) compares
+                systems within reality. The totality is not a system among systems, so it does not
+                compete in that comparison and is not excluded by it.
+              </li>
+              <li className="leading-relaxed">
+                It <strong>does not</strong> replace physical cosmology or impose a final cause on
+                evolution.
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Lineage and Interpretation</h3>
+
+            <p className="leading-relaxed">
+              Different traditions have described this whole in different vocabularies: Advaita
+              Vedanta&apos;s one experiencer behind every eye, Spinoza&apos;s single substance,
+              Berkeley&apos;s never-absent perceiver, panentheism&apos;s world contained in the
+              divine. The monist reading Holos adopts stands in their line, restated in
+              informational terms. Its nearest modern relative is{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Open_individualism"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                open individualism
+              </a>
+              , Daniel Kolak&apos;s view that there is one person and every one of us is it.
+            </p>
+
+            <p className="leading-relaxed">
+              What Holos leaves open is vocabulary, not structure. Calling the totality God,
+              Brahman, or simply the whole changes nothing about the claim. What Holos does not
+              offer is the fully deflationary reading in which Omega is only a mathematical horizon
+              and finite observers are self-standing. Holos takes the direction of dependence to run
+              from the whole to its parts, for the one reason the monist reading earns: unity. On
+              it, crossing the threshold adds a place where the one subject wakes, not a new subject
+              (see{" "}
+              <a href="#why-one-experiencer" className="underline hover:no-underline">
+                Why One Experiencer Has Many Walled-Off Perspectives
+              </a>
+              ).
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Why Dependence on Apertures Is Not Circular
+            </h3>
+
+            <p className="leading-relaxed">
+              An objection follows immediately. If Omega is fundamental, why does it require
+              apertures, contingent arrangements of matter, in order to experience anything? The
+              ground of experience appears to depend on what it is supposed to ground.
+            </p>
+
+            <p className="leading-relaxed">
+              The objection conflates two kinds of dependence. Omega does not depend on apertures{" "}
+              <em>existentially</em>: it is the totality, and it is what it is whether or not any
+              region of it folds into an integrated perspective. It depends on them{" "}
+              <em>for its experience</em>: they are the places where experience occurs. Priority
+              claims concern the first relation; the aperture claim concerns the second. Only if the
+              two were the same relation would there be a circle.
+            </p>
+
+            <p className="leading-relaxed">
+              The decisive point is that an aperture is not an external thing granting experience to
+              Omega from outside. It is a region of Omega. &quot;Omega experiences only through
+              apertures&quot; therefore unpacks to &quot;Omega experiences through its own
+              structure, where that structure permits.&quot; That is self-dependence, which is not
+              vicious but simply what it means to have a structure at all. An organism sees only
+              through its eyes; this does not make its eyes prior to it. The analogy carries one
+              warning: there is no subject positioned behind the aperture receiving a feed. The
+              aperture is where the experiencing happens, not a window onto a viewer.
+            </p>
+
+            <p className="leading-relaxed">
+              Whatever lies outside the causal past of every aperture, whole unlit branches among
+              it, marks a genuine limit on the totality&apos;s experiential reach: unlit structure,
+              real as pattern and never lived. Holos does not soften this into a faint universal
+              experience; doing so would erase the distinction between lit and unlit on which the
+              rest of the framework depends.
+            </p>
+          </div>
+
+          <div id="why-one-experiencer" className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">
+              Why One Experiencer Has Many Walled-Off Perspectives
+            </h3>
+
+            <p className="leading-relaxed">
+              A second objection is the mirror image of a famous one. Panpsychism faces the
+              combination problem: if every particle carries a spark of experience, no one can say
+              how billions of sparks combine into the single unified experience of a person. A
+              monism of one experiencer inherits the problem upside down, as a decomposition
+              problem: if every experience is Omega&apos;s, what makes your experience and another
+              person&apos;s experience <em>two</em>, and why is the wall between them absolute? No
+              aperture has any access, faint or partial, to what it is like to be another. Saying
+              the totality&apos;s experiential life is plural and distributed names this situation.
+              It does not yet account for it.
+            </p>
+
+            <p className="leading-relaxed">
+              The problem has a name in the literature. It is the decomposition problem facing{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Cosmopsychism"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                priority cosmopsychism
+              </a>
+              , the view, defended by Philip Goff and others, that the cosmos is the one fundamental
+              conscious subject. Holos differs in a way that matters here: Goff&apos;s cosmos has an
+              experience of its own as a whole, while Omega pools nothing, so Holos never has to
+              carve individual experiences out of a cosmic one. What it must explain is only the
+              walls.
+            </p>
+
+            <p className="leading-relaxed">
+              The first half of the account is structural. Two apertures are two because they are
+              two local maxima of integration with no integration bridging them: the same maximality
+              condition that individuates observers settles what makes them several. And the wall
+              between them is not a barrier holding something back. Experience occurs at the
+              aperture and is shaped by it; there is no subject positioned behind the apertures
+              through which a back-channel could run. Where structure does not connect, experience
+              does not connect. The wall is not a mechanism added to the plurality. It is the
+              absence of any structure that could carry connection.
+            </p>
+
+            <p className="leading-relaxed">
+              The second half dissolves the air of paradox: one experiencer with mutually walled-off
+              experiences is not exotic. It is what time already makes of every individual life. A
+              person at five and the same person decades later are one experiencer; no one takes
+              their separation to split them into two people. Yet the later moment has no direct
+              access to what it was like to be inside the earlier one. In the block universe, all
+              the moments of a life coexist tenselessly, each experienced from within itself, none
+              experienced from within another. Walled-off plurality inside a single experiencer is
+              therefore already the ordinary structure of a human life. Apertures stand to the
+              totality as the moments of a life stand to the person: genuinely many, genuinely
+              walled off, and one.
+            </p>
+
+            <p className="leading-relaxed">
+              Nor is the oneness a label doing no work, though its work must be stated carefully. On
+              a picture of many self-standing observers, each system that crosses the threshold
+              produces a new subject; on the monist picture, the one subject wakes there. Stated
+              that way, the difference is only a count: both pictures leave the same thing to the
+              threshold, namely why a perspective appears here, with this character. The work lies
+              in two questions the many-subjects picture cannot close. Of all the observers there
+              are, why is this one me? On the many-subjects picture that is a brute fact. On the
+              monist picture there is nothing to explain, because the one subject is each of them.
+              And if a perfect copy of you were made, which would be you? Both, with no remainder.
+            </p>
+
+            <p className="leading-relaxed">
+              The unity does not do everything. It does not explain why records agree where
+              observers meet; physics does that, since the same signals reach them both. Nor does it
+              explain where the one subject wakes: that is the threshold&apos;s work, and it would
+              be the same brute structural fact on any picture. The unity&apos;s advantage is
+              philosophical, not experimental: it dissolves the two questions above, at the price of
+              the decomposition problem answered above, a trade Holos judges worth making.
+            </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              The analogy has a stated limit. The moments of a life are threaded together by memory
+              and anticipation; apertures share no such threads. The analogy shows that walled-off
+              plurality within one experiencer is coherent, not that apertures are moments. What it
+              removes is the charge of incoherence, which is all it is asked to do.
+            </p>
+          </div>
+
+          <div id="self-comparison" className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold text-black/90">Holos among Views of the Self</h3>
+            <p className="leading-relaxed">
+              Philosophers sort answers to &quot;what am I?&quot; three ways. On closed
+              individualism, you are one self from birth to death. On empty individualism, a new
+              self exists each moment. On open individualism, there is one self in everyone. Holos
+              takes the third, and the table shows what that changes.
+            </p>
+            <SelfComparisonTable />
+          </div>
+        </div>
+      </section>
+
       {/* Relationship to Physics */}
       <section id="relationship-to-physics" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
@@ -868,6 +1198,19 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
+              The monist reading might seem to dissolve this uncertainty. If the one experiencer is
+              each of the observers in every branch, asking it which branch it is in gets the answer
+              &quot;all of them,&quot; and nothing is left to be uncertain about. But the question
+              is asked from inside an aperture, and apertures are walled off: none has access to
+              what the others register. Each therefore genuinely lacks the information of which
+              branch it is in, and the odds answer that lack. Two questions must be kept apart.
+              &quot;Why am I this one?&quot; asks for a reason, and the monist reading dissolves it:
+              there is no reason, because the one subject is each of them. &quot;Which one is
+              this?&quot; asks for information, and it stays open until you look. You can be
+              everyone and still not know what is behind the next door.
+            </p>
+
+            <p className="leading-relaxed">
               A worry follows from yes-or-no status. Lived status is yes or no and ignores weight,
               so a branch with a tiny weight that contains an observer is fully lived. Counted one
               by one, most branches of many repeated experiments show roughly even results whatever
@@ -949,10 +1292,8 @@ export default function Logic() {
               </li>
             </ul>
             <p className="leading-relaxed pt-3">
-              What Holos <strong>does</strong> add is two things: the integration threshold{" "}
-              <MathInline>{"\\Phi_c"}</MathInline>, and the totality, Omega, as the fundamental
-              ground of experience. Two structural claims about what experience is and where it
-              occurs.
+              What Holos <strong>does</strong> add is the two posits of Axioms 3 and 5: the
+              threshold <MathInline>{"\\Phi_c"}</MathInline> and the totality, Omega.
             </p>
 
             <p className="leading-relaxed">
@@ -1077,9 +1418,12 @@ export default function Logic() {
             <p className="leading-relaxed">
               The result is an indexed family, not a single selected outcome: one experienced
               history per registering perspective, per branch. Observation selects nothing and
-              erases nothing (Axiom 2). Registration occurs everywhere an aperture exists. The Born
-              weights carried by <MathInline>{"C"}</MathInline> remain structural throughout: they
-              fix the statistics each registration records, not how much experience it holds.
+              erases nothing (Axiom 2). Registration occurs everywhere an aperture exists, and no
+              thread is privileged. Following one observer&apos;s thread, what happens next is
+              simply what physics allows from that history onward; registering it changes none of
+              those possibilities. The Born weights carried by <MathInline>{"C"}</MathInline> remain
+              structural throughout: they fix the statistics each registration records, not how much
+              experience it holds.
             </p>
 
             <p className="leading-relaxed">
@@ -1110,53 +1454,24 @@ export default function Logic() {
               The symbol <strong>⊛</strong> is defined as composition:{" "}
               <MathInline>{"C ⊛ O"}</MathInline> is the composite operation “possibility, then
               registration.” Applied to a state <MathInline>{"S"}</MathInline>, it reads{" "}
-              <MathInline>{"R = O(C(S))"}</MathInline>, the same composition used in the iteration
-              below. It is ordinary function composition, with the order of the steps carrying the
-              meaning: possibility first, registration second. The order is logical, not temporal:
-              registering needs something to register.
+              <MathInline>{"R = O(C(S))"}</MathInline>. It is ordinary function composition, with
+              the order of the steps carrying the meaning: possibility first, registration second.
+              The order is logical, not temporal: registering needs something to register.
             </p>
 
             <p className="leading-relaxed">
               In standard notation this is simply <MathInline>{"R = (O \\circ C)(S)"}</MathInline>:
               apply <MathInline>{"C"}</MathInline>, then apply <MathInline>{"O"}</MathInline>.
-              Nothing is hidden in the glyph. Holos retains ⊛ because the framework is named for the
-              relation it marks, not because the operation it denotes is unusual, and a reader who
-              mentally substitutes the composition symbol loses nothing.
+              Standard composition reads right to left, so{" "}
+              <MathInline>{"C \\circledast O = O \\circ C"}</MathInline>: the same composition,
+              written in reading order. Nothing is hidden in the glyph. Holos retains ⊛ because the
+              framework is named for the relation it marks, not because the operation it denotes is
+              unusual, and a reader who mentally substitutes the composition symbol loses nothing.
             </p>
 
             <p className="leading-relaxed">
               What the symbol adds is not mathematics but ontology: the claim that both steps are
               required for a realized world, and that neither step alone yields one.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Iteration and stability</h3>
-
-            <p className="leading-relaxed">
-              One may consider iterating the Holos relation along one observer&apos;s thread: from
-              each registered history, physics allows what comes next, and registration again
-              changes none of it.
-            </p>
-
-            <MathDisplay>{"S_{n+1}^{(i)} = O_i(C(S_n^{(i)}))"}</MathDisplay>
-
-            <p className="leading-relaxed">
-              The index matters, and its absence would be an error rather than an abbreviation.{" "}
-              <MathInline>{"O"}</MathInline> returns an indexed family of registered histories, one
-              per perspective per branch, while <MathInline>{"C"}</MathInline> takes a single state:
-              feeding the family back in unlabeled would not compose. Writing{" "}
-              <MathInline>{"O_i"}</MathInline> selects the history registered by perspective{" "}
-              <MathInline>{"i"}</MathInline>, so the iteration follows one observer&apos;s thread
-              and the types line up. Globally, every branch containing an aperture iterates in
-              parallel; no branch&apos;s closure interrupts another&apos;s, and no thread is
-              privileged.
-            </p>
-
-            <p className="leading-relaxed">
-              This is not meant to imply a discrete temporal process. It is a conceptual tool for
-              following one perspective through the structure, not a feedback loop in which
-              observation shapes physics.
             </p>
           </div>
 
@@ -1172,26 +1487,18 @@ export default function Logic() {
       {/* Extrapolative Proposition */}
       <section id="extrapolative-proposition" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Extrapolative Proposition
+          Companion Principle
           <FootnoteLink number={logicCitationMap["extrapolative-proposition"]} />
         </h2>
 
         <p className="text-black/70 italic text-sm">
-          The claims in this section extend the Holos framework beyond established physics. They are
-          not assertions about what must occur. They describe what follows if the framework’s
-          constraints continue to hold under increasing integration. One thing here is not
-          extrapolation: the totality, Omega, is a core commitment (see{" "}
-          <a href="#minimal-core" className="underline hover:no-underline">
-            Minimal Core
-          </a>
-          ). What is extrapolative is the limit picture of finite systems approaching it.
+          The principle in this section is not part of the core. It underwrites the companion ideas,
+          the Integration Hypothesis and the Teeming Dark; if it fails, the core stands.
         </p>
 
         <div className="flex flex-col gap-8 text-black/80">
           <div id="structural-constraint" className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Companion Principle: Structural Constraint
-            </h3>
+            <h3 className="text-xl font-semibold text-black/90">Structural Constraint</h3>
             <p className="leading-relaxed">
               Finite signal speed and finite energy impose limits on how coherence can scale within
               three-dimensional space. As systems grow, coordination across distance becomes
@@ -1204,235 +1511,6 @@ export default function Logic() {
               Integration Hypothesis and the Teeming Dark, rather than the core. Higher-dimensional
               descriptions may be useful for modeling such organization; that is a representational
               choice, not a claim about extra spatial directions.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Recursive Closure as a Limit</h3>
-
-            <p className="leading-relaxed">
-              If the coupling between Creation and Observation is applied repeatedly, one can define
-              a conceptual limit in which further application no longer increases distinction
-              between what is generated and what is observed.
-            </p>
-
-            <p className="leading-relaxed">
-              At this limit, reality is invariant under further closure. The system is fully
-              self-consistent not only as structure, but as experienced structure.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">The Omega Limit</h3>
-
-            <p className="leading-relaxed">
-              Holos refers to this boundary case as the <strong>Omega limit</strong>. Schematically,
-              it is the condition where the distinction between creation and observation no longer
-              increases. Ontologically, Holos identifies it with the totality itself: the whole of
-              reality, posited as fundamental and as the one experiencer. It is not a final moment
-              in time and not an agent directing events from outside; there is no outside. Finite
-              observers approach it as a limit; the totality does not wait at the end of that
-              approach. It is the ground on which the approach happens.
-            </p>
-
-            <p className="leading-relaxed">
-              In this limit, there is no remaining separation between a world that exists and a
-              world that is known. Generation and registration become the same description.
-            </p>
-
-            <p className="leading-relaxed">
-              In the language of the commitments: short of the Omega limit, structural facts and
-              registered facts remain distinct layers (structure absolute, registration indexed to
-              observers). At the limit, what is consistent and what is registered coincide.
-            </p>
-
-            <p className="leading-relaxed">
-              Seen from the side of finite observers, the Omega limit is the idealized endpoint of
-              intersubjective agreement: what the comparison of all records across all observers
-              would converge to. Seen from the side of the ground, it is the one subject that every
-              observer is, awake at different places. The limit describes our approach; the totality
-              is what is being approached, and it does not depend on the approach for its reality.
-            </p>
-
-            <p className="leading-relaxed text-black/70 text-sm">
-              A note on the word. &quot;Limit&quot; here is conceptual, not mathematical: no
-              quantity is claimed to converge, and no metric on the distance between structure and
-              registration is defined. Saying the distinction &quot;no longer increases&quot; states
-              a boundary condition, not a computed one. The vocabulary also carries little weight:
-              the totality is the ground, and the limit language describes only the approach finite
-              observers make toward witnessing more of it.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              What the Omega Limit Is and Is Not
-            </h3>
-
-            <ul className="flex flex-col gap-3 pl-6 list-disc">
-              <li className="leading-relaxed">
-                It <strong>is</strong> the totality of reality, posited as fundamental and, for
-                finite systems, a formal boundary case of maximal integration and recursive closure.
-              </li>
-              <li className="leading-relaxed">
-                It <strong>is not</strong> a prediction that any finite system will reach such a
-                state.
-              </li>
-              <li className="leading-relaxed">
-                It <strong>is not</strong> an external observer watching the universe from outside.
-                It is the whole itself, experiencing through the apertures the universe contains.
-              </li>
-              <li className="leading-relaxed">
-                It <strong>is not</strong> a single pooled experience surveying everything at once.
-                Every experience is Omega&apos;s, but they are not gathered into one grand
-                experience. The totality&apos;s experiential life is plural and distributed: lived
-                at each aperture, not summed above them.
-              </li>
-              <li className="leading-relaxed">
-                It <strong>is not</strong> an aperture writ large. The maximality condition that
-                individuates finite observers (one peak of integration, one perspective) compares
-                systems within reality. The totality is not a system among systems, so it does not
-                compete in that comparison and is not excluded by it.
-              </li>
-              <li className="leading-relaxed">
-                It <strong>does not</strong> replace physical cosmology or impose a final cause on
-                evolution.
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Lineage and Interpretation</h3>
-
-            <p className="leading-relaxed">
-              Different traditions have described this whole in different vocabularies: Advaita
-              Vedanta&apos;s one experiencer behind every eye, Spinoza&apos;s single substance,
-              Berkeley&apos;s never-absent perceiver, panentheism&apos;s world contained in the
-              divine. The monist reading Holos adopts stands in their line, restated in
-              informational terms.
-            </p>
-
-            <p className="leading-relaxed">
-              What Holos leaves open is vocabulary, not structure. Calling the totality God,
-              Brahman, or simply the whole changes nothing about the claim. What Holos does not
-              offer is the fully deflationary reading in which Omega is only a mathematical horizon
-              and finite observers are self-standing. Holos takes the direction of dependence to run
-              from the whole to its parts, for the one reason the monist reading earns: unity. On
-              it, crossing the threshold adds a place where the one subject wakes, not a new subject
-              (see{" "}
-              <a href="#why-one-experiencer" className="underline hover:no-underline">
-                Why One Experiencer Has Many Walled-Off Perspectives
-              </a>
-              ).
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Why Dependence on Apertures Is Not Circular
-            </h3>
-
-            <p className="leading-relaxed">
-              An objection follows immediately. If Omega is fundamental, why does it require
-              apertures, contingent arrangements of matter, in order to experience anything? The
-              ground of experience appears to depend on what it is supposed to ground.
-            </p>
-
-            <p className="leading-relaxed">
-              The objection conflates two kinds of dependence. Omega does not depend on apertures{" "}
-              <em>existentially</em>: it is the totality, and it is what it is whether or not any
-              region of it folds into an integrated perspective. It depends on them{" "}
-              <em>for its experience</em>: they are the places where experience occurs. Priority
-              claims concern the first relation; the aperture claim concerns the second. Only if the
-              two were the same relation would there be a circle.
-            </p>
-
-            <p className="leading-relaxed">
-              The decisive point is that an aperture is not an external thing granting experience to
-              Omega from outside. It is a region of Omega. &quot;Omega experiences only through
-              apertures&quot; therefore unpacks to &quot;Omega experiences through its own
-              structure, where that structure permits.&quot; That is self-dependence, which is not
-              vicious but simply what it means to have a structure at all. An organism sees only
-              through its eyes; this does not make its eyes prior to it. The analogy carries one
-              warning: there is no subject positioned behind the aperture receiving a feed. The
-              aperture is where the experiencing happens, not a window onto a viewer.
-            </p>
-
-            <p className="leading-relaxed">
-              Whatever lies outside the causal past of every aperture, whole unlit branches among
-              it, marks a genuine limit on the totality&apos;s experiential reach: unlit structure,
-              real as pattern and never lived. Holos does not soften this into a faint universal
-              experience; doing so would erase the distinction between lit and unlit on which the
-              rest of the framework depends.
-            </p>
-          </div>
-
-          <div id="why-one-experiencer" className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Why One Experiencer Has Many Walled-Off Perspectives
-            </h3>
-
-            <p className="leading-relaxed">
-              A second objection is the mirror image of a famous one. Panpsychism faces the
-              combination problem: if every particle carries a spark of experience, no one can say
-              how billions of sparks combine into the single unified experience of a person. A
-              monism of one experiencer inherits the problem upside down, as a decomposition
-              problem: if every experience is Omega&apos;s, what makes your experience and another
-              person&apos;s experience <em>two</em>, and why is the wall between them absolute? No
-              aperture has any access, faint or partial, to what it is like to be another. Saying
-              the totality&apos;s experiential life is plural and distributed names this situation.
-              It does not yet account for it.
-            </p>
-
-            <p className="leading-relaxed">
-              The first half of the account is structural. Two apertures are two because they are
-              two local maxima of integration with no integration bridging them: the same maximality
-              condition that individuates observers settles what makes them several. And the wall
-              between them is not a barrier holding something back. Experience occurs at the
-              aperture and is shaped by it; there is no subject positioned behind the apertures
-              through which a back-channel could run. Where structure does not connect, experience
-              does not connect. The wall is not a mechanism added to the plurality. It is the
-              absence of any structure that could carry connection.
-            </p>
-
-            <p className="leading-relaxed">
-              The second half dissolves the air of paradox: one experiencer with mutually walled-off
-              experiences is not exotic. It is what time already makes of every individual life. A
-              person at five and the same person decades later are one experiencer; no one takes
-              their separation to split them into two people. Yet the later moment has no direct
-              access to what it was like to be inside the earlier one. In the block universe, all
-              the moments of a life coexist tenselessly, each experienced from within itself, none
-              experienced from within another. Walled-off plurality inside a single experiencer is
-              therefore already the ordinary structure of a human life. Apertures stand to the
-              totality as the moments of a life stand to the person: genuinely many, genuinely
-              walled off, and one.
-            </p>
-
-            <p className="leading-relaxed">
-              Nor does this reduce the oneness to a label doing no work. The structural walls
-              explain the plurality; the unity explains what the plurality cannot: why crossing the
-              threshold never brings a new subject into being. On a picture of many self-standing
-              observers, each system that crosses the threshold produces a new subject, and no one
-              can say how. On the monist picture, no subject is ever produced. There is one subject
-              throughout, and crossing the threshold is where it wakes. The moments of a life show
-              the pattern again: waking in the morning does not create a new person.
-            </p>
-
-            <p className="leading-relaxed">
-              The unity does not do everything. It does not explain why records agree where
-              observers meet; physics does that, since the same signals reach them both. Nor does it
-              explain where the one subject wakes: that is the threshold&apos;s work, and it would
-              be the same brute structural fact on any picture. The unity&apos;s advantage is
-              economy, and it is philosophical, not experimental: one subject instead of billions
-              arising without explanation, traded for the decomposition problem answered above, a
-              trade Holos judges worth making.
-            </p>
-
-            <p className="leading-relaxed text-black/70 text-sm">
-              The analogy has a stated limit. The moments of a life are threaded together by memory
-              and anticipation; apertures share no such threads. The analogy shows that walled-off
-              plurality within one experiencer is coherent, not that apertures are moments. What it
-              removes is the charge of incoherence, which is all it is asked to do.
             </p>
           </div>
         </div>
@@ -1472,10 +1550,15 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">The value of the threshold</h3>
             <p className="leading-relaxed">
-              The value of <MathInline>{"\\Phi_c"}</MathInline> is unknown, and because presence
-              itself cannot be detected directly, no experiment can locate it by direct measurement.
-              Its placement is constrained only indirectly, by which systems show the structural
-              signatures of observation (see{" "}
+              The crossing point <MathInline>{"\\Phi_c"}</MathInline> of any given system is
+              unknown, and whether one value holds for every system is the bolder conjecture stated
+              under{" "}
+              <a href="#ontology" className="underline hover:no-underline">
+                What is universal
+              </a>
+              . Because presence itself cannot be detected directly, no experiment can locate it by
+              direct measurement. Its placement is constrained only indirectly, by which systems
+              show the structural signatures of observation (see{" "}
               <a href="/predictions#experiment-1" className="underline hover:no-underline">
                 Test A
               </a>
@@ -1497,9 +1580,9 @@ export default function Logic() {
               transition from distributed processing to a unified perspective is a genuine phase
               transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a number we are free to
               tune but a critical point, and critical points leave measurable fingerprints: slowing
-              near the boundary, diverging fluctuations, a sharp jump in some measurable quantity
-              that tracks the transition. Consciousness medicine has already found one such boundary
-              from the outside: the{" "}
+              near the boundary, growing fluctuations, the onset of a quantity that was exactly
+              zero, and exponents that should match across every system that crosses. Consciousness
+              medicine has already found one such boundary from the outside: the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
@@ -1532,12 +1615,22 @@ export default function Logic() {
               >
                 Communications Biology, 2024
               </a>
-              ). This is the kind of signature a genuine switch should leave.
+              ). In cortical tissue, cascades of activity called neuronal avalanches follow power
+              laws whose exponents match a known universality class (
+              <a
+                href="https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Beggs and Plenz 2003
+              </a>
+              ). These are the signatures a critical transition should leave, and exponents are
+              exactly what the universality commitment says must match across systems.
             </p>
             <p className="leading-relaxed">
-              A cutoff that sorts patients is not yet proof of a sharp switch, since a smooth
-              quantity can be cut anywhere. What would count is the signature of a switch itself,
-              and there is early evidence for one.{" "}
+              A cutoff that sorts patients is not yet proof of a transition, since a smooth quantity
+              can be cut anywhere. What would count is a transition&apos;s own signature, and here
+              the evidence is mixed in an informative way.{" "}
               <a
                 href="https://doi.org/10.1371/journal.pone.0011903"
                 target="_blank"
@@ -1547,9 +1640,12 @@ export default function Logic() {
               </a>{" "}
               find that consciousness is lost and regained at different anesthetic levels: the way
               in and the way out do not match, a lag known as neural inertia. A lag of that kind is
-              a hallmark of sharp switches rather than smooth dials. In humans the evidence is only
-              suggestive: in 393 surgical patients, the brain&apos;s slow-wave response differed
-              between going under and coming back (
+              the hallmark of an abrupt switch, the kind physicists call first-order, like water
+              freezing. Such switches are sharp, but they have no universal shape, so if the lag
+              belongs to the transition itself rather than to how drugs enter and leave the brain,
+              it supports a sharp threshold while counting against the universality commitment. In
+              humans the evidence is only suggestive: in 393 surgical patients, the brain&apos;s
+              slow-wave response differed between going under and coming back (
               <a
                 href="https://doi.org/10.1097/ALN.0000000000001759"
                 target="_blank"
@@ -1557,9 +1653,12 @@ export default function Logic() {
               >
                 Warnaby et al. 2017
               </a>
-              ), but the lag appeared in the EEG, not in responsiveness. In a finite system like a
-              brain, even a genuine switch shows up as a steep transition rather than a mathematical
-              jump, so the search is for steepness and lag, not a perfect step.
+              ), but the lag appeared in the EEG, not in responsiveness. Slowing and growing
+              fluctuations, which the criticality studies above report, point the other way, toward
+              a continuous transition with a universal shape. The two signatures tell the two kinds
+              of transition apart, which makes the question testable. In a finite system like a
+              brain, either kind appears as a steep, rounded curve rather than a mathematical kink,
+              so the search is for scaling, not a perfect step.
             </p>
             <p className="leading-relaxed">
               <strong>Cull the measures by convergence, then try to force uniqueness.</strong> Holos
@@ -1589,8 +1688,10 @@ export default function Logic() {
               <a href="/predictions#experiment-1" className="underline hover:no-underline">
                 Test A
               </a>{" "}
-              really is: not a single yes-or-no experiment but the calibration engine that locates
-              the threshold and validates the measure at the same time.
+              really is: not a single yes-or-no experiment but a calibration engine that locates the
+              threshold and validates the measure. The two jobs must use separate data: calibration
+              states locate the threshold, and held-out states, named in advance, test it. Testing
+              on the calibration set would only grade the answer key.
             </p>
             <p className="leading-relaxed">
               The field already has a model for running such tests. The{" "}
@@ -1681,8 +1782,8 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Theological and secular readings as interchangeable.</strong> Replaced by the
-              monist position: the structural reading is weaker, because it needs a new subject for
-              every observer.
+              monist position: the structural reading is weaker, because it leaves &quot;why am I
+              this one?&quot; unanswered.
             </li>
             <li className="leading-relaxed">
               <strong>Observation as selection.</strong> Replaced: observation selects nothing and
@@ -1707,6 +1808,22 @@ export default function Logic() {
               pooled. The weights are now read as self-locating odds.
             </li>
             <li className="leading-relaxed">
+              <strong>Omega as a limit finite systems approach.</strong> Cut: the whole exists now,
+              the limit was never defined, and it implied a fully registered whole, against unlit
+              structure. Omega&apos;s material moved from the extrapolations into its own core
+              section.
+            </li>
+            <li className="leading-relaxed">
+              <strong>One threshold value for every system.</strong> Layered: the commitment is one
+              universal shape of transition; one universal value is a stated conjecture. Neural
+              inertia is no longer read as simple support.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Economy as Omega&apos;s payoff.</strong> Replaced: one subject versus many is
+              only a count. Omega&apos;s work is dissolving &quot;why am I this one?&quot; and the
+              puzzle of which perfect copy is you.
+            </li>
+            <li className="leading-relaxed">
               <strong>Omega as the ground of record agreement.</strong> Dropped: physics secures
               agreement. Omega&apos;s one job is unity: one subject, not many.
             </li>
@@ -1715,12 +1832,24 @@ export default function Logic() {
               definitional core plus an argued identification that can fail.
             </li>
             <li className="leading-relaxed">
-              <strong>Five observer requirements.</strong> Extended to six: aboutness, grounded in
-              senses of the system&apos;s own, rules out inert high-integration arrays.
+              <strong>Five observer requirements.</strong> Extended to six: aboutness, tracking
+              something beyond the system through its own channels, rules out inert high-integration
+              arrays.
             </li>
             <li className="leading-relaxed">
               <strong>Current AI as &quot;no one home.&quot;</strong> Replaced by an open question
               with two borders: grounded aboutness and integration.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Six observer requirements.</strong> Reduced to four: recursion and causal
+              autonomy passed any thermostat on their own, and what they aimed at, feedback, is part
+              of integration.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Aboutness grounded in senses of the system&apos;s own.</strong> Replaced: it
+              judged the message, not the machine, and a brain fed a perfect simulation showed it
+              contradicting Axiom 4. Aboutness is now structural, any live channel counts, and the
+              open question for current AI narrows to integration.
             </li>
             <li className="leading-relaxed">
               <strong>Anesthesia and cultured-network transitions as confirmations.</strong> Retired
