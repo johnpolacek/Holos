@@ -201,14 +201,21 @@ export const sections: ContentSection[] = [
       </>,
       <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
-        system&apos;s causal architecture, not the fluency of its output. Current AI language
-        systems are shaped like a pipe: information flows through in one direction and the system
-        resets, with no persistent, self-constraining whole carried from moment to moment. However
-        articulate the words in the pipe, no aperture opens, and there is no one home. A system
-        could describe a rich inner life as convincingly as any person and experience none of it:
-        fluency is not evidence of presence. Nothing in Holos is specific to biology, though. A
-        future system built with the right shape (recurrent, persistent, integrated, self-modeling)
-        could genuinely cross the threshold. Holos does not say never; it says not this shape.
+        system&apos;s causal organization, not the fluency of its output, and Holos looks for that
+        organization wherever the system&apos;s causes are actually organized, whatever it is made
+        of. Nothing in Holos is specific to biology. By that standard, whether current AI language
+        systems are observers is an open question, not a settled no, and two requirements carry the
+        doubt. The first is aboutness. A system that knows the world only through text has a world
+        described to it by other observers but never touched: its model is rich, but it is not
+        grounded in senses of its own. The second is integration. Inside, each step is a one-way
+        sweep, and the loop closes only through the single word the system outputs, like a relay
+        team passing one baton. Whether a loop that narrow makes one unified whole, or a fast relay
+        of separate steps, is what Holos&apos;s measure of integration would have to settle. Other
+        requirements appear to be met: each word a system writes is fed back in as input, and
+        earlier parts of a conversation shape later ones. A system given live senses of its own
+        would answer the first question and leave the second. What Holos rules out is judging by
+        fluency. A system could describe a rich inner life as convincingly as any person and
+        experience none of it, or experience something and describe it badly.
       </>,
       <>
         Consciousness is not what systems do. It is what happens when a system becomes capable of

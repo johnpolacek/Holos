@@ -779,6 +779,12 @@ export const citationMainSections: CitationMainSection[] = [
               "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: integrated states must model a world beyond the system.",
           },
           {
+            name: "Harnad (1990), The symbol grounding problem",
+            url: "https://doi.org/10.1016/0167-2789(90)90087-6",
+            description:
+              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos builds this into aboutness: a model must be grounded in senses of the system's own.",
+          },
+          {
             name: "Friedman et al. (2010), Evidence for neural inertia",
             url: "https://doi.org/10.1371/journal.pone.0011903",
             description:

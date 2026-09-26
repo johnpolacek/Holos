@@ -566,9 +566,12 @@ export default function Logic() {
 
             <li className="leading-relaxed">
               <strong>Aboutness:</strong> the system&apos;s integrated states must be organized as a
-              model of a world beyond the system, with channels through which that world can reach
-              it. A dreaming brain keeps both, with its input channels temporarily gated. Without
-              aboutness, integration is a closed loop with nothing to be a view of.
+              model of a world beyond the system, grounded in senses of its own: channels through
+              which the world&apos;s own signals, such as light, sound, or touch, reach it directly.
+              Descriptions made by other observers can enrich such a model but cannot ground it
+              alone. A dreaming brain keeps its senses, with input temporarily gated, and so does a
+              fully paralyzed person. Without aboutness, integration is a closed loop with nothing
+              to be a view of.
             </li>
           </ol>
 
@@ -604,8 +607,19 @@ export default function Logic() {
               always a view of something, and the array&apos;s states are about nothing beyond the
               array. The requirement is structural, not historical. A perfect copy of an observer,
               however it came to exist, has the same channels and the same world model, so it is an
-              observer too. Where aboutness shades off, as in brain organoids grown with no sensory
-              input, Holos marks an open edge rather than a verdict.
+              observer too. The requirement asks for grounding, not only for a model: people learn
+              much of the world from words, but their words ground out in senses of their own. A
+              system that knows the world only through other observers&apos; descriptions has a
+              world described to it but never touched, the problem{" "}
+              <a
+                href="https://doi.org/10.1016/0167-2789(90)90087-6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stevan Harnad named symbol grounding
+              </a>
+              . Where aboutness shades off, as in brain organoids grown with no sensory input, Holos
+              marks an open edge rather than a verdict.
             </p>
 
             <p className="leading-relaxed">
@@ -1343,7 +1357,10 @@ export default function Logic() {
                 Relationship to Physics
               </a>
               ) remains an argued direction rather than a finished quantity until the measure is
-              fixed.
+              fixed. The problem also includes the question of level. Holos measures integration
+              where a system&apos;s causes are actually organized, which may lie above its smallest
+              parts, as a program&apos;s loop lies above the switching of individual transistors.
+              Saying precisely where that level is belongs to the same open problem.
             </p>
           </div>
 
