@@ -172,8 +172,8 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              What matters is integration. Below a critical level, there is no unified internal
-              state that could count as “what is happening for the system.” Above that level, in a
+              What matters is integration. Well below a critical level, there is no unified internal
+              state that could count as “what is happening for the system.” Well above it, in a
               system that meets the other observer requirements, experience is unavoidable.
             </p>
 
@@ -202,11 +202,11 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Two consequences follow. A physically identical copy of an observer cannot lack
-              experience (Axiom 4). And the threshold is sharp while its surroundings are not: the
-              fuzziness of real cases lives in richness, in the outward signs, and in our
-              instruments, not in whether anyone is home (see{" "}
-              <a href="/#consciousness" className="underline hover:no-underline">
-                Consciousness
+              experience (Axiom 4). And the threshold is steep but not a mathematical line: clear
+              cases on both sides, a narrow twilight between, fixed by structure, so a copy of a
+              borderline system is borderline too (see{" "}
+              <a href="/logic#threshold-claims" className="underline hover:no-underline">
+                The threshold in four claims
               </a>
               ).
             </p>
@@ -324,10 +324,13 @@ export default function Predictions() {
               Large-scale neural integration measures should therefore show the signatures of a
               critical transition near loss and recovery of consciousness: slowing and growing
               fluctuations as the boundary nears, and scaling exponents that match across
-              individuals and species, rather than a smooth fade. These must be measured on
-              integration at the boundary: the known near-criticality of waking cortex marks where
-              observers operate, not the threshold. Below threshold, processing continues without
-              unified access to experience.
+              individuals and species, rather than a smooth fade, with a twilight that narrows in
+              larger systems. These are the transition and shape hypotheses, not the core, and
+              animal studies of neural inertia already lean toward an abrupt switch, which would fit
+              the first and count against the second. They must be measured on integration at the
+              boundary: the known near-criticality of waking cortex marks where observers operate,
+              not the threshold. Well below threshold, processing continues without unified access
+              to experience.
             </p>
 
             <p className="leading-relaxed">
@@ -351,7 +354,7 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
-              A sharp transition would fit Holos but not confirm it: ordinary physicalist models
+              A steep transition would fit Holos but not confirm it: ordinary physicalist models
               predict tipping points too. What can fail is{" "}
               <a href="#experiment-1" className="underline hover:no-underline">
                 Test A
@@ -585,14 +588,14 @@ export default function Predictions() {
           <div>
             <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
-              The clean way to lose is a positive report from below the line: subjects who, on
-              waking or recovering, give detailed reports of experience from periods when their
-              integration was below threshold, by a measure and cutoff fixed in advance. A report is
-              evidence that something was experienced, and it cannot be explained away as a failure
-              of memory. If such reports turn up reliably, experience does not depend on integration
-              the way Holos claims, and the framework&apos;s core structural claim fails. The
-              reverse finding, high-integration states that yield no reports, counts against Holos
-              only once report failure can be ruled out (see below).
+              The clean way to lose is a positive report from well below the threshold: subjects
+              who, on waking or recovering, give detailed reports of experience from periods when
+              their integration was clearly below it, past any twilight, by a measure and cutoff
+              fixed in advance. A report is evidence that something was experienced, and it cannot
+              be explained away as a failure of memory. If such reports turn up reliably, experience
+              does not depend on integration the way Holos claims, and the framework&apos;s core
+              structural claim fails. The reverse finding, high-integration states that yield no
+              reports, counts against Holos only once report failure can be ruled out (see below).
             </p>
           </div>
 

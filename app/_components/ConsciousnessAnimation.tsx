@@ -359,7 +359,8 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>Scattered parts → Integration (Φ ≥ Φc) → Aperture</p>
           <p style={{ margin: "0.5em 0" }}>
-            Like water freezing at a sharp point, the change happens all at once at the threshold.
+            Like iron cooling past its Curie point, the onset is steep: a narrow twilight, then an
+            aperture.
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
             No new subject is created: the one experiencer wakes here

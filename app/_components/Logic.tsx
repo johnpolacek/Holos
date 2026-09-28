@@ -33,8 +33,8 @@ export default function Logic() {
           <ul className="flex flex-col gap-2 pl-6 list-disc">
             <li className="leading-relaxed">
               <strong>Additions to physics:</strong> the threshold{" "}
-              <MathInline>{"\\Phi_c"}</MathInline>, where apertures open (Axiom 3); and Omega, the
-              one experiencer (Axiom 5).
+              <MathInline>{"\\Phi_c"}</MathInline>, where apertures open across a narrow twilight
+              (Axiom 3); and Omega, the one experiencer (Axiom 5).
             </li>
             <li className="leading-relaxed">
               <strong>Sides taken:</strong> relational structure (Axiom 1); branching quantum
@@ -51,8 +51,12 @@ export default function Logic() {
               maximality rule for where one observer ends.
             </li>
             <li className="leading-relaxed">
-              <strong>Open problems:</strong> the measure of integration, the value of the
-              threshold, and the boundaries between observers.
+              <strong>Hypotheses:</strong> the threshold is a critical transition, and every
+              crossing shares one shape. If they fail, the core stands.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Open problems:</strong> the measure of integration, where the threshold and
+              its twilight fall, and the boundaries between observers.
             </li>
             <li className="leading-relaxed">
               <strong>Companion ideas, not core:</strong> the Structural Constraint principle, the
@@ -147,10 +151,11 @@ export default function Logic() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">Holos among Theories of Mind</h2>
         <p className="leading-relaxed text-black/80 mb-4">
           Most of what Holos claims is about mind, not physics, so it needs a second map. It shares
-          the threshold idea with integrated information theory without IIT&apos;s identity claim,
-          shares a single ground of experience with cosmopsychism without a cosmic experience of its
-          own, and rejects both panpsychism&apos;s experience everywhere and illusionism&apos;s
-          experience nowhere. The table below shows where it sits.
+          integration with integrated information theory without IIT&apos;s identity claim or its
+          experience in every integrated system, shares a single ground of experience with
+          cosmopsychism without a cosmic experience of its own, and rejects both panpsychism&apos;s
+          experience everywhere and illusionism&apos;s experience nowhere. The table below shows
+          where it sits.
         </p>
         <MindComparisonTable />
       </div>
@@ -193,9 +198,9 @@ export default function Logic() {
               human cognition.
             </p>
             <p className="leading-relaxed">
-              Below a certain level of integration, systems participate in physical interactions
-              without any point of view. Above that level, a perspective exists. Observation is the
-              name Holos gives to that transition.
+              Well below a certain level of integration, systems participate in physical
+              interactions without any point of view. Well above it, a perspective exists, and a
+              narrow twilight lies between. Observation is the name Holos gives to that transition.
             </p>
           </div>
 
@@ -211,8 +216,8 @@ export default function Logic() {
             <p className="leading-relaxed">
               &quot;Fundamental&quot; means underived: Holos starts from experience rather than
               deriving it. It does not mean experience is everywhere, and it does not mean
-              experience floats free of physics. Below the threshold there is none; above it, the
-              experience is fixed by the structure whose inside it is.
+              experience floats free of physics. Well below the threshold there is none; above it,
+              the experience is fixed by the structure whose inside it is.
             </p>
             <p className="leading-relaxed">
               Consciousness is not identified with any specific material configuration. Physical
@@ -306,7 +311,7 @@ export default function Logic() {
               The Standing Bet
             </a>
             ). Everything else on this page is a definition, follows from these axioms, or is marked
-            as open or as a companion idea.
+            as open, as a hypothesis, or as a companion idea.
           </p>
 
           {/* Axiom 1 */}
@@ -346,10 +351,11 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 3: Threshold</h3>
             <p className="leading-relaxed">
-              A system hosts a point of view when, and only when, it meets the four observer
-              requirements, with its integration <MathInline>{"\\Phi"}</MathInline> reaching a
-              threshold <MathInline>{"\\Phi_c"}</MathInline> at a local maximum. Below the threshold
-              there is no experience at all.
+              A system hosts a point of view when it meets the four observer requirements, with its
+              integration <MathInline>{"\\Phi"}</MathInline> past a threshold{" "}
+              <MathInline>{"\\Phi_c"}</MathInline> at a local maximum. Well below the threshold
+              there is no experience at all. Between lies a narrow twilight, fixed by structure,
+              where there is no exact fact of the matter.
             </p>
             <p className="leading-relaxed text-black/70">
               This is the first of Holos&apos;s two additions to physics. It is not a force, a
@@ -638,43 +644,130 @@ export default function Logic() {
           </p>
 
           <p className="leading-relaxed">
-            The role of Φ in the framework is binary at the threshold and graded beyond it. Below a
-            minimum level of integration, there is structure without experience. At or above that
-            level, experience occurs.
+            The role of Φ in the framework has three regions. Well below a minimum level of
+            integration, there is structure without experience. Well above it, experience occurs.
+            Between them lies a narrow twilight, where there is no exact fact about whether anyone
+            is home.
           </p>
 
           <div className="my-2">
             <MathDisplay>
-              {"\\Phi < \\Phi_c \\Rightarrow \\text{no internal perspective}"}
+              {"\\Phi \\text{ well below } \\Phi_c \\Rightarrow \\text{no internal perspective}"}
             </MathDisplay>
             <MathDisplay>
-              {"\\Phi \\ge \\Phi_c \\Rightarrow \\text{observation occurs}"}
+              {"\\Phi \\approx \\Phi_c \\Rightarrow \\text{twilight: no exact fact}"}
+            </MathDisplay>
+            <MathDisplay>
+              {"\\Phi \\text{ well above } \\Phi_c \\Rightarrow \\text{observation occurs}"}
             </MathDisplay>
           </div>
+
+          <p className="leading-relaxed">
+            Integration is a result, not a dial anyone sets. Conditions such as wiring, development,
+            or an anesthetic&apos;s concentration move it, and the twilight is the stretch of those
+            conditions where it climbs from near zero. <MathInline>{"\\Phi_c"}</MathInline> marks
+            where that stretch lies. Elsewhere on this site,{" "}
+            <MathInline>{"\\Phi \\ge \\Phi_c"}</MathInline> is shorthand for a system past it.
+          </p>
 
           <p className="leading-relaxed">
             Holos borrows Φ from Integrated Information Theory as a measure, not as a metaphysics.
             IIT identifies Φ with consciousness itself and assigns some experience to any system
             with Φ greater than zero. Holos adopts neither claim. In this framework, Φ is a
             structural measure of integration, and the threshold{" "}
-            <MathInline>{"\\Phi_c"}</MathInline>, below which there is no experience at all, is a
+            <MathInline>{"\\Phi_c"}</MathInline>, with no experience at all below its twilight, is a
             commitment of Holos, not of IIT.
           </p>
 
           <p className="leading-relaxed">
             The threshold is not a force, a field, or a modification of any equation. It is a
             structural fact about where apertures open, a fact physics does not currently contain.
-            Because the fact is structural, it is determinate even when our measures are not: when
-            two proposals for estimating <MathInline>{"\\Phi"}</MathInline> disagree about a
-            borderline system, the system is not half-conscious; our instruments are half-informed.
+            Because it is structural, where the twilight falls is fixed in every possible world: a
+            threshold that could differ between worlds with identical physics would allow a perfect
+            copy with no one home, which Axiom 4 rules out. A copy of a borderline system is
+            borderline in exactly the same way. Two kinds of uncertainty must be kept apart. When
+            two proposals for estimating <MathInline>{"\\Phi"}</MathInline> disagree about a system
+            that is clearly on one side, the fault lies in our instruments. Only a system inside the
+            twilight is borderline in fact.
+          </p>
+
+          <div id="threshold-claims" className="flex flex-col gap-4">
+            <p className="leading-relaxed">
+              <strong>The threshold in four claims.</strong> The threshold bundles four claims of
+              different strength, and the first does not establish the others.
+            </p>
+            <ol className="flex flex-col gap-2 pl-6 list-decimal">
+              <li className="leading-relaxed">
+                <strong>Edge:</strong> whether anyone is home has clear cases on both sides and a
+                narrow twilight between. Part of Axiom 3.
+              </li>
+              <li className="leading-relaxed">
+                <strong>Integration:</strong> what carries a system across is integration, together
+                with the other observer requirements. The core claim;{" "}
+                <a href="/predictions#experiment-1" className="underline hover:no-underline">
+                  Test A
+                </a>{" "}
+                is where it can lose.
+              </li>
+              <li className="leading-relaxed">
+                <strong>Transition:</strong> the crossing is a critical transition, the kind physics
+                studies in magnets and fluids, not an arbitrary stretch of a smooth slope. A
+                hypothesis; its evidence must come from the boundary (see{" "}
+                <a href="#path-to-threshold" className="underline hover:no-underline">
+                  A path to the threshold
+                </a>
+                ).
+              </li>
+              <li className="leading-relaxed">
+                <strong>Shape:</strong> every crossing, in a brain, an animal, or a machine, has the
+                same shape. The boldest hypothesis.
+              </li>
+            </ol>
+            <p className="leading-relaxed">
+              If claims 3 or 4 fail, the core stands: the twilight is simply wider, or less orderly,
+              than hoped.
+            </p>
+          </div>
+
+          <p className="leading-relaxed">
+            <strong>Why a twilight, not a line.</strong> Think of dusk. Noon is clearly day and
+            midnight clearly night, yet no second marks the end of day. Physics gives every finite
+            system this shape: a perfectly sharp transition exists only in an infinitely large one,
+            and Holos reads infinities as the limits of a model, not features of reality
+            (Proposition IV). A brain is large, but finite. Medicine points the same way: clinicians
+            recognize a{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Minimally_conscious_state"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              minimally conscious state
+            </a>{" "}
+            between the vegetative state and full awareness. Some philosophers argue that
+            consciousness cannot be vague, since either there is something it is like to be a system
+            or there is not. Holos rejects that premise. A borderline experience cannot be pictured
+            from the inside, because picturing an experience makes it definite, but that is a limit
+            on imagination, not on reality (
+            <a
+              href="https://doi.org/10.1007/s11098-023-02042-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schwitzgebel 2023
+            </a>
+            ). A twilight does not spread experience everywhere: a thermostat is clearly out, as a
+            single grain of sand is clearly not a heap. Past the twilight, experience varies in
+            richness, which peaks where the whole&apos;s states are most varied (see{" "}
+            <a href="#path-to-threshold" className="underline hover:no-underline">
+              A path to the threshold
+            </a>
+            ).
           </p>
 
           <p className="leading-relaxed">
-            <strong>What is universal.</strong> Holos makes the threshold claim at two strengths.
-            The commitment is about shape. Very different physical systems, a magnet losing its
-            magnetism and a fluid at its critical point, pass through their transitions in exactly
-            the same way, described by the same numbers, called critical exponents; physicists call
-            this{" "}
+            <strong>Shape.</strong> Very different physical systems, a magnet losing its magnetism
+            and a fluid at its critical point, pass through their transitions in exactly the same
+            way, described by the same numbers, called critical exponents; physicists call this{" "}
             <a
               href="https://en.wikipedia.org/wiki/Universality_(dynamical_systems)"
               target="_blank"
@@ -682,33 +775,35 @@ export default function Logic() {
             >
               universality
             </a>
-            . Holos commits to it for observers: every transition into observerhood, in a brain, an
-            animal, or a machine, belongs to one universality class. The point at which a given
-            system crosses may differ from system to system, as iron and nickel become magnetic at
-            different temperatures; the shape of the crossing does not. The shape is itself fixed by
-            structure: critical exponents depend on dimension and symmetry, not on what a system is
-            made of. This needs no agreed scale for <MathInline>{"\\Phi"}</MathInline>, because
-            critical exponents do not depend on the scale a quantity is measured on. It also fits
-            the three-way split. Whether anyone is home is binary: it is a matter of which side of
-            its threshold, fixed by structure, a system&apos;s integration lies. How rich the
-            experience is grows with integration past the line. One caution comes from the physics
-            itself: a perfectly sharp transition exists only in an infinitely large system. In
-            anything finite, a magnet or a brain, the outward signs of the transition round off into
-            a steep but smooth curve, and the rounding narrows as the system grows. The line is
-            sharp; the signs near it blur.
+            . Claim 4 says the same holds for observers: every transition into observerhood belongs
+            to one universality class. The point at which a given system crosses may differ, as iron
+            and nickel become magnetic at different temperatures; the shape would not. This needs no
+            agreed scale for <MathInline>{"\\Phi"}</MathInline>, because critical exponents do not
+            depend on the scale a quantity is measured on. The hypothesis carries a burden of its
+            own. Critical exponents depend on dimension, symmetry, and the range of interactions,
+            not on what a system is made of, and brains and machines may differ in exactly those
+            respects. Being conscious does not guarantee a shared shape; that has to be found.
           </p>
 
           <p className="leading-relaxed">
-            The bolder conjecture is about value: that under the right size-independent measure of
-            integration, every system crosses at the same <MathInline>{"\\Phi_c"}</MathInline>. If
-            so, <MathInline>{"\\Phi_c"}</MathInline> would be a structural constant, fixed by what
-            integration is rather than by a setting of nature&apos;s dials, and true in every
-            possible world. It has to be: a threshold that could differ between worlds with
-            identical physics would allow a perfect copy with no one home, which Axiom 4 rules out.
-            Holos states this as a bet, not a commitment. Thresholds fixed by structure alone do
-            exist. Picture a large square grid of pipes, each randomly open or shut: as the grid
-            grows, water first crosses from edge to edge at exactly half open, whatever the pipes
-            are made of (a{" "}
+            <strong>The twilight&apos;s width is the test.</strong> If the crossing is a critical
+            transition, physics predicts how its rounded stretch narrows as a system grows, a
+            relation called finite-size scaling. A human brain, with tens of billions of neurons,
+            should then cross steeply, while small nervous systems and simple artificial networks
+            should have wide twilights. If one shape holds, the narrowing should follow one rule
+            across systems of very different sizes. Accepting a twilight turns the rounding from an
+            embarrassment into a prediction.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>The boldest version</strong> adds a value: that under the right size-independent
+            measure of integration, every system&apos;s twilight is centered on the same{" "}
+            <MathInline>{"\\Phi_c"}</MathInline>. If so, <MathInline>{"\\Phi_c"}</MathInline> would
+            be a structural constant, fixed by what integration is rather than by a setting of
+            nature&apos;s dials. Holos states this as a bet, not a commitment. Thresholds fixed by
+            structure alone do exist. Picture a square grid of pipes, each randomly open or shut: in
+            a very large grid, water first crosses from edge to edge at exactly half open, whatever
+            the pipes are made of (a{" "}
             <a
               href="https://en.wikipedia.org/wiki/Percolation_threshold"
               target="_blank"
@@ -716,8 +811,10 @@ export default function Logic() {
             >
               percolation threshold
             </a>
-            ). None has yet been found for integration, and today&apos;s measures grow with the size
-            of a system, so the conjecture waits on the measure.
+            ). In any finite grid the crossing point wanders around one half, and the wandering
+            shrinks as the grid grows: a twilight around an exact center. None has yet been found
+            for integration, and today&apos;s measures grow with the size of a system, so the
+            conjecture waits on the measure.
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
@@ -1574,12 +1671,12 @@ export default function Logic() {
             <p className="leading-relaxed">
               Holos does not yet name a privileged measure of integration. Competing proposals for
               computing <MathInline>{"\\Phi"}</MathInline> can disagree, not only about values but
-              about which of two systems is more integrated. A determinate threshold fact requires a
-              determinate measure, and identifying it is an open problem for the framework, not
-              settled background. Holos is committed to there being a fact of the matter; it does
-              not yet know how to compute it. The stakes reach back into the framework&apos;s core
-              argument: the identification of a structure&apos;s oneness with causal integration
-              (see{" "}
+              about which of two systems is more integrated. Locating the threshold and its twilight
+              requires a determinate measure, and identifying it is an open problem for the
+              framework, not settled background. Holos is committed to the threshold being fixed by
+              structure; it does not yet know how to compute it. The stakes reach back into the
+              framework&apos;s core argument: the identification of a structure&apos;s oneness with
+              causal integration (see{" "}
               <a href="#relationship-to-physics" className="underline hover:no-underline">
                 Relationship to Physics
               </a>
@@ -1592,13 +1689,13 @@ export default function Logic() {
           </div>
 
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">The value of the threshold</h3>
+            <h3 className="text-xl font-semibold text-black/90">Where the threshold falls</h3>
             <p className="leading-relaxed">
-              The crossing point <MathInline>{"\\Phi_c"}</MathInline> of any given system is
-              unknown, and whether one value holds for every system is the bolder conjecture stated
-              under{" "}
-              <a href="#ontology" className="underline hover:no-underline">
-                What is universal
+              Where any given system&apos;s threshold <MathInline>{"\\Phi_c"}</MathInline> and its
+              twilight lie is unknown, and whether one value holds for every system is the boldest
+              version stated under{" "}
+              <a href="#threshold-claims" className="underline hover:no-underline">
+                The threshold in four claims
               </a>
               . Because presence itself cannot be detected directly, no experiment can locate it by
               direct measurement. Its placement is constrained only indirectly, by which systems
@@ -1606,8 +1703,8 @@ export default function Logic() {
               <a href="/predictions#experiment-1" className="underline hover:no-underline">
                 Test A
               </a>
-              ), and may remain permanently imprecise. Holos accepts this as the price of a
-              threshold that is structural rather than behavioral.
+              ), and our estimates may stay blurrier than the twilight itself. Holos accepts this as
+              the price of a threshold that is structural rather than behavioral.
             </p>
           </div>
 
@@ -1625,8 +1722,9 @@ export default function Logic() {
               transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a number we are free to
               tune but a critical point, and critical points leave measurable fingerprints: slowing
               near the boundary, growing fluctuations, the onset of a quantity that was near zero,
-              and exponents that should match across every system that crosses. Consciousness
-              medicine has already found one such boundary from the outside: the{" "}
+              and, if claim 4 holds, exponents that match across every system that crosses and a
+              twilight that narrows with size by one rule. Consciousness medicine has already found
+              one such boundary from the outside: the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
@@ -1701,11 +1799,12 @@ export default function Logic() {
               find that consciousness is lost and regained at different anesthetic levels: the way
               in and the way out do not match, a lag known as neural inertia. A lag of that kind is
               the hallmark of an abrupt switch, the kind physicists call first-order, like water
-              freezing. Such switches are sharp, but they have no universal shape, so if the lag
+              freezing. Such switches are abrupt, but they have no universal shape, so if the lag
               belongs to the transition itself rather than to how drugs enter and leave the brain,
-              it supports a sharp threshold while counting against the universality commitment. In
-              humans the evidence is only suggestive: in 393 surgical patients, the brain&apos;s
-              slow-wave response differed between going under and coming back (
+              it fits the transition hypothesis (claim 3) while counting against the shape
+              hypothesis (claim 4). In humans the evidence is only suggestive: in 393 surgical
+              patients, the brain&apos;s slow-wave response differed between going under and coming
+              back (
               <a
                 href="https://doi.org/10.1097/ALN.0000000000001759"
                 target="_blank"
@@ -1719,8 +1818,8 @@ export default function Logic() {
               studies above measure the operating point, not the boundary, so they do not yet supply
               this. The two signatures tell the two kinds of transition apart, which makes the
               question testable. In a finite system like a brain, either kind appears as a steep,
-              rounded curve rather than a mathematical kink, so the search is for scaling, not a
-              perfect step.
+              rounded curve rather than a mathematical kink, and that rounding is the twilight. The
+              search is for how it scales, not for a perfect step.
             </p>
             <p className="leading-relaxed">
               <strong>Cull the measures by convergence, then try to force uniqueness.</strong> Holos
@@ -1783,11 +1882,12 @@ export default function Logic() {
               one place inside access exists, so the threshold is located relative to us and carried
               outward by the measure, with certainty that weakens as the cases grow alien. That is
               the shape of all consciousness science, not a defect peculiar to Holos. Second, the
-              program can fail: it could return no robust measure and no critical point, integration
-              proving a matter of degree with no clean cut. That outcome would falsify Holos&apos;s
-              commitment to a determinate fact of the matter and force a retreat to graded presence.
-              A stated way to lose is what makes these open problems scientific questions rather
-              than definitions.
+              program can fail, in two ways of different weight. It could find no critical point,
+              integration climbing smoothly with no transition at all; that would falsify claims 3
+              and 4 and leave the twilight wide, a slow dawn rather than a quick one, with the core
+              intact. Or it could find that experience does not track integration on any candidate
+              measure, which is how Test A loses, and the core with it. A stated way to lose is what
+              makes these open problems scientific questions rather than definitions.
             </p>
           </div>
 
@@ -1979,6 +2079,13 @@ export default function Logic() {
               <strong>Collapse as an observer&apos;s registration.</strong> Corrected: records are
               definite within each branch without observers, a detector&apos;s click included. An
               observer adds not definiteness but its being lived.
+            </li>
+            <li className="leading-relaxed">
+              <strong>An exact line between someone and no one.</strong> Replaced by a narrow
+              twilight, fixed by structure: an exact line exists only in an infinitely large system,
+              which Holos reads as the limit of a model. The threshold is now four claims of
+              different strength; a critical transition and one shared shape moved from commitment
+              to hypothesis. &quot;A retreat to graded presence&quot; is no longer a way to lose.
             </li>
           </ul>
         </div>

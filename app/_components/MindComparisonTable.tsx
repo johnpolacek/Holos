@@ -32,8 +32,9 @@ const rows: ComparisonRow[] = [
     ],
   },
   {
-    dimension: "Sharp threshold?",
-    holos: "Yes: none below each system's crossing point; one universal shape of transition",
+    dimension: "A threshold?",
+    holos:
+      "Yes: none well below it, a narrow twilight, then experience; one shared shape hypothesized",
     others: [
       "No: graded from zero",
       "Access ignites all-or-none; the theory concerns access",

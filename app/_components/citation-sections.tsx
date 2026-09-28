@@ -683,7 +683,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Antony (2006), Vagueness and the metaphysics of consciousness",
             url: "https://doi.org/10.1007/s11098-004-7488-8",
             description:
-              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism; Holos takes the other branch, a sharp threshold that physics must locate.",
+              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism; the rest posit an exact cutoff. Holos rejects the premise and accepts a narrow twilight between clear cases.",
+          },
+          {
+            name: "Schwitzgebel (2023), Borderline consciousness",
+            url: "https://doi.org/10.1007/s11098-023-02042-1",
+            description:
+              "Philosophical Studies: argues that borderline cases of experience are coherent. They cannot be pictured from the inside, since picturing an experience makes it definite, but that limits imagination, not reality. The reply Holos gives to the no-vagueness argument.",
           },
           {
             name: "Rosenberg (2004), A Place for Consciousness",
@@ -823,25 +829,31 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Universality (dynamical systems)",
             url: "https://en.wikipedia.org/wiki/Universality_(dynamical_systems)",
             description:
-              "Very different systems pass through their transitions with the same critical exponents. Holos commits to one universality class for every transition into observerhood; one universal value of Φ_c is a separate, bolder conjecture.",
+              "Very different systems pass through their transitions with the same critical exponents. Holos hypothesizes one universality class for every transition into observerhood (claim 4 of the threshold); one universal value of Φ_c is a separate, bolder conjecture. Exponents depend on dimension, symmetry, and interaction range, so the hypothesis must be found, not assumed.",
           },
           {
             name: "Percolation threshold",
             url: "https://en.wikipedia.org/wiki/Percolation_threshold",
             description:
-              "A threshold fixed by structure alone: in a large square grid of randomly open bonds, a path first spans the grid at exactly half open, whatever the grid is made of. The model for the conjectured universal Φ_c: structural, true in every possible world, not a contingent constant of nature. It also models both levels of the Holos claim: each lattice has its own exact threshold, yet all share the same exponents. Finite grids round off; the threshold stays exact.",
+              "A threshold fixed by structure alone: in a large square grid of randomly open bonds, a path first spans the grid at exactly half open, whatever the grid is made of. The model for the conjectured universal Φ_c: structural, true in every possible world, not a contingent constant of nature. It also models the Holos threshold: each lattice has its own threshold, all share the same exponents, and in any finite grid the crossing point wanders around its center, a twilight that shrinks as the grid grows.",
           },
           {
             name: "Beggs and Plenz (2003), Neuronal avalanches in neocortical circuits",
             url: "https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003",
             description:
-              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. Measured at the operating point; the universality commitment needs the same kind of measurement at the threshold itself.",
+              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. Measured at the operating point; the shared-shape hypothesis needs the same kind of measurement at the threshold itself.",
           },
           {
             name: "Curie temperature",
             url: "https://en.wikipedia.org/wiki/Curie_temperature",
             description:
-              "Bulk iron gains magnetism of its own below a sharp temperature, growing smoothly from zero. The switch is exactly sharp only in the large-size limit; small samples round off. The Overview's model for the threshold: binary onset, graded richness.",
+              "Bulk iron gains magnetism of its own below a critical temperature, growing smoothly from zero. The switch is exactly sharp only in the large-size limit; small samples round off over a range of temperatures. The Overview's model for the threshold: a steep onset with a narrow twilight, then graded richness.",
+          },
+          {
+            name: "Giacino et al. (2002), The minimally conscious state",
+            url: "https://doi.org/10.1212/wnl.58.3.349",
+            description:
+              "Neurology: defines a clinical category between the vegetative state and full awareness. Medicine's own evidence that the edge of consciousness has a twilight, not a line.",
           },
           {
             name: "Toker et al. (2022), Consciousness is supported by near-critical slow cortical electrodynamics",
@@ -895,7 +907,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Friedman et al. (2010), Evidence for neural inertia",
             url: "https://doi.org/10.1371/journal.pone.0011903",
             description:
-              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. Such a lag marks an abrupt, first-order switch: it supports a sharp threshold but counts against a universal shape of transition, unless it is pharmacological. Human evidence is still suggestive.",
+              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. Such a lag marks an abrupt, first-order switch: it fits the transition hypothesis but counts against one shared shape of transition, unless it is pharmacological. Human evidence is still suggestive.",
           },
           {
             name: "Ontology",
@@ -1121,7 +1133,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Holos treats the onset of experience as a sharp transition with one universal shape, not a dial. A sharp change alone would not confirm this, since ordinary models predict tipping points too.",
+              "Holos hypothesizes that the onset of experience is a critical transition with one shared shape, steep but with a narrow twilight in any finite system. A steep change alone would not confirm this, since ordinary models predict tipping points too.",
           },
         ],
       },

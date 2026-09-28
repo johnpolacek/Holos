@@ -117,12 +117,13 @@ export const sections: ContentSection[] = [
         This distinguishes integration from computation or recursion. Many systems process
         information, model their environment, or even model themselves, yet nothing is experienced.
         Integration marks the boundary where distributed processes stop behaving as independent
-        parts and instead function as a unified perspective. Below that boundary, there is no
-        experience at all. Above it, in a system whose integrated states are about a world,
+        parts and instead function as a unified perspective. Well below that boundary, there is no
+        experience at all. Well above it, in a system whose integrated states are about a world,
         experience becomes unavoidable.
       </>,
       <>
-        Measures like Φ are useful because they track this transition empirically. When integration
+        Practical measures inspired by Φ, such as the Perturbational Complexity Index, track this
+        transition empirically; Φ itself has never been computed for a whole brain. When integration
         in the brain is disrupted, such as under anesthesia, experience fragments or disappears.
         When integration returns, unified experience returns with it. Holos does not claim that Φ
         causes consciousness, and it does not adopt Integrated Information Theory&apos;s claim that
@@ -189,12 +190,13 @@ export const sections: ContentSection[] = [
       <>
         Cool a piece of iron past a certain temperature, its Curie point, and it becomes magnetic.
         Above that point it has no magnetism of its own; just below it, a little; colder still,
-        more. The point is sharp, and the amount grows smoothly from it. Holos claims the same shape
-        for experience: a system does not become gradually more someone, yet once a perspective
-        appears, when its informational states become causally unified, its richness can grow.
-        Unlike a magnet, a brain can overshoot. Richness peaks near a sweet spot between too quiet
-        and too rigid, and a generalized seizure, every part locked into one rhythm, stays joined
-        but loses the variety experience needs.
+        more. In a large block of iron the change is steep; in a tiny grain it spreads across a
+        range of temperatures, because every real magnet is finite. Holos claims the same shape for
+        experience: a steep onset, steepest in the largest integrated systems, and once a
+        perspective appears, when its informational states become causally unified, its richness can
+        grow. Unlike a magnet, a brain can overshoot. Richness peaks near a sweet spot between too
+        quiet and too rigid, and a generalized seizure, every part locked into one rhythm, stays
+        joined but loses the variety experience needs.
       </>,
       <>
         Holos is a middle position. Experience does not attach to every scrap of matter, yet it
@@ -214,25 +216,28 @@ export const sections: ContentSection[] = [
         experience is caused by experience, because the experience is the inside of its cause.
       </>,
       <>
-        The threshold itself is sharp, but almost everything near it is not, and Holos separates
-        three things often blurred together. Whether there is anyone home at all is binary: there is
-        no halfway state between something it is like to be a system and nothing at all; a dim
-        experience is still an experience. How rich the experience is, by contrast, is graded: an
-        animal, a waking sleeper, or an injured brain may be fully above the threshold with less
-        richness. The dial is turned low, not the switch off. And our ability to locate the
-        threshold is permanently imprecise. In anything of finite size, even the outward signs of
-        crossing blur into a steep, smooth curve. The blur is in the signs, not in the fact: the
-        fact is which side of a line fixed by structure the system stands on.
+        The onset is steep, but it is not a mathematical line, and Holos separates three things
+        often blurred together. Whether anyone is home has clear answers on both sides: a thermostat
+        is not an observer, and a waking person is. Between them lies a narrow twilight where there
+        is no exact fact, the way no single second marks the end of dusk. How rich the experience
+        is, by contrast, is graded well past the twilight: an animal, a waking sleeper, or an
+        injured brain may be fully above the threshold with less richness. The dial is turned low,
+        not the switch off. And our instruments add blur of their own, since measures of integration
+        can disagree. Some borderline verdicts reflect our ignorance; only systems inside the
+        twilight are borderline in fact.
       </>,
       <>
-        The sharpness is not a whim. Philosophers have argued that consciousness cannot be vague:
-        either there is something it is like to be a system, or there is not. Since evolution built
-        brains gradually, most who accept that argument conclude that everything is conscious, the
-        view called panpsychism. Holos takes the other branch, a sharp cutoff, and so owes a reason
-        the cutoff falls where it does. Its answer is that the cutoff is not chosen: it is fixed by
+        The twilight is a considered choice. Philosophers have argued that consciousness cannot be
+        vague: either there is something it is like to be a system, or there is not. Since evolution
+        built brains gradually, most who accept that argument conclude that everything is conscious,
+        the view called panpsychism; the rest must posit an exact cutoff that nothing seems to fix.
+        Holos rejects the premise instead. A borderline experience cannot be pictured from the
+        inside, because picturing an experience makes it definite, but that is a limit on
+        imagination, not on reality. Clear cases stay clear: a single grain of sand is not a heap,
+        whatever the borderline. Where the twilight falls is not chosen either: it is fixed by
         structure, the way the point where water first crosses a large grid of pipes is fixed by the
-        grid, and it sits where physics shows a transition (see{" "}
-        <a href="/logic#path-to-threshold">A path to the threshold</a>).
+        grid, and Holos expects it where physics shows a transition (see{" "}
+        <a href="/logic#threshold-claims">The threshold in four claims</a>).
       </>,
       <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
