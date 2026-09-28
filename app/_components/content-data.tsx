@@ -96,7 +96,7 @@ export const sections: ContentSection[] = [
         any observer&apos;s world: branches that never form an aperture, and regions beyond every
         observer&apos;s horizon. <em>Witnessing</em> is graded: how much of the lit region an
         observer&apos;s experience is actually about, and in what detail. Our past is not merely
-        lit; it is densely witnessed. The loop between creation and observation is a relation of
+        lit; it is densely witnessed. The relation between creation and observation is one of
         dependence, not a process.
       </>,
     ],
@@ -188,10 +188,13 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Cool a piece of iron past a certain temperature, its Curie point, and it becomes magnetic.
-        Above that point there is no magnetism at all; just below it, a little; colder still, more.
-        The point is sharp, and the amount grows smoothly from it. Holos claims the same shape for
-        experience: a system does not become gradually more someone, yet once a perspective appears,
-        when its informational states become causally unified, its richness can grow.
+        Above that point it has no magnetism of its own; just below it, a little; colder still,
+        more. The point is sharp, and the amount grows smoothly from it. Holos claims the same shape
+        for experience: a system does not become gradually more someone, yet once a perspective
+        appears, when its informational states become causally unified, its richness can grow.
+        Unlike a magnet, a brain can overshoot. Richness peaks near a sweet spot between too quiet
+        and too rigid, and a generalized seizure, every part locked into one rhythm, stays joined
+        but loses the variety experience needs.
       </>,
       <>
         Holos is a middle position. Experience does not attach to every scrap of matter, yet it
@@ -217,16 +220,19 @@ export const sections: ContentSection[] = [
         experience is still an experience. How rich the experience is, by contrast, is graded: an
         animal, a waking sleeper, or an injured brain may be fully above the threshold with less
         richness. The dial is turned low, not the switch off. And our ability to locate the
-        threshold is permanently imprecise: real cases near the boundary will always look blurry
-        from outside, a fog on the instruments rather than vagueness in the fact.
+        threshold is permanently imprecise. In anything of finite size, even the outward signs of
+        crossing blur into a steep, smooth curve. The blur is in the signs, not in the fact: the
+        fact is which side of a line fixed by structure the system stands on.
       </>,
       <>
         The sharpness is not a whim. Philosophers have argued that consciousness cannot be vague:
         either there is something it is like to be a system, or there is not. Since evolution built
         brains gradually, most who accept that argument conclude that everything is conscious, the
         view called panpsychism. Holos takes the other branch, a sharp cutoff, and so owes a reason
-        the cutoff falls where it does. Its answer is that the threshold is a transition physics can
-        locate (see <a href="/logic#path-to-threshold">A path to the threshold</a>).
+        the cutoff falls where it does. Its answer is that the cutoff is not chosen: it is fixed by
+        structure, the way the point where water first crosses a large grid of pipes is fixed by the
+        grid, and it sits where physics shows a transition (see{" "}
+        <a href="/logic#path-to-threshold">A path to the threshold</a>).
       </>,
       <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
@@ -611,17 +617,18 @@ export const sections: ContentSection[] = [
       <>
         Omega is not introduced as a prediction or goal, and in Holos it is not derived from
         anything else. It is the framework&apos;s fundamental posit: the totality of reality, taken
-        as a single whole. Physically, that whole is not mysterious. Quantum mechanics without
-        collapse, which Holos adopts, already describes everything as one{" "}
-        <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, every
-        branch included, and that state is Omega. Its existence rests on physics. What Holos adds is
-        interpretive: in the monist reading it adopts (reality is ultimately one thing, not many
-        separate things), the whole is also the one experiencer, of which every finite observer is a
-        local aperture. The name echoes two older ideas it should not be confused with: Teilhard de
-        Chardin&apos;s spiritual endpoint of history, and Frank Tipler&apos;s physical Omega Point,
-        a prediction that required the universe to collapse back on itself and is contradicted by
-        its accelerating expansion. Holos means neither, which is why it drops the word
-        &quot;Point&quot;: its Omega is not an endpoint in time but the whole itself.
+        as a single whole. Physically, that whole is not mysterious. Quantum mechanics describes
+        everything as one{" "}
+        <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, and that
+        state is Omega; on the no-collapse reading Holos adopts, it includes every branch. Its
+        existence rests on physics on any reading. What Holos adds is interpretive: in the monist
+        reading it adopts (reality is ultimately one thing, not many separate things), the whole is
+        also the one experiencer, of which every finite observer is a local aperture. The name
+        echoes two older ideas it should not be confused with: Teilhard de Chardin&apos;s spiritual
+        endpoint of history, and Frank Tipler&apos;s physical Omega Point, a prediction that
+        required the universe to collapse back on itself and is contradicted by its accelerating
+        expansion. Holos means neither, which is why it drops the word &quot;Point&quot;: its Omega
+        is not an endpoint in time but the whole itself.
       </>,
       <>
         Holos does not alter established physics. Every equation, history and structure remain as
@@ -639,10 +646,12 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Open_individualism">open individualism</a>.
       </>,
       <>
-        Finite systems never take in the whole. Deeper integration means witnessing more of it,
-        never all of it, and the whole is not produced by that deepening: integration is how parts
-        of the totality come to witness more of it. Nor is the whole fully lived. Structure outside
-        every aperture&apos;s causal past belongs to Omega and is never experienced.
+        Omega is the ultimate whole, not the ultimate integration: everything is in it, all at once,
+        but its parts are not all joined. Finite systems never take in the whole. Deeper integration
+        means witnessing more of it, never all of it, and the whole is not produced by that
+        deepening: integration is how parts of the totality come to witness more of it. Nor is the
+        whole fully lived. Structure outside every aperture&apos;s causal past belongs to Omega and
+        is never experienced.
       </>,
       <>
         Omega is not an external agent. It does not intervene in events, answer petitions, or direct
@@ -721,9 +730,9 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         The symbol ⊛ is not multiplication and not a new kind of mathematics. It is ordinary
-        composition: do one step, then the other. Think of a cookbook and a meal. The cookbook lists
-        every dish that can be made; tasting happens only where someone eats. A meal as eaten needs
-        both, and tasting never rewrites the recipe.
+        composition: do one step, then the other. Think of a buffet. Every dish is really there,
+        cooked from the recipes; tasting happens only where someone eats. A meal as eaten needs
+        both, and tasting never changes a dish.
       </>,
       <>
         Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the pairing of

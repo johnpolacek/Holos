@@ -84,8 +84,9 @@ export default function Logic() {
 
           <ul className="flex flex-col gap-3 pl-6 list-disc">
             <li className="leading-relaxed">
-              <strong>Creation</strong> (<MathInline>{"C"}</MathInline>) is the set of physically
-              allowed possibilities. It is what the laws of physics permit.
+              <strong>Creation</strong> (<MathInline>{"C"}</MathInline>) is everything physics
+              produces: every branch of the one quantum state. Seen from inside one branch, the
+              others are its possibilities; all of them occur.
             </li>
 
             <li className="leading-relaxed">
@@ -224,12 +225,14 @@ export default function Logic() {
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-black/90">D5: Creation (C)</div>
             <p className="leading-relaxed">
-              Creation refers to the generation of physically allowed possibilities. It is the space
-              of states and histories permitted by the laws of physics.
+              Creation is everything the laws of physics actually produce from the universe&apos;s
+              state: every branch of the one quantum state, whether or not anyone lives it. It is
+              not every world the laws could allow from other beginnings; those are mere
+              possibilities, not structure.
             </p>
             <p className="leading-relaxed">
               Creation does not select outcomes and does not privilege any particular history. It
-              defines what could happen, not what is experienced.
+              fixes what happens in every branch, not what is experienced.
             </p>
           </div>
 
@@ -329,8 +332,9 @@ export default function Logic() {
               is not destroyed.
             </p>
             <p className="leading-relaxed text-black/70">
-              On the physics, this is unitary quantum evolution with no collapse: every possibility
-              remains, each in its own branch. Observation selects nothing and erases nothing (see{" "}
+              On the physics, this is unitary quantum evolution with no collapse: every outcome the
+              quantum state contains remains, each in its own branch. Observation selects nothing
+              and erases nothing (see{" "}
               <a href="#relationship-to-physics" className="underline hover:no-underline">
                 Relationship to Physics
               </a>
@@ -342,10 +346,10 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 3: Threshold</h3>
             <p className="leading-relaxed">
-              A system hosts a point of view when, and only when, it meets the observer
-              requirements: its integration <MathInline>{"\\Phi"}</MathInline> reaches a threshold{" "}
-              <MathInline>{"\\Phi_c"}</MathInline> at a local maximum, in states that are about a
-              world. Below the threshold there is no experience at all.
+              A system hosts a point of view when, and only when, it meets the four observer
+              requirements, with its integration <MathInline>{"\\Phi"}</MathInline> reaching a
+              threshold <MathInline>{"\\Phi_c"}</MathInline> at a local maximum. Below the threshold
+              there is no experience at all.
             </p>
             <p className="leading-relaxed text-black/70">
               This is the first of Holos&apos;s two additions to physics. It is not a force, a
@@ -425,9 +429,10 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">Axiom 5: Totality</h3>
             <p className="leading-relaxed">
               The whole of reality, Omega, is the one experiencer. Physically, the whole is the
-              universal quantum state that Axiom 2 already requires: one state of everything, all
-              branches included. Every observer is a local aperture of it: where a system crosses
-              the threshold, the one subject wakes. No new subject comes into being.
+              universe&apos;s complete quantum state: on the no-collapse reading of Axiom 2, one
+              state of everything with all branches included; on a collapse reading, the same
+              universe with a single history. Every observer is a local aperture of it: where a
+              system crosses the threshold, the one subject wakes. No new subject comes into being.
             </p>
             <p className="leading-relaxed text-black/70">
               This is the second of Holos&apos;s two additions to physics. What it adds is not the
@@ -478,8 +483,8 @@ export default function Logic() {
             <p className="text-sm text-black/60">Follows from Axiom 1.</p>
 
             <p className="leading-relaxed">
-              Reality is made of relationships between things, not of objects possessing
-              observer-independent intrinsic properties.
+              Reality is made of relationships between things, not of objects with intrinsic
+              properties of their own, prior to any relation.
             </p>
 
             <p className="leading-relaxed">
@@ -511,8 +516,8 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              Observation is not passive recording. It is the process by which informational
-              structure becomes experientially present.
+              Observation is not passive recording. It is where informational structure becomes
+              experientially present: a matter of structure, not a process in time.
             </p>
 
             <p className="leading-relaxed">
@@ -680,22 +685,39 @@ export default function Logic() {
             . Holos commits to it for observers: every transition into observerhood, in a brain, an
             animal, or a machine, belongs to one universality class. The point at which a given
             system crosses may differ from system to system, as iron and nickel become magnetic at
-            different temperatures; the shape of the crossing does not. This needs no agreed scale
-            for <MathInline>{"\\Phi"}</MathInline>, because critical exponents do not depend on the
-            scale a quantity is measured on. It also fits the three-way split exactly: in a
-            transition of this kind, the quantity that tracks it is exactly zero on one side and
-            grows smoothly on the other, so whether anyone is home is binary while richness is
-            graded.
+            different temperatures; the shape of the crossing does not. The shape is itself fixed by
+            structure: critical exponents depend on dimension and symmetry, not on what a system is
+            made of. This needs no agreed scale for <MathInline>{"\\Phi"}</MathInline>, because
+            critical exponents do not depend on the scale a quantity is measured on. It also fits
+            the three-way split. Whether anyone is home is binary: it is a matter of which side of
+            its threshold, fixed by structure, a system&apos;s integration lies. How rich the
+            experience is grows with integration past the line. One caution comes from the physics
+            itself: a perfectly sharp transition exists only in an infinitely large system. In
+            anything finite, a magnet or a brain, the outward signs of the transition round off into
+            a steep but smooth curve, and the rounding narrows as the system grows. The line is
+            sharp; the signs near it blur.
           </p>
 
           <p className="leading-relaxed">
             The bolder conjecture is about value: that under the right size-independent measure of
-            integration, every system crosses at the same <MathInline>{"\\Phi_c"}</MathInline>, a
-            new constant of nature, measured rather than derived, like the speed of light. Holos
-            states this as a bet, not a commitment. Universal thresholds do exist in physics: a
-            white dwarf above about 1.4 times the Sun&apos;s mass collapses, whatever it is made of.
-            None has yet been found for integration, and today&apos;s measures grow with the size of
-            a system, so the conjecture waits on the measure.
+            integration, every system crosses at the same <MathInline>{"\\Phi_c"}</MathInline>. If
+            so, <MathInline>{"\\Phi_c"}</MathInline> would be a structural constant, fixed by what
+            integration is rather than by a setting of nature&apos;s dials, and true in every
+            possible world. It has to be: a threshold that could differ between worlds with
+            identical physics would allow a perfect copy with no one home, which Axiom 4 rules out.
+            Holos states this as a bet, not a commitment. Thresholds fixed by structure alone do
+            exist. Picture a large square grid of pipes, each randomly open or shut: as the grid
+            grows, water first crosses from edge to edge at exactly half open, whatever the pipes
+            are made of (a{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Percolation_threshold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              percolation threshold
+            </a>
+            ). None has yet been found for integration, and today&apos;s measures grow with the size
+            of a system, so the conjecture waits on the measure.
           </p>
 
           <p className="leading-relaxed text-black/70 text-sm">
@@ -739,12 +761,15 @@ export default function Logic() {
             </li>
 
             <li className="leading-relaxed">
-              <strong>Aboutness:</strong> the system&apos;s integrated states must track something
-              beyond the system, through input channels of its own, as it happens. Any channel
-              counts: eyes, touch, a microphone, a stream of text. What the channel carries does not
-              matter, only that the system&apos;s states follow something outside it. A dreaming
-              brain keeps its channels, with input temporarily gated, and so does a fully paralyzed
-              person. Without aboutness, integration is a closed loop with nothing to be a view of.
+              <strong>Aboutness:</strong> the system&apos;s integrated states must be about
+              something beyond the system: the variety it can take on must be variety the world can
+              drive through input channels of its own. Any channel counts: eyes, touch, a
+              microphone, a stream of text. What the channel carries does not matter, only that what
+              arrives can move the whole across much of its range, the way a pianist can reach
+              nearly every note of a piano. The channels may be open or, as in a dreaming brain,
+              temporarily gated: a dream plays the same keys the world plays by day. A fully
+              paralyzed person keeps open channels too. Without aboutness, integration is a closed
+              loop with nothing to be a view of.
             </li>
           </ol>
 
@@ -778,16 +803,20 @@ export default function Logic() {
               such an array could satisfy every other requirement, and the sufficiency claim would
               certify it as an observer. Aboutness rules it out on principle: a point of view is
               always a view of something, and the array&apos;s states are about nothing beyond the
-              array: nothing beyond it reaches it. The requirement is structural, not historical,
-              and it concerns the machine, not the message. A perfect copy of an observer, however
-              it came to exist, has the same channels, so it is an observer too. A brain in a vat
-              fed a perfect simulation keeps its channels and its inner activity, so it is an
-              observer as well; a rule that asked where the signals came from would make two
-              identical brains differ in experience, against Axiom 4. Helen Keller learned the world
-              largely through words spelled into her hand, and no one doubts she was an observer.
-              What a system knows about distant things can be entirely secondhand; what it tracks
-              now, through its own channels, is its world. This is a structural reading of the
-              problem{" "}
+              array: nothing beyond it reaches it. Wiring in a sensor does not rescue it. A
+              thermometer on one input can move the array between a couple of patterns, while the
+              rest of its vast repertoire stays sealed, set from inside, like a jukebox with one
+              button. A brain is the opposite: what reaches it can drive it across most of its
+              range, and in dreams it wanders that same range on its own. The requirement is
+              structural, not historical, and it concerns the machine, not the message. A perfect
+              copy of an observer, however it came to exist, has the same channels, so it is an
+              observer too. A brain in a vat fed a perfect simulation keeps its channels and its
+              inner activity, so it is an observer as well; a rule that asked where the signals came
+              from would make two identical brains differ in experience, against Axiom 4. Helen
+              Keller learned the world largely through words spelled into her hand, and no one
+              doubts she was an observer. What a system knows about distant things can be entirely
+              secondhand; what it tracks now, through its own channels, is its world. This is a
+              structural reading of the problem{" "}
               <a
                 href="https://doi.org/10.1016/0167-2789(90)90087-6"
                 target="_blank"
@@ -817,17 +846,26 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              The scope of this condition is bounded, and the boundary matters. Maximality compares
-              physical systems: brains, hemispheres, coupled pairs, and whatever other integrated
-              structures reality contains. Omega is not in that comparison. The totality is not the
-              largest whole in the ranking, one step up from the largest system; it is not a system
-              among systems at all, and asking whether it out-integrates its parts is a category
-              mistake, like asking whether a landscape is its own tallest peak. The condition
-              therefore individuates apertures without bearing on the totality they belong to.
-              Whether apertures can form at scales of organization between the ones we know and the
-              totality is left open: Holos neither asserts nor excludes such intermediates, and
-              wherever integration reaches a local maximum above the threshold, the same rule
-              applies.
+              The scope of this condition matters. Maximality compares physical systems: brains,
+              hemispheres, coupled pairs, and whatever other integrated structures reality contains.
+              Could the whole universe win that comparison, becoming the one aperture and leaving
+              none for its parts? It cannot, and the reason is physical. Integration asks whether a
+              system can be split into independent parts without loss, and the universe as a whole
+              can: regions beyond each other&apos;s{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Cosmological_horizon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                horizons
+              </a>{" "}
+              can never again influence each other, and branches that have gone their separate ways
+              no longer interfere. Cut along either seam and almost nothing is lost, so the whole
+              scores near zero on integration and is never a peak. Omega is the one experiencer by
+              Axiom 5, not by being the largest aperture. Whether apertures can form at scales of
+              organization between the ones we know and the totality is left open: Holos neither
+              asserts nor excludes such intermediates, and wherever integration reaches a local
+              maximum above the threshold, the same rule applies.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -878,10 +916,10 @@ export default function Logic() {
                 causal past is part of Omega and never lived.
               </li>
               <li className="leading-relaxed">
-                It <strong>is not</strong> an aperture writ large. The maximality condition that
-                individuates finite observers (one peak of integration, one perspective) compares
-                systems within reality. The totality is not a system among systems, so it does not
-                compete in that comparison and is not excluded by it.
+                It <strong>is not</strong> an aperture writ large. As a whole, the universe splits
+                into parts that never touch, regions beyond each other&apos;s horizons and branches
+                that no longer interfere, so it is never a peak of integration and the maximality
+                condition never picks it.
               </li>
               <li className="leading-relaxed">
                 It <strong>does not</strong> replace physical cosmology or impose a final cause on
@@ -993,8 +1031,9 @@ export default function Logic() {
               , the view, defended by Philip Goff and others, that the cosmos is the one fundamental
               conscious subject. Holos differs in a way that matters here: Goff&apos;s cosmos has an
               experience of its own as a whole, while Omega pools nothing, so Holos never has to
-              carve individual experiences out of a cosmic one. What it must explain is only the
-              walls.
+              carve individual experiences out of a cosmic one. Physics says why it pools nothing:
+              the whole splits into parts that never touch, so it forms no single aperture of its
+              own. What it must explain is only the walls.
             </p>
 
             <p className="leading-relaxed">
@@ -1343,8 +1382,12 @@ export default function Logic() {
               This is a claim about what would have to be true of any host of a perspective, not a
               derivation of experience from structure. It explains why the threshold is placed on
               integration rather than on some other quantity; it does not explain why unified
-              structure is present at all. That question, Holos treats as the one its posits are
-              for.
+              structure is present at all. That question Holos does not answer: its posits take
+              experience as given (see the{" "}
+              <a href="/#consciousness-hard-problem" className="underline hover:no-underline">
+                Hard Problem
+              </a>
+              ).
             </p>
           </div>
         </div>
@@ -1383,12 +1426,13 @@ export default function Logic() {
             <h3 className="text-xl font-semibold text-black/90">Creation</h3>
 
             <p className="leading-relaxed">
-              Creation (<MathInline>{"C"}</MathInline>) maps a given state to the set of physically
-              allowed continuations. It represents lawful possibility.
+              Creation (<MathInline>{"C"}</MathInline>) maps a given state to the branches physical
+              law produces from it. It represents lawful possibility: seen from inside any one
+              branch, the others are what could have happened, and all of them do.
             </p>
 
             <MathDisplay>
-              {"C(S) = \\{ S' \\mid S' \\text{ is consistent with physical law} \\}"}
+              {"C(S) = \\{ S' \\mid S' \\text{ is a branch physical law produces from } S \\}"}
             </MathDisplay>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -1580,8 +1624,8 @@ export default function Logic() {
               transition from distributed processing to a unified perspective is a genuine phase
               transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a number we are free to
               tune but a critical point, and critical points leave measurable fingerprints: slowing
-              near the boundary, growing fluctuations, the onset of a quantity that was exactly
-              zero, and exponents that should match across every system that crosses. Consciousness
+              near the boundary, growing fluctuations, the onset of a quantity that was near zero,
+              and exponents that should match across every system that crosses. Consciousness
               medicine has already found one such boundary from the outside: the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
@@ -1596,9 +1640,10 @@ export default function Logic() {
               metaphysical one.
             </p>
             <p className="leading-relaxed">
-              The fingerprints are already being measured. Waking cortex runs near a specific
-              critical point, the edge between stability and chaos, and drifts away from it under
-              anesthesia, deep sleep, and disorders of consciousness (
+              The fingerprints are already being measured, but they must be read with care. Waking
+              cortex runs near a specific critical point, the edge between stability and chaos.
+              Anesthesia, generalized seizures, and disorders of consciousness move it away, while
+              psychedelics move it closer and make its activity richer (
               <a
                 href="https://doi.org/10.1073/pnas.2024455119"
                 target="_blank"
@@ -1624,8 +1669,23 @@ export default function Logic() {
               >
                 Beggs and Plenz 2003
               </a>
-              ). These are the signatures a critical transition should leave, and exponents are
-              exactly what the universality commitment says must match across systems.
+              ). These results put a critical point at the center of conscious life, not at its
+              edge: consciousness is lost by moving away from it in either direction. Holos reads
+              them through two separate requirements. Integration asks whether the parts are joined
+              into one whole, and that is where the threshold lies. Differentiation asks how varied
+              the states of that whole can be, and variety peaks near criticality. A seizure locks
+              every part into one rhythm (
+              <a
+                href="https://doi.org/10.1371/journal.pcbi.1002312"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Meisel et al. 2012
+              </a>
+              ), like a stadium chanting a single word: joined, but with almost no variety. So these
+              studies show where observers operate and why richness peaks there. They do not yet
+              show that crossing the threshold is itself a critical transition; that evidence must
+              come from the boundary.
             </p>
             <p className="leading-relaxed">
               A cutoff that sorts patients is not yet proof of a transition, since a smooth quantity
@@ -1654,11 +1714,13 @@ export default function Logic() {
                 Warnaby et al. 2017
               </a>
               ), but the lag appeared in the EEG, not in responsiveness. Slowing and growing
-              fluctuations, which the criticality studies above report, point the other way, toward
-              a continuous transition with a universal shape. The two signatures tell the two kinds
-              of transition apart, which makes the question testable. In a finite system like a
-              brain, either kind appears as a steep, rounded curve rather than a mathematical kink,
-              so the search is for scaling, not a perfect step.
+              fluctuations measured at the boundary itself, as consciousness is lost, would point
+              the other way, toward a continuous transition with a universal shape. The criticality
+              studies above measure the operating point, not the boundary, so they do not yet supply
+              this. The two signatures tell the two kinds of transition apart, which makes the
+              question testable. In a finite system like a brain, either kind appears as a steep,
+              rounded curve rather than a mathematical kink, so the search is for scaling, not a
+              perfect step.
             </p>
             <p className="leading-relaxed">
               <strong>Cull the measures by convergence, then try to force uniqueness.</strong> Holos
@@ -1748,12 +1810,11 @@ export default function Logic() {
             </p>
             <p className="leading-relaxed">
               Two clarifications bound this problem without solving it. First, the maximality
-              condition individuates finite observers only; it does not range over the totality,
-              which is not a system among systems and does not compete with its own apertures.
-              Second, the condition is silent about scale. Whether apertures can form at
-              intermediate levels of organization, larger than any brain and smaller than
-              everything, is left open: Holos neither asserts nor excludes them, and the same rule
-              would govern wherever they might form.
+              condition individuates finite observers only; the totality never wins it, since as a
+              whole it splits into parts that never touch. Second, the condition is silent about
+              scale. Whether apertures can form at intermediate levels of organization, larger than
+              any brain and smaller than everything, is left open: Holos neither asserts nor
+              excludes them, and the same rule would govern wherever they might form.
             </p>
           </div>
 
@@ -1867,6 +1928,57 @@ export default function Logic() {
             <li className="leading-relaxed">
               <strong>&quot;Confirmed so far&quot; for the standing bet.</strong> Corrected to
               untested: no superposition tested so far has contained an observer.
+            </li>
+            <li className="leading-relaxed">
+              <strong>The threshold value as a constant of nature, like the speed of light.</strong>{" "}
+              Replaced: a threshold that could differ between physically identical worlds would
+              allow a copy with no one home, against Axiom 4. The conjectured value is now
+              structural, like a percolation threshold.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Sharpness from a quantity &quot;exactly zero on one side.&quot;</strong>{" "}
+              Replaced: that holds only in infinitely large systems. Whether anyone is home is which
+              side of a threshold fixed by structure a system stands on; in anything finite, the
+              outward signs blur.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Waking-brain criticality as evidence for the threshold&apos;s shape.</strong>{" "}
+              Reread: it places a critical point at the center of conscious life, where variety
+              peaks. The threshold is where parts join into one whole; evidence for its shape must
+              come from the boundary.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Aboutness as any live channel, tracked as it happens.</strong> Sharpened: one
+              thermometer wired into an inert array passed it, and &quot;as it happens&quot;
+              excluded dreams. Now the world must be able to drive the whole across much of its
+              range, through channels open or gated.
+            </li>
+            <li className="leading-relaxed">
+              <strong>
+                Omega exempt from maximality as &quot;not a system among systems.&quot;
+              </strong>{" "}
+              Replaced: Omega is physically the universal quantum state, so the exemption was
+              special pleading. The whole fails integration outright, splitting into parts that
+              never touch, which is also why it pools nothing.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Creation as every world the laws permit.</strong> Narrowed: if every lawful
+              world were real structure, reality would outrun Omega. Creation is what physics
+              actually produces, every branch of the one quantum state; the cookbook became a
+              buffet.
+            </li>
+            <li className="leading-relaxed">
+              <strong>
+                Omega defined through Axiom 2, and Axiom 4 at risk in the standing bet.
+              </strong>{" "}
+              Corrected: Omega is the universe&apos;s complete quantum state on any reading, and
+              Axiom 4 survives a collapse. What a collapse would cost is the claim that observation
+              changes nothing it registers.
+            </li>
+            <li className="leading-relaxed">
+              <strong>Collapse as an observer&apos;s registration.</strong> Corrected: records are
+              definite within each branch without observers, a detector&apos;s click included. An
+              observer adds not definiteness but its being lived.
             </li>
           </ul>
         </div>

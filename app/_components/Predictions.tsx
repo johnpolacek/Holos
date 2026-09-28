@@ -203,8 +203,8 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Two consequences follow. A physically identical copy of an observer cannot lack
               experience (Axiom 4). And the threshold is sharp while its surroundings are not: the
-              fuzziness of real cases lives in richness and in our instruments, not in whether
-              anyone is home (see{" "}
+              fuzziness of real cases lives in richness, in the outward signs, and in our
+              instruments, not in whether anyone is home (see{" "}
               <a href="/#consciousness" className="underline hover:no-underline">
                 Consciousness
               </a>
@@ -275,8 +275,9 @@ export default function Predictions() {
             </blockquote>
 
             <p className="leading-relaxed">
-              Collapse is therefore not a new physical process. It is the registration of a
-              particular outcome by an observer whose internal structure supports presence.
+              Collapse is therefore not a new physical process. Within each branch, records are
+              already definite, a detector&apos;s click included; what an observer adds is not the
+              definiteness but its being lived.
             </p>
           </div>
 
@@ -323,8 +324,10 @@ export default function Predictions() {
               Large-scale neural integration measures should therefore show the signatures of a
               critical transition near loss and recovery of consciousness: slowing and growing
               fluctuations as the boundary nears, and scaling exponents that match across
-              individuals and species, rather than a smooth fade. Below threshold, processing
-              continues without unified access to experience.
+              individuals and species, rather than a smooth fade. These must be measured on
+              integration at the boundary: the known near-criticality of waking cortex marks where
+              observers operate, not the threshold. Below threshold, processing continues without
+              unified access to experience.
             </p>
 
             <p className="leading-relaxed">
@@ -397,11 +400,12 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Observer-incompatible universes may exist as valid physical structures while never
-              being lived: with no apertures, the totality has no opening into them, and they remain
-              unlit structure. The nearest examples are not exotic: under the branching picture,
-              observer-free branches of our own universe are unlit structure in exactly the same
-              sense. Anthropic reasoning (the observation that we can only find ourselves in a
+              Observer-incompatible universes, if physics actually produces them, would exist as
+              structure while never being lived; universes the laws merely allow are possibilities,
+              not structure. With no apertures, the totality has no opening into them, and they
+              remain unlit structure. The nearest examples are not exotic: under the branching
+              picture, observer-free branches of our own universe are unlit structure in exactly the
+              same sense. Anthropic reasoning (the observation that we can only find ourselves in a
               universe able to support us) is therefore reframed as ontological filtering rather
               than selection.
             </p>
@@ -798,16 +802,28 @@ export default function Predictions() {
           <p className="leading-relaxed">
             <strong>What that would cost, declared now.</strong> Losing the bet would falsify three
             things: Axiom 2 as read here (no collapse), the branching picture with its self-locating
-            odds, and the clause in Axiom 4 that experience adds no force. It would not touch the
-            core. The threshold (Axiom 3) would become the point where collapse happens, and so, for
-            the first time, physically detectable. Experience would still be the inside of physical
-            activity (Axiom 4); that activity would simply include a collapse law. Omega (Axiom 5)
-            would be the universe with its single history. Lived, lit, and unlit would apply within
-            that one history. Holos would adopt a collapse reading of the kind{" "}
+            odds, and the claim that observation changes nothing it registers. It would not touch
+            the core. The threshold (Axiom 3) would become the point where collapse happens, and so,
+            for the first time, physically detectable. Experience would still be the inside of
+            physical activity (Axiom 4), adding no force beyond the physics; that activity would
+            simply include a collapse law. Omega (Axiom 5) would be the universe with its single
+            history. Lived, lit, and unlit would apply within that one history. Holos would adopt a
+            collapse reading of the kind{" "}
             <a href="https://arxiv.org/abs/2105.02314" target="_blank" rel="noopener noreferrer">
               Chalmers and McQueen
             </a>{" "}
             propose, with its threshold as the collapse point.
+          </p>
+
+          <p className="leading-relaxed">
+            Losing this bet would cost Holos its physics but hand its threshold the strongest
+            confirmation it could get, on one condition: the collapse must track integration
+            crossing <MathInline>{"\\Phi_c"}</MathInline>, not size. If a superposed system above
+            the threshold collapses while an equally large one below it does not, observers matter
+            physically, exactly where Holos says. If collapse tracks size alone, as
+            objective-collapse models propose, Axiom 2 falls with nothing gained: the threshold
+            stays as it is, dynamically inert, and Omega is the universe with its single history.
+            Either way the core stands.
           </p>
 
           <p className="leading-relaxed">

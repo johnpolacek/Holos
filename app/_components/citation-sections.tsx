@@ -826,28 +826,40 @@ export const citationMainSections: CitationMainSection[] = [
               "Very different systems pass through their transitions with the same critical exponents. Holos commits to one universality class for every transition into observerhood; one universal value of Φ_c is a separate, bolder conjecture.",
           },
           {
+            name: "Percolation threshold",
+            url: "https://en.wikipedia.org/wiki/Percolation_threshold",
+            description:
+              "A threshold fixed by structure alone: in a large square grid of randomly open bonds, a path first spans the grid at exactly half open, whatever the grid is made of. The model for the conjectured universal Φ_c: structural, true in every possible world, not a contingent constant of nature. It also models both levels of the Holos claim: each lattice has its own exact threshold, yet all share the same exponents. Finite grids round off; the threshold stays exact.",
+          },
+          {
             name: "Beggs and Plenz (2003), Neuronal avalanches in neocortical circuits",
             url: "https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003",
             description:
-              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. The kind of measurement the universality commitment needs across systems.",
+              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. Measured at the operating point; the universality commitment needs the same kind of measurement at the threshold itself.",
           },
           {
             name: "Curie temperature",
             url: "https://en.wikipedia.org/wiki/Curie_temperature",
             description:
-              "Iron becomes magnetic below a sharp temperature, with magnetism growing smoothly from zero. The Overview's model for the threshold: binary onset, graded richness.",
+              "Bulk iron gains magnetism of its own below a sharp temperature, growing smoothly from zero. The switch is exactly sharp only in the large-size limit; small samples round off. The Overview's model for the threshold: binary onset, graded richness.",
           },
           {
             name: "Toker et al. (2022), Consciousness is supported by near-critical slow cortical electrodynamics",
             url: "https://doi.org/10.1073/pnas.2024455119",
             description:
-              "PNAS: waking cortex runs near the edge between stability and chaos and drifts away from it when consciousness is lost. The kind of signature a critical transition should leave.",
+              "PNAS: waking cortex runs near the edge between stability and chaos; anesthesia and generalized seizures move it away, psychedelics move it closer. A critical point at the center of conscious life, where variety peaks, not evidence that crossing the threshold is itself a critical transition.",
           },
           {
             name: "Critical dynamics in spontaneous EEG predict anesthetic-induced loss of consciousness and perturbational complexity (2024)",
             url: "https://doi.org/10.1038/s42003-024-06613-8",
             description:
-              "Communications Biology: criticality measures in resting EEG predict anesthetic loss of consciousness and track PCI.",
+              "Communications Biology: criticality measures in resting EEG predict anesthetic loss of consciousness and track PCI. Like Toker et al., it measures distance from the operating point, not the threshold.",
+          },
+          {
+            name: "Meisel et al. (2012), Failure of adaptive self-organized criticality during epileptic seizure attacks",
+            url: "https://doi.org/10.1371/journal.pcbi.1002312",
+            description:
+              "PLOS Computational Biology: during seizures, cortical activity departs from criticality toward hypersynchrony. Joined but not varied: the differentiation requirement fails.",
           },
           {
             name: "Warnaby et al. (2017), A signature of neural inertia in humans",
@@ -871,7 +883,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Aaronson (2014), Why I Am Not An Integrated Information Theorist",
             url: "https://scottaaronson.blog/?p=1799",
             description:
-              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: integrated states must model a world beyond the system.",
+              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: an observer's variety must be variety the world can drive through its channels. Wiring one sensor into such an array leaves the rest of its repertoire sealed.",
           },
           {
             name: "Harnad (1990), The symbol grounding problem",
