@@ -16,12 +16,23 @@ const rows: ComparisonRow[] = [
   {
     dimension: "Why am I this one?",
     holos: "Nothing to explain: the one subject is each of them",
-    others: ["A brute fact", "A brute fact, moment by moment"],
+    others: [
+      'Often: nothing to explain, since "I" picks out whoever asks; for some, a brute fact',
+      "The same reply, applied to each moment's self",
+    ],
   },
   {
     dimension: "A perfect copy is made",
     holos: "Both are you, with no remainder",
-    others: ["A puzzle: one, the other, or neither", "Neither, as no later moment ever was"],
+    others: [
+      "A hard case: one, the other, or neither, each defended",
+      "Neither, as no later moment ever was",
+    ],
+  },
+  {
+    dimension: "Whose future pain do you anticipate?",
+    holos: "Everyone's: the view's price, and its ethical point",
+    others: ["Only your own", "Strictly, no one's, not even your own tomorrow"],
   },
   {
     dimension: "What walls perspectives apart",
@@ -32,6 +43,14 @@ const rows: ComparisonRow[] = [
     dimension: "When a life ends",
     holos: "This perspective ends; the one subject stays awake elsewhere",
     others: ["The self ends", "Selves were ending all along"],
+  },
+  {
+    dimension: "Hardest objection",
+    holos: "Anticipating strangers' experience as your own",
+    others: [
+      "Copying and splitting cases with no clear answer",
+      "It undercuts caring about your own future",
+    ],
   },
 ];
 

@@ -50,7 +50,7 @@ export default function Predictions() {
             <li className="leading-relaxed">
               <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
               a structural test that can fail, a consistency check, and a standing bet on the
-              physics Holos adopts, with its consequences for the framework declared in advance.
+              physics Holos adopts, which decides between two versions of Holos declared in advance.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
@@ -80,12 +80,11 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
-            Commitments 1 and 2 are fundamental to Holos. If either is rejected in principle, the
-            framework fails as a coherent account of how reality becomes experienced. Commitment 3
-            rests on the no-collapse reading of Axiom 2; what losing that reading would cost is
-            declared in advance under{" "}
-            <a href="#standing-bet" className="underline hover:no-underline">
-              The Standing Bet
+            Commitments 1 and 2 are fundamental to Holos: a serious rival denies each, and if either
+            is false, the framework fails. Commitment 3 belongs to Holos without collapse, the
+            version this site defends; the version with collapse is declared in advance under{" "}
+            <a href="#two-versions" className="underline hover:no-underline">
+              Two versions
             </a>
             .
           </p>
@@ -93,63 +92,84 @@ export default function Predictions() {
           {/* C1 */}
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">
-              1. Presence depends on observers
+              1. Experience is local, and physics describes it only from outside
             </h3>
 
             <p className="text-sm text-black/60">
-              From Axioms 3 and 4, with the definitions in D7. See{" "}
+              From Axioms 1, 3, 4, and 5, with the definitions in D7. See{" "}
               <a href="/logic#logic-axioms" className="underline hover:no-underline">
                 Axioms
               </a>
               .
             </p>
 
+            <p className="leading-relaxed">Two claims, and a serious rival denies each one.</p>
+
             <p className="leading-relaxed">
-              A physical description can be complete and still fail to explain why there is anything
-              it is like to be inside the system it describes. The gap is not a missing fact: a
-              perfect physical copy has the same inside. It is that the description is written from
-              outside, and can be true and complete while saying nothing of whether anything is
-              being lived at all.
+              <strong>Local.</strong> Experience occurs only inside observers, systems past the
+              threshold. It is not spread through matter, not ambient in space or fields, and not
+              pooled in the whole: Omega is the one experiencer, but it experiences only through
+              observers. &quot;Local&quot; says where experience happens, not who has it. Structure
+              without observers is still fully real, as pattern: unobserved histories remain part of{" "}
+              <MathInline>{"C"}</MathInline>, the branches physics produces, and are simply never
+              lived.
             </p>
 
             <p className="leading-relaxed">
-              The claim is not that observers modify physical dynamics. It is that a world becomes{" "}
-              actualized reality only when information is registered from an internal perspective.
-              Without registration, there is structure, but no lived fact.
+              <strong>Only from outside.</strong> A physical description can be complete and still
+              say nothing of whether anything is lived. The gap is not a missing fact: a perfect
+              physical copy has the same inside. It is that the description is written from outside,
+              like a floor plan that records every wall and still cannot say what living in the
+              house is like.
             </p>
 
             <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-              Consistency alone does not produce presence. Presence requires registration.
+              Experience happens only in observers. Physics fixes all of it, but states it only from
+              outside.
             </blockquote>
 
+            <div>
+              <p className="leading-relaxed">
+                <strong>What this rules out:</strong>
+              </p>
+              <ul className="flex flex-col gap-2 pl-6 list-disc mt-2">
+                <li className="leading-relaxed">
+                  Panpsychism: a flicker of experience in every particle, rock, or thermostat.
+                </li>
+                <li className="leading-relaxed">
+                  A cosmic mind: the universe having one experience of its own, over and above its
+                  observers.
+                </li>
+                <li className="leading-relaxed">
+                  Illusionism: the view that experience does not exist, only the belief in it.
+                </li>
+                <li className="leading-relaxed">
+                  Strict physicalism of one kind: the view that physical language could, in
+                  principle, state that something is lived.
+                </li>
+                <li className="leading-relaxed">
+                  Dualism: experience as an extra ingredient beyond physics. The gap is in the
+                  description, not in the world.
+                </li>
+              </ul>
+            </div>
+
             <p className="leading-relaxed">
-              Unobserved histories therefore remain valid structures within{" "}
-              <MathInline>{"C"}</MathInline>, the space of what physics permits, but without{" "}
-              <MathInline>{"O"}</MathInline>, an observer to register them, they are not experienced
-              realities.
+              Anthropic principles explain why observers find themselves in universes that allow
+              them. They do not say where experience occurs, or why physics states it only from
+              outside. Holos answers the first and names the second; why there is experience at all,
+              it leaves open.
             </p>
 
             <p className="leading-relaxed">
-              Anthropic principles explain why observers find themselves in observer-compatible
-              universes. They do not explain how observation itself exists or why physical structure
-              is experienced from the inside. This framework addresses that gap.
-            </p>
-
-            <p className="leading-relaxed">
-              The existence of experience demonstrates that self-registering structures are not
-              merely abstract possibilities: physics permits them to be built, and at least one has
-              been. Once such a structure is realizable even once, actualized reality exists,
-              regardless of how rare or contingent its emergence may be.
-            </p>
-
-            <p className="leading-relaxed">
-              Closure uses three words, each for one thing: <strong>lived</strong>, where experience
+              Holos uses three words, each for one thing: <strong>lived</strong>, where experience
               occurs; <strong>lit</strong>, the causal past it draws on; and <strong>unlit</strong>,
               structure outside every observer&apos;s causal past. They are defined in{" "}
               <a href="/logic#primitive-definitions" className="underline hover:no-underline">
                 Logic, D7
               </a>
-              .
+              . That &quot;lived&quot; means experienced by an observer is a definition, not a
+              commitment.
             </p>
           </div>
 
@@ -206,7 +226,7 @@ export default function Predictions() {
               cases on both sides, a narrow twilight between, fixed by structure, so a copy of a
               borderline system is borderline too (see{" "}
               <a href="/logic#threshold-claims" className="underline hover:no-underline">
-                The threshold in four claims
+                The threshold in three claims
               </a>
               ).
             </p>
@@ -231,8 +251,8 @@ export default function Predictions() {
               what is consistent: the laws of physics, the space of allowed histories with their
               quantum weights, and whether a system meets the integration threshold. These are
               absolute and observer-independent. <strong>Registered facts</strong> describe what is
-              actualized as experience: which outcome a system registers from its own perspective.
-              These are always indexed to observing systems.
+              lived: which outcome a system registers from its own perspective. These are always
+              indexed to observing systems.
             </p>
 
             <p className="leading-relaxed">
@@ -260,9 +280,10 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Branches are weighted, not merely counted: the statistics every observer records
-              follow the Born rule. The weights are structural facts, not amounts of experience, and
-              for an observer they are odds of being in one branch rather than another. See{" "}
+              Branches are weighted, not merely counted: almost all of the weight lies with
+              observers whose records follow the Born rule. The weights are structural facts, not
+              amounts of experience, and for an observer they are odds of being in one branch rather
+              than another. See{" "}
               <a href="/logic#relationship-to-physics" className="underline hover:no-underline">
                 Logic
               </a>{" "}
@@ -322,15 +343,14 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Large-scale neural integration measures should therefore show the signatures of a
-              critical transition near loss and recovery of consciousness: slowing and growing
-              fluctuations as the boundary nears, and scaling exponents that match across
-              individuals and species, rather than a smooth fade, with a twilight that narrows in
-              larger systems. These are the transition and shape hypotheses, not the core, and
-              animal studies of neural inertia already lean toward an abrupt switch, which would fit
-              the first and count against the second. They must be measured on integration at the
-              boundary: the known near-criticality of waking cortex marks where observers operate,
-              not the threshold. Well below threshold, processing continues without unified access
-              to experience.
+              genuine transition near loss and recovery of consciousness, rather than a smooth fade:
+              slowing and growing fluctuations as the boundary nears, or a lag between going under
+              and coming back, with a twilight that narrows in larger systems. This is the
+              transition hypothesis, not the core. Animal studies already find such a lag, though in
+              flies sleep genes control it, so it may belong to the arousal switch rather than to
+              integration. The signatures must be measured on integration at the boundary: the known
+              near-criticality of waking cortex marks where observers operate, not the threshold.
+              Well below threshold, processing continues without unified access to experience.
             </p>
 
             <p className="leading-relaxed">
@@ -465,13 +485,13 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            The central claim of Holos is that observation is a closure condition, not a force: it
-            changes no equation and moves nothing. But every experiment is a physical measurement,
-            and an instrument only ever registers physical change. So{" "}
-            <strong>presence itself cannot be detected directly</strong>. An instrument that finds
-            nothing extra is exactly what Holos predicts, because there is nothing extra to find:
-            presence is what the physics is like from the inside, not an additional signal beside
-            it.
+            The central claim of Holos is that observation is where structure is lived, not a force:
+            in the version this site defends, it changes no equation and moves nothing. But every
+            experiment is a physical measurement, and an instrument only ever registers physical
+            change. So <strong>presence itself cannot be detected directly</strong>. An instrument
+            that finds nothing extra is exactly what Holos predicts, because there is nothing extra
+            to find: presence is what the physics is like from the inside, not an additional signal
+            beside it.
           </p>
 
           <p className="leading-relaxed">
@@ -492,7 +512,7 @@ export default function Predictions() {
             contradiction rather than singling Holos out. A prediction Holos shares with rival
             theories cannot single it out, but a shared prediction it could fail is still worth more
             than one it cannot. Beneath both sits a standing bet, stated after them, on the physics
-            Holos adopts, with what it would cost the framework declared in advance.
+            Holos adopts, with the version of Holos a loss would leave declared in advance.
           </p>
         </div>
       </section>
@@ -540,21 +560,47 @@ export default function Predictions() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-black/90 mb-1">Method</h4>
+            <h4 className="font-semibold text-black/90 mb-1">The protocol, fixed in advance</h4>
             <p className="leading-relaxed">
-              Combine study designs where subjects report only afterward, or not at all, with
-              integration proxies such as the{" "}
-              <a
-                href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Perturbational Complexity Index
-              </a>{" "}
-              across wakefulness, anesthesia, sleep stages, and dissociative states, treating
-              behavioral responsiveness and integration as separately varying factors rather than
-              proxies for each other.
+              A test needs numbers, not intentions. Test A is frozen here, before any new data:
             </p>
+            <ol className="flex flex-col gap-2 pl-6 list-decimal mt-2">
+              <li className="leading-relaxed">
+                <strong>Primary gauge:</strong> the{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Perturbational Complexity Index
+                </a>
+                , measured by stimulating the brain and recording its echo (TMS-EEG), with its
+                published cutoff of 0.31 (
+                <a
+                  href="https://doi.org/10.1002/ana.24779"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Casarotto et al. 2016
+                </a>
+                ). A whole-brain gauge.
+              </li>
+              <li className="leading-relaxed">
+                <strong>Second gauge:</strong> the same kind of measurement confined to posterior
+                cortex, where dream reports have been found to track local activity. Its cutoff is
+                set on calibration states and frozen before any held-out data.
+              </li>
+              <li className="leading-relaxed">
+                <strong>Timing:</strong> each gauge is computed from the stimulation closest to an
+                awakening, ending at the awakening, and a report counts only if it describes what
+                was happening just before waking. Averages over minutes, or windows that end well
+                before waking, do not count.
+              </li>
+              <li className="leading-relaxed">
+                <strong>Rivals recorded:</strong> behavioral responsiveness, arousal, and drug level
+                are measured alongside, so the test can say which variable reports actually follow.
+              </li>
+            </ol>
           </div>
           <div>
             <h4 className="font-semibold text-black/90 mb-1">
@@ -562,17 +608,22 @@ export default function Predictions() {
             </h4>
             <p className="leading-relaxed">
               PCI&apos;s cutoff was set by calibrating it on people whose state was already known
-              from their reports (
-              <a href="https://doi.org/10.1002/ana.24779" target="_blank" rel="noopener noreferrer">
-                Casarotto et al. 2016
+              from their reports, and the conscious side of that calibration included waking, REM
+              dreaming, and ketamine with vivid reports. Those cases cannot confirm Test A: they are
+              the answer key, not the exam. The test counts only states that played no part in
+              setting the cutoff, named in advance: dream reports from non-REM sleep, deep sedation
+              with intermittent awakening, sleepwalking and other automatisms, complex seizures,
+              psychedelic states, and covert awareness in unresponsive patients, which brain imaging
+              finds in about a quarter of them (
+              <a
+                href="https://doi.org/10.1056/NEJMoa2400645"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bodien et al. 2024
               </a>
-              ), and the conscious side of that calibration included waking, REM dreaming, and
-              ketamine with vivid reports. Those cases cannot confirm Test A: they are the answer
-              key, not the exam. The test therefore freezes the cutoff before new data and counts
-              only states that played no part in setting it, named in advance: dream reports from
-              non-REM sleep, sleepwalking and other automatisms, complex seizures, covert awareness
-              in unresponsive patients detected by brain imaging, and psychedelic states. This is
-              the design of the COGITATE collaboration: predictions fixed first, data second.
+              ). This is the design of the COGITATE collaboration: predictions fixed first, data
+              second.
             </p>
           </div>
 
@@ -588,13 +639,14 @@ export default function Predictions() {
           <div>
             <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
-              The clean way to lose is a positive report from well below the threshold: subjects
-              who, on waking or recovering, give detailed reports of experience from periods when
-              their integration was clearly below it, past any twilight, by a measure and cutoff
-              fixed in advance. A report is evidence that something was experienced, and it cannot
-              be explained away as a failure of memory. If such reports turn up reliably, experience
-              does not depend on integration the way Holos claims, and the framework&apos;s core
-              structural claim fails. The reverse finding, high-integration states that yield no
+              A broken thermometer does not prove heat is fake, so the test separates the gauge from
+              the theory. If one gauge tracks reports and the other does not, the failing gauge is
+              discarded, not Holos. Holos loses if, across independent studies, detailed reports
+              reliably come from periods when both gauges sat clearly below their frozen cutoffs,
+              past any twilight. A report is evidence that something was experienced, and it cannot
+              be explained away as a failure of memory. Nor can it be explained away by a gauge
+              proposed afterward: a new gauge can be tested on new data, but it cannot rescue
+              results already in. The reverse finding, high-integration states that yield no
               reports, counts against Holos only once report failure can be ruled out (see below).
             </p>
           </div>
@@ -613,38 +665,95 @@ export default function Predictions() {
               present experience in high-integration ones.
             </p>
             <p className="leading-relaxed">
-              Positive reports are unaffected, and they carry the test both ways. Where integration
-              is high and behavior is absent, subjects report rich experience; on the held-out
-              states above, reports of that kind would confirm the prediction without leaning on
-              silence. Where integration is low, a positive report is the losing case described
-              above. Holos rests Test A on positive reports, and treats silence as suggestive
-              pending a design that calibrates report failure against states with known encoding.
+              Positive reports escape the memory problem, but not a timing problem. A dream can form
+              in the seconds of waking up and be reported as if it came from deep sleep. That is why
+              the protocol measures right up to the awakening and counts only reports of what was
+              happening just before it. With that control, positive reports carry the test both
+              ways. Where integration is high and behavior is absent, reports of rich experience
+              confirm the prediction without leaning on silence. Where integration is clearly low, a
+              positive report is the losing case. Holos rests Test A on positive reports, and treats
+              silence as suggestive pending a design that calibrates report failure against states
+              with known encoding.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-black/90 mb-1">
-              The live challenge: dreaming in non-REM sleep
-            </h4>
+            <h4 className="font-semibold text-black/90 mb-1">Where the evidence stands</h4>
             <p className="leading-relaxed">
               The losing case is not hypothetical. Awakenings from non-REM sleep often produce dream
-              reports, yet non-REM sleep is where global measures such as PCI fall well below the
-              waking range. If vivid reports reliably follow periods whose measured integration sat
-              below the cutoff, Test A is lost.
+              reports, yet non-REM sleep is where whole-brain measures such as PCI fall well below
+              the waking range. Deep sedation is starker: in one study, 82 percent of interpretable
+              awakenings from deep propofol sedation produced reports of experience (
+              <a
+                href="https://doi.org/10.1038/s41598-025-12695-z"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bajwa et al. 2025
+              </a>
+              ), and an earlier study found experiences, mostly dreams, in 84 percent of interviews
+              from anesthetic unresponsiveness (
+              <a
+                href="https://doi.org/10.1016/j.bja.2018.03.014"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Radek et al. 2018
+              </a>
+              ).
             </p>
             <p className="leading-relaxed">
-              Holos has one principled reply, and it comes with a condition. The maximality
-              condition allows an aperture smaller than the whole cortex, and{" "}
+              The nearest thing to Test A yet run did not favor it. In that sedation study, two
+              complexity measures, one of them a version of PCI, fell from waking to sedation but
+              did not differ between awakenings with and without experience. A sleep study found the
+              same for a complexity measure of spontaneous EEG within light non-REM sleep (
+              <a
+                href="https://doi.org/10.3389/fnhum.2022.987714"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Aamodt et al. 2022
+              </a>
+              ). Neither settles the question. The sedation study measured over several minutes
+              ending a minute before each awakening, exactly the timing problem above, and it had
+              only five reports of no experience.
+            </p>
+            <p className="leading-relaxed">
+              Evidence with tighter timing points the other way. When the brain&apos;s response to
+              stimulation was measured just before awakening from non-REM sleep, it looked more like
+              the unconscious pattern when subjects then reported nothing, and the more it did, the
+              shorter the dream reports (
+              <a href="https://doi.org/10.1038/srep30932" target="_blank" rel="noopener noreferrer">
+                Nieminen et al. 2016
+              </a>
+              ). And{" "}
               <a href="https://doi.org/10.1038/nn.4545" target="_blank" rel="noopener noreferrer">
                 work on the neural correlates of dreaming
               </a>{" "}
               finds that whether a dream is reported, in REM or non-REM sleep, tracks local activity
-              in posterior cortex rather than the state of the brain as a whole. An aperture
-              confined to that region could be integrated above threshold while the whole brain is
-              not. But the reply is admissible only if the measure is local by commitment, stated
-              before the data are in. A measure chosen afterward to rescue the prediction would turn
-              the test into decoration, the failure the note on integration measures below warns
-              against.
+              in posterior cortex rather than the state of the whole brain.
+            </p>
+            <p className="leading-relaxed">
+              That is why the second gauge is local. The maximality condition allows an aperture
+              smaller than the whole cortex, so an aperture confined to posterior cortex could be
+              integrated above threshold while the whole brain is not. Holos adopts that reading
+              now, after seeing these results, so they cannot count in its favor: only new data,
+              collected under the protocol above, can confirm or defeat it. A gauge chosen afterward
+              to rescue the prediction would turn the test into decoration, the failure the note on
+              integration measures below warns against.
+            </p>
+            <p className="leading-relaxed">
+              The data to run it are starting to exist. A shared database released in 2025 pools
+              sleep EEG and dream reports from 505 people and 2,643 awakenings (
+              <a
+                href="https://doi.org/10.1038/s41467-025-61945-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Wong et al. 2025
+              </a>
+              ). It lacks the brain stimulation PCI needs, so it can serve the calibration step,
+              culling candidate gauges, but not the held-out test itself.
             </p>
           </div>
 
@@ -786,52 +895,54 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            The commitment that observation is dynamically inert doubles as a bet. A conscious
-            observer and a photon produce identical physics: put an integrated system in the
-            measuring role in place of a particle, and Holos predicts no deviation whatsoever.
-            Superpositions lose their quantum character for thermodynamic reasons, never because
-            someone was home. This does not make experience idle. Under Holos, experience is the
-            inside of the physics, so when the physics does everything, experience is doing its
-            share, not nothing.
+            In the version of Holos this site defends, observation is dynamically inert, and that
+            doubles as a bet. A conscious observer and a photon produce identical physics: put an
+            integrated system in the measuring role in place of a particle, and Holos predicts no
+            deviation whatsoever. Superpositions lose their quantum character for thermodynamic
+            reasons, never because someone was home. This does not make experience idle. Under
+            Holos, experience is the inside of the physics, so when the physics does everything,
+            experience is doing its share, not nothing.
           </p>
 
           <p className="leading-relaxed">
             <strong>How Holos loses:</strong> if any experiment ever finds a consciousness-linked
             deviation from unitary quantum mechanics (a superposition that degrades when an
-            integrated observer registers it, beyond what ordinary decoherence accounts for),
-            Holos&apos;s physics is falsified. Observation would be a force after all.
+            integrated observer registers it, beyond what ordinary decoherence accounts for), Holos
+            without collapse is falsified. Observation would be a force after all.
+          </p>
+
+          <p id="two-versions" className="leading-relaxed">
+            <strong>Two versions, declared now.</strong> Holos comes in two versions that share one
+            core, Axioms 1, 3, 4, and 5, and differ only on quantum physics.{" "}
+            <em>Holos without collapse</em> is the version this site defends and the one the bet is
+            about: Axiom 2 read as unitary evolution, branching with self-locating odds, and
+            observation that changes nothing it registers. <em>Holos with collapse</em> is the
+            version a lost bet would leave. Experience would still be the inside of physical
+            activity (Axiom 4), adding no force beyond the physics; that activity would simply
+            include a collapse law. Omega (Axiom 5) would be the universe with its single history,
+            and lived, lit, and unlit would apply within that one history.
           </p>
 
           <p className="leading-relaxed">
-            <strong>What that would cost, declared now.</strong> Losing the bet would falsify three
-            things: Axiom 2 as read here (no collapse), the branching picture with its self-locating
-            odds, and the claim that observation changes nothing it registers. It would not touch
-            the core. The threshold (Axiom 3) would become the point where collapse happens, and so,
-            for the first time, physically detectable. Experience would still be the inside of
-            physical activity (Axiom 4), adding no force beyond the physics; that activity would
-            simply include a collapse law. Omega (Axiom 5) would be the universe with its single
-            history. Lived, lit, and unlit would apply within that one history. Holos would adopt a
-            collapse reading of the kind{" "}
+            Which collapse nature shows decides what the threshold becomes. If a superposed system
+            above the threshold collapses while an equally large one below it does not, collapse
+            tracks integration crossing <MathInline>{"\\Phi_c"}</MathInline>, and observers matter
+            physically, exactly where Holos says. The threshold becomes the collapse point,
+            detectable for the first time, and registration no longer leaves what it registers
+            unchanged. That is a reading of the kind{" "}
             <a href="https://arxiv.org/abs/2105.02314" target="_blank" rel="noopener noreferrer">
               Chalmers and McQueen
             </a>{" "}
-            propose, with its threshold as the collapse point.
+            propose, and it would hand the threshold the strongest confirmation it could get. If
+            collapse tracks size alone, as objective-collapse models propose, the threshold stays
+            dynamically inert and gains nothing.
           </p>
 
           <p className="leading-relaxed">
-            Losing this bet would cost Holos its physics but hand its threshold the strongest
-            confirmation it could get, on one condition: the collapse must track integration
-            crossing <MathInline>{"\\Phi_c"}</MathInline>, not size. If a superposed system above
-            the threshold collapses while an equally large one below it does not, observers matter
-            physically, exactly where Holos says. If collapse tracks size alone, as
-            objective-collapse models propose, Axiom 2 falls with nothing gained: the threshold
-            stays as it is, dynamically inert, and Omega is the universe with its single history.
-            Either way the core stands.
-          </p>
-
-          <p className="leading-relaxed">
-            This fallback is stated before any result exists, which is what separates it from a
-            rescue. It does not make the core unfalsifiable: the core still loses through{" "}
+            Declaring the second version now is what separates it from a rescue, but it does not
+            make the two outcomes equal. A lost bet would retire the version defended here, and
+            Holos with collapse would have to earn its own support. Neither version is
+            unfalsifiable: both share the core, and the core loses through{" "}
             <a href="#experiment-1" className="underline hover:no-underline">
               Test A
             </a>
@@ -1092,9 +1203,10 @@ export default function Predictions() {
               .
             </p>
             <p className="leading-relaxed text-black/70 text-sm">
-              <strong>Why it is plausible:</strong> anything that computes sheds heat, and compact
-              systems shed it warm. Brown dwarfs and rogue planets already show that compact, dark,
-              faintly warm masses exist and can be found.
+              <strong>Why it is plausible:</strong> any long-running computer sheds heat, since
+              correcting errors means erasing information, and compact systems shed it warm unless
+              they build vast cold radiators. Brown dwarfs and rogue planets already show that
+              compact, dark, faintly warm masses exist and can be found.
             </p>
           </div>
 

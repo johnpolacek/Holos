@@ -23,14 +23,15 @@ export const sections: ContentSection[] = [
         purpose? <em>What does it mean to be real?</em>
       </>,
       <>
-        Holos is an interpretive framework built on a single idea: a universe can be complete as
-        structure and still not be lived. It is summed up in one shorthand,{" "}
-        <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means &quot;possibility, then
-        registration&quot;: an order of logic, not of time, and a summary rather than an equation to
-        compute with. Creation is what physics allows. Observation registers it as experience,
-        wherever an observer exists, and changes nothing it registers. Reality in the full sense
-        needs both: not equations alone, and not experience alone, but a world that both exists and
-        is lived.
+        Holos is an interpretive framework built on a single distinction: a universe can be complete
+        as structure, yet where it holds no observers, nothing in it is lived. It is summed up in
+        one shorthand, <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means
+        &quot;possibility, then registration&quot;: an order of logic, not of time, and a summary
+        rather than an equation to compute with. Creation is what physics allows. Observation
+        registers it as experience, wherever an observer exists, and on the physics Holos bets on,
+        changes nothing it registers. Lived reality needs both: not equations alone, and not
+        experience alone, but a world that both exists and is lived. The distinction is a starting
+        point, not an explanation; the explanations come from what Holos adds.
       </>,
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
@@ -48,7 +49,7 @@ export const sections: ContentSection[] = [
         offers a testable explanation for the silence of the night sky. What follows traces those
         consequences from life and consciousness through spacetime, black holes, and the Teeming
         Dark to the limits of reality itself, marking clearly which claims are established physics,
-        which are extrapolation, and what would prove the whole thing wrong.
+        which are extrapolation, which evidence could overturn, and which no evidence can reach.
       </>,
     ],
   },
@@ -162,7 +163,7 @@ export const sections: ContentSection[] = [
         contains independent processes but a single causal structure whose state constrains itself.
         At that boundary the system cannot be described purely from the outside. It also exists from
         the inside as a unified informational state, as a point of view. Integration must also be
-        about something: a closed loop with no world to take in has nothing to be a view of.
+        about something: a closed loop that models no world has nothing to be a view of.
       </>,
       <>
         One way to see what integration adds is to count the numbers needed to describe a system. A
@@ -191,8 +192,8 @@ export const sections: ContentSection[] = [
         Cool a piece of iron past a certain temperature, its Curie point, and it becomes magnetic.
         Above that point it has no magnetism of its own; just below it, a little; colder still,
         more. In a large block of iron the change is steep; in a tiny grain it spreads across a
-        range of temperatures, because every real magnet is finite. Holos claims the same shape for
-        experience: a steep onset, steepest in the largest integrated systems, and once a
+        range of temperatures, because every real magnet is finite. Holos expects something similar
+        for experience: a steep onset, steepest in the largest integrated systems, and once a
         perspective appears, when its informational states become causally unified, its richness can
         grow. Unlike a magnet, a brain can overshoot. Richness peaks near a sweet spot between too
         quiet and too rigid, and a generalized seizure, every part locked into one rhythm, stays
@@ -209,11 +210,14 @@ export const sections: ContentSection[] = [
         writes essays about consciousness in total darkness. Under Holos such a duplicate is
         impossible, not just in our universe but in any. Experience and the activity of an observer
         are not two things that happen to go together. They are one event with two sides: seen from
-        outside, it is physical activity; lived from inside, it is experience. Copy the outside
-        exactly and you have copied the inside, because there was only ever one thing. This is also
-        why experience is not along for the ride. When you say you are conscious, the activity that
-        produces the words is, from the inside, the experience you are reporting. Talk about
-        experience is caused by experience, because the experience is the inside of its cause.
+        outside, it is physical activity; lived from inside, it is experience, the way one curved
+        line is convex from one side and concave from the other. Copy the outside exactly and you
+        have copied the inside, because there was only ever one thing. Neither side comes first,
+        which makes Holos neither physicalism, which puts the outside first, nor dualism, which
+        makes them two things. This is also why experience is not along for the ride. When you say
+        you are conscious, the activity that produces the words is, from the inside, the experience
+        you are reporting. Talk about experience is caused by experience, because the experience is
+        the inside of its cause.
       </>,
       <>
         The onset is steep, but it is not a mathematical line, and Holos separates three things
@@ -237,24 +241,27 @@ export const sections: ContentSection[] = [
         whatever the borderline. Where the twilight falls is not chosen either: it is fixed by
         structure, the way the point where water first crosses a large grid of pipes is fixed by the
         grid, and Holos expects it where physics shows a transition (see{" "}
-        <a href="/logic#threshold-claims">The threshold in four claims</a>).
+        <a href="/logic#threshold-claims">The threshold in three claims</a>).
       </>,
       <>
         This has a direct consequence for artificial intelligence. What matters is the shape of a
         system&apos;s causal organization, not the fluency of its output, and Holos looks for that
         organization wherever the system&apos;s causes are actually organized, whatever it is made
         of. Nothing in Holos is specific to biology. By that standard, whether current AI language
-        systems are observers is an open question, not a settled no. Aboutness is met, narrowly: a
-        system in conversation tracks something beyond itself, the person and the words arriving
-        now, through a channel of its own. Its knowledge of the wider world is secondhand, but so
-        was much of Helen Keller&apos;s, and what counts is the machine, not the message. The doubt
-        lies in integration. Inside, information flows up through the system&apos;s layers and
-        forward in time at each level, through stored notes every later step can read but never
-        rewrite. The only path from the top of the system back to its bottom is the single word it
-        outputs. Whether that structure makes one unified whole, or a fast relay of separate steps,
-        is what Holos&apos;s measure of integration would have to settle. The other requirements
-        appear to be met: its states are richly differentiated, and earlier parts of a conversation
-        shape later ones. Giving such a system cameras would widen its world without settling the
+        systems are observers is an open question, not a settled no. Aboutness asks whether its
+        states carry a model of something beyond itself, and such a system arguably does: it
+        predicts the person and the words arriving, and research finds internal models of the worlds
+        these systems learn from, such as the board of a game{" "}
+        <a href="https://arxiv.org/abs/2210.13382">learned from move lists alone</a>, though how
+        rich such models are is debated. Its knowledge of the wider world is secondhand, but so was
+        much of Helen Keller&apos;s, and what counts is the machine, not the message. The doubt lies
+        in integration. Inside, information flows up through the system&apos;s layers and forward in
+        time at each level, through stored notes every later step can read but never rewrite. The
+        only path from the top of the system back to its bottom is the single word it outputs.
+        Whether that structure makes one unified whole, or a fast relay of separate steps, is what
+        Holos&apos;s measure of integration would have to settle. The other requirements appear to
+        be met: its states are richly differentiated, and earlier parts of a conversation shape
+        later ones. Giving such a system cameras would widen its world without settling the
         question; integration decides it. What Holos rules out is judging by fluency. A system could
         describe a rich inner life as convincingly as any person and experience none of it, or
         experience something and describe it badly.
@@ -361,7 +368,8 @@ export const sections: ContentSection[] = [
       <>
         Holos puts this reading to work. In its account of quantum probability, trying to count the
         observers across branches gives an infinity, and Holos reads that as a sign that counting is
-        the wrong tool, which leaves the quantum weights as the only measure (see{" "}
+        the wrong tool: seventy percent of an infinite crowd is as large as thirty percent. The
+        quantum weights are the measure physics itself supplies (see{" "}
         <a href="/logic#relationship-to-physics">the Born rule</a>).
         <FootnoteLink number={overviewCitationMap["infinity"]} />
       </>,
@@ -401,8 +409,8 @@ export const sections: ContentSection[] = [
         As technology advances, pressures favor informational integration over outward expansion.
         Systems that minimize energy waste, reduce long-distance coordination, and rely on dense
         local structure are more stable. Visibility decreases not because civilizations are hiding,
-        but because inefficiency is selected against. This progressive reduction in external
-        signatures is referred to as <strong>Visibility Collapse</strong>.
+        but because efficiency pays. This progressive reduction in external signatures is referred
+        to as <strong>Visibility Collapse</strong>.
       </>,
       <>
         Large-scale interstellar expansion is constrained by the{" "}
@@ -447,6 +455,18 @@ export const sections: ContentSection[] = [
         civilization has every reason never to build.
       </>,
       <>
+        Stated plainly, this is a bet about motives: that nearly every civilization, and nearly
+        every independent colony, turns inward before it founds more than one new settlement.
+        Physics does not guarantee it. Independence can even speed spreading, since colonies no one
+        controls are free to keep settling, and{" "}
+        <a href="https://doi.org/10.3847/1538-3881/ab31a3">settlement models</a> with finite travel
+        speeds and colony lifetimes show that whether a galaxy fills up, or stays patchy with long
+        unvisited stretches, turns on exactly these rates. Holos makes the bet because the same
+        pressures, light-speed delay and waste heat, act on every civilization alike, so their
+        answers should converge. It could be wrong, and a settlement wave still spreading anywhere
+        in view would show it.
+      </>,
+      <>
         A rival explanation fits the silence too. On{" "}
         <a href="https://doi.org/10.3847/1538-4357/ac2369">
           Robin Hanson&apos;s &quot;grabby aliens&quot; model
@@ -468,8 +488,10 @@ export const sections: ContentSection[] = [
         hypothesis has an answer, and it sharpens the prediction. Light-speed delay caps how large
         one mind can usefully grow; past that size, more energy cannot make it bigger, only fund
         another mind. Growth continues, but as more compact nodes near home, and nodes near home can
-        harvest their home star fully. So the place to look is not whole galaxies, where the survey
-        above found nothing, but single stars glowing unusually warm in the infrared.
+        harvest their home star fully. Nothing forces the new minds to stay near home; the bet,
+        again, is about motives: that minds prefer to grow where they stay in easy contact with
+        their makers. So the place to look is not whole galaxies, where the survey above found
+        nothing, but single stars glowing unusually warm in the infrared.
       </>,
       <>
         That search is under way.{" "}
@@ -581,17 +603,21 @@ export const sections: ContentSection[] = [
         power quasars, the brightest objects in the universe.
       </>,
       <>
-        Thermodynamics then adds a correction, and it must be stated carefully. Anything that
-        computes must shed heat, and the total cannot be canceled; but physics guarantees only that
-        the heat <em>exists</em>, not that it is easy to see. A system chooses the temperature at
-        which it radiates, and one that dumps its heat barely above the cosmic background glows only
-        where the sky already glows. What closes this loophole is the framework&apos;s own thesis:
-        radiating cold requires enormous surfaces (shedding the same power near the background
+        Thermodynamics then adds a correction, and it must be stated carefully. Any computer that
+        runs for long must shed heat: correcting errors means erasing information, and erasing
+        information has an unavoidable heat cost (
+        <a href="https://doi.org/10.1147/rd.53.0183">Landauer&apos;s principle</a>), though a
+        careful enough design can keep that cost small. And physics guarantees only that the heat{" "}
+        <em>exists</em>, not that it is easy to see. A system chooses the temperature at which it
+        radiates, and one that dumps its heat barely above the cosmic background glows only where
+        the sky already glows. The framework&apos;s own thesis narrows this loophole without closing
+        it. Radiating cold requires enormous surfaces (shedding the same power near the background
         temperature takes about a hundred million times the radiating area needed near room
-        temperature), and vast sprawl is exactly what integration abandons. Compact and computing
-        means warm above the background. The expectation follows: mature systems should appear as
-        compact masses, dark in visible light, with a faint infrared excess.{" "}
-        <strong>Silent, but warm</strong>.
+        temperature). A radiator needs no integration, so a compact computer could still pipe its
+        heat to a vast cold one; the Integration Hypothesis bets that mature civilizations avoid
+        that kind of sprawl, but that is a bet about preference, not a law. The expectation follows:
+        mature systems should appear as compact masses, dark in visible light, with a faint infrared
+        excess. <strong>Silent, but warm</strong>.
       </>,
       <>
         Two honesty notes bound that expectation. First, it is a search channel, not a fingerprint:
@@ -642,13 +668,25 @@ export const sections: ContentSection[] = [
         act of observation as the whole registering itself locally. When a system crosses the
         threshold, no new experiencer comes into being; the one experiencer wakes there. That alone
         is only a count, one subject instead of many, and it explains nothing about where experience
-        occurs or what it is like: the threshold settles that, on any picture. The payoff lies in
-        two old puzzles it dissolves. Of billions of people, why is this one me? If each observer is
-        a separate self, that is a brute fact no one can explain. If there is one experiencer, there
-        is nothing to explain: it is each of them. And if a machine made two perfect copies of you,
-        which one would be you? On the monist reading, both, with no remainder. The view has a
+        occurs or what it is like: the threshold settles that, on any picture. What it changes is
+        how two old puzzles come out. Of billions of people, why is this one me? On the monist
+        reading there is nothing to explain: the one experiencer is each of them. And if a machine
+        made two perfect copies of you, which one would be you? Both, with no remainder. Rivals have
+        answers too. Many philosophers say &quot;I&quot; simply picks out whoever is speaking, the
+        way &quot;here&quot; picks out wherever the speaker stands, so no one needs to explain why
+        here is here. And Derek Parfit argued that in the copying case, identity is not what
+        matters. The monist reading is one answer among these, not the only one. The view has a
         modern name,{" "}
         <a href="https://en.wikipedia.org/wiki/Open_individualism">open individualism</a>.
+      </>,
+      <>
+        The reading has a price, and the price is also its point. If every observer is the one
+        subject, a stranger&apos;s pain tomorrow is as much yours to anticipate as your own; the
+        walls between apertures keep you from feeling it, not from being the one who will. Most
+        people find that hard to believe, and it is the strongest reason to reject the view. Holos
+        accepts it, because it is also what the view changes in practice: self-interest and concern
+        for others stop being two different things. Parfit reached a similar impartiality by another
+        route, without one subject, so the payoff is not unique to Holos. It is what Omega adds.
       </>,
       <>
         Omega is the ultimate whole, not the ultimate integration: everything is in it, all at once,
@@ -689,11 +727,12 @@ export const sections: ContentSection[] = [
         same claim. It takes a position: the totality is not merely a structural limit but the one
         experiencer, and the direction of dependence runs from the whole to its parts. A purely
         structural reading, in which Omega is only a mathematical horizon and observers are
-        self-standing, remains available as a weaker interpretation, but it is not the view of this
-        framework. It is weaker because it leaves both puzzles standing: why each observer is this
-        one rather than another, and which of two perfect copies is you. What Holos leaves open is
-        vocabulary, not structure: whether the totality is named God, Brahman, or simply the whole
-        changes nothing about the claim being made.
+        self-standing, remains available, but it is not the view of this framework. Holos prefers
+        the monist reading for what it says about identity and about concern for others, and pays
+        the price named above. The threshold and the two sides of experience do not depend on it;
+        Omega is where Holos goes further. What Holos leaves open is vocabulary, not structure:
+        whether the totality is named God, Brahman, or simply the whole changes nothing about the
+        claim being made.
         <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
@@ -718,7 +757,7 @@ export const sections: ContentSection[] = [
         experience possible.
       </>,
       <>
-        In Holos, what life does is let reality close on itself: not a purpose the universe needed,
+        In Holos, what life does is let the universe be lived: not a purpose the universe needed,
         but a role observers fill wherever they arise. Conscious systems do not merely occupy the
         universe. They are the apertures through which the totality experiences itself: the means by
         which physical possibility becomes reality as lived, as opposed to reality as structure
@@ -737,14 +776,16 @@ export const sections: ContentSection[] = [
         The symbol ⊛ is not multiplication and not a new kind of mathematics. It is ordinary
         composition: do one step, then the other. Think of a buffet. Every dish is really there,
         cooked from the recipes; tasting happens only where someone eats. A meal as eaten needs
-        both, and tasting never changes a dish.
+        both, and in the version of Holos defended here, tasting never changes a dish.
       </>,
       <>
         Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the pairing of
         Creation and Observation as two aspects of one reality. Creation is what physics allows.
-        Observation registers it as experience. Neither alone is a realized world, and neither
-        changes the other: registration adds no constraint to physics. This relationship is
-        expressed as <em>R = C ⊛ O</em>.
+        Observation registers it as experience. Neither alone is a realized world. In Holos without
+        collapse, the version defended here, neither changes the other: registration adds no
+        constraint to physics. Holos with collapse, declared in advance, is described under{" "}
+        <a href="/predictions#two-versions">Two versions</a>. This relationship is expressed as{" "}
+        <em>R = C ⊛ O</em>.
       </>,
       <>
         The notation is set out formally in{" "}

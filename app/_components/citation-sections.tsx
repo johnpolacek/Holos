@@ -113,7 +113,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Von Neumann-Wigner Interpretation",
             url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
             description:
-              "Consciousness causes collapse. The view Holos bets against: a consciousness-linked deviation would falsify Holos's no-collapse physics, not its core (the standing bet).",
+              "Consciousness causes collapse. The view Holos bets against: a consciousness-linked deviation would falsify Holos without collapse, leaving Holos with collapse, which shares its core (the standing bet).",
           },
         ],
       },
@@ -332,6 +332,12 @@ export const citationMainSections: CitationMainSection[] = [
               "Civilizations sleep until the universe cools, when computing is cheaper. A column in the Fermi comparison table; contested by Bennett, Hanson, and Riedel (2019).",
           },
           {
+            name: "Carroll-Nellenback et al. (2019), The Fermi paradox and the Aurora effect",
+            url: "https://doi.org/10.3847/1538-3881/ab31a3",
+            description:
+              "The Astronomical Journal: models galactic settlement with finite probe speeds and settlement lifetimes. Whether the galaxy fills or stays patchy turns on those rates, the setting in which the Integration Hypothesis's bet about motives becomes numbers.",
+          },
+          {
             name: "Jevons paradox",
             url: "https://en.wikipedia.org/wiki/Jevons_paradox",
             description:
@@ -471,6 +477,12 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "Surveys have now located nearly all the ordinary matter the early universe records, leaving little room for hidden built structures.",
           },
+          {
+            name: "Landauer (1961), Irreversibility and heat generation in the computing process",
+            url: "https://doi.org/10.1147/rd.53.0183",
+            description:
+              "IBM Journal of Research and Development: erasing information has an unavoidable heat cost. Long-running computers must correct errors, which means erasing, so they shed heat, though careful designs can keep the cost small.",
+          },
         ],
       },
       {
@@ -530,19 +542,31 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Open individualism",
             url: "https://en.wikipedia.org/wiki/Open_individualism",
             description:
-              "Daniel Kolak (I Am You, 2004): there is one person, and every one of us is it. The nearest modern relative of the Holos monist reading.",
+              "Daniel Kolak (I Am You, 2004): there is one person, and every one of us is it. The nearest modern relative of the Holos monist reading. Its price: every observer's future experience is yours to anticipate; its payoff: self-interest and concern for others coincide.",
           },
           {
             name: "Vertiginous question",
             url: "https://en.wikipedia.org/wiki/Vertiginous_question",
             description:
-              "Why, of all the subjects there are, am I this one? On many separate selves it is a brute fact; on the Holos monist reading there is nothing to explain.",
+              'Why, of all the subjects there are, am I this one? Some call it a brute fact; indexical accounts say nothing needs explaining because "I" picks out the asker; on the Holos monist reading nothing needs explaining because the one subject is each.',
+          },
+          {
+            name: "Perry (1979), The problem of the essential indexical",
+            url: "https://doi.org/10.2307/2214792",
+            description:
+              'Noûs: the classic account of "I", "here", and "now" as words that pick out the speaker\'s own position. The strongest rival reply to the vertiginous question, stated on the site beside the monist one.',
           },
           {
             name: "Teletransportation paradox",
             url: "https://en.wikipedia.org/wiki/Teletransportation_paradox",
             description:
-              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder.",
+              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder. Parfit's own answer: identity is not what matters.",
+          },
+          {
+            name: "Parfit (1984), Reasons and Persons",
+            url: "https://doi.org/10.1093/019824908X.001.0001",
+            description:
+              "Oxford University Press: argues that identity is not what matters in survival, and that seeing this weakens the line between self-interest and concern for others. A route to impartial concern without one subject, which is why the Holos payoff is not unique.",
           },
         ],
       },
@@ -671,7 +695,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dual-aspect monism",
             url: "https://en.wikipedia.org/wiki/Dual-aspect_monism",
             description:
-              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4.",
+              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4. Holos is a two-sided monism with a threshold: the two sides appear only above it.",
+          },
+          {
+            name: "Physicalism (Stanford Encyclopedia of Philosophy)",
+            url: "https://plato.stanford.edu/entries/physicalism/",
+            description:
+              "The view that everything is physical, with the mental grounded in the physical. Holos agrees physics fixes every fact, so copies match in every possible world, but holds that neither side of an observer's activity is grounded in the other. Some will still classify it as physicalism; the site says why it does not.",
           },
           {
             name: "Phenomenal concept strategy",
@@ -737,7 +767,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
             description:
-              "Theories in which collapse is a physical process; Holos rejects them. A consciousness-linked collapse would falsify Holos's no-collapse physics; its declared fallback keeps the core, with the threshold as the collapse point (the standing bet).",
+              "Theories in which collapse is a physical process; Holos without collapse rejects them. A consciousness-linked collapse would falsify that version and leave Holos with collapse, declared in advance, with the threshold as the collapse point (the standing bet).",
           },
         ],
       },
@@ -826,22 +856,16 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/logic#ontology",
         items: [
           {
-            name: "Universality (dynamical systems)",
-            url: "https://en.wikipedia.org/wiki/Universality_(dynamical_systems)",
-            description:
-              "Very different systems pass through their transitions with the same critical exponents. Holos hypothesizes one universality class for every transition into observerhood (claim 4 of the threshold); one universal value of Φ_c is a separate, bolder conjecture. Exponents depend on dimension, symmetry, and interaction range, so the hypothesis must be found, not assumed.",
-          },
-          {
             name: "Percolation threshold",
             url: "https://en.wikipedia.org/wiki/Percolation_threshold",
             description:
-              "A threshold fixed by structure alone: in a large square grid of randomly open bonds, a path first spans the grid at exactly half open, whatever the grid is made of. The model for the conjectured universal Φ_c: structural, true in every possible world, not a contingent constant of nature. It also models the Holos threshold: each lattice has its own threshold, all share the same exponents, and in any finite grid the crossing point wanders around its center, a twilight that shrinks as the grid grows.",
+              "A threshold fixed by structure alone: in a large square grid of randomly open bonds, a path first spans the grid at exactly half open, whatever the grid is made of. The Holos image for a threshold fixed by structure, true in every possible world, not a contingent constant of nature. In any finite grid the crossing point wanders around its center, a twilight that shrinks as the grid grows.",
           },
           {
             name: "Beggs and Plenz (2003), Neuronal avalanches in neocortical circuits",
             url: "https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003",
             description:
-              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. Measured at the operating point; the shared-shape hypothesis needs the same kind of measurement at the threshold itself.",
+              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class. Measured at the operating point; evidence about the threshold needs the same kind of measurement at the boundary itself.",
           },
           {
             name: "Curie temperature",
@@ -895,19 +919,43 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Aaronson (2014), Why I Am Not An Integrated Information Theorist",
             url: "https://scottaaronson.blog/?p=1799",
             description:
-              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: an observer's variety must be variety the world can drive through its channels. Wiring one sensor into such an array leaves the rest of its repertoire sealed.",
+              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: an observer's states must carry a model of a world. Wiring a sensor into every gate of such an array lets the world set it, but it still models nothing.",
           },
           {
             name: "Harnad (1990), The symbol grounding problem",
             url: "https://doi.org/10.1016/0167-2789(90)90087-6",
             description:
-              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos reads it structurally: a system is about something when its states track it through a live channel of its own, whatever the channel carries.",
+              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos reads it structurally: a system is about something when its states carry a model of it, whatever channel built the model.",
+          },
+          {
+            name: "Clark (2013), Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+            url: "https://doi.org/10.1017/S0140525X12000477",
+            description:
+              "Behavioral and Brain Sciences: brains as systems that model the causes of their input. The source of the notion of a model in Holos's aboutness requirement, borrowed without predictive processing's theory of consciousness. A dream is the model running on its own.",
+          },
+          {
+            name: "Li et al. (2023), Emergent world representations",
+            url: "https://arxiv.org/abs/2210.13382",
+            description:
+              "ICLR 2023: a sequence model trained only on game move lists builds an internal model of the board. Evidence that systems trained on text-like input can carry models of a world, the reason current AI arguably meets aboutness.",
           },
           {
             name: "Friedman et al. (2010), Evidence for neural inertia",
             url: "https://doi.org/10.1371/journal.pone.0011903",
             description:
-              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. Such a lag marks an abrupt, first-order switch: it fits the transition hypothesis but counts against one shared shape of transition, unless it is pharmacological. Human evidence is still suggestive.",
+              "PLoS ONE: in animals, consciousness is lost and regained at different anesthetic levels. Such a lag marks an abrupt, first-order switch: it fits the transition hypothesis, unless it is pharmacological or belongs to the arousal switch (see Joiner et al. 2013). Human evidence is still suggestive.",
+          },
+          {
+            name: "Joiner et al. (2013), Genetic and anatomical basis of the barrier separating wakefulness and anesthetic-induced unresponsiveness",
+            url: "https://doi.org/10.1371/journal.pgen.1003605",
+            description:
+              "PLoS Genetics: in flies, neural inertia depends on genes tied to sleep regulation, and single mutations collapse it. The lag may belong to the arousal switch rather than to integration.",
+          },
+          {
+            name: "Kuizenga et al. (2018), Test of neural inertia in humans during general anaesthesia",
+            url: "https://doi.org/10.1016/j.bja.2017.11.072",
+            description:
+              "British Journal of Anaesthesia: 36 volunteers; no lag between induction and recovery with propofol, a lag with sevoflurane for some endpoints. Human evidence for an abrupt switch is mixed.",
           },
           {
             name: "Ontology",
@@ -963,19 +1011,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Born rule",
             url: "https://en.wikipedia.org/wiki/Born_rule",
             description:
-              "Max Born (1926): quantum probabilities are squared amplitudes, the most precisely confirmed rule in physics. In Holos the weights are structural facts within C, fixing the statistics each observer records rather than measuring how much experience a branch carries.",
+              "Max Born (1926): quantum probabilities are squared amplitudes, the most precisely confirmed rule in physics. In Holos the weights are structural facts within C, setting each observer's odds rather than measuring how much experience a branch carries. Almost all of the weight, not every observer, sees Born statistics.",
           },
           {
             name: "Gleason's theorem",
             url: "https://en.wikipedia.org/wiki/Gleason%27s_theorem",
             description:
-              "Andrew Gleason (1957): any consistent assignment of probabilities to quantum outcomes must take the Born-rule form: exactly one weighting is possible. Its assumptions remain debated; Holos adds no new mathematics.",
+              "Andrew Gleason (1957): given its assumptions, any consistent assignment of probabilities to measurement outcomes takes the Born-rule form. It constrains the odds but does not by itself say how an observer inside a branch should set them; Holos adds no new mathematics.",
           },
           {
             name: "Sebens and Carroll (2018), Self-locating uncertainty and the origin of probability in Everettian quantum mechanics",
             url: "https://doi.org/10.1093/bjps/axw004",
             description:
-              "British Journal for the Philosophy of Science: after branching and before looking, an observer is uncertain which branch they are in, and the Born weights are the rational odds. Holos adopts this reading of the weights and reaches it by elimination: counting fails, weight survives.",
+              "British Journal for the Philosophy of Science: after branching and before looking, an observer is uncertain which branch they are in, and the Born weights are the rational odds. Holos adopts this reading: counting fails, weight is the measure physics supplies, and the last step is their epistemic separability principle, widely discussed and still debated.",
           },
           {
             name: "Ontology",
@@ -1133,7 +1181,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "Holos hypothesizes that the onset of experience is a critical transition with one shared shape, steep but with a narrow twilight in any finite system. A steep change alone would not confirm this, since ordinary models predict tipping points too.",
+              "Holos hypothesizes that the onset of experience is a genuine transition, steep but with a narrow twilight in any finite system. A steep change alone would not confirm this, since ordinary models predict tipping points too.",
           },
         ],
       },
@@ -1165,7 +1213,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
             description:
-              "Holos rejects objective collapse: evolution is unitary, and apparent collapse is registration within a branch.",
+              "Holos without collapse rejects objective collapse: evolution is unitary, and apparent collapse is a record within a branch, definite without any observer.",
           },
         ],
       },
@@ -1221,7 +1269,43 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Siclari et al. (2017), The neural correlates of dreaming",
             url: "https://doi.org/10.1038/nn.4545",
             description:
-              "Nature Neuroscience: dream reports occur after awakenings from both REM and NREM sleep, tracked by local activity in posterior cortex. The live challenge for Test A.",
+              "Nature Neuroscience: dream reports occur after awakenings from both REM and NREM sleep, tracked by local activity in posterior cortex. The reason Test A's second gauge is local; adopted after these data, so they cannot count in Holos's favor.",
+          },
+          {
+            name: "Nieminen et al. (2016), Consciousness and cortical responsiveness: a within-state study during non-rapid eye movement sleep",
+            url: "https://doi.org/10.1038/srep30932",
+            description:
+              "Scientific Reports: TMS-EEG just before awakening from NREM sleep. Responses looked more like the unconscious pattern when subjects reported nothing, and shorter dream reports went with more of it. Within-state evidence with tight timing.",
+          },
+          {
+            name: "Bajwa et al. (2025), A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation",
+            url: "https://doi.org/10.1038/s41598-025-12695-z",
+            description:
+              "Scientific Reports: 20 participants, deep propofol sedation; 24 of 29 interpretable awakenings reported experience. PCIst and Lempel-Ziv complexity fell from waking but did not differ with or without experience. The nearest test yet; limited by windows ending a minute before waking and only five no-experience reports.",
+          },
+          {
+            name: "Radek et al. (2018), Dreaming and awareness during dexmedetomidine- and propofol-induced unresponsiveness",
+            url: "https://doi.org/10.1016/j.bja.2018.03.014",
+            description:
+              "British Journal of Anaesthesia: 84% of interviews included experiences from unresponsive periods, mostly dreams. Anesthetic unresponsiveness is not the same as absent experience.",
+          },
+          {
+            name: "Aamodt et al. (2022), EEG Lempel-Ziv complexity varies with sleep stage, but does not seem to track dream experience",
+            url: "https://doi.org/10.3389/fnhum.2022.987714",
+            description:
+              "Frontiers in Human Neuroscience: spontaneous-EEG complexity fell with sleep depth but did not separate dream from non-dream awakenings within NREM2. A caution for spontaneous gauges.",
+          },
+          {
+            name: "Wong et al. (2025), A dream EEG and mentation database",
+            url: "https://doi.org/10.1038/s41467-025-61945-1",
+            description:
+              "Nature Communications: 20 datasets, 505 participants, 2,643 awakenings of sleep EEG with standardized dream reports. Usable for Test A's calibration step; it lacks the stimulation PCI needs.",
+          },
+          {
+            name: "Bodien et al. (2024), Cognitive motor dissociation in disorders of consciousness",
+            url: "https://doi.org/10.1056/NEJMoa2400645",
+            description:
+              "New England Journal of Medicine: 60 of 241 behaviorally unresponsive patients (25%) performed cognitive tasks on fMRI or EEG. Covert awareness, one of Test A's held-out states.",
           },
           {
             name: "Phase transition",
@@ -1233,7 +1317,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Casarotto et al. (2016), Stratification of unresponsive patients by an independently validated index of brain complexity",
             url: "https://doi.org/10.1002/ana.24779",
             description:
-              "Annals of Neurology: sets PCI's cutoff on a benchmark of states known from report, including REM dreaming and ketamine. Those cases are therefore calibration, not confirmation; Test A counts only held-out states named in advance.",
+              "Annals of Neurology: sets PCI's cutoff, 0.31, on a benchmark of states known from report, including REM dreaming and ketamine. That cutoff is Test A's primary gauge; the benchmark cases are calibration, not confirmation, and Test A counts only held-out states named in advance.",
           },
           {
             name: "TMS-EEG",

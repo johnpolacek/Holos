@@ -44,7 +44,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Does consciousness change physics?",
-    holos: "No: the standing bet. If lost, the declared fallback puts collapse at Φc",
+    holos: "No, in the version defended here; Holos with collapse may put collapse at Φc",
     others: ["No", "No", "No", "No", "Yes"],
   },
   {

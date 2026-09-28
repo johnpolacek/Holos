@@ -33,8 +33,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "A threshold?",
-    holos:
-      "Yes: none well below it, a narrow twilight, then experience; one shared shape hypothesized",
+    holos: "Yes: none well below it, a narrow twilight, then experience",
     others: [
       "No: graded from zero",
       "Access ignites all-or-none; the theory concerns access",
@@ -67,7 +66,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Current AI",
-    holos: "Open: aboutness met narrowly; integration decides",
+    holos: "Open: it arguably models a world; integration decides",
     others: [
       "No: conventional digital hardware has negligible Φ",
       "Possible, if the architecture has a workspace",
