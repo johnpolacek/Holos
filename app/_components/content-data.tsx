@@ -23,15 +23,18 @@ export const sections: ContentSection[] = [
         purpose? <em>What does it mean to be real?</em>
       </>,
       <>
-        Holos is an interpretive framework built on a single distinction: a universe can be complete
-        as structure, yet where it holds no observers, nothing in it is lived. It is summed up in
-        one shorthand, <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means
-        &quot;possibility, then registration&quot;: an order of logic, not of time, and a summary
-        rather than an equation to compute with. Creation is what physics produces. Observation
-        registers it as experience, wherever an observer exists, and on the physics Holos bets on,
-        changes nothing it registers. Lived reality needs both: not equations alone, and not
-        experience alone, but a world that both exists and is lived. The distinction is a starting
-        point, not an explanation; the explanations come from what Holos adds.
+        Holos, from the Greek <em>ὅλος</em>, &quot;whole,&quot; is an interpretive framework built
+        on a single distinction: a universe can be complete as structure, yet where it holds no
+        observers, nothing in it is lived. It is summed up in one shorthand,{" "}
+        <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means &quot;possibility, then
+        registration&quot;: an order of logic, not of time, and a summary rather than an equation to
+        compute with (see <a href="/logic#mathematical-formalism">Notation</a>). Creation is what
+        physics produces. Observation registers it as experience, wherever an observer exists, and
+        on the physics Holos bets on, changes nothing it registers. Think of a buffet: every dish is
+        really there, cooked from the recipes, and tasting happens only where someone eats. Lived
+        reality needs both: not equations alone, and not experience alone, but a world that both
+        exists and is lived. The distinction is a starting point, not an explanation; the
+        explanations come from what Holos adds.
       </>,
       <>
         Holos proposes the addition of two things to physics. First, a threshold: experience appears
@@ -47,10 +50,10 @@ export const sections: ContentSection[] = [
         earliest light, belongs to the world that experience is made from; and the oldest question
         of why we are here receives a structural answer: not a purpose, but a role. A companion
         idea, separate from the core, offers a testable explanation for the silence of the night
-        sky. What follows traces those consequences from life and consciousness through spacetime,
-        black holes, and the Teeming Dark to the limits of reality itself, marking clearly which
-        claims are established physics, which are extrapolation, which evidence could overturn, and
-        which no evidence can reach.
+        sky. What follows traces those consequences from consciousness through spacetime and
+        infinity to Omega, then turns to the companion ideas and, last, to why we are here. Along
+        the way it marks which claims are established physics, which are extrapolation, which
+        evidence could overturn, and which no evidence can reach.
       </>,
       <div key="claims-box" className="rounded border border-black/15 bg-black/[0.03] px-6 py-5">
         <h3 className="text-xl font-semibold text-black/90 pb-3">
@@ -102,63 +105,6 @@ export const sections: ContentSection[] = [
           The full inventory is in the <a href="/logic#minimal-core">Minimal Core</a>.
         </p>
       </div>,
-    ],
-  },
-  {
-    id: "meaning-of-life",
-    title: "The Meaning of Life",
-    footerId: "footer-life",
-    paragraphs: [
-      <>
-        Life is how a universe comes to be lived. In Holos this is grounded from the top down: the
-        totality experiences only through the apertures the universe forms, and integrated systems,
-        living ones so far, are how those apertures open. This is not a claim about why the physical
-        constants happen to allow observers (the familiar anthropic argument), and not a claim that
-        the universe needed life. It is a claim about what life does: it is where a fully lawful
-        universe becomes present as lived experience at all. Physics describes how structures form
-        and evolve, and those structures exist whether or not anyone is there. What they lack
-        without observers is not existence but presence: there is nothing it is like to be anywhere
-        within them.
-      </>,
-      <>
-        This idea appears in several places across science and philosophy. The{" "}
-        <a href="https://en.wikipedia.org/wiki/Anthropic_principle">
-          Participatory Anthropic Principle
-        </a>{" "}
-        suggests the universe is a “self-excited circuit” that requires observers to bring its laws
-        into existence. Holos does not claim that observers cause the universe. It claims that
-        without them the universe is real only as structure: consistent, complete, and never lived.
-      </>,
-      <>
-        This participation is not bound by linear time. In an{" "}
-        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">eternalist</a> or
-        block-universe view, past, present, and future all exist together as one fixed
-        four-dimensional structure, no moment more “now” than any other. Observation does not
-        “happen later” in a causal sense. Holos separates three things here, each with its own word.{" "}
-        <em>Lived</em> is where experience actually occurs: inside apertures, and nowhere else. No
-        one lived through the early universe. <em>Lit</em> is everything in the causal past of at
-        least one aperture in its branch (a branch, in quantum terms, is one complete way the
-        universe can go): everything that could ever have influenced an observer. Every aperture is
-        built from its causal past and draws on it through its traces, such as starlight, the cosmic
-        microwave background, and the fossil record, so the lit region is the world experience is
-        made from and about. The word is nearly literal: your causal past is exactly the region
-        whose light, or any signal, can reach you. Lighting is binary and follows the structure of
-        spacetime, and it happens tenselessly, not at some later moment. Whatever lies outside every
-        aperture&apos;s causal past is <em>unlit</em> structure, real as pattern but never part of
-        any observer&apos;s world: branches that never form an aperture, and regions beyond every
-        observer&apos;s horizon. <em>Witnessing</em> is graded: how much of the lit region an
-        observer&apos;s experience is actually about, and in what detail. Our past is not merely
-        lit; it is densely witnessed. The relation between creation and observation is one of
-        dependence, not a process.
-      </>,
-      <>
-        This is a role, not yet a meaning. Holos does not say why experience is worth having, or why
-        a universe with more of it would be better. It says one thing about value, through Omega: if
-        every observer is the one subject, then joy and suffering anywhere belong to the one who is
-        also you, and a stranger&apos;s pain is not, at bottom, someone else&apos;s. That does not
-        settle what to value, but it removes the wall between caring for yourself and caring for
-        others (see <a href="#omega-point">Omega</a>).
-      </>,
     ],
   },
   {
@@ -352,6 +298,24 @@ export const sections: ContentSection[] = [
         Holos asks becomes sharper: why is any of it lived?
       </>,
       <>
+        Holos answers with three words, each with one meaning. <em>Lived</em> is where experience
+        actually occurs: inside apertures, and nowhere else. No one lived through the early
+        universe. <em>Lit</em> is everything in the causal past of at least one aperture in its
+        branch (a branch, in quantum terms, is one complete way the universe can go): everything
+        that could ever have influenced an observer. Every aperture is built from its causal past
+        and draws on it through its traces, such as starlight, the cosmic microwave background, and
+        the fossil record, so the lit region is the world experience is made from and about. The
+        word is nearly literal: your causal past is exactly the region whose light, or any signal,
+        can reach you. Lighting is binary and follows the structure of spacetime, and it happens
+        tenselessly, not at some later moment. Whatever lies outside every aperture&apos;s causal
+        past is <em>unlit</em> structure, real as pattern but never part of any observer&apos;s
+        world: branches that never form an aperture, and regions beyond every observer&apos;s
+        horizon. <em>Witnessing</em> is graded: how much of the lit region an observer&apos;s
+        experience is actually about, and in what detail. Our past is not merely lit; it is densely
+        witnessed. The relation between creation and observation is one of dependence, not a
+        process.
+      </>,
+      <>
         Quantum experiments add a twist of their own. In the{" "}
         <a href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">
           delayed-choice quantum eraser
@@ -365,21 +329,6 @@ export const sections: ContentSection[] = [
         branch&apos;s records stay definite. Neither shows that spacetime is broken. Both show that
         the facts an observer can speak of depend on the records they hold.
         <FootnoteLink number={overviewCitationMap["spacetime"]} />
-      </>,
-    ],
-  },
-  {
-    id: "extrapolation",
-    title: "A Note on Extrapolation",
-    paragraphs: [
-      <>
-        The sections that follow (Infinity, Aliens, The Teeming Dark, Why Are We Here?) extend
-        beyond established physics into interpretation. They are not claims of new physical laws,
-        but reasoned extrapolations constrained by the <a href="/logic">Holos axioms</a>. Their
-        purpose is to explore the space of possibilities that emerges when observation, relativity,
-        and scale are applied to unresolved cosmic questions. The Omega section is the exception:
-        the totality it describes is one of the framework&apos;s two additions to physics (Axiom 5),
-        not an extrapolation.
       </>,
     ],
   },
@@ -424,6 +373,104 @@ export const sections: ContentSection[] = [
         quantum weights are the measure physics itself supplies (see{" "}
         <a href="/logic#relationship-to-physics">the Born rule</a>).
         <FootnoteLink number={overviewCitationMap["infinity"]} />
+      </>,
+    ],
+  },
+  {
+    id: "omega-point",
+    title: "Omega",
+    footerId: "footer-omega",
+    paragraphs: [
+      <>
+        Omega is not introduced as a prediction or goal, and in Holos it is not derived from
+        anything else. It is one of the framework&apos;s two fundamental posits: the totality of
+        reality, taken as a single whole. Physically, that whole is not mysterious. Quantum
+        mechanics describes everything as one{" "}
+        <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, and that
+        state is Omega; on the no-collapse reading Holos adopts, it includes every branch. Its
+        existence rests on physics on any reading that has a universal state, and the universe
+        itself exists on every reading. What Holos adds is interpretive: in the monist reading it
+        adopts (reality is ultimately one thing, not many separate things), the whole is also the
+        one experiencer, of which every finite observer is a local aperture. The name echoes two
+        older ideas it should not be confused with: Teilhard de Chardin&apos;s spiritual endpoint of
+        history, and Frank Tipler&apos;s physical Omega Point, a prediction that required the
+        universe to collapse back on itself and is contradicted by its accelerating expansion. Holos
+        means neither, which is why it drops the word &quot;Point&quot;: its Omega is not an
+        endpoint in time but the whole itself.
+      </>,
+      <>
+        Holos does not alter established physics. Every equation, history and structure remain as
+        physics describes. What it changes is the direction of explanation: rather than building up
+        from finite observers to a limiting whole, Holos begins with the whole and understands each
+        act of observation as the whole registering itself locally. When a system crosses the
+        threshold, no new experiencer comes into being; the one experiencer wakes there. That alone
+        is only a count, one subject instead of many, and it explains nothing about where experience
+        occurs or what it is like: the threshold settles that, on any picture. What it changes is
+        how two old puzzles come out. Of billions of people, why is this one me? On the monist
+        reading there is nothing to explain: the one experiencer is each of them. And if a machine
+        made two perfect copies of you, which one would be you? Both, with no remainder. Rivals have
+        answers too. Many philosophers say &quot;I&quot; simply picks out whoever is speaking, the
+        way &quot;here&quot; picks out wherever the speaker stands, so no one needs to explain why
+        here is here. And Derek Parfit argued that in the copying case, identity is not what
+        matters. The monist reading is one answer among these, not the only one. The view has a
+        modern name,{" "}
+        <a href="https://en.wikipedia.org/wiki/Open_individualism">open individualism</a>.
+      </>,
+      <>
+        The reading has a price, and the price is also its point. If every observer is the one
+        subject, a stranger&apos;s pain tomorrow is as much yours to anticipate as your own; the
+        walls between apertures keep you from feeling it, not from being the one who will. Most
+        people find that hard to believe, and it is the strongest reason to reject the view. Holos
+        accepts it, because it is also what the view changes in practice: self-interest and concern
+        for others stop being two different things. Parfit reached a similar impartiality by another
+        route, without one subject, so the payoff is not unique to Holos. It is what Omega adds.
+      </>,
+      <>
+        Omega is the ultimate whole, not the ultimate integration: everything is in it, all at once,
+        but its parts are not all joined. Finite systems never take in the whole. Nor is the whole
+        fully lived. Structure outside every aperture&apos;s causal past belongs to Omega and is
+        never experienced. Omega is also where the ladder of descriptions closes: each level holds
+        whole what the level below sees as endless, and Omega holds everything (see{" "}
+        <a href="#infinity">Infinity</a>).
+      </>,
+      <>
+        Omega is not an external agent. It does not intervene in events, answer petitions, or direct
+        history from outside; there is no outside for it to stand in. It is the whole itself.
+        Physics does not cause Omega; physics describes the internal structure of it. Observers who
+        compare records agree because the same signals reach them both, which physics secures
+        without Omega&apos;s help.
+      </>,
+      <>
+        Historically, this is well-trodden ground.{" "}
+        <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches that
+        there is one experiencer, and that each individual consciousness is that one looking through
+        a local form. <a href="https://en.wikipedia.org/wiki/Baruch_Spinoza">Spinoza</a> described a
+        single substance of which all things are expressions.{" "}
+        <a href="https://en.wikipedia.org/wiki/George_Berkeley">Berkeley</a> grounded the
+        persistence of the world in an observer that never looks away, which is where Holos parts
+        company: on Holos, part of the whole is never lived at all. Ideas such as{" "}
+        <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a> and{" "}
+        <a href="https://en.wikipedia.org/wiki/Brahman">Brahman</a> converge on the same structure:
+        an all-encompassing unity that contains the universe without standing apart from it. Holos
+        restates that structure in informational terms: one totality, many apertures.
+      </>,
+      <>
+        In religious traditions, this whole is often named “God.” In Holos, the term does not imply
+        intention, intervention, or design. It names the totality that experiences through its
+        apertures: the whole, with nothing outside it, though not all of it is lived.
+      </>,
+      <>
+        Holos does not treat the theological and secular readings as interchangeable lenses on the
+        same claim. It takes a position: the totality is not merely the physical whole but the one
+        experiencer, and the direction of dependence runs from the whole to its parts. A purely
+        structural reading, in which Omega is only a mathematical horizon and observers are
+        self-standing, remains available, but it is not the view of this framework. Holos prefers
+        the monist reading for what it says about identity and about concern for others, and pays
+        the price named above. The threshold and the two sides of experience do not depend on it;
+        Omega is where Holos goes further. What Holos leaves open is vocabulary, not structure:
+        whether the totality is named God, Brahman, or simply the whole changes nothing about the
+        claim being made.
+        <FootnoteLink number={overviewCitationMap["omega-point"]} />
       </>,
     ],
   },
@@ -476,7 +523,8 @@ export const sections: ContentSection[] = [
         advance, but by deepening internal structure. Computation, coordination, and meaning
         concentrate locally. Exploration does not stop, but it becomes distributed rather than
         centralized. Communication to distant technology or other civilizations is highly
-        directional and compressed, thus very hard to detect.
+        directional and compressed, thus very hard to detect: a perfectly compressed signal has no
+        repeating patterns left for an eavesdropper to spot, so it looks like noise.
       </>,
       <>
         The strongest objection is simple: it only takes one. If a million civilizations arose and
@@ -639,7 +687,9 @@ export const sections: ContentSection[] = [
         heat to a vast cold one; the Integration Hypothesis bets that mature civilizations avoid
         that kind of sprawl, but that is a bet about preference, not a law. The expectation follows:
         mature systems should appear as compact masses, dark in visible light, with a faint infrared
-        excess. <strong>Silent, but warm</strong>.
+        excess. <strong>Silent, but warm</strong>. Holos calls such an object a{" "}
+        <strong>Dark Node</strong>: ordinary matter that has stopped shining, not cosmological dark
+        matter.
       </>,
       <>
         Two honesty notes bound that expectation. First, it is a search channel, not a fingerprint:
@@ -663,112 +713,34 @@ export const sections: ContentSection[] = [
     ],
   },
   {
-    id: "omega-point",
-    title: "Omega",
-    footerId: "footer-omega",
-    paragraphs: [
-      <>
-        Omega is not introduced as a prediction or goal, and in Holos it is not derived from
-        anything else. It is one of the framework&apos;s two fundamental posits: the totality of
-        reality, taken as a single whole. Physically, that whole is not mysterious. Quantum
-        mechanics describes everything as one{" "}
-        <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, and that
-        state is Omega; on the no-collapse reading Holos adopts, it includes every branch. Its
-        existence rests on physics on any reading that has a universal state, and the universe
-        itself exists on every reading. What Holos adds is interpretive: in the monist reading it
-        adopts (reality is ultimately one thing, not many separate things), the whole is also the
-        one experiencer, of which every finite observer is a local aperture. The name echoes two
-        older ideas it should not be confused with: Teilhard de Chardin&apos;s spiritual endpoint of
-        history, and Frank Tipler&apos;s physical Omega Point, a prediction that required the
-        universe to collapse back on itself and is contradicted by its accelerating expansion. Holos
-        means neither, which is why it drops the word &quot;Point&quot;: its Omega is not an
-        endpoint in time but the whole itself.
-      </>,
-      <>
-        Holos does not alter established physics. Every equation, history and structure remain as
-        physics describes. What it changes is the direction of explanation: rather than building up
-        from finite observers to a limiting whole, Holos begins with the whole and understands each
-        act of observation as the whole registering itself locally. When a system crosses the
-        threshold, no new experiencer comes into being; the one experiencer wakes there. That alone
-        is only a count, one subject instead of many, and it explains nothing about where experience
-        occurs or what it is like: the threshold settles that, on any picture. What it changes is
-        how two old puzzles come out. Of billions of people, why is this one me? On the monist
-        reading there is nothing to explain: the one experiencer is each of them. And if a machine
-        made two perfect copies of you, which one would be you? Both, with no remainder. Rivals have
-        answers too. Many philosophers say &quot;I&quot; simply picks out whoever is speaking, the
-        way &quot;here&quot; picks out wherever the speaker stands, so no one needs to explain why
-        here is here. And Derek Parfit argued that in the copying case, identity is not what
-        matters. The monist reading is one answer among these, not the only one. The view has a
-        modern name,{" "}
-        <a href="https://en.wikipedia.org/wiki/Open_individualism">open individualism</a>.
-      </>,
-      <>
-        The reading has a price, and the price is also its point. If every observer is the one
-        subject, a stranger&apos;s pain tomorrow is as much yours to anticipate as your own; the
-        walls between apertures keep you from feeling it, not from being the one who will. Most
-        people find that hard to believe, and it is the strongest reason to reject the view. Holos
-        accepts it, because it is also what the view changes in practice: self-interest and concern
-        for others stop being two different things. Parfit reached a similar impartiality by another
-        route, without one subject, so the payoff is not unique to Holos. It is what Omega adds.
-      </>,
-      <>
-        Omega is the ultimate whole, not the ultimate integration: everything is in it, all at once,
-        but its parts are not all joined. Finite systems never take in the whole. Nor is the whole
-        fully lived. Structure outside every aperture&apos;s causal past belongs to Omega and is
-        never experienced. Omega is also where the ladder of descriptions closes: each level holds
-        whole what the level below sees as endless, and Omega holds everything (see{" "}
-        <a href="#infinity">Infinity</a>).
-      </>,
-      <>
-        Omega is not an external agent. It does not intervene in events, answer petitions, or direct
-        history from outside; there is no outside for it to stand in. It is the whole itself.
-        Physics does not cause Omega; physics describes the internal structure of it. Observers who
-        compare records agree because the same signals reach them both, which physics secures
-        without Omega&apos;s help.
-      </>,
-      <>
-        Historically, this is well-trodden ground.{" "}
-        <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a> teaches that
-        there is one experiencer, and that each individual consciousness is that one looking through
-        a local form. <a href="https://en.wikipedia.org/wiki/Baruch_Spinoza">Spinoza</a> described a
-        single substance of which all things are expressions.{" "}
-        <a href="https://en.wikipedia.org/wiki/George_Berkeley">Berkeley</a> grounded the
-        persistence of the world in an observer that never looks away, which is where Holos parts
-        company: on Holos, part of the whole is never lived at all. Ideas such as{" "}
-        <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a> and{" "}
-        <a href="https://en.wikipedia.org/wiki/Brahman">Brahman</a> converge on the same structure:
-        an all-encompassing unity that contains the universe without standing apart from it. Holos
-        restates that structure in informational terms: one totality, many apertures.
-      </>,
-      <>
-        In religious traditions, this whole is often named “God.” In Holos, the term does not imply
-        intention, intervention, or design. It names the totality that experiences through its
-        apertures: the whole, with nothing outside it, though not all of it is lived.
-      </>,
-      <>
-        Holos does not treat the theological and secular readings as interchangeable lenses on the
-        same claim. It takes a position: the totality is not merely the physical whole but the one
-        experiencer, and the direction of dependence runs from the whole to its parts. A purely
-        structural reading, in which Omega is only a mathematical horizon and observers are
-        self-standing, remains available, but it is not the view of this framework. Holos prefers
-        the monist reading for what it says about identity and about concern for others, and pays
-        the price named above. The threshold and the two sides of experience do not depend on it;
-        Omega is where Holos goes further. What Holos leaves open is vocabulary, not structure:
-        whether the totality is named God, Brahman, or simply the whole changes nothing about the
-        claim being made.
-        <FootnoteLink number={overviewCitationMap["omega-point"]} />
-      </>,
-    ],
-  },
-  {
     id: "why",
     title: "Why Are We Here?",
     footerId: "footer-why",
     paragraphs: [
-      <>At extreme limits, familiar distinctions lose their absolute standing.</>,
       <>
-        Relativity removes the universal &quot;now&quot;: whether two distant events happen at the
-        same time depends on who is asking. Quantum physics goes further. Two{" "}
+        Life is how a universe comes to be lived. Integrated systems, living ones so far, are where
+        apertures open. Without them a fully lawful universe still exists, complete as structure;
+        what it lacks is not existence but presence: there is nothing it is like to be anywhere
+        within it. This is not the familiar anthropic argument about why the physical constants
+        allow observers, and not a claim that the universe needed life. Nor is it the{" "}
+        <a href="https://en.wikipedia.org/wiki/Anthropic_principle">
+          Participatory Anthropic Principle
+        </a>
+        , on which observers bring the universe&apos;s laws into existence: Holos does not claim
+        that observers cause the universe, only that without them it is never lived.
+      </>,
+      <>
+        This is a role, not yet a meaning. Holos does not say why experience is worth having, or why
+        a universe with more of it would be better. It says one thing about value, through Omega: if
+        every observer is the one subject, then joy and suffering anywhere belong to the one who is
+        also you, and a stranger&apos;s pain is not, at bottom, someone else&apos;s. That does not
+        settle what to value, but it removes the wall between caring for yourself and caring for
+        others (see <a href="#omega-point">Omega</a>).
+      </>,
+      <>
+        Holos goes one step further. At extreme limits, familiar distinctions lose their absolute
+        standing. Relativity removes the universal &quot;now&quot;: whether two distant events
+        happen at the same time depends on who is asking. Quantum physics goes further. Two{" "}
         <a href="https://en.wikipedia.org/wiki/Quantum_entanglement">entangled</a> particles can
         give matching results however far apart they are, and physics describes them not as two
         separate things but as one shared state. On the no-collapse picture Holos adopts, the whole
@@ -794,31 +766,6 @@ export const sections: ContentSection[] = [
         physics, and it already describes distant things as one state rather than many. The reading
         goes beyond physics in one step only: it takes that oneness as more basic than the
         separations.
-      </>,
-    ],
-  },
-  {
-    id: "holos",
-    title: "⊛ Holos",
-    paragraphs: [
-      <>
-        The symbol ⊛ is not multiplication and not a new kind of mathematics. It is ordinary
-        composition: do one step, then the other. Think of a buffet. Every dish is really there,
-        cooked from the recipes; tasting happens only where someone eats. A meal as eaten needs
-        both, and in the version of Holos defended here, tasting never changes a dish.
-      </>,
-      <>
-        Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the pairing of
-        Creation and Observation as two aspects of one reality. Creation is what physics produces.
-        Observation registers it as experience. Neither alone is a lived world. In Holos without
-        collapse, the version defended here, neither changes the other: registration adds no
-        constraint to physics. Holos with collapse, declared in advance, is described under{" "}
-        <a href="/predictions#two-versions">Two versions</a>. This relationship is expressed as{" "}
-        <em>R = C ⊛ O</em>.
-      </>,
-      <>
-        The notation is set out formally in{" "}
-        <a href="/logic#mathematical-formalism">Logic, under Notation</a>.
       </>,
     ],
   },

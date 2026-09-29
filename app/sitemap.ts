@@ -6,15 +6,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Main sections with anchor links
   const sections = [
     "",
-    "#meaning-of-life",
     "#consciousness",
     "#spacetime",
     "#infinity",
+    "#omega-point",
     "#aliens",
     "#the-teeming-dark",
-    "#omega-point",
     "#why",
-    "#holos",
   ];
 
   const mainPages = sections.map((section) => ({

@@ -29,14 +29,14 @@ export default function Predictions() {
             threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about where
             observation occurs, and the totality, Omega, as the fundamental ground of experience, of
             which every observer is a local aperture: an opening through which it registers itself.
-            The commitments, expectations, and tests below follow from established physics, from
-            those two additions, from the sides Holos takes on structure and mind (Axioms 1 and 4),
-            or, where marked, from the no-collapse side it takes on quantum physics (Commitment 3
-            and Check B). The speculation at the end does not; it is labeled as such.
+            The commitments and tests below follow from established physics, from those two
+            additions, from the sides Holos takes on structure and mind (Axioms 1 and 4), or, where
+            marked, from the no-collapse side it takes on quantum physics (Commitment 3 and Check
+            C). The speculation at the end does not; it is labeled as such.
           </p>
 
           <p className="leading-relaxed">
-            The sections below separate four kinds of claims. The last section includes speculative
+            The sections below separate three kinds of claims. The last section includes speculative
             extensions that aim to produce observable signatures, not just philosophy.
           </p>
 
@@ -46,14 +46,10 @@ export default function Predictions() {
               any future experiments.
             </li>
             <li className="leading-relaxed">
-              <strong>Expectations:</strong> patterns we should already observe in neuroscience and
-              quantum foundations if those commitments are right.
-            </li>
-            <li className="leading-relaxed">
               <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
-              a structural test that can fail, a consistency check, and a standing bet on the
-              physics Holos adopts, with the version of Holos a loss would leave declared in
-              advance.
+              two structural tests that can fail, one for the core and one for the transition
+              hypothesis, a consistency check, and a standing bet on the physics Holos adopts, with
+              the version of Holos a loss would leave declared in advance.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
@@ -62,8 +58,8 @@ export default function Predictions() {
           </ul>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            For the operational definition and the observer criteria, see{" "}
-            <a href="/logic#operational-definition" className="underline hover:no-underline">
+            For the definitions and the observer criteria, see{" "}
+            <a href="/logic#primitive-definitions" className="underline hover:no-underline">
               Logic
             </a>
             .
@@ -307,145 +303,8 @@ export default function Predictions() {
 
           <div className="mt-2 pt-4 border-t border-black/10">
             <p className="leading-relaxed text-black/70 text-sm">
-              Everything that follows assumes these commitments. What comes next addresses what we
-              should expect to observe in the world if they are correct.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 2) Expectations */}
-      <section id="expectations" className="flex flex-col gap-4">
-        <h2 className="text-2xl sm:text-3xl font-light">
-          Expectations
-          <FootnoteLink
-            number={predictionsCitationMap["expectations"]}
-            className="relative left-1 -top-2.5"
-          />
-        </h2>
-
-        <div className="flex flex-col gap-8 text-black/80">
-          <p className="leading-relaxed">
-            These expectations describe what should be observed in existing domains if the
-            commitments of Holos are correct. Most are shared with rival views, so meeting them fits
-            Holos without confirming it; persistent failure across domains would undermine the
-            framework.
-          </p>
-
-          {/* Neuroscience */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Neuroscience: Steep transitions in conscious access
-            </h3>
-
-            <p className="leading-relaxed">
-              If observerhood requires a minimum level of integration, transitions between conscious
-              and unconscious states should be steep, crossing a narrow twilight. If the crossing is
-              also a genuine transition, they should resemble state changes, not smooth signal
-              degradation.
-            </p>
-
-            <p className="leading-relaxed">
-              Large-scale neural integration measures should therefore show the signatures of a
-              genuine transition near loss and recovery of consciousness, rather than a smooth fade:
-              slowing and growing fluctuations as the boundary nears, or a lag between going under
-              and coming back, with a twilight that narrows in larger systems. This is the
-              transition hypothesis, not the core. Animal studies already find such a lag, though in
-              flies sleep genes control it, so it may belong to the arousal switch rather than to
-              integration. The signatures must be measured on integration at the boundary: the known
-              near-criticality of waking cortex marks where observers operate, not the threshold.
-              Well below threshold, processing continues without unified access to experience.
-            </p>
-
-            <p className="leading-relaxed">
-              If something like a Global Neuronal Workspace (a theory in which conscious access is
-              information broadcast brain-wide) is involved, these threshold crossings should appear
-              as sharp switches into brain-wide availability rather than a gradual fading of what
-              can be reported.
-            </p>
-
-            <p className="leading-relaxed">
-              Proxy measures such as{" "}
-              <a
-                href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                PCI
-              </a>{" "}
-              are relevant not as definitions of consciousness, but as probes of where integration
-              crosses the threshold, and how steeply.
-            </p>
-
-            <p className="leading-relaxed text-black/70 text-sm">
-              A steep transition would fit Holos but not confirm it: ordinary physicalist models
-              predict tipping points too. What can fail is{" "}
-              <a href="#experiment-1" className="underline hover:no-underline">
-                Test A
-              </a>
-              ; see also the{" "}
-              <a href="#experiment-3" className="underline hover:no-underline">
-                note on integration measures
-              </a>
-              .
-            </p>
-          </div>
-
-          {/* Quantum foundations */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Quantum foundations: Observer-relative facts without collapse
-            </h3>
-
-            <p className="leading-relaxed">
-              If registered facts are indexed to observers and no outcome is erased, quantum
-              experiments should continue to allow descriptions in which different observers
-              register incompatible outcomes without violating global consistency.
-            </p>
-
-            <p className="leading-relaxed">
-              Holos therefore sides with branching approaches, in which no possibility is erased,
-              and borrows one insight from relational approaches: registered facts are indexed to
-              the systems that register them. It does not adopt Relational Quantum Mechanics itself,
-              which rejects the universal state that branching requires. The operational signature
-              is agreement: whenever observers within a branch compare records, the records match. A
-              confirmed, irreconcilable record mismatch between communicating observers would
-              falsify this commitment.
-            </p>
-          </div>
-
-          {/* Cosmology */}
-          <div id="minimal-neural-systems" className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Minimal neural systems: the twilight&apos;s width
-            </h3>
-
-            <p className="leading-relaxed">
-              Networks of neurons grown in a dish and connected to simple environments are the
-              cheapest place to test the twilight prediction. If crossing the threshold is a genuine
-              transition (claim 3 of{" "}
-              <a href="/logic#threshold-claims" className="underline hover:no-underline">
-                the threshold
-              </a>
-              ), its rounded stretch should narrow as a system grows. Small cultures should then
-              cross gradually, and larger cultures, grown the same way, more steeply, as
-              connectivity, feedback, and coupling to their environment increase.
-            </p>
-
-            <p className="leading-relaxed">
-              The test counts only under the conditions in the{" "}
-              <a href="#experiment-3" className="underline hover:no-underline">
-                note on integration measures
-              </a>
-              : the gauge and its cutoff fixed in advance, and a stated way to lose. Holos loses
-              claim 3, though not its core, if the steepness does not grow with size. A steepening
-              that tracks something other than integration, such as raw activity or metabolic rate,
-              would not count in its favor.
-            </p>
-
-            <p className="leading-relaxed text-black/70 text-sm">
-              Such transitions would not show that a dish is conscious. They test the shape of the
-              threshold, not presence itself.
+              Everything that follows assumes these commitments. What comes next is what experiments
+              can and cannot show about them.
             </p>
           </div>
         </div>
@@ -484,13 +343,14 @@ export default function Predictions() {
           <p className="leading-relaxed">
             What remains testable is not presence but its <strong>structural preconditions</strong>:
             claims about what observation requires, and how registered facts behave. These live in
-            the physical world and can genuinely fail. One is stated below as a test, with an
-            explicit way for Holos to lose. The other is stated as a consistency check: its expected
-            outcome is the one standard quantum mechanics already predicts, so it guards against
-            contradiction rather than singling Holos out. A prediction Holos shares with rival
-            theories cannot single it out, but a shared prediction it could fail is still worth more
-            than one it cannot. Beneath both sits a standing bet, stated after them, on the physics
-            Holos adopts, with the version of Holos a loss would leave declared in advance.
+            the physical world and can genuinely fail. Two are stated below as tests, each with an
+            explicit way to lose: Test A for the core, and Test B for the transition hypothesis. A
+            third is stated as a consistency check: its expected outcome is the one standard quantum
+            mechanics already predicts, so it guards against contradiction rather than singling
+            Holos out. A prediction Holos shares with rival theories cannot single it out, but a
+            shared prediction it could fail is still worth more than one it cannot. Beneath them all
+            sits a standing bet, stated after them, on the physics Holos adopts, with the version of
+            Holos a loss would leave declared in advance.
           </p>
         </div>
       </section>
@@ -717,8 +577,7 @@ export default function Predictions() {
               integrated above threshold while the whole brain is not. Holos adopts that reading
               now, after seeing these results, so they cannot count in its favor: only new data,
               collected under the protocol above, can confirm or defeat it. A gauge chosen afterward
-              to rescue the prediction would turn the test into decoration, the failure the note on
-              integration measures below warns against.
+              to rescue the prediction would turn the test into decoration.
             </p>
             <p className="leading-relaxed">
               The data to run it are starting to exist. A shared database released in 2025 pools
@@ -752,10 +611,69 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* Check B */}
+      {/* Test B */}
+      <section id="minimal-neural-systems" className="flex flex-col gap-6">
+        <h3 className="text-xl sm:text-2xl font-medium pb-2">
+          Test B: The twilight narrows with size
+          <FootnoteLink
+            number={predictionsCitationMap["experimentation"]}
+            className="relative left-1 -top-2.5"
+          />
+        </h3>
+
+        <div className="flex flex-col gap-4 text-black/80">
+          <p className="leading-relaxed">
+            This test is for the transition hypothesis (claim 3 of{" "}
+            <a href="/logic#threshold-claims" className="underline hover:no-underline">
+              the threshold
+            </a>
+            ), not the core. If crossing the threshold is a genuine transition, its rounded stretch
+            should narrow as a system grows. Networks of neurons grown in a dish and connected to
+            simple environments are the cheapest place to look. Small cultures should cross
+            gradually, and larger cultures, grown the same way, more steeply, as connectivity,
+            feedback, and coupling to their environment increase.
+          </p>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">
+              Why a transition alone is not enough
+            </h4>
+            <p className="leading-relaxed">
+              A sharp transition at loss of consciousness is predicted by ordinary physicalist
+              models too (sudden tipping points and network-wide switch-ons of the kind these
+              systems produce anyway), so observing one confirms nothing specific to Holos. And a
+              cultured network almost <em>always</em> shows some nonlinear transition (neurons
+              falling into step and cascades of activity are routine dish behavior), so an
+              experiment that counts any such transition as success cannot fail, and an experiment
+              that cannot fail proves nothing when it passes. What counts is how the steepness
+              scales with size.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
+            <p className="leading-relaxed">
+              The integration measure and its cutoff are fixed in advance. Holos loses claim 3,
+              though not its core, if the steepness does not grow with size. A steepening that
+              tracks something other than integration, such as arousal, raw activity, or metabolic
+              rate, does not count in its favor. Without a pre-committed measure and a real failure
+              condition, a transition &quot;somewhere&quot; is not evidence; it is decoration.
+            </p>
+          </div>
+
+          <p className="leading-relaxed text-black/70 text-sm">
+            <strong>What this can and cannot show:</strong> such transitions would not show that a
+            dish is conscious. They test the shape of the threshold, not presence itself. Sharp
+            integration drops under anesthesia are useful in the same way only as probes feeding
+            Test A, under the same conditions.
+          </p>
+        </div>
+      </section>
+
+      {/* Check C */}
       <section id="experiment-2" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          Check B: Observer-relative facts
+          Check C: Observer-relative facts
           <FootnoteLink
             number={predictionsCitationMap["experimentation"]}
             className="relative left-1 -top-2.5"
@@ -793,7 +711,10 @@ export default function Predictions() {
             and its photonic tests show that if an in-lab observation counts as a genuine fact, then
             absoluteness of observed events, locality, and freedom of choice cannot all hold
             together. Holos gives up the absoluteness of observed events: registered facts are
-            observer-relative, while structural facts and consistency remain intact.
+            observer-relative, while structural facts and consistency remain intact. In this it
+            sides with branching approaches and borrows one insight from relational ones: registered
+            facts are indexed to the systems that register them. It does not adopt Relational
+            Quantum Mechanics itself, which rejects the universal state that branching requires.
           </p>
 
           <p className="leading-relaxed">
@@ -840,7 +761,9 @@ export default function Predictions() {
               assumptions. What could go wrong for Holos is dependence on scale. If the violations
               shrink or vanish as the friend grows toward a genuine observer, beyond what
               decoherence accounts for, observation is doing something physical, and the standing
-              bet below is lost.
+              bet below is lost. A second way to lose lies within a branch: observers who compare
+              records must find them matching, and a confirmed, irreconcilable mismatch between
+              communicating observers would falsify Commitment 3.
             </p>
           </div>
 
@@ -973,49 +896,6 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* A note on the integration correlates */}
-      <section id="experiment-3" className="flex flex-col gap-6">
-        <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          A note on the integration measures
-          <FootnoteLink
-            number={predictionsCitationMap["experimentation"]}
-            className="relative left-1 -top-2.5"
-          />
-        </h3>
-
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            Two further experiments might look like confirmations: a sharp integration drop under
-            anesthesia, and cultured neural networks snapping into coherence as connectivity grows.
-            Neither counts as a test just by showing a transition. The dish experiment counts only
-            in one form: the size-scaling test of claim 3, under{" "}
-            <a href="#minimal-neural-systems" className="underline hover:no-underline">
-              Minimal neural systems
-            </a>
-            .
-          </p>
-
-          <p className="leading-relaxed">
-            A sharp transition at loss of consciousness is predicted by ordinary physicalist models
-            too (sudden tipping points and network-wide switch-ons of the kind these systems produce
-            anyway), so observing one confirms nothing specific to Holos. And a cultured network
-            almost <em>always</em> shows some nonlinear transition (neurons falling into step and
-            cascades of activity are routine dish behavior), so an experiment that counts any such
-            transition as success cannot fail, and an experiment that cannot fail proves nothing
-            when it passes.
-          </p>
-
-          <p className="leading-relaxed">
-            These remain useful only as <strong>correlate probes</strong> feeding Test A, or, for
-            dishes, as that size-scaling test, and only under two conditions: the integration
-            measure and the threshold value are fixed in advance, and there is a stated way to lose:
-            the observed transition tracks a non-integration variable (arousal, metabolic rate, raw
-            activity) rather than integration. Without a pre-committed measure and a real failure
-            condition, a transition &quot;somewhere&quot; is not evidence; it is decoration.
-          </p>
-        </div>
-      </section>
-
       {/* 4) Speculation */}
       <section id="speculation" className="flex flex-col gap-4">
         <h2 className="text-2xl sm:text-3xl font-light">
@@ -1117,79 +997,6 @@ export default function Predictions() {
               light-speed delay and waste heat, plus one assumption: that coordination pays. The
               assumption is the weak link. A civilization that never learns to coordinate stays at
               H0, loud until it ends.
-            </p>
-          </div>
-
-          {/* 1) Visibility Collapse */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Visibility Collapse</h3>
-
-            <p className="leading-relaxed">
-              A civilization can get more capable while becoming less visible. If its optimization
-              target shifts from outward projection to internal coherence, it will compress,
-              encrypt, and minimize waste. Broadcast is an early-stage habit, not a mature strategy.
-            </p>
-            <p className="leading-relaxed">
-              On the Holosian Scale, this is the natural signature of H3–H4: rising capability with
-              increasingly optimized and less obvious radiative signatures.
-            </p>
-            <p className="leading-relaxed">
-              The collapse applies to light, not heat: compact systems that keep computing stay
-              warm, for the reasons given in the{" "}
-              <a href="/#the-teeming-dark" className="underline hover:no-underline">
-                Teeming Dark
-              </a>
-              .
-            </p>
-            <p className="leading-relaxed text-black/70 text-sm">
-              <strong>Why it is plausible:</strong> efficient communication already looks like
-              noise. A perfectly compressed signal has no repeating patterns left for an
-              eavesdropper to spot, so the better a civilization&apos;s codes, the less its traffic
-              stands out from the background.
-            </p>
-          </div>
-
-          {/* 2) Observational Regime */}
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Observational Regime</h3>
-
-            <p className="leading-relaxed">
-              If a civilization is H4-level integrated, the most likely remaining footprint isn't
-              radio or lasers. It's gravity and heat. Holos uses <strong>Dark Node</strong> as a
-              label for what these systems look like from the outside: compact, ordered mass
-              structures that minimize obvious emissions while still exporting waste heat, and
-              staying gravitationally coupled to the universe.
-            </p>
-
-            <p className="leading-relaxed">
-              In this regime, you would look for masses that are dark in visible light but carry a
-              faint infrared excess, found through infrared surveys of individual stars and through{" "}
-              <a
-                href="https://en.wikipedia.org/wiki/Gravitational_microlensing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                microlensing
-              </a>{" "}
-              of compact dark objects, rather than radio searches. Mass maps of whole galaxies
-              cannot see objects this small, and no instrument can read purpose off a distant warm
-              mass. The unavoidable search channel is warmth plus weight, not messages.
-            </p>
-
-            <p className="leading-relaxed">
-              Nodes are ordinary matter that has stopped shining, not cosmological dark matter. How
-              many there can be, and why a warm dark mass is a search channel rather than a
-              fingerprint, is set out in the{" "}
-              <a href="/#the-teeming-dark" className="underline hover:no-underline">
-                Teeming Dark
-              </a>
-              .
-            </p>
-            <p className="leading-relaxed text-black/70 text-sm">
-              <strong>Why it is plausible:</strong> any long-running computer sheds heat, since
-              correcting errors means erasing information, and compact systems shed it warm unless
-              they build vast cold radiators. Brown dwarfs and rogue planets already show that
-              compact, dark, faintly warm masses exist and can be found.
             </p>
           </div>
 
@@ -1317,9 +1124,12 @@ export default function Predictions() {
               </ul>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Note:</strong> The Kernel may <em>present</em> as a Dark Node if coherence
-                optimization suppresses radiative visibility. Node describes appearance, not
-                purpose.
+                <strong>Note:</strong> The Kernel may <em>present</em> as a{" "}
+                <a href="/#the-teeming-dark" className="underline hover:no-underline">
+                  Dark Node
+                </a>{" "}
+                if coherence optimization suppresses radiative visibility. Node describes
+                appearance, not purpose.
               </p>
               <p className="leading-relaxed text-black/70 text-sm">
                 <strong>Why it is plausible:</strong> two known pressures meet here. Light delay

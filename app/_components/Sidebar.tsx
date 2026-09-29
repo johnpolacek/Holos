@@ -99,21 +99,7 @@ export default function Sidebar() {
               <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
                 {theorySubsections.map((subsection) => (
                   <li key={subsection.id} className="sidebar-subsection-item py-1">
-                    {subsection.id === "holos" ? (
-                      <a
-                        className="flex items-center justify-center gap-1"
-                        href={getLink(`#${subsection.id}`)}
-                      >
-                        <img
-                          src="/icon.svg"
-                          alt="Asterisk in a Circle"
-                          className="w-4 h-4 scale-90"
-                        />
-                        <span>{subsection.title}</span>
-                      </a>
-                    ) : (
-                      <a href={getLink(`#${subsection.id}`)}>{subsection.title}</a>
-                    )}
+                    <a href={getLink(`#${subsection.id}`)}>{subsection.title}</a>
                   </li>
                 ))}
               </div>

@@ -12,42 +12,37 @@ export interface Section {
 
 export const theorySubsections: Subsection[] = [
   { id: "introduction", title: "Introduction" },
-  { id: "meaning-of-life", title: "Meaning of Life" },
   { id: "consciousness", title: "Consciousness" },
   { id: "spacetime", title: "Spacetime" },
-  { id: "extrapolation", title: "A Note on Extrapolation" },
   { id: "infinity", title: "Infinity" },
+  { id: "omega-point", title: "Omega" },
   { id: "aliens", title: "Aliens" },
   { id: "the-teeming-dark", title: "The Teeming Dark" },
-  { id: "omega-point", title: "Omega" },
-  { id: "why", title: "Why?" },
-  { id: "holos", title: "Holos" },
+  { id: "why", title: "Why Are We Here?" },
 ];
 
 export const logicSubsections: Subsection[] = [
   { id: "minimal-core", title: "Core" },
-  { id: "operational-definition", title: "Definition" },
-  { id: "comparison", title: "Among Interpretations" },
-  { id: "mind-comparison", title: "Among Theories of Mind" },
   { id: "primitive-definitions", title: "Primitives" },
   { id: "logic-axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundations" },
-  { id: "ontology", title: "Ontology" },
+  { id: "ontology", title: "Threshold" },
   { id: "totality", title: "Totality" },
   { id: "relationship-to-physics", title: "Physics" },
   { id: "mathematical-formalism", title: "Notation" },
-  { id: "extrapolative-proposition", title: "Companion" },
+  { id: "comparison", title: "Among Interpretations" },
+  { id: "mind-comparison", title: "Among Theories of Mind" },
   { id: "open-problems", title: "Open Problems" },
 ];
 
 export const predictionsSubsections: Subsection[] = [
   { id: "prediction-introduction", title: "Introduction" },
   { id: "commitments", title: "Commitments" },
-  { id: "expectations", title: "Expectations" },
   { id: "experimentation", title: "Testability & Its Limits" },
   { id: "experiment-1", title: "Test A: Integration vs. Behavior" },
-  { id: "experiment-2", title: "Check B: Observer-Relative Facts" },
-  { id: "standing-bet", title: "The Standing Bet" },
+  { id: "minimal-neural-systems", title: "Test B: The Twilight's Width" },
+  { id: "experiment-2", title: "Check C: Observer-Relative Facts" },
+  { id: "standing-bet", title: "The Standing Bet & Two Versions" },
   { id: "speculation", title: "Speculation" },
   { id: "technology", title: "Technology" },
 ];

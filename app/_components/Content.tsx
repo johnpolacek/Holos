@@ -9,7 +9,6 @@ import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import OmegaLimitAnimation from "./OmegaLimitAnimation";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
-import OperatorAnatomyDiagram from "./OperatorAnatomyDiagram";
 import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
 import TeemingDarkAnimation from "./TeemingDarkAnimation";
@@ -22,12 +21,7 @@ export default function Content({ isPDF = false }: ContentProps) {
   return (
     <>
       {sections.map((section) => (
-        <Section
-          key={section.id}
-          id={section.id}
-          title={section.title}
-          variant={section.id === "extrapolation" ? "note" : undefined}
-        >
+        <Section key={section.id} id={section.id} title={section.title}>
           {section.id === "axioms"
             ? section.paragraphs.map((paragraph, pIndex) => {
                 const axiomMap: Record<
@@ -74,11 +68,11 @@ export default function Content({ isPDF = false }: ContentProps) {
                 );
               })}
           {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
-          {section.id === "meaning-of-life" && <BlockUniverseAnimation isPDF={isPDF} />}
           {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
           {section.id === "spacetime" && (
             <>
               <InvarianceWarpAnimation isPDF={isPDF} />
+              <BlockUniverseAnimation isPDF={isPDF} />
               <QuantumEraserAnimation isPDF={isPDF} />
             </>
           )}
@@ -87,7 +81,6 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
           {section.id === "omega-point" && <OmegaLimitAnimation isPDF={isPDF} />}
           {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
-          {section.id === "holos" && <OperatorAnatomyDiagram isPDF={isPDF} />}
         </Section>
       ))}
     </>

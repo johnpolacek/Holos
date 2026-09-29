@@ -61,117 +61,12 @@ export default function Logic() {
               its twilight fall, and the boundaries between observers.
             </li>
             <li className="leading-relaxed">
-              <strong>Companion ideas, not core:</strong> the Structural Constraint principle, the
-              Integration Hypothesis, and the Teeming Dark. If they fail, the core stands.
+              <strong>Companion ideas, not core:</strong> the Integration Hypothesis and the Teeming
+              Dark. If they fail, the core stands.
             </li>
           </ul>
         </div>
       </section>
-      {/* Operational Definition */}
-      <section id="operational-definition" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Operational Definition
-          <FootnoteLink
-            className="relative left-1 -top-2.5"
-            number={logicCitationMap["operational-definition"]}
-          />
-        </h2>
-
-        <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            Holos distinguishes two things that are usually run together. Physics defines what is
-            consistent. Observation is where a consistent world is lived from the inside.
-          </p>
-
-          <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
-            R = C ⊛ O
-          </div>
-
-          <ul className="flex flex-col gap-3 pl-6 list-disc">
-            <li className="leading-relaxed">
-              <strong>Creation</strong> (<MathInline>{"C"}</MathInline>) is everything physics
-              produces: every branch of the one quantum state. Seen from inside one branch, the
-              others are its possibilities; all of them occur.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) is internal
-              registration. It occurs when a system integrates information into a single perspective
-              such that there is something it is like to be that system.
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) is lived reality: lawful
-              possibility where it is also registered from inside. Structure is fully real whether
-              or not it is lived; <MathInline>{"R"}</MathInline> marks where it is also lived, a
-              label for a difference, not a higher grade of reality. Three words keep this precise:
-              lived, lit, and unlit (defined in D7).
-            </li>
-
-            <li className="leading-relaxed">
-              <strong>⊛</strong> is shorthand for &quot;possibility, then registration,&quot; in
-              logical rather than temporal order (see{" "}
-              <a href="#mathematical-formalism" className="underline hover:no-underline">
-                Notation
-              </a>
-              ). It marks the claim that physics describes a lived world only from outside: it fixes
-              what is lived, but cannot state that it is lived.
-            </li>
-          </ul>
-
-          <p className="leading-relaxed pt-2">
-            Holos is an interpretive framework. The distinction between structure and lived reality
-            is its starting point, not an explanation. The explanations come from what Holos adds,
-            the threshold and the totality, and from the side it takes on experience and activity
-            (Axiom 4).
-          </p>
-
-          <p className="leading-relaxed text-black/70 text-sm">
-            When later sections use <MathInline>{"\\Phi \\ge \\Phi_c"}</MathInline>, treat that as a
-            threshold claim about integration. Holos does not depend on one specific theory for
-            computing <MathInline>{"\\Phi"}</MathInline>, but its tests name their gauges in
-            advance, and no gauge proposed afterward can rescue a failed test (see{" "}
-            <a href="/predictions#experiment-1" className="underline hover:no-underline">
-              Test A
-            </a>
-            ).
-          </p>
-        </div>
-      </section>
-      <div id="comparison">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Holos among Quantum Interpretations
-        </h2>
-        <p className="leading-relaxed text-black/80 mb-4">
-          Holos re-positions the strongest insights of existing quantum interpretations within a
-          single ontological framework. On the physics it takes a side: no collapse, no erased
-          possibilities, branching when registrations diverge. That is the Many-Worlds picture. Its
-          divergence from Many-Worlds is ontological: branching alone does not say which structures
-          are present as experience. The table also includes the two collapse views Holos bets
-          against: objective collapse, in which superpositions collapse on their own (as in the
-          Diósi-Penrose model), and consciousness collapse, in which a conscious system causes it
-          (as Chalmers and McQueen propose). The table below clarifies where Holos aligns with, and
-          diverges from, each.
-        </p>
-        <InterpretiveComparisonTable />
-      </div>
-      <div id="mind-comparison">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Holos among Theories of Mind</h2>
-        <p className="leading-relaxed text-black/80 mb-4">
-          Most of what Holos claims is about mind, not physics, so it needs a second map. It shares
-          integration with integrated information theory without IIT&apos;s identity claim or its
-          experience in every integrated system, shares a single ground of experience with
-          cosmopsychism without a cosmic experience of its own, and rejects both panpsychism&apos;s
-          experience everywhere and illusionism&apos;s claim that experience, as we usually conceive
-          it, does not exist. It is neither physicalism nor dualism but a two-sided monism with a
-          threshold (see{" "}
-          <a href="#kind-of-view" className="underline hover:no-underline">
-            What kind of view this is
-          </a>
-          ). The table below shows where it sits.
-        </p>
-        <MindComparisonTable />
-      </div>
       {/* Primitives */}
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
@@ -387,7 +282,7 @@ export default function Logic() {
               where observers occur; in Holos with collapse, it may also be where collapse happens.
               The requirements are listed under{" "}
               <a href="#ontology" className="underline hover:no-underline">
-                Φ and Ontological Requirements
+                The Threshold and Observer Requirements
               </a>
               ; the measure and the value of the threshold are{" "}
               <a href="#open-problems" className="underline hover:no-underline">
@@ -590,7 +485,7 @@ export default function Logic() {
               Proposition III: Global Consistency
             </h3>
 
-            <p className="text-sm text-black/60">Follows from Axiom 2 and relativity.</p>
+            <p className="text-sm text-black/60">Follows from Axioms 1 and 2, with relativity.</p>
 
             <p className="leading-relaxed">
               If spacetime is treated as a complete four-dimensional structure, consistency is a
@@ -601,6 +496,24 @@ export default function Logic() {
               A history is consistent the way a completed solution is: every part fits every other
               part. Observation adds no constraint to this. It registers histories that are already
               consistent. Nothing here requires backward causation or signaling.
+            </p>
+
+            <p className="leading-relaxed">
+              Eternalism and the relational commitment describe different layers of the framework.
+              The block universe is the structural layer: absolute, observer-independent, and
+              tenseless, with no moment picked out as the present. It is{" "}
+              <MathInline>{"C"}</MathInline>. Registered facts live within it, indexed to the
+              observers the block contains. There is no tension between an absolute geometry and
+              relational facts of experience, because they are claims about different things: the
+              block describes what is consistent, and registration determines what is present.
+            </p>
+
+            <p className="leading-relaxed">
+              Nor is the block a perspective from nowhere imposed on top of observers. Relativity
+              removes any privileged present, leaving the invariant relational structure that all
+              perspectives share. The block universe is what remains when every observer&apos;s
+              perspective is taken into account. In that sense eternalism is not in competition with
+              relationalism. It is its structural expression.
             </p>
 
             <p className="leading-relaxed">
@@ -684,7 +597,7 @@ export default function Logic() {
       </section>
       <section id="ontology" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Φ and Ontological Requirements
+          The Threshold and Observer Requirements
           <FootnoteLink
             className="relative left-1 -top-2.5"
             number={logicCitationMap["ontology"]}
@@ -835,7 +748,7 @@ export default function Logic() {
             from an embarrassment into a prediction, and dish-grown neural networks offer the
             cheapest test (
             <a href="/predictions#minimal-neural-systems" className="underline hover:no-underline">
-              Minimal neural systems
+              Test B
             </a>
             ). Holos does not claim that every kind of mind crosses in the same way: systems that
             differ in geometry and wiring may well differ in how they cross.
@@ -848,7 +761,7 @@ export default function Logic() {
 
         {/* Requirements */}
         <div className="flex flex-col gap-6">
-          <h3 className="text-xl font-medium pb-2">Ontological Requirements for Observation</h3>
+          <h3 className="text-xl font-medium pb-2">Observer Requirements</h3>
 
           <p className="text-black/80 leading-relaxed">
             For a system to count as an observer in the Holos sense, it must satisfy all of the
@@ -970,13 +883,12 @@ export default function Logic() {
               perspective. This is Holos&apos;s answer to what philosophers call the boundary
               problem: what fixes where one subject ends and the next begins. This principle is
               borrowed from integrated-information theory as a structural constraint only, without
-              its surrounding ontology, and it is held tentatively. Holos has not yet stated which
-              candidate systems are compared or how overlapping candidates are resolved, which
-              integrated-information theory&apos;s exclusion procedure does spell out; see{" "}
-              <a href="#open-problems" className="underline hover:no-underline">
+              its surrounding ontology, and it is held tentatively: how the comparison is run is
+              still open (see{" "}
+              <a href="#observer-boundaries" className="underline hover:no-underline">
                 Open Problems
               </a>
-              .
+              ).
             </p>
 
             <p className="leading-relaxed">
@@ -1008,6 +920,62 @@ export default function Logic() {
               human sense. It claims only that some experience exists.
             </p>
           </div>
+        </div>
+        <div id="why-integration" className="flex flex-col gap-4 text-black/80">
+          <h3 className="text-xl font-medium pb-2">Why Integration</h3>
+          <p className="leading-relaxed">
+            A third addition might seem to be hiding in the threshold: a bridge principle
+            stipulating that the totality registers itself through <em>integrated</em> systems
+            specifically. Why integration, rather than mass, symmetry, or complexity? One tempting
+            answer is that the connection is definitional: a perspective is unified by nature,
+            integration is the name for being unified, and so the count stays at two. Stated that
+            baldly, the answer proves too little, because &quot;unified&quot; means two different
+            things. An experience can be one (a single field, not adjacent fragments) while the
+            machinery producing it is many: the image on a screen is seamless, and the pixels
+            beneath it are strangers to each other. The unity of what appears does not, by itself,
+            fix the wiring of what produces it.
+          </p>
+
+          <p className="leading-relaxed">
+            So Holos divides the claim into the part that is definitional and the part that must be
+            argued. The definitional part is small: a perspective is one, so whatever hosts it must
+            be one thing in some structural sense. That much is analytic and free. The substantive
+            part is the identification of a structure&apos;s oneness with causal integration, and
+            for that Holos gives an argument rather than a definition. What else could a
+            structure&apos;s being one consist in? A heap of sand is many things in a pile: remove a
+            grain and nothing else notices. A body is one thing: its parts constrain each other
+            everywhere. Being one, for a structure, is its parts making a difference to one another,
+            and that is what integration measures. The screen is no counterexample but a
+            confirmation: nobody thinks the screen has a point of view, its pixels are exactly as
+            independent as they seem, and the picture&apos;s unity lives in the one structure in the
+            room whose parts do constrain each other, the viewer&apos;s brain.
+          </p>
+
+          <p className="leading-relaxed">
+            The count therefore stays at two. The bridge&apos;s analytic core costs nothing; its
+            substantive half can fail. It would fail if something could host a unified perspective
+            while its parts remained independent, a conscious screen. And its precise content waits
+            on the open problem of the measure: until the right measure of integration is
+            identified, &quot;parts making a difference to one another&quot; is an argued direction,
+            not a finished quantity. Holos holds it as a working hypothesis, in exactly the sense
+            its{" "}
+            <a href="#open-problems" className="underline hover:no-underline">
+              Open Problems
+            </a>{" "}
+            section already owns.
+          </p>
+
+          <p className="leading-relaxed text-black/70 text-sm">
+            This is a claim about what would have to be true of any host of a perspective, not a
+            derivation of experience from structure. It explains why the threshold is placed on
+            integration rather than on some other quantity; it does not explain why unified
+            structure is present at all. That question Holos does not answer: its posits take
+            experience as given (see the{" "}
+            <a href="/#consciousness-hard-problem" className="underline hover:no-underline">
+              Hard Problem
+            </a>
+            ).
+          </p>
         </div>
       </section>
       {/* Totality */}
@@ -1290,19 +1258,6 @@ export default function Logic() {
           </p>
 
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Consistency, not intervention</h3>
-            <p className="leading-relaxed">
-              Holos without collapse, the version defended here, does not treat observation as a
-              force that reaches into the world and changes events. Observation marks where
-              consistent histories are lived.
-            </p>
-            <p className="leading-relaxed">
-              This preserves locality and avoids faster-than-light signaling. It also avoids
-              claiming any retrocausal communication.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Decoherence is not presence</h3>
             <p className="leading-relaxed">
               Decoherence explains why quantum systems appear classical at macroscopic scales. It
@@ -1336,17 +1291,13 @@ export default function Logic() {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Conservation and branching</h3>
             <p className="leading-relaxed">
-              Holos treats manifestation neither as selection nor as the destruction of
-              possibilities. Information is conserved. What is not experienced is not erased.
-            </p>
-            <p className="leading-relaxed">
-              On the physics, this commits Holos to a branching picture. The quantum state evolves
-              smoothly and reversibly, never collapsing (unitary evolution), and no possibility is
-              erased. When observers would register incompatible outcomes, they are situated in
-              different branches of the possibility structure, each internally consistent. In this
-              respect Holos sides with Many-Worlds-style interpretations of quantum mechanics, while
-              adding what they leave out: an account of which structures are present as experience.
-              This is a genuine interpretive commitment, not a neutral stance.
+              Axiom 2 commits Holos to a branching picture. The quantum state evolves smoothly and
+              reversibly, never collapsing (unitary evolution), and no possibility is erased. When
+              observers would register incompatible outcomes, they are situated in different
+              branches of the possibility structure, each internally consistent. In this respect
+              Holos sides with Many-Worlds-style interpretations of quantum mechanics, while adding
+              what they leave out: an account of which structures are present as experience. This is
+              a genuine interpretive commitment, not a neutral stance.
             </p>
           </div>
 
@@ -1467,36 +1418,6 @@ export default function Logic() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Block-universe compatibility</h3>
-            <p className="leading-relaxed">
-              If spacetime is treated as a complete four-dimensional structure, Holos treats
-              observation as a feature of whole experienced histories rather than a moment-by-moment
-              collapse process.
-            </p>
-            <p className="leading-relaxed">
-              Eternalism and the relational commitment describe different layers of the framework.
-              The block universe is the structural layer: absolute, observer-independent, and
-              tenseless, with no moment picked out as the present. It is{" "}
-              <MathInline>{"C"}</MathInline>. Registered facts live within it, indexed to the
-              observers the block contains. There is no tension between an absolute geometry and
-              relational facts of experience, because they are claims about different things: the
-              block describes what is consistent, and registration determines what is present.
-            </p>
-            <p className="leading-relaxed">
-              Nor is the block a perspective from nowhere imposed on top of observers. Relativity
-              removes any privileged present, leaving the invariant relational structure that all
-              perspectives share. The block universe is what remains when every observer&apos;s
-              perspective is taken into account. In that sense eternalism is not in competition with
-              relationalism. It is its structural expression.
-            </p>
-            <p className="leading-relaxed">
-              The important point is not the metaphysics of time. The point is that a consistent
-              spacetime description, stated from outside, does not say where anything is lived.
-              Holos adds where: inside observers.
-            </p>
-          </div>
-
           <div className="mt-2 pt-4 border-t border-black/10">
             <h3 className="text-lg font-semibold text-black/90 pb-2">What Holos does not claim</h3>
             <ul className="flex flex-col gap-2 pl-6 list-disc">
@@ -1516,61 +1437,6 @@ export default function Logic() {
             <p className="leading-relaxed pt-3">
               What Holos <strong>does</strong> add is the two posits of Axioms 3 and 5: the
               threshold <MathInline>{"\\Phi_c"}</MathInline> and the totality, Omega.
-            </p>
-
-            <p className="leading-relaxed">
-              A third addition might seem to be hiding here: a bridge principle stipulating that the
-              totality registers itself through <em>integrated</em> systems specifically. Why
-              integration, rather than mass, symmetry, or complexity? One tempting answer is that
-              the connection is definitional: a perspective is unified by nature, integration is the
-              name for being unified, and so the count stays at two. Stated that baldly, the answer
-              proves too little, because &quot;unified&quot; means two different things. An
-              experience can be one (a single field, not adjacent fragments) while the machinery
-              producing it is many: the image on a screen is seamless, and the pixels beneath it are
-              strangers to each other. The unity of what appears does not, by itself, fix the wiring
-              of what produces it.
-            </p>
-
-            <p className="leading-relaxed">
-              So Holos divides the claim into the part that is definitional and the part that must
-              be argued. The definitional part is small: a perspective is one, so whatever hosts it
-              must be one thing in some structural sense. That much is analytic and free. The
-              substantive part is the identification of a structure&apos;s oneness with causal
-              integration, and for that Holos gives an argument rather than a definition. What else
-              could a structure&apos;s being one consist in? A heap of sand is many things in a
-              pile: remove a grain and nothing else notices. A body is one thing: its parts
-              constrain each other everywhere. Being one, for a structure, is its parts making a
-              difference to one another, and that is what integration measures. The screen is no
-              counterexample but a confirmation: nobody thinks the screen has a point of view, its
-              pixels are exactly as independent as they seem, and the picture&apos;s unity lives in
-              the one structure in the room whose parts do constrain each other, the viewer&apos;s
-              brain.
-            </p>
-
-            <p className="leading-relaxed">
-              The count therefore stays at two. The bridge&apos;s analytic core costs nothing; its
-              substantive half can fail. It would fail if something could host a unified perspective
-              while its parts remained independent, a conscious screen. And its precise content
-              waits on the open problem of the measure: until the right measure of integration is
-              identified, &quot;parts making a difference to one another&quot; is an argued
-              direction, not a finished quantity. Holos holds it as a working hypothesis, in exactly
-              the sense its{" "}
-              <a href="#open-problems" className="underline hover:no-underline">
-                Open Problems
-              </a>{" "}
-              section already owns.
-            </p>
-
-            <p className="leading-relaxed text-black/70 text-sm">
-              This is a claim about what would have to be true of any host of a perspective, not a
-              derivation of experience from structure. It explains why the threshold is placed on
-              integration rather than on some other quantity; it does not explain why unified
-              structure is present at all. That question Holos does not answer: its posits take
-              experience as given (see the{" "}
-              <a href="/#consciousness-hard-problem" className="underline hover:no-underline">
-                Hard Problem
-              </a>
-              ).
             </p>
           </div>
         </div>
@@ -1667,7 +1533,9 @@ export default function Logic() {
               This expression states that lived reality is neither pure possibility nor pure
               observation. It needs both. <MathInline>{"R"}</MathInline> is the family of lived
               perspectives, one per observer per branch, each with the lit world it draws on:
-              structure that is also lived.
+              structure that is also lived. Structure is fully real whether or not it is lived;{" "}
+              <MathInline>{"R"}</MathInline> marks where it is also lived, a label for a difference,
+              not a higher grade of reality.
             </p>
 
             <p className="leading-relaxed">
@@ -1704,38 +1572,40 @@ export default function Logic() {
           </div>
         </div>
       </section>
-      {/* Extrapolative Proposition */}
-      <section id="extrapolative-proposition" className="flex flex-col gap-6">
+      <div id="comparison">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Companion Principle
-          <FootnoteLink number={logicCitationMap["extrapolative-proposition"]} />
+          Holos among Quantum Interpretations
         </h2>
-
-        <p className="text-black/70 italic text-sm">
-          The principle in this section is not part of the core. It underwrites the companion ideas,
-          the Integration Hypothesis and the Teeming Dark; if it fails, the core stands.
+        <p className="leading-relaxed text-black/80 mb-4">
+          Holos re-positions the strongest insights of existing quantum interpretations within a
+          single ontological framework. On the physics it takes a side: no collapse, no erased
+          possibilities, branching when registrations diverge. That is the Many-Worlds picture. Its
+          divergence from Many-Worlds is ontological: branching alone does not say which structures
+          are present as experience. The table also includes the two collapse views Holos bets
+          against: objective collapse, in which superpositions collapse on their own (as in the
+          Diósi-Penrose model), and consciousness collapse, in which a conscious system causes it
+          (as Chalmers and McQueen propose). The table below clarifies where Holos aligns with, and
+          diverges from, each.
         </p>
-
-        <div className="flex flex-col gap-8 text-black/80">
-          <div id="structural-constraint" className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Structural Constraint</h3>
-            <p className="leading-relaxed">
-              Finite signal speed and finite energy impose limits on how coherence can scale within
-              three-dimensional space. As systems grow, coordination across distance becomes
-              increasingly costly and fragile. These constraints do not forbid large integrated
-              systems, but they shape their architecture: stable systems tend to minimize global
-              synchronization and rely on locally enforced structure.
-            </p>
-            <p className="leading-relaxed text-black/70">
-              This is ordinary physics, not a Holos axiom. It underwrites the companion ideas, the
-              Integration Hypothesis and the Teeming Dark, rather than the core. Higher-dimensional
-              descriptions may be useful for modeling such organization; that is a representational
-              choice, not a claim about extra spatial directions.
-            </p>
-          </div>
-        </div>
-      </section>
-
+        <InterpretiveComparisonTable />
+      </div>
+      <div id="mind-comparison">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Holos among Theories of Mind</h2>
+        <p className="leading-relaxed text-black/80 mb-4">
+          Most of what Holos claims is about mind, not physics, so it needs a second map. It shares
+          integration with integrated information theory without IIT&apos;s identity claim or its
+          experience in every integrated system, shares a single ground of experience with
+          cosmopsychism without a cosmic experience of its own, and rejects both panpsychism&apos;s
+          experience everywhere and illusionism&apos;s claim that experience, as we usually conceive
+          it, does not exist. It is neither physicalism nor dualism but a two-sided monism with a
+          threshold (see{" "}
+          <a href="#kind-of-view" className="underline hover:no-underline">
+            What kind of view this is
+          </a>
+          ). The table below shows where it sits.
+        </p>
+        <MindComparisonTable />
+      </div>
       {/* Open Problems */}
       <section id="open-problems" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">Open Problems</h2>
@@ -1756,8 +1626,8 @@ export default function Logic() {
               structure; it does not yet know how to compute it. The stakes reach back into the
               framework&apos;s core argument: the identification of a structure&apos;s oneness with
               causal integration (see{" "}
-              <a href="#relationship-to-physics" className="underline hover:no-underline">
-                Relationship to Physics
+              <a href="#why-integration" className="underline hover:no-underline">
+                Why Integration
               </a>
               ) remains an argued direction rather than a finished quantity until the measure is
               fixed. The problem also includes the question of level. Holos measures integration
@@ -1985,33 +1855,21 @@ export default function Logic() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3">
+          <div id="observer-boundaries" className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">
               Where one observer ends and another begins
             </h3>
             <p className="leading-relaxed">
-              Integration comes in nested layers (a hemisphere within a brain, a brain within a
-              coupled pair), and the observer requirements alone do not say which layer hosts the
-              perspective. Holos provisionally adopts a maximality condition: only a local maximum
-              of integration is an aperture. This prevents the same substrate from being counted as
-              many overlapping observers, but Holos borrows it as a structural constraint rather
-              than deriving it, and it inherits the unsettled question of{" "}
-              <a href="#open-problems" className="underline hover:no-underline">
-                which measure
-              </a>{" "}
-              defines the maximum. It also lacks a stated procedure: which candidate systems are
-              compared, and how overlapping candidates are resolved. Integrated-information theory
-              spells out such a procedure; Holos has not yet adopted or replaced it. Until the
-              measure and the procedure are fixed, the boundaries between observers are fixed only
-              in principle.
-            </p>
-            <p className="leading-relaxed">
-              Two clarifications bound this problem without solving it. First, the maximality
-              condition individuates finite observers only; the totality never wins it, since as a
-              whole it splits into parts that never touch. Second, the condition is silent about
-              scale. Whether apertures can form at intermediate levels of organization, larger than
-              any brain and smaller than everything, is left open: Holos neither asserts nor
-              excludes them, and the same rule would govern wherever they might form.
+              The maximality condition (see Exclusion, under{" "}
+              <a href="#ontology" className="underline hover:no-underline">
+                Observer Requirements
+              </a>
+              ) makes only a local maximum of integration an aperture. It inherits the unsettled
+              question of which measure defines the maximum, and it lacks a stated procedure: which
+              candidate systems are compared, and how overlapping candidates are resolved.
+              Integrated-information theory spells out such a procedure; Holos has not yet adopted
+              or replaced it. Until the measure and the procedure are fixed, the boundaries between
+              observers are fixed only in principle.
             </p>
           </div>
 

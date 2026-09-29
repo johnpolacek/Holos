@@ -8,7 +8,7 @@ export interface CitationSubsection {
   number: number;
   id: string;
   title: string;
-  /** Canonical link to the corresponding section on the site (e.g. /#meaning-of-life, /logic#minimal-core). */
+  /** Canonical link to the corresponding section on the site (e.g. /#consciousness, /logic#minimal-core). */
   canonicalLink: string;
   items: CitationItem[];
 }
@@ -65,54 +65,16 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "The view that past, present, and future exist as a four-dimensional block; Holos treats observation as what registers this structure as experience.",
           },
+          {
+            name: "Holos",
+            url: "#introduction",
+            description:
+              "The whole of reality as both structure and lived experience: lawful possibility composed with registration, symbolized by ⊛.",
+          },
         ],
       },
       {
         number: 2,
-        id: "meaning-of-life",
-        title: "The Meaning of Life",
-        canonicalLink: "/#meaning-of-life",
-        items: [
-          {
-            name: "Observer Effect",
-            url: "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
-            description:
-              "The disturbance of a system by the physical act of measuring it. Holos denies any further, consciousness-linked disturbance: observation changes no physics.",
-          },
-          {
-            name: "Copenhagen Interpretation",
-            url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
-            description:
-              "Observation collapses the wavefunction into a definite state. Holos without collapse, the version defended here, rejects it: evolution stays unitary, and branches with observers are lived from within.",
-          },
-          {
-            name: "Quantum Darwinism",
-            url: "https://en.wikipedia.org/wiki/Quantum_Darwinism",
-            description:
-              "An environment selectively proliferates certain quantum states that become classical outcomes, observed by multiple observers.",
-          },
-          {
-            name: "Relational Quantum Mechanics",
-            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
-            description:
-              "The properties of quantum systems are not absolute but relative to the observer.",
-          },
-          {
-            name: "Participatory Anthropic Principle",
-            url: "https://en.wikipedia.org/wiki/Anthropic_principle",
-            description:
-              'The universe, as a condition of its existence, must be observed. As a "self-excited circuit", the universe requires one or more observers to bring its laws into existence.',
-          },
-          {
-            name: "Von Neumann-Wigner Interpretation",
-            url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
-            description:
-              "Consciousness causes collapse. The view Holos bets against: a consciousness-linked deviation would falsify Holos without collapse, leaving Holos with collapse, which shares its core (the standing bet).",
-          },
-        ],
-      },
-      {
-        number: 3,
         id: "consciousness",
         title: "Consciousness",
         canonicalLink: "/#consciousness",
@@ -168,7 +130,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 4,
+        number: 3,
         id: "spacetime",
         title: "Spacetime",
         canonicalLink: "/#spacetime",
@@ -231,10 +193,40 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "The screen pattern never changes; interference appears only when recorded hits are sorted using later measurements. Ordinary quantum mechanics predicts every result, with nothing traveling backward in time.",
           },
+          {
+            name: "Observer Effect",
+            url: "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
+            description:
+              "The disturbance of a system by the physical act of measuring it. Holos denies any further, consciousness-linked disturbance: observation changes no physics.",
+          },
+          {
+            name: "Copenhagen Interpretation",
+            url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
+            description:
+              "Observation collapses the wavefunction into a definite state. Holos without collapse, the version defended here, rejects it: evolution stays unitary, and branches with observers are lived from within.",
+          },
+          {
+            name: "Quantum Darwinism",
+            url: "https://en.wikipedia.org/wiki/Quantum_Darwinism",
+            description:
+              "An environment selectively proliferates certain quantum states that become classical outcomes, observed by multiple observers.",
+          },
+          {
+            name: "Relational Quantum Mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "The properties of quantum systems are not absolute but relative to the observer.",
+          },
+          {
+            name: "Von Neumann-Wigner Interpretation",
+            url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
+            description:
+              "Consciousness causes collapse. The view Holos bets against: a consciousness-linked deviation would falsify Holos without collapse, leaving Holos with collapse, which shares its core (the standing bet).",
+          },
         ],
       },
       {
-        number: 5,
+        number: 4,
         id: "infinity",
         title: "Infinity",
         canonicalLink: "/#infinity",
@@ -268,6 +260,91 @@ export const citationMainSections: CitationMainSection[] = [
             url: "https://en.wikipedia.org/wiki/Point_at_infinity",
             description:
               "In projective geometry, the point where parallel lines converge, representing the boundary where infinite space folds into a finite structure.",
+          },
+        ],
+      },
+      {
+        number: 5,
+        id: "omega-point",
+        title: "Omega",
+        canonicalLink: "/#omega-point",
+        items: [
+          {
+            name: "Everett (1957), Relative state formulation of quantum mechanics",
+            url: "https://doi.org/10.1103/RevModPhys.29.454",
+            description:
+              "Reviews of Modern Physics: the origin of the universal wave function. Physically, Holos's Omega is this one universal quantum state.",
+          },
+          {
+            name: "Everett's relative-state formulation (Stanford Encyclopedia of Philosophy)",
+            url: "https://plato.stanford.edu/entries/qm-everett/",
+            description: "Reference overview of Everett's theory and its interpretations.",
+          },
+          {
+            name: "Panentheism",
+            url: "https://en.wikipedia.org/wiki/Panentheism",
+            description:
+              "The belief that the divine intersects every part of the universe and also extends beyond space and time.",
+          },
+          {
+            name: "Brahman",
+            url: "https://en.wikipedia.org/wiki/Brahman",
+            description:
+              "The pervasive, infinite, eternal truth, consciousness and bliss which does not change, yet is the cause of all changes.",
+          },
+          {
+            name: "Omega Point",
+            url: "https://en.wikipedia.org/wiki/Omega_Point",
+            description:
+              "A future event in which the entirety of the universe spirals toward a final point of unification. Holos borrows the name, not the idea: its Omega is the whole, not an endpoint.",
+          },
+          {
+            name: "Advaita Vedanta",
+            url: "https://en.wikipedia.org/wiki/Advaita_Vedanta",
+            description:
+              "The nondual school of Indian philosophy holding that there is one experiencer, and that each individual consciousness is that one seen through a local form; a named ancestor of the Holos monist reading.",
+          },
+          {
+            name: "Baruch Spinoza",
+            url: "https://en.wikipedia.org/wiki/Baruch_Spinoza",
+            description:
+              "Philosopher of substance monism: one substance, of which all finite things are modes or expressions.",
+          },
+          {
+            name: "George Berkeley",
+            url: "https://en.wikipedia.org/wiki/George_Berkeley",
+            description:
+              "Idealist philosopher who grounded the persistence of the unobserved world in a perceiver that never looks away.",
+          },
+          {
+            name: "Open individualism",
+            url: "https://en.wikipedia.org/wiki/Open_individualism",
+            description:
+              "Daniel Kolak (I Am You, 2004): there is one person, and every one of us is it. The nearest modern relative of the Holos monist reading. Its price: every observer's future experience is yours to anticipate; its payoff: self-interest and concern for others coincide.",
+          },
+          {
+            name: "Vertiginous question",
+            url: "https://en.wikipedia.org/wiki/Vertiginous_question",
+            description:
+              'Why, of all the subjects there are, am I this one? Some call it a brute fact; indexical accounts say nothing needs explaining because "I" picks out the asker; on the Holos monist reading nothing needs explaining because the one subject is each.',
+          },
+          {
+            name: "Perry (1979), The problem of the essential indexical",
+            url: "https://doi.org/10.2307/2214792",
+            description:
+              'Noûs: the classic account of "I", "here", and "now" as words that pick out the speaker\'s own position. The strongest rival reply to the vertiginous question, stated on the site beside the monist one.',
+          },
+          {
+            name: "Teletransportation paradox",
+            url: "https://en.wikipedia.org/wiki/Teletransportation_paradox",
+            description:
+              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder. Parfit's own answer: identity is not what matters.",
+          },
+          {
+            name: "Parfit (1984), Reasons and Persons",
+            url: "https://doi.org/10.1093/019824908X.001.0001",
+            description:
+              "Oxford University Press: argues that identity is not what matters in survival, and that seeing this weakens the line between self-interest and concern for others. A route to impartial concern without one subject, which is why the Holos payoff is not unique.",
           },
         ],
       },
@@ -429,95 +506,28 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "IBM Journal of Research and Development: erasing information has an unavoidable heat cost. Long-running computers must correct errors, which means erasing, so they shed heat, though careful designs can keep the cost small.",
           },
+          {
+            name: "Euclid Mission",
+            url: "https://www.euclid-ec.org/",
+            description:
+              "March 2025 Q1 data: 26M galaxies, precision mass mapping. Compact mass peaks with weak visible counterparts become interesting only after conventional explanations fail, and only alongside an infrared excess.",
+          },
+          {
+            name: "James Webb Space Telescope (JWST)",
+            url: "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
+            description:
+              "Deep-field mass structure under active study. For Holos, a candidate Dark Node requires gravity plus faint warmth, not gravity alone.",
+          },
+          {
+            name: "Baryon",
+            url: "https://en.wikipedia.org/wiki/Baryon",
+            description:
+              "Ordinary matter. Dark Nodes remain baryonic: built matter that stops shining.",
+          },
         ],
       },
       {
         number: 8,
-        id: "omega-point",
-        title: "Omega",
-        canonicalLink: "/#omega-point",
-        items: [
-          {
-            name: "Everett (1957), Relative state formulation of quantum mechanics",
-            url: "https://doi.org/10.1103/RevModPhys.29.454",
-            description:
-              "Reviews of Modern Physics: the origin of the universal wave function. Physically, Holos's Omega is this one universal quantum state.",
-          },
-          {
-            name: "Everett's relative-state formulation (Stanford Encyclopedia of Philosophy)",
-            url: "https://plato.stanford.edu/entries/qm-everett/",
-            description: "Reference overview of Everett's theory and its interpretations.",
-          },
-          {
-            name: "Panentheism",
-            url: "https://en.wikipedia.org/wiki/Panentheism",
-            description:
-              "The belief that the divine intersects every part of the universe and also extends beyond space and time.",
-          },
-          {
-            name: "Brahman",
-            url: "https://en.wikipedia.org/wiki/Brahman",
-            description:
-              "The pervasive, infinite, eternal truth, consciousness and bliss which does not change, yet is the cause of all changes.",
-          },
-          {
-            name: "Omega Point",
-            url: "https://en.wikipedia.org/wiki/Omega_Point",
-            description:
-              "A future event in which the entirety of the universe spirals toward a final point of unification. Holos borrows the name, not the idea: its Omega is the whole, not an endpoint.",
-          },
-          {
-            name: "Advaita Vedanta",
-            url: "https://en.wikipedia.org/wiki/Advaita_Vedanta",
-            description:
-              "The nondual school of Indian philosophy holding that there is one experiencer, and that each individual consciousness is that one seen through a local form; a named ancestor of the Holos monist reading.",
-          },
-          {
-            name: "Baruch Spinoza",
-            url: "https://en.wikipedia.org/wiki/Baruch_Spinoza",
-            description:
-              "Philosopher of substance monism: one substance, of which all finite things are modes or expressions.",
-          },
-          {
-            name: "George Berkeley",
-            url: "https://en.wikipedia.org/wiki/George_Berkeley",
-            description:
-              "Idealist philosopher who grounded the persistence of the unobserved world in a perceiver that never looks away.",
-          },
-          {
-            name: "Open individualism",
-            url: "https://en.wikipedia.org/wiki/Open_individualism",
-            description:
-              "Daniel Kolak (I Am You, 2004): there is one person, and every one of us is it. The nearest modern relative of the Holos monist reading. Its price: every observer's future experience is yours to anticipate; its payoff: self-interest and concern for others coincide.",
-          },
-          {
-            name: "Vertiginous question",
-            url: "https://en.wikipedia.org/wiki/Vertiginous_question",
-            description:
-              'Why, of all the subjects there are, am I this one? Some call it a brute fact; indexical accounts say nothing needs explaining because "I" picks out the asker; on the Holos monist reading nothing needs explaining because the one subject is each.',
-          },
-          {
-            name: "Perry (1979), The problem of the essential indexical",
-            url: "https://doi.org/10.2307/2214792",
-            description:
-              'Noûs: the classic account of "I", "here", and "now" as words that pick out the speaker\'s own position. The strongest rival reply to the vertiginous question, stated on the site beside the monist one.',
-          },
-          {
-            name: "Teletransportation paradox",
-            url: "https://en.wikipedia.org/wiki/Teletransportation_paradox",
-            description:
-              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder. Parfit's own answer: identity is not what matters.",
-          },
-          {
-            name: "Parfit (1984), Reasons and Persons",
-            url: "https://doi.org/10.1093/019824908X.001.0001",
-            description:
-              "Oxford University Press: argues that identity is not what matters in survival, and that seeing this weakens the line between self-interest and concern for others. A route to impartial concern without one subject, which is why the Holos payoff is not unique.",
-          },
-        ],
-      },
-      {
-        number: 9,
         id: "why",
         title: "Why Are We Here?",
         canonicalLink: "/#why",
@@ -534,19 +544,11 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "Reference overview of the view that entangled systems are not composed of independently existing parts. Holos goes one step further and takes that oneness as more basic than the separations.",
           },
-        ],
-      },
-      {
-        number: 10,
-        id: "holos",
-        title: "Holos",
-        canonicalLink: "/#holos",
-        items: [
           {
-            name: "Holos",
-            url: "#holos",
+            name: "Participatory Anthropic Principle",
+            url: "https://en.wikipedia.org/wiki/Anthropic_principle",
             description:
-              "The whole of reality as both structure and lived experience: lawful possibility composed with registration, symbolized by ⊛.",
+              'The universe, as a condition of its existence, must be observed. As a "self-excited circuit", the universe requires one or more observers to bring its laws into existence.',
           },
         ],
       },
@@ -557,125 +559,7 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Logic",
     subsections: [
       {
-        number: 11,
-        id: "operational-definition",
-        title: "Definition",
-        canonicalLink: "/logic#operational-definition",
-        items: [
-          {
-            name: "Integrated Information Theory",
-            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
-            description:
-              "IIT identifies consciousness with integrated information (Φ). Holos borrows Φ as a measure of integration only; the threshold Φ_c is its own commitment, not IIT's.",
-          },
-        ],
-      },
-      {
-        number: 12,
-        id: "comparison",
-        title: "Comparison",
-        canonicalLink: "/logic#comparison",
-        items: [
-          {
-            name: "Goff (2017), Consciousness and Fundamental Reality",
-            url: "https://doi.org/10.1093/oso/9780190677015.001.0001",
-            description:
-              "Oxford University Press: the case for priority cosmopsychism, a conscious cosmos from which individual minds derive. Holos shares the single ground but denies the cosmos any pooled experience of its own.",
-          },
-          {
-            name: "Nagasawa and Wager (2016), Panpsychism and priority cosmopsychism",
-            url: "https://doi.org/10.1093/acprof:oso/9780199359943.003.0005",
-            description:
-              "Sets out priority cosmopsychism and the decomposition problem it faces: how one cosmic subject yields many individual ones. Holos's section on walled-off perspectives answers the same problem.",
-          },
-          {
-            name: "Russellian monism",
-            url: "https://en.wikipedia.org/wiki/Russellian_monism",
-            description:
-              "Physics describes structure; experience is the intrinsic nature of that structure. Holos agrees experience is the inside of physical activity, but only above the threshold.",
-          },
-          {
-            name: "Dual-aspect monism",
-            url: "https://en.wikipedia.org/wiki/Dual-aspect_monism",
-            description:
-              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4. Holos is a two-sided monism with a threshold: the two sides appear only above it.",
-          },
-          {
-            name: "Physicalism (Stanford Encyclopedia of Philosophy)",
-            url: "https://plato.stanford.edu/entries/physicalism/",
-            description:
-              "The view that everything is physical, with the mental grounded in the physical. Holos agrees physics fixes every fact, so copies match in every possible world, but holds that neither side of an observer's activity is grounded in the other. Some will still classify it as physicalism; the site says why it does not.",
-          },
-          {
-            name: "Phenomenal concept strategy",
-            url: "https://en.wikipedia.org/wiki/Phenomenal_concept_strategy",
-            description:
-              "The explanatory gap lies between two ways of describing one thing, not between two things. Axiom 4's floor-plan argument is a version of it.",
-          },
-          {
-            name: "Antony (2006), Vagueness and the metaphysics of consciousness",
-            url: "https://doi.org/10.1007/s11098-004-7488-8",
-            description:
-              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism; the rest posit an exact cutoff. Holos rejects the premise and accepts a narrow twilight between clear cases.",
-          },
-          {
-            name: "Schwitzgebel (2023), Borderline consciousness",
-            url: "https://doi.org/10.1007/s11098-023-02042-1",
-            description:
-              "Philosophical Studies: argues that borderline cases of experience are coherent. They cannot be pictured from the inside, since picturing an experience makes it definite, but that limits imagination, not reality. The reply Holos gives to the no-vagueness argument.",
-          },
-          {
-            name: "Rosenberg (2004), A Place for Consciousness",
-            url: "https://doi.org/10.1093/acprof:oso/9780195168143.001.0001",
-            description:
-              "Oxford University Press: poses the boundary problem, what fixes where one subject ends. Holos answers with its maximality condition: one peak of integration, one perspective.",
-          },
-          {
-            name: "Global workspace theory",
-            url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
-            description:
-              "Conscious access as brain-wide broadcast. A column in the Holos theories-of-mind table.",
-          },
-          {
-            name: "Illusionism",
-            url: "https://en.wikipedia.org/wiki/Illusionism_(philosophy)",
-            description:
-              "Experience as usually conceived does not exist. A column in the Holos theories-of-mind table; Holos rejects it.",
-          },
-          {
-            name: "Many-worlds interpretation",
-            url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
-            description:
-              "Everett (1957): every possible outcome of a quantum event really happens, in its own branch. Holos agrees all branches exist, but adds that only some are registered as anyone's actual experience.",
-          },
-          {
-            name: "Relational quantum mechanics",
-            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
-            description:
-              "Rovelli (1996): quantum properties are relative to observers; Holos aligns on relational facts, but keeps the universal state RQM rejects, and adds a threshold (Φ ≥ Φ_c) for what counts as an observer.",
-          },
-          {
-            name: "QBism",
-            url: "https://en.wikipedia.org/wiki/Quantum_Bayesianism",
-            description:
-              "Quantum Bayesianism: quantum probabilities are agent-centered beliefs; Holos is ontological (what is lived) rather than epistemic (what agents believe).",
-          },
-          {
-            name: "Copenhagen interpretation",
-            url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
-            description:
-              "Classical interpretation with wavefunction collapse; Holos without collapse, the version defended here, drops it: evolution stays unitary, branches remain, and those with observers are lived from within.",
-          },
-          {
-            name: "Objective collapse theories",
-            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
-            description:
-              "Theories in which collapse is a physical process; Holos without collapse rejects them. A consciousness-linked collapse would falsify that version and leave Holos with collapse, declared in advance, with the threshold as the collapse point (the standing bet).",
-          },
-        ],
-      },
-      {
-        number: 13,
+        number: 9,
         id: "primitive-definitions",
         title: "Primitives",
         canonicalLink: "/logic#primitive-definitions",
@@ -701,7 +585,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 14,
+        number: 10,
         id: "logic-axioms",
         title: "Axioms",
         canonicalLink: "/logic#logic-axioms",
@@ -721,7 +605,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 15,
+        number: 11,
         id: "foundational-propositions",
         title: "Foundations",
         canonicalLink: "/logic#foundational-propositions",
@@ -765,11 +649,17 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 16,
+        number: 12,
         id: "ontology",
-        title: "Ontology",
+        title: "Threshold",
         canonicalLink: "/logic#ontology",
         items: [
+          {
+            name: "Integrated Information Theory",
+            url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
+            description:
+              "IIT identifies consciousness with integrated information (Φ). Holos borrows Φ as a measure of integration only; the threshold Φ_c is its own commitment, not IIT's.",
+          },
           {
             name: "Percolation threshold",
             url: "https://en.wikipedia.org/wiki/Percolation_threshold",
@@ -893,7 +783,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 17,
+        number: 13,
         id: "relationship-to-physics",
         title: "Relationship to Physics",
         canonicalLink: "/logic#relationship-to-physics",
@@ -949,7 +839,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 18,
+        number: 14,
         id: "mathematical-formalism",
         title: "Notation",
         canonicalLink: "/logic#mathematical-formalism",
@@ -975,16 +865,106 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 19,
-        id: "extrapolative-proposition",
-        title: "Companion Principle",
-        canonicalLink: "/logic#extrapolative-proposition",
+        number: 15,
+        id: "comparison",
+        title: "Comparison",
+        canonicalLink: "/logic#comparison",
         items: [
           {
-            name: "Ephemeralization",
-            url: "https://en.wikipedia.org/wiki/Ephemeralization",
+            name: "Goff (2017), Consciousness and Fundamental Reality",
+            url: "https://doi.org/10.1093/oso/9780190677015.001.0001",
             description:
-              "R. Buckminster Fuller (1938): the process of doing more with less until intelligence can do everything with nothing. The Integration Hypothesis extends this to civilizations turning inward; Fuller did not.",
+              "Oxford University Press: the case for priority cosmopsychism, a conscious cosmos from which individual minds derive. Holos shares the single ground but denies the cosmos any pooled experience of its own.",
+          },
+          {
+            name: "Nagasawa and Wager (2016), Panpsychism and priority cosmopsychism",
+            url: "https://doi.org/10.1093/acprof:oso/9780199359943.003.0005",
+            description:
+              "Sets out priority cosmopsychism and the decomposition problem it faces: how one cosmic subject yields many individual ones. Holos's section on walled-off perspectives answers the same problem.",
+          },
+          {
+            name: "Russellian monism",
+            url: "https://en.wikipedia.org/wiki/Russellian_monism",
+            description:
+              "Physics describes structure; experience is the intrinsic nature of that structure. Holos agrees experience is the inside of physical activity, but only above the threshold.",
+          },
+          {
+            name: "Dual-aspect monism",
+            url: "https://en.wikipedia.org/wiki/Dual-aspect_monism",
+            description:
+              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4. Holos is a two-sided monism with a threshold: the two sides appear only above it.",
+          },
+          {
+            name: "Physicalism (Stanford Encyclopedia of Philosophy)",
+            url: "https://plato.stanford.edu/entries/physicalism/",
+            description:
+              "The view that everything is physical, with the mental grounded in the physical. Holos agrees physics fixes every fact, so copies match in every possible world, but holds that neither side of an observer's activity is grounded in the other. Some will still classify it as physicalism; the site says why it does not.",
+          },
+          {
+            name: "Phenomenal concept strategy",
+            url: "https://en.wikipedia.org/wiki/Phenomenal_concept_strategy",
+            description:
+              "The explanatory gap lies between two ways of describing one thing, not between two things. Axiom 4's floor-plan argument is a version of it.",
+          },
+          {
+            name: "Antony (2006), Vagueness and the metaphysics of consciousness",
+            url: "https://doi.org/10.1007/s11098-004-7488-8",
+            description:
+              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism; the rest posit an exact cutoff. Holos rejects the premise and accepts a narrow twilight between clear cases.",
+          },
+          {
+            name: "Schwitzgebel (2023), Borderline consciousness",
+            url: "https://doi.org/10.1007/s11098-023-02042-1",
+            description:
+              "Philosophical Studies: argues that borderline cases of experience are coherent. They cannot be pictured from the inside, since picturing an experience makes it definite, but that limits imagination, not reality. The reply Holos gives to the no-vagueness argument.",
+          },
+          {
+            name: "Rosenberg (2004), A Place for Consciousness",
+            url: "https://doi.org/10.1093/acprof:oso/9780195168143.001.0001",
+            description:
+              "Oxford University Press: poses the boundary problem, what fixes where one subject ends. Holos answers with its maximality condition: one peak of integration, one perspective.",
+          },
+          {
+            name: "Global workspace theory",
+            url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
+            description:
+              "Conscious access as brain-wide broadcast. A column in the Holos theories-of-mind table.",
+          },
+          {
+            name: "Illusionism",
+            url: "https://en.wikipedia.org/wiki/Illusionism_(philosophy)",
+            description:
+              "Experience as usually conceived does not exist. A column in the Holos theories-of-mind table; Holos rejects it.",
+          },
+          {
+            name: "Many-worlds interpretation",
+            url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+            description:
+              "Everett (1957): every possible outcome of a quantum event really happens, in its own branch. Holos agrees all branches exist, but adds that only some are registered as anyone's actual experience.",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Rovelli (1996): quantum properties are relative to observers; Holos aligns on relational facts, but keeps the universal state RQM rejects, and adds a threshold (Φ ≥ Φ_c) for what counts as an observer.",
+          },
+          {
+            name: "QBism",
+            url: "https://en.wikipedia.org/wiki/Quantum_Bayesianism",
+            description:
+              "Quantum Bayesianism: quantum probabilities are agent-centered beliefs; Holos is ontological (what is lived) rather than epistemic (what agents believe).",
+          },
+          {
+            name: "Copenhagen interpretation",
+            url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
+            description:
+              "Classical interpretation with wavefunction collapse; Holos without collapse, the version defended here, drops it: evolution stays unitary, branches remain, and those with observers are lived from within.",
+          },
+          {
+            name: "Objective collapse theories",
+            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
+            description:
+              "Theories in which collapse is a physical process; Holos without collapse rejects them. A consciousness-linked collapse would falsify that version and leave Holos with collapse, declared in advance, with the threshold as the collapse point (the standing bet).",
           },
         ],
       },
@@ -995,7 +975,7 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Predictions",
     subsections: [
       {
-        number: 20,
+        number: 16,
         id: "prediction-introduction",
         title: "Introduction",
         canonicalLink: "/predictions#prediction-introduction",
@@ -1033,7 +1013,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 21,
+        number: 17,
         id: "commitments",
         title: "Commitments",
         canonicalLink: "/predictions#commitments",
@@ -1077,39 +1057,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 22,
-        id: "expectations",
-        title: "Expectations",
-        canonicalLink: "/predictions#expectations",
-        items: [
-          {
-            name: "Extended Wigner's Friend experiments",
-            url: "https://www.science.org/doi/10.1126/sciadv.aaw9832",
-            description:
-              "Two observers can hold different registered facts about the same event without breaking unitarity. In Holos each fact is indexed to its branch and observer.",
-          },
-          {
-            name: "Unitarity (physics)",
-            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
-            description:
-              "Conservation of all possibilities; Holos predicts agreement among communicating observers without objective collapse.",
-          },
-          {
-            name: "Relational quantum mechanics",
-            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
-            description:
-              "Holos borrows RQM's point that facts are indexed to observing systems, but sides with branching, which keeps the universal state RQM rejects.",
-          },
-          {
-            name: "Objective collapse theories",
-            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
-            description:
-              "Holos without collapse rejects objective collapse: evolution is unitary, and apparent collapse is a record within a branch, definite without any observer.",
-          },
-        ],
-      },
-      {
-        number: 23,
+        number: 18,
         id: "experimentation",
         title: "Testability and Its Limits",
         canonicalLink: "/predictions#experimentation",
@@ -1124,7 +1072,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wiseman, Cavalcanti, and Rieffel (2023), A thoughtful Local Friendliness no-go theorem",
             url: "https://doi.org/10.22331/q-2023-09-14-1112",
             description:
-              "Quantum: proposes a human-level AI on a quantum computer as the friend, the road toward a genuine observer in Check B.",
+              "Quantum: proposes a human-level AI on a quantum computer as the friend, the road toward a genuine observer in Check C.",
           },
           {
             name: "Laux and Cavalcanti (2026), Extended Wigner's friend scenarios with agent-like observers on quantum computers",
@@ -1148,7 +1096,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wigner's friend",
             url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
             description:
-              "Registered facts are observer-indexed; no objective collapse. Extended Wigner's-friend experiments constrain the family of views Holos belongs to (Check B).",
+              "Registered facts are observer-indexed; no objective collapse. Extended Wigner's-friend experiments constrain the family of views Holos belongs to (Check C).",
           },
           {
             name: "Bong et al. (2020), A strong no-go theorem on the Wigner's friend paradox",
@@ -1268,12 +1216,36 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Relational quantum mechanics",
             url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
             description:
-              "Holos shares RQM's observer-indexed facts but not its rejection of a universal state; a positive Check B result supports the family, not Holos alone.",
+              "Holos shares RQM's observer-indexed facts but not its rejection of a universal state; a positive Check C result supports the family, not Holos alone.",
+          },
+          {
+            name: "Extended Wigner's Friend experiments",
+            url: "https://www.science.org/doi/10.1126/sciadv.aaw9832",
+            description:
+              "Two observers can hold different registered facts about the same event without breaking unitarity. In Holos each fact is indexed to its branch and observer.",
+          },
+          {
+            name: "Unitarity (physics)",
+            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            description:
+              "Conservation of all possibilities; Holos predicts agreement among communicating observers without objective collapse.",
+          },
+          {
+            name: "Relational quantum mechanics",
+            url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
+            description:
+              "Holos borrows RQM's point that facts are indexed to observing systems, but sides with branching, which keeps the universal state RQM rejects.",
+          },
+          {
+            name: "Objective collapse theories",
+            url: "https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories",
+            description:
+              "Holos without collapse rejects objective collapse: evolution is unitary, and apparent collapse is a record within a branch, definite without any observer.",
           },
         ],
       },
       {
-        number: 24,
+        number: 19,
         id: "speculation",
         title: "Speculation",
         canonicalLink: "/predictions#speculation",
@@ -1308,28 +1280,10 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "The idea that mature civilizations deliberately leave young ones alone. For Holos, non-contact needs no agreement: leaving a young civilization alone costs nothing, while contact takes effort.",
           },
-          {
-            name: "Euclid Mission",
-            url: "https://www.euclid-ec.org/",
-            description:
-              "March 2025 Q1 data: 26M galaxies, precision mass mapping. Compact mass peaks with weak visible counterparts become interesting only after conventional explanations fail, and only alongside an infrared excess.",
-          },
-          {
-            name: "James Webb Space Telescope (JWST)",
-            url: "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
-            description:
-              "Deep-field mass structure under active study. For Holos, a candidate Dark Node requires gravity plus faint warmth, not gravity alone.",
-          },
-          {
-            name: "Baryon",
-            url: "https://en.wikipedia.org/wiki/Baryon",
-            description:
-              "Ordinary matter. Dark Nodes remain baryonic: built matter that stops shining.",
-          },
         ],
       },
       {
-        number: 25,
+        number: 20,
         id: "technology",
         title: "Technology",
         canonicalLink: "/predictions#technology",
