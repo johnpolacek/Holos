@@ -83,7 +83,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Copenhagen Interpretation",
             url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
             description:
-              "Observation collapses the wavefunction into a definite state. Holos rejects collapse: evolution stays unitary, and each branch is registered from within.",
+              "Observation collapses the wavefunction into a definite state. Holos without collapse, the version defended here, rejects it: evolution stays unitary, and branches with observers are lived from within.",
           },
           {
             name: "Quantum Darwinism",
@@ -664,7 +664,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Copenhagen interpretation",
             url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
             description:
-              "Classical interpretation with wavefunction collapse; Holos drops collapse entirely: evolution stays unitary, branches remain, and each is registered from within.",
+              "Classical interpretation with wavefunction collapse; Holos without collapse, the version defended here, drops it: evolution stays unitary, branches remain, and those with observers are lived from within.",
           },
           {
             name: "Objective collapse theories",
@@ -690,7 +690,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase Space",
             url: "https://en.wikipedia.org/wiki/Phase_space",
             description:
-              "The space of all possible states of a system. Creation is the space of lawful states and trajectories; Observation registers trajectories from within and selects none.",
+              "The space of all possible states of a system. Creation is what physics actually produces in that space, every branch of the one quantum state; Observation registers from within, where observers exist, and selects none.",
           },
           {
             name: "Invariant (physics)",
@@ -748,7 +748,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wave Function Collapse",
             url: "https://en.wikipedia.org/wiki/Wave_function_collapse",
             description:
-              "⊛ is not a physical collapse happening over time. No outcome is picked; each branch is registered from within.",
+              "⊛ is not a physical collapse happening over time. No outcome is picked; each branch with an observer is lived from within.",
           },
           {
             name: "Bayesian Inference",
@@ -902,7 +902,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "Quantum mechanics requires unitarity. Holos preserves it fully: nothing collapses, nothing is selected, and unobserved branches remain in Creation as unlit structure.",
+              "Unitary evolution never collapses. Holos without collapse, the version defended here, preserves it fully: nothing collapses, nothing is selected, and unobserved branches remain in Creation as unlit structure.",
           },
           {
             name: "Hilbert Space",
@@ -1022,7 +1022,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Anthropic principle",
             url: "https://en.wikipedia.org/wiki/Anthropic_principle",
             description:
-              "Holos reframes anthropic selection as ontological filtering: observer-free universes may exist as structure but are never lived.",
+              "Holos keeps what exists apart from where it is lived: observer-free universes or branches are real as structure but never lived, and nothing is selected or filtered.",
           },
           {
             name: "Multiverse",

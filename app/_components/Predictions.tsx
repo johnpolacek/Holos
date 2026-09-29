@@ -17,7 +17,7 @@ export default function Predictions() {
           </h2>
 
           <p className="leading-relaxed">
-            Holos does not add new{" "}
+            In the version this site defends, Holos does not add new{" "}
             <a
               href="https://en.wikipedia.org/wiki/Dynamics_(physics)"
               target="_blank"
@@ -30,9 +30,9 @@ export default function Predictions() {
             observation occurs, and the totality, Omega, as the fundamental ground of experience, of
             which every observer is a local aperture: an opening through which it registers itself.
             The commitments, expectations, and tests below follow from established physics, from
-            those two additions, or, where marked, from the no-collapse side Holos takes on quantum
-            physics (Commitment 3 and Check B). The speculation at the end does not; it is labeled
-            as such.
+            those two additions, from the sides Holos takes on structure and mind (Axioms 1 and 4),
+            or, where marked, from the no-collapse side it takes on quantum physics (Commitment 3
+            and Check B). The speculation at the end does not; it is labeled as such.
           </p>
 
           <p className="leading-relaxed">
@@ -52,7 +52,8 @@ export default function Predictions() {
             <li className="leading-relaxed">
               <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
               a structural test that can fail, a consistency check, and a standing bet on the
-              physics Holos adopts, which decides between two versions of Holos declared in advance.
+              physics Holos adopts, with the version of Holos a loss would leave declared in
+              advance.
             </li>
             <li className="leading-relaxed">
               <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
@@ -250,7 +251,7 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Holos distinguishes two kinds of facts. <strong>Structural facts</strong> describe
-              what is consistent: the laws of physics, the space of allowed histories with their
+              what is consistent: the laws of physics, the branches physics produces with their
               quantum weights, and whether a system meets the integration threshold. These are
               absolute and observer-independent. <strong>Registered facts</strong> describe what is
               lived: which outcome a system registers from its own perspective. These are always
@@ -260,8 +261,8 @@ export default function Predictions() {
             <p className="leading-relaxed">
               The relational commitment applies to registered facts. There is no absolute,
               observer-independent fact about which outcome is experienced. The structural layer, by
-              contrast, is not relative; without it, registration would have nothing stable to close
-              against.
+              contrast, is not relative; without it, registration would have nothing stable to
+              register.
             </p>
 
             <p className="leading-relaxed">
@@ -334,13 +335,14 @@ export default function Predictions() {
           {/* Neuroscience */}
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Neuroscience: Discrete transitions in conscious access
+              Neuroscience: Steep transitions in conscious access
             </h3>
 
             <p className="leading-relaxed">
-              If observerhood requires a minimum level of integration, then transitions between
-              conscious and unconscious states should not appear as smooth signal degradation. They
-              should resemble state changes.
+              If observerhood requires a minimum level of integration, transitions between conscious
+              and unconscious states should be steep, crossing a narrow twilight. If the crossing is
+              also a genuine transition, they should resemble state changes, not smooth signal
+              degradation.
             </p>
 
             <p className="leading-relaxed">
@@ -396,9 +398,9 @@ export default function Predictions() {
             </h3>
 
             <p className="leading-relaxed">
-              If facts are brought into being through registration, quantum experiments should
-              continue to allow descriptions in which different observers register incompatible
-              outcomes without violating global consistency.
+              If registered facts are indexed to observers and no outcome is erased, quantum
+              experiments should continue to allow descriptions in which different observers
+              register incompatible outcomes without violating global consistency.
             </p>
 
             <p className="leading-relaxed">
@@ -472,11 +474,11 @@ export default function Predictions() {
 
           <p className="leading-relaxed">
             This is not a gap Holos has failed to close. It follows from the framework&apos;s own
-            commitment that observation is dynamically inert. The sharpened form of the objection is
-            the <em>unfolding argument</em>: for any conscious system one can in principle describe
-            a behaviorally identical twin wired differently, and no external test could separate
-            them. Holos accepts this. The metaphysical core (presence, and the totality it belongs
-            to) cannot be settled by any experiment.
+            commitment, in the version defended here, that observation is dynamically inert. The
+            sharpened form of the objection is the <em>unfolding argument</em>: for any conscious
+            system one can in principle describe a behaviorally identical twin wired differently,
+            and no external test could separate them. Holos accepts this. The metaphysical claims
+            (presence itself, and the totality it belongs to) cannot be settled by any experiment.
           </p>
 
           <p className="leading-relaxed">
@@ -872,7 +874,7 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             In the version of Holos this site defends, observation is dynamically inert, and that
-            doubles as a bet. A conscious observer and a photon produce identical physics: put an
+            doubles as a bet. A conscious observer obeys the same quantum laws as a photon: put an
             integrated system in the measuring role in place of a particle, and Holos predicts no
             deviation whatsoever. Superpositions lose their quantum character for thermodynamic
             reasons, never because someone was home. This does not make experience idle. Under
@@ -884,7 +886,7 @@ export default function Predictions() {
             <strong>How Holos loses:</strong> if any experiment ever finds a consciousness-linked
             deviation from unitary quantum mechanics (a superposition that degrades when an
             integrated observer registers it, beyond what ordinary decoherence accounts for), Holos
-            without collapse is falsified. Observation would be a force after all.
+            without collapse is falsified. Observation would make a physical difference after all.
           </p>
 
           <p id="two-versions" className="leading-relaxed">
@@ -985,7 +987,12 @@ export default function Predictions() {
           <p className="leading-relaxed">
             Two further experiments might look like confirmations: a sharp integration drop under
             anesthesia, and cultured neural networks snapping into coherence as connectivity grows.
-            Neither counts as a test.
+            Neither counts as a test just by showing a transition. The dish experiment counts only
+            in one form: the size-scaling test of claim 3, under{" "}
+            <a href="#minimal-neural-systems" className="underline hover:no-underline">
+              Minimal neural systems
+            </a>
+            .
           </p>
 
           <p className="leading-relaxed">
@@ -999,12 +1006,12 @@ export default function Predictions() {
           </p>
 
           <p className="leading-relaxed">
-            These remain useful only as <strong>correlate probes</strong> feeding Test A, and only
-            under two conditions: the integration measure and the threshold value are fixed in
-            advance, and there is a stated way to lose: the observed transition tracks a
-            non-integration variable (arousal, metabolic rate, raw activity) rather than
-            integration. Without a pre-committed measure and a real failure condition, a transition
-            &quot;somewhere&quot; is not evidence; it is decoration.
+            These remain useful only as <strong>correlate probes</strong> feeding Test A, or, for
+            dishes, as that size-scaling test, and only under two conditions: the integration
+            measure and the threshold value are fixed in advance, and there is a stated way to lose:
+            the observed transition tracks a non-integration variable (arousal, metabolic rate, raw
+            activity) rather than integration. Without a pre-committed measure and a real failure
+            condition, a transition &quot;somewhere&quot; is not evidence; it is decoration.
           </p>
         </div>
       </section>

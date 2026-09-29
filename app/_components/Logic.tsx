@@ -19,9 +19,10 @@ export default function Logic() {
               axioms
             </a>
             . Two of them are genuine additions to the physical picture: the integration threshold,
-            and the totality. Neither is a new dynamical law, but both are new structural claims.
-            Around the axioms, Holos also takes sides, sets a method, leaves questions open, and
-            keeps some ideas as companions rather than core. It says which is which:
+            and the totality. In the version defended here, neither is a new dynamical law, but both
+            are new structural claims. Around the axioms, Holos also takes sides, sets a method,
+            leaves questions open, and keeps some ideas as companions rather than core. It says
+            which is which:
           </p>
 
           <ul className="flex flex-col gap-2 pl-6 list-disc">
@@ -1017,11 +1018,12 @@ export default function Logic() {
         <div className="flex flex-col gap-8 text-black/80">
           <p className="leading-relaxed">
             Omega is the whole of reality, and Axiom 5 says two things about it. Physically, it is
-            the universal quantum state, all branches included, and it exists now, not at the end of
-            anything. Experientially, it is the one experiencer, awake wherever a system crosses the
-            threshold. Finite systems never take in the whole: deeper integration means witnessing
-            more of it, never all of it. The whole is not produced by that deepening, and it is not
-            fully registered either; its unlit structure is real and never lived.
+            the universe&apos;s complete quantum state (all branches included, in the version
+            defended here), and it exists now, not at the end of anything. Experientially, it is the
+            one experiencer, awake wherever a system crosses the threshold. Finite systems never
+            take in the whole: deeper integration means witnessing more of it, never all of it. The
+            whole is not produced by that deepening, and it is not fully registered either; its
+            unlit structure is real and never lived.
           </p>
 
           <div className="flex flex-col gap-4">

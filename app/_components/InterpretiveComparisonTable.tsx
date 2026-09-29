@@ -33,7 +33,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Collapse?",
-    holos: "No collapse (branching); each branch registered from within",
+    holos: "No collapse (branching); lived from within where observers exist",
     others: [
       "No collapse (branching)",
       "Relative collapse only",
@@ -76,7 +76,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Observer cuts",
-    holos: "Fixed by structure: a local Φ-maximum above Φc",
+    holos: "Fixed by structure: a local Φ-maximum above Φc (provisional rule)",
     others: [
       "Irrelevant",
       "Change relations",

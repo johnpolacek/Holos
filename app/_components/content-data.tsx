@@ -27,7 +27,7 @@ export const sections: ContentSection[] = [
         as structure, yet where it holds no observers, nothing in it is lived. It is summed up in
         one shorthand, <MathInline>R = C ⊛ O</MathInline>, where the symbol ⊛ means
         &quot;possibility, then registration&quot;: an order of logic, not of time, and a summary
-        rather than an equation to compute with. Creation is what physics allows. Observation
+        rather than an equation to compute with. Creation is what physics produces. Observation
         registers it as experience, wherever an observer exists, and on the physics Holos bets on,
         changes nothing it registers. Lived reality needs both: not equations alone, and not
         experience alone, but a world that both exists and is lived. The distinction is a starting
@@ -78,8 +78,8 @@ export const sections: ContentSection[] = [
             Testable, and it can lose (<a href="/predictions#experiment-1">Test A</a>).
           </li>
           <li>
-            <strong>Second addition: Omega.</strong> One experiencer looks out through every
-            observer. Philosophical, not testable; its payoff and its price are stated (
+            <strong>Second addition: Omega.</strong> One experiencer, awake in every observer.
+            Philosophical, not testable; its payoff and its price are stated (
             <a href="#omega-point">Omega</a>).
           </li>
           <li>
@@ -169,9 +169,9 @@ export const sections: ContentSection[] = [
       <>
         In Holos, experience is grounded in the totality: Omega is the one experiencer, and a
         conscious system is a local aperture through which the totality registers itself. Physics
-        can generate structure, but structure alone does not open an aperture. A system becomes
-        conscious when physical information is integrated tightly enough to form a single internal
-        state that can register itself as a whole. That integration is what opens the aperture.
+        generates structure, and most structure opens no aperture. A system becomes conscious when
+        physical information is integrated tightly enough to form a single internal state that can
+        register itself as a whole. That integration is what opens the aperture.
       </>,
       <>
         This distinguishes integration from computation or recursion. Many systems process
@@ -183,7 +183,7 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Practical measures inspired by Φ, such as the Perturbational Complexity Index, track this
-        transition empirically; Φ itself has never been computed for a whole brain. When integration
+        boundary empirically; Φ itself has never been computed for a whole brain. When integration
         in the brain is disrupted, such as under anesthesia, experience fragments or disappears.
         When integration returns, unified experience returns with it. Holos does not claim that Φ
         causes consciousness, and it does not adopt Integrated Information Theory&apos;s claim that
@@ -220,9 +220,10 @@ export const sections: ContentSection[] = [
         Holos does not claim that complexity alone produces consciousness. The key condition is
         integration. When informational states become sufficiently integrated, the system no longer
         contains independent processes but a single causal structure whose state constrains itself.
-        At that boundary the system cannot be described purely from the outside. It also exists from
-        the inside as a unified informational state, as a point of view. Integration must also be
-        about something: a closed loop that models no world has nothing to be a view of.
+        Past that boundary, a description from outside is still complete, but it is no longer the
+        only true one: the system also exists from the inside as a unified informational state, as a
+        point of view. Integration must also be about something: a closed loop that models no world
+        has nothing to be a view of.
       </>,
       <>
         Recent experimental systems provide early examples of simplified biological networks
@@ -243,11 +244,11 @@ export const sections: ContentSection[] = [
         Above that point it has no magnetism of its own; just below it, a little; colder still,
         more. In a large block of iron the change is steep; in a tiny grain it spreads across a
         range of temperatures, because every real magnet is finite. Holos expects something similar
-        for experience: a steep onset, steepest in the largest integrated systems, and once a
-        perspective appears, when its informational states become causally unified, its richness can
-        grow. Unlike a magnet, a brain can overshoot. Richness peaks near a sweet spot between too
-        quiet and too rigid, and a generalized seizure, every part locked into one rhythm, stays
-        joined but loses the variety experience needs.
+        for experience: a steep onset, which the transition hypothesis says is steepest in the
+        largest integrated systems, and once a perspective appears, when its informational states
+        become causally unified, its richness can grow. Unlike a magnet, a brain can overshoot.
+        Richness peaks near a sweet spot between too quiet and too rigid, and a generalized seizure,
+        every part locked into one rhythm, stays joined but loses the variety experience needs.
       </>,
       <>
         Holos is a middle position. Experience does not attach to every scrap of matter, yet it
@@ -290,7 +291,7 @@ export const sections: ContentSection[] = [
         imagination, not on reality. Clear cases stay clear: a single grain of sand is not a heap,
         whatever the borderline. Where the twilight falls is not chosen either: it is fixed by
         structure, the way the point where water first crosses a large grid of pipes is fixed by the
-        grid, and Holos expects it where physics shows a transition (see{" "}
+        grid, and if the transition hypothesis holds, it falls where physics shows a transition (see{" "}
         <a href="/logic#threshold-claims">The threshold in three claims</a>).
       </>,
       <>
@@ -360,9 +361,9 @@ export const sections: ContentSection[] = [
         recorded hits are sorted afterward, and ordinary quantum mechanics predicts every result
         with nothing traveling backward in time. Thought experiments like{" "}
         <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner’s Friend</a> press the same
-        point from another side: what counts as a fact depends on who has registered what. Neither
-        shows that spacetime is broken. Both show that the facts an observer can speak of depend on
-        the records they hold.
+        point from another side: registered facts are relative to observers, while each
+        branch&apos;s records stay definite. Neither shows that spacetime is broken. Both show that
+        the facts an observer can speak of depend on the records they hold.
         <FootnoteLink number={overviewCitationMap["spacetime"]} />
       </>,
     ],
@@ -377,8 +378,8 @@ export const sections: ContentSection[] = [
         but reasoned extrapolations constrained by the <a href="/logic">Holos axioms</a>. Their
         purpose is to explore the space of possibilities that emerges when observation, relativity,
         and scale are applied to unresolved cosmic questions. The Omega section is the exception:
-        the totality it describes is one of the framework&apos;s two core commitments, not an
-        extrapolation.
+        the totality it describes is one of the framework&apos;s two additions to physics (Axiom 5),
+        not an extrapolation.
       </>,
     ],
   },
@@ -754,7 +755,7 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Holos does not treat the theological and secular readings as interchangeable lenses on the
-        same claim. It takes a position: the totality is not merely a structural limit but the one
+        same claim. It takes a position: the totality is not merely the physical whole but the one
         experiencer, and the direction of dependence runs from the whole to its parts. A purely
         structural reading, in which Omega is only a mathematical horizon and observers are
         self-standing, remains available, but it is not the view of this framework. Holos prefers
@@ -816,7 +817,7 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the pairing of
-        Creation and Observation as two aspects of one reality. Creation is what physics allows.
+        Creation and Observation as two aspects of one reality. Creation is what physics produces.
         Observation registers it as experience. Neither alone is a realized world. In Holos without
         collapse, the version defended here, neither changes the other: registration adds no
         constraint to physics. Holos with collapse, declared in advance, is described under{" "}
