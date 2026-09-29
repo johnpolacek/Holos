@@ -646,6 +646,16 @@ Keep entries concise and grounded in inspected repo evidence.
 - Edited `content-data.tsx`, `Content.tsx`, `citation-sections.tsx`, `lib/navigation.ts`, `app/sitemap.ts`, `.cursor/rules/holos-guardrails.mdc` (Revisions bullet now guards the Why section's argument).
 - Verification: `tsc --noEmit` clean; `biome check app` at 13 infos; five pages 200 with no KaTeX errors; `public/holos.pdf` regenerated.
 
+## [2026-09-28] update | Settlement Explorer: a toy model of the Integration Hypothesis, on an unlisted preview page
+
+- John asked for an interactive model showing which assumptions behind the Integration Hypothesis fit the silence (handed off from combined review item 10). Clarified: civilizations do not "choose"; every settlement weighs the same ledger of costs and benefits, and expansion can be loud (sprawl, visible) or quiet (compact warm nodes, plus watcher probes that never settle).
+- Decisions: quiet expansion is both compact nodes and watchers; ledger sliders (what a new star is worth, what distance costs, what loudness costs, how much circumstances vary), with settlements founded per settlement and the loud share shown as computed readouts; separate loud and quiet lifetimes; map axes are variation against distance cost; preview at `/settlement-explorer`, noindex, not in nav or sitemap; Aliens, its "bet about motives" wording, and `public/holos.pdf` untouched until launch.
+- Model, labeled a toy on the page: a settlement weighs about one star per 1,000 years (the 12 within 10 light-years, then one drifting into range every 10,000 years); each choice among stay, quiet, and loud follows the ledger with random variation; a two-type branching process gives the mean new settlements per settlement, R; above 1, waves spread at a speed set by probe speed and the wait for a first settlement, and about 1 - 1/R of stars inside a wave stay settled. Readouts: visible settlement near Earth; galaxy-wide waste heat against Griffith et al. 2015 (none over 85% of about 100,000; about 50 over 50%); quiet nodes expected among the 5 million stars Hephaistos searched (tension above 5, ruled out above 50, the 1 in 100,000 limit); a settlement wave anywhere; watchers passing through.
+- Numbers checked: Suazo et al. 2024 (about 5 million sources within 300 pc, 7 M-dwarf candidates, earlier limits as low as 1 in 100,000); Griffith et al. 2015 abstract; Carroll-Nellenback et al. 2019 (probe range 10 light-years, finite settlement lifetimes, patchy steady states).
+- Presets: "The Holos bet" fits (R about 0.02; about 0.05 warm stars expected nearby). "It only takes one" keeps the ledger but lets circumstances vary four times as much: R about 1.9, a quiet wave with loud outliers fills the galaxy, ruled out. The map shows a sharp edge between fits and ruled out: once R passes 1, the galaxy fills.
+- New files: `app/_components/settlement-model.ts` (pure model, map grid, one-history sampler), `app/_components/SettlementExplorer.tsx` (canvas galaxy with GSAP playback on a log time axis, reduced motion starts at today, sliders, readouts, map, inline-styled `isPDF` fallback), `app/settlement-explorer/page.tsx`.
+- Verification: `tsc --noEmit` clean; `biome check app` at the 13 existing infos; `/`, `/settlement-explorer`, `/logic`, `/predictions` return 200; page screenshotted at 1280 and 390 wide with no console errors and no sideways scroll; static fallback rendered with `renderToStaticMarkup`. `public/holos.pdf` not regenerated, by decision.
+
 ## [2026-09-28] update | Proposition IV becomes the ladder of descriptions (item 14, B2 option a)
 
 - B2 proposed cutting Proposition IV's vague higher-dimensions paragraph. John: higher dimensions matter because they show how you go up dimensions to Omega, each level transforming what was infinite below (time in our dimension is different one level up). Discussed: as a ladder of views it stands on real physics and philosophy (Flatland; time flowing in 3D versus a history as one shape in 4D spacetime; every branch held at once in the quantum state's vast space; wave-function realism; compactification closing an endless line into a circle); as a journey it would revive the retired Omega-as-limit and treat extra dimensions as places (with more than three space dimensions atoms and orbits are unstable). John: "correct, there is no journey, there is closure."
@@ -654,6 +664,12 @@ Keep entries concise and grounded in inspected repo evidence.
 - Edited `Logic.tsx`, `content-data.tsx`, `citation-sections.tsx`, `.cursor/rules/holos-guardrails.mdc`.
 - Verification: `tsc --noEmit` clean; `biome check app` at 13 infos; pages 200 with no KaTeX errors; `public/holos.pdf` regenerated.
 - The InfiniteWrap diagram now matters more; its caption fix stays on the visual-pass list and should show closure, not a physical claim.
+
+## [2026-09-28] update | Settlement Explorer becomes a full-window experience
+
+- John changed the preview from "in place" to full screen. `/settlement-explorer` now skips the site layout: the galaxy fills a dark stage (title, verdict pill, time, and a Full screen button in its corners; play, scrub, and new history below), and a side panel holds the intro, the quoted bet (collapsed), presets, verdict, readouts, legend, sliders, map, observations, assumptions, and the plausibility note. On phones the galaxy stays pinned at the top while the panel scrolls, so a slider's effect stays in view. Space plays or pauses. Still noindex, unlinked, and out of the sitemap; the `isPDF` fallback is unchanged.
+- Edited `SettlementExplorer.tsx` (stage sized to any aspect ratio; dark palette; `intro` prop) and `app/settlement-explorer/page.tsx`.
+- Verification: `tsc --noEmit` clean; `biome check app` at the 13 existing infos; screenshots at 1440 and 390 wide with no console errors and no sideways scroll; static fallback re-rendered.
 
 ## [2026-09-28] update | B3 and B4: Notation self-reference paragraph cut; Teeming Dark trimmed (item 14)
 
@@ -672,6 +688,15 @@ Keep entries concise and grounded in inspected repo evidence.
 - Verification: `tsc --noEmit` clean; `biome check app` at 13 infos; `/`, `/logic`, `/predictions`, `/citations`, `/revisions` return 200 with no KaTeX errors; `public/holos.pdf` regenerated.
 - Open for later passes: the diagram and caption fixes and the README (visual pass); tagging citations by kind; the interactive settlement explorer (handoff prompt given).
 
+## [2026-09-28] update | Settlement Explorer: a guided story, then three questions
+
+- John found the full-window version not clear or simple enough: nine sliders in made-up units, eight readouts, five kinds of marks, and words like "ledger" and "variation". He chose a guided story followed by a three-question screen.
+- Story, one idea per step, with Back and Next pinned at the bottom: (1) a quiet galaxy, where one civilization is shown going from loud to quiet and faintly warm; (2) is settling a neighbor worth it?; (3) it only takes a few, the epidemic tipping point, with a "circumstances differ a lot" demonstration; (4) loud or quiet?; (5) check against the sky. Then "Explore on your own".
+- Explore screen: two presets, three plain questions (is settling a neighbor worth it, do circumstances differ, when they settle loud or quiet), the headline number (new settlements per settlement: dies out or spreads), and three checks against observation (settlements we could see, galaxies glowing with waste heat, strangely warm nearby stars). Galaxy settings, the map, watchers, assumptions, sources, and the Aliens quote sit under "More settings".
+- The galaxy now shows three marks: quiet civilizations, spreading settlement (white specks where loud), and Earth. Sparks and the watcher tint are gone. Model and thresholds unchanged; the worth-it slider maps onto distance cost with a new star's worth held at 4.
+- Edited `SettlementExplorer.tsx`, `settlement-model.ts` (preset notes in plain words), `app/settlement-explorer/page.tsx`.
+- Verification: `tsc --noEmit` clean; `biome check app` at the 13 existing infos; every step and the explore screen screenshotted at 1440 and 390 wide with no console errors and no sideways scroll; static fallback re-rendered.
+
 ## [2026-09-28] update | Axiom audit: straightforward fixes (text only; animations wait for the visual pass)
 
 - Audited `app/_components` against the five axioms, the two versions, and the standing bet. Of 43 findings, John approved the straightforward text fixes now; animation and diagram findings wait for the visual pass, and judgment items (Omega Phase 1 prose, "critical transition", "realized world", Revisions wording, signature lines, Teeming Dark tone, SettlementExplorer naming) wait for review.
@@ -681,3 +706,14 @@ Keep entries concise and grounded in inspected repo evidence.
 - Overview: "Creation is what physics allows" became "produces" (twice); "looks out through every observer" became "awake in every observer"; "structure alone does not open an aperture" and "cannot be described purely from the outside" rewritten to keep the outside description complete; "structural limit" and "core commitments" replaced; PCI tracks a boundary, not a transition; the Curie paragraph and the twilight placement label the transition hypothesis; Wigner's friend no longer says what counts as a fact depends on registration.
 - Citations: anthropic "ontological filtering" and the phase-space definition of Creation rewritten. Interpretive table marks the maximality rule provisional.
 - Edited `Logic.tsx`, `Predictions.tsx`, `content-data.tsx`, `citation-sections.tsx`, `InterpretiveComparisonTable.tsx`. Verification: `tsc --noEmit` clean; biome at the 13 existing infos. PDF not yet regenerated.
+
+## [2026-09-28] update | Axiom audit: review items decided
+
+- #10 "Realized world" became "lived world" (D6, Notation, the ⊛ note, Holos section); D6 now says ⊛ specifies "what it means for part of a universe to be lived, not only structure". Guardrail bans "realized world".
+- #9 John: Holos takes no side on whether the crossing is sudden or continuous. Claim 3 is now "a genuine transition, sudden or continuous"; "A path to the threshold" is headed "Treat the threshold as a transition, not a dial" and names both fingerprints (a lag for sudden, slowing and growing fluctuations for continuous). "Critical point" stays only for waking cortex's operating point. Guardrail updated.
+- #3 Omega prose: "deeper integration means witnessing more of it" cut from Totality and the Overview's Omega (residue of Omega-as-limit). Guardrail bans witnessing "more of" the whole.
+- #15 Revisions: nine superseded entries moved to the past tense with "later" notes ("weaker" and "dissolving" gone; branches with observers are lived, the rest unlit); two entries appended (the crossing as a "critical transition"; a "realized world" that needs observers).
+- #16 Standing bet heading: "consciousness adds no new physics". #26 Logic's closing: "Holos starts from one fact and adds two things". #36 Consciousness closing: "what that doing is like from the inside, once the system crosses the threshold". #31 Teeming Dark's "developmental environment" paragraph cut (it restated Aliens). #21 Omega is "one of the framework's two fundamental posits". #43 Proposition II renamed "Manifestation".
+- Kept: water freezing as an example of the sudden kind (guardrail clarified); "Even light hints at it".
+- #34 SettlementExplorer: "The Holos bet" preset and its two mentions became "the Integration Hypothesis bet" (it collided with the standing bet, and the hypothesis is a companion idea); the Hephaistos line now says background galaxies are the leading suspect. Animation findings wait for the visual pass.
+- Verification: `tsc --noEmit` clean.

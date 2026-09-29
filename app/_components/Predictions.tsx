@@ -373,8 +373,8 @@ export default function Predictions() {
               >
                 PCI
               </a>{" "}
-              are relevant not as definitions of consciousness, but as probes of whether integration
-              crosses a critical boundary.
+              are relevant not as definitions of consciousness, but as probes of where integration
+              crosses the threshold, and how steeply.
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
@@ -868,7 +868,7 @@ export default function Predictions() {
       {/* The standing bet */}
       <section id="standing-bet" className="flex flex-col gap-6">
         <h3 className="text-xl sm:text-2xl font-medium pb-2">
-          The standing bet: consciousness changes nothing
+          The standing bet: consciousness adds no new physics
         </h3>
 
         <div className="flex flex-col gap-4 text-black/80">

@@ -13,12 +13,12 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Theological and secular readings as interchangeable.</strong> Replaced by the
-          monist position: the structural reading is weaker, because it leaves &quot;why am I this
-          one?&quot; unanswered.
+          monist position, first argued as the better answer to &quot;why am I this one?&quot;
+          (later framed as one answer among serious rivals).
         </li>
         <li className="leading-relaxed">
           <strong>Observation as selection.</strong> Replaced: observation selects nothing and
-          erases nothing; each branch is registered from within.
+          erases nothing; branches with observers are lived from within, and the rest stay unlit.
         </li>
         <li className="leading-relaxed">
           <strong>Sealing a whole branch from beginning to end.</strong> Replaced by an
@@ -44,14 +44,14 @@ export default function Revisions() {
           Omega&apos;s material moved from the extrapolations into its own core section.
         </li>
         <li className="leading-relaxed">
-          <strong>One threshold value for every system.</strong> Layered: the commitment is one
-          universal shape of transition; one universal value is a stated conjecture. Neural inertia
-          is no longer read as simple support.
+          <strong>One threshold value for every system.</strong> Layered: the commitment became one
+          universal shape of transition, with one universal value as a stated conjecture (both later
+          dropped). Neural inertia is no longer read as simple support.
         </li>
         <li className="leading-relaxed">
           <strong>Economy as Omega&apos;s payoff.</strong> Replaced: one subject versus many is only
-          a count. Omega&apos;s work is dissolving &quot;why am I this one?&quot; and the puzzle of
-          which perfect copy is you.
+          a count. Omega&apos;s work became its answers to &quot;why am I this one?&quot; and to
+          which perfect copy is you (later framed as one answer among serious rivals).
         </li>
         <li className="leading-relaxed">
           <strong>Omega as the ground of record agreement.</strong> Dropped: physics secures
@@ -83,7 +83,8 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Anesthesia and cultured-network transitions as confirmations.</strong> Retired as
-          tests: ordinary models predict them too. They remain correlate probes.
+          tests: ordinary models predict them too. They became correlate probes; dishes later
+          returned as the size-scaling test of claim 3.
         </li>
         <li className="leading-relaxed">
           <strong>The qubit observer-cut experiment.</strong> Retired: qubits register nothing below
@@ -92,7 +93,8 @@ export default function Revisions() {
         <li className="leading-relaxed">
           <strong>&quot;Falsified outright&quot; for the standing bet.</strong> Replaced by a
           fallback declared in advance: a consciousness-linked collapse would falsify the
-          no-collapse physics, not the core, and the threshold would become the collapse point.
+          no-collapse physics, not the core, and the threshold would become the collapse point
+          (later limited to a collapse that tracks integration).
         </li>
         <li className="leading-relaxed">
           <strong>&quot;Confirmed so far&quot; for the standing bet.</strong> Corrected to untested:
@@ -101,8 +103,8 @@ export default function Revisions() {
         <li className="leading-relaxed">
           <strong>The threshold value as a constant of nature, like the speed of light.</strong>{" "}
           Replaced: a threshold that could differ between physically identical worlds would allow a
-          copy with no one home, against Axiom 4. The conjectured value is now structural, like a
-          percolation threshold.
+          copy with no one home, against Axiom 4. The conjectured value became structural, like a
+          percolation threshold (the universal value was later dropped).
         </li>
         <li className="leading-relaxed">
           <strong>Sharpness from a quantity &quot;exactly zero on one side.&quot;</strong> Replaced:
@@ -119,8 +121,8 @@ export default function Revisions() {
         <li className="leading-relaxed">
           <strong>Aboutness as any live channel, tracked as it happens.</strong> Sharpened: one
           thermometer wired into an inert array passed it, and &quot;as it happens&quot; excluded
-          dreams. Now the world must be able to drive the whole across much of its range, through
-          channels open or gated.
+          dreams. The world then had to be able to drive the whole across much of its range, through
+          channels open or gated (later replaced by carrying a model of a world).
         </li>
         <li className="leading-relaxed">
           <strong>Omega exempt from maximality as &quot;not a system among systems.&quot;</strong>{" "}
@@ -147,9 +149,10 @@ export default function Revisions() {
         <li className="leading-relaxed">
           <strong>An exact line between someone and no one.</strong> Replaced by a narrow twilight,
           fixed by structure: an exact line exists only in an infinitely large system, which Holos
-          reads as the limit of a model. The threshold is now four claims of different strength; a
-          critical transition and one shared shape moved from commitment to hypothesis. &quot;A
-          retreat to graded presence&quot; is no longer a way to lose.
+          reads as the limit of a model. The threshold became four claims of different strength; a
+          critical transition and one shared shape moved from commitment to hypothesis (later three
+          claims, with the transition&apos;s kind left open). &quot;A retreat to graded
+          presence&quot; is no longer a way to lose.
         </li>
         <li className="leading-relaxed">
           <strong>A fallback that left everything but Axiom 2 untouched.</strong> Replaced by two
@@ -205,6 +208,17 @@ export default function Revisions() {
           Dropped: nothing in Holos implies them, and physics expects systems that differ in
           geometry and wiring to cross differently. The prediction that the twilight narrows as
           systems grow stays, as a consequence of the transition hypothesis.
+        </li>
+        <li className="leading-relaxed">
+          <strong>The crossing as a &quot;critical transition&quot;.</strong> Widened: a critical
+          point names only a smooth, continuous crossing, and Holos takes no side on whether the
+          crossing is sudden or continuous. Claim 3 is now a genuine transition of either kind, and
+          both kinds&apos; fingerprints are named.
+        </li>
+        <li className="leading-relaxed">
+          <strong>A &quot;realized world&quot; that needs observers.</strong> Corrected: it read as
+          if unlived structure were less than real. Structure is fully real whether or not anyone
+          lives it; ⊛ concerns where a world is lived.
         </li>
       </ul>
     </div>

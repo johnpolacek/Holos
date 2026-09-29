@@ -53,8 +53,8 @@ export default function Logic() {
               maximality rule for where one observer ends.
             </li>
             <li className="leading-relaxed">
-              <strong>Hypothesis:</strong> the threshold is a critical transition. If it fails, the
-              core stands.
+              <strong>Hypothesis:</strong> crossing the threshold is a genuine transition, sudden or
+              continuous; Holos takes no side on which. If it fails, the core stands.
             </li>
             <li className="leading-relaxed">
               <strong>Open problems:</strong> the measure of integration, where the threshold and
@@ -114,8 +114,8 @@ export default function Logic() {
               <a href="#mathematical-formalism" className="underline hover:no-underline">
                 Notation
               </a>
-              ). It marks the claim that physics describes a realized world only from outside: it
-              fixes what is lived, but cannot state that it is lived.
+              ). It marks the claim that physics describes a lived world only from outside: it fixes
+              what is lived, but cannot state that it is lived.
             </li>
           </ul>
 
@@ -259,7 +259,7 @@ export default function Logic() {
             <div className="font-semibold text-black/90">D6: Holos (⊛)</div>
             <p className="leading-relaxed">
               Holos (⊛) denotes the composition of Creation and Observation. It names the claim that
-              a realized world requires both lawful possibility and internal registration. In Holos
+              a lived world requires both lawful possibility and internal registration. In Holos
               without collapse, the version defended here, registration also changes nothing in what
               it registers (see{" "}
               <a href="/predictions#two-versions" className="underline hover:no-underline">
@@ -270,8 +270,8 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               ⊛ is not a dynamical operator and not a substitute for physical causation. It is a
-              structural relation that specifies what it means for a universe to be real rather than
-              merely described. The notation is set out under{" "}
+              structural relation that specifies what it means for part of a universe to be lived,
+              not only structure. The notation is set out under{" "}
               <a href="#mathematical-formalism" className="underline hover:no-underline">
                 Notation
               </a>
@@ -560,9 +560,7 @@ export default function Logic() {
 
           {/* Proposition II */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Proposition II: Participatory Manifestation
-            </h3>
+            <h3 className="text-xl font-semibold text-black/90">Proposition II: Manifestation</h3>
 
             <p className="text-sm text-black/60">
               Follows from Axioms 3 and 4, with the definitions in D7.
@@ -778,9 +776,10 @@ export default function Logic() {
                 is where it can lose.
               </li>
               <li className="leading-relaxed">
-                <strong>Transition:</strong> the crossing is a critical transition, the kind physics
-                studies in magnets and fluids, not an arbitrary stretch of a smooth slope. A
-                hypothesis; its evidence must come from the boundary (see{" "}
+                <strong>Transition:</strong> the crossing is a genuine transition, the kind physics
+                studies in magnets and fluids, not an arbitrary stretch of a smooth slope. It could
+                be sudden or continuous, and Holos takes no side on which. A hypothesis; its
+                evidence must come from the boundary (see{" "}
                 <a href="#path-to-threshold" className="underline hover:no-underline">
                   A path to the threshold
                 </a>
@@ -828,13 +827,13 @@ export default function Logic() {
           </p>
 
           <p className="leading-relaxed">
-            <strong>The twilight&apos;s width is a prediction.</strong> If the crossing is a
-            critical transition, physics predicts that its rounded stretch narrows as a system
-            grows, a relation called finite-size scaling. A human brain, with tens of billions of
-            neurons, should then cross steeply, while small nervous systems and simple artificial
-            networks should have wide twilights. Accepting a twilight turns the rounding from an
-            embarrassment into a prediction, and dish-grown neural networks offer the cheapest test
-            (
+            <strong>The twilight&apos;s width is a prediction.</strong> If the crossing is a genuine
+            transition, of either kind, physics predicts that its rounded stretch narrows as a
+            system grows, a relation called finite-size scaling. A human brain, with tens of
+            billions of neurons, should then cross steeply, while small nervous systems and simple
+            artificial networks should have wide twilights. Accepting a twilight turns the rounding
+            from an embarrassment into a prediction, and dish-grown neural networks offer the
+            cheapest test (
             <a href="/predictions#minimal-neural-systems" className="underline hover:no-underline">
               Minimal neural systems
             </a>
@@ -1021,9 +1020,8 @@ export default function Logic() {
             the universe&apos;s complete quantum state (all branches included, in the version
             defended here), and it exists now, not at the end of anything. Experientially, it is the
             one experiencer, awake wherever a system crosses the threshold. Finite systems never
-            take in the whole: deeper integration means witnessing more of it, never all of it. The
-            whole is not produced by that deepening, and it is not fully registered either; its
-            unlit structure is real and never lived.
+            take in the whole, and it is not fully registered either; its unlit structure is real
+            and never lived.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -1666,10 +1664,10 @@ export default function Logic() {
             <MathDisplay>{"R = C \\ ⊛ \\ O"}</MathDisplay>
 
             <p className="leading-relaxed">
-              This expression states that reality is neither pure possibility nor pure observation.
-              It needs both. <MathInline>{"R"}</MathInline> is the family of lived perspectives, one
-              per observer per branch, each with the lit world it draws on: structure that is also
-              lived.
+              This expression states that lived reality is neither pure possibility nor pure
+              observation. It needs both. <MathInline>{"R"}</MathInline> is the family of lived
+              perspectives, one per observer per branch, each with the lit world it draws on:
+              structure that is also lived.
             </p>
 
             <p className="leading-relaxed">
@@ -1693,7 +1691,7 @@ export default function Logic() {
 
             <p className="leading-relaxed">
               What the symbol adds is not mathematics but ontology: the claim that both steps are
-              required for a realized world, and that neither step alone yields one.
+              required for a lived world, and that neither step alone yields one.
             </p>
           </div>
 
@@ -1797,13 +1795,13 @@ export default function Logic() {
               that disagreed was discarded. The same logic applies here, in three steps.
             </p>
             <p className="leading-relaxed">
-              <strong>Treat the threshold as a critical point, not a dial.</strong> If the
-              transition from distributed processing to a unified perspective is a genuine phase
-              transition, then <MathInline>{"\\Phi_c"}</MathInline> is not a number we are free to
-              tune but a critical point, and critical points leave measurable fingerprints: slowing
-              near the boundary, growing fluctuations, the onset of a quantity that was near zero,
-              and a twilight that narrows as systems grow. Consciousness medicine has already found
-              one such boundary from the outside: the{" "}
+              <strong>Treat the threshold as a transition, not a dial.</strong> If the passage from
+              distributed processing to a unified perspective is a genuine transition, then{" "}
+              <MathInline>{"\\Phi_c"}</MathInline> is not a number we are free to tune, and
+              transitions leave measurable fingerprints. A sudden one shows a lag: the way in and
+              the way out do not match. A continuous one shows slowing and growing fluctuations near
+              the boundary. Either kind shows a twilight that narrows as systems grow. Consciousness
+              medicine has already found one such boundary from the outside: the{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Perturbational_Complexity_Index"
                 target="_blank"
@@ -1861,7 +1859,7 @@ export default function Logic() {
               </a>
               ), like a stadium chanting a single word: joined, but with almost no variety. So these
               studies show where observers operate and why richness peaks there. They do not yet
-              show that crossing the threshold is itself a critical transition; that evidence must
+              show that crossing the threshold is itself a genuine transition; that evidence must
               come from the boundary.
             </p>
             <p className="leading-relaxed">
@@ -1978,12 +1976,12 @@ export default function Logic() {
               one place inside access exists, so the threshold is located relative to us and carried
               outward by the measure, with certainty that weakens as the cases grow alien. That is
               the shape of all consciousness science, not a defect peculiar to Holos. Second, the
-              program can fail, in two ways of different weight. It could find no critical point,
-              integration climbing smoothly with no transition at all; that would falsify claim 3
-              and leave the twilight wide, a slow dawn rather than a quick one, with the core
-              intact. Or it could find that experience does not track integration on any candidate
-              measure, which is how Test A loses, and the core with it. A stated way to lose is what
-              makes these open problems scientific questions rather than definitions.
+              program can fail, in two ways of different weight. It could find no transition at all,
+              integration climbing smoothly; that would falsify claim 3 and leave the twilight wide,
+              a slow dawn rather than a quick one, with the core intact. Or it could find that
+              experience does not track integration on any candidate measure, which is how Test A
+              loses, and the core with it. A stated way to lose is what makes these open problems
+              scientific questions rather than definitions.
             </p>
           </div>
 
@@ -2036,10 +2034,10 @@ export default function Logic() {
 
       <div className="mt-8 pt-6 border-t border-black/20">
         <p className="leading-relaxed text-lg text-black/90 font-medium">
-          Holos rests on one fact and two additions. The fact: experience exists. The additions: the
-          totality, Omega, the one experiencer; and the threshold where it wakes. Each act of
-          experience is the totality registering itself through a local aperture. The whole is not
-          proved from the parts; the parts are understood through the whole.
+          Holos starts from one fact and adds two things. The fact: experience exists. The
+          additions: the totality, Omega, the one experiencer; and the threshold where it wakes.
+          Each act of experience is the totality registering itself through a local aperture. The
+          whole is not proved from the parts; the parts are understood through the whole.
         </p>
       </div>
     </div>

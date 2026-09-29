@@ -318,8 +318,8 @@ export const sections: ContentSection[] = [
         experience something and describe it badly.
       </>,
       <>
-        Consciousness is not what systems do. It is what happens when a system becomes capable of
-        witnessing reality from the inside.
+        Consciousness is not what a system does. It is what that doing is like from the inside, once
+        the system crosses the threshold.
         <FootnoteLink number={overviewCitationMap["consciousness"]} />
       </>,
     ],
@@ -592,12 +592,6 @@ export const sections: ContentSection[] = [
         found?
       </>,
       <>
-        In this view, three-dimensional spacetime functions as a developmental environment.
-        Complexity becomes visible during an early, inefficient phase when systems radiate, expand,
-        and explore openly. As optimization proceeds, external visibility decreases. Maturity does
-        not require disappearance, but it may naturally coincide with silence.
-      </>,
-      <>
         The <strong>Teeming Dark</strong> is a name for the possibility that silence and an
         abundance of life coexist.
       </>,
@@ -675,9 +669,9 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         Omega is not introduced as a prediction or goal, and in Holos it is not derived from
-        anything else. It is the framework&apos;s fundamental posit: the totality of reality, taken
-        as a single whole. Physically, that whole is not mysterious. Quantum mechanics describes
-        everything as one{" "}
+        anything else. It is one of the framework&apos;s two fundamental posits: the totality of
+        reality, taken as a single whole. Physically, that whole is not mysterious. Quantum
+        mechanics describes everything as one{" "}
         <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, and that
         state is Omega; on the no-collapse reading Holos adopts, it includes every branch. Its
         existence rests on physics on any reading that has a universal state, and the universe
@@ -719,12 +713,10 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Omega is the ultimate whole, not the ultimate integration: everything is in it, all at once,
-        but its parts are not all joined. Finite systems never take in the whole. Deeper integration
-        means witnessing more of it, never all of it, and the whole is not produced by that
-        deepening: integration is how parts of the totality come to witness more of it. Nor is the
-        whole fully lived. Structure outside every aperture&apos;s causal past belongs to Omega and
-        is never experienced. Omega is also where the ladder of descriptions closes: each level
-        holds whole what the level below sees as endless, and Omega holds everything (see{" "}
+        but its parts are not all joined. Finite systems never take in the whole. Nor is the whole
+        fully lived. Structure outside every aperture&apos;s causal past belongs to Omega and is
+        never experienced. Omega is also where the ladder of descriptions closes: each level holds
+        whole what the level below sees as endless, and Omega holds everything (see{" "}
         <a href="#infinity">Infinity</a>).
       </>,
       <>
@@ -818,7 +810,7 @@ export const sections: ContentSection[] = [
       <>
         Holos derives from the Greek <em>ὅλος</em>, meaning “whole.” It names the pairing of
         Creation and Observation as two aspects of one reality. Creation is what physics produces.
-        Observation registers it as experience. Neither alone is a realized world. In Holos without
+        Observation registers it as experience. Neither alone is a lived world. In Holos without
         collapse, the version defended here, neither changes the other: registration adds no
         constraint to physics. Holos with collapse, declared in advance, is described under{" "}
         <a href="/predictions#two-versions">Two versions</a>. This relationship is expressed as{" "}

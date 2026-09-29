@@ -1202,7 +1202,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "If the threshold is a genuine critical point, it should leave measurable signatures near the boundary; see A path to the threshold.",
+              "If crossing the threshold is a genuine transition, sudden or continuous, it should leave measurable signatures near the boundary; see A path to the threshold.",
           },
           {
             name: "Casarotto et al. (2016), Stratification of unresponsive patients by an independently validated index of brain complexity",
