@@ -360,11 +360,11 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
             Source → Double Slit → Screen: the total pattern is the same smear no matter what is
-            later done with the idler.
+            later done with the partner photon (the idler).
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            Sorting the same hits by the idler record reveals which-path subsets (clumps) or erased
-            subsets (fringes).
+            Sorting the same hits by the idler&apos;s record shows two clumps (sorted by which slit)
+            or interference fringes (which-slit information erased).
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic", marginTop: "1em" }}>
             Nothing travels backward. The idler record determines how the hits can be sorted, and
@@ -384,14 +384,15 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        The Quantum Eraser Without Retroactivity. A photon source sends entangled pairs through a
-        double slit. The signal photons accumulate on a screen as a structureless smear, and this
-        total pattern never changes regardless of what is later done with the idler photons. When
-        the idler record is made and the same screen hits are sorted by that record, the subsets
-        show structure: which-path sorting yields two clumps, erasure sorting yields interference
-        fringes. The record arrives by ordinary subluminal means and nothing about the past changes.
-        In the Holos reading, this illustrates that what counts as an observable fact depends on how
-        records are sorted after the fact, with no backward-in-time influence.
+        The Quantum Eraser Without Retroactivity. A photon source sends linked pairs of photons
+        (entangled pairs) through a double slit. The signal photons accumulate on a screen as a
+        structureless smear, and this total pattern never changes regardless of what is later done
+        with the idler photons. When the idler record is made and the same screen hits are sorted by
+        that record, the subsets show structure: sorting by which slit yields two clumps, sorting
+        with the which-slit information erased yields interference fringes. The record arrives
+        slower than light, by ordinary means, and nothing about the past changes. In the Holos
+        reading, which pattern you see depends only on how you sort the recorded hits afterward;
+        nothing reaches back in time.
       </figcaption>
       <svg
         ref={svgRef}
@@ -552,11 +553,10 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
             y="257"
             textAnchor="middle"
             fill="rgba(30, 30, 30, 1)"
-            fontSize="13"
-            fontFamily="serif"
-            fontStyle="italic"
+            fontSize="11"
+            fontFamily="monospace"
           >
-            Φ
+            D
           </text>
           <text
             x="212"
@@ -566,7 +566,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
             fontSize="9"
             fontFamily="monospace"
           >
-            idler record
+            idler detector (records)
           </text>
         </g>
 
@@ -590,7 +590,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
             fontSize="9"
             fontFamily="monospace"
           >
-            coincidence sorting
+            matching each hit to its partner
           </text>
         </g>
 
@@ -623,7 +623,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
             fontSize="9"
             fontFamily="monospace"
           >
-            by path
+            by slit
           </text>
         </g>
 

@@ -1,23 +1,36 @@
 import ComparisonTable, { type ComparisonRow } from "./ComparisonTable";
 
-const columns = ["Closed individualism", "Empty individualism"];
+const columns = [
+  "Closed individualism (one self per lifetime)",
+  "Reductionism (Parfit: identity is not what matters)",
+  "Empty individualism (one self per moment)",
+];
 
 const rows: ComparisonRow[] = [
   {
     dimension: "What are you?",
-    holos: "The one experiencer, awake at this aperture",
-    others: ["One self, from birth to death", "A new self each moment"],
+    holos: "The one experiencer, awake in this particular observer",
+    others: [
+      "One self, from birth to death",
+      "A brain and body with a connected mental life; nothing further",
+      "A new self each moment",
+    ],
   },
   {
     dimension: "How many selves?",
     holos: "One, in every observer",
-    others: ["One per person", "One per moment"],
+    others: [
+      "One per person",
+      "One per person, but being the same person is a matter of degree",
+      "One per moment",
+    ],
   },
   {
     dimension: "Why am I this one?",
     holos: "Nothing to explain: the one subject is each of them",
     others: [
       'Often: nothing to explain, since "I" picks out whoever asks; for some, a brute fact',
+      "No deep further fact to explain",
       "The same reply, applied to each moment's self",
     ],
   },
@@ -26,29 +39,43 @@ const rows: ComparisonRow[] = [
     holos: "Both are you, with no remainder",
     others: [
       "A hard case: one, the other, or neither, each defended",
-      "Neither, as no later moment ever was",
+      "The question may have no answer, and it doesn't matter: both copies keep what matters, the psychological connection",
+      "Neither; no future self was ever you, copy or not",
     ],
   },
   {
     dimension: "Whose future pain do you anticipate?",
     holos: "Everyone's: the view's price, and its ethical point",
-    others: ["Only your own", "Strictly, no one's, not even your own tomorrow"],
+    others: [
+      "Only your own",
+      "Anyone's, in proportion to how psychologically connected they are to you now",
+      "Strictly, no one's, not even your own tomorrow",
+    ],
   },
   {
     dimension: "What walls perspectives apart",
-    holos: "Structure: no integration bridges two apertures",
-    others: ["Being different selves", "Being different selves"],
+    holos: "Structure: no integration bridges two observers",
+    others: [
+      "Being different selves",
+      "Separate brains and separate chains of memory",
+      "Being different selves",
+    ],
   },
   {
     dimension: "When a life ends",
     holos: "This perspective ends; the one subject stays awake elsewhere",
-    others: ["The self ends", "Selves were ending all along"],
+    others: [
+      "The self ends",
+      "Connections end; death matters less than it seems",
+      "Selves were ending all along",
+    ],
   },
   {
     dimension: "Hardest objection",
     holos: "Anticipating strangers' experience as your own",
     others: [
       "Copying and splitting cases with no clear answer",
+      "Seems to leave no special reason to care about your own future",
       "It undercuts caring about your own future",
     ],
   },

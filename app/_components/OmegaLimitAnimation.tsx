@@ -96,16 +96,16 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       .to(phiSymbol, { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.5)" }, "phase1+=0.8")
       .to(phiValue, { opacity: 0.7, duration: 0.4 }, "phase1+=1.2");
 
-    // Animate Φ value growing
+    // Animate integration rising (Φ has no scale a viewer can read, so no numbers)
     tl.to(
       phiValue,
       {
         duration: 2,
         onUpdate: function () {
           const progress = this.progress();
-          const values = ["10²", "10⁴", "10⁸", "10¹⁶", "10³²", "10⁶⁴ …"];
+          const values = ["↑", "↑↑", "↑↑↑", "↑↑↑↑", "↑↑↑↑↑", "↑↑↑↑↑ …"];
           const index = Math.min(Math.floor(progress * values.length), values.length - 1);
-          if (phiValue) phiValue.textContent = `Φ = ${values[index]}`;
+          if (phiValue) phiValue.textContent = `integration ${values[index]}`;
         },
       },
       "phase1+=1.5"
@@ -175,7 +175,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
     tl.add("phase3", "+=1")
       .to([stepLabel, explanationLabel], { opacity: 0, duration: 0.3 }, "phase3")
       .set(stepLabel, { textContent: "PHASE 3: MANY NAMES" })
-      .set(explanationLabel, { textContent: "Different names for one totality." })
+      .set(explanationLabel, { textContent: "Holos reads these names as pointing at one whole." })
       .to(stepLabel, { opacity: 1, duration: 0.3 }, "phase3+=0.3")
       .to(explanationLabel, { opacity: 0.6, duration: 0.3 }, "phase3+=0.3")
       // Collapse previous elements
@@ -209,7 +209,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       .to([stepLabel, explanationLabel], { opacity: 0, duration: 0.3 }, "phase4")
       .set(stepLabel, { textContent: "PHASE 4: UNITY" })
       .set(explanationLabel, {
-        textContent: "Whatever the name, one experiencer.",
+        textContent: "Whatever the name, one whole, lived through every observer.",
       })
       .to(stepLabel, { opacity: 1, duration: 0.3 }, "phase4+=0.3")
       .to(explanationLabel, { opacity: 0.6, duration: 0.3 }, "phase4+=0.3")
@@ -257,11 +257,11 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           </p>
           <p style={{ margin: "0.5em 0" }}>
             <strong>Phase 3:</strong> Many names: God, Brahman, the divine, the whole, nature, the
-            universe.
+            universe. Holos reads them as pointing at one whole.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 4:</strong> Unity: whatever the name, one totality, experienced through
-            every aperture.
+            <strong>Phase 4:</strong> Unity: whatever the name, one whole, lived through every
+            observer (each an aperture of the whole).
           </p>
         </div>
       </div>
@@ -273,15 +273,16 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       ref={containerRef}
       className="relative w-full mt-8 aspect-square rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing Omega: no finite system, however integrated, takes in the whole; the whole already exists, lived at its apertures and unlit elsewhere, and the many names for one totality experienced through every aperture"
+      aria-label="Animation showing Omega: no finite system, however integrated, takes in the whole; the whole already exists, lived at its apertures and unlit elsewhere, and the many names Holos reads as pointing at one whole, lived through every observer"
     >
       <figcaption className="sr-only">
         The Omega animation shows four phases. First, integration deepens, and no finite system
         takes in the whole. Second, what the whole already is: everything, now, lived at its
         apertures and unlit elsewhere. The totality is not produced by integration; it is the ground
         integration happens on. Third, the many names for it: religious (God, Brahman, the divine)
-        and secular (the whole, nature, the universe). Fourth, unity: whatever the name, one
-        totality, experienced through every aperture.
+        and secular (the whole, nature, the universe), which Holos reads as pointing at one whole.
+        Fourth, unity: whatever the name, one whole, lived through every observer (each an aperture
+        of the whole).
       </figcaption>
       <svg
         ref={svgRef}
@@ -357,7 +358,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           fontFamily="monospace"
           opacity="0"
         >
-          Φ = 10²
+          integration ↑
         </text>
 
         {/* Info packets flowing inward */}
@@ -491,7 +492,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            ALL INCLUDED
+            ALL OF IT
           </text>
           <text
             x="90"
@@ -501,7 +502,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            (solid → IN)
+            everything is
           </text>
           <text
             x="90"
@@ -511,7 +512,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            nothing left out
+            part of it
           </text>
 
           {/* All expressed label - top right */}
@@ -524,7 +525,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            ALL EXPRESSED
+            EVERY PART
           </text>
           <text
             x="310"
@@ -534,7 +535,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            (dashed → OUT)
+            each part belongs
           </text>
           <text
             x="310"
@@ -544,7 +545,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            every part expresses it
+            to the one whole
           </text>
 
           {/* No outside label - bottom */}
@@ -557,7 +558,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="sans-serif"
             fontWeight="bold"
           >
-            NO OUTSIDE
+            NOTHING OUTSIDE
           </text>
           <text
             x="200"
@@ -567,7 +568,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="7"
             fontFamily="sans-serif"
           >
-            (rings = the whole)
+            the rings are the whole
           </text>
         </g>
 
@@ -712,7 +713,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontWeight="bold"
           >
-            One totality, many names.
+            One whole, many names (Omega).
           </text>
           <text
             x="200"
@@ -723,7 +724,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontFamily="serif"
             fontStyle="italic"
           >
-            The names differ; the structure does not.
+            Holos reads these names as pointing at one whole.
           </text>
           <text
             x="200"

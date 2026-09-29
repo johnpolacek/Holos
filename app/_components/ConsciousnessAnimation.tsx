@@ -357,13 +357,16 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           <em style={{ fontSize: "1.1em" }}>Consciousness: Where Integration Opens an Aperture</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
-          <p style={{ margin: "0.5em 0" }}>Scattered parts → Integration (Φ ≥ Φc) → Aperture</p>
           <p style={{ margin: "0.5em 0" }}>
-            Like iron cooling past its Curie point, the onset is steep: a narrow twilight, then an
-            aperture.
+            Scattered parts → integrated past the threshold (Φ ≥ Φc) → an observer (an aperture)
+          </p>
+          <p style={{ margin: "0.5em 0" }}>
+            Like iron becoming magnetic as it cools past a set temperature (its Curie point), the
+            change is steep: a brief in-between zone (the twilight), then someone is home.
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            No new subject is created: the one experiencer wakes here
+            On the Holos reading, no new subject is created: the one experiencer (the whole) wakes
+            here
           </p>
         </div>
       </div>
@@ -375,16 +378,17 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing scattered parts integrating until they cross the threshold and an aperture opens"
+      aria-label="Animation showing scattered parts integrating until they cross the threshold and an observer (an aperture) forms"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
         Consciousness: Where Integration Opens an Aperture. This animation shows scattered parts
         (represented by pulsing dashed circles) becoming organized through integration. As circles
-        cluster and connect, they cross the integration threshold (Φ ≥ Φc) where the Phi symbol
-        appears. The cluster then snaps into one unified shape: an aperture. No new subject is
-        created; the one experiencer wakes there, as waking in the morning does not create a new
-        person.
+        cluster and connect, they cross the integration threshold (Φ ≥ Φc, where Φ measures
+        integration and Φc is the threshold) and the Phi symbol appears. The cluster then snaps into
+        one unified shape: an observer, which Holos also calls an aperture. On the Holos reading, no
+        new subject is created; the one experiencer (the whole) wakes there, as waking in the
+        morning does not create a new person.
       </figcaption>
       <svg
         ref={svgRef}
@@ -497,7 +501,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           fontFamily="monospace"
           opacity="0"
         >
-          Φ ≥ Φc (Integration Threshold)
+          Φ ≥ Φc (integration past the threshold)
         </text>
 
         {/* Realized shape (complex integrated form) */}
@@ -540,7 +544,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           fontStyle="italic"
           opacity="0"
         >
-          Integration → Aperture
+          Integration → an observer (aperture)
         </text>
 
         {/* Bottom label */}
@@ -552,7 +556,7 @@ export default function ConsciousnessAnimation({ isPDF = false }: ConsciousnessA
           fontSize="10"
           fontFamily="monospace"
         >
-          No new subject is created: the one experiencer wakes here
+          No new subject: the one experiencer (the whole) wakes here
         </text>
       </svg>
     </figure>

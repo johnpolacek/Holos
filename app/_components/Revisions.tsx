@@ -26,8 +26,10 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Axioms that left out the two additions.</strong> Rebuilt: the threshold and the
-          totality are now Axioms 3 and 5; Manifestation became the definitions of lived, lit, and
-          unlit; Structural Constraint became a companion principle.
+          totality are now Axioms 3 and 5; the old axiom about how structure becomes experience
+          (&quot;Manifestation&quot;) became the definitions of lived, lit, and unlit; the old axiom
+          limiting what can be structure (&quot;Structural Constraint&quot;) became a companion
+          principle.
         </li>
         <li className="leading-relaxed">
           <strong>The whole causal past as &quot;lived&quot;.</strong> Split: lived is where
@@ -68,7 +70,7 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Current AI as &quot;no one home.&quot;</strong> Replaced by an open question with
-          two borders: grounded aboutness and integration.
+          two borders: aboutness grounded in the system&apos;s own senses, and integration.
         </li>
         <li className="leading-relaxed">
           <strong>Six observer requirements.</strong> Reduced to four: recursion and causal autonomy
@@ -88,7 +90,8 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>The qubit observer-cut experiment.</strong> Retired: qubits register nothing below
-          the threshold, and the predicted result was ordinary contextuality.
+          the threshold, and the predicted result was a known quantum effect (contextuality) that
+          needs no observer.
         </li>
         <li className="leading-relaxed">
           <strong>&quot;Falsified outright&quot; for the standing bet.</strong> Replaced by a
@@ -108,9 +111,9 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Sharpness from a quantity &quot;exactly zero on one side.&quot;</strong> Replaced:
-          that holds only in infinitely large systems. Whether anyone is home is which side of a
-          threshold fixed by structure a system stands on; in anything finite, the outward signs
-          blur.
+          that holds only in infinitely large systems. Whether anyone is home depends on which side
+          of the threshold (fixed by structure) a system is on; in any real, finite system, the
+          outward signs of the crossing blur.
         </li>
         <li className="leading-relaxed">
           <strong>Waking-brain criticality as evidence for the threshold&apos;s shape.</strong>{" "}
@@ -126,14 +129,16 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Omega exempt from maximality as &quot;not a system among systems.&quot;</strong>{" "}
-          Replaced: Omega is physically the universal quantum state, so the exemption was special
-          pleading. The whole fails integration outright, splitting into parts that never touch,
-          which is also why it pools nothing.
+          (Maximality: an observer forms only where integration peaks.) Replaced: Omega is
+          physically the universal quantum state, so the exemption was special pleading. The whole
+          fails integration outright, splitting into parts that never touch, which is also why it
+          pools nothing.
         </li>
         <li className="leading-relaxed">
           <strong>Creation as every world the laws permit.</strong> Narrowed: if every lawful world
           were real structure, reality would outrun Omega. Creation is what physics actually
-          produces, every branch of the one quantum state; the cookbook became a buffet.
+          produces, every branch of the one quantum state: not every recipe the laws allow, but
+          every dish physics actually serves.
         </li>
         <li className="leading-relaxed">
           <strong>Omega defined through Axiom 2, and Axiom 4 at risk in the standing bet.</strong>{" "}
@@ -162,9 +167,10 @@ export default function Revisions() {
         </li>
         <li className="leading-relaxed">
           <strong>Test A without numbers.</strong> Frozen: PCI with its published 0.31 cutoff as the
-          primary gauge, a posterior gauge named in advance, a timing rule, and a rule separating a
-          failed gauge from a failed theory. The local reply to non-REM dreaming, adopted after
-          seeing the data, counts only on new data.
+          primary gauge, a second gauge measured over the back of the brain (posterior cortex) and
+          named in advance, a timing rule, and a rule separating a failed gauge from a failed
+          theory. The local reply to non-REM dreaming, adopted after seeing the data, counts only on
+          new data.
         </li>
         <li className="leading-relaxed">
           <strong>Omega as settling the identity puzzles.</strong> Replaced: the monist reading is
@@ -187,7 +193,7 @@ export default function Revisions() {
           was true by definition, since lived means experienced. Commitment 1 is now what a rival
           could deny: experience is local, and physics describes it only from outside. Proposition
           V, definitional in the same way, merged into D7. &quot;Reality in the full sense&quot;
-          became lived reality, and the closure language retired.
+          became lived reality, and calling observation a &quot;closure condition&quot; retired.
         </li>
         <li className="leading-relaxed">
           <strong>An unnamed kind of view.</strong> Named: a two-sided monism with a threshold,

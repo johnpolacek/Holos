@@ -130,7 +130,7 @@ export const PRESETS = [
   },
   {
     id: "only-takes-one",
-    label: "It only takes one",
+    label: "It only takes a few",
     note: "The same costs and benefits, but circumstances differ far more. Most still stay home; the few that settle are enough to spread.",
     params: ONLY_TAKES_ONE,
   },

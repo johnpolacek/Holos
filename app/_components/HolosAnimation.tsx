@@ -459,15 +459,17 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           <p style={{ margin: "0.5em 0" }}>
             <strong>Following One Thread</strong>
           </p>
-          <p style={{ margin: "0.5em 0" }}>Creation (C) generates a manifold of possibilities →</p>
+          <p style={{ margin: "0.5em 0" }}>Creation (C): every branch physics produces →</p>
           <p style={{ margin: "0.5em 0" }}>
-            Observation (O) registers each path from within; one observer&apos;s thread shown →
+            Observation (O): each branch with an observer is lived from within; one observer&apos;s
+            thread shown →
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            Physics continues from that history; registration changes nothing
+            Physics continues from that history; in the version defended here, registration changes
+            nothing
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            sₙ → sₙ₊₁ (one thread, step by step)
+            state after state along one thread (sₙ → sₙ₊₁)
           </p>
         </div>
       </div>
@@ -479,15 +481,17 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing the Holos relation R = C ⊛ O, where Creation generates possibilities and Observation registers them from within, following one observer's thread while the other paths remain"
+      aria-label="Animation showing the Holos relation R = C ⊛ O (lived reality is Creation, then Observation): physics produces every branch, and each branch with an observer is lived from within; it follows one observer's thread while the other paths remain"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        Following One Thread: R = C ⊛ O. Creation (C) generates a manifold of possibilities from an
-        initial state. Observation (O) registers them from within, one lived history per
-        perspective; the animation follows one observer&apos;s thread, while the other paths fade
-        but remain, since nothing is erased. Physics continues from the registered history, and
-        registration changes nothing, so the thread steps from sₙ to sₙ₊₁.
+        Following One Thread: R = C ⊛ O, read as lived reality is Creation, then Observation.
+        Creation (C) is every branch physics produces from an initial state. Observation (O) is
+        registration from within: each branch with an observer is lived, one lived history per
+        perspective. The animation follows one observer&apos;s thread, while the other paths fade
+        but remain, since nothing is erased. Physics continues from the registered history, and in
+        the version defended here registration changes nothing, so the thread steps from one state
+        to the next.
       </figcaption>
       <svg
         ref={svgRef}
@@ -596,7 +600,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           fontFamily="monospace"
           opacity="0"
         >
-          Creation (C): manifold of possibilities
+          Creation (C): every branch physics produces
         </text>
         <text
           id="observation-label"
@@ -608,7 +612,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           fontFamily="monospace"
           opacity="0"
         >
-          Observation (O): registration
+          Observation (O): lived from within
         </text>
 
         {/* Phi symbol - plain, no effects */}
@@ -636,7 +640,7 @@ export default function HolosAnimation({ isPDF = false }: HolosAnimationProps) {
           fontFamily="serif"
           fontStyle="italic"
         >
-          {stateLabel} → s{subscript(cycleCount + 1)}
+          state {stateLabel} → s{subscript(cycleCount + 1)}
         </text>
       </svg>
     </figure>

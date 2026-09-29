@@ -299,7 +299,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "1em" }}>
-          <em style={{ fontSize: "1.1em" }}>The Invariance and the Warp</em>
+          <em style={{ fontSize: "1.1em" }}>One Speed of Light</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
@@ -310,13 +310,15 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
             (c)
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            Space (horizontal) and Time (vertical) must warp to maintain c constant
+            To keep c the same for both, their measures of space (horizontal) and time (vertical)
+            must differ: B&apos;s axes tilt relative to A&apos;s
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            This warping fuses separate dimensions into a unified 4D Block
+            The observers disagree about what is happening &quot;now&quot;, which ties space and
+            time into a single four-dimensional block
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic", marginTop: "1em" }}>
-            Invariance of c motivates the Block Universe
+            A shared c, no shared &quot;now&quot;: this motivates the Block Universe
           </p>
         </div>
       </div>
@@ -328,17 +330,18 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation demonstrating how the invariance of the speed of light causes space and time to warp, motivating the Block Universe model"
+      aria-label="Animation showing how the same speed of light for all observers makes their measures of space and time tilt relative to each other, which motivates the Block Universe model"
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        The Invariance and the Warp: This animation demonstrates how space and time are not fixed
-        backgrounds, but must bend to maintain the constant speed of light for all observers. Two
-        observers are shown: Observer A at rest and Observer B moving fast. A light beam travels at
-        constant speed. As Observer B approaches the speed of light, the grid lines of space
-        (horizontal) and time (vertical) warp and stretch. This warping causes the separate grid
-        lines to fuse into a single, tilted 4D Block structure where past, present, and future are
-        visually integrated. The invariance of c (speed of light) motivates the Block Universe.
+        One Speed of Light: This animation shows that space and time are not fixed backgrounds
+        shared by everyone. Two observers are shown: Observer A at rest and Observer B moving fast.
+        A light beam travels at the same speed for both. As Observer B moves faster, B&apos;s grid
+        of space (horizontal) and time (vertical) tilts and squeezes relative to A&apos;s. Spacetime
+        itself stays flat (bending it takes gravity); what changes is how each observer slices it.
+        Because the observers disagree about what is happening &quot;now&quot;, many take this as
+        support for a single four-dimensional block where past, present, and future all exist. The
+        same speed of light for everyone motivates the Block Universe.
       </figcaption>
       <svg
         ref={svgRef}
@@ -357,7 +360,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
           fontFamily="serif"
           fontStyle="italic"
         >
-          The Invariance and the Warp
+          One Speed of Light
         </text>
 
         {/* Horizontal grid lines (Space) */}
@@ -766,7 +769,7 @@ export default function InvarianceWarpAnimation({ isPDF = false }: InvarianceWar
           fontStyle="italic"
           opacity="0"
         >
-          Invariance of c motivates the Block Universe
+          A shared c, no shared &quot;now&quot;: this motivates the Block Universe
         </text>
 
         {/* Axis labels */}

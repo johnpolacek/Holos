@@ -189,7 +189,7 @@ const GALAXY_SLIDERS: SliderSpec[] = [
   {
     key: "inwardTime",
     label: "Time before turning inward",
-    help: "How long a settlement keeps weighing new stars: about one per 1,000 years, first the dozen within 10 light-years, then one drifting into range every 10,000 years or so.",
+    help: "How long a settlement keeps considering new stars before turning inward. It weighs about one star every 1,000 years: first the dozen within 10 light-years, then newcomers as stars drift into range, about one every 10,000 years.",
     min: 1e3,
     max: 1e7,
     format: formatYears,
@@ -205,7 +205,7 @@ const GALAXY_SLIDERS: SliderSpec[] = [
   {
     key: "loudLife",
     label: "How long loud settlements last",
-    help: "If a loud settlement lasts until it turns inward, it goes quiet; if not, it collapses first.",
+    help: "How long a loud settlement survives. If it survives long enough, it turns inward and goes quiet; if not, it collapses while still loud.",
     min: 1e2,
     max: 1e9,
     format: formatYears,
@@ -1162,13 +1162,14 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                 {step === 0 && (
                   <>
                     <p>
-                      Our galaxy is 10 billion years old and holds about 100 billion stars. Yet we
-                      see no one else. Here is one possible answer.
+                      Our galaxy has had stars like the Sun for about 10 billion years and holds at
+                      least 100 billion of them. Yet we see no one else, a puzzle known as the Fermi
+                      paradox. Here is one possible answer.
                     </p>
                     <p>
                       A civilization appears. At first it is loud, like us: radio, lights, rockets.
-                      Then it turns inward, growing compact and efficient, and goes quiet. What is
-                      left is faint warmth.
+                      Then it turns inward: it stops expanding, grows compact and efficient, and
+                      goes quiet. What is left is faint warmth.
                     </p>
                     <p>
                       Each warm dot on the galaxy is one of these quiet civilizations. Plenty of
@@ -1186,7 +1187,9 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                       message, and it soon goes its own way, a future rival.
                     </p>
                     <p>
-                      The Integration Hypothesis bets the cost usually wins. Try the other answer.
+                      The Integration Hypothesis, this site&apos;s guess about why the sky is quiet,
+                      bets the cost usually wins. Drag the slider toward &quot;Worth it&quot; to see
+                      the alternative.
                     </p>
                     <QuestionSlider
                       q={Q_WORTH}
@@ -1360,9 +1363,10 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                     <MapLegend />
                   </div>
                   <p className="text-sm text-white/65">
-                    Watchers, small probes that observe and never settle, have passed through our
-                    solar system: <strong>{formatChance(model.pVisited).toLowerCase()}</strong> in
-                    this model. We have barely looked.
+                    Watchers (the Sentinel Probes of the Predictions page), small probes that
+                    observe and never settle, have passed through our solar system:{" "}
+                    <strong>{formatChance(model.pVisited).toLowerCase()}</strong> in this model. We
+                    have barely looked.
                   </p>
                   <p className="text-sm text-white/65">
                     The animation is one random history; the checks average over many. The clock
@@ -1404,10 +1408,12 @@ function Observations() {
         </li>
         <li>
           <a href="https://www.astro.uu.se/~ez/hephaistos/hephaistos.html">Project Hephaistos</a>{" "}
-          flagged seven single stars with unexplained warmth among about five million within 1,000
-          light-years (<a href="https://doi.org/10.1093/mnras/stae1186">2024</a>). Webb observations
-          traced two to background galaxies; the rest have no clear explanation yet, with background
-          galaxies the leading suspect (<a href="https://arxiv.org/abs/2607.09460">2026</a>,{" "}
+          flagged seven small red stars (M dwarfs) glowing more in infrared than they should, a
+          possible sign of a partial Dyson sphere (a swarm of energy collectors around a star),
+          among about five million stars within 1,000 light-years (
+          <a href="https://doi.org/10.1093/mnras/stae1186">2024</a>). Webb observations traced two
+          to background galaxies; the rest have no clear explanation yet, with background galaxies
+          the leading suspect (<a href="https://arxiv.org/abs/2607.09460">2026</a>,{" "}
           <a href="https://arxiv.org/abs/2607.25701">preprints</a>).
         </li>
         <li>No visible settlement nearby: no reshaped star systems in our neighborhood.</li>
@@ -1448,7 +1454,10 @@ function Assumptions() {
         Once settling spreads, settlements come and go. If each founds two new ones, about half the
         stars stay settled, as in epidemic models.
       </li>
-      <li>Every civilization sends watchers: cheap probes that observe and never settle.</li>
+      <li>
+        Every civilization sends watchers (Sentinel Probes): cheap probes that observe and never
+        settle.
+      </li>
       <li>Costs and benefits are in made-up units; only how they compare matters.</li>
     </ul>
   );

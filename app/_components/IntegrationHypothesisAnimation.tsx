@@ -465,7 +465,7 @@ export default function IntegrationHypothesisAnimation({
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing how a single civilization evolves from a high-emission, sprawling early phase to a compact, integrated quiet phase. As integration increases, visible emissions fade while gravity and faint infrared warmth remain detectable. The Fermi paradox is explained by civilizations going quiet through integration."
+      aria-label="Animation showing how a single civilization evolves from a high-emission, sprawling early phase to a compact, integrated quiet phase. As integration increases, visible emissions fade while gravity and faint infrared warmth remain detectable. One possible explanation of the Fermi paradox: civilizations go quiet as they integrate."
     >
       <figcaption className="sr-only">
         One Civilization, Two Footprints animation. A civilization on a grid plane starts in an
@@ -764,7 +764,7 @@ export default function IntegrationHypothesisAnimation({
           />
         </g>
 
-        {/* Integration symbol (civilizational integration, not the Φ threshold) */}
+        {/* Integration marker: a plain dot (civilizational integration, not the Φ threshold; the calculus ∫ misled) */}
         <text
           id="phiSymbol"
           x="280"
@@ -776,7 +776,7 @@ export default function IntegrationHypothesisAnimation({
           fontStyle="italic"
           opacity="0"
         >
-          ∫
+          •
         </text>
 
         {/* Compact Core (quiet maturity) */}

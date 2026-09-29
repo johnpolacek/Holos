@@ -149,17 +149,18 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
             <strong>Earth Listening:</strong> Radio signals sent into the cosmos
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>The Eerie Silence:</strong> No response detected
+            <strong>The Eerie Silence:</strong> No response detected (physicist Paul Davies&apos;s
+            name for the missing signals)
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>The Switch:</strong> We were listening for the wrong signal
+            <strong>The Switch:</strong> Maybe we were listening for the wrong signal
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Dark Nodes:</strong> Compact, non-luminous structures: gravitationally present,
-            dark in visible light, faintly warm in the infrared.
+            <strong>Dark Nodes:</strong> Compact structures that no longer shine: dark in visible
+            light, faintly warm in the infrared, and, if massive enough, detectable by gravity.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
-            The silence is not empty. It is the Teeming Dark.
+            The silence may not be empty. It may be the Teeming Dark.
           </p>
         </div>
       </div>
@@ -181,15 +182,15 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing Earth listening for signals in the cosmos, encountering the Eerie Silence, then shifting perspective: the silence may hide compact, non-luminous structures - the Teeming Dark - detectable by gravity and waste heat rather than light"
+      aria-label="Animation showing Earth listening for signals in the cosmos, encountering the Eerie Silence, then shifting perspective: the silence may hide compact, non-luminous structures (the Teeming Dark), detectable by waste heat and, if massive enough, gravity rather than light"
     >
       <figcaption className="sr-only">
         The Teeming Dark animation illustrates a possible answer to the Fermi Paradox. Earth sends
-        radio signals into space and listens for a response. The cosmos appears silent - no signals
+        radio signals into space and listens for a response. The cosmos appears silent: no signals
         detected. Then the perspective shifts: the starfield dims and dark, non-luminous structures
-        become visible as geometric, cubist forms. The silence was never proof of emptiness; mature
-        civilizations that no longer shine would be detectable by gravity and faint warmth, not by
-        light.
+        become visible as geometric, cubist forms. The silence is not proof of emptiness; mature
+        civilizations that no longer shine would be detectable by faint warmth and, if massive
+        enough, gravity, not by light.
       </figcaption>
       <svg
         ref={svgRef}
@@ -210,7 +211,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
           fontStyle="italic"
           opacity="0"
         >
-          The Answer to The Eerie Silence
+          One Possible Answer to the Eerie Silence
         </text>
 
         {/* Starfield (light gray dots) */}
@@ -451,7 +452,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
           fontStyle="italic"
           opacity="0"
         >
-          The silence is not empty. Gravity and warmth are the footprint.
+          The silence may not be empty. Warmth and gravity would be the footprint.
         </text>
       </svg>
     </figure>

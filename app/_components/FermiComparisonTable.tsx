@@ -17,11 +17,18 @@ const rows: ComparisonRow[] = [
   {
     dimension: "Is life common?",
     holos: "It can be",
-    others: ["No", "Early life perhaps; advanced life no", "Rare per galaxy", "Yes", "Yes"],
+    others: [
+      "No",
+      "Early life perhaps; advanced life no",
+      "Loud, expanding civilizations are very rare; quiet ones too",
+      "Yes",
+      "Yes",
+    ],
   },
   {
     dimension: "What we should find",
-    holos: "Single stars dim in visible light and warm in infrared; small watching probes",
+    holos:
+      "Some individual stars dimmer than expected and glowing warm in infrared; perhaps small, parked probes",
     others: [
       "Nothing",
       "Nothing, or the remains of civilizations",

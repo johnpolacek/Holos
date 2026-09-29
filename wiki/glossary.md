@@ -2,7 +2,7 @@
 
 Canonical names for the framework's key terms, what each means, which variants are fine, and which to avoid. The site content stays the source of truth for positions (`Logic.tsx` for definitions and commitments); this page records naming. Entries marked **[F#]** have an open flag listed at the bottom.
 
-Status: built 2026-09-29 from a full read of Overview, Logic, Predictions, citations, tables, and animation captions. Flags F1 to F10, F12, and F13 applied the same day; F11 and F14 (retitles) resolved after one-at-a-time review.
+Status: built 2026-09-29 from a full read of Overview, Logic, Predictions, citations, tables, and animation captions. Flags F1 to F10, F12, and F13 applied the same day; F11 and F14 (retitles) resolved after one-at-a-time review; F15 resolved the same day in a plain-language pass.
 
 ## Framework and notation
 
@@ -104,9 +104,8 @@ Resolved 2026-09-29:
 - **F11b** "Minimal Core" retitled "Claims" (nav "Claims"; anchor `#minimal-core` kept): the section lists items marked "not core", while "the core" means Axioms 1, 3, 4, and 5.
 - **F14** The "Why Are We Here?" figure "The Ontological Anchor" (a term defined nowhere) retitled "Structure and Lived Reality"; its labels now show an observer (Φ) where structure is lived, and "becomes lived" became "is lived".
 - **F16** Deleted `AxiomDiagram` (never rendered; old axiom names "manifestation", "unification", "interface") and `OperatorAnatomyDiagram` (not imported; "The Operator", "C and O Coincide at Ω"), and removed the dead "axioms" branch from `Content.tsx`.
+- **F15** The quantum-eraser figure's idler detector now shows a plain detector mark ("D", "idler detector (records)") instead of "Φ", so it no longer reads as an observer.
 
-Open:
-
-- **F15** The quantum-eraser figure labels the idler detector "Φ", which marks it as an observer; the captions now say it records.
+Open: none.
 
 Not flagged, by design: "the totality", "the whole", "the one experiencer", and "the one subject" as names for Omega; "point of view" and "perspective"; "collapse" in its ordinary senses (a civilization or settlement collapsing, Tipler's universe collapsing back on itself); the `#omega-point` anchor, kept for inbound links.

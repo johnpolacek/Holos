@@ -35,18 +35,18 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           }}
         >
           <div style={{ textAlign: "center" }}>
-            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>3D Perspective</p>
-            <p style={{ margin: "0.5em 0" }}>Grid extends infinitely</p>
+            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>The Endless Plane</p>
+            <p style={{ margin: "0.5em 0" }}>A flat grid goes on forever</p>
             <p style={{ margin: "0.5em 0" }}>→ ∞ in all directions</p>
           </div>
           <div style={{ textAlign: "center" }}>
-            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Higher-Dimensional View</p>
-            <p style={{ margin: "0.5em 0" }}>Grid wrapped into sphere</p>
-            <p style={{ margin: "0.5em 0" }}>Point at Infinity</p>
+            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Closed into a Sphere</p>
+            <p style={{ margin: "0.5em 0" }}>The same grid wrapped onto a sphere</p>
+            <p style={{ margin: "0.5em 0" }}>One point at infinity closes it</p>
           </div>
         </div>
         <p style={{ textAlign: "center", margin: "1em 0", fontStyle: "italic" }}>
-          Infinite space in 3D = Finite structure from higher dimension
+          An endless plane plus one point at infinity closes into a finite sphere
         </p>
       </div>
     );
@@ -57,13 +57,13 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white opacity-80"
       role="img"
-      aria-label="Side-by-side comparison showing how an infinite grid in 3D perspective becomes a finite sphere when viewed from a higher dimension, with all infinite directions meeting at a single Point at Infinity"
+      aria-label="Side-by-side comparison showing how an endless flat grid, plus one point at infinity, closes into a finite sphere where every direction meets at that single point"
     >
       <figcaption className="sr-only">
-        This graphic shows two perspectives side by side. On the left, a grid extends infinitely in
-        all directions from our 3D perspective. On the right, the same grid is shown wrapped into a
-        sphere from a higher-dimensional viewpoint, where all the infinite directions converge at a
-        single Point at Infinity.
+        This graphic shows two descriptions side by side. On the left, a flat grid, seen in
+        perspective, goes on forever in every direction. On the right, the same grid is wrapped onto
+        a sphere by adding a single point at infinity (the Riemann sphere), where every direction
+        meets. An endless surface becomes a finite, closed one.
       </figcaption>
       <svg
         ref={svgRef}
@@ -105,7 +105,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           fontSize="10"
           fontFamily="monospace"
         >
-          3D PERSPECTIVE
+          THE ENDLESS PLANE
         </text>
 
         {/* Right side label */}
@@ -117,7 +117,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           fontSize="10"
           fontFamily="monospace"
         >
-          HIGHER-DIMENSIONAL VIEW
+          CLOSED INTO A SPHERE
         </text>
 
         {/* === LEFT SIDE: Infinite Grid === */}
@@ -296,7 +296,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           fontSize="9"
           fontFamily="sans-serif"
         >
-          All infinities meet here
+          Every direction meets here
         </text>
 
         {/* Mapping lines (connecting left to right) */}
@@ -332,7 +332,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
           fontFamily="serif"
           fontStyle="italic"
         >
-          Infinite space in 3D = Finite structure from higher dimension
+          An endless plane plus one point at infinity closes into a finite sphere
         </text>
       </svg>
     </figure>

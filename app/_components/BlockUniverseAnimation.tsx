@@ -242,10 +242,14 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           <em style={{ fontSize: "1.1em" }}>Lighting the Past in the Block Universe</em>
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
-          <p style={{ margin: "0.5em 0" }}>[ t₀ (Big Bang) ····· Φ (observer) ····· t_now ]</p>
-          <p style={{ margin: "0.5em 0" }}>An observer lights its causal past.</p>
+          <p style={{ margin: "0.5em 0" }}>
+            [ t₀ (Big Bang) ····· Φ (observer) ····· the observer&apos;s now ]
+          </p>
+          <p style={{ margin: "0.5em 0" }}>
+            An observer lights its causal past: everything that could have affected it.
+          </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
-            Lighting is tenseless, not a process in time.
+            This is a timeless (tenseless) description, not something that happens over time.
           </p>
         </div>
       </div>
@@ -261,14 +265,15 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
     >
       {/* Screen reader description */}
       <figcaption className="sr-only">
-        Lighting the Past in the Block Universe: In an eternalist view, the spacetime block contains
-        all moments tenselessly. The animation first shows the history in a faint, dashed style,
-        then shows it in solid form once the observer (Φ) is highlighted. Everything that turns
-        solid lies in the observer&apos;s causal past; the stretch after the observer stays empty.
-        The crossfade is simultaneous: nothing travels backward and nothing changes within the
-        block. The two styles compare two descriptions of the same tenseless structure: physical
-        structure alone, and structure lit because an observer draws on it. Lighting is tenseless,
-        not a process in time.
+        Lighting the Past in the Block Universe: In the block-universe view, past, present, and
+        future all exist together as one four-dimensional whole. The animation first shows the
+        history in a faint, dashed style, then shows it in solid form once the observer (Φ) is
+        highlighted. Everything that turns solid lies in the observer&apos;s causal past; the
+        stretch after the observer stays empty. The crossfade is simultaneous: nothing travels
+        backward and nothing changes within the block. The two styles compare two descriptions of
+        the same tenseless structure: physical structure alone, and structure lit because an
+        observer draws on it. Lighting is a timeless description, not something that happens over
+        time.
       </figcaption>
       <svg
         ref={svgRef}
@@ -432,7 +437,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontStyle="italic"
           opacity="0"
         >
-          t_now (Observer)
+          the observer&apos;s now
         </text>
 
         {/* Caption */}
@@ -447,7 +452,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontStyle="italic"
           opacity="0"
         >
-          An observer lights its causal past
+          An observer lights everything that could have affected it
         </text>
 
         {/* Tenseless constraint note */}
@@ -459,7 +464,7 @@ export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseA
           fontSize="10"
           fontFamily="monospace"
         >
-          tenseless, not a process in time
+          a timeless description, not a process in time
         </text>
       </svg>
     </figure>

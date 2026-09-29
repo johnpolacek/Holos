@@ -11,7 +11,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.
 export const metadata: Metadata = {
   title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
   description:
-    "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+    "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
   icons: {
     icon: "icon.svg",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     description:
-      "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+      "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
     url: siteUrl,
     siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
     description:
-      "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+      "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
     images: ["/twitter-image.png"],
   },
 };
@@ -49,14 +49,14 @@ const jsonLd = {
   "@type": "Article",
   headline: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
   description:
-    "Holos is an interpretive framework proposing that a lawful universe becomes a lived one where integrated observers register it. It examines consciousness, spacetime, cosmology, and meaning under known physical limits.",
+    "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
   author: {
     "@type": "Person",
     name: "John Polacek",
     url: "https://johnpolacek.com",
   },
   datePublished: "2024-06-19",
-  dateModified: "2026-01-21",
+  dateModified: "2026-09-29",
   publisher: {
     "@type": "Person",
     name: "John Polacek",
