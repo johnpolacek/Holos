@@ -225,7 +225,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
     // Hold the total pattern
     tl.to({}, { duration: 1.5 });
 
-    // Phase 5: The idler record is registered (Φ) — subluminal, ordinary
+    // Phase 5: The idler record is made — subluminal, ordinary
     tl.add("record", "+=0.2").to(
       idlerGroup,
       {
@@ -367,8 +367,8 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
             subsets (fringes).
           </p>
           <p style={{ margin: "0.5em 0", fontStyle: "italic", marginTop: "1em" }}>
-            Nothing travels backward. Registration determines how facts can be sorted, and
-            consistency is global.
+            Nothing travels backward. The idler record determines how the hits can be sorted, and
+            the past is unchanged.
           </p>
         </div>
       </div>
@@ -387,12 +387,11 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
         The Quantum Eraser Without Retroactivity. A photon source sends entangled pairs through a
         double slit. The signal photons accumulate on a screen as a structureless smear, and this
         total pattern never changes regardless of what is later done with the idler photons. When
-        the idler record is registered and the same screen hits are sorted by that record, the
-        subsets show structure: which-path sorting yields two clumps, erasure sorting yields
-        interference fringes. The record arrives by ordinary subluminal means and nothing about the
-        past changes. In the Holos reading, this illustrates that what counts as an observable fact
-        depends on how information is registered, with consistency enforced globally rather than by
-        any backward-in-time influence.
+        the idler record is made and the same screen hits are sorted by that record, the subsets
+        show structure: which-path sorting yields two clumps, erasure sorting yields interference
+        fringes. The record arrives by ordinary subluminal means and nothing about the past changes.
+        In the Holos reading, this illustrates that what counts as an observable fact depends on how
+        records are sorted after the fact, with no backward-in-time influence.
       </figcaption>
       <svg
         ref={svgRef}
@@ -530,7 +529,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
           ))}
         </g>
 
-        {/* Idler record: registered subluminally at an ordinary detector */}
+        {/* Idler record: made subluminally at an ordinary detector */}
         <g id="idler-group" opacity="0">
           <path
             d="M135,155 C160,215 180,248 202,252"
@@ -700,7 +699,7 @@ export default function QuantumEraserAnimation({ isPDF = false }: QuantumEraserA
           fontStyle="italic"
           opacity="0"
         >
-          Nothing travels backward; registration determines how facts sort
+          Nothing travels backward; the idler record determines how hits sort
         </text>
 
         {/* Arrowhead marker */}

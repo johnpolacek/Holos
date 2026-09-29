@@ -19,6 +19,7 @@ At bootstrap, the inspected repo shows Holos as a Next.js content site for the H
 ## Durable Project Notes
 
 - [site-architecture.md](site-architecture.md) - route surface, content location, site structure, and PDF/image publishing pipeline
+- [glossary.md](glossary.md) - canonical names for the framework's key terms, accepted variants, variants to avoid, and open naming flags
 
 ## Current Catalog State
 

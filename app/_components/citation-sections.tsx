@@ -69,7 +69,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Holos",
             url: "#introduction",
             description:
-              "The whole of reality as both structure and lived experience: lawful possibility composed with registration, symbolized by ⊛.",
+              "The framework, and the relation it is named for: lawful possibility composed with registration (R = C ⊛ O), marking where structure is lived.",
           },
         ],
       },
@@ -614,13 +614,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Flatland",
             url: "https://en.wikipedia.org/wiki/Flatland",
             description:
-              "Edwin Abbott (1884): a sphere passing through a flat world appears to its inhabitants as a changing circle, an event in time; from three dimensions it is one whole. The picture behind Proposition IV's ladder of descriptions.",
+              "Edwin Abbott (1884): a sphere passing through a flat world appears to its inhabitants as a changing circle, an event in time; from three dimensions it is one whole. The picture behind Proposition IV: each higher description closes what a lower one leaves open.",
           },
           {
             name: "Ney and Albert, eds. (2013), The Wave Function: Essays on the Metaphysics of Quantum Mechanics",
             url: "https://doi.org/10.1093/acprof:oso/9780199790807.001.0001",
             description:
-              "Oxford University Press: essays on wave-function realism, the view that the vast space where the quantum state lives is the most real level. A rung on the ladder of descriptions; Holos does not depend on the view.",
+              "Oxford University Press: essays on wave-function realism, the view that the vast space where the quantum state lives is the most real level. One of the higher descriptions in Proposition IV; Holos does not depend on the view.",
           },
           {
             name: "Probability Theory",
@@ -990,7 +990,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "Predictions about how structure becomes present as experience. Observers register the block universe from within; they do not hold it together.",
+              "Predictions about where structure is lived. Observers register the block universe from within; they do not hold it together.",
           },
           {
             name: "Block universe",
@@ -1228,7 +1228,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "Conservation of all possibilities; Holos predicts agreement among communicating observers without objective collapse.",
+              "Evolution that conserves information and total probability; Holos predicts agreement among communicating observers without objective collapse.",
           },
           {
             name: "Relational quantum mechanics",
@@ -1260,7 +1260,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Fermi paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "A companion hypothesis to Holos, not part of its core: the Integration Hypothesis and Visibility Collapse. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
+              "A companion hypothesis to Holos, not part of its core: the Integration Hypothesis and Going Quiet. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
           },
           {
             name: "Hanson et al. (2021), If loud aliens explain human earliness, quiet aliens are also rare",

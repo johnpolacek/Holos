@@ -11,7 +11,7 @@ const columns = [
 const rows: ComparisonRow[] = [
   {
     dimension: "What is fundamental?",
-    holos: "The whole (Ω), with experience underived: the one fact Holos starts from",
+    holos: "The whole (Omega), with experience underived: the one fact Holos starts from",
     others: [
       "Integrated cause-effect structure, which simply is experience",
       "Brain processes; consciousness is a function they perform",

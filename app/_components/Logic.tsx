@@ -8,9 +8,9 @@ import SelfComparisonTable from "./SelfComparisonTable";
 export default function Logic() {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
-      {/* Minimal Core */}
+      {/* Claims */}
       <section id="minimal-core" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Minimal Core</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Claims</h2>
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -45,12 +45,12 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Method:</strong> infinities signal a broken description, not a feature of
-              reality, and a higher description often closes what a lower one leaves open, up to
-              Omega (Proposition IV).
+              reality, and a higher description often closes what a lower one leaves open; last is
+              Omega, the description with nothing outside it (Proposition IV).
             </li>
             <li className="leading-relaxed">
               <strong>Observer requirements:</strong> four structural conditions, with a provisional
-              maximality rule for where one observer ends.
+              maximality condition for where one observer ends.
             </li>
             <li className="leading-relaxed">
               <strong>Hypothesis:</strong> crossing the threshold is a genuine transition, sudden or
@@ -101,14 +101,15 @@ export default function Logic() {
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-black/90">D3: Observation (O)</div>
             <p className="leading-relaxed">
-              Observation is the integration of information about a world into a single internal
-              state. It is not measurement in the laboratory sense, and it is not restricted to
-              human cognition.
+              Observation is registration from within: an observer integrating information about a
+              world into a single internal state. It is not measurement in the laboratory sense, and
+              it is not restricted to human cognition.
             </p>
             <p className="leading-relaxed">
               Well below a certain level of integration, systems participate in physical
               interactions without any point of view. Well above it, a perspective exists, and a
-              narrow twilight lies between. Observation is the name Holos gives to that transition.
+              narrow twilight lies between. Observation occurs only past that twilight, inside
+              observers.
             </p>
           </div>
 
@@ -116,8 +117,8 @@ export default function Logic() {
           <div className="flex flex-col gap-2">
             <div className="font-semibold text-black/90">D4: Consciousness</div>
             <p className="leading-relaxed">
-              Consciousness is the capacity of a system to host an integrated perspective. In Holos,
-              what is fundamental is the totality&apos;s experience; a conscious system is a local
+              Consciousness is hosting an integrated perspective: being an observer. In Holos, what
+              is fundamental is the totality&apos;s experience; a conscious system is a local
               aperture of it. The capacity to be such an aperture is structural, while its concrete
               forms vary with that structure and scale with the degree of integration.
             </p>
@@ -179,6 +180,8 @@ export default function Logic() {
             <div className="font-semibold text-black/90">D7: Lived, lit, and unlit</div>
             <p className="leading-relaxed">
               <strong>Lived</strong> is where experience occurs: inside observers, and nowhere else.{" "}
+              <strong>Presence</strong> is being lived: the noun for what &quot;lived&quot;
+              describes. Where there is no observer, there is structure without presence.{" "}
               <strong>Lit</strong> is binary and follows the causal structure of spacetime: a region
               is lit if it lies in the causal past of at least one observer in its branch. Every
               observer is built from its causal past and draws on it through its traces, so the lit
@@ -462,8 +465,8 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed">
-              Observation is not passive recording. It is where informational structure becomes
-              experientially present: a matter of structure, not a process in time.
+              Observation is not passive recording. It is where informational structure is lived: a
+              matter of structure, not a process in time.
             </p>
 
             <p className="leading-relaxed">
@@ -505,7 +508,7 @@ export default function Logic() {
               <MathInline>{"C"}</MathInline>. Registered facts live within it, indexed to the
               observers the block contains. There is no tension between an absolute geometry and
               relational facts of experience, because they are claims about different things: the
-              block describes what is consistent, and registration determines what is present.
+              block describes what is consistent, and registration determines what is lived.
             </p>
 
             <p className="leading-relaxed">
@@ -533,9 +536,7 @@ export default function Logic() {
 
           {/* Proposition IV */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Proposition IV: Dimensional Resolution
-            </h3>
+            <h3 className="text-xl font-semibold text-black/90">Proposition IV: Closure</h3>
 
             <p className="text-sm text-black/60">
               A principle of method and an interpretive image, not derived from the axioms: how
@@ -576,17 +577,17 @@ export default function Logic() {
               >
                 wave-function realism
               </a>
-              . At the top is Omega: the description with nothing outside it, where everything is
-              held whole.
+              . Last is Omega: the description with nothing outside it, where everything is held
+              whole.
             </p>
 
             <p className="leading-relaxed">
-              This is a ladder of descriptions, not of places, and there is no journey up it. Extra
-              dimensions of space are not somewhere to go: with more than three, atoms and orbits
-              would not be stable. Nor do observers climb toward Omega, which exists now, and part
-              of which is never lived. What the ladder shows is closure: each higher description
-              closes what a lower one leaves open. Holos reads it as the shape of explanation, not
-              as a claim that the higher levels are hidden places.
+              This is closure between descriptions, not a path between places. Extra dimensions of
+              space are not somewhere to go: with more than three, atoms and orbits would not be
+              stable. Nor do observers move toward Omega, which exists now, and part of which is
+              never lived. Each higher description closes what a lower one leaves open. Holos reads
+              this as the shape of explanation, not as a claim that the higher levels are hidden
+              places.
             </p>
 
             <p className="leading-relaxed text-black/70">
@@ -916,7 +917,7 @@ export default function Logic() {
             </p>
 
             <p className="leading-relaxed text-black/70 text-sm">
-              Holos does not claim that all systems meeting these criteria are conscious in the
+              Holos does not claim that all systems meeting these requirements are conscious in the
               human sense. It claims only that some experience exists.
             </p>
           </div>
@@ -1294,10 +1295,10 @@ export default function Logic() {
               Axiom 2 commits Holos to a branching picture. The quantum state evolves smoothly and
               reversibly, never collapsing (unitary evolution), and no possibility is erased. When
               observers would register incompatible outcomes, they are situated in different
-              branches of the possibility structure, each internally consistent. In this respect
-              Holos sides with Many-Worlds-style interpretations of quantum mechanics, while adding
-              what they leave out: an account of which structures are present as experience. This is
-              a genuine interpretive commitment, not a neutral stance.
+              branches of the one quantum state, each internally consistent. In this respect Holos
+              sides with Many-Worlds-style interpretations of quantum mechanics, while adding what
+              they leave out: an account of which structures are lived. This is a genuine
+              interpretive commitment, not a neutral stance.
             </p>
           </div>
 
@@ -1496,7 +1497,7 @@ export default function Logic() {
             <p className="leading-relaxed">
               Observation (<MathInline>{"O"}</MathInline>) maps a space of possibilities to
               registered experiential histories. It represents internal registration by integrated
-              systems, wherever the possibility structure contains them.
+              systems, wherever the possibility space contains them.
             </p>
 
             <MathDisplay>{"O(C(S)) \\mapsto \\{ S_{\\text{exp}}^{(i)} \\}"}</MathDisplay>
@@ -1521,7 +1522,7 @@ export default function Logic() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">Holos mapping</h3>
+            <h3 className="text-xl font-semibold text-black/90">The Holos relation</h3>
 
             <p className="leading-relaxed">
               The Holos relation is the composition of Creation and Observation.
@@ -1581,11 +1582,10 @@ export default function Logic() {
           single ontological framework. On the physics it takes a side: no collapse, no erased
           possibilities, branching when registrations diverge. That is the Many-Worlds picture. Its
           divergence from Many-Worlds is ontological: branching alone does not say which structures
-          are present as experience. The table also includes the two collapse views Holos bets
-          against: objective collapse, in which superpositions collapse on their own (as in the
-          Diósi-Penrose model), and consciousness collapse, in which a conscious system causes it
-          (as Chalmers and McQueen propose). The table below clarifies where Holos aligns with, and
-          diverges from, each.
+          are lived. The table also includes the two collapse views Holos bets against: objective
+          collapse, in which superpositions collapse on their own (as in the Diósi-Penrose model),
+          and consciousness collapse, in which a conscious system causes it (as Chalmers and McQueen
+          propose). The table below clarifies where Holos aligns with, and diverges from, each.
         </p>
         <InterpretiveComparisonTable />
       </div>

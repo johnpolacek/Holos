@@ -6,6 +6,6 @@ We live in a universe described with extraordinary precision, yet filled with my
 
 Holos is an interpretive framework for understanding the nature of reality. It does not propose new physical laws or challenge established laws of physics. Instead, it offers an explanation for how the universe described by physics becomes the universe we experience.
 
-At its core, Holos expresses this idea as a simple relation: **R = C ⊛ O**, where reality arises from the recursive composition of creation and observation.
+At its core, Holos expresses this idea as a simple relation: **R = C ⊛ O**, where lived reality arises from the composition of creation and observation.
 
 What follows explores this idea, from the meaning of life and consciousness, to the nature of our universe, higher dimensions and beyond, proposing answers to some of the most fundamental questions we can ask.

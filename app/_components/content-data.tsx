@@ -102,7 +102,7 @@ export const sections: ContentSection[] = [
           </li>
         </ul>
         <p className="text-sm text-black/60 pt-3">
-          The full inventory is in the <a href="/logic#minimal-core">Minimal Core</a>.
+          The full inventory is on the Logic page, under <a href="/logic#minimal-core">Claims</a>.
         </p>
       </div>,
     ],
@@ -299,17 +299,17 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Holos answers with three words, each with one meaning. <em>Lived</em> is where experience
-        actually occurs: inside apertures, and nowhere else. No one lived through the early
-        universe. <em>Lit</em> is everything in the causal past of at least one aperture in its
+        actually occurs: inside observers, and nowhere else. No one lived through the early
+        universe. <em>Lit</em> is everything in the causal past of at least one observer in its
         branch (a branch, in quantum terms, is one complete way the universe can go): everything
-        that could ever have influenced an observer. Every aperture is built from its causal past
+        that could ever have influenced an observer. Every observer is built from its causal past
         and draws on it through its traces, such as starlight, the cosmic microwave background, and
         the fossil record, so the lit region is the world experience is made from and about. The
         word is nearly literal: your causal past is exactly the region whose light, or any signal,
         can reach you. Lighting is binary and follows the structure of spacetime, and it happens
-        tenselessly, not at some later moment. Whatever lies outside every aperture&apos;s causal
+        tenselessly, not at some later moment. Whatever lies outside every observer&apos;s causal
         past is <em>unlit</em> structure, real as pattern but never part of any observer&apos;s
-        world: branches that never form an aperture, and regions beyond every observer&apos;s
+        world: branches that never form an observer, and regions beyond every observer&apos;s
         horizon. <em>Witnessing</em> is graded: how much of the lit region an observer&apos;s
         experience is actually about, and in what detail. Our past is not merely lit; it is densely
         witnessed. The relation between creation and observation is one of dependence, not a
@@ -362,9 +362,9 @@ export const sections: ContentSection[] = [
         into a circle, shrinks, and vanishes: an event in time. Seen from three dimensions, it is
         one sphere, all at once. Each level up holds whole what the level below sees as endless or
         unfolding: time flows in three dimensions, but a whole history is one shape in spacetime.
-        There is no journey up this ladder, only closure, and it closes at Omega, the description
-        with nothing outside it (see{" "}
-        <a href="/logic#foundational-propositions">Dimensional Resolution</a>).
+        This is closure, not a path to anywhere, and it closes at Omega, the description with
+        nothing outside it (see{" "}
+        <a href="/logic#foundational-propositions">Proposition IV: Closure</a>).
       </>,
       <>
         Holos puts this reading to work. In its account of quantum probability, trying to count the
@@ -383,20 +383,19 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         Omega is not introduced as a prediction or goal, and in Holos it is not derived from
-        anything else. It is one of the framework&apos;s two fundamental posits: the totality of
+        anything else. It is one of the framework&apos;s two additions to physics: the totality of
         reality, taken as a single whole. Physically, that whole is not mysterious. Quantum
         mechanics describes everything as one{" "}
         <a href="https://doi.org/10.1103/RevModPhys.29.454">universal quantum state</a>, and that
         state is Omega; on the no-collapse reading Holos adopts, it includes every branch. Its
         existence rests on physics on any reading that has a universal state, and the universe
         itself exists on every reading. What Holos adds is interpretive: in the monist reading it
-        adopts (reality is ultimately one thing, not many separate things), the whole is also the
-        one experiencer, of which every finite observer is a local aperture. The name echoes two
-        older ideas it should not be confused with: Teilhard de Chardin&apos;s spiritual endpoint of
-        history, and Frank Tipler&apos;s physical Omega Point, a prediction that required the
-        universe to collapse back on itself and is contradicted by its accelerating expansion. Holos
-        means neither, which is why it drops the word &quot;Point&quot;: its Omega is not an
-        endpoint in time but the whole itself.
+        adopts, the whole is also the one experiencer, of which every finite observer is a local
+        aperture. The name echoes two older ideas it should not be confused with: Teilhard de
+        Chardin&apos;s spiritual endpoint of history, and Frank Tipler&apos;s physical Omega Point,
+        a prediction that required the universe to collapse back on itself and is contradicted by
+        its accelerating expansion. Holos means neither, which is why it drops the word
+        &quot;Point&quot;: its Omega is not an endpoint in time but the whole itself.
       </>,
       <>
         Holos does not alter established physics. Every equation, history and structure remain as
@@ -429,8 +428,8 @@ export const sections: ContentSection[] = [
         Omega is the ultimate whole, not the ultimate integration: everything is in it, all at once,
         but its parts are not all joined. Finite systems never take in the whole. Nor is the whole
         fully lived. Structure outside every aperture&apos;s causal past belongs to Omega and is
-        never experienced. Omega is also where the ladder of descriptions closes: each level holds
-        whole what the level below sees as endless, and Omega holds everything (see{" "}
+        never experienced. Omega is also where descriptions close: each level holds whole what the
+        level below sees as endless, and Omega holds everything (see{" "}
         <a href="#infinity">Infinity</a>).
       </>,
       <>
@@ -494,9 +493,9 @@ export const sections: ContentSection[] = [
         In this case, progress would make civilizations less detectable, and this explanation is
         referred to here as the <strong>Integration Hypothesis</strong>. Here
         &quot;integration&quot; means a civilization growing compact and efficient, a different use
-        from the integration of a single mind that the observer threshold measures. The hypothesis
-        is a companion to Holos, not a consequence of its core: if it fails, the threshold and the
-        totality stand untouched.
+        from the integration of a single mind that the integration threshold measures. The
+        hypothesis is a companion to Holos, not a consequence of its core: if it fails, the
+        threshold and the totality stand untouched.
       </>,
       <>
         While early technological civilizations are likely to emit radio signals, reshape their
@@ -509,7 +508,7 @@ export const sections: ContentSection[] = [
         Systems that minimize energy waste, reduce long-distance coordination, and rely on dense
         local structure are more stable. Visibility decreases not because civilizations are hiding,
         but because efficiency pays. This progressive reduction in external signatures is referred
-        to as <strong>Visibility Collapse</strong>.
+        to as <strong>Going Quiet</strong>.
       </>,
       <>
         Large-scale interstellar expansion is constrained by the{" "}
@@ -743,22 +742,22 @@ export const sections: ContentSection[] = [
         happen at the same time depends on who is asking. Quantum physics goes further. Two{" "}
         <a href="https://en.wikipedia.org/wiki/Quantum_entanglement">entangled</a> particles can
         give matching results however far apart they are, and physics describes them not as two
-        separate things but as one shared state. On the no-collapse picture Holos adopts, the whole
+        separate things but as one shared state. On the no-collapse reading Holos adopts, the whole
         universe is one such state (see <a href="#omega-point">Omega</a>). Even light hints at it:
         between its emission and its absorption the spacetime interval is zero, though the two
         remain distinct events.
       </>,
       <>
         Holos takes a bold reading from these facts, marked here as speculation: separation is not
-        fundamental. What we experience as a vast universe is one process, expressed across space,
+        fundamental. What we experience as a vast universe is one whole, expressed across space,
         time, and scale, and lived at many places at once. One state is not one mind; its parts can
         be walled off, as the Omega section explains. And distance, duration, and individuality are
         not illusions. They are the walls that make local experience possible.
       </>,
       <>
-        So why are we here? Not for a purpose the universe needed, but because we are where the one
-        process is lived. When a system integrates enough, interaction stops being one thing acting
-        on another and becomes a point of view.
+        So why are we here? Not for a purpose the universe needed, but because we are one of the
+        places where the whole is lived. When a system integrates enough, interaction stops being
+        one thing acting on another and becomes a point of view.
         <FootnoteLink number={overviewCitationMap["why"]} />
       </>,
       <>

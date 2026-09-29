@@ -11,7 +11,7 @@ const columns = [
 const rows: ComparisonRow[] = [
   {
     dimension: "What is fundamental?",
-    holos: "The totality (Ω): the universal quantum state, read as the one experiencer",
+    holos: "The totality (Omega): the universal quantum state, read as the one experiencer",
     others: [
       "Universal wavefunction",
       "Relations between systems",

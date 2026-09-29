@@ -22,7 +22,7 @@ export const theorySubsections: Subsection[] = [
 ];
 
 export const logicSubsections: Subsection[] = [
-  { id: "minimal-core", title: "Core" },
+  { id: "minimal-core", title: "Claims" },
   { id: "primitive-definitions", title: "Primitives" },
   { id: "logic-axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundations" },

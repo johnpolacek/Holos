@@ -91,7 +91,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       .set(stepLabel, { textContent: "PHASE 1: INTEGRATION DEEPENS" })
       .to(explanationLabel, { opacity: 0.6, duration: 0.5 }, "phase1+=0.6")
       .set(explanationLabel, {
-        textContent: "Finite systems witness more of the whole; none takes in all of it.",
+        textContent: "No finite system takes in the whole, however deep its integration.",
       })
       .to(phiSymbol, { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.5)" }, "phase1+=0.8")
       .to(phiValue, { opacity: 0.7, duration: 0.4 }, "phase1+=1.2");
@@ -249,16 +249,15 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
         </div>
         <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 1:</strong> Integration deepens: finite systems witness more of the whole,
-            and none takes in all of it.
+            <strong>Phase 1:</strong> Integration deepens, and no finite system takes in the whole.
           </p>
           <p style={{ margin: "0.5em 0" }}>
             <strong>Phase 2:</strong> What the whole already is: everything, now, lived at its
             apertures and unlit elsewhere.
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Phase 3:</strong> Many names: God, Brahman, the Omega Point, the whole, nature,
-            the universe.
+            <strong>Phase 3:</strong> Many names: God, Brahman, the divine, the whole, nature, the
+            universe.
           </p>
           <p style={{ margin: "0.5em 0" }}>
             <strong>Phase 4:</strong> Unity: whatever the name, one totality, experienced through
@@ -274,15 +273,15 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
       ref={containerRef}
       className="relative w-full mt-8 aspect-square rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing Omega: finite integration witnessing more of the whole without taking in all of it, the whole that already exists, lived at its apertures and unlit elsewhere, and the many names for one totality experienced through every aperture"
+      aria-label="Animation showing Omega: no finite system, however integrated, takes in the whole; the whole already exists, lived at its apertures and unlit elsewhere, and the many names for one totality experienced through every aperture"
     >
       <figcaption className="sr-only">
-        The Omega animation shows four phases. First, integration deepens: finite systems witness
-        more of the whole, and none takes in all of it. Second, what the whole already is:
-        everything, now, lived at its apertures and unlit elsewhere. The totality is not produced by
-        integration; it is the ground integration happens on. Third, the many names for it:
-        religious (God, Brahman, Omega Point) and secular (the whole, nature, the universe). Fourth,
-        unity: whatever the name, one totality, experienced through every aperture.
+        The Omega animation shows four phases. First, integration deepens, and no finite system
+        takes in the whole. Second, what the whole already is: everything, now, lived at its
+        apertures and unlit elsewhere. The totality is not produced by integration; it is the ground
+        integration happens on. Third, the many names for it: religious (God, Brahman, the divine)
+        and secular (the whole, nature, the universe). Fourth, unity: whatever the name, one
+        totality, experienced through every aperture.
       </figcaption>
       <svg
         ref={svgRef}
@@ -331,7 +330,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
           fontStyle="italic"
           opacity="0"
         >
-          Finite systems witness more of the whole; none takes in all of it.
+          No finite system takes in the whole, however deep its integration.
         </text>
 
         {/* Phase 1: Φ Symbol and Value */}
@@ -663,7 +662,7 @@ export default function OmegaLimitAnimation({ isPDF = false }: OmegaLimitAnimati
             fontSize="8"
             fontFamily="serif"
           >
-            Omega Point
+            The Divine
           </text>
         </g>
 

@@ -25,7 +25,7 @@ export default function Predictions() {
             >
               dynamical laws
             </a>{" "}
-            or modify the equations of physics. It adds two ingredients beyond them: the integration
+            or modify the equations of physics. It adds two things beyond them: the integration
             threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about where
             observation occurs, and the totality, Omega, as the fundamental ground of experience, of
             which every observer is a local aperture: an opening through which it registers itself.
@@ -58,7 +58,7 @@ export default function Predictions() {
           </ul>
 
           <p className="leading-relaxed text-black/70 text-sm">
-            For the definitions and the observer criteria, see{" "}
+            For the definitions and the observer requirements, see{" "}
             <a href="/logic#primitive-definitions" className="underline hover:no-underline">
               Logic
             </a>
@@ -191,7 +191,7 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              What matters is integration. Well below a critical level, there is no unified internal
+              What matters is integration. Well below the threshold, there is no unified internal
               state that could count as “what is happening for the system.” Well above it, in a
               system that meets the other observer requirements, experience is unavoidable.
             </p>
@@ -264,10 +264,9 @@ export default function Predictions() {
             <p className="leading-relaxed">
               This does not imply contradiction, and Holos is specific about why. No possibility is
               erased (Axiom 2), so observers never collide over a single shared outcome. Where
-              registrations would be incompatible, they belong to different branches of the
-              possibility structure, each internally consistent. There is no rule that the first
-              observer fixes the truth for everyone; relativity permits no such “first,” and none is
-              needed.
+              registrations would be incompatible, they belong to different branches of the one
+              quantum state, each internally consistent. There is no rule that the first observer
+              fixes the truth for everyone; relativity permits no such “first,” and none is needed.
             </p>
 
             <p className="leading-relaxed">
@@ -295,9 +294,9 @@ export default function Predictions() {
             </blockquote>
 
             <p className="leading-relaxed">
-              Collapse is therefore not a new physical process. Within each branch, records are
-              already definite, a detector&apos;s click included; what an observer adds is not the
-              definiteness but its being lived.
+              Apparent collapse is therefore not a new physical process. Within each branch, records
+              are already definite, a detector&apos;s click included; what an observer adds is not
+              the definiteness but its being lived.
             </p>
           </div>
 
@@ -324,7 +323,7 @@ export default function Predictions() {
           <p className="leading-relaxed">
             The central claim of Holos is that observation is where structure is lived, not a force:
             in the version this site defends, it changes no equation and moves nothing. But every
-            experiment is a physical measurement, and an instrument only ever registers physical
+            experiment is a physical measurement, and an instrument only ever records physical
             change. So <strong>presence itself cannot be detected directly</strong>. An instrument
             that finds nothing extra is exactly what Holos predicts, because there is nothing extra
             to find: presence is what the physics is like from the inside, not an additional signal
@@ -687,7 +686,7 @@ export default function Predictions() {
             anticipates is the one textbook quantum mechanics already predicts. What experiments in
             this family probe is the family of interpretations Holos belongs to (branching, with no
             absolute observed events), not Holos alone. The framework&apos;s distinctive content,
-            which structures are present as experience, is ontological rather than experimental.
+            which structures are lived, is ontological rather than experimental.
           </p>
 
           <p className="leading-relaxed">
@@ -932,7 +931,7 @@ export default function Predictions() {
               >
                 Kardashev Scale
               </a>{" "}
-              ranks civilizations by energy use. The Holosian scale ranks civilizations by
+              ranks civilizations by energy use. The Holosian Scale ranks civilizations by
               integration. The stages below are a map of what “advancement” looks like if coherence,
               not throughput, is the main objective.
             </p>
@@ -978,7 +977,7 @@ export default function Predictions() {
                 <h4 className="text-lg font-medium text-black/90">H4: Deep Integration</h4>
                 <p className="leading-relaxed">
                   The civilization operates like a single high-coherence system with minimal waste
-                  and minimal leakage. External visibility collapses. What remains detectable is
+                  and minimal leakage. External visibility fades. What remains detectable is
                   gravitational and thermal: the waste heat no optimization can eliminate.
                 </p>
               </div>

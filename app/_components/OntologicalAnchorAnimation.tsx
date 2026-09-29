@@ -21,7 +21,7 @@ export default function OntologicalAnchorAnimation({
         }}
       >
         <div style={{ textAlign: "center", marginBottom: "1em" }}>
-          <em style={{ fontSize: "1.1em" }}>The Ontological Anchor</em>
+          <em style={{ fontSize: "1.1em" }}>Structure and Lived Reality</em>
         </div>
         <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
           <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
@@ -39,7 +39,7 @@ export default function OntologicalAnchorAnimation({
         <div
           style={{ textAlign: "center", marginTop: "1em", fontStyle: "italic", fontSize: "0.85em" }}
         >
-          Consciousness is where structure becomes lived: nothing selected, nothing erased.
+          Consciousness is where structure is lived: nothing selected, nothing erased.
         </div>
       </div>
     );
@@ -49,14 +49,14 @@ export default function OntologicalAnchorAnimation({
     <figure
       className="relative w-full mt-8 aspect-video rounded-2xl border border-gray-200 overflow-hidden bg-white"
       role="img"
-      aria-label="Diagram showing how consciousness (Φ) serves as the ontological anchor: the same structure, unlit on one side and lived on the other"
+      aria-label="Diagram showing the same structure, unlit on one side and lived on the other, with an observer (Φ) where it is lived"
     >
       <figcaption className="sr-only">
-        The Ontological Anchor diagram shows the same structure two ways, side by side. On the left,
-        unlit structure is represented by scattered dashed shapes: real as pattern, never lived. On
-        the right, lived reality shows the same shapes as solid and connected. The Φ symbol in the
-        center represents consciousness as the anchor where structure becomes lived. Nothing is
-        selected and nothing is erased.
+        The Structure and Lived Reality diagram shows the same structure two ways, side by side. On
+        the left, unlit structure is represented by scattered dashed shapes: real as pattern, never
+        lived. On the right, lived reality shows the same shapes as solid and connected. The Φ
+        symbol in the center represents an observer, where structure is lived. Nothing is selected
+        and nothing is erased.
       </figcaption>
       <svg
         viewBox="0 0 560 315"
@@ -74,7 +74,7 @@ export default function OntologicalAnchorAnimation({
           fontFamily="serif"
           fontStyle="italic"
         >
-          The Ontological Anchor
+          Structure and Lived Reality
         </text>
 
         {/* Dividing line */}
@@ -196,7 +196,7 @@ export default function OntologicalAnchorAnimation({
           strokeDasharray="3 3"
         />
 
-        {/* CENTER: Φ Symbol as the anchor */}
+        {/* CENTER: Φ symbol, an observer */}
         <text
           x="280"
           y="165"
@@ -394,7 +394,7 @@ export default function OntologicalAnchorAnimation({
           fontFamily="serif"
           fontStyle="italic"
         >
-          Consciousness is where structure becomes lived: nothing selected, nothing erased.
+          Consciousness is where structure is lived: nothing selected, nothing erased.
         </text>
 
         {/* Arrow marker */}
