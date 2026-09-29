@@ -55,7 +55,8 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Hardest problem",
-    holos: "The measure of integration; decomposing one subject into many",
+    holos:
+      "The measure of integration; decomposing one subject into many; anticipating strangers' experience as your own",
     others: [
       "Untestable identity claim; inert grids that score high",
       "Explains access and report, not experience itself",

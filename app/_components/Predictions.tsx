@@ -29,8 +29,10 @@ export default function Predictions() {
             threshold <MathInline>{"\\Phi_c"}</MathInline>, a structural fact about where
             observation occurs, and the totality, Omega, as the fundamental ground of experience, of
             which every observer is a local aperture: an opening through which it registers itself.
-            The commitments, expectations, and tests below follow either from established physics or
-            from those two additions. The speculation at the end does not; it is labeled as such.
+            The commitments, expectations, and tests below follow from established physics, from
+            those two additions, or, where marked, from the no-collapse side Holos takes on quantum
+            physics (Commitment 3 and Check B). The speculation at the end does not; it is labeled
+            as such.
           </p>
 
           <p className="leading-relaxed">
@@ -44,8 +46,8 @@ export default function Predictions() {
               any future experiments.
             </li>
             <li className="leading-relaxed">
-              <strong>Expectations:</strong> patterns we should already observe in neuroscience,
-              quantum foundations, and cosmology if those commitments are right.
+              <strong>Expectations:</strong> patterns we should already observe in neuroscience and
+              quantum foundations if those commitments are right.
             </li>
             <li className="leading-relaxed">
               <strong>Testability and its limits:</strong> what cannot be tested (presence itself),
@@ -411,63 +413,37 @@ export default function Predictions() {
           </div>
 
           {/* Cosmology */}
-          <div className="flex flex-col gap-4">
+          <div id="minimal-neural-systems" className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">
-              Cosmology: Ontological filtering rather than fine-tuning
+              Minimal neural systems: the twilight&apos;s width
             </h3>
 
             <p className="leading-relaxed">
-              The observed universe lies within the narrow range compatible with long-lived
-              observers, not because constants were dynamically tuned, but because only such
-              structures become experientially present.
+              Networks of neurons grown in a dish and connected to simple environments are the
+              cheapest place to test the twilight prediction. If crossing the threshold is a genuine
+              transition (claim 3 of{" "}
+              <a href="/logic#threshold-claims" className="underline hover:no-underline">
+                the threshold
+              </a>
+              ), its rounded stretch should narrow as a system grows. Small cultures should then
+              cross gradually, and larger cultures, grown the same way, more steeply, as
+              connectivity, feedback, and coupling to their environment increase.
             </p>
 
             <p className="leading-relaxed">
-              Observer-incompatible universes, if physics actually produces them, would exist as
-              structure while never being lived; universes the laws merely allow are possibilities,
-              not structure. With no apertures, the totality has no opening into them, and they
-              remain unlit structure. The nearest examples are not exotic: under the branching
-              picture, observer-free branches of our own universe are unlit structure in exactly the
-              same sense. Anthropic reasoning (the observation that we can only find ourselves in a
-              universe able to support us) is therefore reframed as ontological filtering rather
-              than selection.
-            </p>
-
-            <p className="leading-relaxed text-black/70 text-sm">
-              This is a reframing, not a new prediction: it expects exactly what standard anthropic
-              reasoning expects, and no cosmological observation could favor one over the other.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <h3 className="text-xl font-semibold text-black/90">
-              Minimal neural systems: emergence of coherent integration
-            </h3>
-
-            <p className="leading-relaxed">
-              If observerhood depends on informational integration rather than biological scale,
-              then small biological neural networks interacting with an environment should exhibit
-              measurable transitions in system-level coherence as integration increases.
-            </p>
-
-            <p className="leading-relaxed">
-              Recent experiments with cultured neural networks connected to digital environments
-              suggest that biological neurons can form closed feedback loops outside of a full
-              organism. Under the Holos framework, progressively increasing connectivity, feedback
-              richness, and environmental coupling should eventually produce a regime where neural
-              activity shifts from distributed dynamics toward unified system-level organization.
-            </p>
-
-            <p className="leading-relaxed">
-              Such transitions would not demonstrate consciousness directly. However, the existence
-              of a reproducible boundary between loosely coupled neural computation and coherent
-              integrated dynamics would support the claim that observerhood depends on structural
-              integration rather than on organismal complexity. That support counts only under the
-              conditions in the{" "}
+              The test counts only under the conditions in the{" "}
               <a href="#experiment-3" className="underline hover:no-underline">
                 note on integration measures
               </a>
-              : a measure and threshold fixed in advance, and a stated way to lose.
+              : the gauge and its cutoff fixed in advance, and a stated way to lose. Holos loses
+              claim 3, though not its core, if the steepness does not grow with size. A steepening
+              that tracks something other than integration, such as raw activity or metabolic rate,
+              would not count in its favor.
+            </p>
+
+            <p className="leading-relaxed text-black/70 text-sm">
+              Such transitions would not show that a dish is conscious. They test the shape of the
+              threshold, not presence itself.
             </p>
           </div>
         </div>

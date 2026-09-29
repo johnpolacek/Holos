@@ -22,7 +22,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Wavefunction status",
-    holos: "Represents Creation (valid possibilities)",
+    holos: "Real: Creation, every branch physics produces",
     others: [
       "Literally real, never collapses",
       "Observer-relative",
@@ -51,7 +51,7 @@ const rows: ComparisonRow[] = [
     dimension: "Role of observer",
     holos: "Local aperture of the totality (Φ ≥ Φc)",
     others: [
-      "Passive branch inhabitant",
+      "A physical system, with no special role",
       "Defines relational facts",
       "Central agent",
       "Nothing special",

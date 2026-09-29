@@ -6,7 +6,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Main sections with anchor links
   const sections = [
     "",
-    "#axioms",
     "#meaning-of-life",
     "#consciousness",
     "#spacetime",
@@ -33,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2024-06-19"),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/revisions`,
+      lastModified: new Date("2026-09-28"),
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
     },
     {
       url: `${baseUrl}/predictions`,

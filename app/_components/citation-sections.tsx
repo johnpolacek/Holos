@@ -65,12 +65,6 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "The view that past, present, and future exist as a four-dimensional block; Holos treats observation as what registers this structure as experience.",
           },
-          {
-            name: "Recursion",
-            url: "https://en.wikipedia.org/wiki/Recursion",
-            description:
-              "R = C ⊛ O is composition, not feedback: creation is what physics allows, and observation registers it from within without selecting, erasing, or changing any of it.",
-          },
         ],
       },
       {
@@ -220,34 +214,10 @@ export const citationMainSections: CitationMainSection[] = [
               "Whether two spatially separated events occur at the same time depends on the observer.",
           },
           {
-            name: "The Absorber Theory",
-            url: "https://en.wikipedia.org/wiki/Wheeler%E2%80%93Feynman_absorber_theory",
-            description:
-              "Radiation is a result of both forward-in-time and backward-in-time electromagnetic waves.",
-          },
-          {
-            name: "Spacetime Interval",
-            url: "https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval",
-            description:
-              "The invariant measure of separation between two events in spacetime. For light the interval is zero, though emission and absorption remain two distinct events.",
-          },
-          {
-            name: "Null Interval",
-            url: "https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval",
-            description:
-              "A spacetime interval of zero, which occurs along light rays. A zero interval does not make two events one: emission and absorption stay distinct, and no observer can ride the light.",
-          },
-          {
             name: "Light Cone",
             url: "https://en.wikipedia.org/wiki/Light_cone",
             description:
               "The boundary of all possible paths that light can take from a given event, defining the causal structure of spacetime.",
-          },
-          {
-            name: "Null Geodesic",
-            url: "https://en.wikipedia.org/wiki/Geodesic",
-            description:
-              "The path light follows through spacetime. Its interval is zero, but it still connects two distinct events, and nothing can ride along it.",
           },
           {
             name: "Retrocausality",
@@ -280,12 +250,6 @@ export const citationMainSections: CitationMainSection[] = [
             url: "https://en.wikipedia.org/wiki/Projective_geometry",
             description:
               "A branch of geometry studying what stays the same when the point of view changes; parallel lines meet at infinity.",
-          },
-          {
-            name: "Loop Quantum Gravity",
-            url: "https://en.wikipedia.org/wiki/Loop_quantum_gravity",
-            description:
-              "A proposal that space comes in discrete quanta, which would remove the singularities of classical gravity. Unconfirmed.",
           },
           {
             name: "Ultraviolet catastrophe",
@@ -404,12 +368,6 @@ export const citationMainSections: CitationMainSection[] = [
               "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with: silent, but warm. A channel, not a fingerprint: warm dark masses are also what failed stars and cooled remnants look like.",
           },
           {
-            name: "Ehrenfest argument",
-            url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
-            description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Matter would spiral into nuclei/stars or fly apart. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (the Structural Constraint principle).",
-          },
-          {
             name: "Ephemeralization",
             url: "https://en.wikipedia.org/wiki/Ephemeralization",
             description:
@@ -419,13 +377,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "The Transcension Hypothesis",
             url: "https://www.accelerating.org/articles/transcensionhypothesis",
             description:
-              "John Smart (2011): advanced civilizations migrate to inner space for efficiency. Holos shares the inward-turn conclusion but not the mechanism: no transmutation or dimensional exit is proposed. Mature systems remain ordinary matter that has stopped shining.",
-          },
-          {
-            name: "Cosmological natural selection",
-            url: "https://en.wikipedia.org/wiki/Cosmological_natural_selection",
-            description:
-              "Lee Smolin (1992): universes evolve to create more black holes; black hole collapse may give rise to daughter universes with slightly different constants. Cited as related work in spirit; Holos takes no position on it and proposes no mechanism linking intelligence to black holes.",
+              "John Smart (2011): advanced civilizations migrate to inner space for efficiency. Holos shares the inward-turn conclusion. Mature systems remain ordinary matter that has stopped shining.",
           },
           {
             name: "Substrate independence",
@@ -444,12 +396,6 @@ export const citationMainSections: CitationMainSection[] = [
             url: "https://en.wikipedia.org/wiki/Dyson_sphere",
             description:
               "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies: waste heat, not visible structure, is the unavoidable search target.",
-          },
-          {
-            name: "Brane cosmology",
-            url: "https://en.wikipedia.org/wiki/Brane_cosmology",
-            description:
-              "The idea that our 3D universe may be a thin brane in a larger, higher-dimensional space. Unconfirmed; Holos takes no position, and proposes no migration into extra dimensions.",
           },
         ],
       },
@@ -577,28 +523,16 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/#why",
         items: [
           {
-            name: "Unitarity",
-            url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
+            name: "Quantum entanglement",
+            url: "https://en.wikipedia.org/wiki/Quantum_entanglement",
             description:
-              "The principle that probabilities must sum to one, ensuring the conservation of information in quantum mechanics. Whether this holds inside black holes is the open information paradox.",
+              "Particles whose joint state cannot be split into separate states, however far apart they are. The strongest physical hint behind the section's bold reading that separation is not fundamental.",
           },
           {
-            name: "Many-Worlds Interpretation",
-            url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+            name: "Holism and nonseparability in physics (Stanford Encyclopedia of Philosophy)",
+            url: "https://plato.stanford.edu/entries/physics-holism/",
             description:
-              "Every possible outcome of a quantum measurement occurs in a separate, branching universe.",
-          },
-          {
-            name: "Speed of Light",
-            url: "https://en.wikipedia.org/wiki/Speed_of_light",
-            description:
-              "The universe's fixed speed limit. Along a light ray the spacetime interval is zero, though emission and absorption remain distinct events.",
-          },
-          {
-            name: "Indra's Net",
-            url: "https://en.wikipedia.org/wiki/Indra%27s_net",
-            description:
-              "An ancient Buddhist and Hindu metaphor describing an infinite web where every node is a jewel that reflects all other jewels, representing the interconnected, recursive nature of reality where each part contains and reflects the whole.",
+              "Reference overview of the view that entangled systems are not composed of independently existing parts. Holos goes one step further and takes that oneness as more basic than the separations.",
           },
         ],
       },
@@ -609,22 +543,10 @@ export const citationMainSections: CitationMainSection[] = [
         canonicalLink: "/#holos",
         items: [
           {
-            name: "Structural Realism",
-            url: "https://en.wikipedia.org/wiki/Structural_realism",
-            description:
-              "The view that science describes the relationships between things, not what they are made of in themselves.",
-          },
-          {
             name: "Holos",
             url: "#holos",
             description:
               "The whole of reality as both structure and lived experience: lawful possibility composed with registration, symbolized by ⊛.",
-          },
-          {
-            name: "Recursive Operator",
-            url: "https://en.wikipedia.org/wiki/Recursion",
-            description:
-              "Following one observer's thread, from each registered history physics allows what comes next. Not a process in time and not feedback on physics.",
           },
         ],
       },
@@ -636,25 +558,6 @@ export const citationMainSections: CitationMainSection[] = [
     subsections: [
       {
         number: 11,
-        id: "minimal-core",
-        title: "Core",
-        canonicalLink: "/logic#minimal-core",
-        items: [
-          {
-            name: "Bekenstein Bound",
-            url: "https://en.wikipedia.org/wiki/Bekenstein_bound",
-            description:
-              "An upper limit on the entropy or information that can be contained within a given limited region of space which has a finite amount of energy. It suggests that information is fundamentally tied to the geometry of the universe.",
-          },
-          {
-            name: "Bekenstein, J. (2003)",
-            url: "https://www.scientificamerican.com/article/information-in-the-holographic-univ/",
-            description: "Information in the holographic universe. Scientific American.",
-          },
-        ],
-      },
-      {
-        number: 12,
         id: "operational-definition",
         title: "Definition",
         canonicalLink: "/logic#operational-definition",
@@ -668,7 +571,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 13,
+        number: 12,
         id: "comparison",
         title: "Comparison",
         canonicalLink: "/logic#comparison",
@@ -772,7 +675,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 14,
+        number: 13,
         id: "primitive-definitions",
         title: "Primitives",
         canonicalLink: "/logic#primitive-definitions",
@@ -798,7 +701,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 15,
+        number: 14,
         id: "logic-axioms",
         title: "Axioms",
         canonicalLink: "/logic#logic-axioms",
@@ -818,11 +721,23 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 16,
+        number: 15,
         id: "foundational-propositions",
         title: "Foundations",
         canonicalLink: "/logic#foundational-propositions",
         items: [
+          {
+            name: "Flatland",
+            url: "https://en.wikipedia.org/wiki/Flatland",
+            description:
+              "Edwin Abbott (1884): a sphere passing through a flat world appears to its inhabitants as a changing circle, an event in time; from three dimensions it is one whole. The picture behind Proposition IV's ladder of descriptions.",
+          },
+          {
+            name: "Ney and Albert, eds. (2013), The Wave Function: Essays on the Metaphysics of Quantum Mechanics",
+            url: "https://doi.org/10.1093/acprof:oso/9780199790807.001.0001",
+            description:
+              "Oxford University Press: essays on wave-function realism, the view that the vast space where the quantum state lives is the most real level. A rung on the ladder of descriptions; Holos does not depend on the view.",
+          },
           {
             name: "Probability Theory",
             url: "https://en.wikipedia.org/wiki/Probability_theory",
@@ -850,7 +765,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 17,
+        number: 16,
         id: "ontology",
         title: "Ontology",
         canonicalLink: "/logic#ontology",
@@ -978,7 +893,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 18,
+        number: 17,
         id: "relationship-to-physics",
         title: "Relationship to Physics",
         canonicalLink: "/logic#relationship-to-physics",
@@ -1034,7 +949,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 19,
+        number: 18,
         id: "mathematical-formalism",
         title: "Notation",
         canonicalLink: "/logic#mathematical-formalism",
@@ -1060,7 +975,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 20,
+        number: 19,
         id: "extrapolative-proposition",
         title: "Companion Principle",
         canonicalLink: "/logic#extrapolative-proposition",
@@ -1071,12 +986,6 @@ export const citationMainSections: CitationMainSection[] = [
             description:
               "R. Buckminster Fuller (1938): the process of doing more with less until intelligence can do everything with nothing. The Integration Hypothesis extends this to civilizations turning inward; Fuller did not.",
           },
-          {
-            name: "Ehrenfest argument",
-            url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
-            description:
-              "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Holos agrees, and goes further: higher dimensions are descriptions, not places. Nothing migrates into them (the Structural Constraint principle).",
-          },
         ],
       },
     ],
@@ -1086,7 +995,7 @@ export const citationMainSections: CitationMainSection[] = [
     title: "Predictions",
     subsections: [
       {
-        number: 21,
+        number: 20,
         id: "prediction-introduction",
         title: "Introduction",
         canonicalLink: "/predictions#prediction-introduction",
@@ -1116,24 +1025,6 @@ export const citationMainSections: CitationMainSection[] = [
               "Holos reframes anthropic selection as ontological filtering: observer-free universes may exist as structure but are never lived.",
           },
           {
-            name: "Cosmic microwave background (CMB) polarization",
-            url: "https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization",
-            description:
-              "CMB-S4, LiteBIRD: searching the polarization of the earliest light for primordial gravitational waves, a test of inflation. Holos makes no prediction here.",
-          },
-          {
-            name: "Past hypothesis",
-            url: "https://en.wikipedia.org/wiki/Past_hypothesis",
-            description:
-              "The universe began in a highly ordered, low-entropy state. In Holos, branches where nothing could live remain unlit: real as structure, never lived (no system reaches Φ_c).",
-          },
-          {
-            name: "Inflation (cosmology)",
-            url: "https://en.wikipedia.org/wiki/Inflation_(cosmology)",
-            description:
-              "A proposed early phase of rapid expansion that would explain the universe's flatness and smoothness. Holos takes no position on it.",
-          },
-          {
             name: "Multiverse",
             url: "https://en.wikipedia.org/wiki/Multiverse",
             description:
@@ -1142,7 +1033,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 22,
+        number: 21,
         id: "commitments",
         title: "Commitments",
         canonicalLink: "/predictions#commitments",
@@ -1186,7 +1077,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 23,
+        number: 22,
         id: "expectations",
         title: "Expectations",
         canonicalLink: "/predictions#expectations",
@@ -1218,7 +1109,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 24,
+        number: 23,
         id: "experimentation",
         title: "Testability and Its Limits",
         canonicalLink: "/predictions#experimentation",
@@ -1382,7 +1273,7 @@ export const citationMainSections: CitationMainSection[] = [
         ],
       },
       {
-        number: 25,
+        number: 24,
         id: "speculation",
         title: "Speculation",
         canonicalLink: "/predictions#speculation",
@@ -1392,12 +1283,6 @@ export const citationMainSections: CitationMainSection[] = [
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
               "A speculative reading: civilizational integration may advance in jumps rather than smoothly, as light-speed delay and waste heat reshape what can be coordinated.",
-          },
-          {
-            name: "Ephemeralization",
-            url: "https://en.wikipedia.org/wiki/Ephemeralization",
-            description:
-              "Doing more with less. The Integration Hypothesis extends this to advancement as inward growth rather than outward expansion; Fuller did not.",
           },
           {
             name: "Fermi paradox",
@@ -1424,12 +1309,6 @@ export const citationMainSections: CitationMainSection[] = [
               "The idea that mature civilizations deliberately leave young ones alone. For Holos, non-contact needs no agreement: leaving a young civilization alone costs nothing, while contact takes effort.",
           },
           {
-            name: "Weakly interacting massive particles (WIMPs)",
-            url: "https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles",
-            description:
-              "A leading dark-matter particle candidate. Holos takes no position on the particle nature of cosmological dark matter, which predates life; Dark Nodes are non-luminous ordinary matter.",
-          },
-          {
             name: "Euclid Mission",
             url: "https://www.euclid-ec.org/",
             description:
@@ -1445,36 +1324,12 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Baryon",
             url: "https://en.wikipedia.org/wiki/Baryon",
             description:
-              "Ordinary matter. Dark Nodes remain baryonic: built matter that stops shining, not matter that changes kind. No transmutation is proposed.",
-          },
-          {
-            name: "Navarro–Frenk–White profile",
-            url: "https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile",
-            description:
-              "Halo-profile deviations have viable conventional explanations (baryonic feedback, mergers, measurement limits). Holos claims no dark-matter anomaly.",
-          },
-          {
-            name: "Lambda-CDM model",
-            url: "https://en.wikipedia.org/wiki/Lambda-CDM_model",
-            description:
-              "The standard cosmological model. Holos does not modify it: cosmological dark matter is primordial and predates any possible life.",
-          },
-          {
-            name: "Dark Energy Survey (DES)",
-            url: "https://www.darkenergysurvey.org/",
-            description:
-              "Jan 2026 final analysis: an open clustering tension. Holos offers no interpretation of it.",
-          },
-          {
-            name: "JWST COSMOS-Web",
-            url: "https://arxiv.org/abs/2601.17239",
-            description:
-              "Granular mass structure under study. A Dark Node candidate would need compact mass plus infrared warmth; mass alone is not evidence.",
+              "Ordinary matter. Dark Nodes remain baryonic: built matter that stops shining.",
           },
         ],
       },
       {
-        number: 26,
+        number: 25,
         id: "technology",
         title: "Technology",
         canonicalLink: "/predictions#technology",
@@ -1579,7 +1434,7 @@ export const predictionsCitationMap: Record<string, number> = (() => {
 })();
 
 export function FootnoteLink({ number, className }: { number: number; className?: string }) {
-  const anchorId = citationAnchorMap[number] ?? "why";
+  const anchorId = citationAnchorMap[number] ?? "introduction";
   return (
     <a
       className={`pl-0.5 pr-2 underline-offset-0 text-base opacity-80 hover:opacity-100 ${className}`}

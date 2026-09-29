@@ -7,7 +7,6 @@ import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
-import NullIntervalAnimation from "./NullIntervalAnimation";
 import OmegaLimitAnimation from "./OmegaLimitAnimation";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import OperatorAnatomyDiagram from "./OperatorAnatomyDiagram";
@@ -80,7 +79,6 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "spacetime" && (
             <>
               <InvarianceWarpAnimation isPDF={isPDF} />
-              <NullIntervalAnimation isPDF={isPDF} />
               <QuantumEraserAnimation isPDF={isPDF} />
             </>
           )}

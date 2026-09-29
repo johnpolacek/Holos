@@ -38,7 +38,6 @@ export const logicSubsections: Subsection[] = [
   { id: "mathematical-formalism", title: "Notation" },
   { id: "extrapolative-proposition", title: "Companion" },
   { id: "open-problems", title: "Open Problems" },
-  { id: "revisions", title: "Revisions" },
 ];
 
 export const predictionsSubsections: Subsection[] = [
@@ -63,4 +62,5 @@ export const sections: Section[] = [
     subsections: predictionsSubsections,
   },
   { id: "citations", title: "Citations", path: "/citations", subsections: [] },
+  { id: "revisions", title: "Revisions", path: "/revisions", subsections: [] },
 ];
