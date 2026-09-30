@@ -1053,7 +1053,7 @@ export default function Logic() {
             the universe&apos;s complete quantum state (all branches included, in the version
             defended here), and it exists now, not at the end of anything. Experientially, it is the
             one experiencer, awake wherever a system crosses the threshold. Finite systems never
-            take in the whole, and it is not fully registered either; its unlit structure is real
+            take in the whole, and it is not fully registered either; its unlit structure exists
             and never lived.
           </p>
 
@@ -1166,7 +1166,7 @@ export default function Logic() {
             <p className="leading-relaxed">
               Whatever lies outside the causal past of every aperture, whole unlit branches among
               it, marks a genuine limit on the totality&apos;s experiential reach: unlit structure,
-              real as pattern and never lived. Holos does not soften this into a faint universal
+              existing as pattern and never lived. Holos does not soften this into a faint universal
               experience; doing so would erase the distinction between lit and unlit on which the
               rest of the framework depends.
             </p>

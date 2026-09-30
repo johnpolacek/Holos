@@ -26,7 +26,7 @@ export default function OntologicalAnchorAnimation({
         <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
           <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
             <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Unlit Structure</p>
-            <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Real as pattern, never lived</p>
+            <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>Existing as pattern, never lived</p>
             <p style={{ margin: "0.5em 0", fontSize: "0.8em" }}>(dashed, disconnected)</p>
           </div>
           <div style={{ textAlign: "center", fontSize: "2em" }}>Φ →</div>
@@ -56,7 +56,7 @@ export default function OntologicalAnchorAnimation({
       <figcaption className="sr-only">
         The Structure and Lived Reality diagram compares two cases side by side. On the left,
         structure outside every observer&apos;s past (unlit) is represented by scattered dashed
-        shapes: real as pattern, never lived. On the right, structure an observer lives is shown as
+        shapes: existing as pattern, never lived. On the right, structure an observer lives is shown as
         the same kind of shapes, solid and connected. The Φ symbol in the center represents an
         observer, where structure is lived. Nothing is selected and nothing is erased.
       </figcaption>

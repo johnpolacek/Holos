@@ -71,7 +71,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Reality without observers",
-    holos: "Unlit structure: real as pattern, never lived",
+    holos: "Unlit structure: existing as pattern, never lived",
     others: [
       "The theory is silent; it speaks only of measurement results",
       "Fully real",

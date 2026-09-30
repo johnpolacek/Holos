@@ -111,7 +111,7 @@ export default function Predictions() {
               threshold. It is not spread through matter, not ambient in space or fields, and not
               pooled in the whole: Omega is the one experiencer, but it experiences only through
               observers. &quot;Local&quot; says where experience happens, not who has it. Structure
-              without observers is still fully real, as pattern: unobserved histories remain part of{" "}
+              without observers still fully exists, as pattern: unobserved histories remain part of{" "}
               <MathInline>{"C"}</MathInline>, the branches physics produces, and are simply never
               lived. (In the reading of quantum physics adopted here, every outcome a measurement
               could have occurs, each in its own branch: a complete, separate version of how the

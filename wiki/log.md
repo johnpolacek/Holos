@@ -805,3 +805,6 @@ Keep entries concise and grounded in inspected repo evidence.
 - Shared helpers in `app/lab/redesign/_shared/` (verbatim content access, figures, GSAP registration, pre-paint motion boot with `?motion=reduced|full`, link rewriting, a base CSS that unlocks document scrolling). Old animations are left out; the Aperture and Eraser figures appear in all four.
 - Root layout: `suppressHydrationWarning` on `<html>` (the motion boot sets attributes before hydration) and the favicon path made absolute (`/icon.svg`), which 404'd on nested routes.
 - Gotcha: two `next dev` servers on one repo share `.next` and hang compiles; run only one.
+## [2026-09-30] update | "Real" reserved for lived reality
+
+- Unlit structure is now "existing as pattern" (was "real as pattern") in content-data, Logic, Predictions, the comparison table, and OntologicalAnchorAnimation, so "real" stays reserved for lived reality (R).

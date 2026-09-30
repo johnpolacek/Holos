@@ -355,7 +355,7 @@ export const sections: ContentSection[] = [
         fossil record. So the lit region is the world experience is made from and about. Being lit
         is all or nothing, it follows the structure of spacetime, and it is not an event that
         happens at some later moment: it is simply a fact about how the block is arranged. Whatever
-        lies outside every observer&apos;s causal past is <em>unlit</em> structure, real as pattern
+        lies outside every observer&apos;s causal past is <em>unlit</em> structure, existing as pattern
         but never part of any observer&apos;s world: branches that never form an observer, and
         regions so far away that no signal from them can ever reach one. <em>Witnessing</em> is
         graded: how much of the lit region an observer&apos;s experience is actually about, and in
