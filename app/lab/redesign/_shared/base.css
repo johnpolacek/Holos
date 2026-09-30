@@ -1,0 +1,45 @@
+/* Shared base for the redesign prototypes. Every design's root carries .rd plus its own class.
+   The live site scrolls an inner panel; the prototypes scroll the document instead. */
+
+html:has(.rd),
+html:has(.rd) body {
+  height: auto;
+  overflow: visible;
+  scroll-behavior: auto;
+}
+html:has(.rd) * {
+  scroll-behavior: auto;
+}
+
+/* Pre-paint gate: see _shared/motion.ts. */
+html[data-motion-boot="pending"] .rd [data-intro] {
+  visibility: hidden;
+}
+
+/* Undo live-site globals that would leak into the designs. */
+.rd nav a {
+  display: revert;
+  transition: none;
+}
+.rd nav a:hover {
+  opacity: 1;
+  transform: none;
+}
+.rd main p a,
+.rd main li a,
+.rd main section a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  transition: none;
+}
+.rd .animate * {
+  transition: none;
+}
+
+/* A design can let its figures sit on dark paper by inverting the engraved frame. */
+.rd .figure-invert .engraved-figure-frame,
+.rd .figure-invert .scene3d,
+.rd .figure-invert .plate-stage {
+  filter: invert(1) hue-rotate(180deg);
+}

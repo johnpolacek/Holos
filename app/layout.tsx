@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
   icons: {
-    icon: "icon.svg",
+    icon: "/icon.svg",
   },
   alternates: {
     canonical: siteUrl,
@@ -69,7 +69,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={bitter.className}>
         <Script
           id="structured-data"

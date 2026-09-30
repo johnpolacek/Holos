@@ -202,3 +202,418 @@ nav a:hover {
   opacity: 0.7;
   transform: scale(1.03);
 }
+
+.plate-figure {
+  margin: 0;
+}
+.plate-controls {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: flex-end;
+  padding-top: 0.6rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+.plate-controls button {
+  color: #1d2126;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 3px;
+}
+.plate-stage {
+  position: relative;
+  background: #fbfaf5;
+  outline: 1px solid rgba(29, 33, 38, 0.15);
+}
+.plate-hud {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.4rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: #1d2126;
+  background: rgba(251, 250, 245, 0.9);
+  padding: 0.15rem 0.5rem;
+  pointer-events: none;
+}
+.plate-hud:empty {
+  display: none;
+}
+.scene3d {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #fbfaf5;
+  outline: 1px solid rgba(29, 33, 38, 0.15);
+  overflow: hidden;
+}
+.scene3d canvas,
+.scene3d-labels {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.scene3d-labels g {
+  transition: opacity 0.4s;
+}
+.scene3d-labels .cap,
+.scene3d-inset .cap {
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  fill: #1d2126;
+}
+.scene3d-labels .sym,
+.scene3d-inset .sym {
+  font-size: 18px;
+  font-style: italic;
+  fill: #1d2126;
+}
+.scene3d-labels text {
+  paint-order: stroke;
+  stroke: #fbfaf5;
+  stroke-width: 3px;
+}
+.scene3d-timer {
+  position: absolute;
+  right: 1.4rem;
+  top: 1.1rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #1d2126;
+  opacity: 0;
+  background: rgba(251, 250, 245, 0.9);
+  padding: 0.1rem 0.4rem;
+}
+.scene3d-panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+.scene3d-panel .cap {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  fill: #1d2126;
+}
+.scene3d-panel .sym {
+  font-size: 15px;
+  font-style: italic;
+  fill: #1d2126;
+}
+.scene3d-card {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  width: min(640px, 62%);
+  background: rgba(251, 250, 245, 0.95);
+  border: 1px solid #1d2126;
+  outline: 1px solid #1d2126;
+  outline-offset: 3px;
+  padding: 0.5rem 0.8rem 0.55rem;
+  color: #1d2126;
+}
+.scene3d-card p {
+  margin: 0;
+}
+.scene3d-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 2.25rem;
+}
+.scene3d-card-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.scene3d-card-step {
+  color: rgba(29, 33, 38, 0.55);
+  margin-right: 0.8rem;
+  letter-spacing: 0.1em;
+}
+.scene3d-card-text {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  margin-top: 0.2rem !important;
+}
+.scene3d-card-next {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  flex-shrink: 0;
+}
+.scene3d-card-next[data-shown] {
+  opacity: 1;
+}
+.scene3d-card-next button {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #1d2126;
+  background: transparent;
+}
+.scene3d-card-next button svg:first-child {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.scene3d-card-next .cd-track {
+  fill: #fbfaf5;
+  stroke: rgba(29, 33, 38, 0.2);
+  stroke-width: 1;
+}
+.scene3d-card-next .cd-ring {
+  fill: none;
+  stroke: #1d2126;
+  stroke-width: 1.25;
+}
+.scene3d-card-next button > svg:last-child {
+  position: relative;
+}
+.scene3d-card-next button:hover:enabled .cd-track {
+  fill: #1d2126;
+}
+.scene3d-card-next button:hover:enabled {
+  color: #fbfaf5;
+}
+.scene3d-card-next button:focus-visible {
+  outline: 1px solid #1d2126;
+  outline-offset: 2px;
+}
+
+/* Tour animatic (/lab/tour) */
+.animatic {
+  color: #1d2126;
+}
+.animatic[data-pending] .an-sketch {
+  visibility: hidden;
+}
+.an-plate {
+  display: block;
+  width: 100%;
+  height: auto;
+  outline: 1px solid rgba(29, 33, 38, 0.15);
+}
+.animatic .k,
+.animatic .m,
+.animatic .l {
+  fill: none;
+  stroke: #1d2126;
+  vector-effect: non-scaling-stroke;
+}
+.animatic .k {
+  stroke-width: 1.25;
+}
+.animatic .m {
+  stroke-width: 0.75;
+}
+.animatic .l {
+  stroke-width: 0.5;
+}
+.animatic .an-soft,
+.animatic .an-soft * {
+  stroke: rgba(29, 33, 38, 0.55);
+}
+.animatic .an-dot {
+  fill: rgba(29, 33, 38, 0.55);
+  stroke: none;
+}
+.animatic .an-cap {
+  fill: #1d2126;
+  letter-spacing: 0.14em;
+}
+.animatic .an-heading {
+  font-size: 15px;
+  letter-spacing: 0.3em;
+}
+.animatic .an-sym {
+  fill: #1d2126;
+  font-style: italic;
+}
+.animatic .an-status {
+  fill: rgba(29, 33, 38, 0.7);
+  font-size: 13px;
+  font-style: italic;
+}
+.animatic .an-big {
+  fill: #1d2126;
+  font-size: 44px;
+}
+.animatic .an-title {
+  visibility: hidden;
+}
+.an-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.1rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.78rem;
+}
+.an-nav button {
+  padding: 0.15rem 0;
+  border-bottom: 1px solid transparent;
+}
+.an-nav button[aria-current] {
+  border-bottom-color: #1d2126;
+}
+.an-nav-num {
+  font-style: italic;
+  margin-right: 0.35rem;
+  color: rgba(29, 33, 38, 0.55);
+}
+.an-nav-time {
+  margin-left: 0.35rem;
+  font-size: 0.68rem;
+  color: rgba(29, 33, 38, 0.45);
+}
+.an-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.7rem 0 0.2rem;
+}
+.an-dots button {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #1d2126;
+}
+.an-dots button[aria-current] {
+  background: #1d2126;
+}
+.an-card {
+  margin-top: 0.6rem;
+  background: #fbfaf5;
+  border: 1px solid #1d2126;
+  outline: 1px solid #1d2126;
+  outline-offset: 3px;
+  padding: 0.6rem 0.9rem 0.7rem;
+}
+.an-card p {
+  margin: 0;
+}
+.an-card .scene3d-card-text {
+  font-size: 1.02rem;
+  line-height: 1.5;
+  max-width: 62ch;
+}
+.an-card-link {
+  font-size: 0.78rem;
+  margin-top: 0.45rem !important;
+}
+.an-card-link a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 3px;
+}
+.an-notes {
+  margin-top: 0.6rem !important;
+  padding-top: 0.5rem;
+  border-top: 1px dotted rgba(29, 33, 38, 0.35);
+  font-size: 0.8rem;
+  font-style: italic;
+  color: rgba(29, 33, 38, 0.6);
+}
+.an-total {
+  margin-right: auto;
+  font-style: italic;
+  color: rgba(29, 33, 38, 0.6);
+}
+.an-plate-wrap {
+  position: relative;
+  aspect-ratio: 1000 / 560;
+  background: #fbfaf5;
+}
+.an-plate-wrap .an-plate {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.plate3d-scene {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.plate3d-scene canvas,
+.plate3d-scene .scene3d-labels {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.plate3d-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12%;
+  text-align: center;
+  font-size: clamp(1.4rem, 4vw, 2.6rem);
+  font-style: italic;
+  color: #1d2126;
+  opacity: 0;
+  pointer-events: none;
+}
+.plate3d-fail {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-style: italic;
+}
+
+/* Engraved figures in the text */
+.engraved-figure {
+  margin-top: 2rem;
+}
+.engraved-figure-frame {
+  background: #fbfaf5;
+  outline: 1px solid rgba(29, 33, 38, 0.15);
+}
+.engraved-figure-stage {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+.plate-controls button:disabled {
+  opacity: 0.35;
+}
+.engraved-figure .scene3d-card {
+  position: static;
+  width: auto;
+  border: 0;
+  outline: 0;
+  border-top: 1px solid rgba(29, 33, 38, 0.15);
+  background: transparent;
+  padding: 0.7rem 1rem 0.85rem;
+}
+.engraved-figure .scene3d-card-title {
+  font-size: 0.85rem;
+}
+.engraved-figure-captions {
+  display: grid;
+  margin-top: 0.3rem;
+}
+/* Crossfade: the outgoing caption fades out first, then the next fades in. */
+.engraved-figure-captions > p {
+  grid-area: 1 / 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 0 !important;
+}
+.engraved-figure-captions > p[data-on] {
+  opacity: 1;
+  transition: opacity 0.35s ease 0.3s;
+}

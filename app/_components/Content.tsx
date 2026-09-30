@@ -1,14 +1,14 @@
 import type React from "react";
+import ApertureFigure from "./ApertureFigure";
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
-import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
+import EraserFigure from "./EraserFigure";
 import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import OmegaLimitAnimation from "./OmegaLimitAnimation";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
-import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
 import TeemingDarkAnimation from "./TeemingDarkAnimation";
 
@@ -48,12 +48,12 @@ export default function Content({ isPDF = false }: ContentProps) {
             );
           })}
           {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
-          {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
+          {section.id === "consciousness" && <ApertureFigure isPDF={isPDF} />}
           {section.id === "spacetime" && (
             <>
               <InvarianceWarpAnimation isPDF={isPDF} />
               <BlockUniverseAnimation isPDF={isPDF} />
-              <QuantumEraserAnimation isPDF={isPDF} />
+              <EraserFigure isPDF={isPDF} />
             </>
           )}
           {section.id === "infinity" && <InfiniteWrapAnimation isPDF={isPDF} />}

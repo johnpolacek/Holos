@@ -755,3 +755,53 @@ Keep entries concise and grounded in inspected repo evidence.
 - John decided the held items one at a time. Applied: Schrödinger (Mind and Matter, 1958) added to the Omega lineage with a citation; the Invariance figure retitled "One Speed of Light" (its curved grid is left for the plate redraw, since special relativity tilts axes rather than curving them); Copenhagen and Bohmian columns in the quantum table, a Higher-Order Theories column in the mind table, and a Parfit reductionism column in the self table; "How Holos loses" now names size-based (objective) collapse as a second way the no-collapse version loses, with the evidence so far, and both objective-collapse citations match; the Logic quantum-table intro now explains the measurement problem in plain words and notes no collapse has been found; D1 no longer says information exists "only where differences matter" (it now matches the physics sense Axiom 2 conserves), and the Bateson citation became a related idea; Notation writes the applied form as R(S) = O(C(S)), with R = C ⊛ O unchanged; Axiom 4 says the phenomenal concept strategy was developed by physicalists and is borrowed without their conclusion; the finite-size scaling claim now says it is proven for uniform materials and is an expectation to test in brains; the QFT heading is now "Fields are structure; a detected particle is a record"; Proposition III points to Check C for extended Wigner's-friend setups.
 - John considered dropping the transition hypothesis (claim 3) and chose to keep it with the caveat.
 - Graphics items (Invariance drawing, Settlement Explorer map axis) are out of scope: all figures are being redrawn from scratch in the engraved plate style.
+
+## [2026-09-29] ingest | Animation redesign handoff
+
+- Added [animation-redesign.md](animation-redesign.md): the engraved monochrome style John locked, the `/lab` prototypes (static plate, flat animation, viewBox camera, three.js line render with a six-stage narrated story and countdown), how the 3D render works, verification gotchas, and the proposed guided tour + library plan with its open questions.
+- Lab work is uncommitted at time of writing.
+
+## [2026-09-29] update | Tour storyboard drafted
+
+- John answered the redesign's open questions: two modes (tour and text), whole site, 3D on phones. Recorded in [animation-redesign.md](animation-redesign.md).
+- Added [storyboard.md](storyboard.md): eight chapter plates with stops and narration, a shared visual vocabulary (iris = aperture, full ink = lit, soft ink = unlit, walls, twilight band, inbound arrows, status cartouche), cross-cutting risks, per-chapter faithfulness flags, and one open decision (Introduction metaphor).
+
+## [2026-09-29] update | Tour animatic (incremental step 1)
+
+- Built `/lab/tour` (noindex, linked from `/lab`): all eight storyboard chapters as narrated stops over rough engraved sketches, paced like the eraser scene. Full run about 8 minutes (chapters 55 to 70 seconds).
+- Verified in headless Chrome: every stop renders (reduced-motion screenshots), title, draw-in, countdown, auto-advance, arrow keys, and pause all work; no console errors; no horizontal scroll at 390px.
+- Next steps, agreed: (2) one 3D stop (Consciousness twilight to aperture), (3) phone check of it, (4) full Consciousness chapter, (5) tour shell, (6) roll out.
+
+## [2026-09-29] update | Animatic goes 3D; buffet dropped
+
+- John rejected the buffet metaphor and the flat look ("I want 3D"). Introduction is now a 3D branching tree (storyboard updated). Even rough previews are built in the 3D line render from now on.
+- Extracted the renderer into `engrave3d.ts`; built 3D previs scenes for Introduction and Consciousness (`tourScenes3d.ts`, `Plate3D.tsx`). Chapters III to VIII still show flat placeholders until John approves the 3D direction.
+- Verified: all 13 3D stops render in headless Chrome (WebGL via ANGLE Metal); animated flow, keys, and pause work; no console errors.
+
+## [2026-09-29] decision | Text first; 3D plates illustrate
+
+- John prefers the written version. 3D plates stay (the style is loved) but as figures that illustrate the text and draw readers in, not a narrated tour. Tour mode and the two-mode front door are dropped. `/lab/tour` stays as a reference for the scenes and metaphors.
+
+## [2026-09-29] decision | Keep the original site design
+
+- John: "I want to stick more closely with the original design for now." Layout, pages, and text stay; the redesign narrows to replacing the existing animations in place with engraved figures that auto play with controls. Site-wide restyle on hold.
+
+- Clarified the same day: John likes the original layout, not a frozen figure list. Replace every animation and illustration, and add new ones freely ("I like them! more the better").
+
+## [2026-09-29] update | Figure list; eraser live
+
+- Added [figures.md](figures.md): about 119 distinct figures across Overview (30), Logic, and Predictions, with shared rules, status, open calls, and build order. Full per-figure stage captions in figures-logic.md and figures-predictions.md.
+- The 3D eraser replaced `QuantumEraserAnimation` on the Overview (`EraserFigure.tsx`: 3D on the site, static engraved plate in the PDF). Plate CSS moved from globals.css into the plate SVG (`plateStyles.ts`) so the PDF renders it. Fixed a type error in `EraserScene3D` that would have failed `next build`.
+
+## [2026-09-29] update | First in-text figure: O2 The Aperture
+
+- `ApertureFigure` replaced `ConsciousnessAnimation` on the Overview: the bench scene trimmed to four stages (no point of view, four requirements, twilight, an aperture) via `SCENES3D.aperture` (`consciousness(false)`). Built on the new reusable `EngravedFigure`. PDF shows `public/figures/aperture.png`.
+- Verified: starts only when scrolled into view, auto-advances, Back, Pause, Replay, and pausing offscreen all work; no console errors; PDF shows the still.
+- Readability pass (John: text too tiny): figure captions moved to a band below the drawing (1.05rem), 3D labels enlarged site-wide (caps 12.5px, symbols 18px, also affects the eraser), figure stage 3:2. PDF still regenerated.
+
+## [2026-09-29] update | Four redesign prototypes
+
+- John asked for four high-end redesigns: two layout + look (1 Monograph, engraved; 2 Nocturne, dark), two rethinking organization too (3 Atlas, engraved; 4 Ledger, Swiss with one cobalt accent). Each shows the Overview and Logic at `/lab/redesign/N` and `/lab/redesign/N/logic`, compared at `/lab/redesign`. Briefs and the shared contract: [redesigns.md](redesigns.md).
+- Shared helpers in `app/lab/redesign/_shared/` (verbatim content access, figures, GSAP registration, pre-paint motion boot with `?motion=reduced|full`, link rewriting, a base CSS that unlocks document scrolling). Old animations are left out; the Aperture and Eraser figures appear in all four.
+- Root layout: `suppressHydrationWarning` on `<html>` (the motion boot sets attributes before hydration) and the favicon path made absolute (`/icon.svg`), which 404'd on nested routes.
+- Gotcha: two `next dev` servers on one repo share `.next` and hang compiles; run only one.

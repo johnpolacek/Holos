@@ -1,0 +1,179 @@
+.rdx {
+  --bg: #f4f4f1;
+  --ink: #141517;
+  --soft: rgba(20, 21, 23, 0.6);
+  --line: rgba(20, 21, 23, 0.14);
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding: clamp(24px, 5vw, 72px) clamp(16px, 5vw, 72px) 96px;
+}
+.rdx a {
+  color: inherit;
+}
+.rdx-head {
+  max-width: 60rem;
+  margin-bottom: clamp(32px, 5vw, 64px);
+}
+.rdx-kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--soft);
+  margin-bottom: 1rem;
+}
+.rdx h1 {
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+.rdx-intro {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.55;
+  color: var(--soft);
+  max-width: 44rem;
+}
+.rdx-grid {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 34rem), 1fr));
+  gap: clamp(28px, 4vw, 56px) clamp(20px, 3vw, 40px);
+}
+.rdx-thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 10;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #e6e5e0;
+  outline: 1px solid var(--line);
+  transition:
+    transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.4s;
+}
+.rdx-thumb:hover,
+.rdx-thumb:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px -24px rgba(0, 0, 0, 0.35);
+}
+.rdx-thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.rdx-thumb .rdx-phone {
+  inset: auto 4% -18% auto;
+  width: 22%;
+  height: auto;
+  aspect-ratio: 390 / 844;
+  border-radius: 12px;
+  outline: 6px solid #141517;
+  box-shadow: 0 16px 32px -12px rgba(0, 0, 0, 0.5);
+}
+.rdx-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.1rem;
+}
+.rdx-n {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: var(--soft);
+}
+.rdx h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.rdx-tags {
+  display: inline-flex;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+.rdx-tags span {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  color: var(--soft);
+}
+.rdx-line {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+  color: var(--soft);
+  max-width: 38rem;
+}
+.rdx-links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.8rem;
+  font-weight: 500;
+}
+.rdx-links a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--line);
+  transition: text-decoration-color 0.2s;
+}
+.rdx-links a:hover {
+  text-decoration-color: var(--ink);
+}
+.rdx-compare {
+  margin-top: clamp(56px, 8vw, 112px);
+  max-width: 72rem;
+}
+.rdx-compare h2 {
+  margin-bottom: 1.25rem;
+}
+.rdx-table-wrap {
+  overflow-x: auto;
+}
+.rdx table {
+  width: 100%;
+  min-width: 40rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.rdx th,
+.rdx td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.85rem 1rem 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.45;
+}
+.rdx thead th {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--soft);
+  font-weight: 500;
+}
+.rdx tbody th {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.rdx-note {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--soft);
+  line-height: 1.5;
+}
+.rdx code {
+  font-size: 0.85em;
+  background: rgba(20, 21, 23, 0.06);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
