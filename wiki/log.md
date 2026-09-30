@@ -808,3 +808,32 @@ Keep entries concise and grounded in inspected repo evidence.
 ## [2026-09-30] update | "Real" reserved for lived reality
 
 - Unlit structure is now "existing as pattern" (was "real as pattern") in content-data, Logic, Predictions, the comparison table, and OntologicalAnchorAnimation, so "real" stays reserved for lived reality (R).
+
+## [2026-09-30] update | Intro: reality vs structure, buffet cut
+
+- John disliked the buffet analogy; the Intro now has no analogy. Guardrails updated to drop the buffet gloss.
+- John: there is no reality that is not lived reality. Adopted as vocabulary, not a framework change: "reality" means lived reality (R); what physics produces with no one to live it is "structure" (Creation). Unlit structure still exists. Intro paragraph 3 now ends "Reality requires a witness"; paragraph 4 calls Creation "the structure physics produces" and defines R.
+- Started [writing-principles.md](writing-principles.md) to collect the principles behind the editing pass; linked from the index.
+- "Reality requires a witness" recorded as a core line of Holos in the guardrails and glossary. Glossary: Reality and Witness added, Unlit now "exists as pattern".
+- Intro paragraph 1 tightened ("Physics describes the universe with great precision..."). Paragraph 4 cut to option B, with the ⊛ gloss and hedges left to Notation.
+- `/lab/rco`: eight typographic and engraved treatments for R, C, O in paragraph 4, for John to choose from.
+- Intro paragraph 4 now uses the lab's variant 11: the formula inline, then Creation, Observation, Reality as three small-caps lines behind a left rule, then the "changes nothing" line.
+- New `FormulaAnatomy` component (R = C ⊛ O set large, each letter labeled beneath, ⊛ and = upright) placed at the top of Logic's Notation section.
+- Intro paragraph 5: "Holos is built on two ideas. Neither changes established physics." Threshold and Omega in the quoted small-caps list. Omega is "the whole", no longer "the whole of reality" (principle 4).
+- Intro paragraph 6: no lead-in, opens "There is one experiencer...", ends "Even the question, why we are here, has an answer." Companion idea and roadmap split into their own paragraph, pending.
+- Intro paragraph 7: companion idea and roadmap cut. Now a bridge into the claims box ("Some of this is established physics... The box below says which is which.").
+- Claims box rewritten: commas and periods, "(see X)" links, "First/Second addition" labels became "The threshold" and "Omega", "like water freezing" removed (guardrail), "Bold" cut. Principles 16-18 added.
+- Key terms box: Structure and reality added first. Omega is "the whole", aperture "an opening through which the whole is lived". Colons removed; footer uses "(see Claims)".
+- Consciousness paragraph 1: "A rock has no point of view. A person does..." Omega deferred to later in the section.
+- Consciousness paragraph 2: dreamer vs today's language models. Stance change (John): current LLMs are not observers, as built today (was "an open question"). AI paragraph must be rewritten to match.
+- Consciousness paragraphs 1-2 reworked: integration is "how fully a system's parts act as one"; locked-in syndrome vs today's language models shows input and output are not the test. The dream moved out (it raises "is a dream real?"; Holos: yes, the dreaming brain is lived).
+- Consciousness paragraph 3: Φ, IIT, PCI names and the causation disclaimer moved off the Overview (Logic covers them). Now the pulse-echo stand-in, the human cutoff, and the open question for other systems.
+- Consciousness paragraph 4 (Global Neuronal Workspace comparison) cut from the Overview.
+- Hard Problem: heading dropped (anchor kept on the block), rewritten; Omega enters the Consciousness section here.
+- Four requirements now in the small-caps list style.
+- DishBrain paragraph cut; paragraph 3 now links Test B for where the threshold falls.
+- Threshold shape: Curie, twilight, and vagueness-defense paragraphs merged into one ("The threshold is not a sharp line..."); defense left to Logic. Seizure moved into the Differentiation line.
+- "Middle position" paragraph cut (repeated the Hard Problem).
+- Zombie paragraph rewritten (picture first, no -isms).
+- AI paragraph rewritten for the new stance and split in two (verdict, then reason). Guardrail updated: today's language models fall short of the threshold, as built.
+- MindComparisonTable "Current AI" row for Holos: "No, as built. It models a world, but integration falls short".

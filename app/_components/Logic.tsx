@@ -1,4 +1,5 @@
 import { FootnoteLink, logicCitationMap } from "./citation-sections";
+import FormulaAnatomy from "./FormulaAnatomy";
 import InterpretiveComparisonTable from "./InterpretiveComparisonTable";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
@@ -1053,8 +1054,8 @@ export default function Logic() {
             the universe&apos;s complete quantum state (all branches included, in the version
             defended here), and it exists now, not at the end of anything. Experientially, it is the
             one experiencer, awake wherever a system crosses the threshold. Finite systems never
-            take in the whole, and it is not fully registered either; its unlit structure exists
-            and never lived.
+            take in the whole, and it is not fully registered either; its unlit structure exists and
+            never lived.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -1535,6 +1536,8 @@ export default function Logic() {
             The notation should be read as a model of how possibility and experience are related. It
             does not assert that the universe literally computes these expressions.
           </p>
+
+          <FormulaAnatomy />
 
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold text-black/90">State space</h3>

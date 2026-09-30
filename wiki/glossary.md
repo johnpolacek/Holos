@@ -25,7 +25,9 @@ Status: built 2026-09-29 from a full read of Overview, Logic, Predictions, citat
 
 - **Lived**: where experience occurs, inside observers and nowhere else.
 - **Lit**: binary; a region in the causal past of at least one observer in its branch. "An observer lights its past."
-- **Unlit**: structure outside every observer's causal past (observer-free branches, regions beyond every observer's horizon). Real as pattern, never lived.
+- **Unlit**: structure outside every observer's causal past (observer-free branches, regions beyond every observer's horizon). Exists as pattern, never lived. Not called real ("real" means lived).
+- **Reality**: lived reality (R), and nothing else. What physics produces is **structure**. Core line: "Reality requires a witness."
+- **Witness**: an observer, in the core line. Distinct from Witnessing below. A witness never causes or changes what it witnesses.
 - **Witnessing**: graded; how much of the lit region an observer's experience is actually about.
 - **Presence**: being lived; the noun for what "lived" describes (D7). Where there is no observer, there is structure without presence. For the adjective write "lived", not "present as experience" or "experientially present".
 - **Walled off**: apertures cut off from one another. Retired: "sealed", "sealing".

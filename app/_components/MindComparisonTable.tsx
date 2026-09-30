@@ -76,7 +76,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Current AI",
-    holos: "Open: it arguably models a world; integration decides",
+    holos: "No, as built. It models a world, but integration falls short",
     others: [
       "No: conventional digital hardware has negligible Φ",
       "Possible, if the architecture has a workspace",
