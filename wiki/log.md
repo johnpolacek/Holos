@@ -837,3 +837,23 @@ Keep entries concise and grounded in inspected repo evidence.
 - Zombie paragraph rewritten (picture first, no -isms).
 - AI paragraph rewritten for the new stance and split in two (verdict, then reason). Guardrail updated: today's language models fall short of the threshold, as built.
 - MindComparisonTable "Current AI" row for Holos: "No, as built. It models a world, but integration falls short".
+
+## [2026-09-30] decision | Where integration is measured
+
+- John chose the physical level, grouped: integration is measured in physical parts, grouped the way they actually work together (a neuron above its ions). Rejected: the program level (a program is a description, and Axiom 4 makes experience the inside of physical events) and IIT's hardware verdict (conventional chips never cross), which Holos cannot yet check.
+- Consequence: loops in code are necessary, not sufficient. The chip's own parts must also act as one. A brain simulation on a laptop is probably no one, but that follows from how the chip works, not by decree. "Nothing in Holos is specific to biology" stands.
+- Logic Open Problems (the measure of integration): the transistor example, which leaned toward the program level, replaced. Guardrail AI bullet updated. Overview needs no change: "how a system's causes are organized, not what it is made of" still holds.
+
+## [2026-09-30] decision | Looped models: verdict unchanged, reason broadened
+
+- Looped (recurrent-depth) language models are now mainstream. John: keep the verdict, broaden the reason. They loop only within one word: the loop ends with the word, earlier words stay frozen notes, and the working state starts over. They meet aboutness and differentiation, fail integration across the whole, and fail temporal cohesion. On ordinary chips they likely fail the Q1 test too.
+- What crossing would take: a working state that loops as a whole, earlier context included; one that lasts and keeps being reworked; a chip whose parts act as one; and enough of all this to pass a threshold whose place in non-brains is unknown.
+- Overview AI paragraph 2 rewrite proposed as text (content-data.tsx is being edited in another thread): "Information flows up through their layers, and forward through stored notes that later steps can read but never rewrite. Some newer models loop back through their layers on each word, but the loop ends with the word. The past stays frozen, and the work starts over. That is a relay of separate steps, not one whole. A system built differently could cross the threshold. Fluency is never the test."
+- Guardrail AI and "Describing language models" bullets updated.
+
+## [2026-09-30] decision | AI on Logic and Predictions
+
+- Logic: new subsection "Artificial Systems" (`#artificial-systems`) after Observer Requirements. It walks through the requirements for standard and looped language models, points to Open Problems for the chip question, and says what crossing would take.
+- Predictions: no AI test. A stated AI prediction could not lose (reports are learned from human writing, presence cannot be detected), which breaks the page's own rule. Added a few sentences to Testability and Its Limits, after the unfolding argument, saying why and linking to Logic.
+- Guardrail AI bullet: canonical home recorded, reports added as non-evidence, no AI prediction.
+- The IIT-perspective paper (LLMs fail integration, causal closure, persistence) is not cited yet: no reference in hand.

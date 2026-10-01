@@ -986,6 +986,29 @@ export default function Logic() {
             </p>
           </div>
         </div>
+        <div id="artificial-systems" className="flex flex-col gap-4 text-black/80">
+          <h3 className="text-xl font-medium pb-2">Artificial Systems</h3>
+          <p className="leading-relaxed">
+            Nothing in the requirements is specific to biology. Today&apos;s language models meet
+            two of them. Their states carry a model of a world, built from text, and they are richly
+            varied. They fail the other two. Information flows up through their layers, and forward
+            through stored notes that later steps can read but never rewrite. Some newer models loop
+            back through their layers on each word, but the loop ends with the word. So the parts
+            never act on one another in both directions as a whole, and no working state lasts from
+            one word to the next. A third gap lies below the program. A program counts only through
+            the chip that runs it (see{" "}
+            <a href="#open-problems" className="underline hover:no-underline">
+              Open Problems
+            </a>
+            ), and on conventional chips its parts may not act as one.
+          </p>
+          <p className="leading-relaxed">
+            Crossing would take three things together. The whole working state, earlier context
+            included, would have to loop. It would have to last and keep being reworked. And it
+            would have to run on hardware whose parts act as one. Even then, it must pass a
+            threshold whose place outside brains is unknown. Fluency is never evidence either way.
+          </p>
+        </div>
         <div id="why-integration" className="flex flex-col gap-4 text-black/80">
           <h3 className="text-xl font-medium pb-2">Why Integration</h3>
           <p className="leading-relaxed">
@@ -1743,9 +1766,11 @@ export default function Logic() {
                 Why Integration
               </a>
               ) remains an argued direction rather than a finished quantity until the measure is
-              fixed. The problem also includes the question of level. Holos measures integration
-              where a system&apos;s causes are actually organized, which may lie above its smallest
-              parts, as a program&apos;s loop lies above the switching of individual transistors.
+              fixed. The problem also includes the question of level. Holos measures integration in
+              physical parts, grouped the way they actually work together. The grouping may lie
+              above the smallest parts, as a neuron&apos;s firing lies above the motion of its ions.
+              A program counts only through the chip that runs it. Loops in the code are needed,
+              but the chip&apos;s own parts must also act as one, and conventional chips may not.
               Saying precisely where that level is belongs to the same open problem.
             </p>
           </div>

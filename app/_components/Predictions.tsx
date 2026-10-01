@@ -371,7 +371,13 @@ export default function Predictions() {
             presence itself: the metaphysical claims (presence, and the totality it belongs to)
             cannot be settled by any experiment. Test A does not compare such twins; it asks, within
             real human brains, whether reports follow integration or behavior when the two come
-            apart.
+            apart. The same limit is why artificial systems offer no test of their own. What a
+            language model says about its experience is learned from human writing, so it is not
+            evidence either way. Whether a machine crosses is judged by its structure (see{" "}
+            <a href="/logic#artificial-systems" className="underline hover:no-underline">
+              Artificial Systems
+            </a>
+            ).
           </p>
 
           <p className="leading-relaxed">
