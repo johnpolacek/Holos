@@ -13,7 +13,7 @@ const columns = [
 const rows: ComparisonRow[] = [
   {
     dimension: "What is fundamental?",
-    holos: "The totality (Omega): the universal quantum state, read as the one experiencer",
+    holos: "The whole (Omega). The universal quantum state, read as the one experiencer",
     others: [
       "Measurement outcomes, described in everyday (classical) terms",
       "Universal wavefunction",
@@ -26,7 +26,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Is the wavefunction real?",
-    holos: "Real: Creation, every branch physics produces",
+    holos: "It exists. Creation, every branch physics produces",
     others: [
       "Versions differ: a tool for predicting outcomes, or something that really changes at measurement",
       "Literally real, never collapses",
@@ -39,7 +39,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Collapse?",
-    holos: "No collapse (branching); lived from within where observers exist",
+    holos: "No collapse (branching). Lived from within where observers exist",
     others: [
       "Yes, at measurement; whether physical or only an update of knowledge is left open",
       "No collapse (branching)",
@@ -52,7 +52,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Does consciousness change physics?",
-    holos: "No, in the version defended here; Holos with collapse may put collapse at Φc",
+    holos: "No, in the version defended here. Holos with collapse may put collapse at Φc",
     others: ["No, in Bohr's version", "No", "No", "No", "No", "No", "Yes"],
   },
   {
@@ -71,7 +71,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Reality without observers",
-    holos: "Unlit structure: existing as pattern, never lived",
+    holos: "Structure, not reality. It exists as pattern but is never lived",
     others: [
       "The theory is silent; it speaks only of measurement results",
       "Fully real",
@@ -84,7 +84,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Multiple realities?",
-    holos: "Yes, branches: lived where observers exist",
+    holos: "Yes, branches, each lived where observers exist",
     others: [
       "No",
       "Yes, branching universes",
@@ -123,7 +123,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Key prediction focus",
-    holos: "Integration threshold; no consciousness-linked deviation from quantum mechanics",
+    holos: "Integration threshold. No consciousness-linked deviation from quantum mechanics",
     others: [
       "Same as standard quantum mechanics",
       "Same as standard quantum mechanics",

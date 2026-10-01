@@ -327,10 +327,10 @@ export const sections: ContentSection[] = [
           </p>
         </div>
         <p>
-          Every observer is built from its lit past and draws on it through traces: starlight, the
-          afterglow of the Big Bang, the fossil record. The lit region is the world experience is
-          made from. Being lit is not something that happens to a place. It is a fact about how the
-          block is arranged.
+          Every observer is built from its lit past and draws on it through traces such as
+          starlight, the afterglow of the Big Bang, and the fossil record. The lit region is the
+          world experience is made from. Being lit is not something that happens to a place. It is a
+          fact about how the block is arranged.
         </p>
       </div>,
       <>
@@ -362,7 +362,7 @@ export const sections: ContentSection[] = [
       <>
         In Edwin Abbott&apos;s <em>Flatland</em>, a sphere passing through a flat world looks, to
         flat beings, like a dot that grows into a circle, shrinks, and vanishes. From above, it is
-        one sphere, all at once. Holos calls this closure: what one level sees unfolding, the level
+        one sphere, all at once. Holos calls this closure. What one level sees unfolding, the level
         above holds whole. A history is one shape in spacetime. Taken all the way, closure gives
         Omega, the whole, with nothing outside it (see{" "}
         <a href="/logic#foundational-propositions">Proposition IV</a>).
@@ -416,7 +416,7 @@ export const sections: ContentSection[] = [
         teaches one experiencer, <a href="https://en.wikipedia.org/wiki/Brahman">Brahman</a>,
         looking out through every local self.{" "}
         <a href="https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger">Erwin Schrödinger</a>, a
-        founder of quantum mechanics, came to the same view: &quot;Consciousness is a singular of
+        founder of quantum mechanics, came to the same view. &quot;Consciousness is a singular of
         which the plural is unknown.&quot; Many traditions call the whole God. In Holos the word
         implies no intention, intervention, or design.
       </>,
@@ -462,11 +462,11 @@ export const sections: ContentSection[] = [
         <a href="/predictions#exploration">Sentinel Probes</a>).
       </>,
       <>
-        What we clearly do not see is settlement: reshaped star systems, or galaxies glowing with
-        waste heat. Think of settling like an epidemic. If each settlement founds more than one new
-        one, settling sweeps the galaxy. If fewer, it fizzles. The hypothesis bets on fewer, because
-        distance breaks control. Each new settlement becomes its own civilization, facing the same
-        pull inward.
+        What we clearly do not see is settlement, such as reshaped star systems or galaxies glowing
+        with waste heat. Think of settling like an epidemic. If each settlement founds more than one
+        new one, settling sweeps the galaxy. If fewer, it fizzles. The hypothesis bets on fewer,
+        because distance breaks control. Each new settlement becomes its own civilization, facing
+        the same pull inward.
       </>,
       <>
         This is a bet about motives, and physics does not guarantee it. Independence can even speed
@@ -577,7 +577,7 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Quantum_entanglement">entangled</a> particles give
         matching results however far apart they are, and physics describes them as one shared state,
         not two things. If nothing collapses, the whole universe is one such state. Entanglement is
-        among the best-tested facts in physics. The speculation adds one step: that this oneness is
+        among the best-tested facts in physics. The speculation adds one step, that this oneness is
         more basic than the separations. Distance, time, and individual lives are not illusions,
         though. They are the walls that make each life possible.
       </>,

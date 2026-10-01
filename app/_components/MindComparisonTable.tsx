@@ -13,7 +13,7 @@ const rows: ComparisonRow[] = [
   {
     dimension: "What is fundamental?",
     holos:
-      "The whole (Omega). Experience is not derived from anything else; it is where Holos starts",
+      "The whole (Omega). Experience is not derived from anything else. It is where Holos starts",
     others: [
       "The structure of causes and effects inside an integrated system, which IIT says simply is the experience",
       "Brain processes; consciousness is a function they perform",
@@ -38,7 +38,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "A threshold?",
-    holos: "Yes: none well below it, a narrow in-between zone (the twilight), then experience",
+    holos: "Yes. None well below it, a narrow twilight, then experience",
     others: [
       "No: graded from zero",
       'Information either floods the brain-wide network or does not ("ignition"); the theory is about this access',
@@ -50,8 +50,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "How many subjects?",
-    holos:
-      "One, experienced separately through each observer (each aperture walled off from the others)",
+    holos: "One experiencer, living through every self, each walled off from the others",
     others: [
       "One per peak of integration",
       "One per workspace",
@@ -63,8 +62,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Hardest problem",
-    holos:
-      "The measure of integration; decomposing one subject into many; anticipating strangers' experience as your own",
+    holos: "The measure of integration. Why the walls between selves are absolute",
     others: [
       "Critics call its core claim untestable; simple grids can score higher than brains; Φ cannot be computed for real brains",
       "Critics: explains which information gets reported, not why it feels like anything",
@@ -88,7 +86,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Testability",
-    holos: "Test A: experience tracks integration; Omega untestable",
+    holos: "Test A, experience tracks integration. Omega is untestable",
     others: [
       "Tested in COGITATE; key claims challenged",
       "Tested in COGITATE; key claims challenged",

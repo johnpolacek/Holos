@@ -21,8 +21,8 @@ Status: done, in progress, next, to do.
 
 | Page | Status | Notes |
 |---|---|---|
-| Logic (`Logic.tsx`) | to do | "Real as pattern" wording fixed. FormulaAnatomy added to Notation. Comparison table AI row updated. |
-| Predictions (`Predictions.tsx`) | to do | "Fully real" wording fixed. |
+| Logic (`Logic.tsx`) | done | Every section. New D8 Self and experiencer, Reality defined in D7. Retired claims removed (wakes, ethics, pooled experience, single view). Name history and split-brain added. Colons and semicolons swept. Ends on the core line. |
+| Predictions (`Predictions.tsx`) | next | "Fully real" wording fixed. |
 | Citations and notes (`citation-sections.tsx`) | to do | |
 | Other routes (definition, revisions, trajectory, settlement explorer) | to do | Check which carry prose. |
 
@@ -37,11 +37,10 @@ Dated evidence boxes live in `app/_components/evidence-data.ts`. Each block has 
 
 ## Carried forward
 
+- Done in Logic Totality (2026-10-01): Omega name history, Spinoza/panentheism/Berkeley (already there), record agreement (Proposition III), split-brain, ethical claim removed, self vs experiencer wording.
+
 - "Registers itself" and "totality" appear on other pages. Replace with plain wording (the whole is lived) as each page comes up.
 - Separate thread: AI with real loops, and whether integration is measured at the software or hardware level.
-- Omega's name history (Teilhard de Chardin, Tipler's Omega Point, why "Point" is dropped) was cut from the Overview. Add it to Logic in its pass. Same for the fuller rival views on identity (Parfit, "I" as an indexical), Spinoza, panentheism, Berkeley, and the record-agreement point (physics, not Omega, secures why observers agree).
-- Self vs experiencer: replace "the one experiencer wakes there" and "awake wherever" wording on Logic (lines near 1056, 1238, 2038 as of 2026-09-30) with "a new self begins, no new experiencer does".
 - Aliens details cut from the Overview with no home yet on Predictions: the 1980s stable-orbit probe searches, the zoo hypothesis (still named in the Fermi table). Consider adding to Predictions #exploration in its pass.
 - Cold computing ("Slysh haloes", arXiv 2608.31153, Aug 2026) argues mature civilizations compute at 5-30 K with large cold radiators, against the Integration Hypothesis bet on avoiding sprawl. Framework question for a separate thread.
-- Omega's ethical claim retired (2026-10-01). Logic still says a stranger's suffering "is as much yours to anticipate as your own" (near line 1293 as of 2026-10-01). Remove it in the Logic pass.
 - Lab page `/lab/rco` holds the R, C, O treatment explorations.

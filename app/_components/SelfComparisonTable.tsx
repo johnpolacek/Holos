@@ -9,7 +9,7 @@ const columns = [
 const rows: ComparisonRow[] = [
   {
     dimension: "What are you?",
-    holos: "The one experiencer, awake in this particular observer",
+    holos: "A self, lived by the one experiencer",
     others: [
       "One self, from birth to death",
       "A brain and body with a connected mental life; nothing further",
@@ -18,7 +18,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "How many selves?",
-    holos: "One, in every observer",
+    holos: "One per observer. One experiencer lives through them all",
     others: [
       "One per person",
       "One per person, but being the same person is a matter of degree",
@@ -27,7 +27,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Why am I this one?",
-    holos: "Nothing to explain: the one subject is each of them",
+    holos: "Nothing to explain. The one experiencer is each of them",
     others: [
       'Often: nothing to explain, since "I" picks out whoever asks; for some, a brute fact',
       "No deep further fact to explain",
@@ -36,7 +36,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "A perfect copy is made",
-    holos: "Both are you, with no remainder",
+    holos: "Both are you: two selves, one experiencer",
     others: [
       "A hard case: one, the other, or neither, each defended",
       "The question may have no answer, and it doesn't matter: both copies keep what matters, the psychological connection",
@@ -45,7 +45,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Whose future pain do you anticipate?",
-    holos: "Everyone's: the view's price, and its ethical point",
+    holos: "No claim. One experiencer does not settle what to anticipate or value",
     others: [
       "Only your own",
       "Anyone's, in proportion to how psychologically connected they are to you now",
@@ -63,7 +63,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "When a life ends",
-    holos: "This perspective ends; the one subject stays awake elsewhere",
+    holos: "This self ends. The one experiencer goes on in every other self",
     others: [
       "The self ends",
       "Connections end; death matters less than it seems",
@@ -72,7 +72,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "Hardest objection",
-    holos: "Anticipating strangers' experience as your own",
+    holos: "Why the walls between selves are absolute",
     others: [
       "Copying and splitting cases with no clear answer",
       "Seems to leave no special reason to care about your own future",

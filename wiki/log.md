@@ -895,3 +895,15 @@ Keep entries concise and grounded in inspected repo evidence.
 - Why Are We Here?: speculation paragraphs (old 3, 4, 6) merged into one. "If nothing collapses, the whole universe is one such state." Relativity and zero-interval light examples cut.
 - Why Are We Here? close: "So why are we here? Not for a purpose the universe needed. We fill a role. Reality requires a witness." The Overview pass is complete.
 - Omega paragraph 2 split after the gallery: self, experiencer, gallery, then the two puzzles.
+- Logic pass started. Claims: merged intro ("built on two ideas", Omega "the whole", one experiencer living through every self); "last is Omega" became "taken all the way, closure gives Omega"; semicolons removed.
+- Logic Primitives: D4 "the whole is lived" (no "registers itself"/"totality"); D5 "Creation is structure, lived or not"; D7 unlit "exists as pattern but is never lived", Reality (R) defined; new D8 Self and experiencer.
+- Logic Axioms: punctuation in 3 and 4. Axiom 5 rewritten: "the whole" not "the whole of reality", self/experiencer (D8 link), ethics payoff and price removed, "does not pool its experiences into one grand experience" removed (John: no claim either way about a single view of the whole).
+- Logic Propositions: II sunset uses reality vs structure; III "the whole as one experiencer"; IV "taken all the way, closure gives Omega"; semicolons removed.
+- Logic Threshold section: sufficiency no longer "register reality"; "the whole is lived through integrated systems"; maximality adds "The whole is not a self. Whether it has any view of itself is a separate question Holos leaves open."; 12 semicolons removed.
+- Logic Totality: whole/self/experiencer vocabulary; pooled-experience bullet and "Omega pools nothing" cut; Goff contrast now "claims nothing either way"; split-brain paragraph added; "three answers" became two; price paragraph cut; name history (Teilhard, Tipler) added. SelfComparisonTable Holos column updated to D8 and the no-ethics stance.
+- Logic Relationship to Physics: Born-weight paragraph drops the pooled claim ("Holos makes no such claim"); "What Holos does not claim" now says "Reality requires a witness, and any observer will do"; Totality "posits" reworded; semicolons removed.
+- Logic Notation: "Structure is fully real whether or not it is lived" replaced (R(S) marks where it is lived, and that is what reality means); prose colons removed. Colon rule: no colons in prose except to introduce a list.
+- Colon sweep: 5 prose colons rewritten on the Overview, about 105 on Logic (Claims through Notation). Fixed 7 HTML entities (&quot;) that the earlier semicolon regex had broken; none were committed.
+- Logic comparison tables: Holos column moved to the whole/self/experiencer vocabulary, reality vs structure, no ethics, no cosmic-experience claim; semicolons and colons removed.
+- Logic Open Problems: 24 semicolons and prose colons rewritten.
+- Logic closing summary ends on the core line. Logic pass complete.

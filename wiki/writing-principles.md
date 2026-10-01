@@ -4,7 +4,7 @@ The principles behind John's editing passes. Apply them site-wide. The [glossary
 
 ## Sentences
 
-1. **Terse and plain.** Short sentences in ordinary words. Mostly commas and periods. No em dashes, no semicolons, few colons. No filler, no excess explanation, no unnecessary headings, no insider jargon ("nothing it is like to be", "registers itself").
+1. **Terse and plain.** Short sentences in ordinary words. Commas and periods. No em dashes, no semicolons, and no colons in prose (fine for labels like "Read:" and to introduce a list below). No filler, no excess explanation, no unnecessary headings, no insider jargon ("nothing it is like to be", "registers itself").
 2. **Make the claim, and keep it honest.** Say the strong thing plainly ("Reality requires a witness"), not a balanced summary. Don't overclaim in the frame ("built on two ideas", not "comprised of" them). Don't praise our own ideas ("bold"). Keep what makes a claim credible: "it can fail", "should" on an untested prediction, the reason a fallback version exists.
 3. **Open on the thing, end on the hardest line.** No throat-clearing lead-ins ("Holos adds two things to physics", "If Holos is correct, three things follow"). Close each paragraph on its strongest sentence, not on a qualification.
 
