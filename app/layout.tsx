@@ -1,10 +1,18 @@
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
-import { Bitter } from "next/font/google";
+import { Bitter, IM_Fell_English } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 const bitter = Bitter({ subsets: ["latin"] });
+// Engraver's face for the formula figure; exposed as a CSS variable so components
+// rendered outside Next (the PDF script) can fall back to a plain serif.
+const fell = IM_Fell_English({
+  subsets: ["latin"],
+  weight: "400",
+  style: ["normal", "italic"],
+  variable: "--font-fell",
+});
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app";
 
@@ -70,7 +78,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={bitter.className}>
+      <body className={`${bitter.className} ${fell.variable}`}>
         <Script
           id="structured-data"
           type="application/ld+json"
