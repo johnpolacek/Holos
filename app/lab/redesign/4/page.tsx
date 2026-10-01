@@ -28,7 +28,7 @@ const QUESTIONS = [
 ];
 const THESIS = [
   "Observation does not cause the universe, its laws, or its history.",
-  "It is what makes a lawful universe a lived one.",
+  "It makes a lawful universe a lived one.",
 ];
 const introText = nodeText(getSection("introduction").paragraphs);
 if (!introText.includes(THESIS.join(" ")) || !introText.includes(QUESTIONS.join(" "))) {
@@ -118,7 +118,7 @@ export default function LedgerHome() {
         </p>
         <blockquote className="r4-statement" data-statement>
           <p>
-            {THESIS[0]} It is what makes a lawful universe a <span className="r4-hl">lived</span>{" "}
+            {THESIS[0]} It makes a lawful universe a <span className="r4-hl">lived</span>{" "}
             one.
           </p>
         </blockquote>
