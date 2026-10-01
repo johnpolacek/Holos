@@ -30,11 +30,11 @@ export type Built3D = {
   stops: ((tl: gsap.core.Timeline, at: number, c: StopCtx) => void)[];
 };
 
-const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
+export const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
 
 // ---------- Timeline helpers ----------
 
-function cam(
+export function cam(
   tl: gsap.core.Timeline,
   c: StopCtx,
   target: THREE.Vector3 | null,
@@ -46,8 +46,13 @@ function cam(
   if (target) tl.to(c.rig.target, { x: target.x, y: target.y, z: target.z, duration, ease }, at);
   if (offset) tl.to(c.rig.offset, { x: offset.x, y: offset.y, z: offset.z, duration, ease }, at);
 }
-function lab(tl: gsap.core.Timeline, c: StopCtx, values: Record<string, number>, at: number) {
-  tl.to(c.labels, { ...values, duration: 0.5 }, at);
+export function lab(
+  tl: gsap.core.Timeline,
+  c: StopCtx,
+  values: Record<string, number>,
+  at: number
+) {
+  tl.to(c.labels, { ...values, duration: 0.8, ease: "power2.inOut" }, at);
 }
 function caption(tl: gsap.core.Timeline, c: StopCtx, text: string, at: number) {
   if (text) {
@@ -57,7 +62,7 @@ function caption(tl: gsap.core.Timeline, c: StopCtx, text: string, at: number) {
     tl.to(c.caption, { o: 0, duration: 0.4 }, at);
   }
 }
-function show(tl: gsap.core.Timeline, obj: THREE.Object3D, at: number, grow = 0.8) {
+export function show(tl: gsap.core.Timeline, obj: THREE.Object3D, at: number, grow = 0.8) {
   tl.set(obj, { visible: true }, at);
   if (grow > 0)
     tl.fromTo(
@@ -73,21 +78,21 @@ function hide(tl: gsap.core.Timeline, obj: THREE.Object3D, at: number) {
 
 // ---------- Geometry helpers ----------
 
-function line(points: THREE.Vector3[], mat: THREE.Material, loop = false) {
+export function line(points: THREE.Vector3[], mat: THREE.Material, loop = false) {
   const g = new THREE.BufferGeometry().setFromPoints(points);
   return loop ? new THREE.LineLoop(g, mat) : new THREE.Line(g, mat);
 }
-function segments(pairs: THREE.Vector3[], mat: THREE.Material) {
+export function segments(pairs: THREE.Vector3[], mat: THREE.Material) {
   return new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(pairs), mat);
 }
-function circlePts(r: number, n = 48, z = 0) {
+export function circlePts(r: number, n = 48, z = 0) {
   return Array.from({ length: n }, (_, i) => {
     const a = (i / n) * Math.PI * 2;
     return V(Math.cos(a) * r, Math.sin(a) * r, z);
   });
 }
 // A dashed line as short segments.
-function dashed(a: THREE.Vector3, b: THREE.Vector3, mat: THREE.Material, dash = 0.08) {
+export function dashed(a: THREE.Vector3, b: THREE.Vector3, mat: THREE.Material, dash = 0.08) {
   const pairs: THREE.Vector3[] = [];
   const len = a.distanceTo(b);
   for (let d = 0; d < len; d += dash * 2) {
@@ -98,7 +103,7 @@ function dashed(a: THREE.Vector3, b: THREE.Vector3, mat: THREE.Material, dash = 
 
 // An iris diaphragm facing +z: six flat blades pivoting under a front cover plate.
 // `open` 1 leaves an opening of radius R; 0 closes it.
-function makeIris(kit: Kit, R = 0.55) {
+export function makeIris(kit: Kit, R = 0.55) {
   const group = new THREE.Group();
   const cover = new THREE.Mesh(new THREE.RingGeometry(R, R * 2.2, 64, 1), kit.surface());
   cover.position.z = 0.05;

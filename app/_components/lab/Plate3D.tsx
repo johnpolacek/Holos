@@ -16,7 +16,8 @@ import {
 } from "react";
 import * as THREE from "three";
 import { disposeScene, Engraver, type Rig } from "./engrave3d";
-import { type Built3D, type Label3D, SCENES3D, type StopCtx } from "./tourScenes3d";
+import { SCENES3D } from "./scenes3d";
+import type { Built3D, Label3D, StopCtx } from "./tourScenes3d";
 
 const useIsoLayoutEffect = typeof window === "undefined" ? useEffect : useLayoutEffect;
 
@@ -100,13 +101,18 @@ const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
           const p = eng.project(l.at, tmp);
           const shown =
             (ctx.current.labels[l.id] ?? 0) * (b.kit.clip.distanceToPoint(l.at) > 0 ? 1 : 0);
-          g.style.opacity = p.z < 1 ? String(shown) : "0";
+          g.style.opacity = p.z < 1 && shown > 0 ? "1" : "0";
           if (!Number.isFinite(p.x) || !Number.isFinite(p.y)) return;
           const [ln, text] = g.children as unknown as [SVGLineElement, SVGTextElement];
+          // The leader draws out from its anchor, then the words arrive; leaving runs it back.
+          const draw = Math.min(shown / 0.6, 1);
+          const ex = p.x + l.dx;
+          const ey = p.y + l.dy + (l.dy < 0 ? 4 : -10);
           ln.setAttribute("x1", `${p.x}`);
           ln.setAttribute("y1", `${p.y}`);
-          ln.setAttribute("x2", `${p.x + l.dx}`);
-          ln.setAttribute("y2", `${p.y + l.dy + (l.dy < 0 ? 4 : -10)}`);
+          ln.setAttribute("x2", `${p.x + (ex - p.x) * draw}`);
+          ln.setAttribute("y2", `${p.y + (ey - p.y) * draw}`);
+          text.style.opacity = String(Math.max((shown - 0.5) / 0.5, 0));
           text.setAttribute("x", `${p.x + l.dx}`);
           text.setAttribute("y", `${p.y + l.dy}`);
         });

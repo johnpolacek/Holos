@@ -1,6 +1,5 @@
 import type React from "react";
 import ApertureFigure from "./ApertureFigure";
-import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import { sections } from "./content-data";
 import EraserFigure from "./EraserFigure";
 import EvidenceSoFar from "./EvidenceSoFar";
@@ -9,6 +8,7 @@ import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
+import LitFigure from "./LitFigure";
 import OmegaLimitAnimation from "./OmegaLimitAnimation";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import Section from "./Section";
@@ -54,7 +54,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "spacetime" && (
             <>
               <InvarianceWarpAnimation isPDF={isPDF} />
-              <BlockUniverseAnimation isPDF={isPDF} />
+              <LitFigure isPDF={isPDF} />
               <EraserFigure isPDF={isPDF} />
             </>
           )}
