@@ -141,11 +141,14 @@ function makePost() {
   });
 }
 
+const DESIGN_FOV = 32;
+const DESIGN_ASPECT = 3 / 2;
+
 export type Rig = { target: THREE.Vector3; offset: THREE.Vector3 };
 
 export class Engraver {
   renderer: THREE.WebGLRenderer;
-  camera = new THREE.PerspectiveCamera(32, 16 / 10, 0.1, 200);
+  camera = new THREE.PerspectiveCamera(DESIGN_FOV, DESIGN_ASPECT, 0.1, 200);
   rig: Rig = { target: new THREE.Vector3(), offset: new THREE.Vector3(0, 2, 10) };
   width = 1;
   height = 1;
@@ -172,7 +175,15 @@ export class Engraver {
     this.renderer.setPixelRatio(dpr);
     this.renderer.setSize(width, height, false);
     this.rt.setSize(width * dpr, height * dpr);
-    this.camera.aspect = width / height;
+    // Scenes are framed for a 3:2 stage. A taller stage keeps that width in view and
+    // gains height, so nothing framed for desktop falls off the sides.
+    const aspect = width / height;
+    const halfV = Math.tan(THREE.MathUtils.degToRad(DESIGN_FOV / 2));
+    this.camera.fov =
+      aspect < DESIGN_ASPECT
+        ? THREE.MathUtils.radToDeg(2 * Math.atan((halfV * DESIGN_ASPECT) / aspect))
+        : DESIGN_FOV;
+    this.camera.aspect = aspect;
     this.camera.updateProjectionMatrix();
     this.post.uniforms.texel.value.set(1 / (width * dpr), 1 / (height * dpr));
     this.post.uniforms.dpr.value = dpr;

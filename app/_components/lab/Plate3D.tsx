@@ -20,6 +20,9 @@ import { SCENES3D } from "./scenes3d";
 import type { Built3D, Label3D, StopCtx } from "./tourScenes3d";
 
 const useIsoLayoutEffect = typeof window === "undefined" ? useEffect : useLayoutEffect;
+// Below this stage width, scenes build their portrait version and leaders shorten.
+const NARROW = 560;
+const EDGE = 8;
 
 export type Plate3DHandle = {
   play: (chapterId: string, stop: number, tl: gsap.core.Timeline, reduce: boolean) => void;
@@ -43,7 +46,7 @@ const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
       const make = SCENES3D[chapterId];
       if (!make) return;
       if (built.current) disposeScene(built.current.scene);
-      const b = make();
+      const b = make((wrapRef.current?.clientWidth ?? 1000) < NARROW);
       built.current = b;
       const c = ctx.current;
       c.labels = Object.fromEntries(b.labels.map((l) => [l.id, 0]));
@@ -87,6 +90,7 @@ const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
     const ro = new ResizeObserver(resize);
     ro.observe(wrap);
     const tmp = new THREE.Vector3();
+    const widths = new Map<string, number>();
     const tick = (time: number) => {
       const b = built.current;
       if (!b) return;
@@ -106,15 +110,24 @@ const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
           const [ln, text] = g.children as unknown as [SVGLineElement, SVGTextElement];
           // The leader draws out from its anchor, then the words arrive; leaving runs it back.
           const draw = Math.min(shown / 0.6, 1);
-          const ex = p.x + l.dx;
-          const ey = p.y + l.dy + (l.dy < 0 ? 4 : -10);
+          const k = Math.min(Math.max(eng.width / 720, 0.5), 1);
+          // Keep the words inside the stage: slide the text, and its leader end, inward.
+          const half = (widths.get(l.id) ?? 0) / 2;
+          const tx = Math.min(Math.max(p.x + l.dx * k, EDGE + half), eng.width - EDGE - half);
+          const ty = Math.min(Math.max(p.y + l.dy * k, 16), eng.height - EDGE);
+          const ex = tx;
+          const ey = ty + (l.dy < 0 ? 4 : -10);
           ln.setAttribute("x1", `${p.x}`);
           ln.setAttribute("y1", `${p.y}`);
           ln.setAttribute("x2", `${p.x + (ex - p.x) * draw}`);
           ln.setAttribute("y2", `${p.y + (ey - p.y) * draw}`);
           text.style.opacity = String(Math.max((shown - 0.5) / 0.5, 0));
-          text.setAttribute("x", `${p.x + l.dx}`);
-          text.setAttribute("y", `${p.y + l.dy}`);
+          text.setAttribute("x", `${tx}`);
+          text.setAttribute("y", `${ty}`);
+          if (!widths.has(l.id) && text.textContent) {
+            const w = text.getComputedTextLength();
+            if (w > 0) widths.set(l.id, w);
+          }
         });
       }
       const cap = captionRef.current;

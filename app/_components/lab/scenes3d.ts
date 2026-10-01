@@ -4,4 +4,5 @@ import { lived } from "./litScene3d";
 import type { Built3D } from "./tourScenes3d";
 import { SCENES3D as TOUR } from "./tourScenes3d";
 
-export const SCENES3D: Record<string, () => Built3D> = { ...TOUR, lived };
+// `narrow` asks for the portrait composition; scenes without one ignore it.
+export const SCENES3D: Record<string, (narrow?: boolean) => Built3D> = { ...TOUR, lived };

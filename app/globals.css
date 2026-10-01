@@ -585,6 +585,12 @@ nav a:hover {
   aspect-ratio: 3 / 2;
   overflow: hidden;
 }
+/* Phones get a portrait stage; scenes switch to their narrow composition below 560px. */
+@media (max-width: 600px) {
+  .engraved-figure-stage {
+    aspect-ratio: 4 / 5;
+  }
+}
 .plate-controls button:disabled {
   opacity: 0.35;
 }

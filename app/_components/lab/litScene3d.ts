@@ -31,7 +31,9 @@ const BASE = -2.5; // the Big Bang
 const TOP = 3.2;
 const HALF_X = 9.5;
 const HALF_Z = 4.6;
-const K = 0.8; // light-cone slope: radius per unit of time
+const K = 0.8;
+const SWING = 0.8; // radians the portrait camera turns about the time axis
+const PULL = 0.66; // light-cone slope: radius per unit of time
 
 type History = { x: number; z: number; phase: number };
 type Observer = { home: History; t: number };
@@ -70,7 +72,7 @@ function grow(mesh: THREE.Mesh, p: number) {
   g.setDrawRange(0, Math.round(p * tubularSegments) * radialSegments * 6);
 }
 
-export function lived(): Built3D {
+export function lived(narrow = false): Built3D {
   const kit = makeKit();
   kit.clip.normal.set(0, -1, 0);
   const scene = new THREE.Scene();
@@ -157,6 +159,8 @@ export function lived(): Built3D {
     const iris = makeIris(kit, 0.11);
     iris.setOpen(0);
     iris.group.position.copy(apex).add(V(0, 0.32, 0));
+    // The portrait camera swings round; turn the apertures with it so they stay open to view.
+    if (narrow) iris.group.rotation.y = SWING;
     iris.group.visible = false;
     scene.add(iris.group);
 
@@ -249,8 +253,16 @@ export function lived(): Built3D {
     { id: "future", text: "NEVER IN ANYONE'S PAST", at: V(7, TOP - 0.4, -2), dx: 40, dy: -40 },
   ];
 
-  const center = V(0, 0.2, 0);
-  const wide = V(4, 7, 24);
+  // Portrait: swing the camera round to look down the block's long axis, so the three
+  // cones stack in depth instead of spreading across a narrow screen.
+  const view = (x: number, y: number, z: number) =>
+    narrow
+      ? V(x, y, z)
+          .applyAxisAngle(V(0, 1, 0), SWING)
+          .multiplyScalar(PULL)
+      : V(x, y, z);
+  const center = narrow ? V(0, -2.2, 0) : V(0, 0.2, 0);
+  const wide = view(4, 7, 24);
 
   // A cone falls from its apex at the speed of light: linear, not eased, so the front
   // and the ink it leaves keep one pace. The camera carries the drama.
@@ -308,7 +320,7 @@ export function lived(): Built3D {
         );
         tl.fromTo(
           c.rig.offset,
-          { x: -11, y: 1.5, z: 15 },
+          { ...view(-11, 1.5, 15) },
           { ...wide, duration: 3.6, ease: EASE },
           t
         );
@@ -319,11 +331,11 @@ export function lived(): Built3D {
       (tl, t, c) => {
         tl.addLabel("lived", t);
         lab(tl, c, { bang: 0, time: 0, hist: 0 }, t);
-        cam(tl, c, observers[0].apex.clone().add(V(0, -0.3, 0)), V(1.6, 0.9, 6), t, 2.2, EASE);
+        cam(tl, c, observers[0].apex.clone().add(V(0, -0.3, 0)), view(1.6, 0.9, 6), t, 2.2, EASE);
         tl.to(st, { life: 1, duration: 1.2, ease: "power2.out" }, t + 1.6);
         open(tl, observers[0], t + 2.3);
         lab(tl, c, { lived: 1 }, t + 2.8);
-        cam(tl, c, V(0, 0.5, 0), V(5, 1.6, 16), t + 4.4, 2.4, EASE);
+        cam(tl, c, V(0, 0.5, 0), view(5, 1.6, 16), t + 4.4, 2.4, EASE);
         lab(tl, c, { lived: 0, early: 1 }, t + 6);
       },
       // 3 · Lit: the past light cone falls from the observer to the Big Bang, and starlight
@@ -331,7 +343,7 @@ export function lived(): Built3D {
       (tl, t, c) => {
         tl.addLabel("lit", t);
         lab(tl, c, { early: 0 }, t);
-        cam(tl, c, V(0, 0, 0), V(7, 4, 15.5), t, 2.2, EASE);
+        cam(tl, c, V(0, 0, 0), view(7, 4, 15.5), t, 2.2, EASE);
         fall(tl, observers[0], t + 1.2, 2.6);
         lab(tl, c, { cone: 1 }, t + 3.4);
         tl.set(star, { visible: true }, t + 4.1);
@@ -363,16 +375,16 @@ export function lived(): Built3D {
       (tl, t, c) => {
         tl.addLabel("unlit", t);
         lab(tl, c, { union: 0 }, t);
-        cam(tl, c, V(6.8, 0.6, 0), V(7, 3.5, 13), t, 2.4, EASE);
+        cam(tl, c, V(6.8, 0.6, 0), view(7, 3.5, 13), t, 2.4, EASE);
         lab(tl, c, { unlit: 1 }, t + 2.2);
-        cam(tl, c, V(5.5, 1.8, -1), V(4, 5, 14), t + 3.6, 2, EASE);
+        cam(tl, c, V(5.5, 1.8, -1), view(4, 5, 14), t + 3.6, 2, EASE);
         lab(tl, c, { future: 1 }, t + 5.2);
       },
       // 6 · A fact about arrangement: one slow turn around the finished block.
       (tl, t, c) => {
         tl.addLabel("arranged", t);
         lab(tl, c, { unlit: 0, future: 0 }, t);
-        cam(tl, c, center, V(-10, 7, 21), t, 4, "sine.inOut");
+        cam(tl, c, center, view(-10, 7, 21), t, 4, "sine.inOut");
         cam(tl, c, null, wide, t + 4, 4, "sine.inOut");
       },
     ],
