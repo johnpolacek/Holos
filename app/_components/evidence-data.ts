@@ -104,4 +104,113 @@ export const evidence: Record<string, EvidenceBlock> = {
       },
     ],
   },
+  "test-a": {
+    checked: "2026-10-01",
+    items: [
+      {
+        date: "2026-06",
+        text: "A bedside EEG measure, taken without the magnetic pulse, predicts the pulse-echo score in brain-injured patients. A step toward measuring integration more widely. Preprint.",
+        href: "https://www.biorxiv.org/content/10.64898/2026.06.04.730221v1",
+        bearing: "coming",
+      },
+      {
+        date: "2025",
+        text: "An open database of 2,643 sleep awakenings with dream reports and EEG. Usable to calibrate the test, though it lacks the pulse the main gauge needs.",
+        href: "https://doi.org/10.1038/s41467-025-61945-1",
+        bearing: "coming",
+      },
+      {
+        date: "2022",
+        text: "Complexity in ordinary sleep EEG falls with sleep depth but does not separate dreaming from dreamless awakenings. A caution for gauges without the pulse.",
+        href: "https://doi.org/10.3389/fnhum.2022.987714",
+        bearing: "open",
+      },
+      {
+        date: "2018",
+        text: "Most people made unresponsive by anesthetics report experiences afterward, mostly dreams. Not responding is not the same as no one home.",
+        href: "https://doi.org/10.1016/j.bja.2018.03.014",
+        bearing: "fits",
+      },
+      {
+        date: "2017",
+        text: "Whether a dream is reported, in REM or non-REM sleep, tracks local activity in the back of the cortex.",
+        href: "https://doi.org/10.1038/nn.4545",
+        bearing: "fits",
+      },
+    ],
+  },
+  "test-b": {
+    checked: "2026-10-01",
+    items: [
+      {
+        date: "2026",
+        text: "Forty-five human forebrain organoids show near-critical dynamics on their own, with no outside input. Size comparisons are not yet reported.",
+        href: "https://www.researchgate.net/publication/400648904_Criticality_emerges_within_coherent_functional_organization_in_human_forebrain_organoids",
+        bearing: "open",
+      },
+      {
+        date: "2026-02",
+        text: "Organoids keep growing in size and complexity, with programs aiming far past today's tens of millions of neurons. The size range Test B needs is opening up.",
+        href: "https://undark.org/2026/02/26/brain-organoids-big-questions/",
+        bearing: "coming",
+      },
+      {
+        date: "2022",
+        text: "Neurons grown on a chip learn to play Pong. Far simpler than any brain, and claims of sentience were widely criticized.",
+        href: "https://pubmed.ncbi.nlm.nih.gov/36228614/",
+        bearing: "open",
+      },
+    ],
+  },
+  "check-c": {
+    checked: "2026-10-01",
+    items: [
+      {
+        date: "2026-09",
+        text: "Extended Wigner's friend tests run on quantum computers with agent-like friends. Every agent tested violates the Local Friendliness bound.",
+        href: "https://arxiv.org/abs/2609.12527",
+        bearing: "fits",
+      },
+      {
+        date: "2020",
+        text: "The first photonic test of Local Friendliness. Observed events, locality, and free choice cannot all hold. Holos gives up the first.",
+        href: "https://doi.org/10.1038/s41567-020-0990-x",
+        bearing: "fits",
+      },
+    ],
+  },
+  "standing-bet": {
+    checked: "2026-10-01",
+    items: [
+      {
+        date: "2021",
+        text: "An underground experiment rules out the simplest gravity-driven collapse model, the one linked to quantum theories of consciousness. Modified versions survive.",
+        href: "https://doi.org/10.1038/s41567-020-1008-4",
+        bearing: "fits",
+      },
+    ],
+  },
+  speculation: {
+    checked: "2026-10-01",
+    items: [
+      {
+        date: "2026-12",
+        text: "Gaia's fourth data release, due 2 December, extends the star-by-star census for warm, dimmed stars.",
+        href: "https://www.cosmos.esa.int/web/gaia/release",
+        bearing: "coming",
+      },
+      {
+        date: "2026-07",
+        text: "Webb traces two of seven warm-star candidates to background galaxies. The rest are unexplained so far.",
+        href: "https://arxiv.org/abs/2607.09460",
+        bearing: "open",
+      },
+      {
+        date: "2025-10",
+        text: "A study sets out what self-copying probes in our solar system would leave behind, and where to look.",
+        href: "https://arxiv.org/abs/2510.00082",
+        bearing: "coming",
+      },
+    ],
+  },
 };

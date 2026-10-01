@@ -1,4 +1,6 @@
 import { FootnoteLink, predictionsCitationMap } from "./citation-sections";
+import EvidenceSoFar from "./EvidenceSoFar";
+import { evidence } from "./evidence-data";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 
@@ -672,6 +674,7 @@ export default function Predictions() {
             ).
           </p>
         </div>
+        <EvidenceSoFar block={evidence["test-a"]} />
       </section>
 
       {/* Test B */}
@@ -745,6 +748,7 @@ export default function Predictions() {
             Test A, under its rules.
           </p>
         </div>
+        <EvidenceSoFar block={evidence["test-b"]} />
       </section>
 
       {/* Check C */}
@@ -875,6 +879,7 @@ export default function Predictions() {
             branching picture Holos adopts already accounts for.
           </p>
         </div>
+        <EvidenceSoFar block={evidence["check-c"]} />
       </section>
 
       {/* The standing bet */}
@@ -994,6 +999,7 @@ export default function Predictions() {
             well past the threshold; the consequences are already on the page.
           </p>
         </div>
+        <EvidenceSoFar block={evidence["standing-bet"]} />
       </section>
 
       {/* 4) Speculation */}
@@ -1510,6 +1516,7 @@ export default function Predictions() {
             </div>
           </div>
         </div>
+        <EvidenceSoFar block={evidence["speculation"]} />
       </section>
     </div>
   );

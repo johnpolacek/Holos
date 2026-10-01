@@ -888,3 +888,4 @@ Keep entries concise and grounded in inspected repo evidence.
 - The IIT-perspective paper (LLMs fail integration, causal closure, persistence) is not cited yet: no reference in hand.
 - Consciousness evidence box updated with 2026 research: Anthropic J-space workspace (open), Butlin/Long/Chalmers indicators report (fits), COGITATE IIT vs GNW (open).
 - Overview AI paragraphs aligned with Logic Artificial Systems: gaps are integration and time; looped models loop only within a word; the chip must act as one.
+- Evidence So Far boxes added under Predictions Test A, Test B, Check C, the standing bet, and Speculation, from a 2026-10-01 search.

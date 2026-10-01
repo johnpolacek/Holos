@@ -33,7 +33,7 @@ Dated evidence boxes live in `app/_components/evidence-data.ts`. Each block has 
 | Where | Status |
 |---|---|
 | Overview: Consciousness, Aliens, The Teeming Dark | done 2026-09-30 |
-| Predictions: under each test | to do |
+| Predictions: Test A, Test B, Check C, standing bet, Speculation | done 2026-10-01 |
 
 ## Carried forward
 
