@@ -1,11 +1,11 @@
 import type React from "react";
 import ApertureFigure from "./ApertureFigure";
+import ClosureFigure from "./ClosureFigure";
 import { sections } from "./content-data";
 import EraserFigure from "./EraserFigure";
 import EvidenceSoFar from "./EvidenceSoFar";
 import { evidence } from "./evidence-data";
 import HolosAnimation from "./HolosAnimation";
-import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import LitFigure from "./LitFigure";
@@ -58,7 +58,7 @@ export default function Content({ isPDF = false }: ContentProps) {
               <EraserFigure isPDF={isPDF} />
             </>
           )}
-          {section.id === "infinity" && <InfiniteWrapAnimation isPDF={isPDF} />}
+          {section.id === "infinity" && <ClosureFigure isPDF={isPDF} />}
           {section.id === "aliens" && <IntegrationHypothesisAnimation isPDF={isPDF} />}
           {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
           {section.id === "omega-point" && <OmegaLimitAnimation isPDF={isPDF} />}
