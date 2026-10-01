@@ -449,8 +449,8 @@ export default function IntegrationHypothesisAnimation({
             <strong>Quiet Phase:</strong> Dense core, directed beams, low emission
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>What Remains:</strong> Gravity and faint infrared warmth; silent in visible
-            light
+            <strong>What Remains:</strong> Gravity and waste heat, warm or cold. Silent in
+            visible light.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             It did not disappear. It became quiet.
@@ -465,7 +465,7 @@ export default function IntegrationHypothesisAnimation({
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
       role="img"
-      aria-label="Animation showing how a single civilization evolves from a high-emission, sprawling early phase to a compact, integrated quiet phase. As integration increases, visible emissions fade while gravity and faint infrared warmth remain detectable. One possible explanation of the Fermi paradox: civilizations go quiet as they integrate."
+      aria-label="Animation showing how a single civilization evolves from a high-emission, sprawling early phase to a compact, integrated quiet phase. As integration increases, visible emissions fade while gravity and waste heat remain detectable. One possible explanation of the Fermi paradox: civilizations go quiet as they integrate."
     >
       <figcaption className="sr-only">
         One Civilization, Two Footprints animation. A civilization on a grid plane starts in an
@@ -473,9 +473,9 @@ export default function IntegrationHypothesisAnimation({
         rings. As scale increases, coordination costs rise (shown via lagging tether lines). When
         integration increases, the system contracts into a compact core with suppressed emissions.
         Only rare directional beams appear. Finally, the electromagnetic signature fades, leaving
-        gravitational structure, visible as warped grid lines and lensing arcs, along with faint
-        infrared warmth that no compact, computing system can avoid. The civilization did not
-        disappear; it became quiet.
+        gravitational structure, visible as warped grid lines and lensing arcs, along with waste heat,
+        warm or cold, that no computing system can avoid. The civilization did not disappear. It
+        became quiet.
       </figcaption>
       <svg
         ref={svgRef}

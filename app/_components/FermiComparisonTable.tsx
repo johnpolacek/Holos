@@ -28,7 +28,7 @@ const rows: ComparisonRow[] = [
   {
     dimension: "What we should find",
     holos:
-      "Some individual stars dimmer than expected and glowing warm in infrared, and perhaps small, parked probes",
+      "Some individual stars with unexplained heat, in the mid or far infrared, and perhaps small, parked probes",
     others: [
       "Nothing",
       "Nothing, or the remains of civilizations",

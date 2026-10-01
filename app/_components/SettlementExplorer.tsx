@@ -1447,8 +1447,10 @@ function Assumptions() {
         al.
       </li>
       <li>
-        Loud settlements sprawl and can be seen. Quiet ones stay compact. Both harvest their star,
-        so its light ends up as heat, and both show as warm stars to a search like Hephaistos.
+        Loud settlements sprawl and can be seen. Quiet ones stay near their star. Both harvest it,
+        so its light ends up as heat. The model assumes that heat comes out warm enough for a
+        search like Hephaistos. Heat shed cold, in the far infrared, would escape it, and the
+        warm-star check would rule out less.
       </li>
       <li>
         Once settling spreads, settlements come and go. If each founds two new ones, about half the

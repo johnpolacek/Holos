@@ -494,10 +494,10 @@ export const sections: ContentSection[] = [
         civilization that computes efficiently should want more energy. But light-speed delay caps
         how large one mind can usefully grow. Past that size, more energy funds another mind nearby,
         not a bigger one. So growth stays near home, where a civilization can harvest its star
-        fully. The place to look is single stars glowing unusually warm in the infrared.
+        fully. The place to look is single stars with heat they should not have, warm or cold.
       </>,
       <>
-        That search is under way.{" "}
+        The warm half of that search is under way.{" "}
         <a href="https://www.astro.uu.se/~ez/hephaistos/hephaistos.html">Project Hephaistos</a>{" "}
         combed about five million nearby stars and{" "}
         <a href="https://doi.org/10.1093/mnras/stae1186">flagged seven candidates in 2024</a>. In
@@ -506,7 +506,9 @@ export const sections: ContentSection[] = [
         <a href="https://arxiv.org/abs/2607.25701">the rest are unexplained so far</a>. Both results
         are preprints. Gaia&apos;s{" "}
         <a href="https://www.cosmos.esa.int/web/gaia/data-release-4">next data release</a>, due
-        December 2026, will extend the census.
+        December 2026, will extend the census. The cold half has barely begun. Old surveys of dust
+        around nearby stars could be searched now, and a far-infrared telescope,{" "}
+        <a href="https://www.mpia.de/news/2026-prima-phase-b">PRIMA</a>, is due around 2033.
       </>,
       <>Each answer to the silence predicts something different to find.</>,
       <div key="fermi-table">
@@ -560,8 +562,8 @@ export const sections: ContentSection[] = [
       </>,
       <>
         The silence may not mean absence. It may mean endurance. The tell would not be a message,
-        but a star dimmed in visible light and glowing warm in the infrared, with nothing natural to
-        explain it.
+        but a star with heat it should not have, warm in the infrared or cold in the far infrared,
+        and nothing natural to explain it.
       </>,
     ],
   },

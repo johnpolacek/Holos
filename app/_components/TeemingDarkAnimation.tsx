@@ -156,7 +156,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
             <strong>The Switch:</strong> Maybe we were listening for the wrong signal
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>Dark Nodes:</strong> Compact structures that no longer shine: dark in visible
+            <strong>Dark Nodes:</strong> Compact structures that no longer shine. Dark in visible
             light, faintly warm in the infrared, and, if massive enough, detectable by gravity.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
@@ -189,7 +189,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
         radio signals into space and listens for a response. The cosmos appears silent: no signals
         detected. Then the perspective shifts: the starfield dims and dark, non-luminous structures
         become visible as geometric, cubist forms. The silence is not proof of emptiness; mature
-        civilizations that no longer shine would be detectable by faint warmth and, if massive
+        civilizations that no longer shine would be detectable by waste heat and, if massive
         enough, gravity, not by light.
       </figcaption>
       <svg
