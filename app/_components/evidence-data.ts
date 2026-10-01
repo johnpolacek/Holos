@@ -18,7 +18,7 @@ export interface EvidenceBlock {
 
 export const evidence: Record<string, EvidenceBlock> = {
   consciousness: {
-    checked: "2026-09-30",
+    checked: "2026-10-01",
     items: [
       {
         date: "2026-07",
@@ -59,7 +59,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   aliens: {
-    checked: "2026-09-30",
+    checked: "2026-10-01",
     items: [
       {
         date: "2026-12",
@@ -88,7 +88,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "the-teeming-dark": {
-    checked: "2026-09-30",
+    checked: "2026-10-01",
     items: [
       {
         date: "2026-08",
@@ -143,9 +143,9 @@ export const evidence: Record<string, EvidenceBlock> = {
     checked: "2026-10-01",
     items: [
       {
-        date: "2026",
-        text: "Forty-five human forebrain organoids show near-critical dynamics on their own, with no outside input. Size comparisons are not yet reported.",
-        href: "https://www.researchgate.net/publication/400648904_Criticality_emerges_within_coherent_functional_organization_in_human_forebrain_organoids",
+        date: "2026-02",
+        text: "Forty-five human forebrain organoids show near-critical dynamics on their own, with no outside input. Size comparisons are not yet reported. Preprint.",
+        href: "https://doi.org/10.21203/rs.3.rs-8640242/v1",
         bearing: "open",
       },
       {

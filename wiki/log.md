@@ -915,3 +915,4 @@ Keep entries concise and grounded in inspected repo evidence.
 - Revisions page: five entries added for 2026-09-30 to 10-01 framework changes (reality means lived, self vs experiencer, ethics retired, single-view claim withdrawn, AI falls short as built).
 - Settlement Explorer: semicolons and prose colons swept. Editing pass complete across all pages.
 - Removed /lab/rco (R, C, O treatment explorations); variant 11 is live.
+- Evidence So Far refresh 2026-10-01: 0 new entries (none; one ResearchGate link replaced with its Research Square preprint DOI in test-b).
