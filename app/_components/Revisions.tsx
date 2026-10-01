@@ -226,6 +226,31 @@ export default function Revisions() {
           if unlived structure were less than real. Structure is fully real whether or not anyone
           lives it; ⊛ concerns where a world is lived.
         </li>
+        <li className="leading-relaxed">
+          <strong>Unlived structure as fully real.</strong> Reversed: &quot;reality&quot; now means
+          lived reality (R). Structure exists whether or not anyone lives it, but only lived
+          structure is called real. Reality requires a witness.
+        </li>
+        <li className="leading-relaxed">
+          <strong>The one experiencer &quot;waking&quot; in each observer.</strong> Clarified: at
+          the threshold a new self begins, and no new experiencer does. The self is local, and the
+          experiencer is what lives through it (Logic, D8).
+        </li>
+        <li className="leading-relaxed">
+          <strong>An ethical payoff from Omega.</strong> Retired: one experiencer living through
+          every self does not settle what to value. Holos no longer claims that a stranger&apos;s
+          pain is yours to anticipate, and the price that came with that claim went with it.
+        </li>
+        <li className="leading-relaxed">
+          <strong>No single view of the whole.</strong> Withdrawn: Holos no longer claims the whole
+          lacks any view of itself, nor that it has one. Locality is about places, so it does not
+          decide the question, and a cosmic mind is no longer ruled out.
+        </li>
+        <li className="leading-relaxed">
+          <strong>Current AI as an open question.</strong> Replaced: today&apos;s language models
+          fall short of the threshold, as built. They meet aboutness and differentiation but not
+          integration or temporal cohesion. A system built differently could cross.
+        </li>
       </ul>
     </div>
   );

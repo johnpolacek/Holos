@@ -911,3 +911,6 @@ Keep entries concise and grounded in inspected repo evidence.
 - Locality softened (John, option B): experience occurs in no place except inside observers; whether the whole has any view of itself is not a place question and stays open. Predictions Commitment 1, guardrails, glossary updated. Stale guardrail "structure is fully real" replaced.
 - Option B follow-through: "A cosmic mind" removed from Commitment 1 rule-outs; Goff citation note now "makes no claim either way"; guardrail Commitment 1 text restored and adjusted.
 - Predictions pass complete: four content fixes (structural layer, new self, the whole, the world) and about 105 semicolons and prose colons swept.
+- Citations pass: 7 notes rewritten for current vocabulary and the no-ethics stance; semicolons and non-label colons swept across 199 notes.
+- Revisions page: five entries added for 2026-09-30 to 10-01 framework changes (reality means lived, self vs experiencer, ethics retired, single-view claim withdrawn, AI falls short as built).
+- Settlement Explorer: semicolons and prose colons swept. Editing pass complete across all pages.

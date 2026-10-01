@@ -205,7 +205,7 @@ const GALAXY_SLIDERS: SliderSpec[] = [
   {
     key: "loudLife",
     label: "How long loud settlements last",
-    help: "How long a loud settlement survives. If it survives long enough, it turns inward and goes quiet; if not, it collapses while still loud.",
+    help: "How long a loud settlement survives. If it survives long enough, it turns inward and goes quiet. If not, it collapses while still loud.",
     min: 1e2,
     max: 1e9,
     format: formatYears,
@@ -822,7 +822,7 @@ const WHY_PLAUSIBLE = (
   </>
 );
 
-const TOY = "A toy model, not a proof: it shows which assumptions fit the silence.";
+const TOY = "A toy model, not a proof. It shows which assumptions fit the silence.";
 
 const H3 = "text-xs font-semibold uppercase tracking-[0.14em] text-white/45";
 
@@ -1064,7 +1064,7 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
               ref={canvasRef}
               className="absolute inset-0 h-full w-full"
               role="img"
-              aria-label={`Galaxy map. ${spreads ? "Settling spreads across the galaxy." : "Settling dies out; quiet civilizations appear as faint warm dots."} ${style.label}.`}
+              aria-label={`Galaxy map. ${spreads ? "Settling spreads across the galaxy." : "Settling dies out. Quiet civilizations appear as faint warm dots."} ${style.label}.`}
             />
             {inStory && step === 0 && <Spotlight w={stageCss.w} h={stageCss.h} reduced={reduced} />}
             <div className="pointer-events-none absolute left-4 top-3 flex flex-col">
@@ -1167,9 +1167,9 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                       paradox. Here is one possible answer.
                     </p>
                     <p>
-                      A civilization appears. At first it is loud, like us: radio, lights, rockets.
-                      Then it turns inward: it stops expanding, grows compact and efficient, and
-                      goes quiet. What is left is faint warmth.
+                      A civilization appears. At first it is loud, like us, with radio, lights, and
+                      rockets. Then it turns inward. It stops expanding, grows compact and
+                      efficient, and goes quiet. What is left is faint warmth.
                     </p>
                     <p>
                       Each warm dot on the galaxy is one of these quiet civilizations. Plenty of
@@ -1204,12 +1204,12 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                   <>
                     <p>
                       Even if most stay home, a few might settle. What matters is how many new
-                      settlements each one founds. Think of an epidemic: fewer than one each, and it
+                      settlements each one founds. Think of an epidemic. Fewer than one each, and it
                       dies out after a few hops. More than one, and it fills the galaxy.
                     </p>
                     <p>
-                      Circumstances differ: a rich neighbor, a crowded home, a disaster. The more
-                      they differ, the more outliers settle anyway.
+                      Circumstances differ, such as a rich neighbor, a crowded home, or a disaster.
+                      The more they differ, the more outliers settle anyway.
                     </p>
                     <QuestionSlider q={Q_DIFFER} params={params} onChange={setParams} />
                     <Headline model={model} />
@@ -1233,7 +1233,7 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                     <p>
                       When they do settle, some sprawl across a star system, and the sprawl glows.
                       Others stay compact and faintly warm. Loud settlement can be seen from far
-                      away; quiet settlement is much harder to spot.
+                      away. Quiet settlement is much harder to spot.
                     </p>
                     <QuestionSlider
                       q={Q_LOUD}
@@ -1350,7 +1350,7 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                   <div className="flex flex-col gap-3">
                     <h3 className={H3}>Where the silence fits</h3>
                     <p className="text-sm text-white/65">
-                      Each square runs the model with those two answers; everything else stays as
+                      Each square runs the model with those two answers. Everything else stays as
                       set. Tap or drag to move there.
                     </p>
                     <VerdictMap
@@ -1369,7 +1369,7 @@ export default function SettlementExplorer({ isPDF = false, bet }: SettlementExp
                     have barely looked.
                   </p>
                   <p className="text-sm text-white/65">
-                    The animation is one random history; the checks average over many. The clock
+                    The animation is one random history. The checks average over many. The clock
                     speeds up as it runs, and dots are enlarged
                     {history && history.perMark > 1.5
                       ? `, each standing for about ${formatCount(history.perMark)} civilizations`
@@ -1412,7 +1412,7 @@ function Observations() {
           possible sign of a partial Dyson sphere (a swarm of energy collectors around a star),
           among about five million stars within 1,000 light-years (
           <a href="https://doi.org/10.1093/mnras/stae1186">2024</a>). Webb observations traced two
-          to background galaxies; the rest have no clear explanation yet, with background galaxies
+          to background galaxies. The rest have no clear explanation yet, with background galaxies
           the leading suspect (<a href="https://arxiv.org/abs/2607.09460">2026</a>,{" "}
           <a href="https://arxiv.org/abs/2607.25701">preprints</a>).
         </li>
@@ -1434,9 +1434,9 @@ function Assumptions() {
         ours is now.
       </li>
       <li>
-        A settlement weighs its neighbors one at a time: stay home, settle quietly, or settle
-        loudly. The option that pays best usually wins; how much circumstances differ sets how often
-        it does not.
+        A settlement considers each neighbor in turn and chooses to stay home, settle quietly, or
+        settle loudly. The option that pays best usually wins. How much circumstances differ sets
+        how often it does not.
       </li>
       <li>
         Each new settlement weighs the same costs and benefits afresh, since distance soon makes it
@@ -1447,7 +1447,7 @@ function Assumptions() {
         al.
       </li>
       <li>
-        Loud settlements sprawl and can be seen; quiet ones stay compact. Both harvest their star,
+        Loud settlements sprawl and can be seen. Quiet ones stay compact. Both harvest their star,
         so its light ends up as heat, and both show as warm stars to a search like Hephaistos.
       </li>
       <li>
@@ -1455,10 +1455,10 @@ function Assumptions() {
         stars stay settled, as in epidemic models.
       </li>
       <li>
-        Every civilization sends watchers (Sentinel Probes): cheap probes that observe and never
+        Every civilization sends watchers (Sentinel Probes), cheap probes that observe and never
         settle.
       </li>
-      <li>Costs and benefits are in made-up units; only how they compare matters.</li>
+      <li>Costs and benefits are in made-up units. Only how they compare matters.</li>
     </ul>
   );
 }
@@ -1484,7 +1484,7 @@ function StaticExplorer() {
       <p style={{ fontSize: "0.9em", color: "rgba(0,0,0,0.75)", margin: "0 0 1em" }}>
         Every settlement weighs each nearby star: stay home, settle quietly, or settle loudly. The
         map shows which answers fit the silence we observe. Lower means settling a neighbor is more
-        worth it; further right means circumstances differ more.
+        worth it. Further right means circumstances differ more.
       </p>
       <div style={{ maxWidth: "440px", margin: "0 auto" }}>
         <svg
@@ -1545,7 +1545,7 @@ function StaticExplorer() {
               </td>
               <td style={{ padding: "0.5em 0", color: "rgba(0,0,0,0.75)" }}>
                 {VERDICT_STYLE[m.verdict].label}. Each settlement founds {m.r.toFixed(2)} new ones,
-                so settling {m.r > 1 ? "spreads" : "dies out"}; about {formatCount(m.warmInSample)}{" "}
+                so settling {m.r > 1 ? "spreads" : "dies out"}. About {formatCount(m.warmInSample)}{" "}
                 warm stars expected among the 5 million stars near us.
               </td>
             </tr>

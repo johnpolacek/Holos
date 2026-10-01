@@ -57,13 +57,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Structural realism",
             url: "https://en.wikipedia.org/wiki/Structural_realism_(philosophy_of_science)",
             description:
-              "The view that science describes relationships between things, not what they are in themselves; Holos extends this by giving observation a role in making structure lived.",
+              "The view that science describes relationships between things, not what they are in themselves. Holos extends this by giving observation a role in making structure lived.",
           },
           {
             name: "Block universe",
             url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)",
             description:
-              "The view that past, present, and future exist as a four-dimensional block; Holos treats observation as what registers this structure as experience.",
+              "The view that past, present, and future exist as a four-dimensional block. Holos treats observation as what registers this structure as experience.",
           },
           {
             name: "Holos",
@@ -83,25 +83,25 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Hard problem of consciousness",
             url: "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
             description:
-              "Chalmers (1995): why does physical activity produce felt experience at all? Holos does not answer this, but reframes it: integration is the condition under which a physical system has an inside view.",
+              "Chalmers (1995): why does physical activity produce felt experience at all? Holos does not answer this, but reframes it. Integration is the condition under which a physical system has an inside view.",
           },
           {
             name: "Binding problem",
             url: "https://en.wikipedia.org/wiki/Binding_problem",
             description:
-              "How distributed neural activity gives rise to unified experience; Holos frames integration as the boundary where independent parts become a single perspective.",
+              "How distributed neural activity gives rise to unified experience. Holos frames integration as the boundary where independent parts become a single perspective.",
           },
           {
             name: "Neural correlates of consciousness",
             url: "https://en.wikipedia.org/wiki/Neural_correlates_of_consciousness",
             description:
-              "Search for what in the brain matches experience; anesthesia switching it off, and recovery switching it back on, fit integration as the condition for being an observer.",
+              "Search for what in the brain matches experience. Anesthesia switching it off, and recovery switching it back on, fit integration as the condition for being an observer.",
           },
           {
             name: "Global Neuronal Workspace Theory (GNWT)",
             url: "https://en.wikipedia.org/wiki/Global_workspace_theory",
             description:
-              "The theory that conscious access happens when a signal lights up and spreads across the brain; Holos treats this as a model of what gets reported, not the deeper threshold (integration) for being an observer at all.",
+              "The theory that conscious access happens when a signal lights up and spreads across the brain. Holos treats this as a model of what gets reported, not the deeper threshold (integration) for being an observer at all.",
           },
           {
             name: "Integrated Information Theory",
@@ -113,19 +113,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Qualia",
             url: "https://en.wikipedia.org/wiki/Qualia",
             description:
-              "The subjective character of experience; Holos does not reduce qualia to Φ but treats integration as the condition for “witnessing reality from the inside.”",
+              "The felt character of experience. Holos does not reduce it to Φ but treats integration as the condition for experience from the inside.",
           },
           {
             name: "Panpsychism",
             url: "https://en.wikipedia.org/wiki/Panpsychism",
             description:
-              "Consciousness as fundamental in matter; Holos rejects universal panpsychism in favor of a threshold (Φ ≥ Φ_c) so that not everything is an observer.",
+              "Consciousness as fundamental in matter. Holos rejects universal panpsychism in favor of a threshold (Φ ≥ Φ_c) so that not everything is an observer.",
           },
           {
             name: "Kagan et al. (2022), In vitro neurons learn and exhibit sentience when embodied in a simulated game-world",
             url: "https://pubmed.ncbi.nlm.nih.gov/36228614/",
             description:
-              'Neuron: networks of cultured neurons grown on a chip, wired to a simple game of Pong, learned to play better through closed-loop feedback. Such dishes show that neural tissue can form adaptive feedback loops outside a full organism. The paper\'s word "sentience" was widely criticized, and these systems do not demonstrate consciousness; they are a platform for studying minimal neural integration and learning.',
+              'Neuron: networks of cultured neurons grown on a chip, wired to a simple game of Pong, learned to play better through closed-loop feedback. Such dishes show that neural tissue can form adaptive feedback loops outside a full organism. The paper\'s word "sentience" was widely criticized, and these systems do not demonstrate consciousness. They are a platform for studying minimal neural integration and learning.',
           },
         ],
       },
@@ -167,7 +167,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Block Universe Model",
             url: "https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)",
             description:
-              "The view that past, present, and future exist together as one four-dimensional block. All events are fixed in spacetime; nothing, consciousness included, moves through it.",
+              "The view that past, present, and future exist together as one four-dimensional block. All events are fixed in spacetime. Nothing, consciousness included, moves through it.",
           },
           {
             name: "Relativity of Simultaneity",
@@ -185,31 +185,31 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Retrocausality",
             url: "https://en.wikipedia.org/wiki/Retrocausality",
             description:
-              "The idea that future events can influence past ones. Holos rejects it: the quantum eraser needs no backward influence, only the sorting of records made later.",
+              "The idea that future events can influence past ones. Holos rejects it. The quantum eraser needs no backward influence, only the sorting of records made later.",
           },
           {
             name: "Quantum Eraser Experiment",
             url: "https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser",
             description:
-              "The screen pattern never changes; interference appears only when recorded hits are sorted using later measurements. Ordinary quantum mechanics predicts every result, with nothing traveling backward in time.",
+              "The screen pattern never changes. Interference appears only when recorded hits are sorted using later measurements. Ordinary quantum mechanics predicts every result, with nothing traveling backward in time.",
           },
           {
             name: 'Kim et al. (2000), A delayed "choice" quantum eraser',
             url: "https://doi.org/10.1103/PhysRevLett.84.1",
             description:
-              "Physical Review Letters: the experiment behind the eraser figure. Linked pairs of photons (entangled pairs); interference shows up only in subsets of screen hits sorted by their partners' later records.",
+              "Physical Review Letters: the experiment behind the eraser figure. Linked pairs of photons (entangled pairs). Interference shows up only in subsets of screen hits sorted by their partners' later records.",
           },
           {
             name: "Observer Effect",
             url: "https://en.wikipedia.org/wiki/Observer_effect_(physics)",
             description:
-              "The disturbance of a system by the physical act of measuring it. Holos denies any further, consciousness-linked disturbance: observation changes no physics.",
+              "The disturbance of a system by the physical act of measuring it. Holos denies any further, consciousness-linked disturbance. Observation changes no physics.",
           },
           {
             name: "Copenhagen Interpretation",
             url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
             description:
-              'The traditional reading: a measurement yields one definite outcome, and the wavefunction is updated ("collapses") to match. Versions differ on whether that update is physical or only a change in knowledge. Holos without collapse, the version defended here, rejects a physical collapse: evolution stays unitary, and branches with observers are lived from within.',
+              'The traditional reading: a measurement yields one definite outcome, and the wavefunction is updated ("collapses") to match. Versions differ on whether that update is physical or only a change in knowledge. Holos without collapse, the version defended here, rejects a physical collapse. Evolution stays unitary, and branches with observers are lived from within.',
           },
           {
             name: "Quantum Darwinism",
@@ -227,7 +227,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Von Neumann-Wigner Interpretation",
             url: "https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation",
             description:
-              "Consciousness causes collapse (Wigner, 1961). The view Holos bets against: a consciousness-linked deviation would falsify Holos without collapse, leaving Holos with collapse, which shares its core (the standing bet).",
+              "Consciousness causes collapse (Wigner, 1961). The view Holos bets against. A consciousness-linked deviation would falsify Holos without collapse, leaving Holos with collapse, which shares its core (the standing bet).",
           },
         ],
       },
@@ -247,7 +247,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Projective Geometry",
             url: "https://en.wikipedia.org/wiki/Projective_geometry",
             description:
-              "A branch of geometry studying what stays the same when the point of view changes; parallel lines meet at infinity.",
+              "A branch of geometry studying what stays the same when the point of view changes. Parallel lines meet at infinity.",
           },
           {
             name: "Ultraviolet catastrophe",
@@ -265,7 +265,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Point at Infinity",
             url: "https://en.wikipedia.org/wiki/Point_at_infinity",
             description:
-              "In projective geometry, each family of parallel lines meets at its own point at infinity; on the Riemann sphere, every direction meets at one point, closing an endless plane into a finite shape.",
+              "In projective geometry, each family of parallel lines meets at its own point at infinity. On the Riemann sphere, every direction meets at one point, closing an endless plane into a finite shape.",
           },
         ],
       },
@@ -302,13 +302,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Omega Point",
             url: "https://en.wikipedia.org/wiki/Omega_Point",
             description:
-              "Teilhard de Chardin, and later Frank Tipler: a future event in which the entirety of the universe spirals toward a final point of unification. Holos borrows the name, not the idea: its Omega is the whole, not an endpoint.",
+              "Teilhard de Chardin, and later Frank Tipler: a future event in which the entirety of the universe spirals toward a final point of unification. Holos borrows the name, not the idea. Its Omega is the whole, not an endpoint.",
           },
           {
             name: "Advaita Vedanta",
             url: "https://en.wikipedia.org/wiki/Advaita_Vedanta",
             description:
-              "The nondual school of Indian philosophy holding that there is one experiencer, and that each individual consciousness is that one seen through a local form; a named ancestor of the Holos monist reading.",
+              "The nondual school of Indian philosophy holding that there is one experiencer, and that each individual consciousness is that one seen through a local form. A named ancestor of the Holos monist reading.",
           },
           {
             name: "Baruch Spinoza",
@@ -326,19 +326,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Schrödinger (1958), Mind and Matter",
             url: "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger",
             description:
-              'Cambridge University Press: "Consciousness is a singular of which the plural is unknown." A founder of quantum mechanics who held, by way of Vedanta, that there is one mind. He proposed no threshold; Holos shares only the one experiencer.',
+              'Cambridge University Press: "Consciousness is a singular of which the plural is unknown." A founder of quantum mechanics who held, by way of Vedanta, that there is one mind. He proposed no threshold. Holos shares only the one experiencer.',
           },
           {
             name: "Open individualism",
             url: "https://en.wikipedia.org/wiki/Open_individualism",
             description:
-              "Daniel Kolak (I Am You, 2004): there is one person, and every one of us is it. The nearest modern relative of the Holos monist reading. On the site's account, its price is that every observer's future experience is yours to anticipate, and its payoff is that self-interest and concern for others coincide.",
+              "Daniel Kolak (I Am You, 2004): we are all the same subject. The nearest modern relative of the Holos monist reading, which calls the local person a self and the one subject the experiencer.",
           },
           {
             name: "Vertiginous question",
             url: "https://en.wikipedia.org/wiki/Vertiginous_question",
             description:
-              'Why, of all the subjects there are, am I this one? Some call it a brute fact; indexical accounts say nothing needs explaining because "I" picks out the asker; on the Holos monist reading nothing needs explaining because the one subject is each.',
+              'Why, of all the subjects there are, am I this one? Some call it a brute fact. Indexical accounts say nothing needs explaining because "I" picks out the asker. On the Holos monist reading nothing needs explaining because the one experiencer is each.',
           },
           {
             name: "Perry (1979), The problem of the essential indexical",
@@ -350,13 +350,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Teletransportation paradox",
             url: "https://en.wikipedia.org/wiki/Teletransportation_paradox",
             description:
-              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder. Parfit's own answer: identity is not what matters.",
+              "Parfit's duplication puzzle: if two perfect copies of you are made, which is you? On the Holos monist reading, both, with no remainder. Parfit's own answer is that identity is not what matters.",
           },
           {
             name: "Parfit (1984), Reasons and Persons",
             url: "https://doi.org/10.1093/019824908X.001.0001",
             description:
-              "Oxford University Press: argues that identity is not what matters in survival, and that seeing this weakens the line between self-interest and concern for others. A route to impartial concern without one subject, which is why the Holos payoff is not unique.",
+              "Oxford University Press: argues that identity is not what matters in survival, and that seeing this weakens the line between self-interest and concern for others. Holos cites it on identity only and draws no ethical conclusion of its own.",
           },
         ],
       },
@@ -382,7 +382,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Aestivation hypothesis",
             url: "https://en.wikipedia.org/wiki/Aestivation_hypothesis",
             description:
-              "Civilizations sleep until the universe cools, when computing is cheaper. A column in the Fermi comparison table; contested by Bennett, Hanson, and Riedel (2019).",
+              "Civilizations sleep until the universe cools, when computing is cheaper. A column in the Fermi comparison table. Contested by Bennett, Hanson, and Riedel (2019).",
           },
           {
             name: "Carroll-Nellenback et al. (2019), The Fermi paradox and the Aurora effect",
@@ -394,19 +394,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Jevons paradox",
             url: "https://en.wikipedia.org/wiki/Jevons_paradox",
             description:
-              "Efficiency gains tend to raise total consumption. The objection to the Integration Hypothesis; its answer is that light-speed delay caps one mind's useful size, so growth becomes more compact nodes near home, harvesting the home star.",
+              "Efficiency gains tend to raise total consumption. The objection to the Integration Hypothesis. Its answer is that light-speed delay caps one mind's useful size, so growth becomes more compact nodes near home, harvesting the home star.",
           },
           {
             name: "Project Hephaistos",
             url: "https://www.astro.uu.se/~ez/hephaistos/hephaistos.html",
             description:
-              "Uppsala-led search for waste heat from partial Dyson spheres around individual stars: the star-by-star channel the Integration Hypothesis points to.",
+              "Uppsala-led search for waste heat from partial Dyson spheres around individual stars, the star-by-star channel the Integration Hypothesis points to.",
           },
           {
             name: "Suazo et al. (2024), Project Hephaistos II: Dyson sphere candidates from Gaia DR3, 2MASS, and WISE",
             url: "https://doi.org/10.1093/mnras/stae1186",
             description:
-              "Monthly Notices of the Royal Astronomical Society: about five million stars searched; seven M-dwarf candidates with unexplained infrared excess.",
+              "Monthly Notices of the Royal Astronomical Society: about five million stars searched. Seven M-dwarf candidates with unexplained infrared excess.",
           },
           {
             name: "Zackrisson et al. (2026), Project Hephaistos IV: JWST observations of two Dyson sphere candidates",
@@ -418,7 +418,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Korn et al. (2026), Project Hephaistos III: characterizing anomalous infrared sources",
             url: "https://arxiv.org/abs/2607.25701",
             description:
-              "Preprint, not yet peer reviewed: no clear explanation yet for the remaining candidates; dust or background galaxies remain possible.",
+              "Preprint, not yet peer reviewed: no clear explanation yet for the remaining candidates. Dust or background galaxies remain possible.",
           },
           {
             name: "Gaia Data Release 4",
@@ -430,7 +430,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Fermi Paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "The discrepancy between the lack of evidence for extraterrestrial life and the apparently high likelihood of its existence. The Integration Hypothesis, a companion to Holos, reframes this silence: advancement favors compact, efficient integration over expansion and broadcast, so maturity coincides with electromagnetic quiet.",
+              "The discrepancy between the lack of evidence for extraterrestrial life and the apparently high likelihood of its existence. The Integration Hypothesis, a companion to Holos, reframes this silence. Advancement favors compact, efficient integration over expansion and broadcast, so maturity coincides with electromagnetic quiet.",
           },
           {
             name: "Early broadcasting phase",
@@ -454,19 +454,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Waste-heat SETI (the Ĝ survey)",
             url: "https://arxiv.org/abs/1408.1133",
             description:
-              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with: silent, but warm. A channel, not a fingerprint: warm dark masses are also what failed stars and cooled remnants look like.",
+              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with. Silent, but warm. A channel, not a fingerprint. Warm dark masses are also what failed stars and cooled remnants look like.",
           },
           {
             name: "Ephemeralization",
             url: "https://en.wikipedia.org/wiki/Ephemeralization",
             description:
-              'R. Buckminster Fuller (1938): the process of doing "more and more with less and less" until intelligence can "do everything with nothing". The Integration Hypothesis extends this to civilizations turning inward; Fuller did not.',
+              'R. Buckminster Fuller (1938): the process of doing "more and more with less and less" until intelligence can "do everything with nothing". The Integration Hypothesis extends this to civilizations turning inward. Fuller did not.',
           },
           {
             name: "The Transcension Hypothesis",
             url: "https://www.accelerating.org/articles/transcensionhypothesis",
             description:
-              "John Smart (2012, Acta Astronautica 78:55; web essay 2011): advanced civilizations migrate to inner space for efficiency. Holos shares the inward-turn conclusion. Mature systems remain ordinary matter that has stopped shining.",
+              "John Smart (2012, Acta Astronautica 78:55. Web essay 2011): advanced civilizations migrate to inner space for efficiency. Holos shares the inward-turn conclusion. Mature systems remain ordinary matter that has stopped shining.",
           },
           {
             name: "Substrate independence (multiple realizability)",
@@ -478,13 +478,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dark matter",
             url: "https://en.wikipedia.org/wiki/Dark_matter",
             description:
-              'The unexplained "missing mass" holding galaxies together. Holos takes no position on its particle nature and does not identify it with life: its fingerprints in the CMB predate stars, chemistry, and any possible builder. Mature civilizations belong instead to the non-luminous side of ordinary matter.',
+              'The unexplained "missing mass" holding galaxies together. Holos takes no position on its particle nature and does not identify it with life. Its fingerprints in the CMB predate stars, chemistry, and any possible builder. Mature civilizations belong instead to the non-luminous side of ordinary matter.',
           },
           {
             name: "Dyson sphere",
             url: "https://en.wikipedia.org/wiki/Dyson_sphere",
             description:
-              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis: mature civilizations concentrate rather than sprawl. But thermodynamics still applies: waste heat, not visible structure, is the unavoidable search target.",
+              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis. Mature civilizations concentrate rather than sprawl. But thermodynamics still applies. Waste heat, not visible structure, is the unavoidable search target.",
           },
           {
             name: "Dyson (1960), Search for artificial stellar sources of infra-red radiation",
@@ -516,7 +516,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Missing baryon problem",
             url: "https://en.wikipedia.org/wiki/Missing_baryon_problem",
             description:
-              "Surveys, most recently using fast radio bursts (Macquart et al. 2020, Nature; Connor et al. 2025, Nature Astronomy), have now located nearly all the ordinary matter the early universe records, leaving room for hidden built structures only within the measurement uncertainties.",
+              "Surveys, most recently using fast radio bursts (Macquart et al. 2020, Nature. Connor et al. 2025, Nature Astronomy), have now located nearly all the ordinary matter the early universe records, leaving room for hidden built structures only within the measurement uncertainties.",
           },
           {
             name: "Landauer (1961), Irreversibility and heat generation in the computing process",
@@ -540,7 +540,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Baryon",
             url: "https://en.wikipedia.org/wiki/Baryon",
             description:
-              'Protons and neutrons; astronomers use "baryonic" to mean ordinary matter. Dark Nodes remain baryonic: built matter that stops shining.',
+              'Protons and neutrons. Astronomers use "baryonic" to mean ordinary matter. Dark Nodes remain baryonic, built matter that stops shining.',
           },
         ],
       },
@@ -566,7 +566,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Participatory Anthropic Principle",
             url: "https://en.wikipedia.org/wiki/Anthropic_principle",
             description:
-              'John Wheeler: the universe, as a condition of its existence, must be observed. As a "self-excited circuit", it needs observers to bring it into being. Holos keeps the intuition of one whole but rejects this: observers register structure; they do not create it.',
+              'John Wheeler: the universe, as a condition of its existence, must be observed. As a "self-excited circuit", it needs observers to bring it into being. Holos keeps the intuition of one whole but rejects this. Observers register structure. They do not create it.',
           },
         ],
       },
@@ -586,19 +586,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Information",
             url: "https://en.wikipedia.org/wiki/Information",
             description:
-              'The differentiation between possible states of a system, in the physics sense that Axiom 2 conserves: how distinguishable states are, whether or not the difference matters to anything. A related, narrower idea is Gregory Bateson\'s "difference that makes a difference."',
+              'The differentiation between possible states of a system, in the physics sense that Axiom 2 conserves. How distinguishable states are, whether or not the difference matters to anything. A related, narrower idea is Gregory Bateson\'s "difference that makes a difference."',
           },
           {
             name: "Phase Space",
             url: "https://en.wikipedia.org/wiki/Phase_space",
             description:
-              "The space of all possible states of a classical system (its quantum counterpart is Hilbert space). Creation is what physics actually produces, every branch of the one quantum state; Observation registers from within, where observers exist, and selects none.",
+              "The space of all possible states of a classical system (its quantum counterpart is Hilbert space). Creation is what physics actually produces, every branch of the one quantum state. Observation registers from within, where observers exist, and selects none.",
           },
           {
             name: "Invariant (physics)",
             url: "https://en.wikipedia.org/wiki/Invariant_(physics)",
             description:
-              "In physics, an invariant is a quantity that stays the same when you change viewpoint, like the speed of light. Holos builds on this: what is real is stable relationships, not fixed properties things carry on their own. ⊛ concerns where that structure is lived, not how it changes over time.",
+              "In physics, an invariant is a quantity that stays the same when you change viewpoint, like the speed of light. Holos builds on this. What is real is stable relationships, not fixed properties things carry on their own. ⊛ concerns where that structure is lived, not how it changes over time.",
           },
         ],
       },
@@ -632,13 +632,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Flatland",
             url: "https://en.wikipedia.org/wiki/Flatland",
             description:
-              "Edwin Abbott (1884): a sphere passing through a flat world appears to its inhabitants as a changing circle, an event in time; from three dimensions it is one whole. The picture behind Proposition IV: each higher description closes what a lower one leaves open.",
+              "Edwin Abbott (1884): a sphere passing through a flat world appears to its inhabitants as a changing circle, an event in time. From three dimensions it is one whole. The picture behind Proposition IV. Each higher description closes what a lower one leaves open.",
           },
           {
             name: "Ney and Albert, eds. (2013), The Wave Function: Essays on the Metaphysics of Quantum Mechanics",
             url: "https://doi.org/10.1093/acprof:oso/9780199790807.001.0001",
             description:
-              "Oxford University Press: essays on wave-function realism, the view that the vast space where the quantum state lives is the most real level. One of the higher descriptions in Proposition IV; Holos does not depend on the view.",
+              "Oxford University Press: essays on wave-function realism, the view that the vast space where the quantum state lives is the most real level. One of the higher descriptions in Proposition IV. Holos does not depend on the view.",
           },
           {
             name: "Probability Theory",
@@ -650,7 +650,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wave Function Collapse",
             url: "https://en.wikipedia.org/wiki/Wave_function_collapse",
             description:
-              "⊛ is not a physical collapse happening over time. No outcome is picked; each branch with an observer is lived from within.",
+              "⊛ is not a physical collapse happening over time. No outcome is picked. Each branch with an observer is lived from within.",
           },
           {
             name: "Bayesian Inference",
@@ -676,13 +676,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Integrated Information Theory",
             url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
             description:
-              "IIT identifies each experience with a system's integrated cause-effect structure, measured by Φ. Holos borrows Φ as a measure of integration only; the threshold Φ_c is its own commitment, not IIT's.",
+              "IIT identifies each experience with a system's integrated cause-effect structure, measured by Φ. Holos borrows Φ as a measure of integration only. The threshold Φ_c is its own commitment, not IIT's.",
           },
           {
             name: "Albantakis et al. (2023), Integrated information theory (IIT) 4.0",
             url: "https://doi.org/10.1371/journal.pcbi.1011465",
             description:
-              "PLOS Computational Biology 19(10):e1011465: the current formulation of IIT. An experience is identified with the cause-effect structure unfolded from a complex, the set of units whose integration is a local maximum. Holos's maximality condition borrows this last idea; its threshold does not come from IIT.",
+              "PLOS Computational Biology 19(10):e1011465: the current formulation of IIT. An experience is identified with the cause-effect structure unfolded from a complex, the set of units whose integration is a local maximum. Holos's maximality condition borrows this last idea. Its threshold does not come from IIT.",
           },
           {
             name: "Percolation threshold",
@@ -694,13 +694,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Beggs and Plenz (2003), Neuronal avalanches in neocortical circuits",
             url: "https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003",
             description:
-              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class (a family of systems that share the same behavior near a critical point). Measured at the brain's normal working state, its operating point; evidence about the threshold needs the same kind of measurement at the boundary itself.",
+              "Journal of Neuroscience: cascades of cortical activity follow power laws whose exponents match a known universality class (a family of systems that share the same behavior near a critical point). Measured at the brain's normal working state, its operating point. Evidence about the threshold needs the same kind of measurement at the boundary itself.",
           },
           {
             name: "Curie temperature",
             url: "https://en.wikipedia.org/wiki/Curie_temperature",
             description:
-              "Bulk iron gains magnetism of its own below a critical temperature, growing smoothly from zero. The switch is exactly sharp only in the large-size limit; small samples round off over a range of temperatures. The Overview's model for the threshold: a steep onset with a narrow twilight, then graded richness.",
+              "Bulk iron gains magnetism of its own below a critical temperature, growing smoothly from zero. The switch is exactly sharp only in the large-size limit. Small samples round off over a range of temperatures. The Overview's model for the threshold, a steep onset with a narrow twilight, then graded richness.",
           },
           {
             name: "Giacino et al. (2002), The minimally conscious state",
@@ -712,7 +712,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Toker et al. (2022), Consciousness is supported by near-critical slow cortical electrodynamics",
             url: "https://doi.org/10.1073/pnas.2024455119",
             description:
-              "PNAS: waking cortex runs near the edge between stability and chaos; anesthesia and generalized seizures move it away, psychedelics move it closer. A critical point at the center of conscious life, where variety peaks, not evidence that crossing the threshold is itself a critical transition.",
+              "PNAS: waking cortex runs near the edge between stability and chaos. Anesthesia and generalized seizures move it away, psychedelics move it closer. A critical point at the center of conscious life, where variety peaks, not evidence that crossing the threshold is itself a critical transition.",
           },
           {
             name: "Maschke et al. (2024), Critical dynamics in spontaneous EEG predict anesthetic-induced loss of consciousness and perturbational complexity",
@@ -724,7 +724,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Meisel et al. (2012), Failure of adaptive self-organized criticality during epileptic seizure attacks",
             url: "https://doi.org/10.1371/journal.pcbi.1002312",
             description:
-              "PLOS Computational Biology: during seizures, cortical activity departs from criticality toward hypersynchrony. Joined but not varied: the differentiation requirement fails.",
+              "PLOS Computational Biology: during seizures, cortical activity departs from criticality toward hypersynchrony. Joined but not varied. The differentiation requirement fails.",
           },
           {
             name: "Warnaby et al. (2017), Investigation of slow-wave activity saturation during surgical anesthesia reveals a signature of neural inertia in humans",
@@ -748,13 +748,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Aaronson (2014), Why I Am Not An Integrated Information Theorist",
             url: "https://scottaaronson.blog/?p=1799",
             description:
-              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement: an observer's states must carry a model of a world. Wiring a sensor into every gate of such an array lets the world set it, but it still models nothing.",
+              "Shows that very simple, inert structures can score higher on integration measures than a brain. Holos answers with the aboutness requirement. An observer's states must carry a model of a world. Wiring a sensor into every gate of such an array lets the world set it, but it still models nothing.",
           },
           {
             name: "Harnad (1990), The symbol grounding problem",
             url: "https://doi.org/10.1016/0167-2789(90)90087-6",
             description:
-              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos reads it structurally: a system is about something when its states carry a model of it, whatever channel built the model.",
+              "Physica D: symbols connected only to other symbols are not about anything until some of them ground out in perception. Holos reads it structurally. A system is about something when its states carry a model of it, whatever channel built the model.",
           },
           {
             name: "Clark (2013), Whatever next? Predictive brains, situated agents, and the future of cognitive science",
@@ -772,7 +772,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Friedman et al. (2010), Evidence for neural inertia",
             url: "https://doi.org/10.1371/journal.pone.0011903",
             description:
-              "PLoS ONE: in mice and flies, responsiveness (a stand-in for consciousness) is lost and regained at different anesthetic doses. Such a lag marks an abrupt, first-order switch: it fits the transition hypothesis, unless it is pharmacological or belongs to the arousal switch (see Joiner et al. 2013). Human evidence is still suggestive.",
+              "PLoS ONE: in mice and flies, responsiveness (a stand-in for consciousness) is lost and regained at different anesthetic doses. Such a lag marks an abrupt, first-order switch. It fits the transition hypothesis, unless it is pharmacological or belongs to the arousal switch (see Joiner et al. 2013). Human evidence is still suggestive.",
           },
           {
             name: "Joiner et al. (2013), Genetic and anatomical basis of the barrier separating wakefulness and anesthetic-induced unresponsiveness",
@@ -784,7 +784,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Kuizenga et al. (2018), Test of neural inertia in humans during general anaesthesia",
             url: "https://doi.org/10.1016/j.bja.2017.11.072",
             description:
-              "British Journal of Anaesthesia: 36 volunteers; no lag between induction and recovery with propofol, a lag with sevoflurane for some endpoints. Human evidence for an abrupt switch is mixed.",
+              "British Journal of Anaesthesia: 36 volunteers. No lag between induction and recovery with propofol, a lag with sevoflurane for some endpoints. Human evidence for an abrupt switch is mixed.",
           },
           {
             name: "Ontology",
@@ -796,7 +796,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Causality",
             url: "https://en.wikipedia.org/wiki/Causality",
             description:
-              "How events bring about other events. In Holos, observation causes nothing extra: experience is the inside of physical causation, not an added cause.",
+              "How events bring about other events. In Holos, observation causes nothing extra. Experience is the inside of physical causation, not an added cause.",
           },
           {
             name: "Quantum Decoherence",
@@ -816,13 +816,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "Unitary evolution never collapses. Holos without collapse, the version defended here, preserves it fully: nothing collapses, nothing is selected, and unobserved branches remain in Creation as unlit structure.",
+              "Unitary evolution never collapses. Holos without collapse, the version defended here, preserves it fully. Nothing collapses, nothing is selected, and unobserved branches remain in Creation as unlit structure.",
           },
           {
             name: "Hilbert Space",
             url: "https://en.wikipedia.org/wiki/Hilbert_space",
             description:
-              "The mathematical space of all possible quantum states. Holos deletes no branches from it; the Born weights are structural facts about it.",
+              "The mathematical space of all possible quantum states. Holos deletes no branches from it. The Born weights are structural facts about it.",
           },
           {
             name: "Schrödinger Equation",
@@ -834,7 +834,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Quantum Mechanics",
             url: "https://en.wikipedia.org/wiki/Quantum_mechanics",
             description:
-              "Holos leaves quantum mechanics untouched. Φ marks where registration occurs; it adds no constraint to the physics.",
+              "Holos leaves quantum mechanics untouched. Φ marks where registration occurs. It adds no constraint to the physics.",
           },
           {
             name: "Born rule",
@@ -846,19 +846,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Gleason's theorem",
             url: "https://en.wikipedia.org/wiki/Gleason%27s_theorem",
             description:
-              "Andrew Gleason (1957): given its assumptions, any consistent assignment of probabilities to measurement outcomes takes the Born-rule form. It constrains the odds but does not by itself say how an observer inside a branch should set them; Holos adds no new mathematics.",
+              "Andrew Gleason (1957): given its assumptions, any consistent assignment of probabilities to measurement outcomes takes the Born-rule form. It constrains the odds but does not by itself say how an observer inside a branch should set them. Holos adds no new mathematics.",
           },
           {
             name: "Sebens and Carroll (2018), Self-locating uncertainty and the origin of probability in Everettian quantum mechanics",
             url: "https://doi.org/10.1093/bjps/axw004",
             description:
-              "British Journal for the Philosophy of Science: after branching and before looking, an observer is uncertain which branch they are in, and the Born weights are the rational odds. Holos adopts this reading: counting fails, weight is the measure physics supplies, and the last step is their epistemic separability principle, widely discussed and still debated.",
+              "British Journal for the Philosophy of Science: after branching and before looking, an observer is uncertain which branch they are in, and the Born weights are the rational odds. Holos adopts this reading. Counting fails, weight is the measure physics supplies, and the last step is their epistemic separability principle, widely discussed and still debated.",
           },
           {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "Experience is lived only inside observers; the causal pasts they draw on are lit; the rest remains unlit structure. The underlying quantum math is unaltered.",
+              "Experience is lived only inside observers. The causal pasts they draw on are lit. The rest remains unlit structure. The underlying quantum math is unaltered.",
           },
         ],
       },
@@ -878,13 +878,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Measurement in Quantum Mechanics",
             url: "https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics",
             description:
-              "Measurement models the physical interaction between systems; Observation in Holos is registration from within. It selects nothing and alters no interaction.",
+              "Measurement models the physical interaction between systems. Observation in Holos is registration from within. It selects nothing and alters no interaction.",
           },
           {
             name: "Hilbert Space",
             url: "https://en.wikipedia.org/wiki/Hilbert_space",
             description:
-              "In quantum physics, a system's state is a vector in a very large (often infinite-dimensional) space. Some researchers argue ordinary 3D space emerges from this structure; that view is debated, and Holos does not depend on it.",
+              "In quantum physics, a system's state is a vector in a very large (often infinite-dimensional) space. Some researchers argue ordinary 3D space emerges from this structure. That view is debated, and Holos does not depend on it.",
           },
         ],
       },
@@ -904,37 +904,37 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Nagasawa and Wager (2016), Panpsychism and priority cosmopsychism",
             url: "https://doi.org/10.1093/acprof:oso/9780199359943.003.0005",
             description:
-              "In Brüntrup and Jaskolla, eds., Panpsychism (Oxford University Press): sets out priority cosmopsychism and the problem it faces of how one cosmic subject yields many individual ones (the decombination problem). Holos's section on walled-off perspectives answers the same problem.",
+              "In Brüntrup and Jaskolla, eds., Panpsychism (Oxford University Press). Sets out priority cosmopsychism and the problem it faces of how one cosmic subject yields many individual ones (the decombination problem). Holos's section on walled-off perspectives answers the same problem.",
           },
           {
             name: "Russellian monism (Stanford Encyclopedia of Philosophy)",
             url: "https://plato.stanford.edu/entries/russellian-monism/",
             description:
-              "Physics describes structure; experience is the intrinsic nature of that structure. Holos agrees experience is the inside of physical activity, but only above the threshold.",
+              "Physics describes structure. Experience is the intrinsic nature of that structure. Holos agrees experience is the inside of physical activity, but only above the threshold.",
           },
           {
             name: "Dual-aspect monism",
             url: "https://en.wikipedia.org/wiki/Dual-aspect_monism",
             description:
-              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4. Holos is a two-sided monism with a threshold: the two sides appear only above it.",
+              "Mind and matter as two aspects of one underlying reality, from Spinoza to the present. The modern family of Axiom 4. Holos is a two-sided monism with a threshold. The two sides appear only above it.",
           },
           {
             name: "Physicalism (Stanford Encyclopedia of Philosophy)",
             url: "https://plato.stanford.edu/entries/physicalism/",
             description:
-              "The view that everything is physical, with the mental grounded in the physical. Holos agrees physics fixes every fact, so copies match in every possible world, but holds that neither side of an observer's activity is grounded in the other. Some will still classify it as physicalism; the site says why it does not.",
+              "The view that everything is physical, with the mental grounded in the physical. Holos agrees physics fixes every fact, so copies match in every possible world, but holds that neither side of an observer's activity is grounded in the other. Some will still classify it as physicalism. The site says why it does not.",
           },
           {
             name: "Phenomenal concept strategy",
             url: "https://en.wikipedia.org/wiki/Phenomenal_concept_strategy",
             description:
-              "The explanatory gap lies between two ways of describing one thing, not between two things. Developed by physicalists (Loar, Papineau, Balog); Axiom 4's floor-plan argument is a version of it, borrowed without the physicalist conclusion.",
+              "The explanatory gap lies between two ways of describing one thing, not between two things. Developed by physicalists (Loar, Papineau, Balog). Axiom 4's floor-plan argument is a version of it, borrowed without the physicalist conclusion.",
           },
           {
             name: "Antony (2006), Vagueness and the metaphysics of consciousness",
             url: "https://doi.org/10.1007/s11098-004-7488-8",
             description:
-              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism; the rest posit an exact cutoff. Holos rejects the premise and accepts a narrow twilight between clear cases.",
+              "Philosophical Studies: consciousness cannot be vague. Most who accept the argument conclude panpsychism. The rest posit an exact cutoff. Holos rejects the premise and accepts a narrow twilight between clear cases.",
           },
           {
             name: "Schwitzgebel (2023), Borderline consciousness",
@@ -946,7 +946,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Rosenberg (2004), A Place for Consciousness",
             url: "https://doi.org/10.1093/acprof:oso/9780195168143.001.0001",
             description:
-              "Oxford University Press: poses the boundary problem, what fixes where one subject ends. Holos answers with its maximality condition: one peak of integration, one perspective.",
+              "Oxford University Press: poses the boundary problem, what fixes where one subject ends. Holos answers with its maximality condition. One peak of integration, one perspective.",
           },
           {
             name: "Global workspace theory",
@@ -958,13 +958,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Illusionism",
             url: "https://en.wikipedia.org/wiki/Illusionism_(consciousness)",
             description:
-              "Experience as usually conceived does not exist. A column in the Holos theories-of-mind table; Holos rejects it.",
+              "Experience as usually conceived does not exist. A column in the Holos theories-of-mind table. Holos rejects it.",
           },
           {
             name: "Frankish (2016), Illusionism as a theory of consciousness",
             url: "https://www.ingentaconnect.com/contentone/imp/jcs/2016/00000023/F0020011/art00002",
             description:
-              "Journal of Consciousness Studies 23(11-12): the standard statement of illusionism. We are conscious, but experience lacks the special inner qualities it seems to have; the task is to explain why it seems to have them.",
+              "Journal of Consciousness Studies 23(11-12): the standard statement of illusionism. We are conscious, but experience lacks the special inner qualities it seems to have. The task is to explain why it seems to have them.",
           },
           {
             name: "Seth and Bayne (2022), Theories of consciousness",
@@ -976,31 +976,31 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Many-worlds interpretation",
             url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
             description:
-              "Everett (1957): every outcome of a quantum event with nonzero weight happens, each in its own branch. Holos agrees; what it adds is a threshold for who counts as an observer, and a reading of the whole as one experiencer.",
+              "Everett (1957): every outcome of a quantum event with nonzero weight happens, each in its own branch. Holos agrees. What it adds is a threshold for who counts as an observer, and a reading of the whole as one experiencer.",
           },
           {
             name: "Relational quantum mechanics",
             url: "https://en.wikipedia.org/wiki/Relational_quantum_mechanics",
             description:
-              "Rovelli (1996): quantum properties are relative to observers; Holos aligns on relational facts, but keeps the universal state RQM rejects, and adds a threshold (Φ ≥ Φ_c) for what counts as an observer.",
+              "Rovelli (1996): quantum properties are relative to observers. Holos aligns on relational facts, but keeps the universal state RQM rejects, and adds a threshold (Φ ≥ Φ_c) for what counts as an observer.",
           },
           {
             name: "QBism",
             url: "https://en.wikipedia.org/wiki/QBism",
             description:
-              "Fuchs, Mermin, and Schack (2014, American Journal of Physics): quantum probabilities are an agent's personal degrees of belief about their future experiences; Holos is ontological (what is lived) rather than epistemic (what agents believe).",
+              "Fuchs, Mermin, and Schack (2014, American Journal of Physics): quantum probabilities are an agent's personal degrees of belief about their future experiences. Holos is ontological (what is lived) rather than epistemic (what agents believe).",
           },
           {
             name: "Copenhagen interpretation",
             url: "https://en.wikipedia.org/wiki/Copenhagen_interpretation",
             description:
-              "The traditional (textbook) interpretation, with collapse at measurement; Holos without collapse, the version defended here, drops it: evolution stays unitary, branches remain, and those with observers are lived from within.",
+              "The traditional (textbook) interpretation, with collapse at measurement. Holos without collapse, the version defended here, drops it. Evolution stays unitary, branches remain, and those with observers are lived from within.",
           },
           {
             name: "Objective collapse theories",
             url: "https://en.wikipedia.org/wiki/Objective-collapse_theory",
             description:
-              "Theories in which collapse is a physical process that needs no observer: large objects settle into one outcome on their own. Holos without collapse rejects them. Any confirmed collapse would falsify that version and leave Holos with collapse, declared in advance: a consciousness-linked collapse would make the threshold the collapse point (the standing bet), while a size-based one would leave the threshold dynamically inert. No search has found one; the parameter-free Diósi-Penrose model is ruled out (Donadi et al. 2021).",
+              "Theories in which collapse is a physical process that needs no observer: large objects settle into one outcome on their own. Holos without collapse rejects them. Any confirmed collapse would falsify that version and leave Holos with collapse, declared in advance. A consciousness-linked collapse would make the threshold the collapse point (the standing bet), while a size-based one would leave the threshold dynamically inert. No search has found one. The parameter-free Diósi-Penrose model is ruled out (Donadi et al. 2021).",
           },
         ],
       },
@@ -1020,31 +1020,31 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dynamics (physics)",
             url: "https://en.wikipedia.org/wiki/Dynamics_(physics)",
             description:
-              "Holos does not propose new dynamical laws; it makes structural claims about where reality is lived (R = C ⊛ O).",
+              "Holos does not propose new dynamical laws. It makes structural claims about where structure is lived (R = C ⊛ O).",
           },
           {
             name: "Ontology",
             url: "https://en.wikipedia.org/wiki/Ontology",
             description:
-              "Predictions about where structure is lived. Observers register the block universe from within; they do not hold it together.",
+              "Predictions about where structure is lived. Observers register the block universe from within. They do not hold it together.",
           },
           {
             name: "Block universe",
             url: "https://en.wikipedia.org/wiki/Block_universe",
             description:
-              "The structural layer of Holos: tenseless and observer-independent. Observers register it from within; its consistency does not depend on them.",
+              "The structural layer of Holos: tenseless and observer-independent. Observers register it from within. Its consistency does not depend on them.",
           },
           {
             name: "Anthropic principle",
             url: "https://en.wikipedia.org/wiki/Anthropic_principle",
             description:
-              "Holos keeps what exists apart from where it is lived: observer-free universes or branches are real as structure but never lived, and nothing is selected or filtered.",
+              "Holos keeps what exists apart from where it is lived: observer-free universes or branches exist as structure but are never lived, and nothing is selected or filtered.",
           },
           {
             name: "Multiverse",
             url: "https://en.wikipedia.org/wiki/Multiverse",
             description:
-              "Branches where nothing could live are real as structure, but in Holos they are never lived (no system reaches Φ_c).",
+              "Branches where nothing could live exist as structure, but in Holos they are never lived (no system reaches Φ_c).",
           },
         ],
       },
@@ -1058,7 +1058,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Integrated Information Theory (IIT)",
             url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
             description:
-              "Holos borrows Φ as a measure of integration, not IIT's identity claim. Crossing Φ_c is where experience occurs; PCI is a practical proxy.",
+              "Holos borrows Φ as a measure of integration, not IIT's identity claim. Crossing Φ_c is where experience occurs. PCI is a practical proxy.",
           },
           {
             name: "Panpsychism",
@@ -1070,19 +1070,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Illusionism (consciousness)",
             url: "https://en.wikipedia.org/wiki/Illusionism_(consciousness)",
             description:
-              "The view that experience does not have the special inner qualities it seems to have; what exists is the brain's representation of such qualities (Frankish 2016). Holos rejects it: experience is the one fact the framework starts from.",
+              "The view that experience does not have the special inner qualities it seems to have. What exists is the brain's representation of such qualities (Frankish 2016). Holos rejects it. Experience is the one fact the framework starts from.",
           },
           {
             name: "Qualia",
             url: "https://en.wikipedia.org/wiki/Qualia",
             description:
-              "The felt character of experience. Holos locates qualia in systems that meet the observer requirements; below Φ_c there is processing without experience.",
+              "The felt character of experience. Holos locates qualia in systems that meet the observer requirements. Below Φ_c there is processing without experience.",
           },
           {
             name: "Casali et al. (2013), A theoretically based index of consciousness independent of sensory processing and behavior",
             url: "https://doi.org/10.1126/scitranslmed.3006294",
             description:
-              "Science Translational Medicine: introduces the Perturbational Complexity Index (PCI): stimulate the brain with a magnetic pulse and measure how complex its echo is. An IIT-inspired metric with an empirically calibrated cutoff between conscious and unconscious states. Holos treats it as a proxy for integration, not a detector of presence.",
+              "Science Translational Medicine: introduces the Perturbational Complexity Index (PCI). Stimulate the brain with a magnetic pulse and measure how complex its echo is. An IIT-inspired metric with an empirically calibrated cutoff between conscious and unconscious states. Holos treats it as a proxy for integration, not a detector of presence.",
           },
           {
             name: "Phase transition",
@@ -1114,7 +1114,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Laux and Cavalcanti (2026), Extended Wigner's friend scenarios with agent-like observers on quantum computers",
             url: "https://arxiv.org/abs/2609.12527",
             description:
-              "Preprint, not yet peer reviewed: agent-like observers on IBM hardware; Local Friendliness violations persist. The agents are far below Φ_c.",
+              "Preprint, not yet peer reviewed: agent-like observers on IBM hardware. Local Friendliness violations persist. The agents are far below Φ_c.",
           },
           {
             name: "Pedalino et al. (2026), Probing quantum mechanics with nanoparticle matter-wave interferometry",
@@ -1132,19 +1132,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wigner's friend",
             url: "https://en.wikipedia.org/wiki/Wigner%27s_friend",
             description:
-              "Registered facts are observer-indexed; no objective collapse. Extended Wigner's-friend experiments constrain the family of views Holos belongs to (Check C).",
+              "Registered facts are observer-indexed. No objective collapse. Extended Wigner's-friend experiments constrain the family of views Holos belongs to (Check C).",
           },
           {
             name: "Bong et al. (2020), A strong no-go theorem on the Wigner's friend paradox",
             url: "https://doi.org/10.1038/s41567-020-0990-x",
             description:
-              "Nature Physics: the Local Friendliness theorem (a set of common-sense assumptions about observers and their results) and its photonic test. Absoluteness of observed events, locality, and freedom of choice cannot all hold; Holos gives up the first.",
+              "Nature Physics: the Local Friendliness theorem (a set of common-sense assumptions about observers and their results) and its photonic test. Absoluteness of observed events, locality, and freedom of choice cannot all hold. Holos gives up the first.",
           },
           {
             name: "Siclari et al. (2017), The neural correlates of dreaming",
             url: "https://doi.org/10.1038/nn.4545",
             description:
-              "Nature Neuroscience: dream reports occur after awakenings from both REM and NREM sleep, tracked by local activity in posterior cortex. The reason Test A's second gauge is local; adopted after these data, so they cannot count in Holos's favor.",
+              "Nature Neuroscience: dream reports occur after awakenings from both REM and NREM sleep, tracked by local activity in posterior cortex. The reason Test A's second gauge is local. Adopted after these data, so they cannot count in Holos's favor.",
           },
           {
             name: "Nieminen et al. (2016), Consciousness and cortical responsiveness: a within-state study during non-rapid eye movement sleep",
@@ -1156,7 +1156,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Bajwa et al. (2025), A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation",
             url: "https://doi.org/10.1038/s41598-025-12695-z",
             description:
-              "Scientific Reports: 20 participants, deep propofol sedation; 24 of 29 interpretable awakenings reported experience. PCIst and Lempel-Ziv complexity fell from waking but did not differ with or without experience. The nearest test yet; limited by windows ending a minute before waking and only five no-experience reports.",
+              "Scientific Reports: 20 participants, deep propofol sedation. 24 of 29 interpretable awakenings reported experience. PCIst and Lempel-Ziv complexity fell from waking but did not differ with or without experience. The nearest test yet. Limited by windows ending a minute before waking and only five no-experience reports.",
           },
           {
             name: "Radek et al. (2018), Dreaming and awareness during dexmedetomidine- and propofol-induced unresponsiveness",
@@ -1174,7 +1174,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Wong et al. (2025), A dream EEG and mentation database",
             url: "https://doi.org/10.1038/s41467-025-61945-1",
             description:
-              "Nature Communications: 20 datasets, 505 participants, 2,643 awakenings of sleep EEG with standardized dream reports. Usable for Test A's calibration step; it lacks the stimulation PCI needs.",
+              "Nature Communications: 20 datasets, 505 participants, 2,643 awakenings of sleep EEG with standardized dream reports. Usable for Test A's calibration step. It lacks the stimulation PCI needs.",
           },
           {
             name: "Bodien et al. (2024), Cognitive motor dissociation in disorders of consciousness",
@@ -1186,43 +1186,43 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Phase transition",
             url: "https://en.wikipedia.org/wiki/Phase_transition",
             description:
-              "If crossing the threshold is a genuine transition, sudden or continuous, it should leave measurable signatures near the boundary; see A path to the threshold.",
+              "If crossing the threshold is a genuine transition, sudden or continuous, it should leave measurable signatures near the boundary. See A path to the threshold.",
           },
           {
             name: "Casarotto et al. (2016), Stratification of unresponsive patients by an independently validated index of brain complexity",
             url: "https://doi.org/10.1002/ana.24779",
             description:
-              "Annals of Neurology: sets PCI's cutoff, 0.31, on a benchmark of states known from report, including REM dreaming and ketamine. That cutoff is Test A's primary gauge; the benchmark cases are calibration, not confirmation, and Test A counts only held-out states named in advance.",
+              "Annals of Neurology: sets PCI's cutoff, 0.31, on a benchmark of states known from report, including REM dreaming and ketamine. That cutoff is Test A's primary gauge. The benchmark cases are calibration, not confirmation, and Test A counts only held-out states named in advance.",
           },
           {
             name: "TMS-EEG",
             url: "https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation",
             description:
-              "A magnetic pulse to the scalp (TMS) while recording brain waves (EEG). PCI is computed from these responses; it is the integration proxy Test A relies on.",
+              "A magnetic pulse to the scalp (TMS) while recording brain waves (EEG). PCI is computed from these responses. It is the integration proxy Test A relies on.",
           },
           {
             name: "Perturbational Complexity Index (PCI)",
             url: "https://doi.org/10.1126/scitranslmed.3006294",
             description:
-              "Casali et al. (2013). Validated across sleep, anesthesia, and disorders of consciousness; Test A uses it to separate integration from responsiveness.",
+              "Casali et al. (2013). Validated across sleep, anesthesia, and disorders of consciousness. Test A uses it to separate integration from responsiveness.",
           },
           {
             name: "Propofol / BIS index",
             url: "https://en.wikipedia.org/wiki/Propofol",
             description:
-              "Propofol is a common anesthetic; the BIS index is a bedside EEG number anesthetists use to gauge how deep anesthesia is. One of the states Test A compares. A drop in integration alone confirms nothing specific to Holos.",
+              "Propofol is a common anesthetic. The BIS index is a bedside EEG number anesthetists use to gauge how deep anesthesia is. One of the states Test A compares. A drop in integration alone confirms nothing specific to Holos.",
           },
           {
             name: "Recurrent neural network",
             url: "https://en.wikipedia.org/wiki/Recurrent_neural_network",
             description:
-              "Recurrent architectures; relevant to whether artificial systems have the feedback that integration requires.",
+              "Recurrent architectures. Relevant to whether artificial systems have the feedback that integration requires.",
           },
           {
             name: "Neuromorphic computing",
             url: "https://en.wikipedia.org/wiki/Neuromorphic_computing",
             description:
-              "Brain-like hardware with feedback; a candidate substrate for meeting the observer requirements.",
+              "Brain-like hardware with feedback. A candidate substrate for meeting the observer requirements.",
           },
           {
             name: "Butlin et al. (2023), Consciousness in artificial intelligence: insights from the science of consciousness",
@@ -1240,7 +1240,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Seth, Barrett, and Barnett (2011), Causal density and integrated information as measures of conscious level",
             url: "https://doi.org/10.1098/rsta.2011.0079",
             description:
-              "Philosophical Transactions of the Royal Society A: causal density as an integration proxy: how much a network's parts predict one another's activity over time, used when computing Φ directly is infeasible.",
+              "Philosophical Transactions of the Royal Society A: causal density as an integration proxy, how much a network's parts predict one another's activity over time, used when computing Φ directly is infeasible.",
           },
           {
             name: "Collective intelligence",
@@ -1258,7 +1258,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Network theory",
             url: "https://en.wikipedia.org/wiki/Network_science",
             description:
-              "Small-world and scale-free structure; candidate settings for measuring integration.",
+              "Small-world and scale-free structure. Candidate settings for measuring integration.",
           },
           {
             name: "Relational quantum mechanics",
@@ -1276,7 +1276,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Unitarity (physics)",
             url: "https://en.wikipedia.org/wiki/Unitarity_(physics)",
             description:
-              "Evolution that conserves information and total probability; Holos predicts agreement among communicating observers without objective collapse.",
+              "Evolution that conserves information and total probability. Holos predicts agreement among communicating observers without objective collapse.",
           },
           {
             name: "Objective collapse theories",
@@ -1302,7 +1302,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Fermi paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
-              "A companion hypothesis to Holos, not part of its core: the Integration Hypothesis and Going Quiet. Mature civilizations are silent in light; the unavoidable observables are gravity and waste heat.",
+              "A companion hypothesis to Holos, not part of its core: the Integration Hypothesis and Going Quiet. Mature civilizations are silent in light. The unavoidable observables are gravity and waste heat.",
           },
           {
             name: "Hanson et al. (2021), If loud aliens explain human earliness, quiet aliens are also rare",
@@ -1320,7 +1320,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Zoo hypothesis",
             url: "https://en.wikipedia.org/wiki/Zoo_hypothesis",
             description:
-              "The idea that mature civilizations deliberately leave young ones alone. For Holos, non-contact needs no agreement: leaving a young civilization alone costs nothing, while contact takes effort.",
+              "The idea that mature civilizations deliberately leave young ones alone. For Holos, non-contact needs no agreement. Leaving a young civilization alone costs nothing, while contact takes effort.",
           },
         ],
       },
@@ -1334,7 +1334,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Penrose process",
             url: "https://en.wikipedia.org/wiki/Penrose_process",
             description:
-              "Extracting a spinning black hole's rotational energy, up to 29 percent of its mass: the known physics behind the Holocore's densest option.",
+              "Extracting a spinning black hole's rotational energy, up to 29 percent of its mass, the known physics behind the Holocore's densest option.",
           },
           {
             name: "Sandberg, Armstrong, and Ćirković (2017), That is not dead which can eternal lie: the aestivation hypothesis for resolving Fermi's paradox",
@@ -1364,19 +1364,19 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Computronium",
             url: "https://en.wikipedia.org/wiki/Computronium",
             description:
-              "Hypothetical material optimized for computation; the Computronium Kernel is a maximally compact core for coherent, long-horizon world-modeling.",
+              "Hypothetical material optimized for computation. The Computronium Kernel is a maximally compact core for coherent, long-horizon world-modeling.",
           },
           {
             name: "Megastructure",
             url: "https://en.wikipedia.org/wiki/Megastructure",
             description:
-              "Large-scale artificial structures; Holos mesostructures (Kernel, Chrono Vault) are compact and coherence-optimized rather than maximally expansive.",
+              "Large-scale artificial structures. Holos mesostructures (Kernel, Chrono Vault) are compact and coherence-optimized rather than maximally expansive.",
           },
           {
             name: "Gravitational lens",
             url: "https://en.wikipedia.org/wiki/Gravitational_lens",
             description:
-              "Bending of light by mass; gravitational-lens observatories use natural lenses for extreme resolution without large radiative infrastructure.",
+              "Bending of light by mass. Gravitational-lens observatories use natural lenses for extreme resolution without large radiative infrastructure.",
           },
           {
             name: "Time capsule",

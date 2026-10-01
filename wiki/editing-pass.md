@@ -23,8 +23,8 @@ Status: done, in progress, next, to do.
 |---|---|---|
 | Logic (`Logic.tsx`) | done | Every section. New D8 Self and experiencer, Reality defined in D7. Retired claims removed (wakes, ethics, pooled experience, single view). Name history and split-brain added. Colons and semicolons swept. Ends on the core line. |
 | Predictions (`Predictions.tsx`) | done | Intro "built on two ideas". Locality softened (option B). Cosmic mind no longer ruled out. Retired wording fixed. About 105 semicolons and prose colons swept. Evidence boxes under each test. |
-| Citations and notes (`citation-sections.tsx`) | next | |
-| Other routes (definition, revisions, trajectory, settlement explorer) | to do | Check which carry prose. |
+| Citations and notes (`citation-sections.tsx`) | done | 7 notes rewritten (Kolak, Parfit ethics, "real as structure", one subject). About 120 semicolons and non-label colons swept. Source labels like "Nature Neuroscience:" kept. |
+| Other routes (definition, revisions, trajectory, settlement explorer) | done | Revisions gains five entries for this pass's framework changes. Settlement Explorer prose semicolons and colons swept, interface labels kept. Definition and trajectory are redirects. |
 
 ## Evidence So Far
 
