@@ -15,7 +15,7 @@ Status: done, in progress, next, to do.
 | Omega | done | 9 paragraphs to 5. Self vs experiencer split (a new self begins, no new experiencer does). Price paragraph cut, Why Are We Here? carries it. Traditions cut to Vedanta, Schrödinger, God. |
 | Aliens | done | 17 blocks to 10 (plus table). Name "Integration Hypothesis" kept. Probes, epidemic, honest bet, rival, Jevons, Hephaistos each one short paragraph. Table punctuation fixed. |
 | The Teeming Dark | done | 9 blocks to 5. Title shortened. Retired dark-matter argument cut. Close names the testable star signature. |
-| Why Are We Here? | next | |
+| Why Are We Here? | done | 6 paragraphs to 3. Ethics cut (no ethical claim from Omega). Speculation merged, conditional on no collapse. Ends on the core line: "Reality requires a witness." |
 
 ## Other pages
 
@@ -43,4 +43,5 @@ Dated evidence boxes live in `app/_components/evidence-data.ts`. Each block has 
 - Self vs experiencer: replace "the one experiencer wakes there" and "awake wherever" wording on Logic (lines near 1056, 1238, 2038 as of 2026-09-30) with "a new self begins, no new experiencer does".
 - Aliens details cut from the Overview with no home yet on Predictions: the 1980s stable-orbit probe searches, the zoo hypothesis (still named in the Fermi table). Consider adding to Predictions #exploration in its pass.
 - Cold computing ("Slysh haloes", arXiv 2608.31153, Aug 2026) argues mature civilizations compute at 5-30 K with large cold radiators, against the Integration Hypothesis bet on avoiding sprawl. Framework question for a separate thread.
+- Omega's ethical claim retired (2026-10-01). Logic still says a stranger's suffering "is as much yours to anticipate as your own" (near line 1293 as of 2026-10-01). Remove it in the Logic pass.
 - Lab page `/lab/rco` holds the R, C, O treatment explorations.

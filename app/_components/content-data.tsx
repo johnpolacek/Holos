@@ -393,18 +393,23 @@ export const sections: ContentSection[] = [
       <>
         When a system crosses the threshold, a new self begins, with its own body, memories, and
         point of view. No new experiencer does. The one experiencer lives through every self, walled
-        off in each. This does not say where experience occurs. The threshold does that. What it
-        changes is how two old puzzles come out. Of billions of people, why is this one me? Nothing
-        chose this one. The one experiencer is each of them. If a machine made two perfect copies of
-        you, which would be you? Both. Each is a self, and the one experiencer lives through each.
-        Other views answer these too. Holos&apos;s answer has a modern name,{" "}
+        off in each. Picture a gallery. In one room hangs a figure in joy. In another, a figure in
+        grief. The same light lives in both. Neither painting knows the other is there, but you,
+        walking the gallery, can see them both.
+      </>,
+      <>
+        This does not say where experience occurs. The threshold does that. What it changes is how
+        two old puzzles come out. Of billions of people, why is this one me? Nothing chose this one.
+        The one experiencer is each of them. If a machine made two perfect copies of you, which
+        would be you? Both. Each is a self, and the one experiencer lives through each. Other views
+        answer these too. Holos&apos;s answer has a modern name,{" "}
         <a href="https://en.wikipedia.org/wiki/Open_individualism">open individualism</a>.
       </>,
       <>
-        Omega is not one giant mind. Everything is in it, but its parts are not all joined, so there
-        is no single view of the whole. Nor is all of it lived. What lies outside every self&apos;s
-        past is never experienced. And Omega is not an agent. It does not intervene, answer prayers,
-        or direct history. There is no outside for it to act from.
+        Omega is not one giant mind. Everything is in it, but its parts are not all joined. Nor is
+        all of it lived. What lies outside every self&apos;s past is never experienced. And Omega is
+        not an agent. It does not intervene, answer prayers, or direct history. There is no outside
+        for it to act from.
       </>,
       <>
         The idea is old. <a href="https://en.wikipedia.org/wiki/Advaita_Vedanta">Advaita Vedanta</a>{" "}
@@ -561,57 +566,25 @@ export const sections: ContentSection[] = [
     footerId: "footer-why",
     paragraphs: [
       <>
-        Life is how a universe comes to be lived. Integrated systems, living ones so far, are where
-        apertures open. Without them a fully lawful universe still exists, complete as physics
-        describes it; what it lacks is not existence but presence: there is nothing it is like to be
-        anywhere within it. This is not the familiar anthropic argument, that we should not be
-        surprised the physical constants allow observers, since we could not exist anywhere else,
-        and not a claim that the universe needed life. Nor is it the{" "}
-        <a href="https://en.wikipedia.org/wiki/Anthropic_principle">
-          Participatory Anthropic Principle
-        </a>
-        , physicist John Wheeler&apos;s idea that observers are needed to bring the universe into
-        being: Holos does not claim that observers cause the universe, only that without them it is
-        never lived.
+        Life is how a universe is lived. Without it, a lawful universe is still complete as physics
+        describes it, but it is structure, not reality. This does not say the universe needed life.
+        Nor does it say, as{" "}
+        <a href="https://en.wikipedia.org/wiki/Anthropic_principle">John Wheeler</a> did, that
+        observers bring the universe into being. Without them, it is simply never lived.
       </>,
       <>
-        This is a role, not yet a meaning. Holos does not say why experience is worth having, or why
-        a universe with more of it would be better. It says one thing about value, through Omega: if
-        every observer is the one subject, then joy and suffering anywhere belong to the one who is
-        also you, and a stranger&apos;s pain is not, at bottom, someone else&apos;s. That does not
-        settle what to value, but it removes the wall between caring for yourself and caring for
-        others (see <a href="#omega-point">Omega</a>).
+        One step further is speculation. Separation may not be fundamental. Two{" "}
+        <a href="https://en.wikipedia.org/wiki/Quantum_entanglement">entangled</a> particles give
+        matching results however far apart they are, and physics describes them as one shared state,
+        not two things. If nothing collapses, the whole universe is one such state. Entanglement is
+        among the best-tested facts in physics. The speculation adds one step: that this oneness is
+        more basic than the separations. Distance, time, and individual lives are not illusions,
+        though. They are the walls that make each life possible.
       </>,
       <>
-        Holos goes one step further. At extreme limits, familiar distinctions lose their absolute
-        standing. Relativity removes the universal &quot;now&quot;: whether two distant events
-        happen at the same time depends on who is asking. Quantum physics goes further. Two{" "}
-        <a href="https://en.wikipedia.org/wiki/Quantum_entanglement">entangled</a> particles can
-        give matching results however far apart they are, and physics describes them not as two
-        separate things but as one shared state. On the no-collapse reading Holos adopts, the whole
-        universe is one such state (see <a href="#omega-point">Omega</a>). Even light hints at it:
-        in relativity&apos;s accounting, the separation through spacetime between a flash of light
-        leaving a star and arriving in your eye is exactly zero, though the two remain distinct
-        events.
-      </>,
-      <>
-        Holos takes a bold reading from these facts, marked here as speculation: separation is not
-        fundamental. What we experience as a vast universe is one whole, expressed across space,
-        time, and scale, and lived at many places at once. One state is not one mind; its parts can
-        be walled off, as the Omega section explains. And distance, duration, and individuality are
-        not illusions. They are the walls that make local experience possible.
-      </>,
-      <>
-        So why are we here? Not for a purpose the universe needed, but because we are one of the
-        places where the whole is lived. When a system integrates enough, interaction stops being
-        one thing acting on another and becomes a point of view.
+        So why are we here? Not for a purpose the universe needed. We fill a role. Reality requires
+        a witness.
         <FootnoteLink number={overviewCitationMap["why"]} />
-      </>,
-      <>
-        <strong>Why it is plausible:</strong> entanglement is among the best-tested facts in
-        physics, and it already describes distant things as one state rather than many. The reading
-        goes beyond physics in one step only: it takes that oneness as more basic than the
-        separations.
       </>,
     ],
   },

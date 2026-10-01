@@ -889,3 +889,9 @@ Keep entries concise and grounded in inspected repo evidence.
 - Consciousness evidence box updated with 2026 research: Anthropic J-space workspace (open), Butlin/Long/Chalmers indicators report (fits), COGITATE IIT vs GNW (open).
 - Overview AI paragraphs aligned with Logic Artificial Systems: gaps are integration and time; looped models loop only within a word; the chip must act as one.
 - Evidence So Far boxes added under Predictions Test A, Test B, Check C, the standing bet, and Speculation, from a 2026-10-01 search.
+- Why Are We Here? restructure agreed (6 to 4). Paragraph 1 now echoes the Intro: without life, structure, not reality.
+- Omega ethical claim retired (John): Holos does not claim a stranger's joy or pain is yours. Why paragraph 2 cut. Omega paragraph 2 gains the picture of two people, one in joy and one in grief, neither knowing the other. Guardrail added. Logic instance carried forward.
+- Omega paragraph 4 reverted to "its parts are not all joined" (dropped "so there is no single view of the whole", an inference the site never made). Omega paragraph 2 picture is now the gallery: same light in both paintings, neither knows the other, the reader can see both.
+- Why Are We Here?: speculation paragraphs (old 3, 4, 6) merged into one. "If nothing collapses, the whole universe is one such state." Relativity and zero-interval light examples cut.
+- Why Are We Here? close: "So why are we here? Not for a purpose the universe needed. We fill a role. Reality requires a witness." The Overview pass is complete.
+- Omega paragraph 2 split after the gallery: self, experiencer, gallery, then the two puzzles.
