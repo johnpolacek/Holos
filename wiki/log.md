@@ -914,3 +914,4 @@ Keep entries concise and grounded in inspected repo evidence.
 - Citations pass: 7 notes rewritten for current vocabulary and the no-ethics stance; semicolons and non-label colons swept across 199 notes.
 - Revisions page: five entries added for 2026-09-30 to 10-01 framework changes (reality means lived, self vs experiencer, ethics retired, single-view claim withdrawn, AI falls short as built).
 - Settlement Explorer: semicolons and prose colons swept. Editing pass complete across all pages.
+- Removed /lab/rco (R, C, O treatment explorations); variant 11 is live.
