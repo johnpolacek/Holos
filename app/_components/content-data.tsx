@@ -539,12 +539,17 @@ export const sections: ContentSection[] = [
       <>
         Thinking makes heat. Any computer that runs for long must erase information, and erasing has
         a heat cost (<a href="https://doi.org/10.1147/rd.53.0183">Landauer&apos;s principle</a>).
-        The heat need not be easy to see. A system can radiate barely above the cold of space, where
-        the sky already glows. But that takes enormous radiators, and the Integration Hypothesis
-        bets mature civilizations avoid that sprawl. So the expectation is compact masses, dark in
-        visible light, with a faint infrared glow. <strong>Silent, but warm.</strong> Holos calls
-        such an object a <strong>Dark Node</strong>, ordinary matter that has stopped shining, not
-        dark matter.
+        The cost falls as the computer gets colder. So a mature civilization may do most of its
+        computing far from its star, on thin structures spread wide in the cold. Its heat would
+        leave barely warmer than space, as a faint glow in the far infrared.{" "}
+        <a href="https://arxiv.org/abs/2608.31153">One paper</a> calls this a Slysh halo.
+      </>,
+      <>
+        Fast thinking pulls the other way. Light delay keeps a single mind compact, and compact
+        means warm. Holos calls such an object a <strong>Dark Node</strong>, ordinary matter that
+        has stopped shining, not dark matter. Physics does not say how a civilization divides its
+        work, and the cold may carry most of the heat. But the heat cannot vanish.{" "}
+        <strong>Silent, but warmer than space.</strong>
       </>,
       <>
         This is a search channel, not a fingerprint. A brown dwarf, a rogue planet, or a cooled dead
