@@ -837,12 +837,41 @@ Keep entries concise and grounded in inspected repo evidence.
 - Zombie paragraph rewritten (picture first, no -isms).
 - AI paragraph rewritten for the new stance and split in two (verdict, then reason). Guardrail updated: today's language models fall short of the threshold, as built.
 - MindComparisonTable "Current AI" row for Holos: "No, as built. It models a world, but integration falls short".
+- Writing principles consolidated from 22 to 9, grouped as Sentences, Paragraphs, Pages, Holos vocabulary. New principle 7: the Overview makes the case, depth lives on Logic and Predictions.
 
 ## [2026-09-30] decision | Where integration is measured
 
 - John chose the physical level, grouped: integration is measured in physical parts, grouped the way they actually work together (a neuron above its ions). Rejected: the program level (a program is a description, and Axiom 4 makes experience the inside of physical events) and IIT's hardware verdict (conventional chips never cross), which Holos cannot yet check.
 - Consequence: loops in code are necessary, not sufficient. The chip's own parts must also act as one. A brain simulation on a laptop is probably no one, but that follows from how the chip works, not by decree. "Nothing in Holos is specific to biology" stands.
 - Logic Open Problems (the measure of integration): the transistor example, which leaned toward the program level, replaced. Guardrail AI bullet updated. Overview needs no change: "how a system's causes are organized, not what it is made of" still holds.
+- Started [editing-pass.md](editing-pass.md) progress tracker.
+- Spacetime paragraph 1: opens on the invariant speed of light. Big Bang link moves to paragraph 2.
+- Spacetime paragraph 2: block universe in three sentences, ending "Why is any of it lived?"
+- Spacetime paragraphs 3-4: lived, lit, unlit as a small-caps list. Witnessing left to Logic D7 (easy to confuse with the core line's "witness").
+- Spacetime paragraph 5: quantum eraser only. Wigner's friend left to Predictions.
+- Infinity: ultraviolet-catastrophe paragraph cut. New opener on black hole singularities and projective geometry.
+- Infinity paragraph 3: Flatland opens it; closure "taken all the way" gives Omega (not "ends at", per the not-a-limit guardrail).
+- Infinity paragraph 4: opens on the 70 percent question.
+- Omega restructure agreed (9 paragraphs to 6). New paragraph 1 merges old 1 and 2. Teilhard/Tipler name history removed from the Overview.
+- Self vs experiencer (John): a new self begins at the threshold, no new experiencer does, the one experiencer lives through every self. Omega paragraph 2 rewritten on it. Intro and claims box "wakes"/"awake" wording replaced. Glossary gains Self. Guardrail added. Logic instances carried forward.
+- Omega price paragraph cut; Why Are We Here? carries the stranger's-pain point.
+- Omega paragraph 4: old 5 and 6 merged ("Omega is not one giant mind..."). Closure and record-agreement lines left to Infinity and Logic.
+- Omega paragraph 5: traditions cut to Vedanta, Schrödinger, and God. Spinoza, panentheism, Berkeley carried forward to Logic.
+- Omega last paragraph condensed: the threshold does not depend on Omega, a reader can accept one and reject the other.
+- Integration Hypothesis name kept after a rename review (Going Quiet, Inward Turn, Involution, Convergence, and others considered). The one-sentence disclaimer stays. Transcension Hypothesis is John Smart's, already cited. Aliens restructure agreed, 17 blocks to 8.
+- Aliens paragraph 1: old 1-3 merged ("The universe is vast and old, yet we see no one.").
+- Aliens paragraph 2: old 4-7 merged into "Young civilizations are loud..." ending on Going Quiet.
+- Aliens paragraphs 3-4: "it only takes one" answered (explored is not settled), then settlement as an epidemic.
+- Aliens paragraph 5: the honest bet, with self-copying probes; links the Settlement Explorer.
+- Aliens paragraph 6: grabby aliens rival and the galaxy survey, ending on "a universe where life is rare fits it too."
+- Aliens paragraphs 7-8: Jevons objection points to single warm stars; the Hephaistos search as its own short paragraph.
+- Aliens close: table lead-in no longer grades the hypothesis; Fermi table semicolons removed.
+- Teeming Dark: title shortened (subtitle dropped, "thought experiment" now in paragraph 1); old paragraphs 1-4 merged. Restructure agreed, 9 blocks to 5.
+- Teeming Dark: dark-matter paragraph cut. It argued against "ordered dark matter", retired 2026-07-17 and no longer claimed anywhere. The Dark Node "not cosmological dark matter" clause stays.
+- Teeming Dark paragraph 2: "Most of what exists does not shine..." ending "poor in hidden mass and still rich in minds."
+- Teeming Dark paragraphs 3-4: silent but warm (Dark Node), then the limits (search channel not fingerprint, aestivation).
+- Teeming Dark close names the testable signature (a star dimmed in visible light, warm in infrared, nothing natural to explain it). Aliens galaxy-survey sentence now cites the 2026 G-hat V study (129 galaxies, under 0.3 percent). Cold-computing paper carried forward.
+- Evidence So Far: new `evidence-data.ts` and `EvidenceSoFar` component, a dated box with a tiny "checked" date at the end of Consciousness, Aliens, and The Teeming Dark. Predictions tests next.
 
 ## [2026-09-30] decision | Looped models: verdict unchanged, reason broadened
 
@@ -857,3 +886,5 @@ Keep entries concise and grounded in inspected repo evidence.
 - Predictions: no AI test. A stated AI prediction could not lose (reports are learned from human writing, presence cannot be detected), which breaks the page's own rule. Added a few sentences to Testability and Its Limits, after the unfolding argument, saying why and linking to Logic.
 - Guardrail AI bullet: canonical home recorded, reports added as non-evidence, no AI prediction.
 - The IIT-perspective paper (LLMs fail integration, causal closure, persistence) is not cited yet: no reference in hand.
+- Consciousness evidence box updated with 2026 research: Anthropic J-space workspace (open), Butlin/Long/Chalmers indicators report (fits), COGITATE IIT vs GNW (open).
+- Overview AI paragraphs aligned with Logic Artificial Systems: gaps are integration and time; looped models loop only within a word; the chip must act as one.

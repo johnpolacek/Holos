@@ -3,6 +3,8 @@ import ApertureFigure from "./ApertureFigure";
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import { sections } from "./content-data";
 import EraserFigure from "./EraserFigure";
+import EvidenceSoFar from "./EvidenceSoFar";
+import { evidence } from "./evidence-data";
 import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
@@ -61,6 +63,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
           {section.id === "omega-point" && <OmegaLimitAnimation isPDF={isPDF} />}
           {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
+          {evidence[section.id] && <EvidenceSoFar block={evidence[section.id]} />}
         </Section>
       ))}
     </>

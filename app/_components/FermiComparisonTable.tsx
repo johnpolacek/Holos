@@ -9,7 +9,7 @@ const rows: ComparisonRow[] = [
     others: [
       "Complex life is rare",
       "Something stops almost every civilization before it spreads",
-      "Expanding civilizations exist but have not reached us; we are early",
+      "Expanding civilizations exist but have not reached us. We are early",
       "They leave young civilizations alone on purpose",
       "They sleep until the universe is colder",
     ],
@@ -20,7 +20,7 @@ const rows: ComparisonRow[] = [
     others: [
       "No",
       "Early life perhaps; advanced life no",
-      "Loud, expanding civilizations are very rare; quiet ones too",
+      "Loud, expanding civilizations are very rare, and so are quiet ones",
       "Yes",
       "Yes",
     ],
@@ -28,7 +28,7 @@ const rows: ComparisonRow[] = [
   {
     dimension: "What we should find",
     holos:
-      "Some individual stars dimmer than expected and glowing warm in infrared; perhaps small, parked probes",
+      "Some individual stars dimmer than expected and glowing warm in infrared, and perhaps small, parked probes",
     others: [
       "Nothing",
       "Nothing, or the remains of civilizations",
@@ -39,7 +39,7 @@ const rows: ComparisonRow[] = [
   },
   {
     dimension: "What would count against it",
-    holos: "A galaxy glowing with waste heat; a settlement wave still spreading",
+    holos: "A galaxy glowing with waste heat, or a settlement wave still spreading",
     others: [
       "Complex life found around another star",
       "Old civilizations thriving nearby",

@@ -20,7 +20,8 @@ At bootstrap, the inspected repo shows Holos as a Next.js content site for the H
 
 - [site-architecture.md](site-architecture.md) - route surface, content location, site structure, and PDF/image publishing pipeline
 - [glossary.md](glossary.md) - canonical names for the framework's key terms, accepted variants, variants to avoid, and open naming flags
-- [writing-principles.md](writing-principles.md) - principles behind the editing passes (picture not analogy, make the claim, "real" means lived, ...), collected as edits are made
+- [writing-principles.md](writing-principles.md) - nine principles behind the editing passes (terse and plain, make the claim, picture first, the Overview makes the case, "real" means lived, ...)
+- [editing-pass.md](editing-pass.md) - progress tracker for the site-wide editing pass: status per section and page, carried-forward items
 - [animation-redesign.md](animation-redesign.md) - engraved-plate animation redesign: locked style, the `/lab` prototypes (flat, camera, 3D line render), the stepped-story pattern, the guided-tour plan, and verification gotchas
 - [figures.md](figures.md) - the figure list for approval: every page and section, replacements and new engraved figures, status, rules, build order ([figures-logic.md](figures-logic.md) and [figures-predictions.md](figures-predictions.md) hold full stage captions)
 - [redesigns.md](redesigns.md) - four site redesign prototypes at `/lab/redesign` (Monograph, Nocturne, Atlas, Ledger): briefs, shared contract, shared helpers

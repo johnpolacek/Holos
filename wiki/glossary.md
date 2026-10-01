@@ -55,6 +55,7 @@ Status: built 2026-09-29 from a full read of Overview, Logic, Predictions, citat
 
 - **Omega**: the whole of reality. Physically the universal quantum state; experientially the one experiencer. Fine: "the totality", "the whole", "the one experiencer", "the one subject", "the universal quantum state" (or "the universe's complete quantum state"). Avoid: "Omega Point" except when naming Teilhard or Tipler; "Ω" in prose; "limit", "endpoint", "horizon"; "ground of record agreement"; "fundamental posit"; "one process".
 - **The two additions (to physics)**: the threshold (Axiom 3) and Omega (Axiom 5). Avoid: "ingredients", "fundamental posits".
+- **Self**: the local one. A body, memories, character, and point of view, walled off from every other self. Distinct from the **experiencer** (the subject), which on the monist reading is one: Omega. "A new self begins" at the threshold, "no new experiencer does". Avoid "the one experiencer wakes there", which reads as Omega's own mind switching on in you. (John, 2026-09-30.)
 - **Monist reading**: the reading that the whole is the one experiencer (Axiom 5). Keep it distinct from two-sided monism.
 - **Open individualism**: the established name (Kolak) for the view that there is one person and every one of us is it.
 - **Two-sided monism with a threshold**: Axiom 4's kind of view; neither physicalism nor dualism.
