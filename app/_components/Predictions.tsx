@@ -28,15 +28,15 @@ export default function Predictions() {
               dynamical laws
             </a>{" "}
             (the rules that say how things change over time) and changes none of the equations of
-            physics. It adds two ideas on top of them. First, a threshold,{" "}
-            <MathInline>{"\\Phi_c"}</MathInline>: a system is an observer, with experience of its
-            own, only once its parts are integrated enough to act as one whole. Second, Omega: the
-            whole of reality is the one experiencer, and every observer is a local aperture, an
-            opening through which the whole registers itself. The commitments and tests below follow
-            from established physics, from those two additions, and from the positions Holos takes
-            on structure and mind (Axioms 1 and 4). Where a claim depends on one particular reading
-            of quantum physics, the one without collapse, it is marked (Commitment 3 and Check C).
-            The speculation at the end does not follow from any of this; it is labeled as such.
+            physics. It is built on two ideas. First, a threshold,{" "}
+            <MathInline>{"\\Phi_c"}</MathInline>. A system is an observer, with experience of its
+            own, only once its parts are integrated enough to act as one whole. Second, Omega, the
+            whole, with one experiencer living through every self. The commitments and tests below
+            follow from established physics, from those two additions, and from the positions Holos
+            takes on structure and mind (Axioms 1 and 4). Where a claim depends on one particular
+            reading of quantum physics, the one without collapse, it is marked (Commitment 3 and
+            Check C). The speculation at the end does not follow from any of this, and it is labeled
+            as such.
           </p>
 
           <p className="leading-relaxed">
@@ -46,17 +46,17 @@ export default function Predictions() {
 
           <ul className="flex flex-col gap-2 pl-6 list-disc">
             <li className="leading-relaxed">
-              <strong>Commitments:</strong> what must be true if Holos is correct, independent of
+              <strong>Commitments.</strong> What must be true if Holos is correct, independent of
               any future experiments.
             </li>
             <li className="leading-relaxed">
-              <strong>Testability and its limits:</strong> what can never be tested (presence, the
-              fact that experience is lived); two tests Holos could fail; one consistency check; and
+              <strong>Testability and its limits.</strong> What can never be tested (presence, the
+              fact that experience is lived), two tests Holos could fail, one consistency check, and
               one standing bet about physics, with the fallback version of Holos stated in advance
               in case the bet is lost.
             </li>
             <li className="leading-relaxed">
-              <strong>Speculation:</strong> extensions that <em>could</em> follow under Holos on
+              <strong>Speculation.</strong> Extensions that <em>could</em> follow under Holos on
               long timescales, stated with explicit alternatives rather than predictions.
             </li>
           </ul>
@@ -83,9 +83,9 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
-            Commitments 1 and 2 are fundamental to Holos: a serious rival denies each, and if either
+            Commitments 1 and 2 are fundamental to Holos. A serious rival denies each, and if either
             is false, the framework fails. Commitment 3 belongs to Holos without collapse, the
-            version this site defends; the version with collapse is declared in advance under{" "}
+            version this site defends. The version with collapse is declared in advance under{" "}
             <a href="#two-versions" className="underline hover:no-underline">
               Two versions
             </a>
@@ -109,28 +109,29 @@ export default function Predictions() {
             <p className="leading-relaxed">Two claims, and a serious rival denies each one.</p>
 
             <p className="leading-relaxed">
-              <strong>Local.</strong> Experience occurs only inside observers, systems past the
-              threshold. It is not spread through matter, not ambient in space or fields, and not
-              pooled in the whole: Omega is the one experiencer, but it experiences only through
-              observers. &quot;Local&quot; says where experience happens, not who has it. Structure
-              without observers still fully exists, as pattern: unobserved histories remain part of{" "}
+              <strong>Local.</strong> Experience occurs in no place except inside observers, systems
+              past the threshold. It is not spread through matter or ambient in space or fields.
+              Omega is the one experiencer, and it lives through observers. Whether the whole as
+              such has any view of itself is not a question about a place, and Holos leaves it open.
+              &quot;Local&quot; says where experience happens, not who has it. Structure without
+              observers still exists, as pattern. Unobserved histories remain part of{" "}
               <MathInline>{"C"}</MathInline>, the branches physics produces, and are simply never
               lived. (In the reading of quantum physics adopted here, every outcome a measurement
-              could have occurs, each in its own branch: a complete, separate version of how the
+              could have occurs, each in its own branch, a complete, separate version of how the
               world goes.)
             </p>
 
             <p className="leading-relaxed">
               <strong>Only from outside.</strong> A physical description can be complete and still
-              say nothing of whether anything is lived. The gap is not a missing fact: a perfect
+              say nothing of whether anything is lived. The gap is not a missing fact. A perfect
               physical copy has the same inside. It is that the description is written from outside,
               like a floor plan that records every wall and still cannot say what living in the
               house is like.
             </p>
 
             <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-              Experience happens only in observers. Physics fixes all of it, but states it only from
-              outside.
+              Experience happens nowhere but in observers. Physics fixes all of it, but states it
+              only from outside.
             </blockquote>
 
             <div>
@@ -140,10 +141,6 @@ export default function Predictions() {
               <ul className="flex flex-col gap-2 pl-6 list-disc mt-2">
                 <li className="leading-relaxed">
                   Panpsychism: a flicker of experience in every particle, rock, or thermostat.
-                </li>
-                <li className="leading-relaxed">
-                  A cosmic mind: the universe having one experience of its own, over and above its
-                  observers.
                 </li>
                 <li className="leading-relaxed">
                   Illusionism: the view that experience does not exist, only the belief in it.
@@ -164,15 +161,15 @@ export default function Predictions() {
               allows observers, since we could not find ourselves anywhere else) explain why
               observers find themselves in universes that allow them. They do not say where
               experience occurs, or why physics states it only from outside. Holos answers the first
-              and names the second; why there is experience at all, it leaves open.
+              and names the second. Why there is experience at all, it leaves open.
             </p>
 
             <p className="leading-relaxed">
-              Holos uses three words, each for one thing: <strong>lived</strong>, where experience
-              occurs; <strong>lit</strong>, the causal past it draws on (everything close enough in
-              space and time for light or signals to have reached an observer); and{" "}
-              <strong>unlit</strong>, structure outside every observer&apos;s causal past. They are
-              defined in{" "}
+              Holos uses three words, each for one thing. <strong>Lived</strong> is where experience
+              occurs. <strong>Lit</strong> is the causal past it draws on (everything close enough
+              in space and time for light or signals to have reached an observer). And{" "}
+              <strong>unlit</strong> is structure outside every observer&apos;s causal past. They
+              are defined in{" "}
               <a href="/logic#primitive-definitions" className="underline hover:no-underline">
                 Logic, D7
               </a>
@@ -210,7 +207,7 @@ export default function Predictions() {
             </div>
 
             <p className="leading-relaxed">
-              In words: a system is an observer only if its integration, written{" "}
+              In words, a system is an observer only if its integration, written{" "}
               <MathInline>{"\\Phi"}</MathInline> (phi), reaches the threshold,{" "}
               <MathInline>{"\\Phi_c"}</MathInline>. <MathInline>{"\\Phi"}</MathInline> measures how
               far a system&apos;s parts constrain one another as one whole, and the inequality is
@@ -226,24 +223,23 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Whether a system crosses this threshold is a fact about how its parts are wired
-              together, and integration alone is not enough: the integrated state must be about a
+              together, and integration alone is not enough. The integrated state must be about a
               world beyond the system (see the observer requirements in{" "}
               <a href="/logic#ontology" className="underline hover:no-underline">
                 Logic
               </a>
-              ). It belongs to the structural layer of reality, the facts that hold the same for
-              everyone, alongside the laws of physics, and it does not depend on who is looking.
-              Observerhood is what qualifies a system to have a perspective at all; it is not
-              relative to one. In the monist reading (the reading that the whole is the one
-              experiencer), crossing the threshold is where an aperture opens: the totality
-              registers itself through the system.
+              ). It belongs to the structural layer, the facts that hold the same for everyone,
+              alongside the laws of physics, and it does not depend on who is looking. Observerhood
+              is what qualifies a system to have a perspective at all. It is not relative to one. In
+              the monist reading (the reading that the whole is the one experiencer), crossing the
+              threshold is where a new self begins. No new experiencer does.
             </p>
 
             <p className="leading-relaxed">
               Two consequences follow. A physically identical copy of an observer cannot lack
-              experience (Axiom 4). And the threshold is steep but not a mathematical line: clear
-              cases on both sides, a narrow twilight between, fixed by structure, so a copy of a
-              borderline system is borderline too (see{" "}
+              experience (Axiom 4). And the threshold is steep but not a mathematical line. There
+              are clear cases on both sides, a narrow twilight between, fixed by structure, so a
+              copy of a borderline system is borderline too (see{" "}
               <a href="/logic#threshold-claims" className="underline hover:no-underline">
                 The threshold in three claims
               </a>
@@ -267,17 +263,17 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               Holos distinguishes two kinds of facts. <strong>Structural facts</strong> describe
-              what is consistent: the laws of physics, the branches physics produces with their
-              quantum weights, and whether a system meets the integration threshold. These are
+              what is consistent, such as the laws of physics, the branches physics produces with
+              their quantum weights, and whether a system meets the integration threshold. These are
               absolute and observer-independent. <strong>Registered facts</strong> describe what is
-              lived: which outcome a system registers from its own perspective. These are always
+              lived, which outcome a system registers from its own perspective. These are always
               indexed to observing systems.
             </p>
 
             <p className="leading-relaxed">
               The relational commitment applies to registered facts. There is no absolute,
               observer-independent fact about which outcome is experienced. The structural layer, by
-              contrast, is not relative; without it, registration would have nothing stable to
+              contrast, is not relative. Without it, registration would have nothing stable to
               register.
             </p>
 
@@ -292,15 +288,15 @@ export default function Predictions() {
             </p>
 
             <p className="leading-relaxed">
-              Within a branch, consistency is operational rather than abstract: whenever two
+              Within a branch, consistency is operational rather than abstract. Whenever two
               observers actually compare records, their records agree. Perspectives may differ while
-              separated; communication forces agreement. This is what &quot;consistent&quot; means
-              in practice. Physics secures it: observers who communicate are reached by the same
+              separated. Communication forces agreement. This is what &quot;consistent&quot; means
+              in practice. Physics secures it. Observers who communicate are reached by the same
               signals.
             </p>
 
             <p className="leading-relaxed">
-              Branches are not all equal: each carries a weight, and those weights reproduce the
+              Branches are not all equal. Each carries a weight, and those weights reproduce the
               probabilities quantum physics predicts (the Born rule). That is why, from inside, a
               50/50 quantum experiment looks like a fair coin. Almost all of the weight lies with
               observers whose records follow the Born rule. The weights are structural facts, not
@@ -320,7 +316,7 @@ export default function Predictions() {
             <p className="leading-relaxed">
               Apparent collapse (the way a measurement seems to pick out one outcome) is therefore
               not a new physical process. Within each branch, records are already definite, a
-              detector&apos;s click included; what an observer adds is not the definiteness but its
+              detector&apos;s click included. What an observer adds is not the definiteness but its
               being lived.
             </p>
           </div>
@@ -346,18 +342,18 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            The central claim of Holos is that observation is where structure is lived, not a force:
-            in the version this site defends, it changes no equation and moves nothing. But every
+            The central claim of Holos is that observation is where structure is lived, not a force.
+            In the version this site defends, it changes no equation and moves nothing. But every
             experiment is a physical measurement, and an instrument only ever records physical
             change. So <strong>presence itself cannot be detected directly</strong>. An instrument
             that finds nothing extra is exactly what Holos predicts, because there is nothing extra
-            to find: presence is what the physics is like from the inside, not an additional signal
+            to find. Presence is what the physics is like from the inside, not an additional signal
             beside it.
           </p>
 
           <p className="leading-relaxed">
             This is not a gap Holos has failed to close. It follows from the framework&apos;s own
-            commitment, in the version defended here, that observation is dynamically inert: it has
+            commitment, in the version defended here, that observation is dynamically inert. It has
             no physical effect, pushes nothing, and changes no outcome. The sharpest form of the
             objection is the{" "}
             <a
@@ -367,15 +363,15 @@ export default function Predictions() {
             >
               <em>unfolding argument</em>
             </a>{" "}
-            (Doerig et al. 2019): any system with feedback loops can in principle be copied by a
+            (Doerig et al. 2019). Any system with feedback loops can in principle be copied by a
             loop-free one that behaves identically, so no behavioral test can tell which is
             conscious. It is aimed at integration-based theories like Holos. Holos accepts it for
-            presence itself: the metaphysical claims (presence, and the totality it belongs to)
-            cannot be settled by any experiment. Test A does not compare such twins; it asks, within
-            real human brains, whether reports follow integration or behavior when the two come
-            apart. The same limit is why artificial systems offer no test of their own. What a
-            language model says about its experience is learned from human writing, so it is not
-            evidence either way. Whether a machine crosses is judged by its structure (see{" "}
+            presence itself. The metaphysical claims (presence, and the whole it belongs to) cannot
+            be settled by any experiment. Test A does not compare such twins. It asks, within real
+            human brains, whether reports follow integration or behavior when the two come apart.
+            The same limit is why artificial systems offer no test of their own. What a language
+            model says about its experience is learned from human writing, so it is not evidence
+            either way. Whether a machine crosses is judged by its structure (see{" "}
             <a href="/logic#artificial-systems" className="underline hover:no-underline">
               Artificial Systems
             </a>
@@ -387,7 +383,7 @@ export default function Predictions() {
             claims about what observation requires, and how registered facts behave. These live in
             the physical world and can genuinely fail. Two are stated below as tests, each with an
             explicit way to lose: Test A for the core, and Test B for the transition hypothesis. A
-            third is stated as a consistency check: its expected outcome is the one standard quantum
+            third is stated as a consistency check. Its expected outcome is the one standard quantum
             mechanics already predicts, so it guards against contradiction rather than singling
             Holos out. A prediction Holos shares with rival theories cannot single it out, but a
             shared prediction it could fail is still worth more than one it cannot. Beneath them all
@@ -409,7 +405,7 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Bedside assessment treats responsiveness as the sign of consciousness: a patient who
+            Bedside assessment treats responsiveness as the sign of consciousness. A patient who
             follows commands is conscious, and one who does not is presumed not to be. No serious
             theory equates the two, but the proxy runs deep in practice. In Holos, what matters is{" "}
             <em>integration</em>, and integration can come apart from outward behavior. When the two
@@ -459,7 +455,7 @@ export default function Predictions() {
                 </a>{" "}
                 (PCI). A magnetic pulse is sent into the brain through the scalp (transcranial
                 magnetic stimulation, TMS), and EEG records how the cortex echoes. A rich,
-                widespread, varied echo scores high; a local or uniform one scores low. PCI captures
+                widespread, varied echo scores high. A local or uniform one scores low. PCI captures
                 integration together with differentiation, so it is a stand-in for integration, not
                 a direct measure. The original PCI&apos;s published cutoff is 0.31 (
                 <a
@@ -497,11 +493,11 @@ export default function Predictions() {
             <p className="leading-relaxed">
               PCI&apos;s cutoff was set by calibrating it on people whose state was already known
               from their reports, and the conscious side of that calibration included waking, REM
-              dreaming, and ketamine with vivid reports. Those cases cannot confirm Test A: they are
+              dreaming, and ketamine with vivid reports. Those cases cannot confirm Test A. They are
               the answer key, not the exam. The test counts only states that played no part in
-              setting the cutoff, named in advance: dream reports from non-REM sleep (the sleep
-              stages outside REM), deep sedation with intermittent awakening, sleepwalking and other
-              automatisms, complex seizures, psychedelic states, and covert awareness in
+              setting the cutoff, named in advance. They are dream reports from non-REM sleep (the
+              sleep stages outside REM), deep sedation with intermittent awakening, sleepwalking and
+              other automatisms, complex seizures, psychedelic states, and covert awareness in
               unresponsive patients, which brain scans or EEG find in about a quarter of those
               tested (
               <a
@@ -544,7 +540,7 @@ export default function Predictions() {
               reliably come from periods when both gauges sat clearly below their frozen cutoffs,
               past any twilight. A report is evidence that something was experienced, and it cannot
               be explained away as a failure of memory. Nor can it be explained away by a gauge
-              proposed afterward: a new gauge can be tested on new data, but it cannot rescue
+              proposed afterward. A new gauge can be tested on new data, but it cannot rescue
               results already in. The reverse finding, high-integration states that yield no
               reports, counts against Holos only once report failure can be ruled out (see below).
             </p>
@@ -558,8 +554,8 @@ export default function Predictions() {
               Reports require memory, and the states this test targets are precisely those where
               memory is least reliable. A report of nothing is therefore ambiguous between{" "}
               <em>no experience occurred</em> and <em>experience occurred and was not encoded</em>.
-              The evidence delivers unremembered; the prediction needs unexperienced. This confound
-              is not currently controlled, so silence carries little weight in either direction: it
+              The evidence delivers unremembered. The prediction needs unexperienced. This confound
+              is not currently controlled, so silence carries little weight in either direction. It
               cannot confirm absent experience in low-integration states, and it cannot refute
               present experience in high-integration ones.
             </p>
@@ -581,7 +577,7 @@ export default function Predictions() {
             <p className="leading-relaxed">
               The losing case is not hypothetical. Awakenings from non-REM sleep often produce dream
               reports, yet non-REM sleep is where whole-brain measures such as PCI fall well below
-              the waking range. Deep sedation is starker: in one study, 82 percent of interpretable
+              the waking range. Deep sedation is starker. In one study, 82 percent of interpretable
               awakenings from deep sedation with propofol (a common anesthetic) produced reports of
               experience (
               <a
@@ -640,7 +636,7 @@ export default function Predictions() {
               where integration peaks) allows an aperture smaller than the whole cortex, so an
               aperture confined to posterior cortex could be integrated above threshold while the
               whole brain is not. Holos adopts that reading now, after seeing these results, so they
-              cannot count in its favor: only new data, collected under the protocol above, can
+              cannot count in its favor. Only new data, collected under the protocol above, can
               confirm or defeat it. A gauge chosen afterward to rescue the prediction would turn the
               test into decoration.
             </p>
@@ -663,10 +659,10 @@ export default function Predictions() {
             <strong>What this can and cannot show:</strong> this tests a necessary structural
             condition, not presence itself. It cannot prove an integrated system <em>is</em> an
             observer, only whether integration is what experience depends on. Holos shares this
-            prediction with other integration-based accounts of consciousness; it is a test Holos
+            prediction with other integration-based accounts of consciousness. It is a test Holos
             could fail, not a signature unique to Holos. Its results also help locate the threshold,
-            under a strict rule: states used to set a cutoff may tune the measures and weed out weak
-            ones, but never count as evidence; only states set aside in advance can confirm or
+            under a strict rule. States used to set a cutoff may tune the measures and weed out weak
+            ones, but never count as evidence. Only states set aside in advance can confirm or
             refute the claim (see{" "}
             <a href="/logic#path-to-threshold" className="underline hover:no-underline">
               A path to the threshold
@@ -694,11 +690,11 @@ export default function Predictions() {
               the threshold
             </a>
             ), not the core. Genuine transitions in physics look blurred in a small sample and
-            sharpen in a large one: a magnet loses its magnetism at a set temperature (the Curie
+            sharpen in a large one. A magnet loses its magnetism at a set temperature (the Curie
             point), and the larger the magnet, the more abrupt the change. If crossing the threshold
             is a genuine transition, sudden or continuous, its twilight should likewise narrow as a
             system grows. Networks of living neurons grown in a dish and connected to simple
-            environments are the cheapest place to look; the{" "}
+            environments are the cheapest place to look. The{" "}
             <a
               href="https://doi.org/10.1016/j.neuron.2022.09.001"
               target="_blank"
@@ -708,7 +704,7 @@ export default function Predictions() {
             </a>{" "}
             platform, in which cultured neurons were wired to a simple game of Pong (Kagan et al.
             2022), shows the kind of setup, not evidence of experience. Integration is the result,
-            not the knob: turn a condition such as a drug dose or the network&apos;s connectivity,
+            not the knob. Turn a condition such as a drug dose or the network&apos;s connectivity,
             and track an integration measure fixed in advance. Small cultures should cross
             gradually, and larger cultures, grown the same way, more steeply, as connectivity,
             feedback, and coupling to their environment increase.
@@ -737,7 +733,7 @@ export default function Predictions() {
               though not its core, if the steepness does not grow with size. A steepening that
               tracks something other than integration, such as arousal, raw activity, or metabolic
               rate, does not count in its favor. Without a pre-committed measure and a real failure
-              condition, a transition &quot;somewhere&quot; is not evidence; it is decoration.
+              condition, a transition &quot;somewhere&quot; is not evidence. It is decoration.
             </p>
           </div>
 
@@ -763,8 +759,8 @@ export default function Predictions() {
 
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            This check lives in quantum foundations (the study of what quantum theory says about
-            reality), not in the theory of mind, and its status comes first: it is a consistency
+            This check lives in quantum foundations (the study of what quantum theory says about the
+            world), not in the theory of mind, and its status comes first. It is a consistency
             check, not a test that could single Holos out. The outcome it anticipates is the one
             textbook quantum mechanics already predicts. What experiments in this family probe is
             the family of interpretations Holos belongs to (branching, with no observed event that
@@ -795,22 +791,22 @@ export default function Predictions() {
               <em>Local Friendliness</em> no-go theorem
             </a>{" "}
             (an impossibility proof, Bong et al.) shows that three reasonable assumptions cannot all
-            be true together, if the friend&apos;s observation counts as a genuine fact: that the
-            friend&apos;s result is a fact for everyone (the absoluteness of observed events), that
-            no influence travels faster than light (locality), and that the experimenters&apos;
-            choices are free (freedom of choice). &quot;Local Friendliness&quot; is the name for the
-            three together. Experiments with light, with photons standing in for the friend, break
-            the limit the three assumptions set, just as quantum theory predicts. Holos gives up the
-            absoluteness of observed events: registered facts are observer-relative, while
-            structural facts and consistency remain intact. In this it sides with branching
-            approaches and borrows one insight from relational ones: registered facts are indexed to
-            the systems that register them. It does not adopt Relational Quantum Mechanics itself,
-            which rejects the universal state (a single quantum state for the whole universe) that
-            branching requires.
+            be true together, if the friend&apos;s observation counts as a genuine fact. The three
+            are that the friend&apos;s result is a fact for everyone (the absoluteness of observed
+            events), that no influence travels faster than light (locality), and that the
+            experimenters&apos; choices are free (freedom of choice). &quot;Local Friendliness&quot;
+            is the name for the three together. Experiments with light, with photons standing in for
+            the friend, break the limit the three assumptions set, just as quantum theory predicts.
+            Holos gives up the absoluteness of observed events. Registered facts are
+            observer-relative, while structural facts and consistency remain intact. In this it
+            sides with branching approaches and borrows one insight from relational ones. Registered
+            facts are indexed to the systems that register them. It does not adopt Relational
+            Quantum Mechanics itself, which rejects the universal state (a single quantum state for
+            the whole universe) that branching requires.
           </p>
 
           <p className="leading-relaxed">
-            One caveat follows from Holos&apos;s own threshold: the &quot;friends&quot; in current
+            One caveat follows from Holos&apos;s own threshold. The &quot;friends&quot; in current
             experiments with light are far below <MathInline>{"\\Phi_c"}</MathInline> and register
             nothing, so these experiments constrain the logical structure of observed events, not
             registration itself. Holos predicts that repeating them with genuine observers would
@@ -849,12 +845,12 @@ export default function Predictions() {
             <h4 className="font-semibold text-black/90 mb-1">How Holos loses</h4>
             <p className="leading-relaxed">
               No experiment in this family can restore the absoluteness of observed events on its
-              own: the theorem is a proof, and a violation only forces a choice among its
+              own. The theorem is a proof, and a violation only forces a choice among its
               assumptions. What could go wrong for Holos is dependence on scale. If the violations
               shrink or vanish as the friend grows toward a genuine observer, beyond what
               decoherence (the ordinary fading of quantum effects through contact with the
               surroundings) accounts for, observation is doing something physical, and the standing
-              bet below is lost. A second way to lose lies within a branch: observers who compare
+              bet below is lost. A second way to lose lies within a branch. Observers who compare
               records must find them matching, and a confirmed, irreconcilable mismatch between
               communicating observers would falsify Commitment 3.
             </p>
@@ -872,9 +868,9 @@ export default function Predictions() {
             >
               Relational Quantum Mechanics
             </a>
-            ; a positive result supports the family, not Holos alone. Running the same test on a
+            . A positive result supports the family, not Holos alone. Running the same test on a
             quantum computer&apos;s chips (superconducting qubits), treating different parts as
-            &quot;observers&quot;, would not work as a test: by Holos&apos;s own threshold, qubit
+            &quot;observers&quot;, would not work as a test. By Holos&apos;s own threshold, qubit
             readouts register nothing, and the result would be ordinary quantum behavior that the
             branching picture Holos adopts already accounts for.
           </p>
@@ -891,7 +887,7 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             In the version of Holos this site defends, observation is dynamically inert, and that
-            doubles as a bet. A conscious observer obeys the same quantum laws as a photon: put an
+            doubles as a bet. A conscious observer obeys the same quantum laws as a photon. Put an
             integrated system in the measuring role in place of a particle, and Holos predicts no
             deviation whatsoever. Superpositions (a system being in several states at once) fade
             because the system becomes entangled with its surroundings, a well-understood process
@@ -917,12 +913,12 @@ export default function Predictions() {
             <strong>Two versions, declared now.</strong> Holos comes in two versions. They share one
             core, Axioms 1, 3, 4, and 5, and differ only on quantum physics.{" "}
             <em>Holos without collapse</em> is the version this site defends and the one the bet is
-            about. In it, Axiom 2 is read as unitary evolution: the quantum state always evolves
+            about. In it, Axiom 2 is read as unitary evolution. The quantum state always evolves
             smoothly, every outcome occurs in its own branch, an observer&apos;s odds are odds of
             finding itself in one branch rather than another (self-locating odds), and observation
             changes nothing it registers. <em>Holos with collapse</em> is the version a lost bet
             would leave, declared now. Experience would still be the inside of physical activity
-            (Axiom 4), adding no force beyond the physics; that activity would simply include a
+            (Axiom 4), adding no force beyond the physics. That activity would simply include a
             collapse law. Omega (Axiom 5) would be the universe with its single history, and lived,
             lit, and unlit would apply within that one history.
           </p>
@@ -951,7 +947,7 @@ export default function Predictions() {
             Declaring the second version now is what separates it from a rescue, but it does not
             make the two outcomes equal. A lost bet would retire the version defended here, and
             Holos with collapse would have to earn its own support. Neither version is
-            unfalsifiable: both share the core, and the core loses through{" "}
+            unfalsifiable. Both share the core, and the core loses through{" "}
             <a href="#experiment-1" className="underline hover:no-underline">
               Test A
             </a>
@@ -960,7 +956,7 @@ export default function Predictions() {
           </p>
 
           <p className="leading-relaxed">
-            Meanwhile quantum mechanics keeps holding as systems grow: clusters of more than 7,000
+            Meanwhile quantum mechanics keeps holding as systems grow. Clusters of more than 7,000
             sodium atoms now show quantum interference (
             <a
               href="https://doi.org/10.1038/s41586-025-09917-9"
@@ -989,14 +985,14 @@ export default function Predictions() {
             Holos formally bets that it does not, and states in advance what losing would cost. The
             bet is untested so far. A century of placing ever-larger systems into superposition has
             found no deviation of any kind, but by Holos&apos;s own threshold none of those systems
-            was an observer: photons, molecules, and superconducting circuits all sit far below{" "}
+            was an observer. Photons, molecules, and superconducting circuits all sit far below{" "}
             <MathInline>{"\\Phi_c"}</MathInline>. That record shows quantum mechanics holding at
-            those scales; it does not yet reach the case the bet is about. The bet is also the one
+            those scales. It does not yet reach the case the bet is about. The bet is also the one
             standard physics makes. What makes it worth stating is that Holos, unlike views that
             need consciousness to act, does not hedge on it. The first experiment to put a system
             that clearly meets the observer requirements in the friend&apos;s role would put it to a
             real test, provided the friend can be shown, by agreed measures fixed in advance, to be
-            well past the threshold; the consequences are already on the page.
+            well past the threshold. The consequences are already on the page.
           </p>
         </div>
         <EvidenceSoFar block={evidence["standing-bet"]} />
@@ -1015,16 +1011,16 @@ export default function Predictions() {
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
             What follows are not predictions. They’re “what if” designs that <em>could</em> emerge
-            if the Holos framework is correct. Each is held to one standard: it must be physically
+            if the Holos framework is correct. Each is held to one standard. It must be physically
             possible and not extremely unlikely, and each says why it is plausible.
           </p>
 
           <p className="leading-relaxed">
-            We know the familiar hard constraints: finite signal speed, noise, and thermodynamics.
-            Across a star system, messages take hours; across many systems, years. A civilization
-            spread thin and bright struggles to act as one, so staying coherent (coordinated as a
-            single whole) rewards compactness, keeping things close, and stability over long spans
-            of time.
+            We know the familiar hard constraints, which are finite signal speed, noise, and
+            thermodynamics. Across a star system, messages take hours. Across many systems, they
+            take years. A civilization spread thin and bright struggles to act as one, so staying
+            coherent (coordinated as a single whole) rewards compactness, keeping things close, and
+            stability over long spans of time.
           </p>
 
           {/* Holosian Scale */}
@@ -1041,10 +1037,10 @@ export default function Predictions() {
                 Kardashev Scale
               </a>{" "}
               ranks civilizations by energy use. The Holosian Scale ranks civilizations by
-              integration in a social sense: how well a civilization coordinates as one whole. (This
-              is not the <MathInline>{"\\Phi"}</MathInline> of the tests above.) The stages below
-              are a map of what “advancement” looks like if coherence, not throughput, is the main
-              objective.
+              integration in a social sense, meaning how well a civilization coordinates as one
+              whole. (This is not the <MathInline>{"\\Phi"}</MathInline> of the tests above.) The
+              stages below are a map of what “advancement” looks like if coherence, not throughput,
+              is the main objective.
             </p>
 
             <div className="flex flex-col gap-4">
@@ -1089,7 +1085,7 @@ export default function Predictions() {
                 <p className="leading-relaxed">
                   The civilization operates like a single high-coherence system with minimal waste
                   and minimal leakage. External visibility fades. What remains detectable is
-                  gravitational and thermal: the waste heat no optimization can eliminate.
+                  gravitational and thermal, the waste heat no optimization can eliminate.
                 </p>
               </div>
 
@@ -1104,7 +1100,7 @@ export default function Predictions() {
 
             <p className="leading-relaxed text-black/70 text-sm">
               <strong>Why it is plausible:</strong> every stage follows from two certainties,
-              light-speed delay and waste heat, plus one assumption: that coordination pays. The
+              light-speed delay and waste heat, plus one assumption, that coordination pays. The
               assumption is the weak link. A civilization that never learns to coordinate stays at
               H0, loud until it ends.
             </p>
@@ -1118,14 +1114,14 @@ export default function Predictions() {
               Mesostructures
             </h3>
             <p className="leading-relaxed text-black/70 italic text-sm">
-              These are design sketches, not predictions: imaginative illustrations of what
+              These are design sketches, not predictions. They are imaginative illustrations of what
               engineering might look like if the Integration Hypothesis (the companion idea that
               mature civilizations turn compact, efficient, and quiet in light) holds.
               Mesostructures, a coinage here, are engineered works far larger than any building but
               far smaller than the star-enclosing megastructures of science fiction.
             </p>
             <p className="leading-relaxed pb-4">
-              The structures below are H3–H4 design patterns: compact enough to stay coherent under
+              The structures below are H3–H4 design patterns, compact enough to stay coherent under
               light-lag and thermodynamics, and consequential enough to matter without bright
               sprawl. They span energy generation, active coherence and computation, and long-term
               continuity.
@@ -1146,7 +1142,7 @@ export default function Predictions() {
                 <a href="/#aliens" className="underline hover:no-underline">
                   Aliens
                 </a>
-                ). The Holocore is the step beyond: it concentrates energy density rather than
+                ). The Holocore is the step beyond. It concentrates energy density rather than
                 surface area, converting mass into controlled output through fusion, regulated
                 accretion (matter fed steadily into a black hole), or extraction of a black
                 hole&apos;s spin.
@@ -1177,8 +1173,8 @@ export default function Predictions() {
                   output is set by physics, not engineering
                 </li>
                 <li className="leading-relaxed">
-                  Compact, so it cannot hide its heat: at modest power it glows faintly in the
-                  infrared; at high power it glows brightly, and it is only as quiet as its output
+                  Compact, so it cannot hide its heat. At modest power it glows faintly in the
+                  infrared. At high power it glows brightly, and it is only as quiet as its output
                   allows
                 </li>
               </ul>
@@ -1186,11 +1182,11 @@ export default function Predictions() {
               <p className="leading-relaxed text-black/70 text-sm">
                 The Holocore is infrastructure, not spectacle. If H4 integration suppresses bright
                 sprawl, the energy backbone must be dense and long-lived, and it can be only as
-                quiet as its power allows: compact and powerful means hot, the same physics that
+                quiet as its power allows. Compact and powerful means hot, the same physics that
                 keeps mature systems warm.
               </p>
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Why it is plausible:</strong> every step is known physics; only the
+                <strong>Why it is plausible:</strong> every step is known physics. Only the
                 engineering is unknown. Fusion releases about 0.7 percent of a mass as energy.
                 Matter falling into a rapidly spinning black hole can release roughly 30 to 42
                 percent, and the{" "}
@@ -1218,7 +1214,7 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                This is not a data center. It is the civilization’s thinking heart: where a unified
+                This is not a data center. It is the civilization’s thinking heart, where a unified
                 world-model (a working picture of how everything fits and behaves) is maintained
                 across centuries to millennia.
               </p>
@@ -1248,8 +1244,8 @@ export default function Predictions() {
               </p>
               <p className="leading-relaxed text-black/70 text-sm">
                 <strong>Why it is plausible:</strong> two known pressures meet here. Light delay
-                rewards compactness: a signal crosses a meter in about three nanoseconds, so smaller
-                thinks faster. Heat punishes it: power packed too densely cannot be cooled. The
+                rewards compactness. A signal crosses a meter in about three nanoseconds, so smaller
+                thinks faster. Heat punishes it. Power packed too densely cannot be cooled. The
                 Kernel sits where the two balance, as today&apos;s chips already do.
               </p>
             </div>
@@ -1292,10 +1288,10 @@ export default function Predictions() {
               <p className="leading-relaxed text-black/70 text-sm">
                 <strong>Note:</strong> Unlike the Kernel, a Vault that stops computing can go cold.
                 It would then not be a Dark Node, which still exports waste heat, but the sleeping
-                case: compact, dark, and close to undetectable.
+                case, compact, dark, and close to undetectable.
               </p>
               <p className="leading-relaxed text-black/70 text-sm">
-                <strong>Why it is plausible:</strong> durable storage is ordinary engineering; what
+                <strong>Why it is plausible:</strong> durable storage is ordinary engineering. What
                 is speculative is the motive to pause. The{" "}
                 <a
                   href="https://arxiv.org/abs/1705.03394"
@@ -1305,7 +1301,7 @@ export default function Predictions() {
                   aestivation hypothesis
                 </a>{" "}
                 argues computing is cheaper in the colder far future, so a civilization might sleep
-                until then; a{" "}
+                until then. A{" "}
                 <a
                   href="https://doi.org/10.1007/s10701-019-00289-5"
                   target="_blank"
@@ -1396,7 +1392,7 @@ export default function Predictions() {
 
             <p className="leading-relaxed">
               When physical probes are deployed, they are not explorers in the human sense. They are
-              precision instruments: compact, autonomous, and built to operate alone for decades or
+              precision instruments, compact, autonomous, and built to operate alone for decades or
               longer.
             </p>
 
@@ -1461,7 +1457,7 @@ export default function Predictions() {
               </div>
 
               <p className="leading-relaxed text-black/70 text-sm">
-                Past H3, exploration scales through patience: sentinel probes exist to watch, not to
+                Past H3, exploration scales through patience. Sentinel probes exist to watch, not to
                 arrive.
               </p>
               <p className="leading-relaxed text-black/70 text-sm">
@@ -1473,7 +1469,7 @@ export default function Predictions() {
                 >
                   Bracewell proposed exactly this in 1960
                 </a>
-                : a probe parked in a target system studies it in detail no beam can match, and can
+                . A probe parked in a target system studies it in detail no beam can match, and can
                 wait indefinitely. Our own spacecraft already run autonomously for decades.
               </p>
             </div>
@@ -1493,7 +1489,7 @@ export default function Predictions() {
                 </li>
                 <li className="leading-relaxed">
                   <strong>How it works:</strong> a star&apos;s gravity brings distant light to a
-                  focus far away; instruments placed along that focal line collect light for a long
+                  focus far away. Instruments placed along that focal line collect light for a long
                   time, trading patience for sharpness.
                 </li>
                 <li className="leading-relaxed">

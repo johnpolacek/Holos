@@ -22,8 +22,8 @@ Status: done, in progress, next, to do.
 | Page | Status | Notes |
 |---|---|---|
 | Logic (`Logic.tsx`) | done | Every section. New D8 Self and experiencer, Reality defined in D7. Retired claims removed (wakes, ethics, pooled experience, single view). Name history and split-brain added. Colons and semicolons swept. Ends on the core line. |
-| Predictions (`Predictions.tsx`) | next | "Fully real" wording fixed. |
-| Citations and notes (`citation-sections.tsx`) | to do | |
+| Predictions (`Predictions.tsx`) | done | Intro "built on two ideas". Locality softened (option B). Cosmic mind no longer ruled out. Retired wording fixed. About 105 semicolons and prose colons swept. Evidence boxes under each test. |
+| Citations and notes (`citation-sections.tsx`) | next | |
 | Other routes (definition, revisions, trajectory, settlement explorer) | to do | Check which carry prose. |
 
 ## Evidence So Far

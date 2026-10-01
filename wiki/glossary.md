@@ -23,7 +23,7 @@ Status: built 2026-09-29 from a full read of Overview, Logic, Predictions, citat
 
 ## Where experience is (D7)
 
-- **Lived**: where experience occurs, inside observers and nowhere else.
+- **Lived**: where experience occurs, inside observers and nowhere else. This is about places. Whether the whole as such has any view of itself is not a place question, and Holos leaves it open.
 - **Lit**: binary; a region in the causal past of at least one observer in its branch. "An observer lights its past."
 - **Unlit**: structure outside every observer's causal past (observer-free branches, regions beyond every observer's horizon). Exists as pattern, never lived. Not called real ("real" means lived).
 - **Reality**: lived reality (R), and nothing else. What physics produces is **structure**. Core line: "Reality requires a witness."

@@ -898,7 +898,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Goff (2017), Consciousness and Fundamental Reality",
             url: "https://doi.org/10.1093/oso/9780190677015.001.0001",
             description:
-              "Oxford University Press: the case for priority cosmopsychism, a conscious cosmos from which individual minds derive. Holos shares the single ground but denies the cosmos any pooled experience of its own.",
+              "Oxford University Press: the case for priority cosmopsychism, a conscious cosmos from which individual minds derive. Holos shares the single ground but makes no claim either way about an experience of the cosmos as a whole.",
           },
           {
             name: "Nagasawa and Wager (2016), Panpsychism and priority cosmopsychism",

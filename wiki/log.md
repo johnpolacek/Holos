@@ -907,3 +907,7 @@ Keep entries concise and grounded in inspected repo evidence.
 - Logic comparison tables: Holos column moved to the whole/self/experiencer vocabulary, reality vs structure, no ethics, no cosmic-experience claim; semicolons and colons removed.
 - Logic Open Problems: 24 semicolons and prose colons rewritten.
 - Logic closing summary ends on the core line. Logic pass complete.
+- Predictions intro: "built on two ideas", Omega the whole with one experiencer living through every self; list labels use periods.
+- Locality softened (John, option B): experience occurs in no place except inside observers; whether the whole has any view of itself is not a place question and stays open. Predictions Commitment 1, guardrails, glossary updated. Stale guardrail "structure is fully real" replaced.
+- Option B follow-through: "A cosmic mind" removed from Commitment 1 rule-outs; Goff citation note now "makes no claim either way"; guardrail Commitment 1 text restored and adjusted.
+- Predictions pass complete: four content fixes (structural layer, new self, the whole, the world) and about 105 semicolons and prose colons swept.
