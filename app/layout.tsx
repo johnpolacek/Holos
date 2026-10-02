@@ -17,7 +17,7 @@ const fell = IM_Fell_English({
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+  title: "Holos: A Framework for Understanding Reality",
   description:
     "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
   icons: {
@@ -27,17 +27,17 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+    title: "Holos: A Framework for Understanding Reality",
     description:
       "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
     url: siteUrl,
-    siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+    siteName: "Holos: A Framework for Understanding Reality",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+        alt: "Holos: A Framework for Understanding Reality",
       },
     ],
     locale: "en_US",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+    title: "Holos: A Framework for Understanding Reality",
     description:
       "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
     images: ["/twitter-image.png"],
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+  headline: "Holos: A Framework for Understanding Reality",
   description:
     "Holos is an interpretive framework proposing that the universe physics describes is lived wherever a sufficiently integrated system, an observer, takes it in. It examines consciousness, spacetime, cosmology, and meaning within known physics.",
   author: {

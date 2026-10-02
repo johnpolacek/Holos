@@ -44,8 +44,7 @@ export default function MonographOverview() {
         titleAfter={<span className="r1-sr">: </span>}
         sub={
           <>
-            An Interpretive Framework for Understanding Reality,
-            <br /> Bounded by Physics
+            A Framework for Understanding Reality
           </>
         }
         footLeft={<span className="r1-eq">R = C ⊛ O</span>}

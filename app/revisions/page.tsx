@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Claims that earlier versions of Holos made and later retired or replaced, each with the reason.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/revisions`,
-    siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+    siteName: "Holos: A Framework for Understanding Reality",
     type: "website",
   },
 };

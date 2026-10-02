@@ -92,7 +92,7 @@ export default function LedgerHome() {
           <span className="r4-poster-rule" aria-hidden="true" />
           <span className="r4-sr">: </span>
           <span className="r4-poster-sub" data-intro>
-            An Interpretive Framework for Understanding Reality, Bounded by Physics
+            A Framework for Understanding Reality
           </span>
         </h1>
         <p className="r4-poster-eq" data-intro>

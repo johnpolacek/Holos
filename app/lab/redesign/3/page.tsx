@@ -119,7 +119,7 @@ export default function AtlasHome() {
             </span>
             <span className="r3-sr">: </span>
             <span className="r3-subtitle" data-intro data-sub>
-              An Interpretive Framework for Understanding Reality, Bounded by Physics
+              A Framework for Understanding Reality
             </span>
           </h1>
           <p className="r3-cover-eq" data-intro data-rise>

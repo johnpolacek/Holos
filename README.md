@@ -1,4 +1,4 @@
-# Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics
+# Holos: A Framework for Understanding Reality
 
 **[whatisholos.vercel.app](https://whatisholos.vercel.app)**
 

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "What Holos predicts and how it could fail: its core commitments, the patterns it expects in neuroscience and quantum experiments, a standing falsifiable bet, and long-range speculation.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/predictions`,
-    siteName: "Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics",
+    siteName: "Holos: A Framework for Understanding Reality",
     type: "website",
   },
 };

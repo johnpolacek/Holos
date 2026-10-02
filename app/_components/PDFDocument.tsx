@@ -11,7 +11,7 @@ export default function PDFDocument() {
       <head>
         <meta charSet="utf-8" />
         <title>
-          Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics
+          Holos: A Framework for Understanding Reality
         </title>
         <style>{`
           @font-face {
@@ -312,7 +312,7 @@ export default function PDFDocument() {
               <span>Holos</span>
             </div>
             <h1 className="title-main">
-              Holos: An Interpretive Framework for Understanding Reality, Bounded by Physics
+              Holos: A Framework for Understanding Reality
             </h1>
           </div>
         </div>

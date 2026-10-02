@@ -269,7 +269,7 @@ export default function Hero({ minutes, count }: { minutes: number; count: numbe
             </span>
             <span className="n-sr">: </span>
             <span className="n-h1-sub" data-intro>
-              An Interpretive Framework for Understanding Reality, Bounded by Physics
+              A Framework for Understanding Reality
             </span>
           </h1>
         </div>
