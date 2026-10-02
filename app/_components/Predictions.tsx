@@ -1116,7 +1116,7 @@ export default function Predictions() {
             <p className="leading-relaxed text-black/70 italic text-sm">
               These are design sketches, not predictions. They are imaginative illustrations of what
               engineering might look like if the Integration Hypothesis (the companion idea that
-              mature civilizations turn compact, efficient, and quiet in light) holds.
+              mature civilizations stay near home, grow efficient, and go quiet in light) holds.
               Mesostructures, a coinage here, are engineered works far larger than any building but
               far smaller than the star-enclosing megastructures of science fiction.
             </p>
@@ -1137,7 +1137,7 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                The likeliest energy backbone for a compact civilization is its home star, harvested
+                The likeliest energy backbone for a civilization that stays home is its home star, harvested
                 by nearby collectors (see{" "}
                 <a href="/#aliens" className="underline hover:no-underline">
                   Aliens

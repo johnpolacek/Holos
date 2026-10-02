@@ -531,7 +531,7 @@ export const sections: ContentSection[] = [
         experiment. It names the possibility that the sky is silent and still full of life.
       </>,
       <>
-        Most of what exists does not shine. Mature life would be cold, compact structures of{" "}
+        Most of what exists does not shine. Mature life would be cold structures of{" "}
         <a href="https://en.wikipedia.org/wiki/Baryon">ordinary matter</a>, dark in visible light
         but still pulling with gravity. There cannot be much of it. Surveys have found nearly all
         the ordinary matter there is, and searches for passing dark masses find too few. But the

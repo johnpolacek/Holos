@@ -67,7 +67,7 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Companion ideas, not core:</strong> The Integration Hypothesis (mature
-              civilizations turn compact, efficient, and quiet) and the Teeming Dark (a silent sky
+              civilizations stay near home, grow efficient, and go quiet) and the Teeming Dark (a silent sky
               may still hold abundant life). If they fail, the core stands.
             </li>
           </ul>

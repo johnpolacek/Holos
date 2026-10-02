@@ -916,3 +916,21 @@ Keep entries concise and grounded in inspected repo evidence.
 - Settlement Explorer: semicolons and prose colons swept. Editing pass complete across all pages.
 - Removed /lab/rco (R, C, O treatment explorations); variant 11 is live.
 - Evidence So Far refresh 2026-10-01: 0 new entries (none; one ResearchGate link replaced with its Research Square preprint DOI in test-b).
+
+## [2026-10-01] decision | Cold computing: radiator bet retired, signature widened
+
+- Challenge: Garrett, "Slysh haloes" (arXiv 2608.31153, 31 Aug 2026, preprint, one author). Verified from the full text. Landauer cost scales with temperature, so cold computing (about 28 to 5 K) is cheaper per erasure. Haloes sit tens of AU out around M dwarfs, 100 to 3000 AU around Sun-like stars. Grey, line-free far-infrared and submillimeter glow. A detectable halo (7×10^19 W at 12 K) weighs about 0.2 Ceres. DEBRIS, DUNES, and SONS could "in principle" constrain about 10^20 W; no limits derived yet (Garrett et al., in preparation). The paper does not discuss light delay, latency, or reversible computing.
+- Options weighed: keep the bet (light delay), absorb (a halo is still home), widen the signature, narrow or retire, split by job (compact fast core, cold bulk). John asked whether the split was likely or just preserving the old text. Answer: partly the latter. Physics does not fix how work divides, and the cold may carry most of the heat. Chosen: widen plus retire (C plus D).
+- Kept: the settlement bet (civilizations stay near one star). Light delay limits one mind. "Staying home" now means near one star, not small.
+- Retired: the bet that mature civilizations avoid large cold radiators, and compact masses as the expected look. Tagline "Silent, but warm" became "Silent, but warmer than space."
+- Overview, Aliens: paragraph 1 ("stay near home and grow more efficient", "drawing together"); Jevons close ("single stars with heat they should not have, warm or cold"); Hephaistos paragraph framed as the warm half, plus the cold half and PRIMA.
+- Overview, Teeming Dark: paragraph 2 drops "compact"; the radiator paragraph split in two (cold computing and the Slysh halo, then light delay and the Dark Node, with the new tagline); closing tell is now "a star with heat it should not have, warm in the infrared or cold in the far infrared".
+- Fermi table: "Some individual stars with unexplained heat, in the mid or far infrared, and perhaps small, parked probes."
+- Animations: Integration Hypothesis caption, sr caption, and aria label say waste heat, warm or cold. Teeming Dark sr caption says waste heat; one prose colon fixed.
+- Settlement Explorer assumptions: the warm-star check assumes heat reaches Hephaistos's band; cold heat would escape it and the check would rule out less. Model unchanged.
+- Predictions: Kernel plausibility note says it need not hold most of a civilization's computing (points to the Teeming Dark). Integration Hypothesis definition and Holocore lead no longer say "compact civilization". Logic Claims definition matches.
+- Citations: Dark Nodes, Ĝ, and Dyson sphere notes updated. New: Garrett 2026 (Teeming Dark) and PRIMA (Aliens).
+- Evidence So Far, Teeming Dark: Garrett entry corrected ("may", "in principle"); PRIMA added as coming (selected 23 Sep 2026, launch about 2033).
+- Revisions: "Silent, but warm" retired. Guardrails: star-level waste heat and Integration Hypothesis assumptions bullets rewritten. Glossary: Integration Hypothesis definition; Dark Node is the warm case; Slysh halo added. editing-pass.md item resolved.
+- Stale, not edited: the lab tour storyboard (tourStoryboard.ts, tourSketches.tsx radiator sketch, wiki/storyboard.md Plate VII, wiki/figures.md O28) still says "Silent, but Warm" and frames the radiator as avoided sprawl. Update if the plate is built.
+- Some of these edits were committed early by a parallel session in dde7e49.
