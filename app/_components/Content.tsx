@@ -1,4 +1,5 @@
 import type React from "react";
+import { Fragment } from "react";
 import ApertureFigure from "./ApertureFigure";
 import ClosureFigure from "./ClosureFigure";
 import { sections } from "./content-data";
@@ -9,7 +10,7 @@ import HolosAnimation from "./HolosAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import LitFigure from "./LitFigure";
-import OmegaLimitAnimation from "./OmegaLimitAnimation";
+import OmegaFigure, { OMEGA_FIGURES } from "./OmegaFigures";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import Section from "./Section";
 import TeemingDarkAnimation from "./TeemingDarkAnimation";
@@ -43,11 +44,21 @@ export default function Content({ isPDF = false }: ContentProps) {
               return false;
             };
             const isDivContent = checkForDiv(paragraph);
-            return isDivContent ? (
+            const body = isDivContent ? (
               <div key={`${section.id}-p-${pIndex}`}>{paragraph}</div>
             ) : (
               <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
             );
+            // Some sections place figures inline, right after the paragraph they illustrate.
+            if (section.id === "omega-point" && OMEGA_FIGURES[pIndex]) {
+              return (
+                <Fragment key={`${section.id}-p-${pIndex}`}>
+                  {body}
+                  <OmegaFigure index={pIndex} isPDF={isPDF} />
+                </Fragment>
+              );
+            }
+            return body;
           })}
           {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
           {section.id === "consciousness" && <ApertureFigure isPDF={isPDF} />}
@@ -61,7 +72,6 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "infinity" && <ClosureFigure isPDF={isPDF} />}
           {section.id === "aliens" && <IntegrationHypothesisAnimation isPDF={isPDF} />}
           {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
-          {section.id === "omega-point" && <OmegaLimitAnimation isPDF={isPDF} />}
           {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
           {evidence[section.id] && <EvidenceSoFar block={evidence[section.id]} />}
         </Section>

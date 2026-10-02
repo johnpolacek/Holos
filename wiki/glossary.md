@@ -81,10 +81,11 @@ Status: built 2026-09-29 from a full read of Overview, Logic, Predictions, citat
 
 ## Companion ideas and speculation
 
-- **Integration Hypothesis**: mature civilizations turn compact, efficient, and quiet in light.
+- **Integration Hypothesis**: mature civilizations stay near home, grow efficient, and go quiet in light.
 - **Going Quiet**: the progressive reduction in a civilization's external signatures. Retired: "Visibility Collapse" (collapse is reserved for quantum collapse and its ordinary senses).
 - **Teeming Dark**: the possibility that silence and abundant life coexist.
-- **Dark Node**: ordinary matter that has stopped shining; never cosmological dark matter.
+- **Dark Node**: ordinary matter that has stopped shining; never cosmological dark matter. The compact, warm case only.
+- **Slysh halo** (Garrett 2026): thin structures computing cold, far from a star, glowing faintly in the far infrared. The cold case. Lowercase "halo".
 - **Holosian Scale** (capitalized, like the Kardashev Scale; H0 to H5), **mesostructures**, **Holocore**, **Computronium Kernel**, **Chrono Vault**, **Sentinel Probes**.
 
 ## Flags

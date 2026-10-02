@@ -1246,7 +1246,13 @@ export default function Predictions() {
                 <strong>Why it is plausible:</strong> two known pressures meet here. Light delay
                 rewards compactness. A signal crosses a meter in about three nanoseconds, so smaller
                 thinks faster. Heat punishes it. Power packed too densely cannot be cooled. The
-                Kernel sits where the two balance, as today&apos;s chips already do.
+                Kernel sits where the two balance, as today&apos;s chips already do. It need not
+                hold most of a civilization&apos;s computing. Erasing information costs less in the
+                cold, so work that need not be fast may run far out, in a cold halo (see{" "}
+                <a href="/#the-teeming-dark" className="underline hover:no-underline">
+                  The Teeming Dark
+                </a>
+                ). The Kernel is the part that must think fast.
               </p>
             </div>
 

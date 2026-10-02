@@ -438,10 +438,10 @@ export const sections: ContentSection[] = [
         The universe is vast and old, yet we see no one. This is the{" "}
         <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi paradox</a>. We assume advanced
         civilizations spread out and grow easier to see. The <strong>Integration Hypothesis</strong>{" "}
-        says the opposite. Advancement turns inward, toward smaller, denser, more efficient forms,
-        so progress makes civilizations harder to see. Integration here means a civilization growing
-        compact, not a mind crossing the threshold. It is a companion to Holos, not part of its
-        core.
+        says the opposite. Advancement turns inward. Civilizations stay near home and grow more
+        efficient, so progress makes them harder to see. Integration here means a civilization
+        drawing together, not a mind crossing the threshold. It is a companion to Holos, not part of
+        its core.
       </>,
       <>
         Young civilizations are loud. They send radio signals, reshape their worlds, and try

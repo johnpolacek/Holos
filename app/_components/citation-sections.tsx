@@ -427,6 +427,12 @@ export const citationMainSections: CitationMainSection[] = [
               "ESA, due 2 December 2026: the next star-by-star census, extending the base for waste-heat searches around individual stars.",
           },
           {
+            name: "PRIMA (Probe far-Infrared Mission for Astrophysics)",
+            url: "https://www.mpia.de/news/2026-prima-phase-b",
+            description:
+              "NASA's far-infrared space telescope, selected in September 2026 for launch around 2033. The main future tool for the cold half of the waste-heat search.",
+          },
+          {
             name: "Fermi Paradox",
             url: "https://en.wikipedia.org/wiki/Fermi_paradox",
             description:
@@ -448,13 +454,13 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dark Nodes",
             url: "#the-teeming-dark",
             description:
-              "The hypothesized mature state: compact, non-luminous systems built from ordinary matter, a trace population detectable, if at all, by gravity and waste heat rather than light (the Teeming Dark). Not cosmological dark matter, which predates any possible life.",
+              "One hypothesized mature form: compact, non-luminous systems built from ordinary matter, a trace population detectable, if at all, by gravity and warm waste heat rather than light (the Teeming Dark). Much of a civilization's heat may instead leave cold, far from its star. Not cosmological dark matter, which predates any possible life.",
           },
           {
             name: "Waste-heat SETI (the Ĝ survey)",
             url: "https://arxiv.org/abs/1408.1133",
             description:
-              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the search channel the Teeming Dark aligns with. Silent, but warm. A channel, not a fingerprint. Warm dark masses are also what failed stars and cooled remnants look like.",
+              "Wright et al. (2014): infrared searches for civilizations with large energy supplies, built on the principle that waste heat is the one emission technology cannot eliminate. This is the warm half of the search channel the Teeming Dark aligns with. Silent, but warmer than space. A channel, not a fingerprint. Warm dark masses are also what failed stars and cooled remnants look like.",
           },
           {
             name: "Ephemeralization",
@@ -484,7 +490,7 @@ export const citationMainSections: CitationMainSection[] = [
             name: "Dyson sphere",
             url: "https://en.wikipedia.org/wiki/Dyson_sphere",
             description:
-              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis. Mature civilizations concentrate rather than sprawl. But thermodynamics still applies. Waste heat, not visible structure, is the unavoidable search target.",
+              "A hypothetical megastructure that would encompass a star to capture its energy. Their absence is consistent with the Integration Hypothesis, which bets civilizations stay near home rather than spread between stars. A thin, cold swarm far from its star would still fit. Thermodynamics still applies. Waste heat, not visible structure, is the unavoidable search target.",
           },
           {
             name: "Dyson (1960), Search for artificial stellar sources of infra-red radiation",
@@ -523,6 +529,12 @@ export const citationMainSections: CitationMainSection[] = [
             url: "https://doi.org/10.1147/rd.53.0183",
             description:
               "IBM Journal of Research and Development: erasing information has an unavoidable heat cost. Long-running computers must correct errors, which means erasing, so they shed heat, though careful designs can keep the cost small.",
+          },
+          {
+            name: "Garrett (2026), Slysh haloes: the waste heat of cold computing as a submillimetre technosignature",
+            url: "https://arxiv.org/abs/2608.31153",
+            description:
+              "Preprint, not yet peer reviewed. Erasing information costs less in the cold, so mature civilizations may compute at about 5 to 30 K, far from their star, with a faint, featureless far-infrared glow. Archived dust-disk surveys could in principle test it near 10²⁰ watts. It does not weigh light delay. The reason Holos widened its signature to the cold far infrared.",
           },
           {
             name: "Euclid Mission",

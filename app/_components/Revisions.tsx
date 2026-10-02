@@ -251,6 +251,12 @@ export default function Revisions() {
           fall short of the threshold, as built. They meet aboutness and differentiation but not
           integration or temporal cohesion. A system built differently could cross.
         </li>
+        <li className="leading-relaxed">
+          <strong>Silent, but warm.</strong> Retired: the bet that mature civilizations avoid large
+          cold radiators, and with it the expectation that their heat comes out warm. Erasing
+          information costs less in the cold, so much of the heat may leave in the far infrared.
+          The signature is now heat a star should not have, warm or cold.
+        </li>
       </ul>
     </div>
   );

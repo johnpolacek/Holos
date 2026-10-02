@@ -56,8 +56,8 @@ export default function OntologicalAnchorAnimation({
       <figcaption className="sr-only">
         The Structure and Lived Reality diagram compares two cases side by side. On the left,
         structure outside every observer&apos;s past (unlit) is represented by scattered dashed
-        shapes: existing as pattern, never lived. On the right, structure an observer lives is shown as
-        the same kind of shapes, solid and connected. The Φ symbol in the center represents an
+        shapes: existing as pattern, never lived. On the right, structure an observer lives is shown
+        as the same kind of shapes, solid and connected. The Φ symbol in the center represents an
         observer, where structure is lived. Nothing is selected and nothing is erased.
       </figcaption>
       <svg

@@ -449,8 +449,8 @@ export default function IntegrationHypothesisAnimation({
             <strong>Quiet Phase:</strong> Dense core, directed beams, low emission
           </p>
           <p style={{ margin: "0.5em 0" }}>
-            <strong>What Remains:</strong> Gravity and waste heat, warm or cold. Silent in
-            visible light.
+            <strong>What Remains:</strong> Gravity and waste heat, warm or cold. Silent in visible
+            light.
           </p>
           <p style={{ margin: "1em 0", fontStyle: "italic" }}>
             It did not disappear. It became quiet.
@@ -473,9 +473,9 @@ export default function IntegrationHypothesisAnimation({
         rings. As scale increases, coordination costs rise (shown via lagging tether lines). When
         integration increases, the system contracts into a compact core with suppressed emissions.
         Only rare directional beams appear. Finally, the electromagnetic signature fades, leaving
-        gravitational structure, visible as warped grid lines and lensing arcs, along with waste heat,
-        warm or cold, that no computing system can avoid. The civilization did not disappear. It
-        became quiet.
+        gravitational structure, visible as warped grid lines and lensing arcs, along with waste
+        heat, warm or cold, that no computing system can avoid. The civilization did not disappear.
+        It became quiet.
       </figcaption>
       <svg
         ref={svgRef}

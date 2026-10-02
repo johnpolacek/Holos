@@ -91,8 +91,14 @@ export const evidence: Record<string, EvidenceBlock> = {
     checked: "2026-10-01",
     items: [
       {
+        date: "2026-09",
+        text: "NASA selects PRIMA, a far-infrared space telescope due around 2033. It could see the cold glow of computing far from a star.",
+        href: "https://www.mpia.de/news/2026-prima-phase-b",
+        bearing: "coming",
+      },
+      {
         date: "2026-08",
-        text: "A new paper argues mature civilizations would compute cold, at 5 to 30 K, with waste heat in the far infrared. Existing debris-disk surveys could already test it. This challenges the bet that civilizations avoid large cold radiators.",
+        text: "A preprint argues mature civilizations may compute cold, at about 5 to 30 K, far from their star, with waste heat in the far infrared. Archived dust-disk surveys could in principle test it. Holos widened its signature in response.",
         href: "https://arxiv.org/abs/2608.31153",
         bearing: "open",
       },

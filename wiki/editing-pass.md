@@ -42,4 +42,4 @@ Dated evidence boxes live in `app/_components/evidence-data.ts`. Each block has 
 - "Registers itself" and "totality" appear on other pages. Replace with plain wording (the whole is lived) as each page comes up.
 - Separate thread: AI with real loops, and whether integration is measured at the software or hardware level.
 - Aliens details cut from the Overview with no home yet on Predictions: the 1980s stable-orbit probe searches, the zoo hypothesis (still named in the Fermi table). Consider adding to Predictions #exploration in its pass.
-- Cold computing ("Slysh haloes", arXiv 2608.31153, Aug 2026) argues mature civilizations compute at 5-30 K with large cold radiators, against the Integration Hypothesis bet on avoiding sprawl. Framework question for a separate thread.
+- Cold computing ("Slysh haloes", arXiv 2608.31153, Aug 2026) argues mature civilizations compute at 5-30 K with large cold radiators, against the Integration Hypothesis bet on avoiding sprawl. Resolved 2026-10-01: radiator bet retired, signature widened to warm or cold (see log).

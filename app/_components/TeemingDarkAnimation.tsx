@@ -189,8 +189,8 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
         radio signals into space and listens for a response. The cosmos appears silent: no signals
         detected. Then the perspective shifts: the starfield dims and dark, non-luminous structures
         become visible as geometric, cubist forms. The silence is not proof of emptiness; mature
-        civilizations that no longer shine would be detectable by waste heat and, if massive
-        enough, gravity, not by light.
+        civilizations that no longer shine would be detectable by waste heat and, if massive enough,
+        gravity, not by light.
       </figcaption>
       <svg
         ref={svgRef}

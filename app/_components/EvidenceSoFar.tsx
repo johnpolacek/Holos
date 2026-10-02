@@ -1,4 +1,4 @@
-import { type Bearing, type EvidenceBlock } from "./evidence-data";
+import type { Bearing, EvidenceBlock } from "./evidence-data";
 
 const BEARING_LABEL: Record<Bearing, string> = {
   fits: "fits",
