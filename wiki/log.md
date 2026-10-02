@@ -934,3 +934,11 @@ Keep entries concise and grounded in inspected repo evidence.
 - Revisions: "Silent, but warm" retired. Guardrails: star-level waste heat and Integration Hypothesis assumptions bullets rewritten. Glossary: Integration Hypothesis definition; Dark Node is the warm case; Slysh halo added. editing-pass.md item resolved.
 - Stale, not edited: the lab tour storyboard (tourStoryboard.ts, tourSketches.tsx radiator sketch, wiki/storyboard.md Plate VII, wiki/figures.md O28) still says "Silent, but Warm" and frames the radiator as avoided sprawl. Update if the plate is built.
 - Some of these edits were committed early by a parallel session in dde7e49.
+
+## [2026-10-02] update | In-text figures finished and committed
+
+- Picked up an unfinished figure pass: shared `figures/` specs with inline placement, 48 new figures across Overview, Logic, Predictions, speculation, and Revisions.
+- Six Logic scenes were empty placeholders. Their placements were removed until the scenes exist (see animation-redesign.md).
+- Added `scripts/capture-figure-stills.cjs` and `/lab/stills`. Captured the 48 missing PDF stills and regenerated `public/holos.pdf` (99 pages).
+- Fixed a WebGL context limit: the Overview mounted 31 renderers. They are now created near the screen and released after.
+- Fixed a TypeScript error in `scenes/speculation/vault.ts` and removed a duplicated "Silent, but warm" entry on Revisions.

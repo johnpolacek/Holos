@@ -10,9 +10,7 @@ export default function PDFDocument() {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>
-          Holos: A Framework for Understanding Reality
-        </title>
+        <title>Holos: A Framework for Understanding Reality</title>
         <style>{`
           @font-face {
             font-family: 'Bitter';
@@ -311,9 +309,7 @@ export default function PDFDocument() {
               </svg>
               <span>Holos</span>
             </div>
-            <h1 className="title-main">
-              Holos: A Framework for Understanding Reality
-            </h1>
+            <h1 className="title-main">Holos: A Framework for Understanding Reality</h1>
           </div>
         </div>
 
@@ -345,12 +341,12 @@ export default function PDFDocument() {
 
         <div id="logic" className="section-break">
           <h1>Logic</h1>
-          <Logic />
+          <Logic isPDF={true} />
         </div>
 
         <div id="predictions" className="section-break">
           <h1>Predictions</h1>
-          <Predictions />
+          <Predictions isPDF={true} />
         </div>
 
         <div id="citations" className="section-break">
@@ -360,7 +356,7 @@ export default function PDFDocument() {
 
         <div id="revisions" className="section-break">
           <h1>Revisions</h1>
-          <Revisions />
+          <Revisions isPDF={true} />
         </div>
       </body>
     </html>

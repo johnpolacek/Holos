@@ -1,19 +1,23 @@
 import type React from "react";
 import { Fragment } from "react";
-import ApertureFigure from "./ApertureFigure";
-import ClosureFigure from "./ClosureFigure";
 import { sections } from "./content-data";
-import EraserFigure from "./EraserFigure";
 import EvidenceSoFar from "./EvidenceSoFar";
 import { evidence } from "./evidence-data";
+import { hasInline, inlineAt } from "./figures";
+import { InlineFigure } from "./figures/SpecFigure";
 import HolosAnimation from "./HolosAnimation";
 import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
-import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
-import LitFigure from "./LitFigure";
-import OmegaFigure, { OMEGA_FIGURES } from "./OmegaFigures";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import Section from "./Section";
 import TeemingDarkAnimation from "./TeemingDarkAnimation";
+
+// Older section-level animations, shown only until a section has inline figures of its own.
+const LEGACY: Record<string, React.ComponentType<{ isPDF?: boolean }>> = {
+  introduction: HolosAnimation,
+  aliens: IntegrationHypothesisAnimation,
+  "the-teeming-dark": TeemingDarkAnimation,
+  why: OntologicalAnchorAnimation,
+};
 
 interface ContentProps {
   isPDF?: boolean;
@@ -49,30 +53,30 @@ export default function Content({ isPDF = false }: ContentProps) {
             ) : (
               <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
             );
-            // Some sections place figures inline, right after the paragraph they illustrate.
-            if (section.id === "omega-point" && OMEGA_FIGURES[pIndex]) {
+            // Figures sit inline, right after the paragraph they illustrate.
+            const figures = inlineAt(section.id, pIndex);
+            if (figures.length) {
               return (
                 <Fragment key={`${section.id}-p-${pIndex}`}>
                   {body}
-                  <OmegaFigure index={pIndex} isPDF={isPDF} />
+                  {figures.map((entry, i) => (
+                    <InlineFigure
+                      key={`${section.id}-f-${pIndex}-${i}`}
+                      entry={entry}
+                      isPDF={isPDF}
+                    />
+                  ))}
                 </Fragment>
               );
             }
             return body;
           })}
-          {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
-          {section.id === "consciousness" && <ApertureFigure isPDF={isPDF} />}
-          {section.id === "spacetime" && (
-            <>
-              <InvarianceWarpAnimation isPDF={isPDF} />
-              <LitFigure isPDF={isPDF} />
-              <EraserFigure isPDF={isPDF} />
-            </>
-          )}
-          {section.id === "infinity" && <ClosureFigure isPDF={isPDF} />}
-          {section.id === "aliens" && <IntegrationHypothesisAnimation isPDF={isPDF} />}
-          {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
-          {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
+          {!hasInline(section.id) &&
+            LEGACY[section.id] &&
+            (() => {
+              const Legacy = LEGACY[section.id];
+              return <Legacy isPDF={isPDF} />;
+            })()}
           {evidence[section.id] && <EvidenceSoFar block={evidence[section.id]} />}
         </Section>
       ))}

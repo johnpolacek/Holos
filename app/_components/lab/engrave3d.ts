@@ -215,6 +215,8 @@ export class Engraver {
   dispose() {
     this.rt.dispose();
     this.renderer.dispose();
+    // Free the context now, not at garbage collection: browsers cap live WebGL contexts.
+    this.renderer.forceContextLoss();
   }
 }
 

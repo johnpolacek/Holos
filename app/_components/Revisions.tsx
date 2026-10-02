@@ -1,10 +1,14 @@
-export default function Revisions() {
+import { SPECS } from "./figures/revisions";
+import SpecFigure from "./figures/SpecFigure";
+
+export default function Revisions({ isPDF = false }: { isPDF?: boolean } = {}) {
   return (
     <div className="flex flex-col gap-4 text-black/80">
       <p className="leading-relaxed">
         Holos is written in public and revised when it is wrong. These claims appeared in earlier
         versions and have been retired or replaced, each for a stated reason, oldest first.
       </p>
+      <SpecFigure spec={SPECS.timeline} isPDF={isPDF} />
 
       <ul className="flex flex-col gap-3 pl-6 list-disc">
         <li className="leading-relaxed">
@@ -254,14 +258,8 @@ export default function Revisions() {
         <li className="leading-relaxed">
           <strong>Silent, but warm.</strong> Retired: the bet that mature civilizations avoid large
           cold radiators, and with it the expectation that their heat comes out warm. Erasing
-          information costs less in the cold, so much of the heat may leave in the far infrared.
-          The signature is now heat a star should not have, warm or cold.
-        </li>
-        <li className="leading-relaxed">
-          <strong>Silent, but warm.</strong> Retired: the bet that mature civilizations avoid large
-          cold radiators, and with it the expectation that their heat comes out warm. Erasing
-          information costs less in the cold, so much of the heat may leave in the far infrared.
-          The signature is now heat a star should not have, warm or cold.
+          information costs less in the cold, so much of the heat may leave in the far infrared. The
+          signature is now heat a star should not have, warm or cold.
         </li>
       </ul>
     </div>

@@ -1,12 +1,15 @@
 import { FootnoteLink, logicCitationMap } from "./citation-sections";
 import FormulaAnatomy from "./FormulaAnatomy";
+import { SPECS as LOGIC } from "./figures/logic";
+import { SPECS as LOGIC2 } from "./figures/logic2";
+import SpecFigure from "./figures/SpecFigure";
 import InterpretiveComparisonTable from "./InterpretiveComparisonTable";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 import MindComparisonTable from "./MindComparisonTable";
 import SelfComparisonTable from "./SelfComparisonTable";
 
-export default function Logic() {
+export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
       {/* Claims */}
@@ -67,10 +70,11 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Companion ideas, not core:</strong> The Integration Hypothesis (mature
-              civilizations stay near home, grow efficient, and go quiet) and the Teeming Dark (a silent sky
-              may still hold abundant life). If they fail, the core stands.
+              civilizations stay near home, grow efficient, and go quiet) and the Teeming Dark (a
+              silent sky may still hold abundant life). If they fail, the core stands.
             </li>
           </ul>
+          <SpecFigure spec={LOGIC.claims} isPDF={isPDF} />
         </div>
       </section>
       {/* Primitives */}
@@ -272,6 +276,7 @@ export default function Logic() {
             ). Everything else on this page is a definition, follows from these axioms, or is marked
             as a side taken, as open, as a hypothesis, or as a companion idea.
           </p>
+          <SpecFigure spec={LOGIC.axioms} isPDF={isPDF} />
 
           {/* Axiom 1 */}
           <div className="flex flex-col gap-3">
@@ -1189,6 +1194,7 @@ export default function Logic() {
               the aperture receiving a feed. The aperture is where the experiencing happens, not a
               window onto a viewer.
             </p>
+            <SpecFigure spec={LOGIC2.EYES} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               Whatever lies outside the causal past of every aperture, whole unlit branches among
@@ -1259,6 +1265,7 @@ export default function Logic() {
               half can know things the other does not. One brain holds two walled-off streams. Holos
               says the same of every self.
             </p>
+            <SpecFigure spec={LOGIC2.WALLS} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               Nor is the oneness a label doing no work, though its work must be stated carefully,
@@ -1376,6 +1383,7 @@ export default function Logic() {
               records of field interactions, which is why a continuous theory can yield discrete
               observations without requiring reality to be made of little beads.
             </p>
+            <SpecFigure spec={LOGIC2.DECOHERENCE} isPDF={isPDF} />
           </div>
 
           <div className="flex flex-col gap-3">
@@ -1480,6 +1488,7 @@ export default function Logic() {
               length, and a short stretch has as many points as a long one, yet the short stretch is
               shorter. Each observer is a point. The weights are the lengths.
             </p>
+            <SpecFigure spec={LOGIC2.BORN} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               Ruling out counting does not by itself pick the replacement. Every region of a
@@ -1716,6 +1725,7 @@ export default function Logic() {
           gravity version has been ruled out. The table below shows where Holos aligns with, and
           diverges from, each.
         </p>
+        <SpecFigure spec={LOGIC2.INTERPRETATIONS} isPDF={isPDF} />
         <InterpretiveComparisonTable />
       </div>
       <div id="mind-comparison">
@@ -1819,6 +1829,7 @@ export default function Logic() {
               directly. Locating <MathInline>{"\\Phi_c"}</MathInline> is that kind of problem, not a
               metaphysical one.
             </p>
+            <SpecFigure spec={LOGIC2.FINGERPRINTS} isPDF={isPDF} />
             <p className="leading-relaxed">
               The fingerprints are already being measured, but they must be read with care. Several
               lines of evidence suggest that waking cortex runs near a critical point, a tipping

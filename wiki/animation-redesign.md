@@ -74,6 +74,14 @@ Lab sections: A flat plate with faster engraving, B flat plate with camera zoom,
 - Stage stops use `timeline.addPause(time, callback)`; the countdown is a separate GSAP tween on the ring's `stroke-dashoffset` whose `onComplete` continues.
 - Rendering runs on `gsap.ticker`; an IntersectionObserver pauses offscreen; reduced motion renders one finished frame.
 
+## In-text figure system (2026-10-02)
+
+- Specs live in `app/_components/figures/` (one file per group). Overview groups export `INLINE` (section id, then paragraph index, then figures shown after that paragraph). Logic, Predictions, speculation, and Revisions export `SPECS`, placed with `<SpecFigure spec={...} isPDF={isPDF} />`. Scenes live in `app/_components/lab/scenes/` and register in `lab/scenes3d.ts`.
+- A section with inline figures hides its old section-level animation (`LEGACY` in `Content.tsx`). Only "Why are we here?" still shows an old one.
+- PDF stills: `public/figures/<still>`, captured at the last stage by `node scripts/capture-figure-stills.cjs` (missing only) or `--all`, with the dev server running. It renders one figure per page via `/lab/stills?i=N` with reduced motion. `figures/all.ts` lists every spec.
+- Renderers are lazy. `Plate3D` takes `active`, and `EngravedFigure` sets it within half a screen of view. A figure gets a fresh canvas and context when active and frees it (`forceContextLoss`) when not. The scene and timeline persist. The Overview has 31 figures, and Chrome caps live contexts at 16.
+- Not built yet: six Logic scenes are empty placeholders (`logic2/selves`, `pipeline`, `minds`, `measure`, `criticality`, `calibration`). Their specs and captions are written in `figures/logic2.tsx` but not placed on the page. Build the scene, place the figure, capture its still.
+
 ## Gotchas learned
 
 - **Moving SVG dots paint stale in Chrome.** A small `<circle>` (or zero-length path) moved every frame can stay painted at an old position. Draw label anchor dots as a `marker-start` on the leader line (done in `Plate3D`; `EraserScene3D` still uses circles).

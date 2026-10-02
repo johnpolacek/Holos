@@ -1,30 +1,8 @@
-import { existsSync, readFileSync } from "node:fs";
-import path from "node:path";
-import EngravedFigure, { type FigureStage } from "./EngravedFigure";
+import type { FigureSpec, InlineMap } from "./types";
 
 // The Omega section's figures, each placed after the paragraph it illustrates.
 
-type Spec = { scene: string; still: string; label: string; stages: FigureStage[] };
-
-function Figure({ spec, isPDF }: { spec: Spec; isPDF: boolean }) {
-  if (isPDF) {
-    const file = path.join(process.cwd(), "public/figures", spec.still);
-    if (!existsSync(file)) return null;
-    // The PDF is rendered from an HTML string with no base URL, so the still is inlined.
-    return (
-      <figure style={{ margin: "2em 0 1em" }}>
-        <img
-          src={`data:image/png;base64,${readFileSync(file).toString("base64")}`}
-          alt={spec.label}
-          style={{ width: "100%", border: "1px solid rgba(0,0,0,0.1)" }}
-        />
-      </figure>
-    );
-  }
-  return <EngravedFigure scene={spec.scene} stages={spec.stages} label={spec.label} />;
-}
-
-const WHOLE: Spec = {
+const WHOLE: FigureSpec = {
   scene: "omegaWhole",
   still: "omega-whole.png",
   label:
@@ -56,7 +34,7 @@ const WHOLE: Spec = {
   ],
 };
 
-const GALLERY: Spec = {
+const GALLERY: FigureSpec = {
   scene: "gallery",
   still: "omega-gallery.png",
   label:
@@ -83,7 +61,7 @@ const GALLERY: Spec = {
   ],
 };
 
-const COPIES: Spec = {
+const COPIES: FigureSpec = {
   scene: "copies",
   still: "omega-copies.png",
   label:
@@ -103,7 +81,7 @@ const COPIES: Spec = {
   ],
 };
 
-const LINEAGE: Spec = {
+const LINEAGE: FigureSpec = {
   scene: "lineage",
   still: "omega-lineage.png",
   label:
@@ -132,10 +110,6 @@ const LINEAGE: Spec = {
   ],
 };
 
-// Paragraph index in the Omega section → the figure that follows it.
-export const OMEGA_FIGURES: Record<number, Spec> = { 0: WHOLE, 1: GALLERY, 2: COPIES, 4: LINEAGE };
-
-export default function OmegaFigure({ index, isPDF = false }: { index: number; isPDF?: boolean }) {
-  const spec = OMEGA_FIGURES[index];
-  return spec ? <Figure spec={spec} isPDF={isPDF} /> : null;
-}
+export const INLINE: InlineMap = {
+  "omega-point": { 0: [WHOLE], 1: [GALLERY], 2: [COPIES], 4: [LINEAGE] },
+};

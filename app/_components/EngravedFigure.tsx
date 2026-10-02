@@ -37,6 +37,7 @@ export default function EngravedFigure({
   const [playing, setPlaying] = useState(true);
   const [reduce, setReduce] = useState(false);
   const [nonce, setNonce] = useState(0);
+  const [near, setNear] = useState(false);
   const run = useRef({ playing: true, visible: false });
 
   const sync = useCallback(() => {
@@ -47,6 +48,17 @@ export default function EngravedFigure({
 
   const next = useCallback(() => setStage((i) => (i + 1) % stages.length), [stages.length]);
   const prev = useCallback(() => setStage((i) => Math.max(0, i - 1)), []);
+
+  // Hold a renderer only within half a screen of view.
+  useEffect(() => {
+    const wrap = wrapRef.current;
+    if (!wrap) return;
+    const io = new IntersectionObserver(([e]) => setNear(e.isIntersecting), {
+      rootMargin: "50% 0px",
+    });
+    io.observe(wrap);
+    return () => io.disconnect();
+  }, []);
 
   // Start on first sight; pause whenever the figure leaves the screen.
   useEffect(() => {
@@ -117,7 +129,7 @@ export default function EngravedFigure({
     <figure ref={wrapRef} className="plate-figure engraved-figure">
       <div className="engraved-figure-frame">
         <div className="engraved-figure-stage" role="img" aria-label={label}>
-          <Plate3D ref={plate} />
+          <Plate3D ref={plate} active={near} />
         </div>
         {/* The caption sits in a band joined to the drawing, so it never covers it. */}
         <div className="scene3d-card" aria-live="polite">

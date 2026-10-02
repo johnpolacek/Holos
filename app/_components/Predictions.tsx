@@ -1,10 +1,13 @@
 import { FootnoteLink, predictionsCitationMap } from "./citation-sections";
 import EvidenceSoFar from "./EvidenceSoFar";
 import { evidence } from "./evidence-data";
+import { SPECS as PRED } from "./figures/predictions";
+import SpecFigure from "./figures/SpecFigure";
+import { SPECS as SPEC } from "./figures/speculation";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 
-export default function Predictions() {
+export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {}) {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
       {/* Introduction */}
@@ -60,6 +63,7 @@ export default function Predictions() {
               long timescales, stated with explicit alternatives rather than predictions.
             </li>
           </ul>
+          <SpecFigure spec={PRED.claims} isPDF={isPDF} />
 
           <p className="leading-relaxed text-black/70 text-sm">
             For the definitions and the observer requirements, see{" "}
@@ -155,6 +159,7 @@ export default function Predictions() {
                 </li>
               </ul>
             </div>
+            <SpecFigure spec={PRED.rulesOut} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               Anthropic principles (we should not be surprised to find ourselves in a universe that
@@ -312,6 +317,7 @@ export default function Predictions() {
               Registered facts are relative to observers. Structural facts are absolute. Observers
               who compare records agree.
             </blockquote>
+            <SpecFigure spec={PRED.twoLayers} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               Apparent collapse (the way a measurement seems to pick out one outcome) is therefore
@@ -390,6 +396,7 @@ export default function Predictions() {
             sits a standing bet, stated after them, on the physics Holos adopts, with the version of
             Holos a loss would leave declared in advance.
           </p>
+          <SpecFigure spec={PRED.testability} isPDF={isPDF} />
         </div>
       </section>
 
@@ -1022,6 +1029,7 @@ export default function Predictions() {
             coherent (coordinated as a single whole) rewards compactness, keeping things close, and
             stability over long spans of time.
           </p>
+          <SpecFigure spec={SPEC.lightLag} isPDF={isPDF} />
 
           {/* Holosian Scale */}
           <div className="flex flex-col gap-4">
@@ -1104,6 +1112,7 @@ export default function Predictions() {
               assumption is the weak link. A civilization that never learns to coordinate stays at
               H0, loud until it ends.
             </p>
+            <SpecFigure spec={SPEC.scale} isPDF={isPDF} />
           </div>
 
           {/* 3) Structures */}
@@ -1137,8 +1146,8 @@ export default function Predictions() {
               </p>
 
               <p className="leading-relaxed">
-                The likeliest energy backbone for a civilization that stays home is its home star, harvested
-                by nearby collectors (see{" "}
+                The likeliest energy backbone for a civilization that stays home is its home star,
+                harvested by nearby collectors (see{" "}
                 <a href="/#aliens" className="underline hover:no-underline">
                   Aliens
                 </a>
@@ -1201,6 +1210,7 @@ export default function Predictions() {
                 mass. A civilization that prizes compactness would prize the densest energy source
                 physics allows.
               </p>
+              <SpecFigure spec={SPEC.holocore} isPDF={isPDF} />
             </div>
 
             {/* 2) Computronium Kernel */}
@@ -1254,6 +1264,7 @@ export default function Predictions() {
                 </a>
                 ). The Kernel is the part that must think fast.
               </p>
+              <SpecFigure spec={SPEC.kernel} isPDF={isPDF} />
             </div>
 
             {/* 3) Chrono Vault */}

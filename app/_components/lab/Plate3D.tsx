@@ -28,9 +28,14 @@ export type Plate3DHandle = {
   play: (chapterId: string, stop: number, tl: gsap.core.Timeline, reduce: boolean) => void;
 };
 
-const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
+// `active` holds a renderer only while the figure is near the screen. Browsers cap live
+// WebGL contexts (Chrome at 16), and a long page can carry dozens of figures. The scene and
+// its timeline outlive the renderer, so a figure picks up where it was.
+const Plate3D = forwardRef<Plate3DHandle, { active?: boolean }>(function Plate3D(
+  { active = true },
+  ref
+) {
   const wrapRef = useRef<HTMLDivElement>(null);
-  const canvasRef = useRef<HTMLCanvasElement>(null);
   const labelsRef = useRef<SVGSVGElement>(null);
   const captionRef = useRef<HTMLDivElement>(null);
   const engraver = useRef<Engraver | null>(null);
@@ -71,12 +76,15 @@ const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
 
   useIsoLayoutEffect(() => {
     const wrap = wrapRef.current;
-    const canvas = canvasRef.current;
-    if (!wrap || !canvas) return;
+    if (!wrap || !active) return;
+    // A lost context cannot be revived on the same canvas, so each activation gets a new one.
+    const canvas = document.createElement("canvas");
+    wrap.prepend(canvas);
     let eng: Engraver;
     try {
       eng = new Engraver(canvas);
     } catch {
+      canvas.remove();
       setFailed(true);
       return;
     }
@@ -140,16 +148,23 @@ const Plate3D = forwardRef<Plate3DHandle>(function Plate3D(_props, ref) {
     return () => {
       gsap.ticker.remove(tick);
       ro.disconnect();
-      if (built.current) disposeScene(built.current.scene);
-      built.current = null;
       eng.dispose();
+      canvas.remove();
       engraver.current = null;
     };
-  }, []);
+  }, [active]);
+
+  // The scene itself goes only when the figure unmounts.
+  useEffect(
+    () => () => {
+      if (built.current) disposeScene(built.current.scene);
+      built.current = null;
+    },
+    []
+  );
 
   return (
     <div ref={wrapRef} className="plate3d-scene">
-      <canvas ref={canvasRef} />
       <svg ref={labelsRef} className="scene3d-labels" aria-hidden="true">
         {/* The anchor dot rides on the leader line: Chrome can leave a separately moved dot painted stale. */}
         <defs>
