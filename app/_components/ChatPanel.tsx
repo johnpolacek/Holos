@@ -15,7 +15,13 @@ const STORAGE_KEY = "holos-chat";
 const MAX_CHARS = 600;
 
 // Phrased to match canned answers, so trying them costs nothing.
-const STARTERS = ["What is Holos?", "Is AI conscious?", "What is Omega?", "Where are the aliens?"];
+const STARTERS = [
+  "What is Holos?",
+  "Is AI conscious?",
+  "What is Omega?",
+  "Where are the aliens?",
+  "Why are we here?",
+];
 
 type Status = { verified: boolean; state: "open" | "closed" | "visitor-limit" };
 
