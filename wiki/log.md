@@ -963,3 +963,8 @@ Keep entries concise and grounded in inspected repo evidence.
 - `/api/pdf` had returned 500 since about 2026-01-21. The route renders on the server and cannot render client components, and MathInline and MathDisplay were client components (KaTeX in useEffect).
 - Math now renders to KaTeX HTML on the server (`katex.renderToString`), so the site shows it without a flash of raw TeX. The KaTeX stylesheet loads in the root layout. The PDF step skips math that is already rendered.
 - The eraser figure's PDF version is now a still (`public/figures/eraser-plate.png`) through the shared `PDFStill`, not the client-only plate component.
+
+## [2026-10-04] ingest | Ask chat
+
+- Added an Ask chat that answers from the site text: Sonnet 5.5 through the Vercel AI Gateway, canned answers for common questions, Turnstile, a $1 daily budget, a 1-hour prompt cache, transcripts and usage on R2.
+- New page [chat.md](chat.md).

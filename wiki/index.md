@@ -25,6 +25,7 @@ At bootstrap, the inspected repo shows Holos as a Next.js content site for the H
 - [animation-redesign.md](animation-redesign.md) - engraved-plate animation redesign: locked style, the `/lab` prototypes (flat, camera, 3D line render), the stepped-story pattern, the guided-tour plan, and verification gotchas
 - [figures.md](figures.md) - the figure list for approval: every page and section, replacements and new engraved figures, status, rules, build order ([figures-logic.md](figures-logic.md) and [figures-predictions.md](figures-predictions.md) hold full stage captions)
 - [redesigns.md](redesigns.md) - four site redesign prototypes at `/lab/redesign` (Monograph, Nocturne, Atlas, Ledger): briefs, shared contract, shared helpers
+- [chat.md](chat.md) - the Ask chat: button and panel, API route, canned answers, $1 daily budget, 1-hour cache, R2 storage, env vars, model choice
 - [storyboard.md](storyboard.md) - tour storyboard: eight Overview chapters with plate metaphor, stops, narration, shared visual vocabulary, and faithfulness flags
 
 ## Current Catalog State
