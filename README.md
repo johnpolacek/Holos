@@ -1,6 +1,6 @@
 # Holos: A Framework for Understanding Reality
 
-**[whatisholos.vercel.app](https://whatisholos.vercel.app)**
+**[whatisholos.com](https://whatisholos.com)**
 
 We live in a universe described with extraordinary precision, yet filled with mystery. Physics tells us how matter moves, how spacetime bends, and how probabilities evolve, but *what does it mean to be real?*
 

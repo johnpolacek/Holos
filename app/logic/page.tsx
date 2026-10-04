@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A formal mathematical and philosophical structure defining Holos (⊛) through primitive definitions, axioms, and foundational propositions.",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/logic`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.com"}/logic`,
   },
   openGraph: {
     title: "Holos (⊛) – Logic – Primitive Definitions, Axioms and Foundations",
     description:
       "A formal mathematical and philosophical structure defining Holos (⊛) through primitive definitions, axioms, and foundational propositions.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/logic`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.com"}/logic`,
     siteName: "Holos: A Framework for Understanding Reality",
     type: "website",
   },

@@ -15,7 +15,7 @@ const fell = IM_Fell_English({
   variable: "--font-fell",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.com";
 
 export const metadata: Metadata = {
   title: "Holos: A Framework for Understanding Reality",
