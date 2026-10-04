@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import ChatLauncher from "./ChatLauncher";
 import Footer from "./Footer";
 import Header from "./Header";
 import PageTransition from "./PageTransition";
@@ -16,6 +17,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
       <div className="absolute top-0 left-0 w-12 h-full bg-gradient-to-r from-white to-transparent z-20 pointer-events-none"></div>
       <div className="absolute top-0 right-0 w-24 h-full bg-gradient-to-l from-white to-transparent z-20 pointer-events-none"></div>
       <Sidebar />
+      <ChatLauncher />
       <div className="grow h-full overflow-auto">
         <Header />
         <PageTransition>

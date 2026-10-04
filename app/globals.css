@@ -646,3 +646,10 @@ nav a:hover {
 .chat-answer strong {
   font-weight: 600;
 }
+
+/* The full-screen mobile menu covers the page, so the chat button steps aside */
+@media (max-width: 1279px) {
+  html[data-menu-open="true"] .chat-launcher {
+    display: none;
+  }
+}
