@@ -623,3 +623,26 @@ nav a:hover {
   opacity: 1;
   transition: opacity 0.35s ease 0.3s;
 }
+
+/* Chat answers: compact Markdown inside the chat panel */
+.chat-answer p + p,
+.chat-answer p + ul,
+.chat-answer ul + p {
+  margin-top: 0.6em;
+}
+.chat-answer ul {
+  list-style: disc;
+  padding-left: 1.2em;
+}
+.chat-answer li + li {
+  margin-top: 0.25em;
+}
+.chat-answer a {
+  border-bottom: 1px solid rgb(0 0 0 / 0.3);
+}
+.chat-answer a:hover {
+  border-bottom-color: rgb(0 0 0 / 0.8);
+}
+.chat-answer strong {
+  font-weight: 600;
+}

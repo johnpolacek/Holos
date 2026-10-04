@@ -14,6 +14,8 @@ const nextConfig = {
         // The PDF inlines each figure's still, read from disk.
         "./public/figures/**",
       ],
+      // The chat route reads the site text from disk.
+      "/api/chat": ["./lib/chat/corpus.txt"],
     },
   },
 };

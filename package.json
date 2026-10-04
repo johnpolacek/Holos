@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm run build:pdf && next build",
+    "build": "pnpm run build:pdf && pnpm run build:corpus && next build",
+    "build:corpus": "tsx scripts/generate-corpus.ts",
     "build:pdf": "tsx scripts/generate-pdf.ts",
     "build:pdf:serverless": "VERCEL=true tsx scripts/generate-pdf.ts",
     "build:next": "next build",
@@ -20,10 +21,13 @@
     "go": "pnpm build:pdf && git add . && aic && git pom"
   },
   "dependencies": {
+    "@ai-sdk/react": "^4.0.130",
+    "@aws-sdk/client-s3": "^3.1146.0",
     "@biomejs/biome": "^2.3.11",
     "@sparticuz/chromium": "^143.0.4",
     "@types/puppeteer": "^7.0.4",
     "@vercel/analytics": "^1.3.1",
+    "ai": "^7.0.127",
     "gsap": "^3.14.2",
     "katex": "^0.16.27",
     "lucide-react": "^0.562.0",
@@ -36,7 +40,8 @@
     "react-markdown": "^10.1.0",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
-    "three": "^0.186.1"
+    "three": "^0.186.1",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@types/node": "^20",

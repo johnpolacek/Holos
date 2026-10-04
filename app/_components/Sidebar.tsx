@@ -1,12 +1,17 @@
 "use client";
-import { Download, MenuIcon } from "lucide-react";
+import { Download, MenuIcon, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { logicSubsections, predictionsSubsections, theorySubsections } from "../../lib/navigation";
+import ChatPanel from "./ChatPanel";
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  // The panel mounts on first open, so the captcha script loads only for people who chat.
+  const [chatMounted, setChatMounted] = useState(false);
+  const [isChatOpen, setIsChatOpen] = useState(false);
+  const closeChat = useCallback(() => setIsChatOpen(false), []);
   const pathname = usePathname();
 
   // Check if we're on the theory page (home page)
@@ -155,7 +160,18 @@ export default function Sidebar() {
               </Link>
             </li>
           </ol>
-          <div className="w-full flex justify-center pb-8 px-8 xl:px-4 mb-2">
+          <div className="w-full flex justify-center gap-2 pb-8 px-8 xl:px-4 mb-2">
+            <button
+              type="button"
+              onClick={() => {
+                setChatMounted(true);
+                setIsChatOpen(true);
+              }}
+              className="text-xs border border-black/40 px-4 py-2 rounded transition-all flex items-center gap-1.5 opacity-80 hover:opacity-100 hover:scale-[1.03] active:scale-[0.98]"
+            >
+              <MessageCircle size={12} aria-hidden="true" />
+              Ask
+            </button>
             <button
               type="button"
               onClick={(e) => {
@@ -170,6 +186,7 @@ export default function Sidebar() {
           </div>
         </nav>
       </aside>
+      {chatMounted && <ChatPanel open={isChatOpen} onClose={closeChat} />}
     </>
   );
 }
