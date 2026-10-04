@@ -2,6 +2,7 @@ import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Bitter, IM_Fell_English } from "next/font/google";
 import Script from "next/script";
+import "katex/dist/katex.min.css";
 import "./globals.css";
 
 const bitter = Bitter({ subsets: ["latin"] });

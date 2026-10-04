@@ -957,3 +957,9 @@ Keep entries concise and grounded in inspected repo evidence.
 - Captions checked against the passages; the Test A loss condition follows the page (reports from times when both gauges sat below their cutoffs).
 - The PDF build now waits for load and fonts instead of networkidle0, which stopped firing once the inlined stills passed a few megabytes.
 - Known open issue: the on-demand `/api/pdf` route returns 500 (a client component rendered on the server). Nothing links to it; the site serves the prebuilt PDF.
+
+## [2026-10-03] fix | On-demand PDF route works again
+
+- `/api/pdf` had returned 500 since about 2026-01-21. The route renders on the server and cannot render client components, and MathInline and MathDisplay were client components (KaTeX in useEffect).
+- Math now renders to KaTeX HTML on the server (`katex.renderToString`), so the site shows it without a flash of raw TeX. The KaTeX stylesheet loads in the root layout. The PDF step skips math that is already rendered.
+- The eraser figure's PDF version is now a still (`public/figures/eraser-plate.png`) through the shared `PDFStill`, not the client-only plate component.

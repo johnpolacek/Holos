@@ -1,38 +1,14 @@
-"use client";
-
 import katex from "katex";
 import type React from "react";
-import { useEffect, useRef } from "react";
 
-// Only import CSS in browser environment
-if (typeof window !== "undefined") {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  require("katex/dist/katex.min.css");
-}
-
-interface MathDisplayProps {
-  children: React.ReactNode;
-}
-
-export default function MathDisplay({ children }: MathDisplayProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const mathContent = typeof children === "string" ? children : String(children);
-
-  useEffect(() => {
-    if (containerRef.current) {
-      katex.render(mathContent, containerRef.current, {
-        displayMode: true,
-        throwOnError: false,
-      });
-    }
-  }, [mathContent]);
-
+// Display math, rendered to KaTeX HTML on the server (see MathInline).
+export default function MathDisplay({ children }: { children: React.ReactNode }) {
+  const tex = typeof children === "string" ? children : String(children);
+  const html = katex.renderToString(tex, { displayMode: true, throwOnError: false });
   return (
     <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
-      {/* Include math content as text for SSR/PDF generation, will be replaced by KaTeX on client */}
-      <div ref={containerRef} className="math-display">
-        {mathContent}
-      </div>
+      {/* biome-ignore lint/security/noDangerouslySetInnerHtml: KaTeX output for author-written TeX */}
+      <div className="math-display" dangerouslySetInnerHTML={{ __html: html }} />
     </div>
   );
 }

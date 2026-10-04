@@ -130,6 +130,8 @@ async function preparePageContent(page: any) {
 
     // Render display math
     document.querySelectorAll(".math-display").forEach((element) => {
+      // Math is usually rendered on the server already; only render what is still raw TeX.
+      if (element.querySelector(".katex")) return;
       const text = element.textContent?.trim() || "";
       if (text) {
         try {
@@ -142,6 +144,8 @@ async function preparePageContent(page: any) {
 
     // Render inline math
     document.querySelectorAll(".math-inline").forEach((element) => {
+      // Math is usually rendered on the server already; only render what is still raw TeX.
+      if (element.querySelector(".katex")) return;
       const text = element.textContent?.trim() || "";
       if (text) {
         try {

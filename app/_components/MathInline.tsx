@@ -1,36 +1,12 @@
-"use client";
-
 import katex from "katex";
 import type React from "react";
-import { useEffect, useRef } from "react";
 
-// Only import CSS in browser environment
-if (typeof window !== "undefined") {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  require("katex/dist/katex.min.css");
-}
-
-interface MathInlineProps {
-  children: React.ReactNode;
-}
-
-export default function MathInline({ children }: MathInlineProps) {
-  const containerRef = useRef<HTMLSpanElement>(null);
-  const mathContent = typeof children === "string" ? children : String(children);
-
-  useEffect(() => {
-    if (containerRef.current) {
-      katex.render(mathContent, containerRef.current, {
-        displayMode: false,
-        throwOnError: false,
-      });
-    }
-  }, [mathContent]);
-
-  // Include math content as text for SSR/PDF generation, will be replaced by KaTeX on client
-  return (
-    <span ref={containerRef} className="math-inline">
-      {mathContent}
-    </span>
-  );
+// Inline math, rendered to KaTeX HTML on the server. No client code, so it renders the same
+// on the site, in the build-time PDF, and in the on-demand PDF route. KaTeX's stylesheet is
+// loaded once in the root layout (and by URL in the PDF document).
+export default function MathInline({ children }: { children: React.ReactNode }) {
+  const tex = typeof children === "string" ? children : String(children);
+  const html = katex.renderToString(tex, { displayMode: false, throwOnError: false });
+  // biome-ignore lint/security/noDangerouslySetInnerHtml: KaTeX output for author-written TeX
+  return <span className="math-inline" dangerouslySetInnerHTML={{ __html: html }} />;
 }
