@@ -10,7 +10,6 @@ const nextConfig = {
     serverComponentsExternalPackages: ["@sparticuz/chromium", "puppeteer-core"],
     outputFileTracingIncludes: {
       "/api/pdf": [
-        "./node_modules/@sparticuz/chromium/bin/**",
         "./node_modules/.pnpm/@sparticuz+chromium@*/node_modules/@sparticuz/chromium/bin/**",
         // The PDF inlines each figure's still, read from disk.
         "./public/figures/**",
