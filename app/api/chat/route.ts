@@ -9,6 +9,7 @@ import {
   type UIMessageStreamWriter,
 } from "ai";
 import { matchCanned } from "@/lib/chat/canned";
+import { missingConfig } from "@/lib/chat/config";
 import { checkLimit, release, reserve, settle, visitorId } from "@/lib/chat/limits";
 import { instructions } from "@/lib/chat/prompt";
 import { gateInput, MAX_INPUT_CHARS } from "@/lib/chat/quality";
@@ -25,11 +26,17 @@ const json = (body: unknown, status = 200) => Response.json(body, { status });
 
 /** Lets the panel know, before anyone types, whether a captcha is needed and whether chat is open. */
 export async function GET(req: Request) {
+  if (missingConfig().length) return json({ verified: false, state: "closed" });
   const state = await checkLimit(visitorId(req));
   return json({ verified: hasSession(req), state });
 }
 
 export async function POST(req: Request) {
+  const missing = missingConfig();
+  if (missing.length) {
+    console.error("[chat] missing env vars:", missing.join(", "));
+    return json({ error: "closed" }, 503);
+  }
   const body = (await req.json().catch(() => null)) as {
     id?: string;
     text?: string;
