@@ -53,8 +53,22 @@ export function measure(narrow = false): Built3D {
     V(0, 1.75, 0.8),
   ];
   const aLinks: [number, number][] = [
-    [0, 1], [0, 2], [0, 4], [0, 5], [1, 3], [2, 3], [1, 2], [4, 5], [1, 4], [2, 5],
-    [3, 4], [3, 5], [6, 1], [6, 2], [6, 0], [6, 3],
+    [0, 1],
+    [0, 2],
+    [0, 4],
+    [0, 5],
+    [1, 3],
+    [2, 3],
+    [1, 2],
+    [4, 5],
+    [1, 4],
+    [2, 5],
+    [3, 4],
+    [3, 5],
+    [6, 1],
+    [6, 2],
+    [6, 0],
+    [6, 3],
   ];
   // B: a wide ring with a few chords.
   const bPts = Array.from({ length: 9 }, (_, i) => {
@@ -117,8 +131,14 @@ export function measure(narrow = false): Built3D {
     const tilt = (R() - 0.5) * 0.9;
     const d = V(Math.cos(a), Math.sin(a), tilt).normalize();
     const p0 = d.clone().multiplyScalar(0.8);
-    const p1 = d.clone().multiplyScalar(1.8).add(V(0, (R() - 0.5) * 0.4, 0));
-    const p2 = d.clone().multiplyScalar(2.6).add(V((R() - 0.5) * 0.6, (R() - 0.5) * 0.6, 0));
+    const p1 = d
+      .clone()
+      .multiplyScalar(1.8)
+      .add(V(0, (R() - 0.5) * 0.4, 0));
+    const p2 = d
+      .clone()
+      .multiplyScalar(2.6)
+      .add(V((R() - 0.5) * 0.6, (R() - 0.5) * 0.6, 0));
     somaG.add(tube([p0, p1, p2], 0.09, cellMat, 20, 8).mesh);
     const fork = p1.clone().add(V((R() - 0.5) * 0.9, (R() - 0.3) * 0.9, 0.2));
     somaG.add(tube([p1, p1.clone().lerp(fork, 0.5), fork], 0.055, cellMat, 12, 6).mesh);
@@ -167,7 +187,10 @@ export function measure(narrow = false): Built3D {
       for (let i = 0; i < 4; i++) {
         const a = (i / 4) * Math.PI * 2 + 0.4;
         const d = V(Math.cos(a), Math.sin(a), 0.2).normalize();
-        g.add(tube([d.clone().multiplyScalar(0.5), d.clone().multiplyScalar(1.3)], 0.06, cellMat, 6, 6).mesh);
+        g.add(
+          tube([d.clone().multiplyScalar(0.5), d.clone().multiplyScalar(1.3)], 0.06, cellMat, 6, 6)
+            .mesh
+        );
       }
       scene.add(g);
       return g;
@@ -175,9 +198,34 @@ export function measure(narrow = false): Built3D {
   );
   const end = neuron.position.clone().add(V(5.7, -0.5, 0));
   const wires = hidden(new THREE.Group());
-  wires.add(tube([end, end.clone().lerp(others[0].position, 0.5).add(V(0, 0.3, 0)), others[0].position.clone().add(V(-0.55, 0, 0))], 0.035, kit.ink, 30).mesh);
+  wires.add(
+    tube(
+      [
+        end,
+        end
+          .clone()
+          .lerp(others[0].position, 0.5)
+          .add(V(0, 0.3, 0)),
+        others[0].position.clone().add(V(-0.55, 0, 0)),
+      ],
+      0.035,
+      kit.ink,
+      30
+    ).mesh
+  );
   wires.add(tube([end, others[1].position.clone().add(V(-0.55, 0, 0))], 0.035, kit.ink, 20).mesh);
-  wires.add(tube([others[2].position.clone().add(V(0.5, 0.1, 0)), neuron.position.clone().add(V(-2.3, -0.9, -0.4)), neuron.position.clone().add(V(-0.85, -0.3, 0))], 0.035, kit.ink, 30).mesh);
+  wires.add(
+    tube(
+      [
+        others[2].position.clone().add(V(0.5, 0.1, 0)),
+        neuron.position.clone().add(V(-2.3, -0.9, -0.4)),
+        neuron.position.clone().add(V(-0.85, -0.3, 0)),
+      ],
+      0.035,
+      kit.ink,
+      30
+    ).mesh
+  );
   scene.add(wires);
 
   // ---------- Program and chip ----------
@@ -218,7 +266,10 @@ export function measure(narrow = false): Built3D {
   const arc = (a: THREE.Vector3, b: THREE.Vector3, h: number) => {
     const pts = Array.from({ length: 17 }, (_, i) => {
       const u = i / 16;
-      return a.clone().lerp(b, u).add(V(0, Math.sin(u * Math.PI) * h, 0));
+      return a
+        .clone()
+        .lerp(b, u)
+        .add(V(0, Math.sin(u * Math.PI) * h, 0));
     });
     for (let i = 0; i + 1 < pts.length; i += 2) bonds.add(line([pts[i], pts[i + 1]], kit.ink));
   };
@@ -256,7 +307,9 @@ export function measure(narrow = false): Built3D {
   });
   const loopCurve = new THREE.CatmullRomCurve3(loopPts);
   card.add(tube(loopPts, 0.03, kit.ink, 40).mesh);
-  card.add(arrowHead(kit, loopPts[loopPts.length - 1].clone().add(V(0.08, 0, 0)), V(1, 0, 0), 0.18));
+  card.add(
+    arrowHead(kit, loopPts[loopPts.length - 1].clone().add(V(0.08, 0, 0)), V(1, 0, 0), 0.18)
+  );
   const loopBead = hidden(new THREE.Mesh(new THREE.SphereGeometry(0.09, 14, 10), kit.ink));
   card.add(loopBead);
   // Only through the chip: dashed drops from the card's corners to the die.
@@ -267,22 +320,62 @@ export function measure(narrow = false): Built3D {
     [-1.5, 1.5],
     [1.5, 1.5],
   ])
-    drops.add(dashed(V(CX + x * 0.9 - 0.4, 3.0, z * 0.25 + 0.4), V(CX + x, 0.72, z), kit.soft, 0.1));
+    drops.add(
+      dashed(V(CX + x * 0.9 - 0.4, 3.0, z * 0.25 + 0.4), V(CX + x, 0.72, z), kit.soft, 0.1)
+    );
   scene.add(drops);
 
   const s = narrow ? 0.6 : 1;
   const labels: Label3D[] = [
     { id: "a", text: "ONE SYSTEM", at: V(-NX + 1.4, 0.5, 2.1), dx: -40 * s, dy: 60 },
     { id: "b", text: "ANOTHER", at: V(NX - 1.4, 0.5, 2.1), dx: 40 * s, dy: 60 },
-    { id: "p1", text: "Φ₁", italic: true, at: top(colX(-NX, 0), HA[0]).add(V(-0.3, -0.3, 0.4)), dx: -50 * s, dy: -30 },
-    { id: "p2", text: "Φ₂", italic: true, at: top(colX(-NX, 1), HA[1]).add(V(0.3, -0.3, 0.4)), dx: 40 * s, dy: -40 },
+    {
+      id: "p1",
+      text: "Φ₁",
+      italic: true,
+      at: top(colX(-NX, 0), HA[0]).add(V(-0.3, -0.3, 0.4)),
+      dx: -50 * s,
+      dy: -30,
+    },
+    {
+      id: "p2",
+      text: "Φ₂",
+      italic: true,
+      at: top(colX(-NX, 1), HA[1]).add(V(0.3, -0.3, 0.4)),
+      dx: 40 * s,
+      dy: -40,
+    },
     { id: "cross", text: "OPPOSITE ORDERS", at: crossAt, dx: 0, dy: -80 },
     { id: "thr", text: "THRESHOLD?", at: V(7, 2.8, 0.3), dx: 40 * s, dy: 40 },
-    { id: "ions", text: "IONS", at: neuron.position.clone().add(V(-0.95, 0.75, 0.6)), dx: -70 * s, dy: -50 },
-    { id: "fires", text: "A NEURON FIRES", at: neuron.position.clone().add(axonCurve.getPoint(0.6)), dx: 40 * s, dy: 60 },
-    { id: "net", text: "NEURONS, A NETWORK", at: others[0].position.clone().add(V(0, 0.55, 0)), dx: -40 * s, dy: -50 },
+    {
+      id: "ions",
+      text: "IONS",
+      at: neuron.position.clone().add(V(-0.95, 0.75, 0.6)),
+      dx: -70 * s,
+      dy: -50,
+    },
+    {
+      id: "fires",
+      text: "A NEURON FIRES",
+      at: neuron.position.clone().add(axonCurve.getPoint(0.6)),
+      dx: 40 * s,
+      dy: 60,
+    },
+    {
+      id: "net",
+      text: "NEURONS, A NETWORK",
+      at: others[0].position.clone().add(V(0, 0.55, 0)),
+      dx: -40 * s,
+      dy: -50,
+    },
     { id: "loop", text: "A LOOP IN THE CODE", at: V(CX - 2.35, 4.3, 0.3), dx: -60 * s, dy: -50 },
-    { id: "through", text: "ONLY THROUGH THE CHIP", at: V(CX + 1.25, 1.85, 0.95), dx: 80 * s, dy: -30 },
+    {
+      id: "through",
+      text: "ONLY THROUGH THE CHIP",
+      at: V(CX + 1.25, 1.85, 0.95),
+      dx: 80 * s,
+      dy: -30,
+    },
     { id: "one", text: "ITS PARTS AS ONE", at: V(CX - 1.5, 0.85, 1.6), dx: -50 * s, dy: 60 },
   ];
 
@@ -320,9 +413,21 @@ export function measure(narrow = false): Built3D {
       // 1 · Two systems, and two measures that give the same system different values.
       (tl, t, c) => {
         tl.addLabel("systems", t);
-        tl.fromTo(kit.clip, { constant: -0.2 }, { constant: 4.5, duration: 1.8, ease: "power1.inOut" }, t);
+        tl.fromTo(
+          kit.clip,
+          { constant: -0.2 },
+          { constant: 4.5, duration: 1.8, ease: "power1.inOut" },
+          t
+        );
         tl.set(kit.clip, { constant: 100 }, t + 1.9);
-        frame(tl, c, { t: V(0, 1, 1), o: view(-5, 4, 14) }, { t: home, o: view(0, 5.2, 17.5) }, t, 3);
+        frame(
+          tl,
+          c,
+          { t: V(0, 1, 1), o: view(-5, 4, 14) },
+          { t: home, o: view(0, 5.2, 17.5) },
+          t,
+          3
+        );
         grow(tl, netA, t + 0.8, 0.8, "all", "back.out(1.4)");
         grow(tl, netB, t + 1.1, 0.8, "all", "back.out(1.4)");
         lab(tl, c, { a: 1, b: 1 }, t + 2);

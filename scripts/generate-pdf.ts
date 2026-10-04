@@ -15,7 +15,7 @@ const DEV_SERVER_URL = `http://127.0.0.1:${DEV_SERVER_PORT}`;
 
 async function isDevServerRunning(): Promise<boolean> {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 2000);
+  const timeout = setTimeout(() => controller.abort(), 10000);
   try {
     const res = await fetch(DEV_SERVER_URL, { signal: controller.signal });
     return res.ok || res.status === 404;

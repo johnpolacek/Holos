@@ -164,7 +164,12 @@ export function selves(narrow = false): Built3D {
           t
         );
         tl.set(kit.clip, { constant: 100 }, t + 2.3);
-        tl.fromTo(c.rig.target, { x: -1.2, y: 0, z: 0 }, { ...xyz(home), duration: 3, ease: EASE }, t);
+        tl.fromTo(
+          c.rig.target,
+          { x: -1.2, y: 0, z: 0 },
+          { ...xyz(home), duration: 3, ease: EASE },
+          t
+        );
         tl.fromTo(
           c.rig.offset,
           { ...xyz(view(-3.5, 4.5, 13)) },

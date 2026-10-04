@@ -257,7 +257,10 @@ export async function generatePDF(html: string): Promise<Buffer> {
     }
 
     const page1 = await browser.newPage();
-    await page1.setContent(fullHTML, { waitUntil: "networkidle0" });
+    // networkidle0 never fires for setContent on a page this large (inlined figure stills),
+    // so wait for load, then for the web fonts.
+    await page1.setContent(fullHTML, { waitUntil: "load", timeout: 120000 });
+    await page1.evaluate(() => document.fonts.ready);
     await preparePageContent(page1);
 
     // Get list of TOC target IDs
@@ -370,7 +373,10 @@ export async function generatePDF(html: string): Promise<Buffer> {
     }
 
     const page2 = await browser.newPage();
-    await page2.setContent(fullHTML, { waitUntil: "networkidle0" });
+    // networkidle0 never fires for setContent on a page this large (inlined figure stills),
+    // so wait for load, then for the web fonts.
+    await page2.setContent(fullHTML, { waitUntil: "load", timeout: 120000 });
+    await page2.evaluate(() => document.fonts.ready);
     await preparePageContent(page2);
 
     // Calculate page numbers using the known total page count

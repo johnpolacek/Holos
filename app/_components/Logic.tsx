@@ -491,6 +491,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               Physical reality is made of relationships between things, not of objects with
               intrinsic properties of their own, prior to any relation.
             </p>
+            <SpecFigure spec={LOGIC3.foundations} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               What scientific theories successfully track are stable patterns of relation. Changes
@@ -1684,6 +1685,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               framework is named for the relation it marks, not because the operation it denotes is
               unusual, and a reader who mentally substitutes the composition symbol loses nothing.
             </p>
+            <SpecFigure spec={LOGIC2.PIPELINE} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               What the symbol adds is not mathematics but ontology. It claims that both steps are
@@ -1746,6 +1748,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
           </a>
           ). The table below shows where it sits.
         </p>
+        <SpecFigure spec={LOGIC2.MINDS} isPDF={isPDF} />
         <MindComparisonTable />
       </div>
       {/* Open Problems */}
@@ -1887,6 +1890,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               show that crossing the threshold is itself a genuine transition. That evidence must
               come from the boundary.
             </p>
+            <SpecFigure spec={LOGIC2.CRITICALITY} isPDF={isPDF} />
             <p className="leading-relaxed">
               A cutoff that sorts patients is not yet proof of a transition, since a smooth quantity
               can be cut anywhere. What would count is a transition&apos;s own signature, and here
@@ -2026,6 +2030,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               core with it. A stated way to lose is what makes these open problems scientific
               questions rather than definitions.
             </p>
+            <SpecFigure spec={LOGIC2.CALIBRATION} isPDF={isPDF} />
           </div>
 
           <div id="observer-boundaries" className="flex flex-col gap-3">
