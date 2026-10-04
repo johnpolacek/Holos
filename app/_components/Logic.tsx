@@ -686,6 +686,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
             finished formula. It is introduced as a real property that must exist if experience
             exists at all.
           </p>
+          <SpecFigure spec={LOGIC3.threshold} isPDF={isPDF} />
 
           <p className="leading-relaxed">
             The role of Φ in the framework has three regions. Well below a minimum level of
@@ -844,6 +845,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
             For a system to count as an observer in the Holos sense, it must satisfy all of the
             following requirements. These are structural constraints, not behavioral descriptions.
           </p>
+          <SpecFigure spec={LOGIC3.requirements} isPDF={isPDF} />
 
           <ol className="flex flex-col gap-3 pl-6 text-black/80">
             <li className="leading-relaxed">
@@ -1016,6 +1018,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
             </a>
             ), and on conventional chips its parts may not act as one.
           </p>
+          <SpecFigure spec={LOGIC3.artificial} isPDF={isPDF} />
           <p className="leading-relaxed">
             Crossing would take three things together. The whole working state, earlier context
             included, would have to loop. It would have to last and keep being reworked. And it
@@ -1037,6 +1040,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
             and the pixels beneath it are strangers to each other. The unity of what appears does
             not, by itself, fix the wiring of what produces it.
           </p>
+          <SpecFigure spec={LOGIC3.integration} isPDF={isPDF} />
 
           <p className="leading-relaxed">
             So Holos divides the claim into the part that is definitional and the part that must be
@@ -2049,6 +2053,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               measure and the procedure are fixed, the boundaries between observers are fixed only
               in principle.
             </p>
+            <SpecFigure spec={LOGIC3.boundaries} isPDF={isPDF} />
           </div>
 
           <p className="leading-relaxed text-black/70 text-sm">
