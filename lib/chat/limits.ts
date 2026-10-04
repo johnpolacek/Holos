@@ -11,8 +11,9 @@ const DAILY_BUDGET_USD = Number(process.env.CHAT_DAILY_BUDGET_USD ?? 1);
 const DAILY_LIMIT = Number(process.env.CHAT_DAILY_LIMIT ?? 200);
 const VISITOR_DAILY_LIMIT = Number(process.env.CHAT_VISITOR_DAILY_LIMIT ?? 20);
 
-// Opus 5.5, dollars per million tokens. Cache writes use the 1-hour rate, twice the input rate.
-const PRICE = { input: 4, output: 20, cacheRead: 0.2, cacheWrite: 8 };
+// Sonnet 5.5, dollars per million tokens. Cache writes use the 1-hour rate, twice the input rate.
+// Update these with the model in app/api/chat/route.ts.
+const PRICE = { input: 2, output: 10, cacheRead: 0.2, cacheWrite: 4 };
 // The cached site text, the uncached rest of a long chat, and the output cap.
 const SITE_TOKENS = 66_000;
 const FRESH_TOKENS = 4_000;

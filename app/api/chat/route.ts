@@ -19,7 +19,7 @@ export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 export const runtime = "nodejs";
 
-const MODEL = process.env.CHAT_MODEL ?? "anthropic/claude-opus-5.5";
+const MODEL = process.env.CHAT_MODEL ?? "anthropic/claude-sonnet-5.5";
 
 const json = (body: unknown, status = 200) => Response.json(body, { status });
 
