@@ -91,7 +91,7 @@ export default function Sidebar() {
               <div>Holos</div>
             </div>
           </a>
-          <ol className="flex flex-col h-full xl:h-auto gap-2 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow text-sm">
+          <ol className="flex flex-col h-full xl:h-auto gap-2 pt-12 xl:pt-[74px] pb-16 justify-center items-center xl:justify-start flex-grow text-sm">
             <li>
               <Link
                 className={`text-lg font-medium ${isTheoryPage ? "opacity-100" : "opacity-60"}`}

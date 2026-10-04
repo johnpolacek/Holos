@@ -10,7 +10,7 @@ import MathInline from "./MathInline";
 
 export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {}) {
   return (
-    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
+    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16 xl:pt-3">
       {/* Introduction */}
       <section id="prediction-introduction" className="flex flex-col gap-6">
         <div className="flex flex-col gap-4 text-black/80">

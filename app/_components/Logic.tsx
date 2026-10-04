@@ -12,7 +12,7 @@ import SelfComparisonTable from "./SelfComparisonTable";
 
 export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
   return (
-    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
+    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16 xl:pt-3">
       {/* Claims */}
       <section id="minimal-core" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">Claims</h2>
