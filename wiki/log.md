@@ -942,3 +942,11 @@ Keep entries concise and grounded in inspected repo evidence.
 - Added `scripts/capture-figure-stills.cjs` and `/lab/stills`. Captured the 48 missing PDF stills and regenerated `public/holos.pdf` (99 pages).
 - Fixed a WebGL context limit: the Overview mounted 31 renderers. They are now created near the screen and released after.
 - Fixed a TypeScript error in `scenes/speculation/vault.ts` and removed a duplicated "Silent, but warm" entry on Revisions.
+
+## [2026-10-03] update | Old animations removed, seven more figures
+
+- Deleted all seven old `*Animation.tsx` components and the legacy fallback in `Content.tsx`.
+- Added seven engraved figures: Logic `selves`, `measure`, `primitives`, Predictions `thresholded`, `bet`, Overview `csRequirements` (consciousness, paragraph 4), `whyLived` (why, paragraph 0).
+- Twenty planned figures remain unbuilt and are held off the pages (list in animation-redesign.md).
+- `/lab/stills` takes `?stage=k`, and `EngravedFigure` takes `still`, to capture any stage. `capture-figure-stills.cjs` takes `--only`.
+- PDF regenerated. Production build passes.

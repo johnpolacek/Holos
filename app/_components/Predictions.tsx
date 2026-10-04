@@ -2,6 +2,7 @@ import { FootnoteLink, predictionsCitationMap } from "./citation-sections";
 import EvidenceSoFar from "./EvidenceSoFar";
 import { evidence } from "./evidence-data";
 import { SPECS as PRED } from "./figures/predictions";
+import { SPECS as PRED2 } from "./figures/predictions2";
 import SpecFigure from "./figures/SpecFigure";
 import { SPECS as SPEC } from "./figures/speculation";
 import MathDisplay from "./MathDisplay";
@@ -194,6 +195,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
               </a>
               .
             </p>
+            <SpecFigure spec={PRED2.thresholded} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               Holos rejects the idea that experience increases smoothly with greater amounts of
@@ -902,6 +904,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
             Under Holos, experience is the inside of the physics, so when the physics does
             everything, experience is doing its share, not nothing.
           </p>
+          <SpecFigure spec={PRED2.bet} isPDF={isPDF} />
 
           <p className="leading-relaxed">
             <strong>How Holos loses:</strong> unitary quantum mechanics is quantum mechanics in

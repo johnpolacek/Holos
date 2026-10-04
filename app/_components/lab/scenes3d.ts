@@ -6,6 +6,7 @@ import { gallery } from "./gallery3d";
 import { lineage } from "./lineage3d";
 import { lived } from "./litScene3d";
 import { omegaWhole } from "./omegaWhole3d";
+import { SCENES as additions } from "./scenes/additions";
 import { SCENES as aliens } from "./scenes/aliens";
 import { SCENES as consciousness } from "./scenes/consciousness";
 import { SCENES as dark } from "./scenes/dark";
@@ -38,4 +39,5 @@ export const SCENES3D: Record<string, (narrow?: boolean) => Built3D> = {
   ...predictions,
   ...speculation,
   ...revisions,
+  ...additions,
 };

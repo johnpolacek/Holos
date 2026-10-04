@@ -2,6 +2,7 @@ import { FootnoteLink, logicCitationMap } from "./citation-sections";
 import FormulaAnatomy from "./FormulaAnatomy";
 import { SPECS as LOGIC } from "./figures/logic";
 import { SPECS as LOGIC2 } from "./figures/logic2";
+import { SPECS as LOGIC3 } from "./figures/logic3";
 import SpecFigure from "./figures/SpecFigure";
 import InterpretiveComparisonTable from "./InterpretiveComparisonTable";
 import MathDisplay from "./MathDisplay";
@@ -96,6 +97,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               and not a thing that exists on its own. Information exists only as differences within
               some structure, never apart from it.
             </p>
+            <SpecFigure spec={LOGIC3.primitives} isPDF={isPDF} />
           </div>
 
           {/* D2 */}
@@ -1327,6 +1329,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               Holos takes the third, and calls the local person a self and the one subject the
               experiencer (D8). The table shows what that changes, and what each view pays.
             </p>
+            <SpecFigure spec={LOGIC2.SELVES} isPDF={isPDF} />
             <SelfComparisonTable />
           </div>
         </div>
@@ -1776,6 +1779,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               the chip&apos;s own parts must also act as one, and conventional chips may not. Saying
               precisely where that level is belongs to the same open problem.
             </p>
+            <SpecFigure spec={LOGIC2.MEASURE} isPDF={isPDF} />
           </div>
 
           <div className="flex flex-col gap-3">

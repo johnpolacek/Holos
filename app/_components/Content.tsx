@@ -3,21 +3,9 @@ import { Fragment } from "react";
 import { sections } from "./content-data";
 import EvidenceSoFar from "./EvidenceSoFar";
 import { evidence } from "./evidence-data";
-import { hasInline, inlineAt } from "./figures";
+import { inlineAt } from "./figures";
 import { InlineFigure } from "./figures/SpecFigure";
-import HolosAnimation from "./HolosAnimation";
-import IntegrationHypothesisAnimation from "./IntegrationHypothesisAnimation";
-import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import Section from "./Section";
-import TeemingDarkAnimation from "./TeemingDarkAnimation";
-
-// Older section-level animations, shown only until a section has inline figures of its own.
-const LEGACY: Record<string, React.ComponentType<{ isPDF?: boolean }>> = {
-  introduction: HolosAnimation,
-  aliens: IntegrationHypothesisAnimation,
-  "the-teeming-dark": TeemingDarkAnimation,
-  why: OntologicalAnchorAnimation,
-};
 
 interface ContentProps {
   isPDF?: boolean;
@@ -71,12 +59,6 @@ export default function Content({ isPDF = false }: ContentProps) {
             }
             return body;
           })}
-          {!hasInline(section.id) &&
-            LEGACY[section.id] &&
-            (() => {
-              const Legacy = LEGACY[section.id];
-              return <Legacy isPDF={isPDF} />;
-            })()}
           {evidence[section.id] && <EvidenceSoFar block={evidence[section.id]} />}
         </Section>
       ))}

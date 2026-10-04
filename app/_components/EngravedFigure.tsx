@@ -23,10 +23,13 @@ export default function EngravedFigure({
   scene,
   stages,
   label,
+  still,
 }: {
   scene: string;
   stages: FigureStage[];
   label: string;
+  /** With reduced motion, show this stage instead of the last (for still capture). */
+  still?: number;
 }) {
   const wrapRef = useRef<HTMLElement>(null);
   const plate = useRef<Plate3DHandle>(null);
@@ -66,7 +69,7 @@ export default function EngravedFigure({
     if (!wrap) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setReduce(true);
-      setStage(stages.length - 1);
+      setStage(still ?? stages.length - 1);
       setStarted(true);
       return;
     }
@@ -81,7 +84,7 @@ export default function EngravedFigure({
       io.disconnect();
       document.removeEventListener("visibilitychange", sync);
     };
-  }, [stages.length, sync]);
+  }, [stages.length, still, sync]);
 
   useIsoLayoutEffect(() => {
     const wrap = wrapRef.current;

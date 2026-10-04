@@ -1,5 +1,5 @@
 // Captures each engraved figure's last stage as public/figures/<still>, the image the PDF shows.
-// Needs the dev server on :3000. Usage: node scripts/capture-figure-stills.cjs [--all]
+// Needs the dev server on :3000. Usage: node scripts/capture-figure-stills.cjs [--all | --only x.png]
 // Without --all, only missing stills are captured.
 
 const fs = require("node:fs");
@@ -12,6 +12,9 @@ const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
 (async () => {
   const all = process.argv.includes("--all");
+  // --only <still.png> recaptures just that figure, whether or not it exists.
+  const onlyAt = process.argv.indexOf("--only");
+  const only = onlyAt > -1 ? process.argv[onlyAt + 1] : null;
   const browser = await puppeteer.launch({
     executablePath: fs.existsSync(CHROME) ? CHROME : undefined,
     args: ["--use-angle=metal"],
@@ -22,10 +25,10 @@ const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
   const seen = new Set();
   let done = 0;
   for (const { i, still } of specs) {
-    if (seen.has(still)) continue;
+    if (seen.has(still) || (only && still !== only)) continue;
     seen.add(still);
     const file = path.join(OUT, still);
-    if (!all && fs.existsSync(file)) continue;
+    if (!all && !only && fs.existsSync(file)) continue;
     // A fresh page per figure: one WebGL context, and no frozen frames from earlier screenshots.
     const p = await browser.newPage();
     await p.setViewport({ width: 1100, height: 900, deviceScaleFactor: 2 });
