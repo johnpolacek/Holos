@@ -9,7 +9,7 @@ import {
   type UIMessageStreamWriter,
 } from "ai";
 import { matchCanned } from "@/lib/chat/canned";
-import { checkLimit, recordTokens, release, reserve, visitorId } from "@/lib/chat/limits";
+import { checkLimit, release, reserve, settle, visitorId } from "@/lib/chat/limits";
 import { instructions } from "@/lib/chat/prompt";
 import { gateInput, MAX_INPUT_CHARS } from "@/lib/chat/quality";
 import { hasSession, issueSession, verifyTurnstile } from "@/lib/chat/session";
@@ -119,10 +119,7 @@ export async function POST(req: Request) {
           source: "ai",
           at: now(),
         });
-        await Promise.all([
-          saveTranscript(transcript),
-          recordTokens(usage.inputTokens ?? 0, usage.outputTokens ?? 0),
-        ]);
+        await Promise.all([saveTranscript(transcript), settle(usage)]);
       },
     }),
   });
