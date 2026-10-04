@@ -30,7 +30,8 @@ export const instructions: SystemModelMessage[] = [
   {
     role: "system",
     content: `<holos>\n${corpus}\n</holos>`,
-    providerOptions: { anthropic: { cacheControl: { type: "ephemeral" } } },
+    // An hour, not the default 5 minutes, since visitors arrive minutes apart.
+    providerOptions: { anthropic: { cacheControl: { type: "ephemeral", ttl: "1h" } } },
   },
   { role: "system", content: rules },
 ];

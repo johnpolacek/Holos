@@ -76,8 +76,8 @@ export async function POST(req: Request) {
     });
   }
 
-  const reserved = await reserve(visitor);
-  if (reserved !== "open") return json({ error: reserved }, 429);
+  const reservation = await reserve(visitor);
+  if (reservation.state !== "open") return json({ error: reservation.state }, 429);
 
   // Context comes from the stored transcript, minus nudges, plus the new question.
   const messages: ModelMessage[] = [
@@ -110,7 +110,7 @@ export async function POST(req: Request) {
         } catch (err) {
           // The merged stream has already sent the client an error part.
           console.error("[chat] model call failed", err);
-          await release(visitor);
+          await release(visitor, reservation.usd);
           return;
         }
         transcript.turns.push(userTurn, {
@@ -119,7 +119,7 @@ export async function POST(req: Request) {
           source: "ai",
           at: now(),
         });
-        await Promise.all([saveTranscript(transcript), settle(usage)]);
+        await Promise.all([saveTranscript(transcript), settle(reservation.usd, usage)]);
       },
     }),
   });
