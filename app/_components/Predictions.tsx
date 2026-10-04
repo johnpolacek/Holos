@@ -420,6 +420,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
             <em>integration</em>, and integration can come apart from outward behavior. When the two
             diverge, Holos bets that experience follows integration.
           </p>
+          <SpecFigure spec={PRED2.testA} isPDF={isPDF} />
 
           <p className="leading-relaxed">
             The bet is losable because cases where the two come apart already exist. People under
@@ -718,6 +719,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
             gradually, and larger cultures, grown the same way, more steeply, as connectivity,
             feedback, and coupling to their environment increase.
           </p>
+          <SpecFigure spec={PRED2.testB} isPDF={isPDF} />
 
           <div>
             <h4 className="font-semibold text-black/90 mb-1">
@@ -777,6 +779,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
             which structures are lived, is a claim about what exists, not something an experiment
             can show.
           </p>
+          <SpecFigure spec={PRED2.checkC} isPDF={isPDF} />
 
           <p className="leading-relaxed">
             Extended{" "}
@@ -1278,6 +1281,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
                 A time-optimized preservation structure designed to store civilizational identity,
                 not merely information.
               </p>
+              <SpecFigure spec={PRED2.vault} isPDF={isPDF} />
 
               <p className="leading-relaxed">
                 Not a library or a backup, but a continuity anchor: “If we wake up in 100,000 years,
@@ -1346,6 +1350,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
               Communication converges toward sending large, self-contained packages of information
               at light speed in tightly focused laser beams.
             </p>
+            <SpecFigure spec={PRED2.communication} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               At these distances, collaboration is necessarily asynchronous. Civilizations may
@@ -1409,6 +1414,7 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
               communication. Physical exploration is therefore rare, deliberate, and reserved for
               regimes where inference alone breaks down.
             </p>
+            <SpecFigure spec={PRED2.exploration} isPDF={isPDF} />
 
             <p className="leading-relaxed">
               When physical probes are deployed, they are not explorers in the human sense. They are

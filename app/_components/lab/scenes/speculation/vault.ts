@@ -105,7 +105,9 @@ export function vault(narrow = false): Built3D {
   });
   const bodies = [[core, coreRays], [kern.g, kernRays], [node.g]];
 
-  const lay = (i: number) => V(XS[3] + LAYERS[i].r, 0, 0);
+  // Each layer's label anchor rides with its layer as the stack lifts apart.
+  const anchors = LAYERS.map((l) => V(XS[3] + l.r, 0, 0));
+  const lay = (i: number) => anchors[i];
   const labels: Label3D[] = [
     { id: "l0", text: "VALUES", at: lay(0), dx: 90, dy: 0 },
     { id: "l1", text: "DECISIONS, AND WHY", at: lay(1), dx: 110, dy: 0 },
@@ -132,6 +134,7 @@ export function vault(narrow = false): Built3D {
       layers.forEach((g, i) => {
         const h = LAYERS[i].h;
         g.position.y = y + h / 2 + st.lift * 0.32 * (i + 1);
+        anchors[i].y = g.position.y;
         y += h;
       });
       bodies.forEach((list, i) => {
