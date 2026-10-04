@@ -6,10 +6,14 @@ import { bet } from "./additions/bet";
 import { boundaries } from "./additions/boundaries";
 import { checkC } from "./additions/checkC";
 import { communication } from "./additions/communication";
+import { csOneWay } from "./additions/csOneWay";
 import { csRequirements } from "./additions/csRequirements";
+import { csTwilight } from "./additions/csTwilight";
+import { csTwoSides } from "./additions/csTwoSides";
 import { exploration } from "./additions/exploration";
 import { foundations } from "./additions/foundations";
 import { integration } from "./additions/integration";
+import { omegaNotMind } from "./additions/omegaNotMind";
 import { primitives } from "./additions/primitives";
 import { requirements } from "./additions/requirements";
 import { testA } from "./additions/testA";
@@ -20,6 +24,10 @@ import { vault } from "./additions/vault";
 import { whyLived } from "./additions/whyLived";
 
 export const SCENES: Record<string, (narrow?: boolean) => Built3D> = {
+  "add.omegaNotMind": omegaNotMind,
+  "add.csOneWay": csOneWay,
+  "add.csTwoSides": csTwoSides,
+  "add.csTwilight": csTwilight,
   "add.exploration": exploration,
   "add.communication": communication,
   "add.vault": vault,

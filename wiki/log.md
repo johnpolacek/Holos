@@ -950,3 +950,10 @@ Keep entries concise and grounded in inspected repo evidence.
 - Twenty planned figures remain unbuilt and are held off the pages (list in animation-redesign.md).
 - `/lab/stills` takes `?stage=k`, and `EngravedFigure` takes `still`, to capture any stage. `capture-figure-stills.cjs` takes `--only`.
 - PDF regenerated. Production build passes.
+
+## [2026-10-03] update | All figures complete
+
+- Built the remaining 20 figures directly, in four batches, each shipped to main: Logic (pipeline, minds, criticality, calibration, foundations, threshold, requirements, artificial, integration, boundaries), Predictions (Test A, Test B, Check C, Chrono Vault, communication, exploration), Overview (twilight, two sides, one way, Omega not one mind).
+- Captions checked against the passages; the Test A loss condition follows the page (reports from times when both gauges sat below their cutoffs).
+- The PDF build now waits for load and fonts instead of networkidle0, which stopped firing once the inlined stills passed a few megabytes.
+- Known open issue: the on-demand `/api/pdf` route returns 500 (a client component rendered on the server). Nothing links to it; the site serves the prebuilt PDF.
