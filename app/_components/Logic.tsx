@@ -1981,7 +1981,7 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
               </a>{" "}
               really is, not a single yes-or-no experiment but a calibration engine that locates the
               threshold and validates the measure. The two jobs must use separate data. Calibration
-              states locate the threshold, and held-out states, named in advance, test it. Testing
+              data locate the threshold, and held-out data, named in advance, test it. Testing
               on the calibration set would only grade the answer key.
             </p>
             <p className="leading-relaxed">

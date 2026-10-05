@@ -498,14 +498,16 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
           </div>
           <div>
             <h4 className="font-semibold text-black/90 mb-1">
-              Held-out states, not the answer key
+              Held-out awakenings, not the answer key
             </h4>
             <p className="leading-relaxed">
               PCI&apos;s cutoff was set by calibrating it on people whose state was already known
-              from their reports, and the conscious side of that calibration included waking, REM
-              dreaming, and ketamine with vivid reports. Those cases cannot confirm Test A. They are
-              the answer key, not the exam. The test counts only states that played no part in
-              setting the cutoff, named in advance. They are dream reports from non-REM sleep (the
+              from their reports. The conscious side of that calibration included waking, REM
+              dreaming, and ketamine with vivid reports, and the unconscious side included deep
+              non-REM sleep and anesthesia with no reports. Those cases cannot confirm Test A. They
+              are the answer key, not the exam. The test counts only new awakenings that played no
+              part in setting the cutoff, from states named in advance. They are dream reports from
+              non-REM sleep (the
               sleep stages outside REM), deep sedation with intermittent awakening, sleepwalking and
               other automatisms, complex seizures, psychedelic states, and covert awareness in
               unresponsive patients, which brain scans or EEG find in about a quarter of those
@@ -671,8 +673,8 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
             observer, only whether integration is what experience depends on. Holos shares this
             prediction with other integration-based accounts of consciousness. It is a test Holos
             could fail, not a signature unique to Holos. Its results also help locate the threshold,
-            under a strict rule. States used to set a cutoff may tune the measures and weed out weak
-            ones, but never count as evidence. Only states set aside in advance can confirm or
+            under a strict rule. Data used to set a cutoff may tune the measures and weed out weak
+            ones, but never count as evidence. Only data set aside in advance can confirm or
             refute the claim (see{" "}
             <a href="/logic#path-to-threshold" className="underline hover:no-underline">
               A path to the threshold

@@ -981,3 +981,8 @@ Keep entries concise and grounded in inspected repo evidence.
 - Under R = C ⊛ O, the Intro now says it is shorthand, not an equation to calculate with, and that no one lived through the early universe, but it is part of reality as the past observers are built from.
 - Why: a near-identical r/consciousness post (R = CΨ², 2025-12) drew "replace C with chicken" and "what was conscious before life?". Holos answered both, but only further down.
 - Chat corpus regenerated. PDF not yet regenerated.
+
+## [2026-10-04] fix | Overview and Test A match the dream evidence
+
+- Overview Consciousness no longer says the echo is "simple or local" when someone is unconscious, or that a cutoff "already separates the two". Local could be conscious under the posterior-gauge reply, and non-REM and sedation dream reports show the whole-brain cutoff misses some experience. It now names dreams as the hard case and points to Test A's back-of-the-brain gauge.
+- Test A: PCI's calibration also had an unconscious side (deep non-REM sleep and anesthesia with no reports), so non-REM and sedation are not wholly held-out states. The test now counts only new awakenings that played no part in setting the cutoff, from states named in advance. Heading is now "Held-out awakenings, not the answer key". The closing rule and Logic's calibration-engine sentence say data, not states.

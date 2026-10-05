@@ -199,8 +199,11 @@ export const sections: ContentSection[] = [
       <>
         No one can yet compute integration for a whole brain. But stand-ins work. One taps the brain
         with a magnetic pulse and measures the echo. It is rich and widespread when someone is
-        conscious, simple or local when they are not. In people, a cutoff on that echo already
-        separates the two. Where the threshold falls for other kinds of system is still open (see{" "}
+        awake, simple when they are deeply unconscious. Dreams are the hard case. People woken from
+        non-REM sleep or sedation often report dreaming while the whole-brain echo looks
+        unconscious, so Holos also measures the back of the brain, where dream reports seem to live
+        (see <a href="/predictions#experiment-1">Test A</a>). Where the threshold falls for other
+        kinds of system is still open (see{" "}
         <a href="/predictions#minimal-neural-systems">Test B</a>).
       </>,
       <div key="hard-problem" id="consciousness-hard-problem">
