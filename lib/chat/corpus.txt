@@ -50,7 +50,7 @@ Creation, the structure physics produces.
 Observation, that structure experienced from the inside.
 Reality, the result.
 
-On the physics Holos bets on, observing changes nothing it takes in (seeNotation).
+It is shorthand, not an equation to calculate with. On the physics Holos bets on, observing changes nothing it takes in (seeNotation). No one lived through the early universe, but it is part of reality as the past observers are built from.
 
 Holos is built on two ideas. Neither changes established physics.
 Threshold, experience appears only where information is joined tightly enough to form a single point of view.
@@ -597,9 +597,11 @@ What this can and cannot show: this tests a necessary structural condition, not 
 checked 2026-10-01
 - 2026-06A bedside EEG measure, taken without the magnetic pulse, predicts the pulse-echo score in brain-injured patients. A step toward measuring integration more widely. Preprint. (source) coming
 - 2025An open database of 2,643 sleep awakenings with dream reports and EEG. Usable to calibrate the test, though it lacks the pulse the main gauge needs. (source) coming
-- 2022Complexity in ordinary sleep EEG falls with sleep depth but does not separate dreaming from dreamless awakenings. A caution for gauges without the pulse. (source) open
+- 2025The nearest test yet. 82 percent of awakenings from deep propofol sedation brought reports of experience, and two complexity measures did not differ between awakenings with and without it. Not decisive. Its measurements ended a minute before each awakening, and only five awakenings brought no report. (source) against
+- 2022Complexity in ordinary sleep EEG falls with sleep depth but does not separate dreaming from dreamless awakenings. A caution for gauges without the pulse. (source) against
 - 2018Most people made unresponsive by anesthetics report experiences afterward, mostly dreams. Not responding is not the same as no one home. (source) fits
-- 2017Whether a dream is reported, in REM or non-REM sleep, tracks local activity in the back of the cortex. (source) fits
+- 2017Whether a dream is reported, in REM or non-REM sleep, tracks local activity in the back of the cortex. The local gauge was adopted after this result, so it cannot count as confirmation. (source) fits
+- 2016Measured just before waking from non-REM sleep, the brain's echo looked more like the unconscious pattern when people then reported nothing. The local gauge was adopted after this result, so it cannot count as confirmation. (source) fits
 
 ## Test B: The twilight narrows with size18
 This test is for the transition hypothesis (claim 3 of the threshold), not the core. Genuine transitions in physics look blurred in a small sample and sharpen in a large one. A magnet loses its magnetism at a set temperature (the Curie point), and the larger the magnet, the more abrupt the change. If crossing the threshold is a genuine transition, sudden or continuous, its twilight should likewise narrow as a system grows. Networks of living neurons grown in a dish and connected to simple environments are the cheapest place to look. The DishBrain platform, in which cultured neurons were wired to a simple game of Pong (Kagan et al. 2022), shows the kind of setup, not evidence of experience. Integration is the result, not the knob. Turn a condition such as a drug dose or the network's connectivity, and track an integration measure fixed in advance. Small cultures should cross gradually, and larger cultures, grown the same way, more steeply, as connectivity, feedback, and coupling to their environment increase.

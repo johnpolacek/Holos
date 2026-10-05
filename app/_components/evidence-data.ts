@@ -126,10 +126,16 @@ export const evidence: Record<string, EvidenceBlock> = {
         bearing: "coming",
       },
       {
+        date: "2025",
+        text: "The nearest test yet. 82 percent of awakenings from deep propofol sedation brought reports of experience, and two complexity measures did not differ between awakenings with and without it. Not decisive. Its measurements ended a minute before each awakening, and only five awakenings brought no report.",
+        href: "https://doi.org/10.1038/s41598-025-12695-z",
+        bearing: "against",
+      },
+      {
         date: "2022",
         text: "Complexity in ordinary sleep EEG falls with sleep depth but does not separate dreaming from dreamless awakenings. A caution for gauges without the pulse.",
         href: "https://doi.org/10.3389/fnhum.2022.987714",
-        bearing: "open",
+        bearing: "against",
       },
       {
         date: "2018",
@@ -139,8 +145,14 @@ export const evidence: Record<string, EvidenceBlock> = {
       },
       {
         date: "2017",
-        text: "Whether a dream is reported, in REM or non-REM sleep, tracks local activity in the back of the cortex.",
+        text: "Whether a dream is reported, in REM or non-REM sleep, tracks local activity in the back of the cortex. The local gauge was adopted after this result, so it cannot count as confirmation.",
         href: "https://doi.org/10.1038/nn.4545",
+        bearing: "fits",
+      },
+      {
+        date: "2016",
+        text: "Measured just before waking from non-REM sleep, the brain's echo looked more like the unconscious pattern when people then reported nothing. The local gauge was adopted after this result, so it cannot count as confirmation.",
+        href: "https://doi.org/10.1038/srep30932",
         bearing: "fits",
       },
     ],

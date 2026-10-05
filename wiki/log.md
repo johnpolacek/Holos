@@ -968,3 +968,16 @@ Keep entries concise and grounded in inspected repo evidence.
 
 - Added an Ask chat that answers from the site text: Sonnet 5.5 through the Vercel AI Gateway, canned answers for common questions, Turnstile, a $1 daily budget, a 1-hour prompt cache, transcripts and usage on R2.
 - New page [chat.md](chat.md).
+
+## [2026-10-04] fix | Test A evidence box shows the evidence against
+
+- The Test A box listed only fits, open, and coming items, while the page text calls Bajwa 2025 the nearest test and says it did not favor Holos. Added Bajwa 2025 as against, with its limits (measurements ended a minute before waking, five no-report awakenings).
+- Aamodt 2022 relabeled against, matching the guardrail's "evidence both ways".
+- Added Nieminen 2016. It and Siclari 2017 stay "fits" but now say the local gauge was adopted after them, so they cannot count as confirmation.
+- Prompted by a plan to post Test A on r/consciousness, where the post leads with the sedation result.
+
+## [2026-10-04] update | Intro answers two objections under the formula
+
+- Under R = C ⊛ O, the Intro now says it is shorthand, not an equation to calculate with, and that no one lived through the early universe, but it is part of reality as the past observers are built from.
+- Why: a near-identical r/consciousness post (R = CΨ², 2025-12) drew "replace C with chicken" and "what was conscious before life?". Holos answered both, but only further down.
+- Chat corpus regenerated. PDF not yet regenerated.

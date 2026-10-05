@@ -55,8 +55,10 @@ export const sections: ContentSection[] = [
           </p>
         </div>
         <p>
-          On the physics Holos bets on, observing changes nothing it takes in (see
-          <a href="/logic#mathematical-formalism">Notation</a>).
+          It is shorthand, not an equation to calculate with. On the physics Holos bets on,
+          observing changes nothing it takes in (see
+          <a href="/logic#mathematical-formalism">Notation</a>). No one lived through the early
+          universe, but it is part of reality as the past observers are built from.
         </p>
       </div>,
       <div className="flex flex-col gap-4">
