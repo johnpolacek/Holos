@@ -986,3 +986,4 @@ Keep entries concise and grounded in inspected repo evidence.
 
 - Overview Consciousness no longer says the echo is "simple or local" when someone is unconscious, or that a cutoff "already separates the two". Local could be conscious under the posterior-gauge reply, and non-REM and sedation dream reports show the whole-brain cutoff misses some experience. It now names dreams as the hard case and points to Test A's back-of-the-brain gauge.
 - Test A: PCI's calibration also had an unconscious side (deep non-REM sleep and anesthesia with no reports), so non-REM and sedation are not wholly held-out states. The test now counts only new awakenings that played no part in setting the cutoff, from states named in advance. Heading is now "Held-out awakenings, not the answer key". The closing rule and Logic's calibration-engine sentence say data, not states.
+- Evidence So Far refresh 2026-11-01: 0 new entries (none).

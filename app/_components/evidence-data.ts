@@ -18,7 +18,7 @@ export interface EvidenceBlock {
 
 export const evidence: Record<string, EvidenceBlock> = {
   consciousness: {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-07",
@@ -59,7 +59,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   aliens: {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-12",
@@ -88,7 +88,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "the-teeming-dark": {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-09",
@@ -111,7 +111,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "test-a": {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-06",
@@ -158,7 +158,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "test-b": {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-02",
@@ -181,7 +181,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "check-c": {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-09",
@@ -198,7 +198,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "standing-bet": {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2021",
@@ -209,7 +209,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   speculation: {
-    checked: "2026-10-01",
+    checked: "2026-11-01",
     items: [
       {
         date: "2026-12",
