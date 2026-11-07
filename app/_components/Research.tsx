@@ -11,13 +11,13 @@ export default function Research() {
   return (
     <div className="flex flex-col gap-4 text-black/80">
       <p className="leading-relaxed">
-        Holos is written in public and revised when it is wrong. This page lists research now
-        underway that could support it, test it, or force a change. Each area names the claim at
-        stake. Each entry says what the work is and why it matters here.
+        This page lists research now underway that could support Holos, test it, or force a change.
+        Each area names the claim at stake. Each entry says what the work is and why it matters
+        here.
       </p>
       <p className="text-sm text-black/50">
-        Underway means running now. Upcoming means planned or proposed, not yet run. Recent result means
-        published or posted in the last few years, with follow-up in progress. Checked{" "}
+        Underway means running now. Upcoming means planned or proposed, not yet run. Recent result
+        means published or posted in the last few years, with follow-up in progress. Checked{" "}
         <span className="tabular-nums">{RESEARCH_CHECKED}</span>.
       </p>
 

@@ -991,6 +991,11 @@ export default function Predictions({ isPDF = false }: { isPDF?: boolean } = {})
             >
               Donadi et al. 2021
             </a>
+            ). A larger detector there has since tightened the limits on the leading size-based
+            model a hundredfold and excluded its original settings (
+            <a href="https://arxiv.org/abs/2506.05507" target="_blank" rel="noopener noreferrer">
+              XENON and VIP 2026
+            </a>
             ). Versions with an adjustable parameter survive, and Penrose&apos;s own version may not
             predict that radiation.
           </p>

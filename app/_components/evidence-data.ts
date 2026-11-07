@@ -198,8 +198,14 @@ export const evidence: Record<string, EvidenceBlock> = {
     ],
   },
   "standing-bet": {
-    checked: "2026-10-01",
+    checked: "2026-11-07",
     items: [
+      {
+        date: "2026-03",
+        text: "A dark matter detector under the same mountain finds none of the X-rays collapse models predict. Limits on the leading size-based model tighten a hundredfold, and its original settings are ruled out.",
+        href: "https://arxiv.org/abs/2506.05507",
+        bearing: "fits",
+      },
       {
         date: "2021",
         text: "An underground experiment rules out the simplest gravity-driven collapse model, the one linked to quantum theories of consciousness. Modified versions survive.",
