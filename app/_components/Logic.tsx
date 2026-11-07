@@ -2065,10 +2065,10 @@ export default function Logic({ isPDF = false }: { isPDF?: boolean } = {}) {
       </section>
 
       <p className="leading-relaxed text-black/70">
-        Holos is written in public and revised when it is wrong. Every retired claim, and the reason
-        it was retired, is listed under{" "}
-        <a href="/revisions" className="underline hover:no-underline">
-          Revisions
+        Holos is written in public and revised when it is wrong. Work underway that could change
+        it is listed under{" "}
+        <a href="/research" className="underline hover:no-underline">
+          Research
         </a>
         .
       </p>

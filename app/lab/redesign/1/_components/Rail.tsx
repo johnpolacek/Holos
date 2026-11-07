@@ -25,7 +25,7 @@ export default function Rail({ base }: { base: string }) {
     { href: `${base}/logic`, label: "Logic", current: isLogic },
     { href: "/predictions", label: "Predictions", current: false },
     { href: "/citations", label: "Citations", current: false },
-    { href: "/revisions", label: "Revisions", current: false },
+    { href: "/research", label: "Research", current: false },
   ];
 
   const railRef = useRef<HTMLElement>(null);

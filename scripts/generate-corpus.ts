@@ -40,9 +40,7 @@ function htmlToText(html: string): string {
     /<math[\s\S]*?<annotation encoding="application\/x-tex">([\s\S]*?)<\/annotation>[\s\S]*?<\/math>/gi,
     (_, tex: string) => `$${tex.trim()}$`
   );
-  // The revision log is a changelog, not content worth answering from.
-  const cut = withMath.search(/<[^>]+id="revisions"/);
-  return (cut === -1 ? withMath : withMath.slice(0, cut))
+  return withMath
     .replace(/<(style|script|svg|head)[\s\S]*?<\/\1>/gi, "")
     .replace(/<(h[1-6])[^>]*>/gi, "\n\n## ")
     .replace(/<\/(p|div|li|h[1-6]|tr|section|blockquote)>/gi, "\n")

@@ -19,7 +19,7 @@ export default function Sidebar() {
   const isLogicPage = pathname === "/logic";
   const isPredictionsPage = pathname === "/predictions";
   const isCitationsPage = pathname === "/citations";
-  const isRevisionsPage = pathname === "/revisions";
+  const isResearchPage = pathname === "/research";
 
   // If we're not on the theory page, prepend "/" to hash links to navigate to theory page first
   const getLink = (hash: string) => {
@@ -153,10 +153,10 @@ export default function Sidebar() {
             </li>
             <li className="mt-2">
               <Link
-                className={`text-lg font-medium ${isRevisionsPage ? "opacity-100" : "opacity-60"}`}
-                href="/revisions"
+                className={`text-lg font-medium ${isResearchPage ? "opacity-100" : "opacity-60"}`}
+                href="/research"
               >
-                Revisions
+                Research
               </Link>
             </li>
           </ol>

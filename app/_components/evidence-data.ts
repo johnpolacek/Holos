@@ -46,7 +46,7 @@ export const evidence: Record<string, EvidenceBlock> = {
       },
       {
         date: "2025",
-        text: "An analysis from integrated information theory finds language models varied but not integrated. They can be split into parts without loss.",
+        text: "A small study borrowing integrated information theory finds a language model varied but not integrated. Removing parts of GPT-2 cost little. A rough proxy, not a true measure of integration.",
         href: "https://www.e-jyms.org/journal/view.php?doi=10.12701%2Fjyms.2025.42.79",
         bearing: "fits",
       },
@@ -115,7 +115,7 @@ export const evidence: Record<string, EvidenceBlock> = {
     items: [
       {
         date: "2026-06",
-        text: "A bedside EEG measure, taken without the magnetic pulse, predicts the pulse-echo score in brain-injured patients. A step toward measuring integration more widely. Preprint.",
+        text: "A bedside EEG measure, taken without the magnetic pulse, tracks the pulse-echo score in brain-injured patients, but only once some patient groups are left out. A partial step toward measuring integration more widely. Preprint.",
         href: "https://www.biorxiv.org/content/10.64898/2026.06.04.730221v1",
         bearing: "coming",
       },

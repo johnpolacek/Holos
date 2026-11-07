@@ -40,7 +40,7 @@ export default function Chrome({
     { href: `${base}/logic`, label: "Logic", internal: true },
     { href: "/predictions", label: "Predictions" },
     { href: "/citations", label: "Citations" },
-    { href: "/revisions", label: "Revisions" },
+    { href: "/research", label: "Research" },
   ];
 
   // Reading progress and the bar's resting rule, from the document's own scroll. Rerun on

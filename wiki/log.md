@@ -986,3 +986,10 @@ Keep entries concise and grounded in inspected repo evidence.
 
 - Overview Consciousness no longer says the echo is "simple or local" when someone is unconscious, or that a cutoff "already separates the two". Local could be conscious under the posterior-gauge reply, and non-REM and sedation dream reports show the whole-brain cutoff misses some experience. It now names dreams as the hard case and points to Test A's back-of-the-brain gauge.
 - Test A: PCI's calibration also had an unconscious side (deep non-REM sleep and anesthesia with no reports), so non-REM and sedation are not wholly held-out states. The test now counts only new awakenings that played no part in setting the cutoff, from states named in advance. Heading is now "Held-out awakenings, not the answer key". The closing rule and Logic's calibration-engine sentence say data, not states.
+
+## [2026-11-07] update | Research page replaces Revisions
+
+- `/research` lists work underway that could support, test, or change Holos: 11 areas, 81 entries, each with status, date, what it is, and why it matters. Data lives in `app/_components/research-data.ts`. Update `RESEARCH_CHECKED` on each review.
+- `/revisions` redirects to `/research`. The Revisions component is gone; its history stays in git. Nav, sidebar, sitemap, PDF, lab redesign nav, and the Logic closing line now point to Research.
+- The chat corpus now includes Research.
+- Evidence boxes: softened the bedside-EEG preprint (tracks PCI only in a subset of patients) and the 2025 LLM integration study (a GPT-2 ablation proxy, not true Φ).

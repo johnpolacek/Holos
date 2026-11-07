@@ -32,8 +32,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/revisions`,
-      lastModified: new Date("2026-09-28"),
+      url: `${baseUrl}/research`,
+      lastModified: new Date("2026-11-07"),
       changeFrequency: "monthly" as const,
       priority: 0.5,
     },

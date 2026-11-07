@@ -57,5 +57,5 @@ export const sections: Section[] = [
     subsections: predictionsSubsections,
   },
   { id: "citations", title: "Citations", path: "/citations", subsections: [] },
-  { id: "revisions", title: "Revisions", path: "/revisions", subsections: [] },
+  { id: "research", title: "Research", path: "/research", subsections: [] },
 ];

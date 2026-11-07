@@ -38,7 +38,7 @@ export default function Header() {
     { href: `${BASE}/logic`, label: "Logic", current: isLogic },
     { href: "/predictions", label: "Predictions" },
     { href: "/citations", label: "Citations" },
-    { href: "/revisions", label: "Revisions" },
+    { href: "/research", label: "Research" },
   ];
 
   // Intro, progress hairline, scrolled state, hover sweeps, magnetic download.

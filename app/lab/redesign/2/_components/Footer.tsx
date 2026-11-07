@@ -21,7 +21,7 @@ export default function Footer() {
             <Link href={`${BASE}/logic`}>Logic</Link>
             <a href="/predictions">Predictions</a>
             <a href="/citations">Citations</a>
-            <a href="/revisions">Revisions</a>
+            <a href="/research">Research</a>
           </nav>
           <nav className="n-footer-nav" aria-label="Community">
             <a href="https://github.com/johnpolacek/Holos/discussions">Discuss</a>

@@ -13,7 +13,7 @@ The Ask button, pinned to the top right of every page, opens a slide-over chat t
 
 ## Site text
 
-`scripts/generate-corpus.ts` renders the same document as the PDF, minus Revisions, to `lib/chat/corpus.txt` (about 65k tokens). It runs in `pnpm build` and is committed so dev works. Regenerate it after content edits with `pnpm build:corpus`.
+`scripts/generate-corpus.ts` renders the same document as the PDF, Research included, to `lib/chat/corpus.txt` (about 65k tokens). It runs in `pnpm build` and is committed so dev works. Regenerate it after content edits with `pnpm build:corpus`.
 
 ## Cost controls
 

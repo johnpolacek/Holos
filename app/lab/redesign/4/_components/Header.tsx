@@ -17,7 +17,7 @@ type Chapter = { num: string; title: string };
 const LIVE = [
   { href: "/predictions", label: "Predictions" },
   { href: "/citations", label: "Citations" },
-  { href: "/revisions", label: "Revisions" },
+  { href: "/research", label: "Research" },
 ];
 
 export default function Header({ base }: { base: string }) {

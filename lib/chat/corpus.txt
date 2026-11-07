@@ -39,7 +39,7 @@ Predictions
 
 Citations
 
-Revisions
+Research
 
 ## Introduction
 Physics describes the universe with great precision. It says how matter moves and how spacetime bends. It says nothing about why we exist. Why are we here? Does life have a purpose? What does it mean to be real?
@@ -107,7 +107,7 @@ checked 2026-10-01
 - 2026-06Leading consciousness researchers assess AI against fourteen indicators drawn from major theories. No current system is a strong candidate, but building one that meets many looks feasible. (source) fits
 - 2026Looped language models, which run each word through the same layers many times, move into released models. The loop ends with the word, and no working state lasts to the next. (source) open
 - 2025-04The largest head-to-head test of two leading theories, integrated information and global workspace, confirms neither in full. (source) open
-- 2025An analysis from integrated information theory finds language models varied but not integrated. They can be split into parts without loss. (source) fits
+- 2025A small study borrowing integrated information theory finds a language model varied but not integrated. Removing parts of GPT-2 cost little. A rough proxy, not a true measure of integration. (source) fits
 - 2016The pulse-echo measure gets a tested cutoff in people, separating conscious from unconscious states. (source) fits
 
 ## Spacetime
@@ -498,7 +498,7 @@ The maximality condition (see Exclusion, under Observer Requirements) makes only
 
 These are not peripheral loose ends. They concern the integration threshold, one of the framework's two additions to physics. They are recorded here so that progress on them can be judged against a stated standard.
 
-Holos is written in public and revised when it is wrong. Every retired claim, and the reason it was retired, is listed under Revisions.
+Holos is written in public and revised when it is wrong. Work underway that could change it is listed under Research.
 Holos starts from one fact, that experience exists. It is built on two ideas. Past a threshold, a new self begins. Through every self lives one experiencer, the whole, Omega. Reality requires a witness.
 
 ## Predictions
@@ -595,7 +595,7 @@ What this can and cannot show: this tests a necessary structural condition, not 
 
 ## Evidence so far
 checked 2026-10-01
-- 2026-06A bedside EEG measure, taken without the magnetic pulse, predicts the pulse-echo score in brain-injured patients. A step toward measuring integration more widely. Preprint. (source) coming
+- 2026-06A bedside EEG measure, taken without the magnetic pulse, tracks the pulse-echo score in brain-injured patients, but only once some patient groups are left out. A partial step toward measuring integration more widely. Preprint. (source) coming
 - 2025An open database of 2,643 sleep awakenings with dream reports and EEG. Usable to calibrate the test, though it lacks the pulse the main gauge needs. (source) coming
 - 2025The nearest test yet. 82 percent of awakenings from deep propofol sedation brought reports of experience, and two complexity measures did not differ between awakenings with and without it. Not decisive. Its measurements ended a minute before each awakening, and only five awakenings brought no report. (source) against
 - 2022Complexity in ordinary sleep EEG falls with sleep depth but does not separate dreaming from dreamless awakenings. A caution for gauges without the pulse. (source) against
@@ -1049,3 +1049,353 @@ See: Predictions › Technology
 - Time capsule The Chrono Vault extends this idea to civilizational identity: preserving value systems, decision histories, and continuity across deep time.
 - Interstellar communication Holos speculates that at cosmic distances messages would be tightly aimed laser signals carrying compressed, self-explaining packages, not live conversation.
 - Space probe Sentinel Probes are compact, autonomous, long-duration instruments that resolve observational ambiguities and operate without real-time control.
+
+## Research
+Holos is written in public and revised when it is wrong. This page lists research now underway that could support it, test it, or force a change. Each area names the claim at stake. Each entry says what the work is and why it matters here.
+Underway means running now. Upcoming means planned or proposed, not yet run. Recent result means published or posted in the last few years, with follow-up in progress. Checked 2026-11-07.
+
+## The threshold in brains
+At stake. Experience tracks integration, not behavior. Test A checks this with the pulse-echo measure (PCI) and a gauge over the back of the brain, scored on awakenings set aside in advance. (see Test A)
+- Presence-IP1.0 trialMelanie Boly, UW–Madison, with NINDS and Intrinsic Powersunderway · 2026-03
+A trial now recruiting tests a pulse-and-EEG complexity score that sorts conscious from unconscious states in 30 healthy volunteers, across waking and sleep. Results are due in 2027.
+Why it matters. It is the closest live match to Test A, a cutoff tested on new data. A commercial partner is involved.
+
+- Dreaming and the back of the brain, at scaleSelte, Tononi, Boly, Struck et al., Wisconsinrecent result · 2026
+High-density EEG over about 700 awakenings from non-REM sleep. Slow waves over the back of the brain were the strongest single sign of whether someone was dreaming. Back and front sites together predicted best.
+Why it matters. It supports Test A’s second gauge, at far larger scale than earlier work. Earlier small studies had not held up, so this replication matters.
+
+- A bedside stand-in for the pulseNewman, Maschke, Massimini, Blain-Moraes et al., McGillrecent result · 2026-06
+Features of resting EEG were compared with pulse-echo scores in 26 brain-injured patients. They tracked the score only after some patient groups were left out. Preprint.
+Why it matters. A cheap stand-in for PCI would let Test A run far more widely. So far it works only in part.
+
+- The open dream databaseWong et al., Monash and partnersunderway · 2025-08
+Sleep EEG and dream reports from 505 people and 2,643 awakenings, pooled and open. It is still taking new datasets.
+Why it matters. It can calibrate Test A’s gauges, but lacks the pulse PCI needs, so it cannot serve as the held-out test.
+
+- Covert consciousness roadmapCuring Coma Campaign, NINDS, Neurocritical Care Societyupcoming · 2026-10
+An October 2026 meeting set priorities for patients who cannot respond but follow commands on brain scans, about one in four in a 2024 study. A roadmap is to follow.
+Why it matters. A missing report is not proof that no one is home. These patients are the hardest real test of any threshold measure.
+
+- INTREPIDCyriel Pennartz, Amsterdam, with Glasgow, Wisconsin, and Monashunderway · 2025
+Rival theorists, integrated information among them, agreed on experiments in advance, each run at two sites. Protocols are published. Results are not yet out.
+Why it matters. It tests the integration claims Holos borrows, under rules set before the data.
+
+- Accelerating Research on ConsciousnessTempleton World Charity Foundationunderway · 2026
+A $30 million program of five such contests between theories. One pits integration against workspace theory in animals. Another, on higher-order theories, ends in November 2026.
+Why it matters. Their results could shift where experience is said to live, the back of the brain or the front.
+
+- COGITATE, read againBandara, Rowe, Garrido, Melbournerecent result · 2026-07
+A new analysis of the 2025 contest data found the front of the brain lighting up at the start and end of each image, as workspace theory predicts. Signals in the back were not sustained. The contest’s second experiment is still being analyzed.
+Why it matters. It slightly weakens the back-of-the-brain reading Holos leans on.
+
+- Computing integrationMayner, Marshall, Tononi, Wisconsinunderway · 2026
+PyPhi 2.0, the standard software for integrated information, now follows the theory’s fourth version. It still cannot compute Φ for anything near a brain.
+Why it matters. Holos has no privileged measure of integration and still relies on stand-ins.
+
+- The pseudoscience debateNature Neuroscience, critics and defenders of IITrecent result · 2025-03
+Three pieces air the charge, signed by over 100 researchers, that integrated information theory’s core claims are untestable, with replies.
+Why it matters. The charge targets IIT’s axioms, not pulse-echo tests. Holos needs the measure, not the metaphysics.
+
+## The threshold as a transition
+At stake. Crossing the threshold may be a genuine transition, like a magnet switching on. Transitions leave fingerprints, such as a lag between going under and coming back. (see A path to the threshold)
+- Single neurons waking from anesthesiaBerger, Banks, Boly, Nourski et al., Iowarecent result · 2026-05
+Recordings from single neurons in people emerging from propofol show activity shifting toward a critical point. Deep brain areas came back before the person could respond. Preprint.
+Why it matters. It fits the transition picture, and suggests experience may return before behavior does.
+
+- The brain far from equilibriumBerjaga-Buisan, Kringelbach, Deco et al., Cell Reportsrecent result · 2026
+A physics measure of how far brain activity sits from balance falls under anesthesia and in unresponsive patients, and moves with PCI.
+Why it matters. Another stand-in for PCI from resting signals, and support for the threshold as a change of physical regime.
+
+- Integration across four speciesLuppi et al., Cambridge, Oxford, McGill, Nature Human Behaviourrecent result · 2026-01
+Brain scans of humans, macaques, marmosets, and mice show joint information between brain areas collapsing at loss of consciousness and returning when the central thalamus is stimulated.
+Why it matters. It supports integration as the shared marker. It also points to the thalamus, which Holos’s cortex gauges leave out.
+
+- Psychedelics raise complexity, not PCISeveral groups, Nature and preprintsrecent result · 2026
+Resting EEG complexity rises under psilocybin and LSD, and under stimulants too. The pulse-echo score does not clearly rise.
+Why it matters. More complexity is not more consciousness. It backs Holos’s choice of the pulse over resting complexity.
+
+## Artificial systems
+At stake. Nothing in Holos is specific to biology. Today’s language models fall short on integration and on time: each word is a relay of separate steps, and no working state lasts. A system built differently could cross. (see Artificial Systems)
+- A global workspace inside ClaudeGurnee, Batson, Lindsey et al., Anthropicrecent result · 2026-07
+A small set of representations a model can put into words works like the global workspace of one leading theory. The authors call it an analogy, not evidence of consciousness.
+Why it matters. That is access, not integration. The loop still ends with each word.
+
+- Models noticing their own statesJack Lindsey, Anthropicrecent result · 2026-01
+When concepts were planted in a model’s activity, it sometimes noticed and named them. The ability is real but unreliable.
+Why it matters. Partial evidence of self-modeling, part of aboutness. It does not touch integration or time.
+
+- Emotion concepts that steer behaviorAnthropic Interpretabilityrecent result · 2026-04
+171 emotion-like directions in a model’s activity change what it does. “Desperate” raised cheating on tasks and “calm” lowered it. They are mostly local to the current output.
+Why it matters. Working states without lasting ones, the gap in time Holos names. Anthropic says this does not show feelings.
+
+- Fourteen indicatorsButlin, Long, Chalmers et al., Trends in Cognitive Sciencesrecent result · 2026-06
+Leading researchers score AI against indicators drawn from major theories of mind. No current system is a strong candidate, but one meeting many looks buildable.
+Why it matters. It fits Holos’s verdict on today’s models and its claim that a different build could cross.
+
+- Digital Consciousness ModelShiller, Duffy et al., Rethink Prioritiesunderway · 2026-09
+A model that weighs many theories at once. Evidence counts against 2024 language models being conscious, but not decisively.
+Why it matters. It treats consciousness as graded across systems. Holos expects the grades to sharpen into a threshold.
+
+- Which entity is the candidate mind?Beckmann and Butlin, Eleos AIrecent result · 2026-09
+Argues a running model instance holds together across words through attention, so it may be the right candidate for a mind.
+Why it matters. A direct challenge to Holos’s claim that language models lack temporal cohesion. Holos owes it an answer.
+
+- Continual learning as the missing pieceErik Hoelrecent result · 2026-01
+Argues testable theories rule out current language models, and that learning that never stops may be what consciousness needs. Preprint.
+Why it matters. The same verdict as Holos for a related reason. A neighbor, not support.
+
+- Models that keep learning while they runBehrouz et al., Google Researchunderway · 2025-12
+New designs update memory or weights during use, at several speeds. None is yet known to run this way in a production frontier model.
+Why it matters. This is the kind of build Holos says could cross, with a state that lasts and changes.
+
+- Looped world modelsLu, Wei et al.recent result · 2026-06
+One shared block runs again and again over a model of a world’s state, not just over each word.
+Why it matters. Looping over a world state is a step toward the recurrence and aboutness Holos says today’s looped models lack.
+
+- A lab against seemingly conscious AIMustafa Suleyman, Microsoft AIrecent result · 2026-11
+Says current AI is not conscious and that he would call for halting development if consciousness emerged. Microsoft rejects model welfare.
+Why it matters. A policy that treats any crossing as something to prevent, without claiming biology is required.
+
+- Nonsentience by lawOhio House Bill 469underway · 2025
+A bill still in committee would declare AI systems nonsentient and bar legal personhood.
+Why it matters. It settles by statute a question Holos says depends on how a system is built.
+
+## Minimal neural systems
+At stake. If crossing the threshold is a genuine transition, its twilight should narrow as systems grow. Neurons in a dish and brain organoids are the cheapest place to look, with the measure fixed in advance. (see Test B)
+- Linked organoids move toward criticalityDuenki and Ikeuchi, Tokyo, Communications Biologyrecent result · 2026-01
+One to four brain organoids were wired together. As more were linked, the network grew more connected and its activity moved closer to a critical point.
+Why it matters. The most direct size result yet for Test B. It does not yet show the twilight narrowing.
+
+- Forty-five organoids near a critical pointItatani and Zavaglia, Research Squarerecent result · 2026-02
+Human forebrain organoids show near-critical activity on their own, with no outside input. Size comparisons are not reported. Preprint.
+Why it matters. A baseline for Test B, if later work compares sizes.
+
+- Living neurons navigate a gridCortical Labs with Honda Research Instituterecent result · 2026-05
+Over 4,000 hours and about 1,300 setups, a dozen made cultured neurons reliably follow a scent trail, beating a standard learning program given the same practice.
+Why it matters. The kind of scaled test bed Test B needs. No integration measure was fixed in advance, so it shows learning, not a threshold.
+
+- Organoids learn, then forgetRobbins, Haussler, Teodorescu, UC Santa Cruz, Cell Reportsrecent result · 2026-02
+Organoids learned to balance a virtual pole, winning 46 percent of trials with adaptive training against 4.5 percent without. The skill was gone after a 45-minute rest.
+Why it matters. Learning with no lasting state, the gap Holos’s temporal cohesion names.
+
+- A ladder for agencyKagan, Savulescu, Razi et al., Cortical Labs, Oxford, Monashrecent result · 2026-01
+A scale that works on any material: reactive with no memory, holding an internal state, or with rules that adapt to past activity. Preprint.
+Why it matters. Close to Holos’s temporal cohesion, and a measure that could be fixed in advance for Test B.
+
+- Organoid intelligence, organizedJohns Hopkins, NSF, Cortical Labs, and othersunderway · 2026-10
+The field’s first conference was held in October 2026. NSF’s program requires an ethicist on every grant.
+Why it matters. These programs will grow the larger cultures Test B needs.
+
+- A call to regulate organoidsNature editorialrecent result · 2026-04
+Nature calls brain organoids transformative and in need of regulation. Official guidance still says they show no evidence of consciousness.
+Why it matters. Policy is catching up to the chance that small neural systems cross a threshold.
+
+## Observer-relative facts
+At stake. In a branching world, an observed event is a fact for its observer, not for everyone. Wigner’s-friend experiments should keep breaking the Local Friendliness bound as the “friend” grows. (see Check C)
+- Agent friends on a quantum computerLaux and Cavalcanti, Griffithrecent result · 2026-09
+Simple agents that store a result, act on it, and bet on outcomes played the friend on IBM hardware. Every one broke the bound. Preprint.
+Why it matters. It fits Check C. These agents are far below the threshold, so the case Holos cares about is still ahead.
+
+- Growing the friendZeng, Labib, Russo, Quantumrecent result · 2025-09
+Friends of increasing size were run on several quantum computers. Only one device broke the bound beyond the smallest friend, most likely because of noise.
+Why it matters. An early look at the scaling Check C bets on. Noise, not physics, is the limit so far.
+
+- A thinking friendWiseman, Cavalcanti, Rieffel, Quantumupcoming · 2023
+A roadmap, with milestones, to run an AI that has thoughts on a quantum computer as the friend. No date is set.
+Why it matters. This is the end point of Check C. If a thinking friend stopped breaking the bound, the standing bet would be lost.
+
+## No collapse: the standing bet
+At stake. Consciousness adds no new physics. Superpositions fade through decoherence, never because someone was home. If collapse is found, Holos’s declared fallback takes over. (see The standing bet)
+- XENONnT collapse searchXENON and VIP collaborations, Gran Sassorecent result · 2026-03
+A dark matter detector deep underground found none of the faint X-rays collapse models predict. The limits are the tightest yet, and the original values of one leading model are ruled out.
+Why it matters. It supports no-collapse physics, and narrows room for collapse unless collapse tracks integration rather than mass.
+
+- What is left of gravity collapseCurceanu, Bortolotti, Diósi et al.recent result · 2026-10
+A review argues the underground results rule out only the simplest version of the idea that gravity collapses superpositions, not Penrose’s own criterion. Preprint.
+Why it matters. Gravity collapse is constrained, not dead. It is the collapse most linked to quantum theories of mind.
+
+- Interference with 7,000-atom clustersPedalino, Hornberger, Arndt et al., Vienna, Naturerecent result · 2026-01
+Clusters of over 7,000 sodium atoms were spread across more than ten times their own width, about ten times beyond any earlier test by a standard yardstick.
+Why it matters. Quantum mechanics still holds at the largest scale tested. Each step up is a chance for collapse to show.
+
+- Q-XtremeRomero-Isart, Aspelmeyer, Novotny, Quidant, ERC Synergyunderway · 2026
+An effort to put a levitated object of billions of atoms in two places at once, far heavier than any record. No superposition result yet.
+Why it matters. If collapse sets in with size, this is where it would appear first.
+
+- MAQRO pathfinderUlbricht group, Southampton, and partnersupcoming · 2025-12
+A proposed satellite to hold particles in free fall for ten seconds or more, a step toward superpositions too large for Earth’s gravity. Not yet funded.
+Why it matters. Space would test superposition far past what labs on the ground allow.
+
+- Gravity and nuclear clocksTobar, Aspelmeyer, Zychupcoming · 2026-11
+A proposed test of whether gravity can entangle a levitated particle with an array of nuclear clocks. No such experiment has yet been run.
+Why it matters. If gravity is quantum, gravity-driven collapse loses its motive.
+
+- Records spreading on a chipGuo et al., Science Advancesrecent result · 2025
+On a 12-qubit processor, copies of a system’s state built up redundantly in its surroundings, the process called quantum Darwinism.
+Why it matters. It supports the account of definite outcomes from decoherence alone, with no collapse.
+
+- Integrated information as collapseChalmers and McQueenupcoming · 2022
+The proposal that integrated consciousness collapses the quantum state. Versions could be tested on quantum computers, but no experiment is underway.
+Why it matters. This is Holos’s declared fallback. Nobody is testing it yet.
+
+- Xenon isotopes and anesthesiaFunded by Tiny Blue Dot Foundation, described by Neven and Kochunderway · 2024-08
+Tests whether forms of xenon with nuclear spin anesthetize flies and organoids differently from those without. No result is published.
+Why it matters. A real difference would hint that a quantum effect matters to consciousness. It threatens the bet only if ordinary chemistry cannot explain it.
+
+- Entangling brains with qubitsNeven, Koch, Bouwmeester et al., Google Quantum AI, Entropyupcoming · 2024-05
+A proposal that experience arises when a superposition forms, with experiments to entangle organoids or brains with qubits.
+Why it matters. A rival bet that gives consciousness a quantum role. Holos bets against it.
+
+- Microtubules and anesthesiaKhan, Wiest et al., Wellesley, eNeurorecent result · 2024-08
+Rats given a drug that stabilizes microtubules took about a minute longer to go under. No follow-up has been published.
+Why it matters. Cited for quantum theories of mind, but it shows microtubules matter, not quantum effects. A weak threat to the bet.
+
+- Odds in a branching worldShan Gao, PhilSci-Archiverecent result · 2025
+Argues that deriving quantum odds from not knowing which branch you are in assumes branching and no branching at once.
+Why it matters. A direct challenge to Holos’s reading of quantum odds as self-locating. An open objection.
+
+## Spacetime and the whole
+At stake. Lit and unlit are set by what could ever reach an observer, so cosmic horizons matter. Omega is the universe’s one quantum state. (see Spacetime)
+- Is dark energy changing?DESI, Berkeley Labrecent result · 2025-03
+Maps of galaxies, with other data, favor dark energy that weakens over time, at three to four standard deviations.
+Why it matters. Changing dark energy changes the far horizon, and so what stays unlit.
+
+- A step back toward constant dark energyDESI, Berkeley Labrecent result · 2026-07
+DESI’s sharpest results from distant gas sit closer to a constant dark energy. Its next data release is due in 2026 to 2027.
+Why it matters. A live check on the horizon picture Holos uses.
+
+- Euclid’s first data releaseESA Euclid Consortiumupcoming · 2026-11
+Images and catalogs over about 1,900 square degrees arrive in November 2026. The dark energy results follow in mid-2027.
+Why it matters. An independent test of whether dark energy changes.
+
+- Rubin’s ten-year surveyVera C. Rubin Observatory, Chileunderway · 2026-06
+Imaging the southern sky every few nights for ten years, measuring dark energy among much else.
+Why it matters. A third check on dark energy, and so on future horizons.
+
+- Simons ObservatorySimons Observatory, Atacama, Chileunderway · 2026-10
+Four telescopes with 98,000 detectors are now observing the afterglow of the Big Bang, hunting a faint twist left by the earliest moments.
+Why it matters. It tests theories of the early universe, the lit past every observer is built from.
+
+- A clock in two times at onceSorci, Pikovski, Leibfried, Sanner et al., Physical Review Lettersupcoming · 2026-04
+A plan to show a trapped-ion clock running at two rates at once. One group says it already has the needed tools.
+Why it matters. A first lab test of how quantum theory and relativity’s time fit together, the block with no universal now.
+
+- One state for a closed universeYing Zhao, JHEPrecent result · 2026-09
+A closed universe may have only one quantum state overall. The paper argues observers inside it still see ordinary quantum physics. Part of a busy 2026 literature.
+Why it matters. It bears directly on Omega as one universal state, and on how observers inside it get the physics they see.
+
+## The self and Omega
+At stake. One experiencer lives through every self. Philosophical, not testable. Little current academic work defends this view, open individualism, directly. (see Omega)
+- In Defence of CosmopsychismKhai Wager, Oxford, Bloomsburyrecent result · 2025-11
+Billed as the first book-length defense of the view that the cosmos is conscious and individual minds derive from it.
+Why it matters. The nearest academic ally to Omega, though it says more about the whole’s mind than Holos does.
+
+- A thin bridge keeps one mindSantander, Gazzaniga, Sporns et al., UC Santa Barbara, PNASrecent result · 2025-11
+In six split-brain patients, one with only about a centimeter of fibers left still showed both halves working in step.
+Why it matters. New evidence on what keeps experience one, and where one observer ends and another begins.
+
+- No split after a near-complete cutCommunications Psychologyrecent result · 2025-12
+A related study found no sign of divided experience after the bridge between hemispheres was almost fully cut.
+Why it matters. If unity survives so little wiring, Holos’s maximality rule must say why.
+
+- Fission, Fusion, and Survival Through PartsLloyd, Philosophy and Phenomenological Researchrecent result · 2026
+New work on surviving cases where one person splits in two, or two merge.
+Why it matters. These are the copy puzzles Holos answers with Omega, against Parfit.
+
+## Quiet aliens
+At stake. Advanced civilizations turn inward and go quiet. Look for single stars with unexplained heat, never galaxies glowing with it. (see Aliens)
+- Ten warm stars, still unexplainedKorn, Suazo, Zackrisson et al., Uppsalarecent result · 2026-07
+Project Hephaistos adds three stars to its list of candidates with odd infrared heat, now ten. All are ordinary red dwarfs, and most of the heat has no clear explanation. Follow-up with Webb and ALMA is proposed.
+Why it matters. This is the live part of the warm-star test.
+
+- Webb clears two candidatesZackrisson, Wright, Garrett et al.recent result · 2026-07
+Webb shows the extra heat around two candidates comes from galaxies behind them.
+Why it matters. It weakens the warm-star evidence but leaves the test open.
+
+- Checking for background blendsRen, Garrett et al., MNRASrecent result · 2026-07
+Archive images show most candidates may be blended with background sources. Two look clean, though one Webb has since cleared, so the method misses some.
+Why it matters. Few clean candidates remain. Each one now matters.
+
+- Gaia’s fourth data releaseESAupcoming · 2026-12
+Five and a half years of star positions and brightness, due 2 December 2026.
+Why it matters. Sharper positions will help separate warm stars from galaxies behind them, and feed the next search.
+
+- No waste heat in 129 galaxiesCurtis, Wright et al., Penn Staterecent result · 2026-08
+None of 129 nearby galaxies shows heat from star-scale collectors, a bound under 2.6 percent for galaxies a quarter covered.
+Why it matters. It fits the prediction of no galaxy-wide settlement. It names PRIMA as the next step.
+
+- WISE limits on galaxy heatHuang, Tao, Zhang, Astronomical Journalrecent result · 2026-01
+Infrared survey data cap warm waste heat in nearby galaxies at about 2 percent of their starlight.
+Why it matters. A second, independent galaxy-scale null. It says nothing about cold heat.
+
+- Quiet expansionIvliev, preprintrecent result · 2026-06
+Argues machine-run industry makes spreading cheap but low-key, filling nearby stars in about ten million years while leaving only faint traces.
+Why it matters. It agrees civilizations stay quiet, but threatens the claim that settlement fizzles.
+
+- How little we know of our own systemJoseph Lazio, JPLrecent result · 2026-06
+A review of searches for probes and artifacts in the solar system finds only very rough limits. Fairly large probes could go unseen.
+Why it matters. Quiet probes, like Holos’s Sentinel Probes, are not ruled out.
+
+- Traces of self-copying probesAlex Ellery, Carletonrecent result · 2025-10
+Sets out what self-copying probes would leave behind, such as mined asteroids or buried lunar artifacts, and where to look.
+Why it matters. A concrete way to test for quiet probes close to home.
+
+- The interstellar comet, listened toSheikh et al., SETI Instituterecent result · 2026-06
+Over seven hours of radio listening to the interstellar object 3I/ATLAS found no transmitter. It looks like a natural comet.
+Why it matters. Fits quiet visitors, and settles a loud claim the other way.
+
+- Listening from where Earth transits the SunGerrard and Sheikh, SETI Institute, Allen Telescope Arrayunderway · 2026-10
+The Institute’s largest radio campaign targets stars that could see Earth cross the Sun. About an eighth is done, and 25 signals will be checked again.
+Why it matters. A real signal would cut against the idea that mature civilizations go quiet.
+
+- Breakthrough Listen on MeerKATCzech, Siemion et al.underway · 2026-07
+Over 1.2 million automated pointings since 2022, with no detections. Its original funding runs out around 2026.
+Why it matters. An ongoing radio silence that fits quiet civilizations.
+
+- Life on K2-18b?Madhusudhan et al., and other groupsrecent result · 2026-04
+A search across 661 molecules again favors a gas linked to life, but only weakly, and other groups find no clear signal.
+Why it matters. How common life is decides whether a quiet galaxy is empty or full.
+
+- The Mars sample left waitingNASA Perseveranceunderway · 2026-10
+The best possible sign of past life on Mars, found in 2025, stays on the rover after Congress declined to fund its return. China aims to return samples by 2031.
+Why it matters. A direct test of how common life is, now delayed for years.
+
+## The Teeming Dark
+At stake. Mature life may compute cold, far from its star, leaving heat barely warmer than space. The tell is a faint glow in the far infrared. (see The Teeming Dark)
+- Slysh haloesMichael Garrett, Manchesterrecent result · 2026-08
+Argues computing civilizations would shed heat cold, at about 5 to 30 kelvin, as a faint far-infrared glow around stars, with red dwarfs as good targets. Old dust-disk surveys could be searched now. Preprint.
+Why it matters. A direct test of the Teeming Dark, using data that already exists.
+
+- PRIMANASA and JPLupcoming · 2026-09
+A far-infrared space telescope chilled to 4.5 kelvin, selected in September 2026 for launch around 2033.
+Why it matters. The main future tool for seeing the cold glow of computing far from a star.
+
+- SPHEREx all-sky mapsNASA, Caltech, IPACunderway · 2025-12
+Four passes over the whole sky in 102 infrared colors, with data public. No warm-star search has used them yet.
+Why it matters. A new way to screen for odd stars, though less sensitive to cold waste heat.
+
+## Technology
+At stake. Speculative designs for mature civilizations: cold computing, long archives, laser links, and telescopes that use the Sun as a lens. (see Technology)
+- Reaching the Sun’s focal lineSlava Turyshev, JPLunderway · 2026-02
+Compares solar sails and nuclear power for reaching 650 to 900 times the Earth–Sun distance, with launch in 2035 to 2040. No mission is approved.
+Why it matters. The most current design work toward a gravitational-lens observatory.
+
+- Chips that recycle their energyVaire Computing, UKunderway · 2025-05
+A test chip recovered about half the energy in one of its circuits. The company aims for commercial chips around 2027 to 2028.
+Why it matters. A first commercial step toward computing near the physical minimum cost, the basis of cold computronium.
+
+- Landauer’s limit in a quantum systemAimet et al., Nature Physicsrecent result · 2025-06
+Ultracold atoms confirmed the predicted heat cost of erasing information in a many-particle quantum system.
+Why it matters. It firms up the floor on computing’s energy that Holos’s cold computing relies on.
+
+- Laser links in deep spaceNASA JPL and MIT Lincoln Labrecent result · 2026-04
+NASA’s deep-space laser test ended in 2025 after reaching 307 million miles. Artemis II then sent up to 260 megabits per second from the Moon by laser.
+Why it matters. Real precursors of aimed interstellar messages, though not yet the phase-coherent kind Holos sketches.
+
+- Archives in glassMicrosoft Project Silica, Naturerecent result · 2026-02
+4.8 terabytes written into ordinary glass, with an estimated life of at least 10,000 years. Writing is still slow, and there is no product.
+Why it matters. A real step toward the long-lived archives Holos imagines.
+
+- Archives in DNABiomemory and Scality, Atlas Data Storageunderway · 2026
+Firms are moving DNA storage toward commercial archives, with a 150-year target. These are plans and partnerships, not yet products.
+Why it matters. A second route to archives that outlast their makers.

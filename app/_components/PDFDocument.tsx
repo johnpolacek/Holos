@@ -3,7 +3,7 @@ import Citations from "./Citations";
 import Content from "./Content";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
-import Revisions from "./Revisions";
+import Research from "./Research";
 
 export default function PDFDocument() {
   return (
@@ -354,9 +354,9 @@ export default function PDFDocument() {
           <Citations />
         </div>
 
-        <div id="revisions" className="section-break">
-          <h1>Revisions</h1>
-          <Revisions isPDF={true} />
+        <div id="research" className="section-break">
+          <h1>Research</h1>
+          <Research />
         </div>
       </body>
     </html>
