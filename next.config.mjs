@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [{ source: "/revisions", destination: "/research", permanent: true }];
+  },
   eslint: {
     // Disable ESLint during builds since we're using Biome
     ignoreDuringBuilds: true,
